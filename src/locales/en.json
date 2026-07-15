@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Urban Strife Wiki - Walkthrough, Builds & Weapons",
+      "description": "Urban Strife Wiki covers beginner guides, mission walkthroughs, survivor builds, weapons, shelter upgrades, factions, maps, crafting, and tactical combat tips.",
+      "keywords": "Urban Strife, Steam, walkthrough, builds, weapons, shelter, factions, maps",
+      "ogTitle": "Urban Strife Wiki - Walkthrough, Builds & Weapons",
+      "ogDescription": "Urban Strife Wiki covers beginner guides, mission walkthroughs, survivor builds, weapons, shelter upgrades, factions, maps, crafting, and tactical combat tips.",
+      "twitterTitle": "Urban Strife Wiki - Walkthrough, Builds & Weapons",
+      "twitterDescription": "Urban Strife Wiki covers beginner guides, mission walkthroughs, survivor builds, weapons, shelter, factions, maps, crafting, and tactical combat tips."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Post-Apocalyptic Tactical Survival RPG",
+    "title": "Urban Strife Wiki",
+    "description": "Lead a militia through a zombie-ravaged Southern town, explore dangerous locations, rebuild Urban Shelter, craft weapons, recruit survivors, and choose between rival factions.",
+    "getFreeCodesCTA": "View Beginner Guide",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jul 14, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
-      },
-      "stat3": {
-        "value": "97%",
+        "value": "74%",
         "label": "Positive Reviews"
       },
+      "stat3": {
+        "value": "403",
+        "label": "Steam Reviews"
+      },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "6",
+        "label": "Supported Languages"
       }
     }
   },
