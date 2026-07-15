@@ -36,7 +36,7 @@ function parseContentDir(dir: string): { language: string; contentType: string }
 
 /**
  * 根据 slug 在目录中反查真实文件名（不含 .mdx）
- * 例如 slug="urban-strife-beginner-guide" → 返回清单中对应的真实文件名
+ * 例如 slug="lucid-blocks-guide" → 返回 "lucid:blocks-guide"
  * （改为查清单，签名保持 (dir, slug) 不变，调用方无需改动）
  */
 export function findFileBySlug(dir: string, slug: string, _basePath: string[] = []): string | null {
@@ -204,4 +204,47 @@ export function isValidLanguage(lang: string): lang is Language {
  */
 export function getDefaultLanguage(): Language {
   return routing.defaultLocale as Language
+}
+
+/**
+ * 取内容的更新时间戳（优先 lastModified，其次 date；无则 0）。
+ * 模板内置此工具函数，避免覆盖站点原 content.ts 时丢失导致 import 报错。
+ */
+export function getContentUpdateTime(frontmatter?: ContentFrontmatter): number {
+  if (!frontmatter) return 0
+  if (frontmatter.lastModified) return new Date(frontmatter.lastModified).getTime()
+  if (frontmatter.date) return new Date(frontmatter.date).getTime()
+  return 0
+}
+
+/**
+ * 按 (contentType, language, slug) 取单篇内容的 frontmatter（含 en 回退）。
+ * 模板内置此函数，避免覆盖站点原 content.ts 时丢失导致 import 报错。
+ */
+export async function getContentFrontmatter(
+  contentType: ContentType,
+  language: Language,
+  slug: string
+): Promise<ContentFrontmatter | null> {
+  const curFile = entriesFor(language, contentType).find((e) => e.slug === slug)?.file
+  if (curFile) {
+    try {
+      const mod = await import(`../../content/${language}/${contentType}/${curFile}.mdx`)
+      return mod.metadata as ContentFrontmatter
+    } catch {
+      /* fall through to en */
+    }
+  }
+  if (language !== 'en') {
+    const enFile = entriesFor('en', contentType).find((e) => e.slug === slug)?.file
+    if (enFile) {
+      try {
+        const mod = await import(`../../content/en/${contentType}/${enFile}.mdx`)
+        return mod.metadata as ContentFrontmatter
+      } catch {
+        /* ignore */
+      }
+    }
+  }
+  return null
 }
