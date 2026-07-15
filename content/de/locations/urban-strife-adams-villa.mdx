@@ -1,0 +1,141 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Adams Villa: Taktik-, Beute- & Überlebenshandbuch",
+  description: "Meistern Sie den Sektor Adams Villa in Urban Strife. Erfahren Sie alles über optimale taktische Positionierung, wertvolle Beuterouten, Zombie-Spawner-Standorte und Überlebenstipps.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/18181b/dc2626?text=Adams+Villa+Tactical+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki-Team",
+  keywords: "Urban Strife, Adams Villa, Leitfaden, Überleben, Beute, Zombies, Taktik"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptziel**: Navigieren Sie durch das gefährliche Vorstadtgelände von **urban strife adams villa**, um seltene Handwerksbaupläne und Waffenkomponenten zu sichern.
+- **Hauptbedrohung**: Hohe Dichte an Zombie-Spawnern und taktische menschliche Fraktionen in erhöhten Positionen.
+- **Beste Strategie**: Nutzen Sie lautlose Nahkampfwaffen oder Armbrüste, um isolierte Ziele am Rand auszuschalten, bevor Sie zentrale Gebäude angreifen.
+- **Kritische Ressource**: Sammeln Sie hochbeständige Panzerplatten, Chemikalien und Treibstoff, um den Urban Shelter vor der Belagerung an Tag 20 zu verbessern.
+</Callout>
+
+<Section icon={Map} title="Taktische Übersicht: Urban Strife Adams Villa">
+
+Der Vorstadtsektor von **urban strife adams villa** dient als wichtiges Ziel im mittleren Spielverlauf in Urban County. Bekannt für seine dichten Wohnanlagen, verbarrikadierten Anwesen und engen Gassen, erfordert diese Karte sorgfältige taktische Bewegungen. Das Betreten dieses Sektors ohne klaren Plan führt oft dazu, dass Ihr Trupp von umherstreifenden Untoten umzingelt oder von feindlichen menschlichen Überlebenden festgesetzt wird.
+
+Das Verständnis des Layouts und der Präsenz lokaler Fraktionen ist entscheidend für das Überleben der Exkursion. Das Gebiet bietet eine Mischung aus Wohnhäusern, verschlossenen Garagen und defensiven Engpässen, die für oder gegen Ihren Trupp arbeiten können.
+
+| Sektor-Attribut | Taktischer Wert | Praktische Anwendung |
+| :--- | :--- | :--- |
+| **Fraktionskontrolle** | Unabhängig / Feindlich | Erwarten Sie Kreuzfeuer zwischen lokalen Plünderern und umherstreifenden Untotenhorden |
+| **Beutedichte** | Hoch (Industriell & Medizinisch) | Priorisieren Sie verschlossene Garagen, Werkzeugkästen und Tresore in Hauptschlafzimmern |
+| **Bedrohungsstufe** | Mittel bis Hoch | Bringen Sie schallgedämpfte Schusswaffen, Nahkampfwaffen mit hohem AP und Heilgegenstände mit |
+| **Wichtige Extraktion** | Nördlicher Straßenrand | Sichern Sie einen klaren Rückzugsweg, bevor Sie tief in den Anwesen plündern |
+
+<Callout type="tip" title="Taktischer Vorteil">
+Nähern Sie sich den Villen-Anwesen immer geduckt. Stehen oder Laufen in der Nähe der Begrenzungsmauern alarmiert nahegelegene Zombie-Spawner und nimmt Ihrem Trupp die Initiative.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wertvolle Beute und Spawner-Standorte">
+
+Um Ihre Expedition in den Sektor **urban strife adams villa** zu maximieren, müssen Sie gezielt hochwertige Behälter ansteuern und gleichzeitig aktive Zombie-Spawner meiden oder systematisch zerstören. Die Wohngebäude enthalten wertvolle Haushaltsvorräte, während Garagen und Schuppen die Komponenten für fortgeschrittene Werkstatt-Upgrades beherbergen.
+
+| Standorttyp | Hauptbeute | Bedrohungsstufe | Taktischer Hinweis |
+| :--- | :--- | :--- | :--- |
+| **Haupttresor im Anwesen** | Seltene Baupläne, makellose Seitenwaffen | Hoch | Bewacht von gepanzerten Untoten; nutzen Sie stumpfe Waffen, um Munition zu sparen |
+| **Vorstadt-Garagen** | Fahrzeugteile, Treibstoff, Metallschrott | Mittel | Achten Sie auf versteckte Spawner hinter zerstörbaren Holztüren |
+| **Gartenhütten** | Chemikalien, Werkzeuge, Kräutermedizin | Niedrig | Ideale Orte, um einen temporären defensiven Engpass einzurichten |
+| **Zombie-Spawner** | Hochwertige Komponenten (bei Zerstörung) | Kritisch | Sofort mit Sprengstoff oder schweren Nahkampfangriffen zerstören |
+
+<CardGrid cols={3}>
+  <Card title="Wohnhaustresore">
+    Tresore in den Hauptschlafzimmern erfordern Dietrichsets oder Charaktere mit hoher Stärke zum Aufbrechen. Sie bieten die beste taktische Ausrüstung im Sektor.
+  </Card>
+  <Card title="Industrielle Werkzeugkästen">
+    Befinden sich in äußeren Werkstätten und Garagen. Diese enthalten die mechanischen Teile, die für Owens Reparaturarbeiten im Shelter benötigt werden.
+  </Card>
+  <Card title="Medizinschränke">
+    In Badezimmern von Wohnhäusern zu finden. Unverzichtbar für den Vorrat an Bandagen und Traumakits zur Behandlung von blutenden Wunden.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gefahrenwarnung">
+Ändern Sie keine Waffenaufsätze und verwalten Sie kein schweres Inventar, während Sie sich in aktiven Gebäuden befinden. Diese Aktionen verbrauchen Aktionspunkte und können Hinterhalte auslösen, wenn der Lärmpegel steigt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Schritt-für-Schritt-Anleitung zur Sektorsäuberung">
+
+Die Säuberung des Sektors **urban strife adams villa** erfordert ein systematisches Vorgehen. Folgen Sie dieser Schritt-für-Schritt-Abfolge, um das Gebiet zu sichern, maximale Ressourcen zu sammeln und Ihren Trupp sicher zu extrahieren.
+
+<Steps>
+  <Step num="1" title="Einen sicheren Einstiegspunkt etablieren">
+    Betreten Sie den Sektor vom nördlichen Straßenrand aus. Positionieren Sie Ihre Fernkämpfer hinter niedrigen Steinmauern oder Fahrzeugen, um klare Overwatch-Bahnen einzurichten. Halten Sie Ihre Nahkämpfer in der Nähe, um die Flanken zu schützen.
+  </Step>
+  <Step num="2" title="Den Außenbereich leise säubern">
+    Nutzen Sie Armbrüste, schallgedämpfte Pistolen oder lautlose Nahkampfwaffen, um isolierte Zombies in den äußeren Gärten zu eliminieren. Vermeiden Sie laute Schrotflinten oder Sturmgewehre in dieser Phase, um die gesamte Nachbarschaft nicht zu alarmieren.
+  </Step>
+  <Step num="3" title="Spawner lokalisieren und neutralisieren">
+    Identifizieren Sie aktive Zombie-Spawner in der Nähe der Eingänge der Anwesen. Bringen Sie Ihren Trupp während Ihres Zuges in Position und konzentrieren Sie sich dann auf Angriffe mit hohem Schaden oder werfen Sie einen Molotowcocktail, um den Spawner zu zerstören, bevor er Verstärkung rufen kann.
+  </Step>
+  <Step num="4" title="Feindliche Gebäude stürmen und säubern">
+    Nähern Sie sich geschlossenen Türen geduckt. Lassen Sie einen Überlebenden mit hoher Stärke die Tür aufbrechen und lösen Sie sofort Overwatch mit Ihren Schützen aus. Schalten Sie feindliche Plünderer oder gepanzerte Untote im Inneren mit Kalibern mit hoher Durchschlagskraft aus.
+  </Step>
+  <Step num="5" title="Beute sammeln und extrahieren">
+    Übertragen Sie hochwertige Baupläne, medizinische Vorräte und Reparaturteile an Ihre stärksten Überlebenden. Vermeiden Sie es, Ihre Hauptkämpfer zu überlasten. Ziehen Sie sich zur nördlichen Extraktionszone zurück und halten Sie eine defensive Nachhut aufrecht.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Missionserfolg">
+Sobald der Sektor gesichert ist, deponieren Sie alle gesammelten Ressourcen direkt im Lager des Shelters. Nutzen Sie die geborgenen Komponenten, um Waffen- und Rüstungsreparaturen bei Owen einzuleiten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überlebens-Checkliste für Adams Villa">
+
+Bevor Sie Ihr Team zur Villa entsenden, stellen Sie sicher, dass Ihr Trupp die notwendigen taktischen Anforderungen erfüllt. Nutzen Sie diese Checkliste zur Vorbereitung Ihrer Ausrüstung und Überlebensressourcen.
+
+<Checklist
+  id="adams-villa-prep"
+  title="Checkliste für die Einsatzbereitschaft:"
+  items={[
+    "Rüsten Sie mindestens zwei Überlebende mit lautlosen Waffen aus (Armbrüste oder schallgedämpfte Schusswaffen).",
+    "Tragen Sie mindestens drei Traumbandagen pro Charakter bei sich, um Blutungen zu stoppen.",
+    "Bringen Sie Dietrichsets oder einen Charakter mit hoher Stärke mit, um Zugang zu verschlossenen Tresoren und Garagen zu erhalten.",
+    "Packen Sie mindestens zwei Molotowcocktails oder Splittergranaten zur Hordenkontrolle ein.",
+    "Stellen Sie sicher, dass alle Primärwaffen vor dem Abmarsch auf mindestens 80 % Haltbarkeit repariert sind."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was ist die beste Waffenwahl für den Sektor urban strife adams villa?",
+    answer: "Eine Kombination aus lautlosen Waffen für den Außenbereich und Schrotflinten mit hohem Schaden oder Sturmgewehren für den Nahkampf in Innenräumen wird dringend empfohlen. Halten Sie immer eine Seitenwaffe oder Nahkampfwaffe mit niedrigen AP-Kosten bereit, um verwundete Ziele auszuschalten, ohne teure Munition zu verschwenden."
+  },
+  {
+    question: "Wie gehe ich mit den gepanzerten Zombies um, die den Tresor der Hauptvilla bewachen?",
+    answer: "Gepanzerte Ziele widerstehen Standardbeschuss mit kleinem Kaliber. Nutzen Sie stumpfe Nahkampfwaffen, um ihre Ausdauer zu erschöpfen und sie zu Boden zu werfen, oder verwenden Sie Jagdgewehre mit hoher Durchschlagskraft. Alternativ können Sie einen Molotowcocktail werfen, um ihre Rüstung mit Brandschaden zu umgehen."
+  },
+  {
+    question: "Kann ich in Adams Villa Fahrzeugteile finden?",
+    answer: "Ja, die Garagen und Werkstätten, die um die Villen-Anwesen verteilt sind, sind erstklassige Orte für Fahrzeugteile, Treibstoff und mechanische Werkzeuge. Diese sind wichtig, um Ihre Autowerkstatt zu verbessern und den Frachttransport zum Shelter aufrechtzuerhalten."
+  },
+  {
+    question: "Was soll ich tun, wenn mein Trupp von einer Zombiehorde umzingelt wird?",
+    answer: "Ziehen Sie sich sofort zu einem engen Engpass zurück, wie einer Tür oder einem Gartentor. Positionieren Sie Ihre Nahkämpfer vorne, um den Weg zu blockieren, während Ihre Fernkämpfer Schrotflinten oder Automatikfeuer nutzen, um die Vorderseite der Horde zu durchbrechen. Nutzen Sie Sprengstoffe, um dichte Gruppen auszuschalten."
+  }
+]} />
+
+</Section>

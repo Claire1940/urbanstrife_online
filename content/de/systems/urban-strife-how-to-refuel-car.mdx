@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife: Wie man Autos betankt – Schritt-für-Schritt-Fahrzeug-Guide",
+  description: "Erfahren Sie, wie Sie in Urban Strife Autos betanken, Treibstoffressourcen verwalten, die Werkstatt ausbauen und Fahrzeuge sichern, um im postapokalyptischen Ödland des Südens zu überleben.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Refuel+Car+Guide",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernziel**: Meistern Sie die Mechanik zum **Betanken von Autos in Urban Strife**, um Schnellreisen und enorme Transportkapazitäten freizuschalten.
+- **Wichtiger Ort**: Setzen Sie die **Werkstatt (Auto Shop)** im Urban Shelter instand, um alle fahrzeugbezogenen Operationen und Reparaturen zu starten.
+- **Kraftstoffökonomie**: Wägen Sie den **Kraftstoffverbrauch** gegen die Sektordistanz ab, um zu vermeiden, dass Ihr Trupp auf gefährlichen Straßen festsitzt.
+- **Ressourcenpriorität**: Priorisieren Sie das Sammeln von **Benzinkanistern, Baumaterialien und mechanischen Teilen** bei frühen Expeditionen.
+- **Optimale Strategie**: Behalten Sie einen **spezialisierten Versorgungs-Überlebenden** in Ihrem Trupp, um Werkzeuge und Fahrzeuggewichtslimits effizient zu verwalten.
+</Callout>
+
+<Section icon={Map} title="Fahrzeugmechanik und Treibstoff in Urban Strife verstehen">
+
+Fahrzeuge dienen als ultimative Kraftmultiplikatoren im postapokalyptischen Ödland von Urban County. Veröffentlicht in der vollständigen Version 1.0 am **14. Juli 2026**, fordert Urban Strife die Spieler heraus, Überlebensressourcen dynamisch zu verwalten. Das Erlernen des Systems zum **Betanken von Autos in Urban Strife** ist nicht nur eine Frage der Bequemlichkeit; es ist eine grundlegende Voraussetzung, um ferne Fraktionsterritorien zu erreichen, schwere Beute zu transportieren und auf umherziehende Untotenhorden zu reagieren, bevor sie lokale Siedlungen überrennen.
+
+Bevor Sie über die Weltkarte fahren können, müssen Sie verstehen, wie Fahrzeuge mit Ihrer zentralen Basis, dem Urban Shelter, interagieren. Treibstoff ist ein begrenztes, kostbares Gut, das an Tankstellen, in verlassenen Garagen und bei besiegten Fraktionshändlern erbeutet werden muss.
+
+| Fahrzeugaspekt | Praktischer Zweck | Auswirkungen auf das Überleben |
+|---|---|---|
+| **Weltkartenreisen** | Gefährliche Sektoren schnell durchqueren | Reduziert Reisezeit, begrenzt Erschöpfung |
+| **Ladekapazität** | Transport riesiger Beutemengen | Ermöglicht groß angelegte Basis-Upgrades |
+| **Kraftstoffverbrauch** | Kostet Kraftstoff pro Reiseeinheit | Erfordert aktive Plünderungsrouten |
+| **Haltbarkeit** | Nimmt durch schlechte Straßen/Kampf ab | Erfordert regelmäßige Reparaturen in der Werkstatt |
+
+<Callout type="warning" title="Risiko des Liegenbleibens">
+Reisen, ohne die Treibstoffreserven zu prüfen, kann dazu führen, dass Ihr Trupp in feindlichem Gebiet strandet. Bewahren Sie für Notfälle immer einen Reservekanister im Laderaum Ihres Fahrzeugs auf.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Schritt-für-Schritt: Autos betanken in Urban Strife">
+
+Das Betanken Ihres Fahrzeugs erfordert eine Mischung aus Basisvorbereitung und Interaktion vor Ort. Sie können nicht einfach in ein verlassenes Auto springen und losfahren. Sie müssen zuerst den Treibstoff sichern, ihn zum Fahrzeug transportieren und die richtigen Interface-Befehle verwenden, um den Tank zu füllen.
+
+Folgen Sie diesen präzisen Schritten, um Ihr Fahrzeug für Langstreckenexpeditionen fahrbereit und vollgetankt zu machen:
+
+<Steps>
+  <Step num="1" title="Benzinkanister plündern">
+    Suchen Sie nach Benzinkanistern oder Absaugwerkzeugen in Industriezonen, Tankstellen oder verlassenen Autos. Bewahren Sie diese Kanister im Inventar Ihres Trupps oder in aktiven Schnellzugriffs-Slots auf.
+  </Step>
+  <Step num="2" title="Dem Zielfahrzeug nähern">
+    Bringen Sie Ihre Truppmitglieder in die Nähe des Fahrzeugs, das Sie betanken möchten. Stellen Sie sicher, dass die unmittelbare Umgebung frei von Zombies oder feindlichen Fraktionsspähern ist, um Unterbrechungen zu vermeiden.
+  </Step>
+  <Step num="3" title="Fahrzeug-Interface öffnen">
+    Interagieren Sie mit dem Fahrzeug, um dessen spezielles Lager- und Statusmenü zu öffnen. Dieser Bildschirm zeigt die aktuelle Haltbarkeit, die Frachtlast und den Kraftstoffstand an.
+  </Step>
+  <Step num="4" title="Kraftstoff übertragen und anwenden">
+    Ziehen Sie den Benzinkanister aus dem Inventar Ihres Charakters in den Kraftstoffslot des Fahrzeugs. Bestätigen Sie die Aktion, um den Kanister zu leeren und den Kraftstoffprozentsatz des Fahrzeugs zu erhöhen.
+  </Step>
+  <Step num="5" title="Kraftstoffstand auf der Karte prüfen">
+    Öffnen Sie Ihr Sektorenmenü auf der Weltkarte. Vergewissern Sie sich, dass die voraussichtlichen Kraftstoffkosten zu Ihrem Ziel Ihren aktuellen Kraftstoffstand nicht überschreiten, bevor Sie den Bewegungsbefehl ausführen.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Kraftstoff absaugen">
+Tragen Sie bei der Erkundung von Vorstadtgebieten immer eine Absaugausrüstung bei sich. Viele verlassene Zivilfahrzeuge enthalten noch kleine Mengen Treibstoff, die direkt in leere Kanister umgefüllt werden können.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ausbau der Werkstatt und Management der Fahrzeuglogistik">
+
+Die Effizienz Ihres Fahrzeugs ist direkt mit dem Zustand Ihres Urban Shelters verbunden. Die **Werkstatt (Auto Shop)** ist der zentrale Knotenpunkt für alle Fahrzeug-Upgrades, Reparaturen und Treibstoffraffinationsprozesse. Ohne den Ausbau dieser lebenswichtigen Einrichtung wird Ihr Fahrzeug schnell verfallen, mehr Kraftstoff verbrauchen und Gefahr laufen, bei langen Fahrten komplett liegenzubleiben.
+
+| Ausbauphase | Erforderliche Materialien | Hauptfreischaltung | Strategischer Vorteil |
+|---|---|---|---|
+| **Phase 1: Basis-Werkstatt** | Altmetall, Basiswerkzeuge | Fahrzeuglager & Basisreparaturen | Ermöglicht Basisreisen und Frachttransport |
+| **Phase 2: Kraftstoffraffinerie** | Chemikalien, Elektroteile | Kraftstoffverarbeitung & Lagerung | Wandelt Rohöl in nutzbaren Fahrzeugtreibstoff um |
+| **Phase 3: Schwere Verstärkungen** | Stahlplatten, Fortschrittliche Komponenten | Panzerung & Motortuning | Reduziert Kraftstoffverbrauch, erhöht Haltbarkeit |
+
+Um Ihre Fahrzeuglogistik zu maximieren, vergleichen Sie Ihre Transportoptionen. Verschiedene Fahrzeuge bieten unterschiedliche Kompromisse zwischen Geschwindigkeit, Kraftstoffeffizienz und Lagerkapazität.
+
+<CardGrid cols={3}>
+  <Card title="Leichtes Aufklärungsfahrzeug">
+    - **Niedriger Kraftstoffverbrauch**
+    - Hohe Reisegeschwindigkeit
+    - Begrenzter Laderaum
+    - Ideal für schnelle Besuche bei Fraktionen
+  </Card>
+  <Card title="Standard-Limousine">
+    - **Ausgewogener Kraftstoffverbrauch**
+    - Moderate Ladekapazität
+    - Standard-Haltbarkeit
+    - Bestens geeignet für allgemeine Plünderungen
+  </Card>
+  <Card title="Schwerer Armee-HMMWV">
+    - **Hoher Kraftstoffverbrauch**
+    - Massive Ladekapazität
+    - Exzellenter Panzerschutz
+    - Bestens geeignet für Angriffe im späten Spielverlauf
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Owens Reparaturbetrieb">
+Sobald Owens Reparaturvorgang in der Werkstatt vollständig freigeschaltet ist, können Sie nicht benötigte Waffen und Rüstungen verwerten, um mechanische Teile herzustellen. Diese Teile können dann in die Werkstatt geleitet werden, um Ihre Fahrzeuge in Top-Zustand zu halten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Transportziele im Ödland">
+
+Um sicherzustellen, dass Ihr Trupp während der gesamten Kampagne bis zur finalen Belagerung der Atlanta-Horde mobil und gut versorgt bleibt, sollten Sie diese kritischen Fahrzeug-Meilensteine anstreben:
+
+<Checklist
+  id="vehicle-milestones"
+  title="Wichtige Fahrzeugziele:"
+  items={[
+    "Instandsetzung der Basis-Werkstatt im Urban Shelter",
+    "Absaugen und Lagern von mindestens 5 vollen Benzinkanistern im Basislager",
+    "Erwerb des National Guard HMMWV durch Fraktionsbündnisse",
+    "Ausbau der Werkstatt auf Phase 2 zur Freischaltung der Treibstoffraffination",
+    "Ausrüstung Ihres Hauptfahrzeugs mit verstärkten Panzerplatten"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wo finde ich in Urban Strife am meisten Treibstoff?",
+    answer: "Treibstoff ist am häufigsten in Tankstellen, Industrielagern und Autobahnsektoren zu finden. Sie können auch mit den Shady Lady Bikers handeln oder Treibstoff aus verlassenen Zivilfahrzeugen mit Spezialwerkzeugen absaugen."
+  },
+  {
+    question: "Was passiert, wenn meinem Fahrzeug auf der Weltkarte der Treibstoff ausgeht?",
+    answer: "Wenn Ihrem Fahrzeug der Treibstoff ausgeht, muss Ihr Trupp zu Fuß weiterreisen. Dies erhöht die Reisezeit erheblich, setzt Ihr Team Zufallsbegegnungen aus und verhindert, dass Sie schwere Beute zurück zum Shelter transportieren."
+  },
+  {
+    question: "Kann ich die Panzerplatten meines Fahrzeugs reparieren?",
+    answer: "Während die Karosserie und die Motorhaltbarkeit des Fahrzeugs in der Werkstatt wiederhergestellt werden können, sind externe ballistische Platten Verbrauchsmaterial und müssen nach der Zerstörung durch neu gefertigte Platten ersetzt werden."
+  },
+  {
+    question: "Beeinflusst das Gewicht des Trupps den Kraftstoffverbrauch des Fahrzeugs?",
+    answer: "Ja. Das Mitführen von exzessiver Beute, schweren Waffen und gepanzerten Truppmitgliedern erhöht das Gesamtgewicht, was den Kraftstoffverbrauch pro durchquertem Sektor direkt steigert."
+  }
+]} />
+
+</Section>

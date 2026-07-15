@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Walkthrough: Tactical Survival & Base Building Guide",
+  description: "Master early combat, optimize base upgrades, and navigate faction choices in this comprehensive Urban Strife walkthrough.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Walkthrough",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Master the **urban strife walkthrough** to secure resources, defeat rival gangs, and rebuild your shelter.
+- **Combat Core**: Utilize Time Units (TU) wisely; always end your turn behind high cover to survive lethal return fire.
+- **Base Economy**: Prioritize building the Water Pump and Farm Plots early to counteract daily resource decay.
+- **Stat Progression**: Attributes level up through direct usage rather than traditional experience points.
+- **Key Loot**: Collect all scrap metal, bottles, and gasoline; crafting is vital for manufacturing weapon attachments.
+</Callout>
+
+<Section icon={Map} title="Introduction to Urban Strife & Campaign Basics">
+
+Urban Strife is a tactical, turn-based crpg set in a gritty zombie apocalypse. As a squad of scavengers acting as the law in a broken world, your journey begins in a small pocket of civilization threatened by ruthless local gangs and the undead. This **urban strife walkthrough** covers the foundational mechanics, combat strategies, and shelter management systems required to survive the early game.
+
+**Video Highlights:**
+- **Dead State Spiritual Successor**: Inherits deep survival mechanics, base building, and turn-based grid combat.
+- **Realistic Travel Times**: Map traversal takes minutes rather than hours, allowing for tight, tactical planning.
+- **Dynamic Faction System**: Interact with unique local groups, complete favors, and unlock specialized merchants.
+
+<YouTubeEmbed videoId="vGTEbc3H9xg" title="A New Open World Zombie Apocalypse Scavenging RPG - Urban Strife" />
+
+<Callout type="tip" title="Survival Tip">
+Always keep your squad members' inventories slightly below maximum capacity unless you are actively trying to train their strength attribute through over-encumbrance.
+</Callout>
+
+### Core Systems Overview
+
+Understanding how the game handles character progression and world travel is crucial before stepping out of your shelter.
+
+| Feature | System Mechanic | Tactical Impact |
+| :--- | :--- | :--- |
+| **Progression** | Leveling via active usage | Use specific weapons to naturally raise Marksmanship or Melee |
+| **Travel** | Realistic time increments | Travel takes 15-30 minutes, minimizing wasted daylight |
+| **Injuries** | Tarov-style regional damage | Limb-specific wounds require target-specific medical bandages |
+| **Looting** | Weight-based capacity | Overburdened characters move slower but build physical strength |
+
+</Section>
+
+<Section icon={Swords} title="Early Combat Tactics & Weapon Choices">
+
+Combat in Urban Strife relies on classic Time Unit (TU) allocation. Every action—moving, aiming, shooting, and crouching—consumes TUs. Success depends on positioning your squad behind reliable cover and managing your firing angles.
+
+<CardGrid cols={3}>
+  <Card title="Short-Range Power">
+    - **Shotguns & Scatterguns**
+    - High close-up damage
+    - Excellent for clearing rooms
+  </Card>
+  <Card title="Silent Utility">
+    - **Crossbows & Bows**
+    - Silent execution tool
+    - Conserves precious ammo
+  </Card>
+  <Card title="Mid-Range Control">
+    - **Pistols & Rifles**
+    - High accuracy scaling
+    - Ideal for Overwatch lanes
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Combat Warning">
+The game uses a realistic projectile collision system. Be careful when firing past allies; shooting through a tile occupied by a squadmate can result in disastrous friendly fire.
+</Callout>
+
+### Weapon Progression Hierarchy
+
+Upgrading from makeshift civilian tools to military-grade hardware is a priority. Use this table to plan your early arsenal upgrades.
+
+| Weapon Class | Early Game Option | Mid Game Upgrade | Combat Role |
+| :--- | :--- | :--- | :--- |
+| **Shotgun** | Double-Barrel Breaker | Pump-Action 12-Gauge | High close-quarters crowd control |
+| **Pistol** | .22 Caliber rusty handgun | 9mm Tactical Sidearm | Low-cost backup weapon |
+| **Ranged** | Wooden Recurve Bow | Steel Silent Crossbow | Stealth extraction and pull tool |
+| **Melee** | Kitchen Frying Pan | Machete / Combat Knife | Quiet execution of isolated targets |
+
+</Section>
+
+<Section icon={Shield} title="Shelter Management & Base Building">
+
+Your home base is the heart of your survival effort. You must manage daily resource decay by donating scavenged goods to the communal pool and constructing vital utility installations.
+
+<Steps>
+  <Step num="1" title="Unload & Donate">
+    Return from raids and deposit gasoline, food, and medical supplies to halt daily morale and health decay.
+  </Step>
+  <Step num="2" title="Construct Water Pump">
+    Build the Water Pump early to secure a steady daily health regeneration bonus for injured squad members.
+  </Step>
+  <Step num="3" title="Establish Farm Plots">
+    Construct agricultural zones to offset daily food consumption and prevent starvation debuffs.
+  </Step>
+  <Step num="4" title="Upgrade Machine Shop">
+    Build a dedicated workshop to craft weapon attachments like suppressors, scopes, and custom ammo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Resource Management">
+Your shelter consumes resources every morning. Failing to maintain positive food and healthcare generation will rapidly tank your community's overall morale.
+</Callout>
+
+### Daily Resource Balances
+
+Keep a close eye on your shelter's daily production values to avoid critical shortages.
+
+| Resource | Daily Decay Rate | Primary Source | Mitigation Building |
+| :--- | :--- | :--- | :--- |
+| **Food** | High (-26/day early) | Scavenged canned goods | Farm Plots (+15/day) |
+| **Health** | Medium (-24/day) | Medical crates & bandages | Water Pump (+10/day) |
+| **Gasoline** | Low (Usage-based) | Abandoned vehicle trunks | Generator Station |
+| **Materials** | Variable (Construction) | Deconstructed scrap metal | Machine Shop |
+
+</Section>
+
+<Section icon={Target} title="Little Italy Walkthrough: Dealing with Moonshiners">
+
+Once you clear the initial bandit threat around Adams Villa, your search for the missing Professor Ford leads you to Little Italy. Here, you will encounter the local merchant Honest Joe and his crew.
+
+### Step-by-Step Quest Progression
+
+1. **Locate Honest Joe's Emporium**: Head to the local barber shop in Little Italy to find Honest Joe and his guard Bubba.
+2. **Accept Bubba's Request**: Speak with Bubba to learn about a group of hostile, rowdy Moonshiners squatting in a nearby house.
+3. **Flank the Squatters**: Position your long-range characters along the exterior fence line while your shotgun-wielding units breach the front door.
+4. **Clear the Bathroom Zombie**: Watch out for an isolated zombie trapped inside the squatters' bathroom during your post-fight sweep.
+5. **Unlock Faction Merchants**: Return to Bubba to unlock specialized merchants: Slimy Ned (mechanic), Bangs (demolitions), and Corkscrew (liquor).
+
+<Callout type="success" title="Quest Reward">
+Completing Bubba's task unlocks access to high-tier trade goods, including 12-Gauge tactical shotguns and valuable crafting materials.
+</Callout>
+
+### Merchant Inventory Profiles
+
+Knowing who to trade with saves valuable time and resources when preparing for your next raid.
+
+| Merchant Name | Specialty | Accepted Trade Items | Recommended Purchase |
+| :--- | :--- | :--- | :--- |
+| **Slimy Ned** | Vehicle parts & gasoline | Scrap metal, tools | Engine oil, repair kits |
+| **Bangs** | Firearms & explosives | Gunpowder, lead pipe | Pipe bombs, 12-gauge nails |
+| **Corkscrew** | Refined alcohol | Bottles, sugar | High-grade fuel, molotovs |
+| **Honest Joe** | Medical pills & luxury items | Gold teeth, valuables | High-potency painkillers |
+
+</Section>
+
+<Section icon={Trophy} title="Campaign Goals Checklist">
+
+Use this checklist to track your progression through the first major chapter of the game.
+
+<Checklist
+  id="urban-strife-chapter-1"
+  title="Chapter 1 Milestones:"
+  items={[
+    "Eliminate the Casey Boys gang leaders in Adams Villa",
+    "Build the Water Pump and Farm Plot in your shelter",
+    "Locate Honest Joe's Emporium in Little Italy",
+    "Clear out the rogue Moonshiners for Bubba",
+    "Equip at least two squad members with Tier 2 firearms",
+    "Establish a reliable source of medical supplies"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I level up Marksmanship and other attributes in Urban Strife?",
+    answer: "Attributes level up through direct usage. To increase Marksmanship, your characters must actively fire weapons in combat. Melee skills increase by hitting targets with hand-to-hand weapons, and Strength increases by carrying heavy loads."
+  },
+  {
+    question: "Where can I find Professor Ford during the main questline?",
+    answer: "After finding his house ransacked by bandits in Adams Villa, you must travel to Little Italy and speak with Honest Joe to gather rumors about his escape route toward the Old Port."
+  },
+  {
+    question: "How does the unconsciousness mechanic work in combat?",
+    answer: "Characters have a green health meter and a red fatigue meter. Every hit reduces the green meter and increases the red meter. When the red meter completely fills the remaining green space, the character falls unconscious."
+  },
+  {
+    question: "Can I transfer inventory items directly between characters?",
+    answer: "In the early builds of the game, there is no direct drag-and-drop transfer between character portraits on the field. You must drop the item on the ground for another character to pick up, or manage it via the shared shelter screen."
+  }
+]} />
+
+</Section>

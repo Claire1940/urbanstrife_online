@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Soluce Urban Strife : Guide de survie tactique et de construction de base",
+  description: "Maîtrisez les premiers combats, optimisez les améliorations de votre base et naviguez parmi les choix de factions dans cette soluce complète d'Urban Strife.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Walkthrough",
+  date: "2026-07-16",
+  author: "Équipe du Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Maîtrisez la **soluce d'Urban Strife** pour sécuriser les ressources, vaincre les gangs rivaux et reconstruire votre abri.
+- **Cœur du combat** : Utilisez judicieusement vos unités de temps (TU) ; terminez toujours votre tour derrière une couverture haute pour survivre aux tirs de riposte mortels.
+- **Économie de la base** : Priorisez la construction de la pompe à eau et des parcelles agricoles dès le début pour contrer le déclin quotidien des ressources.
+- **Progression des statistiques** : Les attributs augmentent par l'utilisation directe plutôt que par les points d'expérience traditionnels.
+- **Butin clé** : Collectez toute la ferraille, les bouteilles et l'essence ; l'artisanat est essentiel pour fabriquer des accessoires d'armes.
+</Callout>
+
+<Section icon={Map} title="Introduction à Urban Strife et bases de la campagne">
+
+Urban Strife est un CRPG tactique au tour par tour se déroulant dans une apocalypse zombie sombre et réaliste. En tant qu'escouade de pillards faisant office de loi dans un monde brisé, votre voyage commence dans une petite poche de civilisation menacée par des gangs locaux impitoyables et les morts-vivants. Cette **soluce d'Urban Strife** couvre les mécaniques fondamentales, les stratégies de combat et les systèmes de gestion de l'abri nécessaires pour survivre en début de partie.
+
+**Points forts de la vidéo :**
+- **Successeur spirituel de Dead State** : Hérite de mécaniques de survie profondes, de construction de base et de combats tactiques au tour par tour sur grille.
+- **Temps de trajet réalistes** : La traversée de la carte prend des minutes plutôt que des heures, permettant une planification tactique serrée.
+- **Système de factions dynamique** : Interagissez avec des groupes locaux uniques, accomplissez des faveurs et débloquez des marchands spécialisés.
+
+<YouTubeEmbed videoId="vGTEbc3H9xg" title="Un nouveau RPG de pillage en monde ouvert dans une apocalypse zombie - Urban Strife" />
+
+<Callout type="tip" title="Conseil de survie">
+Gardez toujours l'inventaire des membres de votre escouade légèrement en dessous de leur capacité maximale, à moins que vous n'essayiez activement d'entraîner leur attribut de force par la surcharge.
+</Callout>
+
+### Aperçu des systèmes de base
+
+Comprendre comment le jeu gère la progression des personnages et les déplacements dans le monde est crucial avant de sortir de votre abri.
+
+| Fonctionnalité | Mécanique du système | Impact tactique |
+| :--- | :--- | :--- |
+| **Progression** | Montée de niveau via l'utilisation active | Utilisez des armes spécifiques pour augmenter naturellement le tir ou le corps à corps |
+| **Déplacement** | Incréments de temps réalistes | Les trajets prennent 15 à 30 minutes, minimisant la perte de lumière du jour |
+| **Blessures** | Dégâts localisés de type Tarov | Les blessures aux membres nécessitent des bandages médicaux spécifiques à la zone ciblée |
+| **Pillage** | Capacité basée sur le poids | Les personnages surchargés se déplacent plus lentement mais renforcent leur force physique |
+
+</Section>
+
+<Section icon={Swords} title="Tactiques de combat de début de partie et choix d'armes">
+
+Le combat dans Urban Strife repose sur l'allocation classique d'unités de temps (TU). Chaque action (se déplacer, viser, tirer et s'accroupir) consomme des TU. Le succès dépend du positionnement de votre escouade derrière une couverture fiable et de la gestion de vos angles de tir.
+
+<CardGrid cols={3}>
+  <Card title="Puissance à courte portée">
+    - **Fusils à pompe et fusils à dispersion**
+    - Dégâts importants à bout portant
+    - Excellent pour nettoyer les pièces
+  </Card>
+  <Card title="Utilité silencieuse">
+    - **Arbalètes et arcs**
+    - Outil d'exécution silencieux
+    - Économise les précieuses munitions
+  </Card>
+  <Card title="Contrôle à moyenne portée">
+    - **Pistolets et fusils**
+    - Forte progression de la précision
+    - Idéal pour les lignes de vigilance (Overwatch)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement de combat">
+Le jeu utilise un système réaliste de collision des projectiles. Faites attention lorsque vous tirez à proximité d'alliés ; tirer à travers une case occupée par un coéquipier peut entraîner un tir ami désastreux.
+</Callout>
+
+### Hiérarchie de progression des armes
+
+Passer d'outils civils de fortune à du matériel de qualité militaire est une priorité. Utilisez ce tableau pour planifier vos premières améliorations d'arsenal.
+
+| Classe d'arme | Option de début de partie | Amélioration de milieu de partie | Rôle au combat |
+| :--- | :--- | :--- | :--- |
+| **Fusil à pompe** | Fusil à double canon "Breaker" | Fusil à pompe calibre 12 | Contrôle des foules rapproché important |
+| **Pistolet** | Pistolet rouillé de calibre .22 | Arme de poing tactique 9 mm | Arme secondaire à faible coût |
+| **À distance** | Arc classique en bois | Arbalète silencieuse en acier | Outil d'extraction furtive et d'attraction |
+| **Corps à corps** | Poêle à frire de cuisine | Machette / Couteau de combat | Exécution silencieuse de cibles isolées |
+
+</Section>
+
+<Section icon={Shield} title="Gestion de l'abri et construction de la base">
+
+Votre base est le cœur de votre effort de survie. Vous devez gérer le déclin quotidien des ressources en donnant les biens pillés à la communauté et en construisant des installations de services essentiels.
+
+<Steps>
+  <Step num="1" title="Décharger et donner">
+    Revenez de vos raids et déposez de l'essence, de la nourriture et des fournitures médicales pour stopper le déclin quotidien du moral et de la santé.
+  </Step>
+  <Step num="2" title="Construire la pompe à eau">
+    Construisez la pompe à eau tôt pour garantir un bonus régulier de régénération quotidienne de santé pour les membres blessés de l'escouade.
+  </Step>
+  <Step num="3" title="Aménager des parcelles agricoles">
+    Aménagez des zones agricoles pour compenser la consommation quotidienne de nourriture et éviter les malus de famine.
+  </Step>
+  <Step num="4" title="Améliorer l'atelier mécanique">
+    Construisez un atelier dédié pour fabriquer des accessoires d'armes comme des silencieux, des lunettes et des munitions personnalisées.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gestion des ressources">
+Votre abri consomme des ressources chaque matin. Ne pas maintenir une production positive de nourriture et de soins fera rapidement chuter le moral général de votre communauté.
+</Callout>
+
+### Bilans quotidiens des ressources
+
+Gardez un œil attentif sur les valeurs de production quotidienne de votre abri pour éviter les pénuries critiques.
+
+| Ressource | Taux de déclin quotidien | Source principale | Bâtiment d'atténuation |
+| :--- | :--- | :--- | :--- |
+| **Nourriture** | Élevé (-26/jour au début) | Conserves pillées | Parcelles agricoles (+15/jour) |
+| **Santé** | Moyen (-24/jour) | Caisses médicales et bandages | Pompe à eau (+10/jour) |
+| **Essence** | Faible (selon l'utilisation) | Coffres de véhicules abandonnés | Station de générateur |
+| **Matériaux** | Variable (construction) | Ferraille démantelée | Atelier mécanique |
+
+</Section>
+
+<Section icon={Target} title="Soluce de Little Italy : Gérer les distillateurs clandestins">
+
+Une fois la menace initiale des bandits écartée autour d'Adams Villa, votre recherche du professeur Ford disparu vous mène à Little Italy. Vous y rencontrerez le marchand local Honest Joe et son équipe.
+
+### Progression étape par étape de la quête
+
+1. **Localiser l'Emporium d'Honest Joe** : Rendez-vous chez le coiffeur local de Little Italy pour trouver Honest Joe et son garde Bubba.
+2. **Accepter la demande de Bubba** : Parlez à Bubba pour en savoir plus sur un groupe de distillateurs clandestins hostiles et bruyants qui squattent une maison voisine.
+3. **Flank la position** : Positionnez vos personnages à longue portée le long de la clôture extérieure pendant que vos unités équipées de fusils à pompe enfoncent la porte d'entrée.
+4. **Éliminer le zombie de la salle de bain** : Attention au zombie isolé piégé dans la salle de bain des squatteurs lors de votre fouille après le combat.
+5. **Débloquer les marchands de faction** : Retournez voir Bubba pour débloquer des marchands spécialisés : Slimy Ned (mécanicien), Bangs (démolition) et Corkscrew (alcool).
+
+<Callout type="success" title="Récompense de quête">
+Terminer la tâche de Bubba débloque l'accès à des marchandises de haute qualité, notamment des fusils à pompe tactiques de calibre 12 et des matériaux d'artisanat précieux.
+</Callout>
+
+### Profils d'inventaire des marchands
+
+Savoir avec qui commercer permet d'économiser un temps précieux et des ressources lors de la préparation de votre prochain raid.
+
+| Nom du marchand | Spécialité | Objets d'échange acceptés | Achat recommandé |
+| :--- | :--- | :--- | :--- |
+| **Slimy Ned** | Pièces de véhicules et essence | Ferraille, outils | Huile moteur, kits de réparation |
+| **Bangs** | Armes à feu et explosifs | Poudre à canon, tuyaux en plomb | Bombes artisanales, clous de calibre 12 |
+| **Corkscrew** | Alcool raffiné | Bouteilles, sucre | Carburant de haute qualité, molotovs |
+| **Honest Joe** | Pilules médicales et objets de luxe | Dents en or, objets de valeur | Anti-douleurs puissants |
+
+</Section>
+
+<Section icon={Trophy} title="Liste des objectifs de la campagne">
+
+Utilisez cette liste de contrôle pour suivre votre progression tout au long du premier chapitre majeur du jeu.
+
+<Checklist
+  id="urban-strife-chapter-1"
+  title="Jalons du Chapitre 1 :"
+  items={[
+    "Éliminer les chefs du gang des Casey Boys à Adams Villa",
+    "Construire la pompe à eau et la parcelle agricole dans votre abri",
+    "Localiser l'Emporium d'Honest Joe à Little Italy",
+    "Éliminer les distillateurs clandestins rebelles pour Bubba",
+    "Équiper au moins deux membres de l'escouade d'armes à feu de niveau 2",
+    "Établir une source fiable de fournitures médicales"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment puis-je augmenter le tir et d'autres attributs dans Urban Strife ?",
+    answer: "Les attributs augmentent par l'utilisation directe. Pour augmenter le tir, vos personnages doivent utiliser activement des armes en combat. Les compétences de corps à corps augmentent en frappant des cibles avec des armes de mêlée, et la force augmente en portant des charges lourdes."
+  },
+  {
+    question: "Où puis-je trouver le professeur Ford pendant la quête principale ?",
+    answer: "Après avoir trouvé sa maison saccagée par des bandits à Adams Villa, vous devez vous rendre à Little Italy et parler à Honest Joe pour recueillir des rumeurs sur sa route de fuite vers le Vieux Port."
+  },
+  {
+    question: "Comment fonctionne la mécanique d'inconscience en combat ?",
+    answer: "Les personnages ont une jauge de santé verte et une jauge de fatigue rouge. Chaque coup réduit la jauge verte et augmente la jauge rouge. Lorsque la jauge rouge remplit complètement l'espace vert restant, le personnage tombe inconscient."
+  },
+  {
+    question: "Puis-je transférer des objets d'inventaire directement entre les personnages ?",
+    answer: "Dans les premières versions du jeu, il n'y a pas de transfert direct par glisser-déposer entre les portraits des personnages sur le terrain. Vous devez déposer l'objet au sol pour qu'un autre personnage le ramasse, ou le gérer via l'écran d'abri partagé."
+  }
+]} />
+
+</Section>

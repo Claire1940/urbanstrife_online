@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Basisbau: Unterschlupf-Upgrade & Überlebenshandbuch",
+  description: "Meistere den Basisbau in Urban Strife. Erfahre in unserer Schritt-für-Schritt-Anleitung, wie du deinen Unterschlupf verbesserst, Ressourcen verwaltest und die Zombiehorde überlebst.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Base+Building+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Fokus auf Basisbau**: Priorisiere die Upgrade-Pfade für den Basisbau in Urban Strife, um deinen Unterschlupf auf die wachsende Zombiehorden-Anzeige vorzubereiten.
+- **Ressourcenkreislauf**: Durchsuche jeden Behälter, jede Mülltonne und jede Leiche, um zu verhindern, dass deinem Unterschlupf die lebenswichtigen Vorräte ausgehen.
+- **Truppverwaltung**: Rekrutiere bis zu vier Gefährten, passe ihre Perks an und nutze den Basisarzt, um sie nach Missionen zu heilen.
+- **Kampfstrategie**: Nutze Engpässe für Nahkampfangriffe gegen Zombies und spare dir Molotowcocktails für gefährliche menschliche Fraktionen auf.
+- **Häufig speichern**: Speichere deinen Fortschritt regelmäßig manuell, da das automatische Speichersystem bei langen Kampagnen unzuverlässig sein kann.
+</Callout>
+
+<Section icon={Shield} title="Unterschlupf-Mechaniken & die Bedrohung durch die Horde">
+
+Um im postapokalyptischen tiefen Süden dauerhaft Fuß zu fassen, ist ein tiefes Verständnis der Unterschlupf-Mechaniken erforderlich. In Urban Strife dient deine Basis als zentraler Knotenpunkt für Erholung, Rekrutierung und Ressourcenverteilung. Als neuer Überlebender in der Stadt musst du dich mit der Koalition der südlichen Überlebenden abstimmen, um einen heruntergekommenen Unterschlupf in eine uneinnehmbare Festung zu verwandeln. Jede Entscheidung, die du triffst, wirkt sich direkt auf deine Bereitschaft für die ultimative Prüfung aus: die Verteidigung gegen die gewaltige Zombiehorde, die dein Zuhause zu überrennen droht.
+
+**Video-Highlights:**
+- **Kampagnen-Prämisse**: Navigiere als immuner Überlebender in einer fiktiven Stadt außerhalb von Atlanta und arbeite mit der lokalen Koalition zusammen.
+- **Basis-Dynamik**: Verwalte die Ressourcen des Unterschlupfs, während du dich auf die eskalierende Bedrohung durch die Zombiehorden-Anzeige vorbereitest.
+- **Trupp-Mechaniken**: Wähle bis zu vier Gefährten aus und setze sie ein, während du ihre einzigartigen Werte, Perks und das Risiko des permanenten Todes verwaltest.
+- **Beute-Kreislauf**: Durchsuche Behälter akribisch, um Vorräte, medizinische Ausrüstung und Kampfgegenstände zu sichern.
+
+<YouTubeEmbed videoId="YHtuRaZDbaY" title="URBAN STRIFE – An Old School Zombie RPG Eight Years in the Making | Quick Review" />
+
+Der Kernkreislauf von Urban Strife dreht sich um das Gleichgewicht zwischen Basis-Upgrades und aktiver Erkundung. Der Unterschlupf ist keine statische Sicherheitszone; er ist ein lebendiger Organismus, der ständig Nahrung, Medizin und Treibstoff verbraucht. Wenn deine Vorräte auf Null sinken, bricht die Moral der Truppe ein und deine Überlebenden leiden unter Hunger oder unbehandelten Wunden. Die allgegenwärtige Bedrohung wird durch die Horden-Anzeige dargestellt, einen visuellen Indikator, der das Anwachsen der Zombie-Bedrohung im Laufe der Zeit anzeigt. Dein Hauptziel ist es, rivalisierende Fraktionen auszunutzen, Ressourcenknotenpunkte zu sichern und die Basisverteidigung auszubauen, bevor diese Anzeige ihren Höchststand erreicht.
+
+<Callout type="warning" title="Hordengefahr">
+Behalte die Horden-Anzeige ständig im Auge. Wenn du die Basisverteidigung vernachlässigst und dich nur auf Fraktionsmissionen konzentrierst, ist dein Unterschlupf anfällig für plötzliche, verheerende Angriffe.
+</Callout>
+
+| Ressource | Hauptquelle | Basis-Nutzung | Priorität |
+| :--- | :--- | :--- | :--- |
+| Nahrung | Küchen-Plünderung, Landwirtschaft | Verhindert Hunger und Moralverlust | Hoch |
+| Medizin | Krankenhäuser, Herstellung in der Basis | Heilt Truppwunden und stoppt Blutungen | Hoch |
+| Treibstoff | Tankstellen, Industriegebiete | Versorgt Generatoren und Werkzeuge mit Strom | Mittel |
+| Munition | Militärische Kontrollpunkte, Herstellung | Verteidigung bei Hordenangriffen | Hoch |
+
+</Section>
+
+<Section icon={Swords} title="Trupp-Vorbereitung & Basis-Rekrutierung">
+
+Die Verteidigung deiner Basis und erfolgreiche Plünderungszüge erfordern eine fähige Truppe. Du kannst eine Truppe von bis zu vier Gefährten für Feldmissionen rekrutieren und einsetzen. Jeder Gefährte verfügt über unterschiedliche Startattribute und eine einzigartige Auswahl an freischaltbaren Perks. Das Fortschrittssystem basiert auf einem Perk-Baum, der die Kampfeffizienz, die Herstellungsgeschwindigkeit und die Überlebensfähigkeiten bestimmt. Die Wahl der richtigen Kombination von Gefährten ist entscheidend für das Gleichgewicht zwischen Kampfkraft und Plünderungspotenzial.
+
+<CardGrid cols={3}>
+  <Card title="Nahkampfspezialist">
+    - **Hauptrolle**: Verteidigung von Engpässen
+    - **Waffenauswahl**: Messer und stumpfe Waffen
+    - **Hauptvorteil**: Leise Eliminierung von Zombies
+  </Card>
+  <Card title="Fernkämpfer">
+    - **Hauptrolle**: Bekämpfung von Fraktionen
+    - **Waffenauswahl**: Gewehre und Schrotflinten
+    - **Hauptvorteil**: Hoher Schaden gegen menschliche Ziele
+  </Card>
+  <Card title="Unterstützungsspezialist">
+    - **Hauptrolle**: Feldmedizin und Plündern
+    - **Waffenauswahl**: Leichte Schusswaffen und Bandagen
+    - **Hauptvorteil**: Hält die Truppe bei langen Einsätzen gesund
+  </Card>
+</CardGrid>
+
+Die Bedrohung durch den permanenten Tod (Permadeath) erhöht jedoch den Druck bei jedem Ausflug immens. Wenn ein Gefährte im Kampf fällt, verschwindet er nicht einfach; er kann als Zombie wiederauferstehen und dich zwingen, deinen ehemaligen Verbündeten zu töten. Um dieses Risiko zu minimieren, musst du Stealth-Mechaniken nutzen, um vorauszuscouten, unnötige Kämpfe zu vermeiden und deine Truppmitglieder sorgfältig zu positionieren. Da die automatische Speicherfunktion unzuverlässig sein kann, ist es zudem unerlässlich, sich das manuelle Speichern vor und nach größeren Begegnungen zur Gewohnheit zu machen, um deine Truppe zu schützen.
+
+<Callout type="tip" title="Manuelles Speichern">
+Verlasse dich nicht auf die automatische Speicherfunktion. Speichere dein Spiel manuell, bevor du neue Sektoren betrittst oder größere Kämpfe beginnst, um den dauerhaften Verlust von Truppmitgliedern zu verhindern.
+</Callout>
+
+| Attribut | Kampfeffekt | Basis-Nutzen | Empfohlenes Minimum |
+| :--- | :--- | :--- | :--- |
+| Stärke | Nahkampfschaden, Tragfähigkeit | Beschleunigt den physischen Bau | 6 |
+| Geschicklichkeit | Aktionspunkte, Präzision | Erhöht die Herstellungsgeschwindigkeit | 7 |
+| Intelligenz | Perk-Fortschritt, Effektivität des Sanitäters | Schaltet fortschrittliche Forschung frei | 8 |
+| Konstitution | Maximale Gesundheit, Blutungswiderstand | Verkürzt die Erholungszeit auf der Krankenstation | 6 |
+
+</Section>
+
+<Section icon={Map} title="Basis-Upgrades & Ressourcenverwaltung">
+
+Die Verbesserung deines Unterschlupfs erfordert einen stetigen Fluss an Baumaterialien, Elektronikteilen und medizinischen Vorräten. Diese Notwendigkeit treibt den Kern-Plünderungskreislauf des Spiels an. Wenn du Sektoren erkundest, musst du systematisch jeden Schrank, jede Mülltonne und jede Leiche durchsuchen. Obwohl der Plünderungsprozess detailliert ist und eine sorgfältige Inventarverwaltung erfordert, sind die Belohnungen für den Fortschritt der Basis unerlässlich. Du kannst die Inventare von zwei Gefährten gleichzeitig öffnen, um Gegenstände zu übertragen, was die Organisation deiner Beute vor der Rückkehr zur Basis erleichtert.
+
+<Steps>
+  <Step num="1" title="Sichere den Außenbereich">
+    Säubere die unmittelbare Umgebung des Unterschlupfs, um eine Sicherheitszone einzurichten. Dies verringert die Häufigkeit kleinerer Zombieangriffe und ermöglicht es deinen Überlebenden, sicher einfaches Altmetall und Holz zu sammeln.
+  </Step>
+  <Step num="2" title="Richte die Krankenstation ein">
+    Priorisiere das Upgrade der medizinischen Einrichtungen. Dadurch kann der ansässige Arzt verletzte Truppmitglieder schneller heilen und der Verbrauch von tragbaren Medkits und Bandagen während der Erholung wird reduziert.
+  </Step>
+  <Step num="3" title="Baue die Werkstatt">
+    Errichte eine Werkstatt, um eigene Munition herzustellen, beschädigte Waffen zu reparieren und Molotowcocktails zu bauen. Die Werkstatt ist unerlässlich, um rohen Schrott in brauchbare Kampfausrüstung zu verwandeln.
+  </Step>
+  <Step num="4" title="Verstärke die Basisverteidigung">
+    Errichte Barrikaden, Wachtürme und Engpässe um den Eingang des Unterschlupfs. Diese Strukturen verlangsamen herannahende Horden und verschaffen deinen Verteidigern in der Verteidigungsphase einen taktischen Vorteil.
+  </Step>
+</Steps>
+
+Sobald die Ressourcen gesichert sind, musst du entscheiden, welche Basiseinrichtungen du zuerst bauen oder aufrüsten willst. Die Krankenstation sollte immer eine hohe Priorität haben, da sie es dem Basisarzt ermöglicht, schwere Wunden und Infektionen zu behandeln, ohne deine tragbaren Feldausrüstungen zu verbrauchen. Das Upgrade der Werkstatt schaltet die Fähigkeit frei, fortschrittliche Munition herzustellen und abgenutzte Waffen zu reparieren, sodass deine Truppe allzeit kampfbereit bleibt. Das Ausbalancieren dieser Upgrades verhindert, dass dein Unterschlupf Vorräte schneller verbraucht, als du sie herbeischaffen kannst.
+
+<Callout type="success" title="Ressourceneffizienz">
+Wenn du deine Lagereinrichtungen frühzeitig aufrüstest, erhöht sich die maximale Kapazität an Ressourcen, die du lagern kannst. Das verhindert Verschwendung, wenn du von ertragreichen Plünderungszügen zurückkehrst.
+</Callout>
+
+| Einrichtung | Upgrade-Anforderungen | Hauptvorteil | Bau-Priorität |
+| :--- | :--- | :--- | :--- |
+| Krankenstation | Altmetall, medizinische Vorräte, Werkzeuge | Schnellere passive Heilung für inaktive Trupps | Hoch |
+| Werkstatt | Metallteile, elektronische Komponenten | Schaltet Munitionsherstellung und Waffenreparatur frei | Hoch |
+| Küche | Holz, Ofenteile, sauberes Wasser | Reduziert den täglichen Nahrungsverbrauch | Mittel |
+| Wachposten | Bauholz, Sandsäcke, Stacheldraht | Erhöht die Verteidigungswerte gegen Angriffe | Mittel |
+
+</Section>
+
+<Section icon={Target} title="Kampftaktiken & Verteidigungsstrategien">
+
+Der Kampf in Urban Strife ist aufgeteilt in den Kampf gegen die geistlosen Untoten und den Kampf gegen feindliche menschliche Fraktionen wie Biker-Gangs und Zombie-anbetende Kultisten. Während Zombies berechenbar sind und in enge Passagen gelenkt werden können, nutzen menschliche Feinde Fernkampfwaffen, Deckung und taktische Flankierungen. Deine Verteidigungsstrategie für die Basis muss beide Arten von Bedrohungen berücksichtigen, um das Überleben der Koalition zu sichern.
+
+<Checklist
+  id="defense-checklist"
+  title="Checkliste zur Hordenverteidigung:"
+  items={[
+    "Richte klare Engpässe an allen Eingangstoren ein",
+    "Rüste die Verteidiger mit langlebigen Nahkampfwaffen aus",
+    "Lege einen Vorrat an Molotowcocktails für menschliche Angreifer an",
+    "Heile alle Truppmitglieder beim Basisarzt vollständig auf",
+    "Speichere das Spiel manuell, bevor du die Verteidigungsphase einleitest"
+  ]}
+/>
+
+Zombies sind langsam, berechenbar und äußerst anfällig für Nahkampfangriffe. Indem du deine Truppe an engen Engpässen positionierst, kannst du die Untoten systematisch nacheinander mit leisen Waffen wie Messern ausschalten und so wertvolle Munition sparen. Dieser lautlose Ansatz hält den Lärmpegel niedrig und verhindert, dass sich weitere Horden dem Kampf anschließen. Menschliche Fraktionen wie Biker-Gangs und Kultisten stellen eine weitaus größere Bedrohung dar. Sie nutzen Fernkampfwaffen, suchen Deckung und versuchen, deine Positionen zu flankieren. Gegen diese Feinde ist Schleichen selten eine Option, und laute, aggressive Taktiken sind erforderlich. Molotowcocktails sind hervorragende Werkzeuge, um menschliche Ziele aus der Deckung zu treiben und Flächenschaden zu verursachen.
+
+<Callout type="info" title="Kampfunterschiede">
+Nutze leise Nahkampfwaffen wie Messer gegen isolierte Zombies, um nicht die gesamte Karte aufzuschrecken. Hebe dir laute Schusswaffen und explosive Molotowcocktails für schwer bewaffnete menschliche Fraktionen auf.
+</Callout>
+
+| Feindliche Fraktion | Verhalten | Schwachstelle | Empfohlene Strategie |
+| :--- | :--- | :--- | :--- |
+| Zombiehorde | Aggressiv, nahkampforientiert, wegeabhängig | Engpässe, Brandschaden | In enge Korridore leiten, Nahkampf nutzen |
+| Biker-Gangs | Fernkampf, nutzen Deckung, hohe Mobilität | Flankierung, Molotowcocktails | Mit Feuer aus der Deckung treiben, Gewehre nutzen |
+| Kultisten | Fanatisch, unberechenbar, Schwarmtaktik | Fernangriffe, Sprengstoffe | Anführer zuerst töten, Abstand halten |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ & Zusammenfassung">
+
+Die Aufrechterhaltung einer voll funktionsfähigen Basis bei gleichzeitigem Schutz deiner Truppe erfordert ständige Wachsamkeit und strategische Planung. Indem du die richtigen Upgrades für deine Einrichtungen priorisierst, die Gesundheit deiner Truppe verwaltest und im Kampf taktische Positionen nutzt, kannst du den Unterschlupf der Koalition erfolgreich gegen jede Bedrohung verteidigen, die der tiefe Süden für dich bereithält. Nutze den folgenden FAQ-Bereich, um wichtige Überlebenskonzepte schnell nachzuschlagen.
+
+<Callout type="tip" title="Letzter Überlebens-Tipp">
+Halte immer eine Reserve an Treibstoff und Medizin bereit. Wenn dir diese beiden Ressourcen während eines Hordenangriffs ausgehen, kann das schnell zu einem Game Over führen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie verbessere ich meinen Unterschlupf in Urban Strife?",
+    answer: "Du verbesserst deinen Unterschlupf, indem du Ressourcen wie Altmetall, Holz und Elektronik in den umliegenden Sektoren plünderst und dann das Basisverwaltungsmenü nutzt, um Einrichtungen zu bauen und aufzurüsten."
+  },
+  {
+    question: "Was soll ich tun, wenn ein Truppmitglied während eines Einsatzes stirbt?",
+    answer: "Truppmitglieder unterliegen dem permanenten Tod. Wenn sie sterben, sind sie dauerhaft verloren und können zu Zombies werden. Es wird dringend empfohlen, einen manuellen Spielstand zu laden, wenn du einen wichtigen Gefährten verlierst."
+  },
+  {
+    question: "Wie beeinflusst die Horden-Anzeige mein Gameplay?",
+    answer: "Die Horden-Anzeige zeigt die wachsende Zombie-Bedrohung an. Je voller sie wird, desto häufiger und schwieriger werden die Zombieangriffe auf deine Basis, was stärkere Verteidigungsanlagen und besser ausgerüstete Verteidiger erfordert."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, Truppmitglieder ohne Medkits zu heilen?",
+    answer: "Ja. Wenn du zu deiner Basis zurückkehrst, kann der ansässige Arzt deine verletzten Truppmitglieder kostenlos verarzten, sodass du deine tragbaren Medkits für Notfälle im Feld aufsparen kannst."
+  }
+]} />
+
+</Section>

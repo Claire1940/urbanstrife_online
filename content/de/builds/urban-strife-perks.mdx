@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Perks: Leitfaden für Kernattribute & Charakter-Builds",
+  description: "Meistern Sie das Perk-System von Urban Strife mit unserem umfassenden Leitfaden zu Attributen, Überlebensmerkmalen und taktischen Charakter-Builds für 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Perks+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Urban Strife Perks**: Grundlegende Merkmale, die an Kernattribute wie Stärke und Beweglichkeit gebunden sind.
+- **Aktionspunkte (AP)**: Die Hauptwährung für den Kampf, bestimmt durch Ihre Beweglichkeit und aktuelle Gesundheit.
+- **Spezialisierungen**: Konzentrieren Sie sich auf bestimmte Waffenmeisterschaften wie Schrotflinten zur Gruppenkontrolle oder Armbrüste für lautlose Angriffe.
+- **Basis-Synergie**: Das Freischalten von Zufluchts-Upgrades wirkt sich direkt auf die passiven Überlebens-Perks Ihres Teams aus.
+- **Taktische Tiefe**: Nutzen Sie Ducken und Feldposten (Overwatch), um die Effizienz der Kampf-Perks Ihres Charakters zu maximieren.
+</Callout>
+
+<Section icon={Users} title="Charakterattribute und Perk-Grundlagen">
+
+In der Welt von Urban Strife wird die Effektivität Ihres Charakters durch seine Kernattribute definiert. Diese Statistiken dienen als Fundament für alle **Urban Strife Perks** und Merkmale, die Sie im Laufe der Kampagne 2026 freischalten werden. Im Gegensatz zu traditionellen Rollenspielen hat jeder in ein Attribut investierte Punkt spürbare Auswirkungen auf den taktischen Kampf – von der Bewegungsreichweite bis hin zur Wahrscheinlichkeit, den Zug eines Gegners zu unterbrechen.
+
+**Video-Highlights:**
+- Detaillierter Blick auf den Bildschirm zur Charaktererstellung und die Verteilung der Attributpunkte.
+- Vergleich zwischen verschiedenen Start-Builds: Nahkampf- vs. Fernkampf-Fokus.
+- Übersicht über das Team-Managementsystem mit wichtigen Überlebenden wie Billy Bow und Lucy Lee.
+- Demonstration, wie Attribute wie Beweglichkeit die Aktionspunkte (AP) direkt beeinflussen.
+
+<YouTubeEmbed videoId="aGY-r3iDZos" title="Urban Strife - XCOM trifft auf Survival" />
+
+Das Verständnis der Interaktion dieser Attribute ist entscheidend für den Aufbau einer ausgewogenen Truppe. Jeder Überlebende in Ihrer Gruppe kann spezialisiert werden, um eine bestimmte Nische zu füllen, sei es als Frontline-Tank oder als Sanitäter in den hinteren Reihen.
+
+| Attribut | Primäre Effekte | Perk-Synergie |
+| :--- | :--- | :--- |
+| **Konstitution** | Max. Gesundheit, Resistenzen | Tanken, Überleben |
+| **Stärke** | Tragekapazität, Nahkampfschaden | Schwere Waffen, Nahkampf (CQC) |
+| **Beweglichkeit** | Aktionspunkte (AP), Unterbrechungschance | Flankieren, Feldposten (Overwatch) |
+| **Geschicklichkeit** | Gegenstandsbenutzung, Nahkampfpräzision | Handwerk, Präzisionsnahkampf |
+| **Treffsicherheit** | Fernkampfpräzision, Kritische Trefferchance | Scharfschützen, Schusswaffen |
+| **Intelligenz** | Erfahrungsgewinn, Effizienz von Fähigkeiten | Unterstützung, Ingenieurwesen |
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn Sie im Jahr 2026 einen neuen Spieldurchlauf starten, priorisieren Sie die Beweglichkeit bei mindestens zwei Ihrer Charaktere. Eine hohe Unterbrechungschance ermöglicht es Ihnen, Plünderer und Zombies zu stoppen, bevor sie Ihre Deckung erreichen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfmeisterschaften und Waffen-Perks">
+
+Der Kampf in Urban Strife ist eine erbarmungslose Angelegenheit, bei der das Ressourcenmanagement ebenso wichtig ist wie die taktische Positionierung. Die **Urban Strife Perks**, die mit den verschiedenen Waffenklassen verbunden sind, ermöglichen es Ihnen, den Fluss der Schlacht zu bestimmen. Egal, ob Sie eine improvisierte Nagelpistole oder eine durchschlagskräftige Schrotflinte verwenden: Das Verständnis Ihrer effektiven Reichweite und der AP-Kosten entscheidet über Leben und Tod.
+
+<CardGrid cols={3}>
+  <Card title="Nahkampf-Spezialist">
+    - **Hohe Stärke/Geschicklichkeit**
+    - Konzentriert sich auf stumpfe Waffen (Nudelhölzer) oder Klingen.
+    - Hervorragend geeignet für lautlose Zombie-Takedowns.
+  </Card>
+  <Card title="Fernkampf-Scharfschütze">
+    - **Hohe Treffsicherheit/Beweglichkeit**
+    - Verwendet Gewehre (Plinker 10-22) und Armbrüste.
+    - Dominiert Gefechte auf große Distanz.
+  </Card>
+  <Card title="Taktischer Brecher">
+    - **Hohe Konstitution/Stärke**
+    - Spezialisiert auf Schrotflinten und schwere Rüstung.
+    - Räumt Räume und bricht die Moral der Gegner.
+  </Card>
+</CardGrid>
+
+Die taktische Ebene umfasst auch Interaktionen mit der Umgebung. Das Ducken erhöht Ihre Präzision und Ihren Verteidigungswert erheblich, was es zu einer Pflichtaktion für jeden Charakter macht, der auf Fernkampf-Perks ausgelegt ist.
+
+| Waffentyp | AP-Kosten (Angriff) | Effektive Reichweite | Bester Einsatzzweck |
+| :--- | :--- | :--- | :--- |
+| **Schrotflinte** | 12 AP | Kurz | Gruppenbeseitigung, hoher Schaden |
+| **Pistole** | 6-8 AP | Mittel | Flexible Sekundärwaffe, Todesstoß |
+| **Armbrust** | 10 AP | Lang | Stealth, wiederverwendbare Munition |
+| **Nagelpistole** | 5 AP | Kurz | Schnelles Feuer, geringe Ressourcenkosten |
+| **Nahkampf (Stumpf)** | 7 AP | Nahbereich | Betäubungschance, kein Lärm |
+
+<Callout type="warning" title="Wichtige Warnung">
+Zombies werden von Lärm angezogen. Die Verwendung von Schusswaffen ohne Schalldämpfer erhöht die „Horden-Bedrohung“ an Ihrem aktuellen Standort rapide. Halten Sie immer einen Nahkampfspezialisten für lautlose Kills bereit.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Fortschritt und Basis-Management">
+
+Ihr Fortschritt in Urban Strife dreht sich nicht nur um das Aufleveln einzelner Personen; es geht um das Überleben Ihrer gesamten Kolonie. Wenn Sie Ihre Zuflucht verbessern, schalten Sie globale **Urban Strife Perks** frei, die allen Teammitgliedern Boni gewähren. Diese Upgrades erfordern bestimmte Ressourcen wie Holz, Metall, Chemikalien und Hightech-Teile, die Sie bei Plünderungstouren finden.
+
+<Steps>
+  <Step num="1" title="Sichern Sie das Funkgerät">
+    Finden Sie Professor Ford, um das Funkgerät zu reparieren. Dies ermöglicht die Kommunikation mit anderen Fraktionen und schaltet die Weltkarte frei.
+  </Step>
+  <Step num="2" title="Stromversorgung herstellen">
+    Bauen Sie einen Stromgenerator, um die Apotheke und die Werkstatt zu betreiben, die für fortgeschrittenes Handwerk unerlässlich sind.
+  </Step>
+  <Step num="3" title="Medizinische Infrastruktur">
+    Arbeiten Sie mit Lucy Lee zusammen, um die Klinik in Betrieb zu nehmen, was passive Heilungs-Perks und die Genesung von Verletzungen ermöglicht.
+  </Step>
+  <Step num="4" title="Fahrzeugrestaurierung">
+    Bauen Sie Autoteile in ein neues Fahrzeug ein, um die Reisezeit zu verkürzen und Ihren Plünderungsradius zu erweitern.
+  </Step>
+</Steps>
+
+Das Basis-Management erfordert auch die Abwägung zwischen Ihrer Überlebensbewertung und der wachsenden Bedrohung durch die Untoten. Eine höhere Überlebensbewertung zieht bessere Rekruten an, kann aber auch die Aufmerksamkeit plündernder Fraktionen wie Caesars Legion auf sich ziehen.
+
+<Callout type="info" title="Ressourcenmanagement">
+Achten Sie immer auf die „Uhrzeit“ in Ihrer Benutzeroberfläche. Missionen sind nachts erheblich schwieriger, da Crawler und andere Untote aktiver werden. Planen Sie Ihre Plünderungstouren so, dass sie vor Sonnenuntergang enden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überlebens-Checkliste und Fraktionsbeziehungen">
+
+Der Erfolg im Ödland des Jahres 2026 erfordert das Navigieren durch die komplexe Politik der Überlebenden-Fraktionen. Ihr Ruf bei Gruppen wie dem Urban Biker Charter oder der Nationalgarde kann einzigartige **Urban Strife Perks** freischalten, wie etwa Zugang zu militärischer Ausrüstung oder spezialisiertem Training.
+
+<Checklist
+  id="early-game-survival"
+  title="Wichtige Überlebensziele für 2026:"
+  items={[
+    "Säubern Sie die Adams-Villa für erste Ressourcen",
+    "Rüsten Sie alle Überlebenden mit mindestens einer Nahkampf-Backup-Waffe aus",
+    "Stellen Sie Bandagen aus Stofffetzen und Chemikalien her",
+    "Erreichen Sie den Status 'Neutral' beim Biker-Charter",
+    "Erhöhen Sie die Beweglichkeit der Charaktere, um 20+ AP zu erreichen"
+  ]}
+/>
+
+Die Pflege dieser Beziehungen ist ein Balanceakt. Wenn Sie einer Fraktion helfen, kann dies eine andere feindselig stimmen, was zu gefährlichen Begegnungen auf der Weltkarte führt.
+
+| Fraktion | Primärer Anführer | Status-Perks |
+| :--- | :--- | :--- |
+| **Urban Bikers** | The Prez | Fahrzeugteile, Treibstoffzugang |
+| **Church of Second Chance** | Unbekannt | Medizinische Vorräte, Moralschub |
+| **National Guard** | Commander | Hochwertige Schusswaffen, Rüstung |
+| **Caesar's Legion** | Verschiedene | Standardmäßig feindselig, Beutefokus |
+
+<Callout type="success" title="Erfolgreiche Strategie">
+Das Zerlegen ungenutzter Waffen (wie überflüssiger Schrotflinten) ist der schnellste Weg, um Waffenteile für die Herstellung von Visieren und Schalldämpfern zu erhalten. Verwenden Sie einen Werkzeugkasten, um die Ausbeute beim Zerlegen zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortgeschrittene taktische Tipps">
+
+Um das System der **Urban Strife Perks** wirklich zu meistern, müssen Sie über die grundlegenden Werte hinausblicken und die tieferen Mechaniken des Spiels nutzen. Flankieren, die Beeinflussung der Sichtlinie und gliedmaßenspezifische Verletzungen spielen im High-Level-Bereich eine gewaltige Rolle.
+
+- **Gliedmaßen-Zielerfassung**: Wenn ein Gegner eine gefährliche Waffe trägt, zielen Sie auf seine Arme, um seine Präzision zu verringern. Um einen Läufer zu stoppen, zielen Sie auf die Beine.
+- **Feldposten stapeln (Overwatch-Stacking)**: Positionieren Sie mehrere Charaktere im Feldposten-Modus so, dass sie einen einzigen Engpass abdecken, um eine „Todeszone“ zu schaffen, die ganze Plünderertrupps ausschalten kann.
+- **Handwerkseffizienz**: Nutzen Sie Billy Bow für die Herstellung von Nahkampfwaffen und Lucy Lee für medizinische Vorräte, um von ihren natürlichen Kompetenzboni zu profitieren.
+- **Inventartausch**: Sie können während des Kampfes Waffen zwischen Charakteren tauschen, wenn diese nebeneinander stehen. So können Sie sich sofort an veränderte Distanzen anpassen.
+
+| Taktische Aktion | AP-Kosten | Vorteil |
+| :--- | :--- | :--- |
+| **Ducken** | 2 AP | +Präzision, -Profil (schwerer zu treffen) |
+| **Rennen** | Variabel | Hohe Mobilität, hoher Lärm |
+| **Schleichen** | Variabel | Geringer Lärm, lautlose Kills |
+| **Nachladen** | 4-6 AP | Unerlässlich für Schusswaffen |
+| **Waffe wechseln** | 3 AP | Anpassung an die Reichweite |
+
+<Callout type="tip" title="Letzter Ratschlag">
+Hängen Sie sich nicht zu sehr an eine einzelne Waffe. Wenn Sie einen Gegner mit einer besseren Waffe eliminieren, heben Sie sie auf und benutzen Sie sie sofort. In Urban Strife ist die beste Ausrüstung oft die, die Sie gerade Ihrem Gegner abgenommen haben.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich mehr Urban Strife Perks für meine Charaktere frei?",
+    answer: "Perks werden freigeschaltet, indem Sie bei Stufenaufstiegen Attributpunkte ausgeben und bestimmte Fraktionsquests abschließen, die einzigartige Merkmale gewähren."
+  },
+  {
+    question: "Was ist das wichtigste Attribut für Anfänger?",
+    answer: "Beweglichkeit wird allgemein als das wichtigste Attribut angesehen, da es Ihre gesamten Aktionspunkte (AP) und Ihre Fähigkeit, Gegner zu unterbrechen, bestimmt."
+  },
+  {
+    question: "Kann ich die Perks und Attribute meines Charakters zurücksetzen?",
+    answer: "Derzeit sind Attributentscheidungen dauerhaft, aber Sie können die Rolle Ihres Charakters ändern, indem Sie seine Ausrüstung und Waffenspezialisierungen anpassen."
+  },
+  {
+    question: "Spielt die Tageszeit bei Missionen wirklich eine Rolle?",
+    answer: "Ja, im Jahr 2026 stärkt der Nachtzyklus die untoten Gegner erheblich, was das Schleichen erschwert und den Kampf weitaus gefährlicher macht."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "builds": "Builds",
+    "weapons": "Weapons",
+    "systems": "Systems",
+    "quests": "Quests",
+    "locations": "Locations",
+    "release": "Release",
+    "reviews": "Reviews"
+  }
+}

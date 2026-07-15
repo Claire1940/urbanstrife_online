@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Tips and Tricks: Survival & Tactical Combat Guide",
+  description: "Master Urban Strife with essential tips and tricks. Learn tactical combat, shelter upgrade priorities, faction choices, and character builds.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/dd322c/fff?text=Survival+Tips+and+Tricks",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Combat strategy**: Master the turn-based AP system, cover materials, and stealth mechanics to win engagements.
+- **Shelter priority**: Focus on stabilizing daily food, water, and power before expanding into advanced industries.
+- **Weapon choice**: Match the right tactical role to each encounter; use shotguns for hordes and rifles for human snipers.
+- **Faction alliances**: Build local reputation to unlock powerful faction-specific upgrades and late-game traders.
+- **Siege preparation**: Keep your gear repaired and defenses powered before the Day 20 Atlanta Horde assault.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Tips and Tricks for Beginners">
+
+Surviving the post-apocalyptic streets of Urban County requires a blend of tactical patience, careful resource management, and strategic foresight. In this guide, we cover the essential **urban strife tips and tricks** to help you establish a thriving militia, rebuild your home base, and survive the undead hordes. 
+
+When starting your campaign, focus on learning how to balance your inventory, keep your squad healthy, and avoid unnecessary firefights. Ammunition and medical supplies are scarce resources during the early hours, so learning when to fight quietly is just as important as knowing how to aim a rifle.
+
+| Early Objective | Primary Focus | Practical Benefit |
+| :--- | :--- | :--- |
+| **Tutorial Bridge** | Learn core movement, quick slots, and combat actions | Prevents basic tactical mistakes in early sectors |
+| **Destroy Spawners** | Locate and eliminate active zombie spawners quickly | Stops endless waves of undead from overwhelming your team |
+| **Shelter Notebook** | Review available upgrades and resource categories | Helps plan your immediate scavenging and building goals |
+| **Away Team Setup** | Combine ranged accuracy, quiet melee, and medicine | Ensures your squad can handle diverse threats safely |
+
+<Callout type="tip" title="Pro Tip">
+Always read the tutorial popups rather than closing them immediately. If you need to review a mechanic later, you can reopen completed help screens directly from the main HUD.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Combat and Action Point Mastery">
+
+Combat in this tactical RPG relies on simulated bullet trajectories, material penetration, and precise Action Point (AP) management. Whether you are fighting rival human factions or defending against a massive wave of zombies, positioning and noise control are the keys to victory.
+
+### Combat Mechanics Comparison
+
+| Tactical Element | Combat Application | Key Limitations |
+| :--- | :--- | :--- |
+| **Action Points (AP)** | Dictates movement, attacks, and item usage | Running out of AP in the open leaves characters vulnerable |
+| **Stealth & Noise** | Uses melee and crossbows to prevent alerting groups | Fails instantly if a loud firearm is discharged |
+| **Overwatch (Y)** | Sets up reaction attacks during the enemy turn | Firing lanes can be blocked by moving teammates |
+| **Body-Part Targeting** | Selects heads for damage or limbs to cripple targets | Headshots have significantly lower base hit chances |
+
+<CardGrid cols={3}>
+  <Card title="Human Combat Tactics">
+    - **Use flanking maneuvers** to bypass enemy cover angles.
+    - **Leverage high-caliber rifles** to penetrate thin wooden walls.
+    - **Keep frontline fighters protected** with repaired body armor.
+  </Card>
+  <Card title="Zombie Horde Defense">
+    - **Funnel groups into choke points** like narrow doorways.
+    - **Equip shotguns and automatic weapons** for crowd control.
+    - **Deploy Molotov cocktails** to block advancing paths with fire.
+  </Card>
+  <Card title="General Positioning">
+    - **Always end turns in cover** to reduce enemy hit chances.
+    - **Crouch behind heavy objects** like car engine blocks.
+    - **Seek high ground** to increase range and accuracy modifiers.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warning">
+Ballistic plates absorb heavy damage but decay quickly when hit. Unlike standard body armor, these plates are expendable and cannot be repaired once ruined.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Survivor Development and Specialist Builds">
+
+Your squad members grow stronger by performing actions in the field. Repeatedly firing weapons, sneaking, or treating wounds directly improves the corresponding attributes. To build an efficient team, assign specific roles to your survivors and let their field experience reinforce their strengths.
+
+<Steps>
+  <Step num="1" title="Identify Native Perks">
+    Check each recruit's biography, native perks, and unique defining traits. Two survivors might fill the same role but excel in different situations based on their backgrounds.
+  </Step>
+  <Step num="2" title="Train Attributes through Actions">
+    Have your designated shooter make ranged attacks, let your medic apply all healing items, and keep your stealth scout crouching to naturally grow their core attributes.
+  </Step>
+  <Step num="3" title="Select Matching Profession Perks">
+    Use the three-tier profession perk system to reinforce your survivor's primary job. Avoid forcing a utility specialist with high crafting skills into a pure frontline combat role.
+  </Step>
+</Steps>
+
+| Specialist Role | Core Attributes | Primary Field Responsibility |
+| :--- | :--- | :--- |
+| **Ranged Shooter** | Marksmanship, Agility | Securing Overwatch lanes and removing high-value targets |
+| **Melee Fighter** | Strength, Dexterity, Endurance | Conserving ammunition and executing silent takedowns |
+| **Stealth Scout** | Agility, Dexterity | Spotting enemy positions and setting up quiet ambushes |
+| **Combat Medic** | Dexterity, Intelligence, Endurance | Keeping injured fighters operational under heavy pressure |
+
+<Callout type="info" title="Note">
+Intelligence is a highly valuable attribute because it increases the overall progression speed of all other attributes and unlocks unique dialogue options.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Shelter Upgrades and Crafting Priorities">
+
+The Shelter serves as your operational base and the ultimate test of your survival strategy. Upgrading your facilities in a logical order ensures your community remains fed, healthy, and well-defended before the final campaign siege.
+
+### Shelter Upgrade Path
+
+| Phase | Priority | Facility Focus | Strategic Purpose |
+| :--- | :--- | :--- | :--- |
+| **1. Stabilize** | Immediate | Food, water, fuel, and power | Prevents daily resource decay and keeps facilities running |
+| **2. Restore** | High | Radio, hospital, workshop, barracks | Unlocks core campaign progression and squad healing |
+| **3. Produce** | High | Gardens, hydroponics, rat farms | Reduces reliance on scavenging trips for basic food |
+| **4. Armory** | Medium | Retooled workshop, gunsmith bench | Enables ammo crafting, weapon repairs, and attachments |
+| **5. Defense** | Late Game | Fortifications, powered fences, solar | Prepares the physical base for the Day 20 horde assault |
+
+<Callout type="success" title="Success">
+You can craft items directly using resources stored in your base stash or nearby loot containers, which eliminates the need to manually shuffle items in your inventory.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Faction Relations and County Exploration">
+
+Three major factions vie for control of Urban County: the National Guard (Rogue Army Garrison), the Church of Second Chance, and the Shady Lady Bikers. Your reputation with these groups changes how traders treat you, which recruits will join your cause, and who will stand with you during the finale.
+
+<Checklist
+  id="faction-goals"
+  title="Faction and Campaign Milestones:"
+  items={[
+    "Complete local quests to build reputation with your chosen faction",
+    "Secure enough political support and votes to enter faction headquarters",
+    "Unlock advanced Tier 3 traders and faction-specific vehicle upgrades",
+    "Establish a formal alliance to lock in your endgame support branch",
+    "Monitor roaming undead hordes on the county map to protect friendly sectors"
+  ]}
+/>
+
+<Callout type="warning" title="Endgame Warning">
+Accepting a formal alliance with one faction will permanently lock out the upgrade paths and support systems of their rivals. Choose your allies carefully before the final conflict.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the best urban strife tips and tricks for conserving ammunition?",
+    answer: "Use melee weapons, crossbows, or suppressed pistols to eliminate isolated zombies silently. Save expensive shotgun shells, automatic burst fire, and high-caliber rifle rounds for grouped human enemies or large hordes that threaten your squad."
+  },
+  {
+    question: "How do I repair damaged weapons and body armor?",
+    answer: "Once you unlock Owen's repair operation at the Shelter, you can restore weapon and armor durability using parts salvaged from duplicate or unwanted gear. Note that expendable ballistic plates cannot be repaired."
+  },
+  {
+    question: "What happens if a settlement falls to a roaming undead horde?",
+    answer: "If you fail to defend a settlement, it can be permanently lost, and the residents may return as powerful, armored undead enemies. Additionally, fallen settlements generate more roaming hordes that spread across the county map."
+  },
+  {
+    question: "When does the final Atlanta Horde siege occur?",
+    answer: "The final siege is scheduled for Day 20 of your campaign. The radio will broadcast a warning 24 in-game hours before the assault begins, giving you a final window to return to the Shelter, power up your defenses, and repair your combat gear."
+  }
+]} />
+
+</Section>

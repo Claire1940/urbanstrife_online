@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Bester Urban Strife Build: Charakter-Fortschritts-Leitfaden 2026",
+  description: "Meistere die besten Builds in Urban Strife. Erfahre mehr über die optimale Attributverteilung, das Skill-Wachstum und die Berufsvorteile für deine Überlebenden in der Version 1.0 von 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/881313/fff?text=Urban+Strife+Builds",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Die Planung des **besten Urban Strife Builds** erfordert eine frühzeitige Konzentration auf bestimmte Attribute, um mächtige Berufsvorteile von Rang 3 freizuschalten.
+- Eine **rollenbasierte Spezialisierung** ist unerlässlich; vermeide es, Punkte zu dünn auf unwichtige Kampf- und Hilfswerte zu verteilen.
+- **Lernen durch Handeln** bedeutet, dass sich deine Überlebenden durch wiederholte Aktionen verbessern. Weise ihnen daher feste Rollen auf dem Schlachtfeld zu.
+- Die **Auswahl der Vorteile (Perks)** sollte die angeborenen Eigenschaften deines Charakters verstärken, um hocheffiziente Kampf- oder Unterstützungseinheiten zu schaffen.
+- Die **Unterschlupf-Synergie** ist von entscheidender Bedeutung, um sicherzustellen, dass deine bestens ausgerüsteten Charaktere über die Ausrüstung und Munition verfügen, um lange Expeditionen zu überstehen.
+</Callout>
+
+<Section icon={Swords} title="Charaktereigenschaften verstehen">
+
+In Urban Strife wird die Effektivität deines Builds von sechs Kernattributen bestimmt. Diese Attribute entscheiden über deinen Erfolg im Kampf, in Dialogen und beim Ressourcenmanagement. Anstatt zu versuchen, ein „Tausendsassa“ zu sein, solltest du deine Überlebenden auf eine Hauptrolle konzentrieren.
+
+| Attribut | Vorteil für die Hauptrolle | Wichtige Interaktion |
+| :--- | :--- | :--- |
+| **Treffsicherheit** | Erhöht die Fernkampfpräzision | Beeinflusst alle Schüsse mit Schusswaffen und Armbrüsten |
+| **Stärke** | Erhöht die Traglast und den Nahkampfschaden | Ermöglicht Einschüchterungsoptionen im Dialog |
+| **Beweglichkeit** | Verbessert Bewegungs-AP und Unterbrechungschance | Entscheidend für Schleichen und Nahkampfausweichen |
+| **Geschicklichkeit** | Senkt die AP-Kosten für die Gegenstandsverwendung | Lebenswichtig für Sanitäter und Hilfsspezialisten |
+| **Intelligenz** | Beschleunigt das Attributwachstum | Schaltet einzigartige Questlösungen frei |
+| **Ausdauer** | Erhöht max. LP und Ausdauer | Unerlässlich für alle Überlebenden an der Front |
+
+<Callout type="tip" title="Profi-Tipp">
+Verbinde dein Attributwachstum immer mit beständiger Übung. Wenn du möchtest, dass ein Charakter ein Meisterschütze wird, priorisiere Treffsicherheit und stelle sicher, dass er in jedem Gefecht die Gewehre führt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimale rollenbasierte Builds">
+
+Der Aufbau einer ausgewogenen Truppe ist der Schlüssel zum Überleben der Atlanta-Horde. Nutze diese etablierten Rollen, um deine Rekruten effektiv zuzuweisen.
+
+<CardGrid cols={3}>
+  <Card title="Fernkämpfer">
+    - **Attribute**: Treffsicherheit, Beweglichkeit
+    - **Fokus**: Overwatch-Bereiche, Prioritätsziele
+    - **Beste Waffe**: Scharfschützen- oder Jagdgewehr
+  </Card>
+  <Card title="Nahkämpfer">
+    - **Attribute**: Stärke, Ausdauer
+    - **Fokus**: Schutz anfälliger Verbündeter, Gruppenkontrolle
+    - **Beste Waffe**: Klingen- oder Hiebwaffen
+  </Card>
+  <Card title="Kampfsanitäter">
+    - **Attribute**: Geschicklichkeit, Intelligenz
+    - **Fokus**: Heilung, Notfallunterstützung
+    - **Beste Waffe**: Schalldämpfer-Seitenwaffe
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Build-Strategie">
+Deine Rekruten besitzen einzigartige angeborene Eigenschaften. Überprüfe diese immer, bevor du einen Build fertigstellst, da sie erhebliche Boni bieten können, die bestimmte Berufsvorteile ergänzen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Berufsvorteile und Fortschritt">
+
+Version 1.0 hat ein überarbeitetes Vorteilssystem eingeführt, bei dem die Fähigkeiten in drei Ränge unterteilt sind. Sobald sie freigeschaltet sind, kannst du die Vorteile frei wählen, um deinen Build zu verfeinern.
+
+| Rang | Voraussetzung | Strategischer Fokus |
+| :--- | :--- | :--- |
+| **Rang 1** | Freischaltungen im frühen Spiel | Grundlegende Kampfeffizienz und Überleben |
+| **Rang 2** | Fortschritt im Mittleren Spiel | Spezialisierte Rollenleistung |
+| **Rang 3** | Meisterschaft im späten Spiel | Spielentscheidende taktische Vorteile |
+
+<Steps>
+  <Step num="1" title="Die Rolle bestimmen">
+    Wähle einen Überlebenden und bestimme seine primäre Aufgabe auf dem Schlachtfeld (z. B. Späher, Sanitäter oder schwerer Schütze).
+  </Step>
+  <Step num="2" title="Attribute fokussieren">
+    Investiere frühe Punkte in die beiden Kernattribute, die für diese Rolle erforderlich sind, um die Effizienz zu maximieren.
+  </Step>
+  <Step num="3" title="Passende Vorteile wählen">
+    Wähle Berufsvorteile, die direkt die Waffen oder Aktionen verbessern, die dieser Überlebende am häufigsten nutzt.
+  </Step>
+  <Step num="4" title="Ausrüstung warten">
+    Nutze das Reparatursystem des Unterschlupfs, um die spezifische Ausrüstung für diesen Build in bestem Zustand zu halten.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Wichtig">
+Vernachlässige bei deinen Hauptkämpfern nicht die Ausdauer. Selbst die besten Schützen fallen schnell um, wenn ihnen die LP fehlen, um einen einzigen Fehler im Kampf gegen eine Zombiehorde zu überleben.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschrittsmeilensteine">
+
+<Checklist
+  id="build-milestones"
+  title="Checkliste für den Build-Fortschritt:"
+  items={[
+    "Jedem aktiven Truppmitglied eine feste Rolle zuweisen",
+    "Vorteile von Rang 2 für alle primären Außeneinsatz-Überlebenden erreichen",
+    "Eine Elite-Waffe für deinen Hauptschützen sichern",
+    "Eine stetige Versorgung mit Ersatzteilen im Unterschlupf sicherstellen",
+    "Fraktionsspezifisches Training für fortgeschrittene Fähigkeiten abschließen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Was ist der beste Urban Strife Build für Anfänger?",
+    answer: "Konzentriere dich auf eine ausgewogene Truppe mit mindestens einem engagierten Fernkämpfer und einem Nahkämpfer. Priorisiere frühzeitig Ausdauer und Treffsicherheit, um sicherzustellen, dass deine Überlebenden etwas einstecken und präzise zurückschlagen können."
+  },
+  {
+    question: "Kann ich den Build meines Charakters zurücksetzen?",
+    answer: "Obwohl du deinen Build durch die Auswahl von Vorteilen und Attributwachstum verfeinern kannst, solltest du dich auf eine beständige Rollenleistung konzentrieren, um die besten Ergebnisse zu erzielen. Das Spiel belohnt die frühe Spezialisierung deiner Überlebenden."
+  },
+  {
+    question: "Wie verbessere ich die Präzision meines Schützen?",
+    answer: "Erhöhe das Attribut Treffsicherheit und suche nach Waffenaufsätzen in der Werkstatt des Unterschlupfs. Schüsse mit hoher Trefferwahrscheinlichkeit sind riskanten Kopfschüssen aus großer Entfernung immer vorzuziehen."
+  }
+]} />
+
+</Section>

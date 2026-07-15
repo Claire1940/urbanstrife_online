@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conseils et astuces Urban Strife : Guide de survie et de combat tactique",
+  description: "Maîtrisez Urban Strife grâce à ces conseils et astuces essentiels. Apprenez le combat tactique, les priorités d'amélioration de l'abri, le choix des factions et les builds de personnages.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/dd322c/fff?text=Survival+Tips+and+Tricks",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "Urban Strife, conseils, astuces, guide de survie, combat tactique, gestion d'abri"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Stratégie de combat** : Maîtrisez le système de PA au tour par tour, les matériaux de couverture et la discrétion pour remporter les affrontements.
+- **Priorité de l'abri** : Concentrez-vous sur la stabilisation de la nourriture, de l'eau et de l'énergie avant de vous étendre vers les industries avancées.
+- **Choix des armes** : Adaptez le rôle tactique à chaque rencontre ; utilisez des fusils à pompe pour les hordes et des fusils de précision pour les tireurs humains.
+- **Alliances de factions** : Développez votre réputation locale pour débloquer des améliorations puissantes spécifiques aux factions et accéder aux marchands de fin de partie.
+- **Préparation du siège** : Maintenez votre équipement réparé et vos défenses alimentées avant l'assaut de la Horde d'Atlanta au jour 20.
+</Callout>
+
+<Section icon={Map} title="Conseils et astuces Urban Strife pour les débutants">
+
+Survivre dans les rues post-apocalyptiques d'Urban County nécessite un mélange de patience tactique, de gestion rigoureuse des ressources et de prévoyance stratégique. Dans ce guide, nous couvrons les **conseils et astuces essentiels d'Urban Strife** pour vous aider à établir une milice prospère, à reconstruire votre base et à survivre aux hordes de morts-vivants.
+
+Au début de votre campagne, concentrez-vous sur l'apprentissage de l'équilibre de votre inventaire, le maintien de la santé de votre escouade et l'évitement des fusillades inutiles. Les munitions et les fournitures médicales sont des ressources rares durant les premières heures, il est donc tout aussi important d'apprendre quand combattre discrètement que de savoir viser avec un fusil.
+
+| Objectif de début | Focus principal | Bénéfice pratique |
+| :--- | :--- | :--- |
+| **Pont du tutoriel** | Apprendre les mouvements de base, les emplacements rapides et les actions de combat | Évite les erreurs tactiques de base dans les premiers secteurs |
+| **Détruire les nids** | Localiser et éliminer rapidement les points d'apparition de zombies actifs | Empêche les vagues infinies de morts-vivants de submerger votre équipe |
+| **Carnet de l'abri** | Examiner les améliorations disponibles et les catégories de ressources | Aide à planifier vos objectifs immédiats de collecte et de construction |
+| **Équipe d'expédition** | Combiner précision à distance, combat au corps à corps silencieux et médecine | Garantit que votre escouade peut gérer diverses menaces en toute sécurité |
+
+<Callout type="tip" title="Conseil de Pro">
+Lisez toujours les fenêtres contextuelles du tutoriel plutôt que de les fermer immédiatement. Si vous avez besoin de revoir une mécanique plus tard, vous pouvez rouvrir les écrans d'aide terminés directement depuis l'interface principale.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtrise du combat tactique et des points d'action">
+
+Le combat dans ce RPG tactique repose sur des trajectoires de balles simulées, la pénétration des matériaux et une gestion précise des Points d'Action (PA). Que vous combattiez des factions humaines rivales ou que vous vous défendiez contre une vague massive de zombies, le positionnement et le contrôle du bruit sont les clés de la victoire.
+
+### Comparaison des mécaniques de combat
+
+| Élément tactique | Application en combat | Limitations clés |
+| :--- | :--- | :--- |
+| **Points d'Action (PA)** | Dicte les mouvements, les attaques et l'utilisation d'objets | Tomber à court de PA à découvert laisse les personnages vulnérables |
+| **Discrétion et Bruit** | Utilise le corps à corps et les arbalètes pour éviter d'alerter les groupes | Échoue instantanément si une arme à feu bruyante est déchargée |
+| **Vigilance (Y)** | Prépare des attaques de réaction pendant le tour de l'ennemi | Les lignes de tir peuvent être bloquées par le mouvement des coéquipiers |
+| **Ciblage de parties du corps** | Sélectionne la tête pour les dégâts ou les membres pour estropier les cibles | Les tirs à la tête ont des chances de toucher de base nettement plus faibles |
+
+<CardGrid cols={3}>
+  <Card title="Tactiques contre les humains">
+    - **Utilisez des manœuvres de flanc** pour contourner les angles de couverture ennemis.
+    - **Exploitez les fusils de gros calibre** pour pénétrer les parois en bois minces.
+    - **Protégez vos combattants de première ligne** avec des gilets pare-balles réparés.
+  </Card>
+  <Card title="Défense contre les hordes">
+    - **Canalisez les groupes vers des points de passage étroits** comme des portes.
+    - **Équipez des fusils à pompe et des armes automatiques** pour le contrôle de foule.
+    - **Déployez des cocktails Molotov** pour bloquer les chemins de progression avec du feu.
+  </Card>
+  <Card title="Positionnement général">
+    - **Terminez toujours vos tours à couvert** pour réduire les chances d'être touché.
+    - **Accroupissez-vous derrière des objets lourds** comme des blocs moteurs de voitures.
+    - **Cherchez les hauteurs** pour augmenter la portée et les modificateurs de précision.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement">
+Les plaques balistiques absorbent des dégâts lourds mais se dégradent rapidement lorsqu'elles sont touchées. Contrairement aux armures standard, ces plaques sont consommables et ne peuvent pas être réparées une fois détruites.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Développement des survivants et spécialisations">
+
+Les membres de votre escouade deviennent plus forts en effectuant des actions sur le terrain. Tirer à plusieurs reprises, se faufiler ou soigner des blessures améliore directement les attributs correspondants. Pour constituer une équipe efficace, attribuez des rôles spécifiques à vos survivants et laissez leur expérience de terrain renforcer leurs points forts.
+
+<Steps>
+  <Step num="1" title="Identifier les atouts natifs">
+    Consultez la biographie de chaque recrue, ses atouts natifs et ses traits uniques. Deux survivants peuvent remplir le même rôle mais exceller dans des situations différentes selon leur passé.
+  </Step>
+  <Step num="2" title="Entraîner les attributs par l'action">
+    Faites attaquer à distance votre tireur désigné, laissez votre médecin utiliser tous les objets de soin, et gardez votre éclaireur accroupi pour développer naturellement leurs attributs de base.
+  </Step>
+  <Step num="3" title="Sélectionner les atouts de profession adaptés">
+    Utilisez le système d'atouts de profession à trois niveaux pour renforcer le métier principal de votre survivant. Évitez de forcer un spécialiste utilitaire ayant de hautes compétences en artisanat dans un rôle de pur combat de première ligne.
+  </Step>
+</Steps>
+
+| Rôle de spécialiste | Attributs clés | Responsabilité principale sur le terrain |
+| :--- | :--- | :--- |
+| **Tireur à distance** | Tir, Agilité | Sécuriser les lignes de vigilance et éliminer les cibles prioritaires |
+| **Combattant au corps à corps** | Force, Dextérité, Endurance | Économiser les munitions et effectuer des éliminations silencieuses |
+| **Éclaireur discret** | Agilité, Dextérité | Repérer les positions ennemies et préparer des embuscades silencieuses |
+| **Médecin de combat** | Dextérité, Intelligence, Endurance | Maintenir les combattants blessés opérationnels sous forte pression |
+
+<Callout type="info" title="Note">
+L'intelligence est un attribut très précieux car elle augmente la vitesse de progression globale de tous les autres attributs et débloque des options de dialogue uniques.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Améliorations de l'abri et priorités d'artisanat">
+
+L'abri sert de base opérationnelle et constitue le test ultime de votre stratégie de survie. Améliorer vos installations dans un ordre logique garantit que votre communauté reste nourrie, en bonne santé et bien défendue avant le siège final de la campagne.
+
+### Ordre d'amélioration de l'abri
+
+| Phase | Priorité | Focus installation | Objectif stratégique |
+| :--- | :--- | :--- | :--- |
+| **1. Stabiliser** | Immédiate | Nourriture, eau, carburant et énergie | Empêche la perte quotidienne de ressources et fait fonctionner les installations |
+| **2. Restaurer** | Haute | Radio, hôpital, atelier, caserne | Débloque la progression de la campagne et le soin de l'escouade |
+| **3. Produire** | Haute | Jardins, hydroponie, élevage de rats | Réduit la dépendance aux expéditions pour la nourriture de base |
+| **4. Armurerie** | Moyenne | Atelier réoutillé, banc d'armurier | Permet la fabrication de munitions, les réparations et les accessoires |
+| **5. Défense** | Fin de partie | Fortifications, clôtures électrifiées, solaire | Prépare la base physique pour l'assaut de la horde du jour 20 |
+
+<Callout type="success" title="Succès">
+Vous pouvez fabriquer des objets en utilisant directement les ressources stockées dans votre réserve de base ou dans les conteneurs de butin à proximité, ce qui élimine le besoin de déplacer manuellement les objets dans votre inventaire.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Relations avec les factions et exploration du comté">
+
+Trois factions majeures se disputent le contrôle d'Urban County : la Garde Nationale (Garnison de l'Armée Rebelle), l'Église de la Seconde Chance et les Shady Lady Bikers. Votre réputation auprès de ces groupes modifie la façon dont les marchands vous traitent, les recrues qui rejoindront votre cause et qui se tiendra à vos côtés lors du final.
+
+<Checklist
+  id="faction-goals"
+  title="Jalons des factions et de la campagne :"
+  items={[
+    "Terminez les quêtes locales pour augmenter votre réputation auprès de la faction choisie",
+    "Obtenez suffisamment de soutien politique et de votes pour entrer dans les quartiers généraux des factions",
+    "Débloquez les marchands avancés de niveau 3 et les améliorations de véhicules spécifiques aux factions",
+    "Établissez une alliance formelle pour verrouiller votre branche de soutien de fin de partie",
+    "Surveillez les hordes de morts-vivants errantes sur la carte du comté pour protéger les secteurs alliés"
+  ]}
+/>
+
+<Callout type="warning" title="Avertissement de fin de partie">
+Accepter une alliance formelle avec une faction verrouillera définitivement les voies d'amélioration et les systèmes de soutien de ses rivaux. Choisissez vos alliés avec soin avant le conflit final.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quels sont les meilleurs conseils d'Urban Strife pour économiser les munitions ?",
+    answer: "Utilisez des armes de mêlée, des arbalètes ou des pistolets avec silencieux pour éliminer discrètement les zombies isolés. Réservez les cartouches de fusil à pompe coûteuses, le tir en rafale automatique et les munitions de gros calibre pour les groupes d'ennemis humains ou les grandes hordes qui menacent votre escouade."
+  },
+  {
+    question: "Comment réparer les armes et les gilets pare-balles endommagés ?",
+    answer: "Une fois que vous avez débloqué l'opération de réparation d'Owen à l'abri, vous pouvez restaurer la durabilité des armes et armures en utilisant des pièces récupérées sur du matériel en double ou indésirable. Notez que les plaques balistiques consommables ne peuvent pas être réparées."
+  },
+  {
+    question: "Que se passe-t-il si une colonie tombe aux mains d'une horde errante ?",
+    answer: "Si vous ne parvenez pas à défendre une colonie, elle peut être définitivement perdue, et les résidents peuvent revenir sous forme de puissants morts-vivants en armure. De plus, les colonies déchues génèrent davantage de hordes errantes qui se propagent sur la carte du comté."
+  },
+  {
+    question: "Quand le siège final de la Horde d'Atlanta a-t-il lieu ?",
+    answer: "Le siège final est prévu pour le jour 20 de votre campagne. La radio diffusera un avertissement 24 heures (temps de jeu) avant le début de l'assaut, vous offrant une dernière fenêtre pour retourner à l'abri, alimenter vos défenses et réparer votre équipement de combat."
+  }
+]} />
+
+</Section>

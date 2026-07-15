@@ -1,0 +1,246 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HeartPulse, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Full Release: 2026 Leitfaden zu Fraktionen & Kampf",
+  description: "Meistern Sie den Full Release von Urban Strife. Erkunden Sie unseren umfassenden Walkthrough zu taktischem Kampf, Zufluchts-Upgrades, Waffen und Fraktionsentscheidungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a24/dd322c?text=Urban+Strife+Full+Release",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team",
+  keywords: "Urban Strife, Full Release, Guide, Kampf, Fraktionen, Überleben, Taktik"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Urban Strife Full Release**: Version 1.0 wurde offiziell am **14. Juli 2026** veröffentlicht. Sie schließt die Handlung um die Atlanta-Horde ab und führt umfassend überarbeitete Mechaniken ein.
+- **Taktischer Kampf**: Meistern Sie Aktionspunkte (AP), simulierte Ballistik, Deckungsmaterialien und Tarnmechaniken, um gegen menschliche und zombieartige Bedrohungen zu bestehen.
+- **Zufluchts-Upgrades**: Priorisieren Sie Ressourcenspenden, die Reparatur des Stadtradios und die Lebensmittelproduktion vor der Belagerungswarnung an Tag 20.
+- **Fraktionsbündnisse**: Schließen Sie sich der Nationalgarde, der Church of Second Chance oder den Shady Lady Bikers an, um exklusive Baupläne und Fahrzeuge freizuschalten.
+- **Überlebensökonomie**: Verwerten Sie doppelte Ausrüstung in Waffenteile für Reparaturen, da ballistische Schutzplatten dauerhaft verschleißen.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Full Release: Übersicht und PC-Specs">
+
+Der **Full Release von Urban Strife** erschien am **14. Juli 2026**, nach neunzehn Monaten im Steam Early Access. Dieser Meilenstein vervollständigt die postapokalyptische Erzählung und führt die finale Verteidigung der städtischen Zuflucht gegen die verheerende Atlanta-Horde ein. Version 1.0 bringt bedeutende mechanische Überarbeitungen mit sich, darunter ein neu gestaltetes dreistufiges Berufsvorteil-System, realistischen Ausrüstungsverschleiß und dedizierte Fahrzeugunterstützung.
+
+| Merkmal | Spezifikation | Details |
+|---|---|---|
+| **Veröffentlichungsdatum** | 14. Juli 2026 | Erreichte Version 1.0 nach dem Early-Access-Debüt am 10. Dez. 2024. |
+| **Standardpreis** | 34,99 USD | Regionale Preisgestaltung; Start mit 30 % Rabatt (24,49 USD) bis zum 21. Juli 2026. |
+| **Plattformen** | Windows PC | Verfügbar auf Steam mit Cloud-Speicherung, Workshop und Familienbibliothek. |
+| **Sprachen** | 6 unterstützt | Englisch (vollständige Audioausgabe), Französisch, Deutsch, Spanisch, Russisch und Vereinfachtes Chinesisch. |
+| **Neue Systeme** | Reparaturen & Perks | Überarbeitete Berufsvorteile und Owens Reparaturbetrieb. |
+
+<Callout type="tip" title="Hinweis zur Speicherkompatibilität">
+Obwohl Early-Access-Speicherstände technisch mit der Version 1.0 kompatibel bleiben, wird dringend empfohlen, eine neue Kampagne zu starten. Nur so erleben Sie den neu ausbalancierten Questverlauf, die aktualisierte Verteilung der Baupläne und die neuen Perk-Strukturen optimal.
+</Callout>
+
+Um das Spiel reibungslos auszuführen, stellen Sie sicher, dass Ihr System die offiziellen Hardwareanforderungen erfüllt:
+
+| Anforderungskategorie | Mindestanforderungen | Empfohlene Anforderungen |
+|---|---|---|
+| **Betriebssystem** | Windows 10 64-bit | Windows 10 64-bit |
+| **Prozessor** | Intel Core i5-4690 / AMD FX-8350 | Intel Core i7-8700K / AMD Ryzen 5 3600 |
+| **Arbeitsspeicher** | 16 GB RAM | 16 GB RAM (SSD empfohlen) |
+| **Grafikkarte** | NVIDIA GTX 970 / AMD RX 480 (4GB VRAM) | NVIDIA RTX 2060 Super / AMD RX 5700 XT (8GB VRAM) |
+| **DirectX & Speicher** | Version 11, 20 GB verfügbarer Platz | Version 11, 20 GB verfügbarer Platz |
+
+</Section>
+
+<Section icon={Target} title="Einsteiger-Leitfaden: Die ersten Stunden überleben">
+
+Das Überleben in den ersten Stunden des **Urban Strife Full Release** erfordert sorgfältiges Ressourcenmanagement und ein solides Verständnis der Erkundungszyklen. Betrachten Sie nicht jede Begegnung als offenes Feuergefecht. Munition und Medizin sind knapp, und frühe Fehler können Ihren Fortschritt massiv behindern.
+
+<Callout type="warning" title="Warnung zu Munition und Medizin">
+Das Abfeuern von Waffen ohne Schalldämpfer lockt umherwandernde Zombies in der Nähe an. Versuchen Sie stets, isolierte Begegnungen lautlos mit Nahkampfwaffen oder Armbrüsten zu lösen, um kostbare Munition zu sparen.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Brücken-Tutorial abschließen">
+    Beginnen Sie die Kampagne mit der Erstellung Ihres Charakters. Schließen Sie die Flucht aus dem CDC-Labor und das Brücken-Tutorial ab. Lernen Sie das Layout der Schnellzugriffsleiste, das Ausrüstungsmanagement und die Zerstörung von Zombie-Spawnern.
+  </Step>
+  <Step num="2" title="Städtische Zuflucht inspizieren">
+    Bevor Sie zu Ihrer ersten Expedition aufbrechen, prüfen Sie das Zufluchts-Notizbuch. Machen Sie sich mit dem Basislager, den aktuellen Treibstoff-/Energieständen und den verschiedenen beschädigten Einrichtungen im Stadtzentrum vertraut.
+  </Step>
+  <Step num="3" title="Ein ausgewogenes Team zusammenstellen">
+    Wählen Sie Überlebende aus, die sich gegenseitig ergänzen. Ein zuverlässiges Team für den Spielbeginn besteht aus einem Fernkämpfer, einem Spezialisten für lautlosen Nahkampf/Tarnung und einem dedizierten Sanitäter mit Verbänden.
+  </Step>
+  <Step num="4" title="Nahegelegene Vorstadtsektoren säubern">
+    Konzentrieren Sie sich zuerst auf Vorstadtzonen mit niedrigem Schwierigkeitsgrad rund um die Zuflucht. Sichern Sie Container und kehren Sie mit Nahrung, Medizin und Baumaterialien zurück, anstatt tief in Fraktionsterritorien vorzudringen.
+  </Step>
+  <Step num="5" title="Verwerten und Reparieren">
+    Bringen Sie überschüssige Waffen und Rüstungen zurück zur Zuflucht. Verwerten Sie kaputte Duplikate, um Rohmaterialien für Waffenteile zu erhalten. Sobald Owens Reparaturwerkstatt aktiv ist, nutzen Sie diese Teile zur Instandsetzung Ihrer Hauptausrüstung.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Taktischer Kampf, Overwatch und Steuerung">
+
+Der Kampf in Urban Strife ist rundenbasiert und wird durch simulierte Flugbahnen, Materialdurchdringung und dynamische Lärmreichweiten bestimmt. Zu verstehen, wie man Aktionspunkte (AP) und Deckungsmaterialien manipuliert, entscheidet über einen leichten Sieg oder die Auslöschung des Teams.
+
+<CardGrid cols={3}>
+  <Card title="AP-Management">
+    Jeder Schritt, jedes Nachladen und jeder Angriff kostet Aktionspunkte. Prüfen Sie vorab Ihr Bewegungsziel, um sicherzustellen, dass genügend AP für einen Schuss oder den Overwatch-Modus verbleiben.
+  </Card>
+  <Card title="Materialdurchdringung">
+    Deckung ist zerstörbar und durchdringbar. Ein Motorblock stoppt großkalibrige Geschosse, während dünne Holzzäune von Jagdgewehren leicht durchschlagen werden können.
+  </Card>
+  <Card title="Tarnung und Lärm">
+    Dynamische Sichtkegel und Schallwellen bestimmen die Aufmerksamkeit der Feinde. Das Ducken hinter niedrigen Mauern verringert Ihr Entdeckungsprofil und ermöglicht Hinterhalte mit hohem Schaden.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Kampfsteuerung und Tastenkürzel">
+Nutzen Sie diese wichtigen Tastenkürzel, um den taktischen Kampf zu optimieren:
+- Drücken Sie **X**, um zwischen aktiver Primär- und Sekundärwaffe zu wechseln.
+- Drücken Sie **F**, um durch die verfügbaren Feuermodi (Einzel, Feuerstoß, Auto) zu schalten.
+- Drücken Sie **Y**, um sofort einen Overwatch-Kegel in eine bestimmte Richtung zu setzen.
+- Drücken Sie **0**, um das gesamte Team für Gruppenbewegungen außerhalb des Kampfes auszuwählen.
+</Callout>
+
+Flankieren Sie menschliche Gegner, um deren Deckungsboni zu umgehen. Ziehen Sie sich bei Zombiehorden in enge Engpässe zurück und nutzen Sie Schrotflinten, automatisches Feuer und Molotowcocktails, um die Menge zu kontrollieren, bevor sie Ihre Kämpfer umzingelt.
+
+</Section>
+
+<Section icon={Sparkles} title="Waffen- und Ausrüstungs-Tier-Liste">
+
+Der **Full Release von Urban Strife** bietet ein robustes Arsenal, das auf spezifische taktische Rollen zugeschnitten ist. Keine Waffe ist für jede Situation perfekt. Sie müssen Schaden, Reichweite, Lärmpegel und AP-Kosten abwägen.
+
+| Rang | Taktische Rolle | Waffenklassen | Hauptstärken | Einschränkungen |
+|---|---|---|---|---|
+| **S** | Hordenkontrolle | Schrotflinten, MGs, Granaten | Hohe Streuung im Nahkampf, hoher Schaden gegen mehrere Ziele. | Extrem laut, hoher Munitionsverbrauch. |
+| **S** | Langstrecken-Scharfschütze | Jagdgewehre, Präzisionsgewehre, .50 BMG | Außergewöhnlicher Einzelschaden, hohe Rüstungsdurchdringung. | Hohe AP-Kosten pro Schuss, ineffizient im Nahkampf. |
+| **A** | Lautlose Infiltration | Armbrüste, schallgedämpfte Pistolen | Lautlose Ausschaltung, wiederverwendbare Bolzen, geringer Lärm. | Geringe Massenkontrolle, niedriger Rohschaden. |
+| **A** | Low-AP Nebenwaffe | Pistolen, Revolver | Niedrige AP-Kosten, ideal zum Erledigen verwundeter Ziele. | Geringe Reichweite, minimale Deckungsdurchdringung. |
+| **A** | Nahkampf | Klingen, Schläger, Messer | Keinerlei Lärm, benötigt keine Munition, schont Ressourcen. | Zwingt den Charakter in riskante Nahdistanz. |
+| **B** | Rüstungsschutz | Körperpanzerung, Helme, ballistische Platten | Absorbiert ballistischen Schaden, verhindert tödliche Kopfschüsse. | Platten verschleißen dauerhaft und können nicht repariert werden. |
+
+<Callout type="success" title="Büchsenmacher-Profi-Tipp">
+Schalldämpfer und taktische Waffen-Kits können an der Büchsenmacher-Werkbank hergestellt werden, sobald Ihre Werkstatt-Einrichtungen verbessert wurden. Statten Sie Ihre Späher frühzeitig mit schallgedämpften Nebenwaffen aus.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Charakter-Builds und Berufsvorteile">
+
+Überlebende entwickeln sich dynamisch basierend auf ihren Aktionen im Feld. Wiederholtes Feuern mit Gewehren erhöht die Treffsicherheit, während Schleichen und das Ausweichen von Nahkampfangriffen die Beweglichkeit steigert. Dieses "Learning-by-Doing"-Wachstum wird durch ein flexibles dreistufiges Berufsvorteil-System unterstützt.
+
+| Rolle des Überlebenden | Primäre Attribute | Wachstumsaktionen | Empfohlene Perks |
+|---|---|---|---|
+| **Fernkämpfer** | Treffsicherheit, Beweglichkeit | Fernangriffe, Kopfschüsse, Nutzung erhöhter Positionen. | Genauigkeitssteigernde Perks, Overwatch-Effizienz. |
+| **Nahkämpfer** | Stärke, Geschicklichkeit, Ausdauer | Nutzung von Klingen/Stumpfwaffen, Tragen schwerer Lasten. | Ausdauerschonung, Nahkampfausweichen, Betäubungschance. |
+| **Tarnungsspezialist** | Beweglichkeit, Geschicklichkeit | Schleichen in Feindnähe, lautlose Nahkampf-Takedowns. | Lärmreduzierung, Initiativboni, Bewegungs-AP. |
+| **Sanitäter** | Intelligenz, Geschicklichkeit, Ausdauer | Anlegen von Verbänden, Wiederbeleben von Verbündeten. | AP-Reduktion für Item-Nutzung, Heilungseffizienz. |
+| **Versorgungsspezialist** | Intelligenz, Stärke, Geschicklichkeit | Rucksack-Handwerk, Schlösserknacken, Dialogprüfungen. | Handelsrabatte, Tragfähigkeit, Herstellungsgeschwindigkeit. |
+
+<Callout type="info" title="Einzigartige Überlebenden-Merkmale">
+Jeder Rekrut besitzt einen angeborenen Perk und ein einzigartiges biografisches Merkmal. Zwei Schützen können die gleiche Treffsicherheit haben, aber ihre angeborenen Merkmale machen den einen besser im Fernkampf und den anderen effektiver mit der Schrotflinte.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Zufluchts-Upgrades und Handwerksfortschritt">
+
+Der Wiederaufbau der städtischen Zuflucht ist lebenswichtig, um die ultimative Herausforderung der Kampagne zu bestehen. Ihre Basis-Upgrades, das Stromnetz und die Ressourcenvorräte fließen direkt in den **Verteidigungs-Tracker** ein, der Ihre Überlebenschancen während der finalen Belagerung bestimmt.
+
+<Steps>
+  <Step num="1" title="Täglichen Bedarf stabilisieren">
+    Priorisieren Sie das nackte Überleben. Sichern Sie eine stetige Versorgung mit Nahrung, sauberem Wasser und Medizin. Halten Sie die Generatoren betankt, um die Stromversorgung der Lagerhäuser zu gewährleisten.
+  </Step>
+  <Step num="2" title="Stadtdienste wiederherstellen">
+    Bauen Sie Kerneinrichtungen im Stadtzentrum wieder auf. Reparieren Sie das Stadtradio, um neue Questreihen freizuschalten, das Krankenhaus für passive Erholung und die Werkstatt für das Handwerk.
+  </Step>
+  <Step num="3" title="Lebensmittelproduktion aufbauen">
+    Bauen Sie Gärten, Hydrokulturen und Rattenfarmen. Die interne Lebensmittelproduktion stellt sicher, dass Ihre Bevölkerung nicht hungert, wenn umherziehende Horden im späten Spielverlauf die Plünderungsrouten abschneiden.
+  </Step>
+  <Step num="4" title="Werkstatt aufrüsten">
+    Rüsten Sie Ihre Werkstatt auf, um fortschrittliche Handwerksstationen freizuschalten. Dies ermöglicht die Herstellung von maßgeschneiderten Aufsätzen, Spezialmunition (Dum-Dum, panzerbrechend) und Sprengstoffen.
+  </Step>
+  <Step num="5" title="Befestigen und Energieversorgung">
+    Errichten Sie Verteidigungsmauern sowie Solar- oder Windgeneratoren. Verbinden Sie Ihre elektrischen Verteidigungsanlagen (wie Elektro-Zäune) mit einem stabilen Stromnetz, um für die finale Belagerung gerüstet zu sein.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Austausch ballistischer Platten">
+Während Standard-Körperpanzerungen und Helme mit Ersatzteilen an Owens Reparaturstation vollständig instand gesetzt werden können, sind interne ballistische Platten Verbrauchsgüter. Sobald sie zerstört sind, müssen sie entsorgt und durch neu hergestellte oder erbeutete Platten ersetzt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fraktionsbeziehungen und Bündnisse">
+
+Drei große politische Blöcke kämpfen um die Kontrolle in Urban County. Ihr Ruf bei diesen Gruppen bestimmt die verfügbaren Händler, einzigartige Rekruten und die militärische Unterstützung, die Sie im Endspiel erhalten.
+
+<CardGrid cols={3}>
+  <Card title="Nationalgarde">
+    - **Hauptquartier**: Befestigte Gebirgsbasis
+    - **Fokus**: Hochwertige Militärwaffen, schwere Rüstung und taktische Fahrzeuge wie der Army HMMWV.
+    - **Nachteil**: Verlangt strikten Gehorsam und politische Anpassung.
+  </Card>
+  <Card title="Church of Second Chance">
+    - **Hauptquartier**: Second Chance Camp
+    - **Fokus**: Einzigartige Handwerksbaupläne, Kräutermedizin und alternative friedliche Lösungen.
+    - **Nachteil**: Akzeptiert die Untoten auf eine Weise, die andere Fraktionen für gefährlich halten.
+  </Card>
+  <Card title="Shady Lady Bikers">
+    - **Hauptquartier**: Biker Clubhouse Bar
+    - **Fokus**: Schwarzmarktwaffen, Fahrzeugmodifikationen und wertvolle Tauschgeschäfte.
+    - **Nachteil**: Fordert lukrative Deals; Wortbruch führt zu sofortiger Feindseligkeit.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Endspiel-Bündnisse">
+Durch das Sichern genügender politischer Stimmen können Sie das Hauptquartier einer Fraktion betreten und ein formelles Bündnis unterzeichnen. Dieses Bündnis schaltet über zwanzig exklusive Zufluchts-Upgrades für das späte Spiel frei und bestimmt, wer während der letzten Schlacht an Ihrer Seite steht.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für Kampagnen-Meilensteine">
+
+Nutzen Sie diese Checkliste, um Ihren Fortschritt zu verfolgen und sicherzustellen, dass Ihr Team und Ihre Basis vor der Belagerungswarnung an Tag 20 bereit sind.
+
+<Checklist
+  id="urban-strife-milestones"
+  title="Essenzielle Fortschrittsziele:"
+  items={[
+    "Schließen Sie den Prolog ab und sichern Sie den CDC-Patienten aus Atlanta",
+    "Reparieren Sie Stadtradio, Krankenhaus und Werkstatt in der Zuflucht",
+    "Etablieren Sie eine autarke Lebensmittelproduktion via Gärten oder Hydrokulturen",
+    "Schalten Sie Tier-3-Berufsvorteile für Ihr Hauptkampfteam frei",
+    "Sichern Sie genügend politische Stimmen für ein Bündnis mit einer großen Fraktion",
+    "Verbessern Sie die Basisbefestigungen und verbinden Sie diese mit dem Stromnetz",
+    "Legen Sie einen Vorrat an großkalibriger Munition und medizinischen Vorräten an",
+    "Reparieren Sie alle aktiven Waffen und ersetzen Sie abgenutzte ballistische Platten bei Owen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Urban Strife FAQ">
+
+<FAQ items={[
+  {
+    question: "Wann ist das Veröffentlichungsdatum für den Urban Strife Full Release?",
+    answer: "Der Full Release von Urban Strife (Version 1.0) wurde offiziell am 14. Juli 2026 auf Steam veröffentlicht. Er führt den finalen Story-Akt, überarbeitete Perks und Ausrüstungs-Reparatursysteme ein."
+  },
+  {
+    question: "Kann ich Waffen und Körperpanzerung in Version 1.0 reparieren?",
+    answer: "Ja. Sobald Sie Owens Reparaturbetrieb in der Zuflucht freigeschaltet haben, können Sie doppelte Ausrüstung in Waffenteile zerlegen, um Ihre Hauptausrüstung instand zu setzen. Beachten Sie, dass ballistische Platten nicht repariert werden können und ersetzt werden müssen."
+  },
+  {
+    question: "Was passiert an Tag 20 der Kampagne?",
+    answer: "An Tag 20 geht die Kampagne in die Endphase über. Sie erhalten eine 24-stündige Radiowarnung, um zur Zuflucht zurückzukehren, Ihre Verteidigung hochzufahren und sich auf die finale Belagerung durch die Atlanta-Horde vorzubereiten."
+  },
+  {
+    question: "Wie rekrutiere ich mehr Überlebende für meine Miliz?",
+    answer: "Sie können Überlebende rekrutieren, indem Sie fraktionsspezifische Quests abschließen, lokale Streitigkeiten beilegen, Flüchtlinge retten und einen hohen Ruf in ganz Urban County aufrechterhalten."
+  }
+]} />
+
+</Section>

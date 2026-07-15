@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Best Build: 2026 Character Progression Guide",
+  description: "Master the best builds in Urban Strife. Learn optimal attribute allocation, skill growth, and profession perks for your survivors in the 2026 v1.0 release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/881313/fff?text=Urban+Strife+Builds",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban Strife best build** planning requires focusing on specific attributes early to unlock powerful Tier 3 profession perks.
+- **Role-based specialization** is essential; avoid spreading points too thin across non-essential combat and utility stats.
+- **Learn-by-doing growth** means your survivors improve through repeated action, so assign them consistent battlefield roles.
+- **Perk selection** should reinforce your character's native traits to create highly efficient combat or support units.
+- **Shelter synergy** is vital, ensuring your best-built characters have the gear and ammunition to sustain long expeditions.
+</Callout>
+
+<Section icon={Swords} title="Understanding Character Attributes">
+
+In Urban Strife, your build's effectiveness is dictated by six core attributes. These attributes determine your success in combat, dialogue, and resource management. Rather than trying to be a "jack of all trades," focus your survivors on one primary role.
+
+| Attribute | Primary Role Benefit | Key Interaction |
+| :--- | :--- | :--- |
+| **Marksmanship** | Increases ranged accuracy | Affects all firearm and crossbow hits |
+| **Strength** | Boosts carry capacity and melee damage | Enables intimidation dialogue options |
+| **Agility** | Improves movement AP and interrupt chance | Crucial for stealth and melee evasion |
+| **Dexterity** | Lowers item use AP costs | Vital for medics and utility specialists |
+| **Intelligence** | Accelerates attribute growth | Unlocks unique quest solutions |
+| **Endurance** | Increases max HP and stamina | Essential for all frontline survivors |
+
+<Callout type="tip" title="Pro Tip">
+Always pair your attribute growth with consistent practice. If you want a character to be a master shooter, prioritize Marksmanship and ensure they are the ones handling your rifles in every encounter.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimal Role-Based Builds">
+
+Building a balanced squad is the key to surviving the Atlanta Horde. Use these established roles to assign your recruits effectively.
+
+<CardGrid cols={3}>
+  <Card title="Ranged Shooter">
+    - **Attributes**: Marksmanship, Agility
+    - **Focus**: Overwatch lanes, priority targets
+    - **Best Weapon**: Sniper or Hunting Rifle
+  </Card>
+  <Card title="Melee Fighter">
+    - **Attributes**: Strength, Endurance
+    - **Focus**: Protecting fragile allies, crowd control
+    - **Best Weapon**: Bladed or Blunt weapons
+  </Card>
+  <Card title="Combat Medic">
+    - **Attributes**: Dexterity, Intelligence
+    - **Focus**: Healing, emergency support
+    - **Best Weapon**: Suppressed sidearm
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Build Strategy">
+Your recruits possess unique native traits. Always inspect these before finalizing a build, as they can provide significant bonuses that complement specific profession perks.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Profession Perks and Progression">
+
+Version 1.0 introduced a redesigned perk system where skills are divided into three tiers. Once unlocked, you can freely select perks to refine your build.
+
+| Tier | Requirement | Strategic Focus |
+| :--- | :--- | :--- |
+| **Tier 1** | Early game unlocks | Basic combat efficiency and survival |
+| **Tier 2** | Mid-game progression | Specialized role performance |
+| **Tier 3** | Late-game mastery | Game-changing tactical advantages |
+
+<Steps>
+  <Step num="1" title="Identify the Role">
+    Choose a survivor and determine their primary battlefield duty (e.g., Scout, Medic, or Heavy Gunner).
+  </Step>
+  <Step num="2" title="Focus Attributes">
+    Spend early points in the two core attributes required for that role to maximize efficiency.
+  </Step>
+  <Step num="3" title="Select Matching Perks">
+    Pick profession perks that directly enhance the weapons or actions that survivor uses most frequently.
+  </Step>
+  <Step num="4" title="Maintain Equipment">
+    Use the Shelter's repair system to keep the specific gear for this build in top condition.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important">
+Do not neglect Endurance on your primary fighters. Even the best shooters will fall quickly if they lack the HP to survive a single mistake in a zombie horde engagement.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Milestones">
+
+<Checklist
+  id="build-milestones"
+  title="Build Progression Checklist:"
+  items={[
+    "Assign a dedicated role to every active squad member",
+    "Reach Tier 2 perks for all primary field survivors",
+    "Secure an elite weapon for your main shooter",
+    "Establish a consistent supply of repair parts at the Shelter",
+    "Complete faction-specific training for advanced skills"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the best Urban Strife build for beginners?",
+    answer: "Focus on a balanced squad with at least one dedicated Ranged Shooter and one Melee Fighter. Prioritize Endurance and Marksmanship early to ensure your survivors can take a hit and hit back accurately."
+  },
+  {
+    question: "Can I respec my character's build?",
+    answer: "While you can refine your build through perk selection and attribute growth, focus on consistent role performance to see the best results. The game rewards specializing your survivors early."
+  },
+  {
+    question: "How do I improve my shooter's accuracy?",
+    answer: "Increase the Marksmanship attribute and seek out weapon attachments at the Shelter workshop. High-percentage shots are always preferred over risky long-range headshots."
+  }
+]} />
+
+</Section>

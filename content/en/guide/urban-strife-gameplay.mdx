@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Package, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Gameplay: 2026 Survival & Tactical Combat Guide",
+  description: "Master Urban Strife gameplay with our 2026 guide. Learn about turn-based combat, stealth mechanics, base management, and scavenging strategies for survival.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Gameplay+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban strife gameplay** revolves around a deep turn-based tactical system set in a persistent zombie apocalypse.
+- **Stealth is mandatory** for early survival; noise from firearms attracts both zombies and hostile human factions.
+- **Base management** requires consistent scavenging of food and medical supplies to sustain your survivors.
+- **The 20-day timer** marks the arrival of a massive zombie horde, forcing players to prepare defenses rapidly.
+- **Character progression** is organic, with stats like Agility and Dexterity increasing through successful field actions.
+</Callout>
+
+<Section icon={Target} title="Core Mechanics and Tactical Combat">
+
+Understanding the fundamental loop of **urban strife gameplay** is essential for surviving the first week. The game utilizes an Action Point (AP) system common in classic tactical RPGs, but adds layers of environmental interaction and noise physics. Every shot fired and every door smashed generates sound waves that can be detected by enemies across the fog of war. In the 2026 version of the game, these mechanics have been refined to emphasize the "silent but deadly" approach.
+
+**Video Highlights:**
+- **Turn-Based Depth:** Explore the AP-based movement and attack system.
+- **Stealth Mechanics:** Learn how crouching and line-of-sight affect detection.
+- **Looting Loop:** See how scavenged materials transition into base supplies.
+- **Status Effects:** Watch how bleeding and injuries impact combat effectiveness.
+
+<YouTubeEmbed videoId="LiWPNwzvlBY" title="Urban Strife - Turn Based Zombie Survival Full Release Gameplay" />
+
+Combat is not just about raw damage; it is about positioning and utility. Using the "Overwatch" ability allows your characters to trigger attacks during the enemy turn, which is vital when defending narrow corridors or doorways. Furthermore, the game features a ragdoll physics system and detailed hit locations, making headshots high-risk but high-reward maneuvers.
+
+| Combat Action | AP Cost | Noise Level | Primary Benefit |
+| :--- | :--- | :--- | :--- |
+| **Melee Attack** | Low | Very Low | Conserves ammo, silent kills |
+| **Snap Shot** | Medium | High | Quick defense, lower accuracy |
+| **Aimed Shot** | High | High | Increased critical/headshot chance |
+| **Overwatch** | Variable | Dependent | Interrupts enemy movement |
+| **Reloading** | Low | Low | Necessary for sustained fire |
+
+<Callout type="warning" title="Noise Warning">
+Firing a shotgun might clear a room of raiders, but it will likely draw every zombie within a three-block radius to your exact location. Always have a melee-focused character like Billy Bob ready to handle stragglers silently.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Scavenging and Exploration Strategies">
+
+Exploration in **urban strife gameplay** takes players through various urban and suburban environments, such as Adam's Villa. Each location is a dense "loot map" where every house, car, and trash can might contain vital resources. However, you are limited by your team's carry weight and inventory space. Efficient scavenging means prioritizing high-value materials over heavy junk.
+
+When entering a new zone, such as the suburbs controlled by the Cassidy Boys, players must decide between diplomacy and aggression. The world is populated by different gangs and factions, and your choices in these encounters dictate your access to specific trade goods or safe passages.
+
+| Resource Type | Source | Use Case | Priority |
+| :--- | :--- | :--- | :--- |
+| **Food/Liquor** | Kitchens, Pantries | Base survival, morale, trading | ★★★★★ |
+| **Medical Supplies** | Pharmacies, Clinics | Healing injuries, stopping bleeding | ★★★★★ |
+| **Metal Scraps** | Garages, Toolboxes | Crafting weapons and base upgrades | ★★★★☆ |
+| **Gasoline** | Gas Stations, Cars | Fueling generators and vehicles | ★★★★☆ |
+| **Ammunition** | Police Stations, Safes | Essential for high-tier combat | ★★★☆☆ |
+
+<CardGrid cols={3}>
+  <Card title="The Stealthy Scout">
+    - **Crouch always** to reduce visibility.
+    - Use Crossbows for silent ranged picks.
+    - High Agility for long-distance looting.
+  </Card>
+  <Card title="The Heavy Looter">
+    - Focus on Strength for carry weight.
+    - Clear rooms with melee to save ammo.
+    - Prioritize metal and wood scraps.
+  </Card>
+  <Card title="The Combat Specialist">
+    - High Dexterity for firearm accuracy.
+    - Uses Overwatch to protect looters.
+    - Manages explosives for crowd control.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Inventory Management">
+Don't hoard everything. If your inventory is full, look for a "stash" or a central container in the zone to store excess loot. You can make multiple trips to your vehicle or the exit point to maximize your haul.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Base Management and Survivor Needs">
+
+The shelter serves as your hub in **urban strife gameplay**. It is not just a place to rest; it is a living ecosystem that requires constant input. Survivors consume food and medical supplies daily. If the production at the base (currently 5 units per day) does not meet the consumption (30+ units per day), your community will quickly face starvation or disease.
+
+Base progression is tied to "Council Meetings" and your relationship with key NPCs like the Colonel or Kimberly. These interactions unlock new crafting recipes and story milestones. One of the most critical aspects of the 2026 meta is the 20-day countdown to the zombie horde, which forces you to balance short-term survival with long-term fortification.
+
+<Steps>
+  <Step num="1" title="Secure Resources">
+    Scavenge Adam's Villa or similar zones for food, meds, and building materials.
+  </Step>
+  <Step num="2" title="Donate to Stash">
+    Transfer items from your personal inventory to the community stash to meet daily needs.
+  </Step>
+  <Step num="3" title="Upgrade Facilities">
+    Use scraps and tools to build specialized rooms like the Infirmary or Crafting Bench.
+  </Step>
+  <Step num="4" title="Assign Roles">
+    Assign survivors to tasks like recycling, cooking, or guarding the perimeter.
+  </Step>
+</Steps>
+
+| Facility | Requirement | Function |
+| :--- | :--- | :--- |
+| **Infirmary** | Med Kits, Clean Bed | Faster recovery from bleeding/trauma |
+| **Crafting Bench** | Tools, Metal Scraps | Create Molotovs, Pipe Bombs, Ammo |
+| **Recycling Center** | Scraps, Electricity | Break down useless items into raw materials |
+| **Radio Room** | Electronic Parts | Contact other survivors and factions |
+
+<Callout type="success" title="Sustainability Tip">
+Focus on upgrading your food production early. While scavenging is great, a self-sustaining garden is the only way to survive the late-game when nearby zones are picked clean.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Character Progression and Skills">
+
+Characters in Urban Strife do not level up through a traditional XP bar. Instead, they improve through practice—a system that rewards specific playstyles. If a character frequently uses melee weapons, their Strength and Melee skills will rise. If they spend their time sneaking through shadows, their Stealth and Agility will see gains.
+
+| Attribute | How to Increase | Gameplay Benefit |
+| :--- | :--- | :--- |
+| **Strength** | Carrying heavy loads, Melee | Higher carry weight, melee damage |
+| **Agility** | Moving long distances, Sneaking | More AP per turn, lower detection |
+| **Dexterity** | Using firearms, Crafting | Higher hit chance, faster reloading |
+| **Endurance** | Taking damage, Long missions | Higher HP, resistance to bleeding |
+
+<Checklist
+  id="character-optimization"
+  title="Survivor Development Goals:"
+  items={[
+    "Train at least two medics with high Dexterity",
+    "Equip your 'tank' with a Billy Club and Shield",
+    "Ensure every scout has a silent weapon (Crossbow)",
+    "Rotate tired survivors to prevent permanent trauma",
+    "Specialize one character in Explosives for the Horde"
+  ]}
+/>
+
+<Callout type="info" title="Skill Synergy">
+A character with high Agility and Dexterity makes the perfect sniper. They can reposition quickly for a better line of sight and have the accuracy to land consistent headshots from a distance.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Survival Tactics">
+
+As you progress toward the 20-day mark, the difficulty spikes. You will encounter better-equipped human enemies and larger "screamer" zombies that can alert the entire map. Mastering advanced tactics like Molotov placement and the use of ballistic tiles for armor becomes a necessity.
+
+The environment is your best weapon. You can destroy cover, set fires to block paths, or use "Overwatch" traps to funnel enemies into kill zones. Always carry at least one "Pipe Bomb" or "Molotov" for emergency crowd control when the undead numbers become overwhelming.
+
+| Weapon Category | Pros | Cons |
+| :--- | :--- | :--- |
+| **Melee (Rolling Pin/Hammer)** | Silent, no ammo needed | High risk, requires proximity |
+| **Crossbows** | Silent, recoverable ammo | Slow reload, lower damage |
+| **Shotguns** | Massive close-range damage | Extremely loud, heavy ammo |
+| **Pistols/Rifles** | Versatile, good range | Requires constant ammo scavenging |
+
+<Callout type="warning" title="Bleeding Status">
+Bleeding is the silent killer in **urban strife gameplay**. If a character is bleeding, they lose HP every turn. Always keep bandages in your quick-slots; never wait until after the battle to patch up a wound.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I deal with the 20-day zombie horde?",
+    answer: "Preparation is key. Spend the first 15 days stockpiling explosives, upgrading base defenses, and training your survivors in high-damage firearms. Ensure you have a surplus of medical supplies for the aftermath."
+  },
+  {
+    question: "What is the best way to manage noise?",
+    answer: "Use melee weapons or crossbows for 90% of encounters. Only use firearms when you are cornered or facing a boss-level enemy. Remember that crouching also significantly reduces the sound of your movement."
+  },
+  {
+    question: "Can I join different factions in Urban Strife?",
+    answer: "Yes, you can interact with various gangs like the Cassidy Boys. Your choices in dialogue and missions will determine your standing, which can lead to unique trading opportunities or hostile raids on your base."
+  },
+  {
+    question: "How does the character portrait system work?",
+    answer: "The game uses a unique AI-enhanced portrait system (like the 'Colonel Sanders' lookalike). These portraits reflect the gritty, diverse nature of the survivor pool and are occasionally updated by the developers for better visual fidelity."
+  }
+]} />
+
+</Section>

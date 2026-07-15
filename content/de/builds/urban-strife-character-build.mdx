@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Zap, Heart, Brain } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Charakter-Build: Beste Überlebenden-Rollen & Perk-Guide",
+  description: "Meistern Sie das Charakter-Build-System von Urban Strife mit unserem Guide zu Attributen, Learning-by-Doing-Fähigkeiten und den besten Berufs-Perks für Ihren Trupp.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Character+Build+Guide",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team",
+  keywords: "Urban Strife, Charakter-Build, Überlebende, Perks, Attribute, Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die Mechaniken der **Urban Strife Charakter-Builds** basieren auf einem **Learning-by-Doing-System**, bei dem wiederholte Aktionen spezifische Attribute verbessern.
+- **Kernattribute**: Konzentrieren Sie sich bei Schützen auf **Treffsicherheit** und **Beweglichkeit**, während Nahkämpfer **Stärke** und **Ausdauer** benötigen.
+- **Berufs-Perks**: Diese sind in drei Stufen unterteilt und können nach der Freischaltung frei gewählt werden, um Ihre Überlebenden zu spezialisieren.
+- **Trupp-Synergie**: Ein ausgewogenes Team sollte mindestens einen **Sanitäter**, einen **Stealth-Spezialisten** und zwei **Fernkampf-DPS-Einheiten** enthalten.
+- **Endgame-Vorbereitung**: Charakter-Builds müssen die finale **Belagerung der Atlanta-Horde** berücksichtigen und Setups mit hoher Ausdauer und Präzision priorisieren.
+</Callout>
+
+<Section icon={User} title="Attribute und natürliches Wachstum verstehen">
+
+In Urban Strife ist Ihr Charakter-Build nicht nur eine Reihe statischer Zahlen, die in einem Menü ausgewählt werden. Stattdessen nutzt das Spiel ein dynamisches Wachstumssystem, bei dem Ihre Spielweise direkt beeinflusst, wie sich Ihre Überlebenden entwickeln. Jeder Überlebende beginnt mit einem einzigartigen Hintergrund, einem angeborenen Perk und einem definierenden Merkmal, das sein Basispotenzial festlegt.
+
+Die sechs Kernattribute steuern jede taktische Interaktion im Ödland. Zu verstehen, wie diese mit Ihrer Ausrüstung und der Umgebung interagieren, ist der erste Schritt zur Erstellung eines optimierten Trupps.
+
+| Attribut | Primäre Effekte | Wachstumsmethode |
+| :--- | :--- | :--- |
+| **Treffsicherheit** | Fernkampfgenauigkeit, Krit-Chance | Abfeuern von Schusswaffen, Armbrüsten |
+| **Beweglichkeit** | Bewegungs-AP, Unterbrechungen, Ausweichen | Schleichen, Nahkampfangriffen ausweichen |
+| **Stärke** | Tragegewicht, Nahkampfschaden, Ausdauer | Tragen schwerer Lasten, Nahkampftreffer |
+| **Geschicklichkeit** | Item-AP-Kosten, Nahkampftrefferchance | Nutzung von Werkzeugen, Medikits, Nahkampf |
+| **Ausdauer** | Max. Gesundheit, Ausdauer, Resistenzen | Erleiden von Schaden, lange Expeditionen |
+| **Intelligenz** | Attributswachstums-Tempo, Dialoge | Erfolgreiche Skill-Checks, Erkundung |
+
+<Callout type="tip" title="Wachstumsoptimierung">
+Da Intelligenz die Progressionsgeschwindigkeit aller anderen Attribute erhöht, kann der Start eines benutzerdefinierten Charakters mit hoher Intelligenz zu einem viel stärkeren Late-Game-Build führen, da er seine Kampffähigkeiten schneller verbessert als andere.
+</Callout>
+
+### Die Learning-by-Doing-Mechanik
+Im Gegensatz zu traditionellen RPGs, bei denen man Punkte beim Levelaufstieg verteilt, belohnt Urban Strife Beständigkeit. Wenn Sie möchten, dass ein Überlebender ein Meisterscharfschütze wird, muss er seine Züge damit verbringen, Schüsse auf große Distanz abzugeben. Wenn Sie einen Frontline-Tank wollen, muss dieser in den Nahkampf gehen und Druck standhalten. Dieses organische Wachstum bedeutet, dass Ihr "Build" ein Spiegelbild Ihrer taktischen Geschichte ist.
+
+</Section>
+
+<Section icon={Target} title="Der Fernkampf-Schütze: Präzision und Überwachung">
+
+Der **Urban Strife Charakter-Build** für einen Fernkampf-Schützen ist das Rückgrat jeder erfolgreichen Miliz. Diese Überlebenden spezialisieren sich darauf, das Schlachtfeld aus der Distanz zu kontrollieren, Höhenvorteile zu nutzen und spezialisierte Schusswaffen einzusetzen, um Bedrohungen zu eliminieren, bevor sie Ihre Frontlinie erreichen.
+
+<CardGrid cols={2}>
+  <Card title="Scharfschützen-Spezialist">
+    - **Primäre Ausrüstung**: Jagdgewehre, .50 BMG
+    - **Fokus**: Hohe Treffsicherheit & Intelligenz
+    - **Rolle**: Ausschalten von Prioritätszielen aus extremer Reichweite.
+  </Card>
+  <Card title="Sturm/Horden-Kontrolle">
+    - **Primäre Ausrüstung**: Schrotflinten, Automatikgewehre
+    - **Fokus**: Treffsicherheit & Beweglichkeit
+    - **Rolle**: Auflösen von Zombie-Clustern und Unterdrücken von menschlichen Flanken.
+  </Card>
+</CardGrid>
+
+**Wichtige Progression für Schützen:**
+Um die Effizienz eines Schützen zu maximieren, müssen Sie seine Aktionspunkte (AP) sorgfältig verwalten. Ein Build mit hoher Beweglichkeit ermöglicht Neupositionierung und Schießen im selben Zug, was entscheidend ist, wenn die Atlanta-Horde näher rückt.
+
+| Build-Typ | Bestes Attribut | Empfohlene Perks | Taktischer Nutzen |
+| :--- | :--- | :--- | :--- |
+| **Fernkampf** | Treffsicherheit | Genauigkeits-Stufen, Krit-Boosts | **Hoch** (Menschliche Anführer) |
+| **Stürmer** | Beweglichkeit | Schnelles Ziehen, Reflexschuss | **Extrem** (Innenraumkämpfe) |
+| **Unterdrückung** | Ausdauer | Rückstoßkontrolle, Munitionsvorrat | **Mittel** (Hordenverteidigung) |
+
+<Callout type="warning" title="Munitionsmanagement">
+Schützen-Builds mit hohem Schaden können ressourcenintensiv sein. Kombinieren Sie Ihren primären Schützen immer mit einem "Maultier"-Charakter mit hoher Stärke oder stellen Sie sicher, dass die Werkstatt des Unterschlupfs früh in der Kampagne für die Munitionsproduktion priorisiert wird.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nahkampf und Stealth: Die lautlosen Killer">
+
+Munition ist in Urban County ein Luxus. Ein dedizierter Nahkampf-Build ist nicht nur ein Backup; er ist eine Notwendigkeit, um Sektoren leise zu säubern und Ressourcen zu sparen. Stealth-Spezialisten gehen noch einen Schritt weiter, indem sie die dynamischen Sicht- und Hörweiten des Spiels nutzen, um feindliche Lager zu demontieren, ohne ein offenes Feuergefecht auszulösen.
+
+<Steps>
+  <Step num="1" title="Attribut-Synchronisierung">
+    Konzentrieren Sie sich auf **Stärke** für rohen Schaden und **Geschicklichkeit**, um die AP-Kosten von Angriffen zu senken. Ein Nahkämpfer mit hoher Geschicklichkeit kann oft zweimal zuschlagen, während ein schwerer Angreifer nur einmal trifft.
+  </Step>
+  <Step num="2" title="Stealth-Konditionierung">
+    Steigern Sie die **Beweglichkeit**, indem Sie durch von Zombies verseuchte Gebiete schleichen. Vermeiden Sie Rennen, da Lärm wandernde Horden anlocken kann, die einen einsamen Kundschafter überwältigen könnten.
+  </Step>
+  <Step num="3" title="Waffenwahl">
+    Verwenden Sie Klingen oder Stichwaffen für lautlose Kills. Stumpfe Waffen eignen sich hervorragend, um die Ausdauer des Gegners zu schädigen, was zu nicht-tödlichen Knockouts führen kann – nützlich im Umgang mit bestimmten Fraktions-NPCs, die Sie später rekrutieren möchten.
+  </Step>
+</Steps>
+
+**Effizienzvergleich der Nahkampf-Builds:**
+| Waffenklasse | AP-Kosten | Lärmpegel | Rüstungsdurchdringung |
+| :--- | :--- | :--- | :--- |
+| **Kampfmesser** | Niedrig | **Lautlos** | Niedrig |
+| **Baseballschläger** | Mittel | Niedrig | **Mittel** |
+| **Schwere Äxte** | Hoch | Mittel | **Hoch** |
+| **Armbrüste** | Mittel | **Lautlos** | Mittel |
+
+<Callout type="success" title="Stealth-Vorteil">
+Ein Stealth-Build mit hoher Beweglichkeit kann oft häufiger **Unterbrechungsfeuer** oder Reaktionsangriffe auslösen. Positionieren Sie diese Charaktere in der Nähe von Türen, um menschliche Feinde während ihres Zuges zu überraschen.
+</Callout>
+
+</Section>
+
+<Section icon={Heart} title="Support-Rollen: Sanitäter und Utility-Überlebende">
+
+Ein Trupp aus reinen Killern wird irgendwann der Abnutzung erliegen. Der **Urban Strife Charakter-Build** für Support konzentriert sich auf Intelligenz und Geschicklichkeit, um sicherzustellen, dass Ihr Team gesund bleibt und Ihre Ausrüstung funktionsfähig ist.
+
+**Der Kampf-Sanitäter**
+Sanitäter sollten nicht nur hinten sitzen. Ein Sanitäter mit hoher Ausdauer kann Rettungen unter Beschuss durchführen. Ihr Wachstum resultiert aus der Verwendung medizinischer Vorräte. Bestimmen Sie daher einen Überlebenden als primären Heiler, um dessen Effizienz zu maximieren und hochstufige medizinische Perks freizuschalten.
+
+**Der Utility- & Handwerks-Spezialist**
+Dieser Charakter-Build wird oft übersehen, wird aber während der finalen Belagerung am wichtigsten. Sie kümmern sich um schwere Arbeiten, den Einsatz von Werkzeugen und komplexe Dialog-Checks mit Fraktionen wie der **Nationalgarde** oder der **Church of Second Chance**.
+
+<CardGrid cols={3}>
+  <Card title="Der Sanitäter">
+    - **Wichtiger Wert**: Intelligenz
+    - **Aufgabe**: Heilung, Statusentfernung
+    - **Perk**: Schnelle Erholung
+  </Card>
+  <Card title="Der Mechaniker">
+    - **Wichtiger Wert**: Geschicklichkeit
+    - **Aufgabe**: Reparaturen, Schlösserknacken
+    - **Perk**: Werkzeug-Meisterschaft
+  </Card>
+  <Card title="Der Diplomat">
+    - **Wichtiger Wert**: Intelligenz/Stärke
+    - **Aufgabe**: Fraktionsdialoge, Handel
+    - **Perk**: Silberzunge
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Dialog-Checks">
+Intelligenz ist nicht nur für das Handwerk da. Viele Quest-Lösungen in Urban Strife bieten friedliche Alternativen, wenn Ihr Hauptcharakter über ausreichend Intelligenz oder Stärke verfügt, um Fraktionsführer einzuschüchtern oder zu überzeugen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Trupp-Konstruktion und Endgame-Bereitschaft">
+
+Wenn Sie sich der Deadline an Tag 20 für die Belagerung durch die Atlanta-Horde nähern, müssen Ihre individuellen Charakter-Builds zu einer funktionierenden Einheit verschmelzen. Der Verteidigungs-Tracker in Ihrem Unterschlupf bewertet nicht nur Ihre Mauern, sondern auch die Qualität der Überlebenden, die sie verteidigen.
+
+<Checklist
+  id="squad-readiness"
+  title="Checkliste für den finalen Belagerungs-Build:"
+  items={[
+    "Mindestens zwei Überlebende mit 80+ Treffsicherheit für die Mauerverteidigung",
+    "Ein Sanitäter mit hochstufigen Trauma-Kits und niedrigen AP-Heilkosten",
+    "Ein dedizierter Mechaniker zur Reparatur von Rüstungen und Waffen während der Belagerung",
+    "Alle Frontkämpfer mit reparierter Körperpanzerung ausgestattet",
+    "Ausreichende Ausdauerreserven (Ausdauer) für einen mehrstufigen Kampf"
+  ]}
+/>
+
+**Archetypen der Teamzusammensetzung:**
+| Trupp-Stil | Zusammensetzung | Am besten für |
+| :--- | :--- | :--- |
+| **Guerilla** | 2 Stealth, 2 Scharfschützen | Säuberung menschlicher Lager ohne Verluste |
+| **Juggernaut** | 2 Nahkämpfer, 2 Schrotflinten-Schützen | Verteidigung enger Engpässe gegen Horden |
+| **Ausgeglichen** | 1 Scharfschütze, 1 Sturm, 1 Sanitäter, 1 Scout | Allgemeine Erkundung und Fraktions-Quests |
+
+<Callout type="warning" title="Ausrüstung reparieren">
+Version 1.0 hat ein überarbeitetes Reparatursystem eingeführt. Nutzen Sie Ihren Utility-Charakter, um doppelte Waffen in Teile zu zerlegen. Beschädigte Rüstung reduziert die effektive Gesundheit eines Überlebenden drastisch und macht selbst den besten Build fragil.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Urban Strife Charakter-Build FAQ">
+
+<FAQ items={[
+  {
+    question: "Kann ich die Fähigkeiten oder Perks meines Charakters in Urban Strife zurücksetzen?",
+    answer: "Nein, das Learning-by-Doing-System ist permanent. Berufs-Perks werden jedoch aus Stufen ausgewählt, sodass Sie die Spezialisierung eines Überlebenden anpassen können, wenn Sie höhere Trainingsstufen freischalten."
+  },
+  {
+    question: "Welches Attribut ist am wichtigsten für die Belagerung der Atlanta-Horde?",
+    answer: "Ausdauer und Treffsicherheit sind entscheidend. Ausdauer stellt sicher, dass Ihre Überlebenden während des langen Kampfes nicht vor Erschöpfung zusammenbrechen, während Treffsicherheit benötigt wird, um die Horde auszudünnen, bevor sie Ihre Tore erreicht."
+  },
+  {
+    question: "Wie beeinflusst Intelligenz meinen Charakter-Build?",
+    answer: "Intelligenz fungiert als Multiplikator für das Attributswachstum. Ein Charakter mit hoher Intelligenz wird 100 Treffsicherheit viel schneller erreichen als ein Charakter mit niedriger Intelligenz, selbst wenn sie die gleiche Anzahl an Schüssen abgeben."
+  },
+  {
+    question: "Ist es besser zu spezialisieren oder 'Allrounder'-Überlebende zu haben?",
+    answer: "Spezialisierung ist im Allgemeinen überlegen. Aufgrund der Art und Weise, wie AP-Kosten und Perk-Stufen funktionieren, ist ein dedizierter Scharfschütze weitaus effektiver als ein Überlebender, der versucht, Gewehre und Nahkampf auszubalancieren."
+  }
+]} />
+
+</Section>

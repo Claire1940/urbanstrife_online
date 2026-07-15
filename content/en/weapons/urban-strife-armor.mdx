@@ -1,0 +1,155 @@
+import { Shield, Swords, Target, Trophy, HelpCircle, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Armor: Best Protective Gear & Repair Guide",
+  description: "Compare the best urban strife armor sets, ballistic plates, and helmets. Learn how to repair tactical protective gear and survive the Atlanta Horde.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Armor+and+Protection+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: Every piece of **urban strife armor** absorbs incoming damage based on its material, durability, and coverage.
+- **Expendable Plates**: Ballistic plates decay when hit and **cannot be repaired**, even though the vest holding them can be restored.
+- **Repair System**: Unlock Owen's repair operation in the Shelter to restore damaged armor using salvaged materials.
+- **Weight Penalty**: Heavier protection increases survival rates but can reduce Action Points (AP) and movement speed.
+- **Horde Strategy**: Prioritize body and limb armor for front-line fighters to block lethal damage from dense zombie crowds.
+</Callout>
+
+<Section icon={Shield} title="Urban Strife Armor Mechanics Explained">
+
+Selecting the right **urban strife armor** is the difference between surviving a close-range ambush and losing a valuable squad member. Protection in Urban Strife does not rely on simple flat damage reduction. Instead, the game simulates real ballistic trajectories, material penetration, and fragment dispersion. When a bullet or explosion hits a survivor, the game evaluates the armor's coverage, material thickness, and current durability.
+
+Armor is divided into distinct slots, protecting the head, torso, and limbs. Each piece trades physical protection for weight, which directly impacts a survivor's mobility and Action Point (AP) pool.
+
+| Armor Slot | Main Purpose | Key Stat | Weight Impact |
+| :--- | :--- | :--- | :--- |
+| **Helmet** | Prevents lethal headshot damage | Penetration Resistance | Low to Medium |
+| **Body Armor** | Protects chest, vital organs, and stamina | Durability Capacity | High |
+| **Limb Armor** | Reduces crippling debuffs on arms and legs | Evasion / Speed Penalty | Medium |
+| **Ballistic Plates** | Absorbs high-caliber rifle rounds | Damage Absorption | Very High |
+
+<Callout type="warning" title="Stamina and Weight Warning">
+Heavy tactical armor drastically increases your weight load. Survivors with low Strength will suffer severe stamina drain and lose maximum movement AP if overloaded. Always balance your protective gear against the wearer's physical attributes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Armor and Protective Gear Tier List">
+
+Not all protective gear is created equal. Front-line melee fighters require heavy, durable suits to absorb close-range claw attacks, while stealth scouts and snipers need lightweight, low-noise gear that preserves their evasion and AP.
+
+Here is how the primary protective equipment ranks for tactical roles in the 2026 Version 1.0 release:
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Heavy Tactical">
+    - **Best for Front-line Fighters**
+    - High-tier ballistic vests
+    - Heavy military helmets
+    - Maximum damage absorption
+  </Card>
+  <Card title="A-Tier: Silent Scout">
+    - **Best for Stealth & Snipers**
+    - Light leather or padded vests
+    - Low noise generation
+    - Zero movement penalties
+  </Card>
+  <Card title="B-Tier: Improvised Gear">
+    - **Best for Early Game**
+    - Scrap metal plates
+    - Basic motorcycle helmets
+    - High weight, low durability
+  </Card>
+</CardGrid>
+
+The following table compares the main armor types by tactical role, outlining their primary strengths and limitations on the battlefield:
+
+| Armor Role | Best Equipment Options | Main Strengths | Primary Limitations |
+| :--- | :--- | :--- | :--- |
+| **Horde Defense** | Heavy Ballistic Vests, Riot Helmets | High protection against melee and fragments | Extremely heavy, reduces stealth |
+| **Stealth Scouting** | Leather Jackets, Suppressed Kits | Low noise, preserves high movement AP | Vulnerable to high-caliber rifles |
+| **Front-line Melee** | Full Plate Vests, Limb Guards | Prevents limb crippling, high durability | Fast stamina consumption |
+| **Ranged Combat** | Medium Tactical Vests, Ballistic Plates | Balanced weight, excellent chest coverage | Plates decay permanently |
+
+<Callout type="tip" title="Pro Armor Tip">
+Keep backup armor in your Shelter stash. Do not send your best fighters into high-difficulty sectors with damaged gear, as a single high-penetration rifle shot from a hostile sniper can bypass ruined armor completely.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Repair Armor and Gear">
+
+In Version 1.0, gear maintenance is essential. Weapons and body armor decay over time, but they can be restored to full functionality once you establish the proper facilities at the [Urban Strife Steam Community](https://store.steampowered.com/app/710230/Urban_Strife/) hub.
+
+<Steps>
+  <Step num="1" title="Unlock Owen's Repair Operation">
+    Complete the early campaign missions to restore the Shelter's workshop and recruit Owen. Once his repair station is active, you can begin processing damaged gear.
+  </Step>
+  <Step num="2" title="Salvage Surplus Equipment">
+    Do not sell duplicate or damaged low-tier guns and armor. Salvage them at the workshop to produce essential repair parts and raw crafting materials.
+  </Step>
+  <Step num="3" title="Replace Ballistic Plates">
+    Remember that internal ballistic plates are expendable. When a plate's durability drops to zero, discard it and insert a fresh replacement plate into the vest.
+  </Step>
+  <Steps num="4" title="Perform Regular Maintenance">
+    Check your squad's armor durability after every major expedition. Repairing gear before it becomes completely ruined prevents permanent structural failure.
+  </Steps>
+</Steps>
+
+<Callout type="info" title="Salvage Safety Feature">
+The Version 1.0 interface automatically excludes currently equipped weapons and armor from the salvage menu, preventing you from accidentally destroying your active loadouts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Siege Armor Preparation Checklist">
+
+As you approach the Day 20 deadline and prepare for the final Atlanta Horde siege, your squad's protective gear must be in optimal condition. The Defense Tracker evaluates your overall preparedness, including your stockpiled armor and active fortifications.
+
+<Checklist
+  id="siege-armor-prep"
+  title="Siege Readiness Milestones:"
+  items={[
+    "Equip all front-line defenders with S-Tier Heavy Tactical vests",
+    "Insert fresh, undamaged ballistic plates into all active body armor",
+    "Equip all ranged defenders with medium ballistic helmets to prevent sniper headshots",
+    "Salvage all unwanted scrap gear to build a massive reserve of repair parts",
+    "Ensure the Shelter generator has enough fuel to power electric fences and automatic defenses"
+  ]}
+/>
+
+<Callout type="success" title="Siege Success Tip">
+During the final siege, normal scavenging is disabled. Ensure your active defenders have spare armor pieces stored in their quick slots so they can swap broken gear mid-battle without accessing the main stash.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I repair ballistic plates in Urban Strife?",
+    answer: "No. While you can repair the body armor vest itself using Owen's repair operation, the internal ballistic plates are strictly expendable and must be replaced once their durability is depleted."
+  },
+  {
+    question: "Does heavy armor affect my stealth rating?",
+    answer: "Yes. Heavy tactical armor and metal helmets increase the noise you generate while moving, making it much easier for zombies and human guards to detect you."
+  },
+  {
+    question: "How do I get better armor blueprints?",
+    answer: "Advanced armor blueprints are acquired by exploring distant sectors, trading with high-reputation factions like the Rogue Army, or completing specific workshop upgrades."
+  },
+  {
+    question: "What happens if my armor durability reaches zero during combat?",
+    answer: "When armor durability hits zero, it stops absorbing damage and no longer protects the wearer from ballistic penetration or melee attacks. The survivor will take full damage directly to their health pool."
+  }
+]} />
+
+</Section>

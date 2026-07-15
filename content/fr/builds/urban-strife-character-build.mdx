@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Zap, Heart, Brain } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build de Personnage Urban Strife : Guide des Meilleurs Rôles et Atouts",
+  description: "Maîtrisez le système de build de personnage d'Urban Strife avec notre guide sur les attributs, les compétences par la pratique et les meilleurs atouts de profession pour votre escouade.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Character+Build+Guide",
+  date: "2026-07-16",
+  author: "L'équipe Wiki d'Urban Strife",
+  keywords: "Urban Strife, build de personnage, attributs, atouts, guide de survie, RPG tactique"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Les mécaniques de **build de personnage dans Urban Strife** reposent sur un système d'**apprentissage par la pratique** où les actions répétées améliorent des attributs spécifiques.
+- **Attributs de Base** : Concentrez-vous sur le **Tir de précision** et l'**Agilité** pour les tireurs, tandis que les combattants de mêlée privilégient la **Force** et l'**Endurance**.
+- **Atouts de Profession** : Ils sont divisés en trois paliers et peuvent être librement sélectionnés une fois débloqués pour spécialiser vos survivants.
+- **Synergie d'Escouade** : Une équipe équilibrée doit comprendre au moins un **Médecin**, un **Spécialiste de la discrétion** et deux unités de **DPS à distance**.
+- **Préparation de Fin de Partie** : Les builds doivent tenir compte du **siège final de la Horde d'Atlanta**, en privilégiant une endurance et une précision élevées.
+</Callout>
+
+<Section icon={User} title="Comprendre les Attributs et la Croissance Naturelle">
+
+Dans Urban Strife, votre build de personnage n'est pas seulement un ensemble de chiffres statiques choisis dans un menu. Au lieu de cela, le jeu utilise un système de croissance dynamique où votre façon de jouer influence directement l'évolution de vos survivants. Chaque survivant commence avec un passé unique, un atout natif et un trait caractéristique qui définit son potentiel de base.
+
+Les six attributs principaux régissent chaque interaction tactique dans les terres désolées. Comprendre comment ils interagissent avec votre équipement et l'environnement est la première étape pour créer une escouade optimisée.
+
+| Attribut | Effets Principaux | Méthode de Croissance |
+| :--- | :--- | :--- |
+| **Tir de précision** | Précision à distance, chances de critique | Utilisation d'armes à feu, arbalètes |
+| **Agilité** | PA de mouvement, interruptions, esquive | Discrétion, esquive d'attaques de mêlée |
+| **Force** | Charge transportée, dégâts de mêlée, endurance | Transport de charges lourdes, coups de mêlée |
+| **Dextérité** | Coût en PA des objets, chances de toucher en mêlée | Utilisation d'outils, kits médicaux, mêlée |
+| **Endurance** | Santé max, endurance, résistance | Subir des dégâts, longues expéditions |
+| **Intelligence** | Vitesse de croissance des attributs, dialogue | Tests de compétence réussis, exploration |
+
+<Callout type="tip" title="Optimisation de la Croissance">
+Puisque l'Intelligence augmente la vitesse de progression de tous les autres attributs, commencer un personnage personnalisé avec une Intelligence élevée peut mener à un build de fin de partie beaucoup plus puissant, car il augmentera ses compétences de combat plus rapidement que ses pairs.
+</Callout>
+
+### La Mécanique d'Apprentissage par la Pratique
+Contrairement aux RPG traditionnels où vous distribuez des points lors d'un gain de niveau, Urban Strife récompense la régularité. Si vous voulez qu'un survivant devienne un maître sniper, il doit passer ses tours à effectuer des tirs à longue distance. Si vous voulez un tank de première ligne, il doit s'engager en mêlée et résister à la pression. Cette croissance organique signifie que votre "build" est le reflet de votre historique tactique.
+
+</Section>
+
+<Section icon={Target} title="Le Tireur à Distance : Précision et Vigilance">
+
+Le **build de personnage** pour un Tireur à Distance est le pilier de toute milice prospère. Ces survivants se spécialisent dans le contrôle du champ de bataille à distance, utilisant les avantages de hauteur et des armes à feu spécialisées pour éliminer les menaces avant qu'elles n'atteignent votre ligne de front.
+
+<CardGrid cols={2}>
+  <Card title="Spécialiste Sniper">
+    - **Équipement Principal** : Fusils de chasse, .50 BMG
+    - **Focus** : Tir de précision & Intelligence élevés
+    - **Rôle** : Élimination de cibles prioritaires à très longue distance.
+  </Card>
+  <Card title="Assaut / Contrôle de Horde">
+    - **Équipement Principal** : Fusils à pompe, Fusils automatiques
+    - **Focus** : Tir de précision & Agilité
+    - **Rôle** : Dispersion des groupes de zombies et suppression des flancs humains.
+  </Card>
+</CardGrid>
+
+**Progression Clé pour les Tireurs :**
+Pour maximiser l'efficacité d'un tireur, vous devez gérer ses Points d'Action (PA) avec soin. Un build à haute Agilité permet de se repositionner et de tirer dans le même tour, ce qui est critique lorsque la Horde d'Atlanta commence à se rapprocher.
+
+| Type de Build | Meilleur Attribut | Atouts Recommandés | Utilité Tactique |
+| :--- | :--- | :--- | :--- |
+| **Longue Portée** | Tir de précision | Paliers de précision, Boosts critique | **Élevée** (Chefs humains) |
+| **Brècheur** | Agilité | Dégainer rapide, Tir réflexe | **Extrême** (Combat intérieur) |
+| **Suppression** | Endurance | Contrôle du recul, Réserve de munitions | **Moyenne** (Défense de horde) |
+
+<Callout type="warning" title="Gestion des Munitions">
+Les builds de tireurs à gros dégâts peuvent être gourmands en ressources. Associez toujours votre tireur principal à un personnage "Mule" à haute force ou assurez-vous que l'atelier de l'Abri est priorisé pour la fabrication de munitions tôt dans la campagne.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mêlée et Discrétion : Les Tueurs Silencieux">
+
+Les munitions sont un luxe dans le comté d'Urban. Un build dédié à la mêlée n'est pas seulement un renfort ; c'est une nécessité pour nettoyer les secteurs silencieusement et conserver les ressources. Les spécialistes de la discrétion vont encore plus loin en utilisant les portées dynamiques de vue et d'audition du jeu pour démanteler les camps ennemis sans déclencher de fusillade généralisée.
+
+<Steps>
+  <Step num="1" title="Synchronisation des Attributs">
+    Concentrez-vous sur la **Force** pour les dégâts bruts et la **Dextérité** pour réduire le coût en PA des attaques. Un combattant de mêlée à haute Dextérité peut souvent frapper deux fois pendant qu'un cogneur lourd ne frappe qu'une seule fois.
+  </Step>
+  <Step num="2" title="Conditionnement à la Discrétion">
+    Augmentez l'**Agilité** en vous faufilant dans les zones infestées de zombies. Évitez de courir, car le bruit attirera des hordes errantes qui peuvent submerger un éclaireur solitaire.
+  </Step>
+  <Step num="3" title="Sélection des Armes">
+    Utilisez des lames ou des armes perforantes pour des éliminations silencieuses. Les armes contondantes sont excellentes pour endommager l'endurance ennemie, ce qui peut mener à des KO non létaux — utile pour traiter avec certains PNJ de faction que vous pourriez vouloir recruter plus tard.
+  </Step>
+</Steps>
+
+**Comparaison d'Efficacité des Builds de Mêlée :**
+| Classe d'Arme | Coût en PA | Niveau Sonore | Pénétration d'Armure |
+| :--- | :--- | :--- | :--- |
+| **Couteaux de combat** | Faible | **Silencieux** | Faible |
+| **Battes de baseball** | Moyen | Faible | **Moyen** |
+| **Haches lourdes** | Élevé | Moyen | **Élevé** |
+| **Arbalètes** | Moyen | **Silencieux** | Moyen |
+
+<Callout type="success" title="Avantage de Discrétion">
+Un build de discrétion avec une Agilité élevée peut souvent déclencher des **Tirs d'Interruption** ou des attaques de réaction plus fréquemment. Placez ces personnages près des portes pour surprendre les ennemis humains pendant leur tour.
+</Callout>
+
+</Section>
+
+<Section icon={Heart} title="Rôles de Soutien : Médecins et Survivants Utilitaires">
+
+Une escouade de purs tueurs finira par succomber à l'usure. Le **build de personnage Urban Strife** pour le soutien se concentre sur l'Intelligence et la Dextérité, garantissant que votre équipe reste en bonne santé et que votre équipement reste fonctionnel.
+
+**Le Médecin de Combat**
+Les médecins ne doivent pas se contenter de rester à l'arrière. Un médecin à haute Endurance peut effectuer des sauvetages sous le feu ennemi. Leur progression vient de l'utilisation de fournitures médicales, alors désignez un survivant comme soigneur principal pour maximiser son efficacité et débloquer des atouts médicaux de haut niveau.
+
+**Le Spécialiste Utilitaire et Artisanat**
+Ce build de personnage est souvent le plus négligé mais devient le plus important lors du siège final. Ils s'occupent des travaux lourds, de l'utilisation des outils et des tests de dialogue complexes avec des factions comme la **Garde Nationale** ou l'**Église de la Seconde Chance**.
+
+<CardGrid cols={3}>
+  <Card title="Le Médecin">
+    - **Stat Clé** : Intelligence
+    - **Tâche** : Soins, retrait d'états
+    - **Atout** : Récupération Rapide
+  </Card>
+  <Card title="Le Mécanicien">
+    - **Stat Clé** : Dextérité
+    - **Tâche** : Réparations, crochetage
+    - **Atout** : Maîtrise des Outils
+  </Card>
+  <Card title="Le Diplomate">
+    - **Stat Clé** : Intelligence/Force
+    - **Tâche** : Dialogue de faction, commerce
+    - **Atout** : Langue de Argent
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Tests de Dialogue">
+L'intelligence ne sert pas qu'à l'artisanat. De nombreuses résolutions de quêtes dans Urban Strife offrent des alternatives pacifiques si votre personnage principal a suffisamment d'Intelligence ou de Force pour intimider ou raisonner les chefs de faction.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construction d'Escouade et État de Préparation Final">
+
+À l'approche de la date limite du 20ème jour pour le siège de la Horde d'Atlanta, vos builds de personnages individuels doivent fusionner en une unité fonctionnelle. Le traqueur de défense de votre abri évaluera non seulement vos murs, mais aussi la qualité des survivants qui les défendent.
+
+<Checklist
+  id="squad-readiness"
+  title="Checklist de Build pour le Siège Final :"
+  items={[
+    "Au moins deux survivants avec plus de 80 en Tir de précision pour la défense murale",
+    "Un médecin avec des kits de traumatologie de haut niveau et des coûts de soin en PA réduits",
+    "Un mécanicien dédié pour réparer les armures et les armes en plein siège",
+    "Tous les combattants de première ligne équipés d'armures corporelles réparées",
+    "Réserves d'endurance suffisantes (Endurance) pour une bataille en plusieurs étapes"
+  ]}
+/>
+
+**Archétypes de Composition d'Équipe :**
+| Style d'Escouade | Composition | Idéal Pour |
+| :--- | :--- | :--- |
+| **Guérilla** | 2 Discrétion, 2 Snipers | Nettoyer les camps humains sans aucune perte |
+| **Mastodonte** | 2 Mêlée, 2 Fusils à pompe | Défendre des points de passage étroits contre les hordes |
+| **Équilibré** | 1 Sniper, 1 Assaut, 1 Médecin, 1 Éclaireur | Exploration générale et quêtes de faction |
+
+<Callout type="warning" title="Réparation de l'Équipement">
+La version 1.0 a introduit un système de réparation repensé. Utilisez votre personnage utilitaire pour recycler les armes en double en pièces détachées. Une armure endommagée réduira considérablement la santé effective d'un survivant, rendant même le meilleur build fragile.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="FAQ sur le Build de Personnage Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Puis-je réinitialiser les compétences ou les atouts de mon personnage dans Urban Strife ?",
+    answer: "Non, le système d'apprentissage par la pratique est permanent. Cependant, les atouts de profession sont choisis parmi des paliers, vous pouvez donc ajuster la spécialisation d'un survivant à mesure que vous débloquez des niveaux de formation supérieurs."
+  },
+  {
+    question: "Quel attribut est le plus important pour le siège de la Horde d'Atlanta ?",
+    answer: "L'Endurance et le Tir de précision sont critiques. L'Endurance garantit que vos survivants ne s'effondrent pas d'épuisement pendant le long combat, tandis que le Tir de précision est nécessaire pour éclaircir la horde avant qu'elle n'atteigne vos portes."
+  },
+  {
+    question: "Comment l'Intelligence affecte-t-elle mon build de personnage ?",
+    answer: "L'Intelligence agit comme un multiplicateur pour la croissance des attributs. Un personnage avec une Intelligence élevée atteindra 100 en Tir de précision beaucoup plus rapidement qu'un personnage avec une faible Intelligence, même s'ils effectuent le même nombre de tirs."
+  },
+  {
+    question: "Est-il préférable de se spécialiser ou d'avoir des survivants touche-à-tout ?",
+    answer: "La spécialisation est généralement supérieure. En raison du fonctionnement des coûts en PA et des paliers d'atouts, un sniper dédié est bien plus efficace qu'un survivant qui essaie d'équilibrer les fusils et la mêlée."
+  }
+]} />
+
+</Section>

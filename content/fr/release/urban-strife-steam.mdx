@@ -1,0 +1,231 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Steam : Guide de lancement 1.0 et guide tactique",
+  description: "Maîtrisez Urban Strife sur Steam avec notre guide 1.0 de 2026. Explorez les tactiques de survie, les niveaux d'armes, les améliorations d'abri et les choix de factions pour la version finale.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Urban+Strife+Steam+Guide",
+  date: "2026-07-16",
+  author: "L'équipe Wiki d'Urban Strife",
+  keywords: "urban strife, steam, guide, tactique, survie, 1.0, combat, abri"
+}
+
+<Callout type="info" title="Guide Rapide">
+- La version 1.0 d'**urban strife steam** a été officiellement lancée le 14 juillet 2026, marquant la fin de sa période d'accès anticipé.
+- **Gameplay de base** : Un RPG tactique au tour par tour avec une balistique réaliste, une gestion d'abri et une politique de faction complexe.
+- **Focus sur la survie** : Le succès nécessite d'équilibrer la conservation des munitions, les fournitures médicales et la production de ressources de l'abri.
+- **Préparation de fin de jeu** : La campagne culmine par un siège massif ; vos fortifications et alliances déterminent l'issue finale.
+- **Plateforme** : Actuellement disponible exclusivement sur Windows PC via Steam avec un support complet du contenu 1.0.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Steam : Infos de sortie et configurations PC">
+
+L'arrivée d'**urban strife steam** version 1.0 le 14 juillet 2026 conclut l'histoire de la Horde d'Atlanta et introduit plusieurs systèmes remaniés. Après dix-neuf mois en accès anticipé, la version finale ajoute le siège final de l'Abri, un système de talents de profession repensé et des mécanismes complets de réparation d'équipement. Que vous soyez un survivant de retour ou un nouveau chef de milice, la version 1.0 offre une expérience tactique plus polie et plus stimulante.
+
+| Catégorie | Valeur | Détails |
+| :--- | :--- | :--- |
+| **Sortie de la version 1.0** | 14 juillet 2026 | Campagne complète et contenu de fin de jeu |
+| **Prix standard** | 34,99 $ USD | Les prix régionaux s'appliquent sur Steam |
+| **Remise de lancement** | -30 % (24,49 $) | Valable jusqu'au 21 juillet 2026 |
+| **Plateforme** | PC Windows | Supporte le Steam Cloud et le Workshop |
+| **Langues** | 6 supportées | Anglais, Russe, Allemand, Français, Espagnol, Chinois |
+
+<Callout type="success" title="Compatibilité de la version 1.0">
+Les sauvegardes existantes de l'accès anticipé restent compatibles avec la version 1.0. Cependant, les développeurs recommandent de commencer une nouvelle campagne pour découvrir le flux de quêtes repensé, les nouveaux plans et la mise à jour de la distribution des talents de profession depuis le début.
+</Callout>
+
+### Configuration PC requise
+
+Pour garantir des performances fluides lors des rencontres avec de grandes hordes de zombies, votre système doit répondre aux spécifications suivantes :
+
+| Configuration | Minimum | Recommandée |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 64-bit | Windows 10 64-bit |
+| **CPU** | Intel i5-4690 / AMD FX-8350 | Intel i7-8700K / AMD Ryzen 5 3600 |
+| **RAM** | 16 Go | 16 Go |
+| **GPU** | GTX 970 / RX 480 (4 Go VRAM) | RTX 2060 Super / RX 5700 XT (8 Go) |
+| **Stockage** | 20 Go d'espace disponible | SSD recommandé |
+
+<Callout type="warning" title="Conseil de performance">
+Les grandes hordes et les environnements urbains à haute destructibilité peuvent être gourmands en CPU. Si vous subissez des chutes de fps pendant les séquences de la Horde d'Atlanta, envisagez de baisser les paramètres de physique ou de fragments dans le menu des options.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guide pour débutants : Survivre aux premières 24 heures">
+
+Les premières heures d'Urban Strife sont conçues pour vous enseigner les bases du mouvement tactique et de la gestion des ressources. Vous commencez en tant que survivant secouru d'un laboratoire d'Atlanta, chargé d'aider les résidents vieillissants de l'Abri Urbain à reconstruire leur communauté. Votre objectif principal est de stabiliser la base avant de vous aventurer dans les secteurs dangereux du comté d'Urban.
+
+<Steps>
+  <Step num="1" title="Terminer le prologue">
+    Suivez l'itinéraire d'introduction à travers le pont et les secteurs de banlieue. Cette phase vous apprend à équiper des objets, à gérer les points d'action (AP) et à détruire les nids de zombies. Ne sautez pas les fenêtres de tutoriel, car elles expliquent les nuances du HUD de l'inventaire.
+  </Step>
+  <Step num="2" title="Stabiliser les ressources de l'abri">
+    Votre priorité absolue est la nourriture, l'eau et les médicaments. Revenez de chaque expédition de pillage avec ces essentiels. Utilisez le Carnet de l'Abri pour suivre votre stock et vous assurer que le moral des résidents reste élevé.
+  </Step>
+  <Step num="3" title="Former une équipe équilibrée">
+    Ne comptez pas sur un seul personnage "héros". Recrutez des survivants et distribuez les armes en fonction de leurs talents naturels. Une équipe équilibrée doit comprendre un tireur à distance, un spécialiste du corps à corps discret et quelqu'un capable de prodiguer des soins sur le terrain.
+  </Step>
+  <Step num="4" title="Maîtriser les éliminations silencieuses">
+    Les munitions sont une ressource finie et coûteuse. Utilisez des arbalètes, des armes de mêlée ou des pistolets avec silencieux pour éliminer les zombies isolés. Les coups de feu bruyants doivent être réservés aux hostiles humains ou aux déclenchements de hordes inévitables.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gestion des ressources">
+Ne quittez jamais un secteur avec des emplacements d'inventaire vides. Même les objets de faible valeur peuvent être recyclés en pièces pour les réparations ou donnés à l'abri pour améliorer votre réputation et votre réserve de ressources.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat tactique et commandes">
+
+Le combat dans Urban Strife est régi par un système de points d'action (AP) au tour par tour. Contrairement à de nombreux autres RPG tactiques, ce jeu simule les trajectoires de balles, la pénétration des matériaux et les fragments d'explosion individuels. Le positionnement n'est pas seulement une question de "chances de toucher", mais concerne les propriétés physiques du monde qui vous entoure.
+
+### Raccourcis de combat essentiels
+
+| Touche | Action | Utilisation tactique |
+| :--- | :--- | :--- |
+| **X** | Changer d'arme active | Basculer rapidement entre distance et mêlée |
+| **F** | Changer de mode de tir | Alterner entre coup par coup, rafale ou auto |
+| **Y** | Activer la Vigilance | Préparer un tir de réaction pour le tour ennemi |
+| **0** | Sélectionner tout le groupe | Utile pour le positionnement de groupe hors combat |
+| **C** | Changer de posture | Alterner entre debout, accroupi et allongé |
+
+<Callout type="warning" title="Le matériau de couverture compte">
+Toutes les couvertures ne se valent pas. Une clôture en bois peut offrir une "pénalité de tir" visuelle aux ennemis, mais un fusil de gros calibre la traversera facilement. Priorisez toujours les murs en pierre, les blocs moteurs ou le béton épais pour une protection maximale.
+</Callout>
+
+### Mécaniques tactiques avancées
+
+1. **Initiative** : Entrer en combat en étant accroupi et à couvert augmente vos chances de gagner l'initiative, permettant à votre escouade d'agir en premier.
+2. **Ciblage de parties du corps** : Les tirs à la tête infligent des dégâts massifs mais ont une précision plus faible. Utilisez les tirs dans les membres pour ralentir les "coureurs" rapides ou neutraliser les tireurs d'élite humains.
+3. **Bruit et vigilance** : Chaque action génère du bruit. Les explosions et les fusils à pompe sans silencieux peuvent attirer des zombies des secteurs adjacents dans votre bataille actuelle.
+4. **Tir d'interruption** : Les personnages ayant une Agilité élevée et des AP restants peuvent interrompre le mouvement ennemi, offrant une couche de défense cruciale pendant le tour adverse.
+
+<Callout type="info" title="Avantage de la discrétion">
+Vous pouvez résoudre de nombreux affrontements sans entrer en combat complet au tour par tour. Si vous restez indétecté, vous pouvez réduire les rangs ennemis à l'aide d'éliminations silencieuses, économisant ainsi vos munitions pour les objectifs finaux.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meilleures armes et niveaux d'équipement">
+
+Il n'y a pas d'arme "ultime" dans Urban Strife. Au lieu de cela, les armes sont classées par rôles tactiques. Votre équipement doit refléter les menaces spécifiques du secteur dans lequel vous pénétrez.
+
+<CardGrid cols={3}>
+  <Card title="Rang S : Contrôle de Horde">
+    - **Fusils à pompe** : Chaque plomb est calculé séparément.
+    - **Mitrailleuses** : Haute suppression et dégâts de zone.
+    - **Explosifs** : Essentiels pour dégager les points d'étranglement.
+    - *Idéal pour* : Défense de l'abri et groupes de zombies denses.
+  </Card>
+  <Card title="Rang S : Précision">
+    - **Fusils de précision** : Haute pénétration et portée.
+    - **Carabines de chasse** : Dégâts fiables à moyenne et longue portée.
+    - **.50 BMG** : Puissance anti-matériel rare.
+    - *Idéal pour* : Tireurs d'élite humains et cibles blindées.
+  </Card>
+  <Card title="Rang A : Furtivité">
+    - **Arbalètes** : Munitions "infinies" via la récupération.
+    - **Pistolets avec silencieux** : Faible coût en AP et silencieux.
+    - **Armes blanches** : Éliminations silencieuses avec haut taux de critique.
+    - *Idéal pour* : Reconnaissance et élimination silencieuse des gardes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Réparation d'armes">
+Dans la version 1.0, vous pouvez utiliser l'opération de réparation d'Owen pour restaurer les armes à feu et les gilets pare-balles endommagés. Cela nécessite des pièces de récupération, obtenues en démantelant l'équipement indésirable à l'atelier.
+</Callout>
+
+### Armures et protection
+
+| Type d'armure | Points forts | Limites |
+| :--- | :--- | :--- |
+| **Plaques balistiques** | Haute protection contre les fusils | Consommable ; ne peut pas être réparé |
+| **Gilet pare-balles** | Protège le torse ; réparable | Lourd ; réduit les AP de mouvement |
+| **Casques** | Prévient la mort instantanée par tir à la tête | Durabilité limitée ; coût élevé |
+| **Armure de membre** | Réduit les effets d'infirmité | Impact minimal sur la santé totale |
+
+</Section>
+
+<Section icon={Shield} title="Améliorations de l'abri et alliances de factions">
+
+L'abri est votre base d'opérations et la clé pour survivre en fin de jeu. Son amélioration nécessite un équilibre entre matériaux de construction, recrues spécialisées et dons réguliers de ressources.
+
+### Phases de progression de l'abri
+
+| Phase | Focus | Installations clés |
+| :--- | :--- | :--- |
+| **1. Survie** | Besoins quotidiens | Stockage, Eau, Systèmes de moral |
+| **2. Services** | Fonctions de base | Radio, Hôpital, Garage, Atelier |
+| **3. Industrie** | Autosuffisance | Jardins, Élevage de rats, Hydroponie |
+| **4. Arsenal** | Préparation au combat | Établi d'armurier, Production de munitions |
+| **5. Défense** | Préparation au siège | Fortifications, Clôtures électrifiées, Tourelles |
+
+<Callout type="tip" title="Gestion de l'énergie">
+Les défenses avancées comme les clôtures électriques nécessitent une alimentation constante. Assurez-vous d'avoir amélioré vos générateurs (Solaire, Hydro ou Éolien) avant le début du siège final, sinon vos fortifications échoueront au moment où vous en aurez le plus besoin.
+</Callout>
+
+### Comparaison des factions
+
+Votre réputation dans le comté d'Urban détermine quelle faction vous soutiendra lors de l'assaut de la Horde d'Atlanta. Choisissez vos alliés avec soin, car s'opposer à un bloc ferme souvent l'accès à ses récompenses uniques.
+
+| Faction | Identité | Récompenses clés |
+| :--- | :--- | :--- |
+| **Garde Nationale** | Militaire discipliné | Armes de haut niveau, HMMWV de l'armée, Armure |
+| **Église de la Seconde Chance** | Spirituel/Culte | Plans uniques, Améliorations de furtivité, Lore |
+| **Shady Lady Bikers** | Marché noir lucratif | Pièces de véhicule, Soutien mécanique, Commerce |
+
+<Callout type="warning" title="Le système de vote">
+Vous ne pouvez pas simplement entrer dans le quartier général d'une faction. Vous devez gagner suffisamment de "votes" auprès des groupes de survivants locaux et des barons pour prouver votre influence avant que les acteurs majeurs ne vous proposent une alliance formelle.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fin de jeu : Le siège de la Horde d'Atlanta">
+
+Le dernier acte de la campagne est centré sur le Suivi de Défense (Defense Tracker). Ce système évalue votre préparation totale avant que la Horde d'Atlanta n'arrive à l'Abri. Chaque alliance, amélioration et stock que vous avez constitué tout au long du jeu contribue à ce score.
+
+<Checklist
+  id="siege-readiness"
+  title="Liste de vérification pour le siège final :"
+  items={[
+    "Réparer toutes les armes principales et les gilets pare-balles en utilisant des pièces de récupération.",
+    "Stocker au moins 48 heures de nourriture et de fournitures médicales.",
+    "S'assurer que toutes les défenses alimentées sont connectées à un générateur fonctionnel.",
+    "Assigner vos survivants ayant la meilleure compétence de Tir aux murs d'enceinte.",
+    "Terminer l'opération de réparation d'Owen pour les portes lourdes de l'abri.",
+    "Sécuriser une alliance de faction pour un soutien militaire en fin de jeu."
+  ]}
+/>
+
+<Callout type="success" title="L'avertissement final">
+Dans la campagne 1.0, le siège se déclenche généralement vers le jour 20. La radio donnera un avertissement 24 heures à l'avance. Utilisez cette dernière fenêtre pour rappeler toutes les équipes en mission et transférer votre meilleur équipement dans la réserve de l'abri.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Urban Strife est-il disponible sur consoles ?",
+    answer: "Actuellement, Urban Strife n'est disponible que sur Windows PC via Steam. Il n'y a aucune annonce officielle concernant des versions PlayStation ou Xbox."
+  },
+  {
+    question: "Comment réparer les armes dans la version 1.0 ?",
+    answer: "Vous devez d'abord débloquer l'opération de réparation d'Owen. Une fois active, vous pouvez utiliser des pièces de récupération provenant d'équipements démantelés pour restaurer la durabilité de vos armes et armures."
+  },
+  {
+    question: "Puis-je rejoindre plus d'une faction ?",
+    answer: "Vous pouvez maintenir une réputation positive avec plusieurs factions, mais pour l'alliance finale, vous devez choisir un bienfaiteur principal. Ce choix est permanent pour cette partie."
+  },
+  {
+    question: "Que se passe-t-il si j'échoue au siège final ?",
+    answer: "La séquence de fin reflète vos performances. Si vos défenses sont trop faibles, vous pourriez perdre des PNJ clés ou faire face à une conclusion plus tragique pour la communauté de l'Abri Urbain."
+  }
+]} />
+
+</Section>

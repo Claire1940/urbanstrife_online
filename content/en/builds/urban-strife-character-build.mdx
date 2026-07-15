@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Zap, Heart, Brain } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Character Build: Best Survivor Roles & Perk Guide",
+  description: "Master the Urban Strife character build system with our guide on attributes, learn-by-doing skills, and the best profession perks for your survivor squad.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Character+Build+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban Strife character build** mechanics rely on a **learn-by-doing** system where repeated actions improve specific attributes.
+- **Core Attributes**: Focus on **Marksmanship** and **Agility** for shooters, while melee fighters require **Strength** and **Endurance**.
+- **Profession Perks**: These are divided into three tiers and can be freely selected once unlocked to specialize your survivors.
+- **Squad Synergy**: A balanced team should include at least one **Medic**, one **Stealth Specialist**, and two **Ranged DPS** units.
+- **Endgame Prep**: Character builds must account for the final **Atlanta Horde siege**, prioritizing high-stamina and high-accuracy builds.
+</Callout>
+
+<Section icon={User} title="Understanding Attributes and Natural Growth">
+
+In Urban Strife, your character build is not just a set of static numbers chosen at a menu screen. Instead, the game utilizes a dynamic growth system where the way you play directly influences how your survivors evolve. Every survivor starts with a unique background, a native perk, and a defining trait that sets their baseline potential.
+
+The six core attributes govern every tactical interaction in the wasteland. Understanding how these interact with your equipment and the environment is the first step in creating an optimized squad.
+
+| Attribute | Primary Effects | Growth Method |
+| :--- | :--- | :--- |
+| **Marksmanship** | Ranged accuracy, crit chance | Firing firearms, crossbows |
+| **Agility** | Movement AP, interrupts, evasion | Sneaking, dodging melee attacks |
+| **Strength** | Carry weight, melee damage, stamina | Carrying heavy loads, melee hits |
+| **Dexterity** | Item AP cost, melee hit chance | Using tools, medical kits, melee |
+| **Endurance** | Max health, stamina, resistance | Taking damage, long expeditions |
+| **Intelligence** | Attribute growth speed, dialogue | Successful skill checks, exploration |
+
+<Callout type="tip" title="Growth Optimization">
+Since Intelligence increases the progression speed of all other attributes, starting a custom character with higher Intelligence can lead to a much stronger late-game build as they will level up their combat skills faster than peers.
+</Callout>
+
+### The Learn-by-Doing Mechanic
+Unlike traditional RPGs where you distribute points upon leveling up, Urban Strife rewards consistency. If you want a survivor to become a master sniper, they must spend their turns taking long-range shots. If you want a frontline tank, they need to engage in melee and withstand pressure. This organic growth means your "build" is a reflection of your tactical history.
+
+</Section>
+
+<Section icon={Target} title="The Ranged Shooter: Precision and Overwatch">
+
+The **urban strife character build** for a Ranged Shooter is the backbone of any successful militia. These survivors specialize in controlling the battlefield from a distance, using high-ground advantages and specialized firearms to eliminate threats before they reach your frontline.
+
+<CardGrid cols={2}>
+  <Card title="Sniper Specialist">
+    - **Primary Gear**: Hunting Rifles, .50 BMG
+    - **Focus**: High Marksmanship & Intelligence
+    - **Role**: Priority target removal from extreme range.
+  </Card>
+  <Card title="Assault/Horde Control">
+    - **Primary Gear**: Shotguns, Automatic Rifles
+    - **Focus**: Marksmanship & Agility
+    - **Role**: Breaking up zombie clusters and suppressing human flanks.
+  </Card>
+</CardGrid>
+
+**Key Progression for Shooters:**
+To maximize a shooter's efficiency, you must manage their Action Points (AP) carefully. A high-Agility build allows for repositioning and firing in the same turn, which is critical when the Atlanta Horde begins to close in.
+
+| Build Type | Best Attribute | Recommended Perks | Tactical Utility |
+| :--- | :--- | :--- | :--- |
+| **Long-Range** | Marksmanship | Accuracy Tiers, Crit Boosts | **High** (Human Leaders) |
+| **Breacher** | Agility | Quick Draw, Reflexive Fire | **Extreme** (Indoor Combat) |
+| **Suppression** | Endurance | Recoil Control, Ammo Stash | **Medium** (Horde Defense) |
+
+<Callout type="warning" title="Ammunition Management">
+High-damage shooter builds can be resource-intensive. Always pair your primary shooter with a high-strength "Mule" character or ensure the Shelter's workshop is prioritized for ammo crafting early in the campaign.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melee and Stealth: The Silent Killers">
+
+Ammo is a luxury in Urban County. A dedicated melee build is not just a backup; it is a necessity for clearing sectors quietly and conserving resources. Stealth specialists take this a step further by utilizing the game's dynamic sight and hearing ranges to dismantle enemy camps without triggering a full-scale firefight.
+
+<Steps>
+  <Step num="1" title="Attribute Synchronization">
+    Focus on **Strength** for raw damage and **Dexterity** to lower the AP cost of attacks. A high-Dexterity melee fighter can often strike twice in the time a heavy hitter strikes once.
+  </Step>
+  <Step num="2" title="Stealth Conditioning">
+    Level up **Agility** by sneaking through zombie-infested areas. Avoid running, as noise will attract roaming hordes that can overwhelm a lone scout.
+  </Step>
+  <Step num="3" title="Weapon Selection">
+    Use blades or piercing weapons for silent kills. Blunt weapons are excellent for damaging enemy stamina, which can lead to non-lethal knockouts—useful when dealing with certain faction NPCs you might want to recruit later.
+  </Step>
+</Steps>
+
+**Melee Build Efficiency Comparison:**
+| Weapon Class | AP Cost | Noise Level | Armor Penetration |
+| :--- | :--- | :--- | :--- |
+| **Combat Knives** | Low | **Silent** | Low |
+| **Baseball Bats** | Medium | Low | **Medium** |
+| **Heavy Axes** | High | Medium | **High** |
+| **Crossbows** | Medium | **Silent** | Medium |
+
+<Callout type="success" title="Stealth Advantage">
+A stealth build with high Agility can often trigger **Interrupt Fire** or reaction attacks more frequently. Position these characters near doorways to catch human enemies off-guard during their turn.
+</Callout>
+
+</Section>
+
+<Section icon={Heart} title="Support Roles: Medics and Utility Survivors">
+
+A squad of pure killers will eventually succumb to attrition. The **urban strife character build** for support focuses on Intelligence and Dexterity, ensuring that your team stays healthy and your equipment stays functional.
+
+**The Combat Medic**
+Medics shouldn't just sit in the back. A high-Endurance medic can perform rescues under fire. Their growth comes from using medical supplies, so designate one survivor as the primary healer to maximize their efficiency and unlock high-tier medical perks.
+
+**The Utility & Crafting Specialist**
+This character build is often the most overlooked but becomes the most important during the final siege. They handle the heavy lifting, tool usage, and complex dialogue checks with factions like the **National Guard** or the **Church of Second Chance**.
+
+<CardGrid cols={3}>
+  <Card title="The Medic">
+    - **Key Stat**: Intelligence
+    - **Task**: Healing, status removal
+    - **Perk**: Rapid Recovery
+  </Card>
+  <Card title="The Mechanic">
+    - **Key Stat**: Dexterity
+    - **Task**: Repairs, lockpicking
+    - **Perk**: Tool Mastery
+  </Card>
+  <Card title="The Diplomat">
+    - **Key Stat**: Intelligence/Strength
+    - **Task**: Faction dialogue, trading
+    - **Perk**: Silver Tongue
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Dialogue Checks">
+Intelligence isn't just for crafting. Many quest resolutions in Urban Strife offer peaceful alternatives if your lead character has sufficient Intelligence or Strength to intimidate or reason with faction leaders.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Squad Construction and Endgame Readiness">
+
+As you approach the Day 20 deadline for the Atlanta Horde siege, your individual character builds must coalesce into a functional unit. The Defense Tracker in your Shelter will evaluate not just your walls, but the quality of the survivors defending them.
+
+<Checklist
+  id="squad-readiness"
+  title="Final Siege Build Checklist:"
+  items={[
+    "At least two survivors with 80+ Marksmanship for wall defense",
+    "One medic with high-tier trauma kits and low AP healing costs",
+    "A dedicated mechanic to repair armor and weapons mid-siege",
+    "All frontline fighters equipped with repaired body armor",
+    "Sufficient stamina reserves (Endurance) for a multi-stage battle"
+  ]}
+/>
+
+**Team Composition Archetypes:**
+| Squad Style | Composition | Best For |
+| :--- | :--- | :--- |
+| **Guerilla** | 2 Stealth, 2 Snipers | Clearing human camps with zero casualties |
+| **Juggernaut** | 2 Melee, 2 Shotgunners | Defending narrow chokepoints against hordes |
+| **Balanced** | 1 Sniper, 1 Assault, 1 Medic, 1 Scout | General exploration and faction quests |
+
+<Callout type="warning" title="Repairing Gear">
+Version 1.0 introduced a redesigned repair system. Use your utility character to salvage duplicate weapons into parts. Damaged armor will drastically reduce a survivor's effective health, making even the best build fragile.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Urban Strife Character Build FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I reset my character's skills or perks in Urban Strife?",
+    answer: "No, the learn-by-doing system is permanent. However, profession perks are chosen from tiers, so you can adjust a survivor's specialization as you unlock higher levels of training."
+  },
+  {
+    question: "Which attribute is most important for the Atlanta Horde siege?",
+    answer: "Endurance and Marksmanship are critical. Endurance ensures your survivors don't collapse from exhaustion during the long fight, while Marksmanship is needed to thin the horde before they reach your gates."
+  },
+  {
+    question: "How does Intelligence affect my character build?",
+    answer: "Intelligence acts as a multiplier for attribute growth. A character with high Intelligence will reach 100 Marksmanship much faster than a character with low Intelligence, even if they fire the same number of shots."
+  },
+  {
+    question: "Is it better to specialize or have jack-of-all-trades survivors?",
+    answer: "Specialization is generally superior. Because of the way AP costs and perk tiers work, a dedicated sniper is far more effective than a survivor who tries to balance rifles and melee."
+  }
+]} />
+
+</Section>

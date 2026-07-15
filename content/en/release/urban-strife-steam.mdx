@@ -1,0 +1,230 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "urban strife steam: 1.0 Launch Guide & Tactical Walkthrough",
+  description: "Master Urban Strife on Steam with our 2026 1.0 guide. Explore survival tactics, weapon tiers, shelter upgrades, and faction choices for the full release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Urban+Strife+Steam+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **urban strife steam** version 1.0 officially launched on July 14, 2026, marking the end of its Early Access period.
+- **Core Gameplay**: A tactical turn-based RPG featuring realistic ballistics, shelter management, and deep faction politics.
+- **Survival Focus**: Success requires balancing ammunition conservation, medical supplies, and shelter resource production.
+- **Endgame Prep**: The campaign culminates in a massive siege; your fortifications and alliances determine the final outcome.
+- **Platform**: Currently available exclusively for Windows PC via Steam with full 1.0 content support.
+</Callout>
+
+<Section icon={Map} title="urban strife steam: Release Info & PC Requirements">
+
+The arrival of **urban strife steam** version 1.0 on July 14, 2026, brings a conclusion to the Atlanta Horde storyline and introduces several overhauled systems. After nineteen months in Early Access, the full release adds the final Shelter siege, a redesigned profession perk system, and comprehensive equipment repair mechanics. Whether you are a returning survivor or a new militia leader, the 1.0 version offers a more polished and challenging tactical experience.
+
+| Category | Value | Details |
+| :--- | :--- | :--- |
+| **Version 1.0 Release** | July 14, 2026 | Full campaign completion and endgame content |
+| **Standard Price** | $34.99 USD | Regional pricing applies on Steam |
+| **Launch Discount** | 30% off ($24.49) | Valid through July 21, 2026 |
+| **Platform** | Windows PC | Supports Steam Cloud and Workshop |
+| **Languages** | 6 Supported | English, Russian, German, French, Spanish, Chinese |
+
+<Callout type="success" title="Version 1.0 Compatibility">
+Existing Early Access saves remain compatible with the 1.0 release. However, the developers recommend starting a fresh campaign to experience the redesigned quest flow, new blueprints, and the updated profession perk distribution from the beginning.
+</Callout>
+
+### PC System Requirements
+
+To ensure smooth performance during large zombie horde encounters, your system should meet the following specifications:
+
+| Requirement | Minimum | Recommended |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 64-bit | Windows 10 64-bit |
+| **CPU** | Intel i5-4690 / AMD FX-8350 | Intel i7-8700K / AMD Ryzen 5 3600 |
+| **RAM** | 16 GB | 16 GB |
+| **GPU** | GTX 970 / RX 480 (4GB VRAM) | RTX 2060 Super / RX 5700 XT (8GB) |
+| **Storage** | 20 GB available space | SSD Recommended |
+
+<Callout type="warning" title="Performance Tip">
+Large hordes and urban environments with high destructibility can be CPU-intensive. If you experience frame drops during the Atlanta Horde sequences, consider lowering the physics or fragment settings in the options menu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Beginner Guide: Surviving the First 24 Hours">
+
+The opening hours of Urban Strife are designed to teach you the fundamentals of tactical movement and resource management. You begin as a survivor rescued from an Atlanta laboratory, tasked with helping the aging residents of Urban Shelter rebuild their community. Your primary goal is to stabilize the base before branching out into the dangerous sectors of Urban County.
+
+<Steps>
+  <Step num="1" title="Complete the Prologue">
+    Follow the introductory route through the bridge and suburban sectors. This phase teaches you how to equip items, manage Action Points (AP), and destroy zombie spawners. Do not skip the tutorial windows, as they explain the nuance of the inventory HUD.
+  </Step>
+  <Step num="2" title="Stabilize Shelter Resources">
+    Your first priority is food, water, and medicine. Return from every scavenging trip with these essentials. Use the Shelter Notebook to track your stockpile and ensure your residents' morale remains high.
+  </Step>
+  <Step num="3" title="Form a Balanced Team">
+    Do not rely on a single "hero" character. Recruit survivors and distribute weapons based on their native perks. A balanced team should include a ranged shooter, a quiet melee specialist, and someone capable of field medicine.
+  </Step>
+  <Step num="4" title="Master Quiet Eliminations">
+    Ammunition is a finite and expensive resource. Use crossbows, melee weapons, or suppressed pistols to remove isolated zombies. Loud gunfire should be reserved for human hostiles or unavoidable horde triggers.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Resource Management">
+Never leave a sector with empty inventory slots. Even low-value items can be salvaged into parts for repairs or donated to the Shelter to improve your standing and resource pool.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Combat & Controls">
+
+Combat in Urban Strife is governed by a turn-based Action Point system. Unlike many other tactical RPGs, this game simulates bullet trajectories, material penetration, and individual explosion fragments. Positioning is not just about "hit chance" but about the physical properties of the world around you.
+
+### Essential Combat Shortcuts
+
+| Key | Action | Tactical Use |
+| :--- | :--- | :--- |
+| **X** | Swap Active Weapon | Switch between ranged and melee quickly |
+| **F** | Change Fire Mode | Toggle between single, burst, or auto |
+| **Y** | Activate Overwatch | Set up reaction fire for the enemy turn |
+| **0** | Select Entire Party | Useful for group positioning outside combat |
+| **C** | Change Stance | Toggle between standing, crouched, and prone |
+
+<Callout type="warning" title="Cover Material Matters">
+Not all cover is equal. A wooden fence might provide a visual "hit penalty" to enemies, but a high-caliber rifle will penetrate it easily. Always prioritize stone walls, engine blocks, or thick concrete for maximum protection.
+</Callout>
+
+### Advanced Tactical Mechanics
+
+1. **Initiative**: Entering combat while crouched and in cover increases your chance of winning initiative, allowing your squad to act first.
+2. **Body-Part Targeting**: Headshots deal massive damage but have lower accuracy. Use limb shots to slow down fast-moving "runners" or disable human marksmen.
+3. **Noise & Awareness**: Every action generates noise. Explosions and unsuppressed shotguns can pull zombies from adjacent sectors into your current battle.
+4. **Interrupt Fire**: Characters with high Agility and remaining AP can interrupt enemy movement, providing a crucial layer of defense during the enemy turn.
+
+<Callout type="info" title="Stealth Advantage">
+You can resolve many encounters without entering full turn-based combat. If you remain undetected, you can thin out enemy ranks using silent takedowns, saving your ammunition for the final objectives.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Weapons & Equipment Tiers">
+
+There is no "ultimate" weapon in Urban Strife. Instead, weapons are categorized by their tactical roles. Your loadout should reflect the specific threats of the sector you are entering.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Horde Control">
+    - **Shotguns**: Every pellet is calculated separately.
+    - **Machine Guns**: High suppression and area damage.
+    - **Explosives**: Essential for clearing chokepoints.
+    - *Best for*: Shelter defense and dense zombie groups.
+  </Card>
+  <Card title="S-Tier: Precision">
+    - **Sniper Rifles**: High penetration and range.
+    - **Hunting Rifles**: Reliable mid-to-long range damage.
+    - **.50 BMG**: Rare anti-materiel power.
+    - *Best for*: Human snipers and armored targets.
+  </Card>
+  <Card title="A-Tier: Stealth">
+    - **Crossbows**: Infinite "ammo" via recovery.
+    - **Suppressed Pistols**: Low AP cost and quiet.
+    - **Bladed Weapons**: Silent, high-crit takedowns.
+    - *Best for*: Scouting and silent guard removal.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Weapon Repairs">
+In Version 1.0, you can use Owen's repair operation to restore damaged firearms and body armor. This requires salvaged parts, which are obtained by dismantling unwanted gear at the workshop.
+</Callout>
+
+### Armor and Protection
+
+| Armor Type | Strengths | Limitations |
+| :--- | :--- | :--- |
+| **Ballistic Plates** | High protection against rifles | Expendable; cannot be repaired |
+| **Body Armor** | Protects the torso; repairable | Heavy; reduces movement AP |
+| **Helmets** | Prevents instant headshot kills | Limited durability; high cost |
+| **Limb Armor** | Reduces crippling effects | Minimal impact on total health |
+
+</Section>
+
+<Section icon={Shield} title="Shelter Upgrades & Faction Alliances">
+
+The Shelter is your base of operations and the key to surviving the endgame. Upgrading it requires a balance of construction materials, specialist recruits, and consistent resource donations.
+
+### Shelter Progression Phases
+
+| Phase | Focus | Key Facilities |
+| :--- | :--- | :--- |
+| **1. Survival** | Daily Needs | Storage, Water, Morale systems |
+| **2. Services** | Core Functions | Radio, Hospital, Auto Shop, Workshop |
+| **3. Industry** | Self-Sufficiency | Gardens, Rat Farms, Hydroponics |
+| **4. Arsenal** | Combat Readiness | Gunsmith Bench, Ammo Production |
+| **5. Defense** | Siege Prep | Fortifications, Powered Fences, Turrets |
+
+<Callout type="tip" title="Power Management">
+Advanced defenses like electric fences require consistent power. Ensure you have upgraded your generators (Solar, Hydro, or Wind) before the final siege begins, or your fortifications will fail when you need them most.
+</Callout>
+
+### Faction Comparison
+
+Your reputation in Urban County determines which faction will support you during the Atlanta Horde assault. Choose your allies carefully, as opposing one bloc often closes off their unique rewards.
+
+| Faction | Identity | Key Rewards |
+| :--- | :--- | :--- |
+| **National Guard** | Disciplined Military | High-tier firearms, Army HMMWV, Armor |
+| **Church of Second Chance** | Spiritual/Cultist | Unique blueprints, Stealth upgrades, Lore |
+| **Shady Lady Bikers** | Profit-driven Black Market | Vehicle parts, Mechanic support, Trade |
+
+<Callout type="warning" title="The Vote System">
+You cannot simply walk into a faction's headquarters. You must earn enough "votes" from local survivor groups and barons to prove your influence before the major players will offer you a formal alliance.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame: The Atlanta Horde Siege">
+
+The final act of the campaign centers on the Defense Tracker. This system evaluates your total readiness before the Atlanta Horde arrives at the Shelter. Every alliance, upgrade, and stockpile you have built throughout the game contributes to this score.
+
+<Checklist
+  id="siege-readiness"
+  title="Final Siege Checklist:"
+  items={[
+    "Repair all primary weapons and body armor using salvaged parts.",
+    "Stockpile at least 48 hours of food and medical supplies.",
+    "Ensure all powered defenses are connected to a working generator.",
+    "Assign your highest-Marksmanship survivors to the perimeter walls.",
+    "Complete Owen's repair operation for the Shelter's heavy gates.",
+    "Secure a faction alliance for late-game military support."
+  ]}
+/>
+
+<Callout type="success" title="The Final Warning">
+In the 1.0 campaign, the siege typically triggers around Day 20. The radio will provide a 24-hour warning. Use this final window to recall all away teams and move your best equipment into the Shelter stash.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Is Urban Strife available on consoles?",
+    answer: "Currently, Urban Strife is only available on Windows PC via Steam. There are no official announcements regarding PlayStation or Xbox versions."
+  },
+  {
+    question: "How do I repair weapons in the 1.0 version?",
+    answer: "You must first unlock Owen's repair operation. Once active, you can use salvaged parts from dismantled gear to restore the durability of your firearms and armor."
+  },
+  {
+    question: "Can I join more than one faction?",
+    answer: "You can maintain positive reputation with multiple factions, but for the final alliance, you must choose one primary benefactor. This choice is permanent for that playthrough."
+  },
+  {
+    question: "What happens if I fail the final siege?",
+    answer: "The ending sequence reflects your performance. If your defenses are too weak, you may face the loss of key NPCs or a more tragic conclusion for the Urban Shelter community."
+  }
+]} />
+
+</Section>

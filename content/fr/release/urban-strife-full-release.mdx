@@ -1,0 +1,246 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HeartPulse, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Sortie Complète d'Urban Strife : Guide 2026 des Factions et du Combat",
+  description: "Maîtrisez la version finale d'Urban Strife. Explorez notre guide complet couvrant le combat tactique, les améliorations d'abri, les armes et les choix de factions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a24/dd322c?text=Urban+Strife+Full+Release",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "Urban Strife, guide, combat tactique, survie zombie, factions, abri, artisanat"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Sortie Complète d'Urban Strife** : La version 1.0 a été lancée officiellement le **14 juillet 2026**, concluant l'intrigue de la Horde d'Atlanta et introduisant des mécanismes de refonte.
+- **Combat Tactique** : Maîtrisez les Points d'Action, la balistique simulée, les matériaux de couverture et les mécanismes de discrétion pour survivre aux menaces humaines et zombies.
+- **Améliorations de l'Abri** : Priorisez les dons de ressources, les réparations de la radio de la ville et la production alimentaire avant l'alerte de siège du 20e jour.
+- **Alliances de Factions** : Alignez-vous avec la Garde Nationale, l'Église de la Seconde Chance ou les Shady Lady Bikers pour débloquer des plans et des véhicules exclusifs.
+- **Économie de Survie** : Récupérez les pièces d'armes sur l'équipement en double pour les réparations, car les plaques de blindage balistique se dégradent de façon permanente.
+</Callout>
+
+<Section icon={Map} title="Présentation de la Sortie Complète d'Urban Strife et Configuration PC">
+
+La **sortie complète d'urban strife** est arrivée le **14 juillet 2026**, après dix-neuf mois en accès anticipé sur Steam. Jalons important qui complète le récit post-apocalyptique, introduisant la défense finale de l'Abri Urbain contre la dévastatrice Horde d'Atlanta. La version 1.0 apporte des refontes mécaniques majeures, notamment un système de spécialisations professionnelles à trois niveaux redessiné, une dégradation réaliste de l'équipement et un support dédié aux véhicules.
+
+| Caractéristique | Spécification | Détails |
+|---|---|---|
+| **Date de sortie** | 14 juillet 2026 | Atteinte de la Version 1.0 après un début en accès anticipé le 10 déc. 2024. |
+| **Prix Standard** | 34,99 $ USD | Prix régionaux disponibles ; lancé avec une remise de 30 % (24,49 $ USD) jusqu'au 21 juillet 2026. |
+| **Plateformes** | Windows PC | Disponible sur Steam avec sauvegardes Cloud, Workshop et partage familial. |
+| **Langues** | 6 supportées | Anglais (audio complet), Français, Allemand, Espagnol, Russe et Chinois simplifié. |
+| **Nouveaux Systèmes** | Réparations & Atouts | Refonte des atouts de profession et des opérations de réparation d'Owen. |
+
+<Callout type="tip" title="Note sur la Compatibilité des Sauvegardes">
+Bien que les fichiers de sauvegarde de l'accès anticipé restent techniquement compatibles avec la version 1.0, il est fortement recommandé de commencer une nouvelle campagne pour profiter du flux de quêtes rééquilibré, de la distribution mise à jour des plans et des nouvelles structures d'atouts.
+</Callout>
+
+Pour faire tourner le jeu de manière fluide, assurez-vous que votre système répond aux exigences matérielles officielles :
+
+| Catégorie d'Exigence | Spécifications Minimales | Spécifications Recommandées |
+|---|---|---|
+| **OS** | Windows 10 64-bit | Windows 10 64-bit |
+| **Processeur** | Intel Core i5-4690 / AMD FX-8350 | Intel Core i7-8700K / AMD Ryzen 5 3600 |
+| **Mémoire** | 16 Go de RAM | 16 Go de RAM (SSD recommandé) |
+| **Graphismes** | NVIDIA GTX 970 / AMD RX 480 (4 Go VRAM) | NVIDIA RTX 2060 Super / AMD RX 5700 XT (8 Go VRAM) |
+| **DirectX & Stockage** | Version 11, 20 Go d'espace disponible | Version 11, 20 Go d'espace disponible |
+
+</Section>
+
+<Section icon={Target} title="Guide du Débutant : Survivre aux Premières Heures">
+
+Survivre aux premières heures de la **sortie complète d'urban strife** nécessite une gestion prudente des ressources et une bonne compréhension des boucles d'exploration. Ne traitez pas chaque rencontre comme une fusillade ouverte. Les munitions et les médicaments sont rares, et les erreurs précoces paralyseront votre progression.
+
+<Callout type="warning" title="Avertissement Munitions et Médicaments">
+Tirer avec des armes non silencieuses attire les zombies errants à proximité. Essayez toujours de résoudre les rencontres isolées silencieusement en utilisant des armes de mêlée ou des arbalètes pour conserver vos précieuses munitions.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Terminer le Tutoriel du Pont">
+    Commencez la campagne en créant votre personnage. Terminez l'évasion initiale du laboratoire du CDC et le tutoriel du pont. Apprenez la disposition de base des emplacements rapides, la gestion de l'équipement et comment détruire les nids de zombies.
+  </Step>
+  <Step num="2" title="Inspecter l'Abri Urbain">
+    Avant de partir pour votre première expédition, consultez le Carnet de l'Abri. Familiarisez-vous avec le stock de la base, les niveaux actuels de carburant/énergie et les diverses installations du centre-ville endommagées en attente de restauration.
+  </Step>
+  <Step num="3" title="Assembler une Équipe Équilibrée">
+    Sélectionnez des survivants qui se complètent. Une équipe fiable de début de partie se compose d'un tireur à distance, d'un spécialiste de la mêlée silencieuse/discrétion et d'un médecin dédié portant des bandages.
+  </Step>
+  <Step num="4" title="Nettoyer les Secteurs Suburbains Proches">
+    Ciblez d'abord les zones suburbaines de faible difficulté entourant l'Abri. Sécurisez les conteneurs et revenez avec de la nourriture, des médicaments et des matériaux de construction plutôt que de vous enfoncer trop profondément dans les territoires des factions.
+  </Step>
+  <Step num="5" title="Récupération et Réparation">
+    Rapportez les armes et armures excédentaires à l'Abri. Recyclez les doublons cassés pour obtenir des pièces d'armes brutes. Une fois que l'atelier de réparation d'Owen est actif, utilisez ces pièces pour restaurer votre équipement principal.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Combat Tactique, Vigilance et Commandes">
+
+Le combat dans Urban Strife est au tour par tour, régi par des trajectoires de balles simulées, la pénétration des matériaux et des zones de bruit dynamiques. Comprendre comment manipuler les Points d'Action (PA) et les matériaux de couverture fait la différence entre une victoire facile et l'anéantissement de l'équipe.
+
+<CardGrid cols={3}>
+  <Card title="Gestion des PA">
+    Chaque pas, recharge et attaque coûte des Points d'Action. Prévisualisez toujours votre destination de mouvement pour vous assurer de conserver suffisamment de PA pour tirer ou passer en Vigilance (Overwatch).
+  </Card>
+  <Card title="Pénétration des Matériaux">
+    La couverture est destructible et pénétrable. Un bloc moteur de voiture arrête les munitions de gros calibre, tandis que les fines clôtures en bois peuvent être facilement traversées par des fusils de chasse.
+  </Card>
+  <Card title="Discrétion et Bruit">
+    Les cônes de vision dynamiques et les ondes sonores dictent la vigilance ennemie. S'accroupir derrière des murs bas réduit votre profil de détection, permettant des embuscades furtives à gros dégâts.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Commandes de Combat et Raccourcis">
+Utilisez ces raccourcis clavier essentiels pour optimiser le combat tactique :
+- Appuyez sur **X** pour basculer entre vos armes principale et secondaire actives.
+- Appuyez sur **F** pour faire défiler les modes de tir disponibles de votre arme (Coup par coup, Rafale, Auto).
+- Appuyez sur **Y** pour configurer instantanément un cône de Vigilance dans une direction spécifiée.
+- Appuyez sur **0** pour sélectionner toute l'équipe pour un mouvement de groupe hors combat.
+</Callout>
+
+Face à des adversaires humains, contournez leurs positions pour annuler leurs bonus de couverture. Contre les hordes de zombies, repliez-vous vers des goulots d'étranglement étroits et utilisez des fusils à pompe, le tir automatique et des cocktails Molotov pour gérer la foule avant qu'elle n'encercle vos combattants.
+
+</Section>
+
+<Section icon={Sparkles} title="Liste des Niveaux d'Armes et d'Équipement">
+
+La **sortie complète d'urban strife** propose un arsenal robuste adapté à des rôles tactiques spécifiques. Aucune arme n'est parfaite pour toutes les situations. Vous devez équilibrer les dégâts, la portée, les niveaux de bruit et les coûts en PA.
+
+| Niveau | Rôle Tactique | Classes d'Armes | Points Forts | Limitations |
+|---|---|---|---|---|
+| **S** | Contrôle de Horde | Fusils à pompe, Mitrailleuses, Grenades | Large dispersion à courte portée, dégâts multi-cibles élevés. | Extrêmement bruyant, forte consommation de munitions. |
+| **S** | Sniper Longue Portée | Fusils de chasse, Fusils de précision, .50 BMG | Dégâts mono-cible exceptionnels, haute pénétration d'armure. | Coût en PA élevé par tir, inefficace à courte portée. |
+| **A** | Infiltration Silencieuse | Arbalètes, Pistolets avec silencieux | Exécution silencieuse, carreaux réutilisables, faible profil sonore. | Faible capacité de contrôle de foule, dégâts bruts limités. |
+| **A** | Arme de poing Low-AP | Pistolets, Revolvers | Faible coût en PA, idéal pour achever les cibles blessées. | Portée médiocre, pénétration de couverture minimale. |
+| **A** | Mêlée Rapprochée | Lames, Batte, Couteaux | Aucun bruit, ne nécessite aucune munition, conserve les ressources. | Force le personnage à s'exposer au risque du corps à corps. |
+| **B** | Protection d'Armure | Gilets pare-balles, Casques, Plaques balistiques | Absorbe les dégâts balistiques, prévient les tirs mortels à la tête. | Les plaques s'usent définitivement et ne peuvent pas être réparées. |
+
+<Callout type="success" title="Conseil de Pro : Armurerie">
+Des silencieux et des kits d'armes tactiques peuvent être fabriqués à l'établi d'armurier une fois vos installations d'atelier améliorées. Équipez toujours vos personnages d'éclaireurs d'armes de poing avec silencieux dès le début.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Builds de Personnages et Atouts de Profession">
+
+Les survivants évoluent dynamiquement en fonction de leurs actions sur le terrain. Tirer à plusieurs reprises avec des fusils augmente la Précision, tandis que se faufiler et esquiver les attaques de mêlée augmente l'Agilité. Cette croissance par la pratique est soutenue par un système flexible d'atouts de profession à trois niveaux.
+
+| Rôle du Survivant | Attributs Principaux | Actions de Croissance | Atouts Recommandés |
+|---|---|---|---|
+| **Tireur à Distance** | Précision, Agilité | Attaques à distance, tirs à la tête, utilisation des hauteurs. | Atouts de bonus de précision, efficacité de la Vigilance. |
+| **Combattant de Mêlée** | Force, Dextérité, Endurance | Utilisation d'armes tranchantes/contondantes, transport de charges lourdes. | Conservation d'endurance, évasion en mêlée, chance d'étourdissement. |
+| **Spécialiste Discrétion** | Agilité, Dextérité | Se faufiler près des ennemis, éliminations silencieuses en mêlée. | Réduction du bruit, bonus d'initiative, PA de mouvement. |
+| **Médecin de Combat** | Intelligence, Dextérité, Endurance | Application de bandages, réanimation d'alliés au combat. | Réduction de PA pour l'utilisation d'objets, efficacité des soins. |
+| **Spécialiste Utilitaire** | Intelligence, Force, Dextérité | Artisanat de sacs, crochetage, tests de dialogue. | Remises commerciales, capacité de transport, vitesse d'artisanat. |
+
+<Callout type="info" title="Traits de Survivant Uniques">
+Chaque recrue possède un atout natif et un trait biographique unique. Deux tireurs peuvent avoir une Précision identique, mais leurs traits natifs rendront l'un meilleur pour le sniping à longue portée et l'autre plus efficace au fusil à pompe à courte portée.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Améliorations de l'Abri et Progression de l'Artisanat">
+
+Reconstruire l'Abri Urbain est vital pour survivre au défi ultime de la campagne. Vos améliorations de base, votre réseau électrique et vos stocks de ressources alimentent directement le **Traqueur de Défense**, qui détermine vos chances de survie lors du siège final.
+
+<Steps>
+  <Step num="1" title="Stabiliser les Besoins Quotidiens">
+    Priorisez la survie de base. Établissez un approvisionnement régulier en nourriture, en eau potable et en médicaments. Gardez les générateurs alimentés pour maintenir l'électricité de base dans vos installations de stockage.
+  </Step>
+  <Step num="2" title="Restaurer les Services de la Ville">
+    Reconstruisez les installations centrales du centre-ville. Réparez la Radio de la Ville pour débloquer de nouvelles quêtes, l'Hôpital pour la récupération passive et l'Atelier pour l'artisanat.
+  </Step>
+  <Step num="3" title="Établir des Industries Alimentaires">
+    Construisez des jardins, de l'hydroponie et des fermes à rats. Produire de la nourriture en interne garantit que votre population ne mourra pas de faim lorsque les hordes errantes de fin de partie couperont les routes de ravitaillement.
+  </Step>
+  <Step num="4" title="Améliorer l'Atelier">
+    Rééquipez votre atelier pour débloquer des stations d'artisanat avancées. Cela vous permet de fabriquer des accessoires personnalisés, des munitions spéciales (dum-dum, perce-armure) et des explosifs.
+  </Step>
+  <Step num="5" title="Fortifier et Alimenter">
+    Construisez des murs défensifs et des générateurs solaires ou éoliens. Reliez vos défenses alimentées (comme les clôtures électriques) à un réseau stable pour préparer le siège final.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Remplacement des Plaques Balistiques">
+Alors que les gilets pare-balles et les casques standard peuvent être entièrement restaurés en utilisant des pièces de rechange à la station de réparation d'Owen, les plaques balistiques internes sont des consommables. Une fois détruites, elles doivent être jetées et remplacées par de nouvelles plaques fabriquées ou pillées.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Relations avec les Factions et Alliances">
+
+Trois blocs politiques majeurs se disputent le contrôle du comté d'Urban. Votre réputation auprès de ces groupes dicte les marchands disponibles, les recrues uniques et le soutien militaire que vous recevrez pendant la phase finale.
+
+<CardGrid cols={3}>
+  <Card title="Garde Nationale">
+    - **QG** : Base de montagne fortifiée
+    - **Focus** : Armes à feu militaires de haut niveau, armures lourdes et véhicules tactiques comme le HMMWV de l'armée.
+    - **Compromis** : Exige une obéissance stricte et un alignement politique.
+  </Card>
+  <Card title="Église de la Seconde Chance">
+    - **QG** : Camp de la Seconde Chance
+    - **Focus** : Plans d'artisanat uniques, médecine par les plantes et solutions pacifiques alternatives.
+    - **Compromis** : Accepte les morts-vivants d'une manière que les autres factions jugent dangereuse.
+  </Card>
+  <Card title="Shady Lady Bikers">
+    - **QG** : Bar du Clubhouse Biker
+    - **Focus** : Armement du marché noir, modifications de véhicules et échanges de troc de grande valeur.
+    - **Compromis** : Exige des accords lucratifs ; rompre ses promesses entraîne une hostilité instantanée.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Alliances de Fin de Partie">
+Obtenir suffisamment de votes politiques vous permet d'entrer dans le quartier général d'une faction et de signer une alliance formelle. Cette alliance débloque plus de vingt améliorations d'abri exclusives de fin de partie et dicte qui se tiendra aux côtés de votre milice lors de la bataille finale.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de Contrôle des Jalons de Campagne">
+
+Utilisez cette liste pour suivre votre progression et vous assurer que votre équipe et votre base sont prêtes avant l'alerte de siège du 20e jour.
+
+<Checklist
+  id="urban-strife-milestones"
+  title="Objectifs de Progression Essentiels :"
+  items={[
+    "Terminer le prologue et sécuriser le patient du CDC d'Atlanta",
+    "Réparer la Radio de la Ville, l'Hôpital et l'Atelier à l'intérieur de l'Abri",
+    "Établir une production alimentaire autosuffisante via des jardins ou l'hydroponie",
+    "Débloquer les atouts de profession de niveau 3 sur votre équipe de combat principale",
+    "Obtenir suffisamment de votes politiques pour former une alliance avec une faction majeure",
+    "Améliorer les fortifications de la base et connecter les structures défensives à l'énergie active",
+    "Accumuler une réserve de munitions de gros calibre et de fournitures médicales",
+    "Réparer entièrement toutes les armes actives et remplacer les plaques balistiques usées via l'atelier d'Owen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Quelle est la date de sortie de la version finale d'Urban Strife ?",
+    answer: "La sortie complète d'Urban Strife (Version 1.0) a été lancée officiellement sur Steam le 14 juillet 2026, introduisant l'acte final de l'histoire, des atouts redessinés et des systèmes de réparation d'équipement."
+  },
+  {
+    question: "Puis-je réparer les armes et les armures dans la version 1.0 ?",
+    answer: "Oui. Une fois que vous débloquez l'opération de réparation d'Owen à l'Abri, vous pouvez recycler l'équipement en double en pièces d'armes pour restaurer votre équipement principal. Notez que les plaques balistiques ne peuvent pas être réparées et doivent être remplacées."
+  },
+  {
+    question: "Que se passe-t-il au 20e jour de la campagne ?",
+    answer: "Au 20e jour, la campagne bascule dans la phase finale. Vous recevrez un avertissement radio de 24 heures pour retourner à l'Abri, alimenter vos défenses et vous préparer au siège final par la Horde d'Atlanta."
+  },
+  {
+    question: "Comment recruter plus de survivants dans ma milice ?",
+    answer: "Vous pouvez recruter des survivants en accomplissant des quêtes spécifiques aux factions, en résolvant des conflits locaux, en sauvant des réfugiés et en maintenant une réputation élevée dans tout le comté d'Urban."
+  }
+]} />
+
+</Section>

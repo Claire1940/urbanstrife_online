@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Werkstatt: Vollständiger Leitfaden für Herstellung & Reparatur",
+  description: "Meistern Sie die Urban Strife Werkstatt. Lernen Sie in der Version 1.0, Baupläne freizuschalten, Waffen und Rüstungen zu reparieren und hochkarätige Munition herzustellen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/b82823/fff?text=Workshop+And+Crafting+Guide",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team",
+  keywords: "Urban Strife, Werkstatt, Herstellung, Reparatur, Baupläne, Munition, Waffen"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Kernmechanik**: Die **Urban Strife Werkstatt** ist die zentrale Einrichtung für die Wartung von Ausrüstung, die Herstellung maßgeschneiderter Munition und Waffen-Upgrades.
+- **Reparatursystem**: Waffen und Rüstungen verlieren im Kampf an Haltbarkeit. Sie müssen doppelte Ausrüstung zerlegen, um Teile für Reparaturen zu sammeln.
+- **Lager-Integration**: Die Herstellung greift direkt auf Ihr globales Lager im Unterschlupf zu, sodass Sie keine schweren Rohstoffe im aktiven Inventar mitschleppen müssen.
+- **Priorität beim Fortschritt**: Setzen Sie die Werkstatt früh in Phase 2 instand, um den Übergang von knapper geplünderter Beute zu selbstversorgenden, maßgeschneiderten Loadouts zu schaffen.
+- **Ballistische Platten**: Denken Sie daran, dass schützende ballistische Platten Verschleißteile sind und nicht repariert werden können, selbst wenn die Trägerrüstung vollständig wiederhergestellt wird.
+</Callout>
+
+<Section icon={Map} title="Einführung in die Urban Strife Werkstatt">
+
+Der postapokalyptische Bezirk Urban County ist unerbittlich, und wer sich ausschließlich auf geplünderte Vorkriegsbeute verlässt, wird mit seiner Miliz irgendwann ins Hintertreffen geraten. Der Wiederaufbau der **Urban Strife Werkstatt** ist Ihr Tor zum Überleben. Hier verwandeln Sie Schrott in kampfbereite Kriegswerkzeuge. Mit der Veröffentlichung der Version 1.0 am 14. Juli 2026 führt das vollständige Spiel tiefgründigere Reparatursysteme für Ausrüstung und überarbeitete Herstellungsketten ein, die Ihre Verteidigungsfähigkeiten im Vorfeld der finalen Belagerung durch die Atlanta-Horde direkt beeinflussen.
+
+Im Gegensatz zur provisorischen Herstellung im Feld ermöglicht Ihnen die eigene Werkstatt im Unterschlupf die Verwaltung fortschrittlicher Produktionszweige, das Modifizieren von Schusswaffen und das Recyceln von nutzlosem Müll in hochwertige Komponenten. Wenn Sie verstehen, wie Sie diese Einrichtung effizient betreiben, sichern Sie Ihrem Trupp einen entscheidenden taktischen Vorteil.
+
+| Systemkomponente | Hauptzweck | Freischaltbedingung |
+|---|---|---|
+| **Zerlegungsstation** | Verwandelt doppelte Waffen/Rüstungen in Rohmaterialteile | Sofort im Unterschlupf verfügbar |
+| **Reparaturwerkbank** | Stellt die Haltbarkeit von Schusswaffen und Rüstungen wieder her | Schließen Sie Owens Reparatur-Einsatz ab |
+| **Munitionspresse** | Stellt Präzisions-, Spreng- und Spezialmunition her | Werkstatt-Upgrade Stufe 2 |
+| **Werkzeugregal** | Senkt die Aktionspunkt-Kosten für Waffenmodifikationen | Werkstatt-Upgrade Stufe 1 |
+
+<Callout type="tip" title="Komfortables Lager">
+Sie müssen Metall, Chemikalien oder Schießpulver vor dem Herstellen nicht manuell in den Rucksack Ihres Charakters übertragen. Die Werkstattoberfläche erkennt und entnimmt Ressourcen automatisch direkt aus Ihrem globalen Lager im Unterschlupf.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstungsreparatur und Zerlegungsregeln">
+
+In der Version 1.0 nutzen sich Waffen und Körperpanzerung dynamisch ab, wenn sie Schaden erleiden oder ballistische Treffer abfangen. Der Einsatz beschädigter Schusswaffen erhöht das Risiko von Ladehemmungen, während beschädigte Rüstungen einen deutlich verringerten Schutz gegen eingehende Schüsse bieten.
+
+Um Ihr Arsenal instand zu halten, müssen Sie einen stetigen Recycling-Kreislauf etablieren. Das Zerlegen ungewollter Waffen und Rüstungen erzeugt spezialisierte Reparaturteile. Standardmäßig schließt das Spiel aktuell ausgerüstete Gegenstände aus dem Zerlegungsbildschirm aus, um eine versehentliche Zerstörung Ihrer aktiven Loadouts zu verhindern.
+
+| Ausrüstungstyp | Abnutzungs-Auslöser | Reparaturmethode | Besondere Regeln |
+|---|---|---|---|
+| **Schusswaffen** | Abfeuern von Schüssen, Umwelteinflüsse | Owens Reparaturwerkbank mit Waffenteilen | Hochwertige Waffen erfordern fortschrittlichere Teile |
+| **Körperpanzerung** | Abfangen von ballistischen oder Nahkampftreffern | Owens Reparaturwerkbank mit Rüstungsteilen | Stoffträger können vollständig wiederhergestellt werden |
+| **Ballistische Platten** | Direktes Abfangen von Schüssen mit hoher Durchschlagskraft | Können nicht repariert werden | Müssen durch frische Platten ersetzt werden |
+| **Nahkampfwerkzeuge** | Schlagen auf physische Ziele oder Türen | Standard-Werkstattreparatur | Haltbarkeit nimmt auf harten Oberflächen schnell ab |
+
+<Callout type="warning" title="Verschleißteil Panzerplatten">
+Verschwenden Sie keine Ressourcen mit dem Versuch, ballistische Platten zu reparieren. Diese sind als austauschbare Einsätze konzipiert. Halten Sie einen Vorrat an Ersatzplatten in Ihrem Lager bereit und tauschen Sie sie aus, bevor Sie zu schwierigen Sektormissionen aufbrechen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Schritt-für-Schritt-Fortschritt der Werkstatt">
+
+Um Ihre Herstellungsfähigkeiten voll zu optimieren, müssen Sie Ihre Werkstatt in strukturierten Phasen aufrüsten. Der Versuch, hochkarätige Militärmunition herzustellen, bevor Sie Zugriff auf grundlegende Werkzeuge haben, wird Ihre Wirtschaft ausbremsen. Folgen Sie diesem Pfad, um eine effiziente Produktionskette aufzubauen.
+
+<Steps>
+  <Step num="1" title="Sichern Sie grundlegende Baumaterialien">
+    Durchsuchen Sie nahegelegene Vorstadtsektoren und Wohnblöcke, um Holz, Altmetall und Eisenwaren zu sammeln. Bewahren Sie diese in Ihrem globalen Lager auf, anstatt sie an frühe Händler zu verkaufen.
+  </Step>
+  <Step num="2" title="Stellen Sie die Werkstatt im Stadtzentrum wieder her">
+    Nutzen Sie Ihre ersten Baumaterialien, um das physische Werkstattgebäude im Stadtzentrum des Unterschlupfs zu reparieren. Dies schaltet grundlegende Herstellungsoptionen wie Molotowcocktails und einfache Nahkampf-Verstärkungen frei.
+  </Step>
+  <Step num="3" title="Schalten Sie Owens Reparatur-Einsatz frei">
+    Schließen Sie die Rekrutierung und die lokalen Quests für Owen ab. Sobald er in Ihrer Werkstatt stationiert ist, wird die Reparaturoberfläche aktiv, sodass Sie beschädigte Schusswaffen wiederherstellen können.
+  </Step>
+  <Step num="4" title="Upgrade auf Stufe 2 (Industriepresse)">
+    Investieren Sie seltene elektronische Komponenten und Maschinenteile, um die Werkstatt aufzurüsten. Dies schaltet die Munitionspresse frei und ermöglicht die Herstellung von Spezialmunition wie Dum-Dum- und Sprenggeschossen.
+  </Step>
+  <Step num="5" title="Integrieren Sie Fraktions-Baupläne">
+    Schließen Sie Bündnisse mit großen Fraktionen wie der Nationalgarde, der Church of Second Chance oder den Shady Lady Bikers. Ein hoher Ruf schaltet exklusive Baupläne für fortschrittliche taktische Ausrüstung frei.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Erhalt von Bauplänen">
+Während grundlegende Baupläne automatisch durch das Aufrüsten der Werkstatt freigeschaltet werden, sind seltene und spezialisierte Rezepte in ganz Urban County versteckt. Suchen Sie bei Fraktionshändlern und durchstöbern Sie sichere Tresore in Militärkontrollpunkten, um sie zu finden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Herstellungsrezepte und Spezialisierungsoptionen">
+
+Die Werkstatt ermöglicht es Ihnen, das Loadout Ihres Trupps basierend auf Ihrer bevorzugten taktischen Herangehensweise zu spezialisieren. Ob Sie leise Operationen oder überwältigende Feuerkraft bevorzugen – die Wahl der richtigen Herstellungsprioritäten spart wertvolle Ressourcen.
+
+<CardGrid cols={3}>
+  <Card title="Heimlichkeit & Nutzen">
+    - **Schallgedämpfte Pistolen**: Stellen Sie Schalldämpfer an der Büchsenmacher-Werkbank her, um isolierte Ziele lautlos auszuschalten.
+    - **Armbrustbolzen**: Produzieren Sie wiederverwendbare Munition aus einfachen Holz- und Metallresten.
+    - **Taktische Sets**: Fertigen Sie Diatriche und medizinische Scheren an, um Ihre Optionen im Feld zu erweitern.
+  </Card>
+  <Card title="Hordenverteidigung">
+    - **Molotowcocktails**: Kombinieren Sie Treibstoff und Stoff, um sofortige Brandzonen zur Gebietsabsperrung zu schaffen.
+    - **Schrotpatronen**: Produzieren Sie Streuschrot, um heranstürmende Zombiegruppen zu zerfetzen.
+    - **Rohrbomben**: Stellen Sie günstige, lautstarke Sprengstoffe her, um verstreute Untote anzulocken und zu vernichten.
+  </Card>
+  <Card title="Anti-Panzer-Kampf">
+    - **AP-Munition**: Pressen Sie panzerbrechende Runden, um schwere Helme und ballistische Westen zu umgehen.
+    - **Sprenggeschosse**: Erstellen Sie spezialisierte Gewehrmunition, die beim Aufprall zersplittert.
+    - **Granaten-Upgrades**: Richten Sie Standard-Splittergranaten für einen größeren Explosionsradius her.
+  </Card>
+</CardGrid>
+
+| Hergestellter Gegenstand | Hauptzutaten | Werkstattstufe | Beste taktische Verwendung |
+|---|---|---|---|
+| **Schalldämpfer (Pistole)** | Metallteile, Werkzeugset, Federn | Stufe 1 | Lautloses Ausschalten isolierter Wachposten am Randbereich |
+| **Dum-Dum-Munition** | Standardhülse, Blei, Weichmantelform | Stufe 2 | Maximierung des Fleischschadens gegen ungepanzerte Zombies |
+| **AP-Gewehrmunition** | Stahlkerne, Schießpulver, schwere Hülsen | Stufe 3 | Bekämpfung schwer gepanzerter Soldaten der Rogue Army |
+| **Molotowcocktail** | Treibstoff, Glasflasche, Lumpen | Stufe 1 | Errichten von Engpässen während der Hordenverteidigung |
+
+<Callout type="success" title="Miliz-Synergie">
+Teilen Sie einen Überlebenden mit hoher Intelligenz und Geschicklichkeit ein, um Ihre Herstellungsarbeiten zu leiten. Ihr Attributswachstum beschleunigt sich bei der Durchführung repetitiver handwerklicher Aufgaben, und bestimmte Charakter-Perks können die Materialkosten insgesamt senken.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Werkstatt-Checkliste für die Belagerungsbereitschaft">
+
+Mit fortschreitender Kampagne in Richtung Tag 20 rückt die Bedrohung durch die Atlanta-Horde immer näher an Ihren Unterschlupf heran. Ihre Werkstatt muss sich von einer passiven Upgrade-Station in eine hochproduktive militärische Produktionslinie verwandeln. Nutzen Sie diese Checkliste, um sicherzustellen, dass Ihre Verteidigung vollständig bereit ist, bevor die letzte Radiowarnung ertönt.
+
+<Checklist
+  id="workshop-siege-prep"
+  title="Industrielle Meilensteine vor der Belagerung:"
+  items={[
+    "Rüsten Sie die Werkstatt auf Stufe 3 auf, um Zugriff auf alle fortschrittlichen Militär-Baupläne zu erhalten.",
+    "Reparieren Sie alle Haupt- und Sekundärfeuerwaffen an Owens Werkbank auf 100 % Haltbarkeit.",
+    "Ersetzen Sie beschädigte ballistische Platten in allen Rüstungssets der Frontverteidiger.",
+    "Verwandeln Sie überschüssige minderwertige Waffen in Rohmaterialteile, um Notfallreparaturen mitten im Kampf zu finanzieren.",
+    "Stellen Sie mindestens 50 Schuss spezialisierte Anti-Horden-Munition pro Verteidiger her und lagern Sie diese ein.",
+    "Stellen Sie sicher, dass das Stromnetz des Unterschlupfs genügend Treibstoff hat, um die Werkstatt neben aktiven elektrischen Zäunen zu betreiben."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich die Urban Strife Werkstatt für Reparaturen frei?",
+    answer: "Sie müssen zuerst das physische Werkstattgebäude im Stadtzentrum des Unterschlupfs während Phase 2 Ihres Fortschritts reparieren. Schließen Sie danach Owens Einführungs-Rekrutierungsquestreihe ab, um ihn an der Reparaturwerkbank zu stationieren."
+  },
+  {
+    question: "Warum kann ich meine ballistischen Platten nicht in der Werkstatt reparieren?",
+    answer: "Ballistische Platten sind als Opfereinsätze konzipiert, die Schaden mit hoher Durchschlagskraft abfangen. Sie zerstören sich dabei selbst und können nicht repariert werden. Sie müssen Ersatzplatten herstellen oder plündern und diese manuell einsetzen."
+  },
+  {
+    question: "Muss ich die Herstellungszutaten in meinem Inventar tragen?",
+    answer: "Nein. Die Werkstatt ist vollständig in das globale Lager Ihres Unterschlupfs integriert. Solange die Rohstoffe, Chemikalien oder Waffenteile in Ihrem Basislager deponiert sind, erkennt und nutzt die Herstellungsoberfläche diese automatisch."
+  },
+  {
+    question: "Was passiert, wenn die Haltbarkeit meiner Waffe auf Null sinkt?",
+    answer: "Eine Waffe mit einer Haltbarkeit von Null ist komplett beschädigt. Dies führt zu häufigen Ladehemmungen, massiven Präzisionseinbußen und macht die Schusswaffe schließlich unbrauchbar, bis sie in der Werkstatt vollständig repariert wurde."
+  }
+]} />
+
+</Section>

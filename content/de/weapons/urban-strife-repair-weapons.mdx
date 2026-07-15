@@ -1,0 +1,171 @@
+import { Wrench, Hammer, Shield, Swords, Target, HelpCircle, Zap, Recycle, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Waffen reparieren: 1.0 Wartungs- & Bergungsleitfaden",
+  description: "Erfahren Sie, wie Sie in der 1.0-Version von Urban Strife Waffen und Rüstungen reparieren. Meistern Sie das Zerlegen, Owens Werkstatt und die Haltbarkeit der Ausrüstung, um die Atlanta-Horde zu überleben.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Weapon+Repair+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki-Team",
+  keywords: "Urban Strife, Waffenreparatur, Bergung, Owen Werkstatt, Rüstungswartung, Atlanta Horde"
+}
+
+<Callout type="info" title="Schnellleitfaden">
+- **Waffen in Urban Strife reparieren**: Erfordert das Freischalten von **Owens Reparaturbetrieb** in der Shelter-Werkstatt in der Version 1.0.
+- **Bergungsmechanik**: Zerlegen Sie überschüssige Ausrüstung in **Reparaturteile**; 1.0 schützt ausgerüstete Gegenstände vor versehentlichem Zerlegen.
+- **Haltbarkeitsmanagement**: Geringe Haltbarkeit erhöht Ladehemmungen und verringert die Wirksamkeit der Rüstung; halten Sie Hauptausrüstung über 75 %.
+- **Rüstungsbeschränkungen**: Während Körperpanzerung reparierbar ist, sind **ballistische Platten** Verbrauchsmaterial und müssen komplett ersetzt werden.
+- **Ressourcenpriorität**: Konzentrieren Sie Reparaturen vor der finalen Shelter-Belagerung auf hochwertige Scharfschützengewehre und Automatikwaffen.
+</Callout>
+
+<Section icon={Wrench} title="Freischalten des Reparatursystems in Urban Strife 1.0">
+
+Der Übergang vom Early Access zur offiziellen 1.0-Veröffentlichung am 14. Juli 2026 führte mehrere kritische Überlebenssysteme ein, wobei der Wartungszyklus der Ausrüstung am wirkungsvollsten ist. In den ersten Stunden der Kampagne werden Sie bemerken, dass Ihre Schusswaffen Abnutzungserscheinungen aufweisen. Um **Waffen in Urban Strife zu reparieren**, müssen Sie zuerst den Urban Shelter stabilisieren und die anfängliche Phase „Den Shelter wiederherstellen“ durchlaufen.
+
+Die Wartung ist nicht sofort bei der Ankunft verfügbar. Sie müssen gezielt die Ziele im Zusammenhang mit der Werkstatt abschließen und Owen, den technischen Experten des Shelters, rekrutieren oder aktivieren. Sobald Owens Reparaturbetrieb aktiv ist, verwandelt sich die Werkstatt von einem einfachen Lagerbereich in ein funktionales Zentrum, um das Arsenal Ihrer Miliz in Top-Zustand zu halten.
+
+| Anforderung | Typ | Zweck |
+| :--- | :--- | :--- |
+| **Owens Betrieb** | Quest/Freischaltung | Ermöglicht das Reparatur-Interface in der Werkstatt |
+| **Werkstatt Stufe 1** | Einrichtung | Bietet die grundlegenden Werkzeuge für die Waffenwartung |
+| **Reparaturteile** | Ressource | Werden während des Wiederherstellungsprozesses verbraucht |
+| **Schrottmetall** | Material | Wird für einfache strukturelle Reparaturen und minderwertige Ausrüstung verwendet |
+
+<Callout type="warning" title="Wartungswarnung">
+Warten Sie nicht, bis eine Waffe 0 % Haltbarkeit erreicht. Schusswaffen mit schlechtem Zustand haben eine deutlich höhere Chance auf Ladehemmungen im Kampf, was wertvolle Aktionspunkte zum Beheben kosten und potenziell zum Auslöschen des Trupps führen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Recycle} title="Bergung und Ressourcenmanagement">
+
+Um eine leistungsfähige Miliz zu unterhalten, können Sie sich nicht allein auf das Finden makelloser Beute verlassen. Die primäre Methode zur Beschaffung der Materialien, die zum **Reparieren von Waffen in Urban Strife** benötigt werden, ist das Bergungssystem. In Urban Strife kann jedes Stück unerwünschter Ausrüstung – von verrosteten Rohren bis hin zu rissigen Pistolen – in funktionale Komponenten zerlegt werden.
+
+Das 1.0-Update brachte eine dringend benötigte Verbesserung der Lebensqualität: Das Spiel schließt nun standardmäßig aktuell ausgerüstete Gegenstände aus der Bergungsliste aus. Dies verhindert den katastrophalen Fehler, versehentlich Ihr primäres Scharfschützengewehr zu zerlegen, während Sie Ihr Inventar aufräumen.
+
+**Bergungserträge und Effizienz**
+
+| Gegenstandskategorie | Primärertrag | Sekundärertrag |
+| :--- | :--- | :--- |
+| **Nahkampfwaffen** | Schrottmetall | Holz-/Kunststoffteile |
+| **Pistolen/MPs** | Basis-Reparaturteile | Kleine Federn |
+| **Gewehre/Schrotflinten** | Fortgeschrittene Reparaturteile | Hochwertiger Stahl |
+| **Rüstung/Westen** | Stoffstreifen | Kevlar-Reste |
+
+<Callout type="tip" title="Effizienz-Tipp">
+Das Zerlegen von Gegenständen, bevor sie komplett ruiniert sind (0 % Haltbarkeit), liefert oft nützlichere Materialien. Wenn Sie eine doppelte Waffe in „schlechtem“ Zustand finden, zerlegen Sie diese sofort, um Teile für Ihre Primärwaffe in „gutem“ Zustand zu gewinnen.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Waffenbergung">
+    - **Duplikate identifizieren**: Behalten Sie eines von jedem Kaliber für Vielseitigkeit.
+    - **Aufsätze prüfen**: Entfernen Sie Visiere oder Schalldämpfer vor dem Bergem.
+    - **Ertragsfokus**: Hochwertigere Waffen liefern „Fortgeschrittene Teile“.
+  </Card>
+  <Card title="Rüstungsbergung">
+    - **Stoffgewinnung**: Essenziell für die Herstellung von Medizinkits.
+    - **Plattenextraktion**: Entfernen Sie zuerst beschädigte ballistische Platten.
+    - **Gewichtsmanagement**: Das Zerlegen vor Ort reduziert die Belastung.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Hammer} title="Schritt für Schritt: So reparieren Sie Ihre Ausrüstung">
+
+Sobald Sie die Werkstatt gesichert und genügend Teile aus der Bergung gesammelt haben, ist der eigentliche Prozess zum **Reparieren von Waffen in Urban Strife** unkompliziert, erfordert aber eine sorgfältige Priorisierung Ihrer Ressourcen.
+
+<Steps>
+  <Step num="1" title="Werkstatt-Interface aufrufen">
+    Navigieren Sie zum Werkstattbereich im Urban Shelter. Interagieren Sie mit der Werkbank oder sprechen Sie mit Owen, um das Wartungsmenü zu öffnen. Sie sehen eine Liste aller reparierbaren Gegenstände, die sich derzeit in Ihrem Lager oder Inventar befinden.
+  </Step>
+  <Step num="2" title="Haltbarkeit und Kosten bewerten">
+    Wählen Sie die Waffe oder das Rüstungsteil aus, das Sie reparieren möchten. Das Interface zeigt den aktuellen Prozentsatz der Haltbarkeit und die Menge an Reparaturteilen oder Schrottmetall an, die erforderlich ist, um den Zustand auf 100 % wiederherzustellen.
+  </Step>
+  <Step num="3" title="Reparaturvorgang bestätigen">
+    Wenn Sie über die notwendigen Materialien verfügen, bestätigen Sie die Reparatur. Beachten Sie, dass hochwertige militärische Ausrüstung, wie die Sturmgewehre der Rogue Army, deutlich spezialisiertere Teile erfordert als ein einfaches Jagdgewehr oder eine 9mm-Pistole.
+  </Step>
+  <Step num="4" title="Kampfbereitschaft prüfen">
+    Nachdem die Reparatur abgeschlossen ist, rüsten Sie den Gegenstand wieder aus. Überprüfen Sie die Feuermodi der Waffe und stellen Sie sicher, dass sie voll geladen ist, bevor Sie zu Ihrer nächsten Expedition in Urban County aufbrechen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Profi-Reparaturstrategie">
+Konzentrieren Sie Ihre Reparaturen frühzeitig auf Waffen, die gängige Munitionstypen verwenden. Es ist besser, eine perfekt gewartete 9mm-MP mit 200 Schuss zu haben als ein Scharfschützengewehr mit 50 % Haltbarkeit und nur 5 Schuss.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rüstungswartung vs. ballistische Platten">
+
+Ein häufiger Punkt der Verwirrung für neue Überlebende ist der Unterschied zwischen der Reparatur von Körperpanzerung und der Verwaltung ballistischer Platten. Während Sie **Waffen in Urban Strife** und den „Trägerteil“ der Rüstung reparieren können, folgen die Schutzeinsätze anderen Regeln.
+
+In der taktischen 1.0-Simulation ist die Rüstung modular aufgebaut. Die Weste selbst (der Träger) bietet einen Grundschutz und kann in der Werkstatt mit Stoff- und Kevlar-Resten repariert werden. Die in die Weste eingesetzten ballistischen Platten absorbieren jedoch die Hauptlast des großkalibrigen Feuers und gelten als Verbrauchsmaterial.
+
+| Komponente | Reparierbar? | Benötigtes Material | Hinweise |
+| :--- | :--- | :--- | :--- |
+| **Taktische Weste** | Ja | Stoff/Kevlar | Stellt die Basishaltbarkeit wieder her |
+| **Ballistische Platte** | Nein | Ersatz | Muss ausgetauscht werden, wenn sie zerbrochen ist |
+| **Stahlhelme** | Ja | Schrottmetall | Hohe Haltbarkeit, hohes Gewicht |
+| **Gliedmaßenpanzerung** | Ja | Kunststoff/Metall | Nutzt sich im Nahkampf schnell ab |
+
+<Callout type="warning" title="Kampfalarm">
+Eine Weste mit 100 % Haltbarkeit, aber 0 % Plattenintegrität bietet fast keinen Schutz gegen Gewehrgeschosse. Führen Sie auf langen Expeditionen immer Ersatzplatten in der Ladung Ihres Fahrzeugs mit.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wartungspriorität für das Endspiel">
+
+Wenn Sie sich den Endphasen der Kampagne nähern – insbesondere der Belagerung durch die Atlanta-Horde – wird die Fähigkeit, **Waffen in Urban Strife zu reparieren**, zu einem Engpass für Ihr Überleben. Die Belagerung stoppt das normale Plündern, was bedeutet, dass Sie den finalen Konflikt mit Ihrem Arsenal in bestem Zustand antreten müssen.
+
+Der Verteidigungs-Tracker bewertet Ihre allgemeine Bereitschaft, und der Zustand der Ausrüstung Ihrer Miliz spielt eine Rolle dabei, wie effektiv sie den Perimeter halten kann. Nutzen Sie die Tage vor der Belagerung, um alle nicht essenzielle Beute in Reparaturteile zu verwerten.
+
+**Checkliste für die Belagerungsbereitschaft**
+
+<Checklist
+  id="siege-prep"
+  title="Aufgaben zur Belagerungsbereitschaft:"
+  items={[
+    "Alle primären Scharfschützengewehre auf 100 % Haltbarkeit reparieren",
+    "Alle rissigen ballistischen Platten in der Frontlinien-Rüstung ersetzen",
+    "Alle 'Tier 1'-Waffen zerlegen, um Ersatzteile zu generieren",
+    "Sicherstellen, dass Owens Werkstatt einen Überschuss von über 50 Reparaturteilen hat",
+    "Alle Seitenwaffen auf Zuverlässigkeit für den Notfall prüfen"
+  ]}
+/>
+
+<Callout type="info" title="Expertenwissen">
+Während der finalen Belagerung nutzen sich Waffen durch anhaltendes Feuer schneller ab. Den Kampf bei 100 % zu beginnen, ist nicht nur ein Bonus; es ist eine Notwendigkeit, um Fehlfunktionen mitten im Gefecht zu verhindern, wenn die Untoten die Tore erreichen.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Kann ich Waffen während einer Mission im Feld reparieren?",
+    answer: "Nein, Waffen- und Rüstungsreparaturen müssen in der Werkstatt des Urban Shelter durchgeführt werden, sobald Owens Reparaturbetrieb freigeschaltet ist. Sie sollten Ersatzwaffen mitführen, wenn Sie einen langen Einsatz erwarten."
+  },
+  {
+    question: "Verlieren Waffenaufsätze an Haltbarkeit?",
+    answer: "Nein, Aufsätze wie Zielfernrohre, Schalldämpfer und Laservisier haben keine eigene Haltbarkeit. Einige Schalldämpfer können jedoch eine begrenzte Lebensdauer haben oder die Hitzeentwicklung der Waffe beeinflussen."
+  },
+  {
+    question: "Was passiert, wenn eine Waffe 0 % Haltbarkeit erreicht?",
+    answer: "Eine Waffe mit 0 % Haltbarkeit wird unbrauchbar. Sie kann nicht mehr abgefeuert werden, bis sie zum Shelter zurückgebracht und unter Einsatz erheblicher Ressourcen repariert wurde."
+  },
+  {
+    question: "Ist es billiger, Waffen zu reparieren oder neue herzustellen?",
+    answer: "Generell ist die Reparatur bei hochwertiger Ausrüstung kosteneffizienter. Die Herstellung eignet sich besser für Verbrauchsgüter wie Sprengstoffe oder grundlegende Überlebenswerkzeuge, bei denen die Materialkosten niedrig sind."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Décrypteur radio Urban Strife : Guide de réparation et de localisation pas à pas",
+  description: "Maîtrisez la quête du décrypteur radio d'Urban Strife avec notre guide de localisation, nos conseils de furtivité et nos stratégies de faction pour ce RPG post-apocalyptique de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Radio+Descrambler+Guide",
+  date: "2026-07-16",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "urban strife, décrypteur radio, guide de réparation, vieux-port, furtivité, factions"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif Principal** : Localiser et utiliser le **décrypteur radio d'Urban Strife** pour rétablir les communications à l'abri.
+- **Lieu Clé** : Le bureau du capitaine du port du Vieux-Port (Old Port Harbor Master) est la zone principale pour cette série de quêtes.
+- **Méta de Combat** : Les armes de mêlée sont actuellement très performantes pour les éliminations silencieuses et les dégâts élevés.
+- **Stratégie de Furtivité** : Utilisez le mode "Déplacement furtif" (Moving Hidden) pour contourner les grandes hordes ou vous positionner pour des attaques sournoises.
+- **Choix de Faction** : Vos interactions avec la Garde Nationale et les Pillards (Scavengers) dicteront votre accès aux ressources sur le long terme.
+</Callout>
+
+<Section icon={Map} title="Localiser le décrypteur radio dans le Vieux-Port">
+
+Trouver le **décrypteur radio d'Urban Strife** est un moment charnière dans la progression du début à la mi-partie. Cette quête, souvent appelée "Réparation Radio" (Radio Fix), oblige les joueurs à naviguer dans le district périlleux du Vieux-Port. L'atmosphère y est dense, mêlant narration environnementale et pillards hostiles, ce qui rend la préparation essentielle avant de s'approcher du port.
+
+L'objectif principal consiste à localiser le Professeur, qui détient les connaissances techniques nécessaires pour faire fonctionner le décrypteur. Selon les récents rapports de terrain de juillet 2026, le Professeur se trouve généralement près du bureau du capitaine du port (Old Harbor Master). Cette zone est lourdement gardée, mais elle sert de plaque tournante centrale pour les arcs de mission "Trouver Ford" (Finding Ford) et "Réparation Radio".
+
+**Points forts de la vidéo :**
+- Visite détaillée de la disposition du bureau du capitaine du port du Vieux-Port.
+- Démonstration d'éliminations silencieuses au corps à corps pour dégager le chemin.
+- Identification des conteneurs de butin clés contenant des composants électroniques.
+- Interaction avec le PNJ "Ford" et progression ultérieure de la quête.
+
+<YouTubeEmbed videoId="uOXCOhn5YFQ" title="Urban Strife : Guide de réparation radio et localisation de Ford" />
+
+<Callout type="tip" title="Conseil de Pro">
+Avant d'entrer dans le Vieux-Port, assurez-vous que votre inventaire dispose d'au moins trois emplacements libres pour les débris électroniques. Vous aurez besoin de ces matériaux en complément du décrypteur pour finaliser la réparation.
+</Callout>
+
+| Emplacement | Objectif Clé | Butin Notable | Niveau de Danger |
+| :--- | :--- | :--- | :--- |
+| **Vieux capitaine du port** | Localiser le décrypteur radio | Débris électroniques, Médicaments | Élevé |
+| **Zone des conteneurs** | Chercher Ford | Clous, Ferraille | Moyen |
+| **Site du civil décédé** | Récupération d'indices | Bottes de furtivité, Munitions | Faible |
+| **Sortie de l'abri** | Rendu de la quête | Réputation de faction | Sûr |
+
+</Section>
+
+<Section icon={Target} title="Procédure de réparation radio pas à pas">
+
+Restaurer la radio ne consiste pas seulement à trouver le **décrypteur radio d'Urban Strife** ; c'est un processus en plusieurs étapes qui implique furtivité, combat et gestion des ressources. Suivez ces étapes pour éviter d'être piégé par les hordes de pillards locaux pendant la réparation.
+
+<Steps>
+  <Step num="1" title="Infiltrer le Vieux-Port">
+    Approchez du Vieux-Port par l'entrée sud. Utilisez la mécanique "Yeux grands ouverts" (Eyes Peeled) pour repérer les patrouilles de pillards. Il est fortement recommandé d'entrer de nuit pour maximiser vos bonus de furtivité, surtout si votre personnage a une Dextérité élevée.
+  </Step>
+  <Step num="2" title="Sécuriser le bureau du capitaine du port">
+    Le bureau est généralement verrouillé. Vous pouvez crocheter la serrure si vous avez les compétences nécessaires ou fouiller le "civil décédé" à proximité pour trouver une clé. Une fois à l'intérieur, donnez la priorité au nettoyage silencieux de la pièce. Les armes de mêlée comme le sabre ou une batte modifiée sont incroyablement efficaces ici.
+  </Step>
+  <Step num="3" title="Localiser l'unité de décryptage">
+    Le décrypteur se trouve dans un conteneur spécialisé étiqueté "Marchandises de quarantaine de l'armée" (Army Quarantine Goods). L'interaction avec celui-ci déclenchera un dialogue ou un test de compétence selon la composition actuelle de votre groupe.
+  </Step>
+  <Step num="4" title="Retourner à l'abri">
+    Une fois le décrypteur dans votre inventaire, évitez les routes principales. Utilisez les sorties alternatives pour contourner le groupe de pillards "Kisses". Retourner à l'abri et parler au responsable technique complétera l'objectif "Réparation Radio".
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Alerte Ennemi">
+Le groupe de pillards "Kisses" patrouille souvent le périmètre du bureau du capitaine du port. S'ils vous repèrent, ils appelleront des renforts, risquant d'encercler votre escouade dans les couloirs étroits.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de combat et de furtivité">
+
+Dans la méta actuelle de juillet 2026 d'Urban Strife, l'équilibre entre le combat au corps à corps et à distance est un sujet brûlant. Bien que les armes à feu offrent une sécurité à distance, la quête du **décrypteur radio d'Urban Strife** met l'accent sur la puissance des frappes de mêlée silencieuses à hauts dégâts.
+
+<CardGrid cols={3}>
+  <Card title="Dominance de la Mêlée">
+    - **Dégâts Élevés** : Les armes de mêlée ignorent actuellement une partie de l'armure physique.
+    - **Silencieux** : Permet de vider des pièces entières sans alerter la horde.
+    - **Efficacité en PA** : Coût en Points d'Action inférieur à celui des armes à feu lourdes.
+  </Card>
+  <Card title="Mécaniques de Furtivité">
+    - **Déplacement Furtif** : Réduit considérablement le rayon de détection des ennemis.
+    - **Bonus de Poignardage** : Offre un multiplicateur de dégâts x2 lors d'une attaque par derrière.
+    - **Couverture Environnementale** : Utilisez les caisses et les ombres pour rester hors des lignes de vue.
+  </Card>
+  <Card title="Soutien à Distance">
+    - **Contrôle de Foule** : Utilisez des arcs de chasse pour éliminer les coureurs.
+    - **Bombes à Clous** : Idéales pour éliminer des groupes de 3 ennemis ou plus.
+    - **Silencieux** : Essentiels si vous devez absolument utiliser une arme à feu pendant la quête.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recommandation Stratégique">
+Équipez votre personnage principal d'un sabre et de bottes de haute furtivité. Laissez le reste de votre escouade attendre à l'entrée du bureau du capitaine du port pour éviter toute détection accidentelle pendant que vous sécurisez le décrypteur.
+</Callout>
+
+| Statistique | Focus Mêlée | Focus Distance | Focus Furtivité |
+| :--- | :--- | :--- | :--- |
+| **Attribut Principal** | Force / Endurance | Perception / Dextérité | Dextérité / Agilité |
+| **Arme de Base** | Sabre / Machette | Fusil de chasse / Pistolet | Couteau de combat / Arc |
+| **Priorité d'Armure** | Lourde / Balistique | Moyenne / Tactique | Légère / Ghillie |
+| **Usage des PA** | Faible à Moyen | Élevé | Variable |
+
+</Section>
+
+<Section icon={Shield} title="Interactions de faction et conséquences">
+
+La quête du **décrypteur radio d'Urban Strife** n'est pas qu'une simple mission de collecte ; c'est une manœuvre politique. Selon la façon dont vous gérez la Garde Nationale et les Pillards locaux, votre réputation auprès de ces factions changera, affectant les prix commerciaux futurs et la disponibilité des quêtes.
+
+| Faction | Position sur la Radio | Avantage de l'Aide | Inconvénient |
+| :--- | :--- | :--- | :--- |
+| **Garde Nationale** | Veut le contrôle | Munitions de qualité, Armure | Règles strictes, Moins de liberté |
+| **Pillards** | Veulent saboter | Accès au marché noir, Ferraille | Forte hostilité de la Garde |
+| **Abri (Neutre)** | Besoin pour survivre | Installations améliorées, Sécurité | Drainage constant des ressources |
+
+Lorsque vous trouverez Ford et le Professeur, vous recevrez des indices concernant l'historique de la quarantaine de la Garde Nationale. Ces indices sont essentiels pour débloquer la branche "Diplomatie" de l'histoire. Choisir de partager les données radio avec la Garde peut vous apporter une sécurité immédiate, mais cela pourrait s'aliéner les survivants locaux qui voient les militaires avec suspicion.
+
+<Callout type="info" title="Indice de Faction">
+La Garde Nationale impose une quarantaine pendant que l'infection se propage. Collecter des données sur leurs tentatives d'évacuation ratées peut servir de levier dans les chapitres ultérieurs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimisation et gestion du butin">
+
+L'efficacité est la clé lors de la navigation dans le Vieux-Port. Le **décrypteur radio d'Urban Strife** est un objet lourd, et la gestion du poids de votre inventaire est cruciale pour maintenir des Points d'Action élevés pendant le combat.
+
+**Liste de contrôle du butin essentiel :**
+- **Débris électroniques** : 5+ unités (utilisés pour les réparations radio et l'artisanat).
+- **Fournitures médicales** : Les antibiotiques sont rares dans le Vieux-Port ; récupérez-les sur le bureau du capitaine du port.
+- **Pièces d'armes** : Utilisées pour entretenir vos armes de mêlée, qui se dégradent rapidement dans les zones de combat intense.
+- **Indices de faction** : Documents trouvés dans les conteneurs de quarantaine de l'armée.
+
+<Checklist
+  id="radio-quest-loot"
+  title="Objets indispensables avant de partir :"
+  items={[
+    "Unité de décryptage radio",
+    "Notes de recherche du Professeur",
+    "Carte d'accès du capitaine du port",
+    "Au moins 10 unités de ferraille",
+    "Preuve de la quarantaine militaire"
+  ]}
+/>
+
+<Callout type="warning" title="Gestion du Poids">
+Dépasser votre poids de charge réduit votre vitesse de mouvement en mode "Déplacement furtif". Si vous trouvez trop de butin, cachez-le dans un conteneur sûr près de l'entrée du Vieux-Port et revenez le chercher plus tard.
+</Callout>
+
+| Catégorie d'Objet | Priorité | Utilisation |
+| :--- | :--- | :--- |
+| **Objets de Quête** | Essentiel | Progression uniquement |
+| **Médecine** | Élevée | Survie / Soins |
+| **Ferraille/Matériaux** | Moyenne | Construction de base / Artisanat |
+| **Objets de Luxe** | Faible | Échange contre de la monnaie |
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Où se trouve exactement le décrypteur radio d'Urban Strife ?",
+    answer: "Il est situé à l'intérieur du bureau du capitaine du port du Vieux-Port (Old Port Harbor Master), généralement stocké dans un conteneur vert 'Army Quarantine' au deuxième étage."
+  },
+  {
+    question: "Dois-je tuer tout le monde dans le Vieux-Port pour obtenir la radio ?",
+    answer: "Non. Bien que la vidéo montre des combats, il est tout à fait possible d'utiliser une furtivité élevée et le mode 'Déplacement furtif' pour atteindre le décrypteur sans engager les hordes de pillards."
+  },
+  {
+    question: "La mêlée est-elle vraiment meilleure que les armes à feu pour cette quête ?",
+    answer: "Actuellement, oui. La mêlée est considérée comme surpuissante dans la version early access de 2026 car elle permet des éliminations silencieuses, empêchant le déclenchement de la 'mécanique de horde'."
+  },
+  {
+    question: "Que se passe-t-il si je perds le décrypteur ?",
+    answer: "Les objets de quête dans Urban Strife ne peuvent généralement pas être jetés ou vendus. Si vous ne le trouvez pas dans votre inventaire, vérifiez l'onglet 'Objets de quête' ou retournez au bureau du capitaine du port pour vous assurer de l'avoir bien ramassé."
+  }
+]} />
+
+<Callout type="success" title="Résumé Final">
+La quête du **décrypteur radio d'Urban Strife** est un test de votre patience tactique. En privilégiant la furtivité, en utilisant des armes de mêlée à hauts dégâts et en gérant soigneusement votre réputation de faction, vous pourrez sécuriser la radio et assurer la survie de votre abri.
+</Callout>
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Comment utiliser les plans : Guide de fabrication et d'amélioration 2026",
+  description: "Maîtrisez le système de plans dans Urban Strife. Apprenez où trouver des recettes rares, comment utiliser les établis et quelles améliorations de fabrication sont essentielles pour survivre.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Urban+Strife+Blueprints+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "urban strife comment utiliser les plans, fabrication, abri, améliorations, recettes"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé principal** : Comprendre **comment utiliser les plans dans Urban Strife** est la base pour survivre à la Horde d'Atlanta.
+- **Obtention** : Les plans se trouvent via **l'exploration de secteurs**, les récompenses de réputation de faction et des interactions uniques avec des PNJ.
+- **Activation** : La plupart des plans nécessitent une **installation d'Abri** spécifique (Atelier, Armurier ou Labo) et un survivant ayant une **Intelligence ou Dextérité** élevée.
+- **Utilité** : Utilisez les plans pour débloquer des **accessoires d'armes**, des munitions de haut niveau et des **fortifications d'Abri** critiques.
+- **Note de la Version 1.0** : La version finale ajoute des **plans de réparation** uniques et des structures de défense de fin de partie spécifiques aux factions.
+</Callout>
+
+<Section icon={Map} title="Trouver et identifier des plans dans le comté d'Urban">
+
+Le monde d'Urban Strife est parsemé de vestiges de technologies d'avant l'effondrement et de conceptions de survivalistes improvisées. Pour maîtriser **comment utiliser les plans dans Urban Strife**, vous devez d'abord savoir où chercher. Les plans sont des objets physiques qui occupent de l'espace dans l'inventaire jusqu'à ce qu'ils soient « lus » ou utilisés sur l'établi approprié. Contrairement au butin standard, ces objets débloquent de manière permanente les lignes de production de votre Abri.
+
+Dans la mise à jour de la version 1.0 de 2026, la répartition des plans a été affinée. Vous ne trouverez plus de silencieux de sniper de haut niveau dans une simple cuisine de banlieue. Au lieu de cela, le jeu récompense l'exploration ciblée. Si vous avez besoin de matériel de qualité militaire, vous devez fouiller la garnison de l'armée dissidente ou fouiller les points de contrôle abandonnés de la Garde nationale. Pour les explosifs improvisés ou le matériel de « bushcraft », le territoire des motards Shady Lady et les camps de survivants locaux sont vos meilleures options.
+
+| Type de source | Rareté | Récompenses de plans typiques |
+| :--- | :--- | :--- |
+| **Avant-postes militaires** | Élevée | Munitions perforantes (AP), Lunettes de visée, Plaques de Kevlar |
+| **Bars/Clubs de motards** | Moyenne | Chargeurs grande capacité, Pièces de véhicules, Mods de corps à corps |
+| **Laboratoires médicaux** | Moyenne | Antibiotiques avancés, Trousses de traumatologie |
+| **Quêtes de faction** | Unique | Clôtures électriques, Panneaux solaires, Armures de faction |
+| **Caches secrètes** | Rare | Recettes .50 BMG, Silencieux |
+
+<Callout type="tip" title="Conseil de fouille">
+Emmenez toujours un survivant doté d'une **Perception** élevée lorsque vous explorez des secteurs industriels. De nombreux plans sont cachés dans des coffres-forts verrouillés ou derrière des murs destructibles faciles à manquer lors d'une fusillade.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment utiliser les plans à l'Abri dans Urban Strife">
+
+Une fois que vous avez récupéré un plan avec succès, le processus pour transformer ce papier en une arme ou une amélioration fonctionnelle commence à l'Abri. Apprendre **comment utiliser les plans dans Urban Strife** implique trois phases distinctes : l'identification, les exigences de l'installation et l'attribution d'un survivant. Vous ne pouvez pas simplement faire un « clic droit » sur un plan sur le terrain pour l'apprendre ; vous devez retourner à votre base d'opérations.
+
+La mise à jour 1.0 a introduit une interface utilisateur plus simplifiée pour le carnet de l'Abri. Lorsque vous avez un nouveau plan dans votre réserve, l'installation correspondante (comme l'Atelier ou l'établi de l'Armurier) affiche une icône de notification. Notez que certains plans avancés nécessitent plusieurs prérequis, tels qu'un générateur alimenté ou un spécialiste spécifique recruté, comme Owen ou un mécanicien aligné avec une faction.
+
+<Steps>
+  <Step num="1" title="Déposer le plan">
+    Retournez à l'Abri et transférez le plan de l'inventaire de votre escouade vers la **Réserve de la base**. Les stations de fabrication puisent directement dans cette réserve.
+  </Step>
+  <Step num="2" title="Vérifier les exigences de l'installation">
+    Ouvrez le **Carnet de l'Abri** et accédez à l'onglet de l'installation. Assurez-vous que l'établi requis (ex. Armurier Niveau 2) est construit et actuellement **Alimenté**.
+  </Step>
+  <Step num="3" title="Attribuer un spécialiste">
+    Sélectionnez un survivant ayant les compétences correspondantes. L'**Intelligence** accélère le processus d'apprentissage, tandis que la **Dextérité** réduit le coût en ressources du prototype initial.
+  </Step>
+  <Step num="4" title="Rassembler les matières premières">
+    La plupart des déverrouillages de plans nécessitent un coût de « recherche » unique en matériaux comme des **Produits chimiques, des Composants ou de la Ferraille**. Assurez-vous qu'ils sont disponibles dans votre stockage.
+  </Step>
+  <Step num="5" title="Finaliser la recette">
+    Exécutez la tâche de recherche. Une fois terminée, l'objet sera définitivement ajouté à votre **Menu de fabrication**, vous permettant de le produire tant que vous avez les matériaux nécessaires.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestion de l'énergie">
+Les plans avancés pour le **Suivi de Défense** (comme la clôture électrique) nécessitent une alimentation électrique constante. Avant d'utiliser ces plans, assurez-vous que votre gestion du **Carburant et de l'Énergie** peut supporter cette charge supplémentaire.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Niveaux de fabrication et spécialisations d'établis">
+
+Tous les établis ne se valent pas. Pour appliquer efficacement **comment utiliser les plans dans Urban Strife**, vous devez comprendre quelle installation gère quelle catégorie d'équipement. Dans Urban Strife, la spécialisation est essentielle pour maintenir un arsenal de haute qualité pour votre milice.
+
+<CardGrid cols={3}>
+  <Card title="L'Armurier">
+    - **Focus** : Armes à feu et Munitions
+    - **Plans** : Silencieux, Kits tactiques, Balles perforantes
+    - **Attribut clé** : Dextérité
+  </Card>
+  <Card title="L'Atelier">
+    - **Focus** : Défense de l'Abri et Outils
+    - **Plans** : Clôtures électriques, Pièges, Blindage de véhicule
+    - **Attribut clé** : Intelligence
+  </Card>
+  <Card title="Le Laboratoire médical">
+    - **Focus** : Soins et Chimie
+    - **Plans** : Stimulants, Médicaments avancés, Cocktails Molotov
+    - **Attribut clé** : Intelligence
+  </Card>
+</CardGrid>
+
+L'efficacité de votre fabrication dépend grandement de la qualité des plans que vous trouvez. Par exemple, un plan de « Silencieux basique » peut réduire le bruit de 40 %, tandis qu'un plan de « Silencieux militaire » trouvé dans la base de montagne en fin de partie peut le réduire de 85 %.
+
+| Niveau d'établi | Niveau de plan | Exemple de déverrouillage | Complexité des ressources |
+| :--- | :--- | :--- | :--- |
+| **Niveau 1** | Commun | Carreaux improvisés, Bandages | Faible (Ferraille/Tissu) |
+| **Niveau 2** | Professionnel | 9mm Pointe Creuse, Viseur Point Rouge | Moyenne (Composants/Plomb) |
+| **Niveau 3** | Militaire | Munitions .308 AP, Vision nocturne | Élevée (Électronique/Chimie) |
+| **Spécialiste** | Faction | Blindage HMMWV militaire, Panneaux solaires | Extrême (Pièces rares) |
+
+<Callout type="info" title="Stratégie d'expert">
+Priorisez les plans qui vous permettent de fabriquer des **Munitions**. En fin de partie, récupérer des calibres spécifiques devient aléatoire, et être capable de fabriquer vos propres cartouches de 5.56 mm ou 7.62 mm fera la différence entre la victoire et l'anéantissement de votre escouade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Plans exclusifs aux factions et réputation">
+
+Les principales factions du comté d'Urban — la Garde nationale, les motards Shady Lady et l'Église de la Seconde Chance — détiennent toutes des plans exclusifs qui ne peuvent être trouvés nulle part ailleurs. Pour y accéder, vous devez naviguer dans le système complexe de réputation. Votre choix d'allié a un impact direct sur votre potentiel de fabrication.
+
+Par exemple, la Garde nationale propose des plans pour des plaques balistiques à haute pénétration et des kits d'armes militaires standardisés. À l'inverse, les Shady Ladies fournissent des modifications « Frankenstein » uniques pour les véhicules et des silencieux improvisés du marché noir. L'Église de la Seconde Chance se concentre sur la guerre chimique et des équipements de survie « spirituels » uniques utilisant des matériaux non conventionnels.
+
+<Checklist
+  id="essential-blueprints"
+  title="Jalons de plans indispensables :"
+  items={[
+    "Obtenir le plan du **Chargeur grande capacité** au bar des motards.",
+    "Sécuriser les schémas de la **Clôture électrique** pour le siège final de l'Abri.",
+    "Débloquer l'**Opération de réparation d'Owen** pour restaurer les armures de niveau 3 endommagées.",
+    "Trouver le guide de **Fabrication de silencieux** dans le secteur de Little Italy."
+  ]}
+/>
+
+| Faction | Réputation requise | Récompense de plan exclusive | Avantage tactique |
+| :--- | :--- | :--- | :--- |
+| **Garde nationale** | Allié | Recette d'arme anti-matériel .50 BMG | Destruction de couverture |
+| **Shady Ladies** | Allié | Blindage de véhicule tactique | Voyage sécurisé |
+| **Seconde Chance** | Allié | Carreaux de arbalète incendiaires | Interdiction de zone silencieuse |
+
+<Callout type="success" title="Bonus de réputation">
+Atteindre le statut « Exalté » avec n'importe quelle faction débloque souvent un **Plan de maître** qui offre une réduction de 20 % sur tous les coûts en ressources de fabrication pour l'équipement de cette faction.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Réparations avancées et mécaniques de la version 1.0">
+
+La mise à jour de la version 1.0 du 14 juillet 2026 a introduit un nouvel aspect crucial au système de plans : **les réparations d'équipement**. Auparavant, une fois que la durabilité d'une arme tombait à zéro, elle devenait de la ferraille. Désormais, en utilisant des plans de réparation spécifiques et en recyclant les équipements inutiles, vous pouvez entretenir indéfiniment vos meilleurs équipements.
+
+Cependant, il y a un piège. Les **plaques balistiques** (les inserts consommables pour les gilets pare-balles) ne peuvent pas être réparées. Vous devez en trouver ou en fabriquer de nouvelles à l'aide de plans. Comprendre **comment utiliser les plans dans Urban Strife** pour l'entretien est tout aussi important que de les utiliser pour de nouvelles constructions.
+
+| Type d'objet | Réparable ? | Matériau requis | Plan requis ? |
+| :--- | :--- | :--- | :--- |
+| **Armes à feu** | Oui | Pièces d'armes | Plan d'outils de réparation |
+| **Gilets pare-balles** | Oui | Tissu/Kevlar | Kit de réparation d'armure |
+| **Plaques balistiques** | Non | N/A (Remplacement uniquement) | Fabrication de plaques |
+| **Armes de mêlée** | Oui | Métal/Pierre à aiguiser | Atelier de base |
+
+<Callout type="warning" title="Alerte de durabilité">
+Ne laissez jamais la durabilité de votre arme principale descendre en dessous de 20 %. À ce niveau, les risques d'enrayement augmentent considérablement et le coût de réparation en pièces double.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ sur les plans">
+
+<FAQ items={[
+  {
+    question: "Les plans disparaissent-ils après utilisation ?",
+    answer: "Non. Une fois que vous avez « recherché » un plan sur un établi, la recette est définitivement débloquée pour votre Abri. Vous pouvez ensuite jeter l'objet physique du plan pour économiser de l'espace de stockage."
+  },
+  {
+    question: "Pourquoi ne puis-je pas utiliser le plan que je viens de trouver ?",
+    answer: "Vérifiez trois choses : 1. Avez-vous le bon niveau d'installation ? 2. L'installation est-elle alimentée ? 3. Le survivant assigné remplit-il les conditions d'Intelligence ou de Dextérité requises pour ce niveau spécifique ?"
+  },
+  {
+    question: "Où est le meilleur endroit pour trouver des plans d'armes avec silencieux ?",
+    answer: "Les silencieux de début de partie se trouvent souvent dans les secteurs « Little Italy » et « Old Port ». En fin de partie, les plans de silencieux à haute efficacité sont exclusifs à la Garde nationale ou aux marchands de motards de haut niveau."
+  },
+  {
+    question: "Puis-je fabriquer des plans pour le siège final de la Horde d'Atlanta ?",
+    answer: "Oui. En fait, fabriquer des fortifications comme la clôture électrique et des portes renforcées via des plans est le seul moyen de maximiser votre Suivi de Défense avant l'assaut final du jour 20."
+  }
+]} />
+
+</Section>_

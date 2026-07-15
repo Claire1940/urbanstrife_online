@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Atouts d'Urban Strife : Guide des Attributs de Base et des Builds de Personnage",
+  description: "Maîtrisez le système d'atouts d'Urban Strife avec notre guide complet sur les attributs, les traits de survie et les builds de personnages tactiques pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Perks+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "atouts, attributs, survie, tactique, builds, Urban Strife"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Atouts d'Urban Strife** : Traits fondamentaux liés aux attributs de base comme la Force et l'Agilité.
+- **Points d'Action (PA)** : La monnaie principale du combat, déterminée par votre Agilité et votre santé actuelle.
+- **Spécialisations** : Concentrez-vous sur des maîtrises d'armes spécifiques comme les fusils à pompe pour le contrôle de foule ou les arbalètes pour la discrétion.
+- **Synergie de Base** : Le déblocage des améliorations de l'abri impacte directement les atouts de survie passifs de votre équipe.
+- **Profondeur Tactique** : Utilisez la position accroupie et la surveillance pour maximiser l'efficacité des atouts de combat de votre personnage.
+</Callout>
+
+<Section icon={Users} title="Attributs de Personnage et Fondements des Atouts">
+
+Dans le monde d'Urban Strife, l'efficacité de votre personnage est définie par ses attributs de base. Ces statistiques servent de fondement à tous les **atouts d'Urban Strife** et aux traits que vous débloquerez au fil de la campagne 2026. Contrairement aux RPG traditionnels, chaque point investi dans un attribut a un impact tangible sur le combat tactique, de la distance de déplacement à la probabilité d'interrompre le tour d'un ennemi.
+
+**Points forts de la vidéo :**
+- Regard détaillé sur l'écran de personnalisation du personnage et l'allocation des points d'attribut.
+- Comparaison entre différents builds de départ : focus Corps à corps vs Distance.
+- Aperçu du système de gestion d'équipe incluant des survivants clés comme Billy Bow et Lucy Lee.
+- Démonstration de la manière dont les attributs comme l'Agilité affectent directement les Points d'Action (PA).
+
+<YouTubeEmbed videoId="aGY-r3iDZos" title="Urban Strife - XCOM Meets Survival" />
+
+Comprendre comment ces attributs interagissent est vital pour constituer une escouade équilibrée. Chaque survivant de votre groupe peut être spécialisé pour remplir une niche spécifique, qu'il s'agisse d'un tank de première ligne ou d'un médecin de soutien.
+
+| Attribut | Effets Principaux | Synergie d'Atouts |
+| :--- | :--- | :--- |
+| **Endurance** | Santé Max, Résistance | Tanking, Survie |
+| **Force** | Capacité de Charge, Dégâts CàC | Armes Lourdes, CQC |
+| **Agilité** | Points d'Action (PA), Chance d'Interruption | Flanquement, Surveillance |
+| **Dextérité** | Utilisation d'Objets, Précision CàC | Artisanat, CàC de Précision |
+| **Tir de précision** | Précision à Distance, Chance de Critique | Sniping, Armes à Feu |
+| **Intelligence** | Gain d'Expérience, Efficacité des Compétences | Soutien, Ingénierie |
+
+<Callout type="tip" title="Conseil de Pro">
+Lorsque vous commencez une nouvelle partie en 2026, donnez la priorité à l'Agilité pour au moins deux de vos personnages. Avoir une chance d'Interruption élevée vous permet d'arrêter les pillards et les zombies avant qu'ils n'atteignent votre couverture.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtrises de Combat et Atouts d'Armes">
+
+Le combat dans Urban Strife est une affaire brutale où la gestion des ressources est tout aussi importante que le positionnement tactique. Les **atouts d'Urban Strife** associés aux différentes classes d'armes vous permettent de dicter le flux de la bataille. Que vous utilisiez une clouteuse de récupération ou un fusil à pompe surpuissant, comprendre votre portée efficace et vos coûts en PA est la différence entre la vie et la mort.
+
+<CardGrid cols={3}>
+  <Card title="Spécialiste CàC">
+    - **Force/Dextérité élevées**
+    - Se concentre sur la force brute (rouleaux à pâtisserie) ou les lames.
+    - Excellent pour les éliminations silencieuses de zombies.
+  </Card>
+  <Card title="Tireur d'Élite">
+    - **Tir de précision/Agilité élevés**
+    - Utilise des fusils (Plinker 10-22) et des arbalètes.
+    - Domine les engagements à longue distance.
+  </Card>
+  <Card title="Brècheur Tactique">
+    - **Endurance/Force élevées**
+    - Spécialisé dans les fusils à pompe et les armures lourdes.
+    - Nettoie les pièces et brise le moral des ennemis.
+  </Card>
+</CardGrid>
+
+La couche tactique inclut également des interactions environnementales. S'accroupir augmente considérablement votre précision et votre cote défensive, ce qui en fait une action obligatoire pour tout personnage basé sur des atouts à distance.
+
+| Type d'Arme | Coût PA (Attaque) | Portée Efficace | Meilleur Cas d'Utilisation |
+| :--- | :--- | :--- | :--- |
+| **Fusil à pompe** | 12 PA | Courte | Nettoyage de groupe, Gros Dégâts |
+| **Pistolet** | 6-8 PA | Moyenne | Arme secondaire flexible, Finition |
+| **Arbalète** | 10 PA | Longue | Discrétion, Munitions récupérables |
+| **Clouteuse** | 5 PA | Courte | Tir rapide, Faible coût en ressources |
+| **CàC (Contondant)** | 7 PA | CQC | Chance d'étourdissement, Sans bruit |
+
+<Callout type="warning" title="Avertissement Critique">
+Les zombies sont attirés par le bruit. Utiliser des armes à feu sans silencieux augmentera rapidement le niveau de « Menace de Horde » de votre position actuelle. Gardez toujours un spécialiste du corps à corps prêt pour des éliminations silencieuses.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Progression et Gestion de la Base">
+
+Votre progression dans Urban Strife ne concerne pas seulement la montée en niveau des individus ; il s'agit de la survie de votre colonie. À mesure que vous améliorez votre abri, vous débloquez des **atouts d'Urban Strife** globaux qui offrent des bonus à tous les membres de l'équipe. Ces améliorations nécessitent des ressources spécifiques comme du bois, du métal, des produits chimiques et des pièces de haute technologie trouvées lors des sessions de pillage.
+
+<Steps>
+  <Step num="1" title="Sécuriser la Radio">
+    Localisez le Professeur Ford pour réparer la radio, permettant la communication avec d'autres factions et débloquant la carte du monde.
+  </Step>
+  <Step num="2" title="Établir le Courant">
+    Construisez un générateur électrique pour alimenter la pharmacie et le garage, essentiels pour l'artisanat avancé.
+  </Step>
+  <Step num="3" title="Infrastructure Médicale">
+    Travaillez avec Lucy Lee pour rendre la clinique opérationnelle, offrant des atouts de guérison passive et de récupération des blessures.
+  </Step>
+  <Step num="4" title="Restauration de Véhicule">
+    Transplantez des pièces de voiture dans un nouveau véhicule pour réduire le temps de trajet et étendre votre rayon de pillage.
+  </Step>
+</Steps>
+
+La gestion de la base implique également d'équilibrer votre cote de survie face à la menace croissante des morts-vivants. Une cote de survie plus élevée attire de meilleures recrues mais peut aussi attirer l'attention de factions maraudeuses comme la Légion de César.
+
+<Callout type="info" title="Gestion des Ressources">
+Vérifiez toujours l'heure sur votre interface. Les missions sont nettement plus difficiles la nuit lorsque les rôdeurs et les morts-vivants deviennent plus actifs. Planifiez vos sorties de pillage pour qu'elles se terminent avant le coucher du soleil.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Liste de Contrôle de Survie et Relations avec les Factions">
+
+Réussir dans les terres désolées de 2026 nécessite de naviguer dans la politique complexe des factions de survivants. Votre réputation auprès de groupes comme les Bikers Urbains ou la Garde Nationale peut débloquer des **atouts d'Urban Strife** uniques, tels que l'accès à du matériel militaire ou un entraînement spécialisé.
+
+<Checklist
+  id="early-game-survival"
+  title="Objectifs de Survie Essentiels 2026 :"
+  items={[
+    "Nettoyer la Villa Adams pour les ressources initiales",
+    "Équiper tous les survivants d'au moins une arme de secours au corps à corps",
+    "Fabriquer des bandages à l'aide de chiffons et de produits chimiques",
+    "Atteindre le statut 'Neutre' avec la faction des Bikers",
+    "Améliorer l'Agilité des personnages pour atteindre 20+ PA"
+  ]}
+/>
+
+Maintenir ces relations est un exercice d'équilibriste. Aider une faction peut en rendre une autre hostile, entraînant des rencontres dangereuses sur la carte du monde.
+
+| Faction | Chef Principal | Atouts de Statut |
+| :--- | :--- | :--- |
+| **Bikers Urbains** | Le Prez | Pièces de véhicules, Accès au carburant |
+| **Église de la Seconde Chance** | Inconnu | Fournitures médicales, Boost de moral |
+| **Garde Nationale** | Commandant | Armes à feu de haut niveau, Armures |
+| **Légion de César** | Divers | Hostile par défaut, Focus sur le butin |
+
+<Callout type="success" title="Succès Stratégique">
+Démonter les armes inutilisées (comme les fusils à pompe en surplus) est le moyen le plus rapide d'obtenir des pièces d'armes pour fabriquer des lunettes et des silencieux. Utilisez une boîte à outils pour maximiser le rendement du démontage.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Conseils Tactiques Avancés">
+
+Pour maîtriser véritablement le système d'**atouts d'Urban Strife**, vous devez regarder au-delà des statistiques de base et utiliser les mécaniques profondes du jeu. Le flanquement, la manipulation de la ligne de mire et les blessures spécifiques aux membres jouent un rôle massif dans le jeu de haut niveau.
+
+- **Ciblage des Membres** : Si un ennemi possède une arme dangereuse, ciblez ses bras pour réduire sa précision. Pour arrêter un coureur, ciblez les jambes.
+- **Empilement de la Surveillance** : Placez plusieurs personnages en surveillance couvrant un seul point de passage pour créer une « zone de mise à mort » capable d'anéantir des escouades entières de pillards.
+- **Efficacité de l'Artisanat** : Utilisez Billy Bow pour fabriquer des armes de corps à corps et Lucy Lee pour les fournitures médicales afin de bénéficier de leurs bonus de compétence naturels.
+- **Échange d'Inventaire** : Vous pouvez échanger des armes entre personnages pendant le combat s'ils sont adjacents, ce qui vous permet de vous adapter instantanément aux changements de portée.
+
+| Action Tactique | Coût PA | Bénéfice |
+| :--- | :--- | :--- |
+| **S'accroupir** | 2 PA | +Précision, -Profil |
+| **Courir** | Variable | Haute mobilité, Grand bruit |
+| **Se faufiler** | Variable | Faible bruit, Éliminations furtives |
+| **Recharger** | 4-6 PA | Essentiel pour les armes à feu |
+| **Changer d'arme** | 3 PA | S'adapter à la portée |
+
+<Callout type="tip" title="Dernier Conseil">
+Ne vous attachez pas à une seule arme. Si vous tuez un ennemi possédant un meilleur fusil, ramassez-le et utilisez-le immédiatement. Dans Urban Strife, le meilleur équipement est souvent celui que vous venez de prendre à votre adversaire.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer plus d'atouts d'Urban Strife pour mes personnages ?",
+    answer: "Les atouts sont débloqués en dépensant des points d'attribut lors des montées de niveau et en accomplissant des quêtes de faction spécifiques qui octroient des traits uniques."
+  },
+  {
+    question: "Quel est l'attribut le plus important pour un débutant ?",
+    answer: "L'Agilité est largement considérée comme la plus importante car elle détermine votre total de Points d'Action (PA) et votre capacité à interrompre les ennemis."
+  },
+  {
+    question: "Puis-je réinitialiser les atouts et attributs de mon personnage ?",
+    answer: "Actuellement, les choix d'attributs sont permanents, mais vous pouvez changer le rôle de votre personnage en modifiant son équipement et ses spécialisations d'armes."
+  },
+  {
+    question: "L'heure de la journée est-elle vraiment importante pour les missions ?",
+    answer: "Oui, en 2026, le cycle nocturne renforce considérablement les ennemis morts-vivants, rendant la discrétion plus difficile et le combat beaucoup plus dangereux."
+  }
+]} />
+
+</Section>

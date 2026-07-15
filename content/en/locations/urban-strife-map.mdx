@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "urban strife map: Essential Navigation & Looting Guide",
+  description: "Master the urban strife map with our 2026 guide. Learn key locations like Adams Villa, find high-tier loot, and navigate the Atlanta wasteland safely.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Map+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Focus**: Navigating the **urban strife map** requires balancing travel time with resource consumption.
+- **Key Location**: **Adams Villa** serves as an early-game hub for high-tier loot and critical story progression.
+- **Combat Strategy**: Use **Line of Sight (LoS)** and elevated positions to manage zombie hordes and cultists.
+- **Looting Mechanic**: Prioritize **tools, duct tape, and medical supplies** over heavy, low-value items.
+- **Base Management**: Always ensure your **shelter** is fortified before exploring distant map sectors.
+</Callout>
+
+<Section icon={Map} title="World Map Overview and Navigation">
+
+Navigating the **urban strife map** is the cornerstone of survival in this post-apocalyptic RPG set on the outskirts of Atlanta, Georgia. The world is divided into distinct sectors, ranging from abandoned highways to fortified residential zones. Movement on the world map consumes time—typically measured in minutes—and impacts your team's fatigue and hunger levels. Understanding the distance between your central shelter and scavenging sites like Adams Villa is crucial for efficient resource runs.
+
+**Video Highlights:**
+- **Open World Design**: Exploration of the highway systems and off-ramp shelters.
+- **Movement Mechanics**: How 15-minute travel segments affect your survival strategy.
+- **Map Interface**: Utilizing the immersive medical reports and to-do lists within the UI.
+- **POI Identification**: Finding the police sedan and specific lootable containers.
+
+<YouTubeEmbed videoId="0GyA_wCnR4k" title="Urban Strife - Open World Zombie Apocalypse Survival RPG" />
+
+| Feature | Description | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Travel Time** | 15-minute increments between local sectors | Increases hunger and fatigue |
+| **Threat Level** | Dynamic horde movement across the map | Dictates when to avoid certain routes |
+| **Shelter Hub** | Central base for upgrades and recovery | Primary destination for all scavenged loot |
+| **POIs** | Points of Interest like Adams Villa or Ford's House | High-risk, high-reward mission zones |
+
+<Callout type="tip" title="Pro Tip">
+Always check your threat of hordes meter on the world map interface before departing. If the meter is high, consider waiting until dawn or taking a longer, safer route.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Key Locations: Adams Villa Exploration">
+
+Adams Villa represents one of the first major challenges on the **urban strife map**. This residential area is more than just a collection of houses; it is a fortified zone currently occupied by the Alpha Legion and various scavenger cultists. When entering this sector, your primary objective is often locating Professor Ford, whose residence is marked by distinct environmental storytelling, including Morse code scratches and SOS signs.
+
+<CardGrid cols={3}>
+  <Card title="Ford's Residence">
+    - **SOS Signs**: Look for Morse code scratches on the walls.
+    - **Loot Density**: High concentration of medical supplies and chemicals.
+    - **Danger**: Often surrounded by cultist patrols.
+  </Card>
+  <Card title="Police Sedan Site">
+    - **Weapon Drops**: Best spot for early-game firearms like the Magnum .22.
+    - **Ammo**: Check the trunk and nearby dumpsters for shotgun shells.
+    - **Strategic Value**: Provides cover during street skirmishes.
+  </Card>
+  <Card title="The Garage Hub">
+    - **Tool Source**: Essential for finding Crowbars and Garden Shears.
+    - **Crafting**: Contains glue, duct tape, and petroleum jelly.
+    - **Stealth**: Multiple entry points for flanking maneuvers.
+  </Card>
+</CardGrid>
+
+| Location | Notable Loot | Enemy Type | Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Adams Villa Street** | Petroleum Jelly, Gasoline | Cultist Scavengers | Moderate |
+| **Sheriff Roger's House** | Police Sedan Hardware, Ammo | Zombies | Low |
+| **Professor Ford's Lab** | Caffeine Products, Medical Kits | Alpha Legion | High |
+| **Backyard Dumpsters** | Scrap Metal, Empty Bottles | None | Very Low |
+
+<Callout type="warning" title="Important">
+The Alpha Legion in Adams Villa uses nail guns and crossbows. While they lack range, their ability to inflict bleeding damage is significant in the early game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat and Map Awareness">
+
+Combat in Urban Strife is intrinsically linked to the **urban strife map** layout. The environment isn't just a backdrop; it’s a tactical tool. You must use the "Out" key to highlight interactable objects and potential cover. The game utilizes a turn-based Action Point (AP) system where every tile moved and every shot fired must be calculated against your remaining energy.
+
+| Weapon Type | Optimal Range | AP Cost | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **Magnum .22** | Medium | 12-15 AP | Pick off lone scavengers |
+| **Frying Pan/Melee** | Point Blank | 8-10 AP | Stealth kills or finishing downed foes |
+| **Nail Gun** | Short | 10 AP | Inflicting status effects (Bleed) |
+| **Crossbow** | Medium-Long | 18 AP | Silent takedowns from cover |
+
+<Callout type="success" title="Tactical Advantage">
+Use the vaulting mechanic to traverse windows and low fences. This allows you to flank enemies inside houses without alerting everyone in the street.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Scavenging Tactics and Resource Management">
+
+Looting the **urban strife map** is a meticulous process. Unlike other RPGs, items in Urban Strife have significant weight and volume, meaning you cannot take everything. You must prioritize items based on your current shelter needs. If your generator is broken, focus on tools and wiring; if your team is starving, prioritize canned food and natural remedies.
+
+<Steps>
+  <Step num="1" title="Secure the Perimeter">
+    Clear all zombies and cultists in the immediate vicinity before looting to avoid being ambushed while encumbered.
+  </Step>
+  <Step num="2" title="Identify High-Value Containers">
+    Use the 'Out' key to scan for glowing objects. Focus on trunks, medicine cabinets, and toolboxes first.
+  </Step>
+  <Step num="3" title="Inventory Sorting">
+    Distribute heavy items like car parts or garden shears among your strongest team members to avoid individual over-encumbrance.
+  </Step>
+  <Step num="4" title="Extraction">
+    Return to the map exit point once your inventory is full. Remember that traveling while overweight consumes significantly more stamina.
+  </Step>
+</Steps>
+
+| Resource Category | Essential Items | Primary Source |
+| :--- | :--- | :--- |
+| **Medical** | Bandages, Field Surgeon Kits | Bathrooms, Medical Beds |
+| **Crafting** | Duct Tape, Glue, Wires | Garages, Kitchen Drawers |
+| **Sustenance** | Canned Food, Soda, Flour | Kitchens, Pantries |
+| **Utility** | Petroleum Jelly, Soap, Hygiene | Toilets, Nightstands |
+
+<Callout type="info" title="Looting Tip">
+Looting can be slow. If an area is cleared of enemies, use one character as a "mule" to stay near the exit while others bring items to a central pile for faster extraction.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Map Progression Milestones">
+
+To successfully master the **urban strife map**, players should aim for specific milestones that indicate a stable and progressing colony. These goals ensure you are prepared for the escalating threats found deeper in the Atlanta ruins.
+
+<Checklist
+  id="map-goals-2026"
+  title="Survival Milestones:"
+  items={[
+    "Establish a 15-minute travel route to Adams Villa",
+    "Secure the Magnum .22 from the police sedan",
+    "Locate Professor Ford and decode the SOS message",
+    "Gather enough duct tape and glue for basic weapon repairs",
+    "Clear the cultist scavenger camp in the residential sector"
+  ]}
+/>
+
+<Callout type="tip" title="Expert Advice">
+Don't rush to the city center. The outskirts provide ample resources to level up your Marksmanship and Agility before facing the military-grade threats in downtown Atlanta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I find specific locations on the urban strife map?",
+    answer: "Locations are revealed through dialogue with NPCs like the Sheriff or by finding physical maps and notes in the world. Once revealed, they appear as icons on your world map interface."
+  },
+  {
+    question: "Does the time of day matter when traveling?",
+    answer: "Yes. Traveling at night increases the chance of encountering zombie hordes and reduces your visibility during tactical combat, making stealth more difficult but potentially safer for avoiding long-range cultist fire."
+  },
+  {
+    question: "Can I fast travel between discovered locations?",
+    answer: "There is no 'instant' fast travel. Movement always consumes in-game time and resources, though established routes may feel faster as you become familiar with the terrain and threats."
+  },
+  {
+    question: "What should I do if my character becomes overweight while looting?",
+    answer: "Discard low-value items like empty bottles or soda cans. Prioritize 'Naturist Remedies' and tools, as these are harder to find and essential for mid-game progression."
+  }
+]} />
+
+</Section>

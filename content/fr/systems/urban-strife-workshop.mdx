@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Atelier d'Urban Strife : Guide complet de fabrication et de réparation",
+  description: "Maîtrisez l'atelier d'Urban Strife. Apprenez à débloquer des plans, réparer armes et armures, et fabriquer des munitions de haut niveau dans la version 1.0.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b82823/fff?text=Workshop+And+Crafting+Guide",
+  date: "2026-07-16",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "Urban Strife, atelier, artisanat, réparation, guide, survie, munitions, plans"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Mécanique principale** : L'**atelier d'Urban Strife** est l'installation centrale pour la maintenance de l'équipement, la fabrication de munitions personnalisées et l'amélioration des armes.
+- **Système de réparation** : Les armes et armures perdent de la durabilité au combat. Vous devez recycler l'équipement en double pour accumuler des pièces de réparation.
+- **Intégration de la réserve** : La fabrication puise directement dans votre réserve globale de l'Abri, éliminant le besoin de transporter des matériaux lourds dans votre inventaire actif.
+- **Priorité de progression** : Restaurez l'atelier tôt dans la Phase 2 pour passer du butin rare récupéré à des équipements personnalisés autonomes.
+- **Plaques balistiques** : N'oubliez pas que les plaques balistiques de protection sont consommables et ne peuvent pas être réparées, même si l'armure hôte est entièrement restaurée.
+</Callout>
+
+<Section icon={Map} title="Introduction à l'atelier d'Urban Strife">
+
+Le comté post-apocalyptique d'Urban County est impitoyable, et compter uniquement sur le butin d'avant-guerre récupéré finira par laisser votre milice dépassée par la puissance de feu ennemie. Reconstruire l'**atelier d'Urban Strife** est votre porte d'entrée vers la survie, transformant la ferraille brisée en instruments de guerre prêts au combat. Lancé dans la version 1.0 le 14 juillet 2026, le jeu complet introduit des systèmes de réparation d'équipement plus profonds et des chaînes de fabrication remaniées qui impactent directement vos capacités défensives avant le siège final de la horde d'Atlanta.
+
+Contrairement à l'artisanat de terrain temporaire, l'atelier dédié de la base vous permet de gérer des industries avancées, de modifier des armes à feu et de recycler des déchets inutiles en composants de haute qualité. En comprenant comment faire fonctionner efficacement cette installation, vous garantissez que votre escouade conserve un avantage tactique décisif.
+
+| Composant du système | Objectif principal | Condition de déblocage |
+|---|---|---|
+| **Station de recyclage** | Convertit les armes/armures en double en pièces brutes | Disponible immédiatement à l'Abri |
+| **Établi de réparation** | Restaure la durabilité des armes à feu et des armures | Terminer l'opération de réparation d'Owen |
+| **Presse à munitions** | Fabrique des balles de précision, explosives et personnalisées | Amélioration d'atelier Niveau 2 |
+| **Porte-outils** | Réduit le coût en points d'action des modifications d'armes | Amélioration d'atelier Niveau 1 |
+
+<Callout type="tip" title="Praticité de la réserve">
+Vous n'avez pas besoin de transférer manuellement le métal, les produits chimiques ou la poudre à canon dans le sac à dos de votre personnage avant de fabriquer. L'interface de l'atelier détecte et puise automatiquement les ressources directement dans votre réserve globale de l'Abri.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Réparation d'équipement et règles de recyclage">
+
+Dans la version 1.0, les armes et les protections corporelles se dégradent dynamiquement à mesure qu'elles subissent l'usure ou absorbent des impacts balistiques. Utiliser des armes à feu endommagées augmente le risque de dysfonctionnement, tandis qu'une armure dégradée offre une protection considérablement réduite contre les tirs entrants.
+
+Pour maintenir votre arsenal, vous devez établir une boucle de recyclage régulière. Le recyclage des armes et armures indésirables produit des pièces de réparation spécialisées. Par défaut, le jeu exclut l'équipement actuellement équipé de l'écran de recyclage pour éviter la destruction accidentelle de vos configurations actives.
+
+| Type d'équipement | Déclencheur de dégradation | Méthode de réparation | Règles spéciales |
+|---|---|---|---|
+| **Armes à feu** | Tirs, exposition environnementale | Établi d'Owen avec pièces d'armes | Les armes de haut niveau nécessitent des pièces avancées |
+| **Protections corporelles** | Absorption de coups balistiques ou de mêlée | Établi d'Owen avec pièces d'armure | Le support en tissu peut être entièrement restauré |
+| **Plaques balistiques** | Absorption directe de tirs à haute pénétration | Ne peut pas être réparé | Doit être remplacé par des plaques neuves |
+| **Outils de mêlée** | Frappe de cibles physiques ou de portes | Réparation standard à l'atelier | La durabilité chute rapidement sur les surfaces dures |
+
+<Callout type="warning" title="Plaques d'armure consommables">
+Ne gaspillez pas de ressources à essayer de réparer des plaques balistiques. Celles-ci sont conçues comme des inserts jetables. Gardez un stock de plaques de rechange dans votre réserve et remplacez-les avant de vous lancer dans des missions de secteur de haute difficulté.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progression de l'atelier étape par étape">
+
+Pour optimiser pleinement vos capacités de fabrication, vous devez améliorer votre atelier par phases structurées. Essayer de fabriquer des munitions militaires de haut niveau avant de sécuriser l'accès aux outils de base bloquera votre économie. Suivez ce chemin de progression pour établir une chaîne industrielle efficace.
+
+<Steps>
+  <Step num="1" title="Sécuriser les matériaux de construction de base">
+    Fouillez les secteurs suburbains et les blocs résidentiels à proximité pour rassembler du bois, de la ferraille et des composants matériels. Gardez-les dans votre réserve globale plutôt que de les vendre aux premiers marchands.
+  </Step>
+  <Step num="2" title="Restaurer l'atelier du centre-ville">
+    Dépensez vos matériaux de construction initiaux pour réparer le bâtiment physique de l'atelier dans le centre de l'Abri. Cela débloque des options de fabrication de base comme les cocktails Molotov et des renforts de mêlée simples.
+  </Step>
+  <Step num="3" title="Débloquer l'opération de réparation d'Owen">
+    Terminez le recrutement et les quêtes localisées pour Owen. Une fois qu'il est posté à votre atelier, l'interface de réparation devient active, vous permettant de restaurer les armes à feu endommagées.
+  </Step>
+  <Step num="4" title="Améliorer au Niveau 2 (Presse industrielle)">
+    Investissez des composants électroniques rares et des pièces de machines pour améliorer l'atelier. Cela débloque la presse à munitions, permettant la fabrication de types de munitions personnalisées telles que les balles Dum-Dum et explosives.
+  </Step>
+  <Step num="5" title="Intégrer les plans de faction">
+    Établissez des alliances avec les grandes factions comme la Garde nationale, l'Église de la Seconde Chance ou les Shady Lady Bikers. Une réputation de haut niveau débloque des plans exclusifs pour de l'équipement tactique avancé.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Acquisition de plans">
+Alors que les plans de base sont débloqués automatiquement en améliorant l'atelier, des recettes rares et spécialisées sont cachées dans tout Urban County. Vérifiez auprès des marchands de faction et fouillez les coffres-forts sécurisés dans les points de contrôle militaires pour les trouver.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recettes de fabrication et options de spécialisation">
+
+L'atelier vous permet de spécialiser l'équipement de votre escouade en fonction de votre approche tactique préférée. Que vous favorisiez les opérations silencieuses ou une puissance de feu écrasante, choisir les bonnes priorités de fabrication permettra d'économiser des ressources précieuses.
+
+<CardGrid cols={3}>
+  <Card title="Discrétion et Utilité">
+    - **Pistolets silencieux** : Fabriquez des silencieux sur l'établi d'armurier pour éliminer discrètement les cibles isolées.
+    - **Carreaux d'arbalète** : Produisez des munitions réutilisables à partir de simples débris de bois et de métal.
+    - **Kits tactiques** : Fabriquez des crochets et des ciseaux médicaux pour étendre vos options sur le terrain.
+  </Card>
+  <Card title="Défense contre la horde">
+    - **Cocktails Molotov** : Combinez du carburant et du tissu pour créer des zones de feu immédiates pour interdire l'accès à une zone.
+    - **Cartouches de fusil à pompe** : Fabriquez de la chevrotine à large dispersion pour déchiqueter les groupes de zombies entrants.
+    - **Bombes artisanales** : Produisez des explosifs bon marché et bruyants pour attirer et détruire les morts-vivants regroupés.
+  </Card>
+  <Card title="Combat anti-blindage">
+    - **Munitions perforantes (AP)** : Pressez des balles perforantes pour contourner les casques lourds et les gilets balistiques.
+    - **Balles explosives** : Créez des munitions de fusil spécialisées qui se fragmentent à l'impact.
+    - **Améliorations de grenades** : Retravaillez les grenades à fragmentation standard pour des rayons d'explosion plus larges.
+  </Card>
+</CardGrid>
+
+| Objet fabriqué | Ingrédients principaux | Niveau d'atelier | Meilleure utilisation tactique |
+|---|---|---|---|
+| **Silencieux (Pistolet)** | Pièces métalliques, Kit d'outils, Ressorts | Niveau 1 | Éliminer discrètement les gardes de périmètre isolés |
+| **Munitions Dum-Dum** | Douille standard, Plomb, Moule à pointe molle | Niveau 2 | Maximiser les dégâts sur la chair contre les zombies non armés |
+| **Balles de fusil AP** | Noyaux d'acier, Poudre, Douilles lourdes | Niveau 3 | Vaincre les soldats lourdement armés de la Rogue Army |
+| **Cocktail Molotov** | Carburant, Bouteille en verre, Chiffons | Niveau 1 | Créer des points de passage obligés lors des défenses contre la horde |
+
+<Callout type="success" title="Synergie de la milice">
+Assignez un survivant avec une Intelligence et une Dextérité élevées pour diriger vos opérations de fabrication. La croissance de leurs attributs s'accélère lors de l'exécution de tâches utilitaires répétitives, et certains atouts de personnage peuvent réduire les coûts globaux en matériaux.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de l'atelier pour la préparation au siège">
+
+À mesure que la campagne progresse vers le jour 20, la menace de la horde d'Atlanta plane sur votre Abri. Votre atelier doit passer d'une station d'amélioration passive à une ligne de production militaire à haut rendement. Utilisez cette liste de contrôle pour vous assurer que vos défenses sont pleinement préparées avant le dernier avertissement radio.
+
+<Checklist
+  id="workshop-siege-prep"
+  title="Jalons industriels avant le siège :"
+  items={[
+    "Améliorer l'atelier au Niveau 3 pour accéder à tous les plans militaires avancés.",
+    "Réparer toutes les armes à feu principales et secondaires à 100 % de durabilité en utilisant l'établi d'Owen.",
+    "Remplacer les plaques balistiques dégradées dans tous les ensembles d'armures des défenseurs de première ligne.",
+    "Convertir les armes de bas niveau excédentaires en pièces brutes pour financer les réparations d'urgence en plein combat.",
+    "Fabriquer et stocker au moins 50 munitions spécialisées anti-horde par défenseur.",
+    "S'assurer que le réseau électrique de l'Abri a assez de carburant pour faire fonctionner l'atelier aux côtés des clôtures électriques actives."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer l'atelier d'Urban Strife pour les réparations ?",
+    answer: "Vous devez d'abord réparer l'installation physique de l'atelier dans le centre de l'Abri pendant la Phase 2 de votre progression. Après cela, terminez la quête de recrutement introductive d'Owen pour le poster à l'établi de réparation."
+  },
+  {
+    question: "Pourquoi ne puis-je pas réparer mes plaques balistiques à l'atelier ?",
+    answer: "Les plaques balistiques sont conçues comme des inserts sacrificiels qui absorbent les dégâts à haute pénétration. Elles se détruisent au cours du processus et ne peuvent pas être réparées. Vous devez fabriquer ou récupérer des plaques de rechange et les insérer manuellement."
+  },
+  {
+    question: "Dois-je porter les ingrédients de fabrication dans mon inventaire ?",
+    answer: "Non. L'atelier est entièrement intégré au stockage global de votre Abri. Tant que les matières premières, les produits chimiques ou les pièces d'armes sont déposés dans la réserve de votre base, l'interface de fabrication les détectera et les utilisera automatiquement."
+  },
+  {
+    question: "Que se passe-t-il si la durabilité de mon arme tombe à zéro ?",
+    answer: "Une arme à durabilité zéro devient complètement cassée, ce qui entraîne des enrayages fréquents, des pénalités de précision massives et finit par rendre l'arme inutilisable jusqu'à ce qu'elle soit entièrement restaurée à l'atelier."
+  }
+]} />
+
+</Section>

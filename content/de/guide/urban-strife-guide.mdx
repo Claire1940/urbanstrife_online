@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Guide: Überlebens-Taktiken & Kampfstrategie 2026",
+  description: "Meistern Sie die Apokalypse mit unserem Urban Strife Guide. Lernen Sie Siedlungsmanagement, rundenbasierte Kampftaktiken und Fraktionsbündnisse für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Survival+Tactics",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team",
+  keywords: "Urban Strife, Guide, Überlebenstaktiken, Kampfstrategie, Siedlungsbau, rundenbasiertes RPG"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Aktionspunkt-Ökonomie**: Meistern Sie das AP-System im **Urban Strife Guide**, um Bewegung und wirkungsvolle Angriffe auszubalancieren.
+- **Siedlungspriorität**: Konzentrieren Sie sich frühzeitig auf den Ausbau von Lebensmittel- und Medizineinrichtungen, um Ihre Überlebendengruppe zu versorgen.
+- **Stealth-Mechaniken**: Nutzen Sie Sicht- und Hörweiten, um Hinterhalte vorzubereiten, bevor Sie in den rundenbasierten Modus wechseln.
+- **Gliedmaßen-Zielsystem**: Zielen Sie auf spezifische Körperteile, um Blutungen zu verursachen oder Sofort-Kills bei gefährlichen Zielen zu erzielen.
+- **Fraktionsdiplomatie**: Wägen Sie Allianzen sorgfältig ab, da sie einzigartige Gebäude und spezialisierte Ressourcen freischalten.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Guide: Die ersten 30 Tage überleben">
+
+Die Welt von Urban Strife ist eine brutale rundenbasierte RPG-Umgebung, in der jede Entscheidung – vom gesammelten Schrott bis zur Kampfhaltung – über Ihre Langlebigkeit entscheidet. Als mysteriöser CDC-Patient, der aus einem Autounfall gerettet wurde, werden Sie in eine Führungsrolle innerhalb einer kleinen Siedlung von Überlebenden gedrängt. Ihr Hauptziel ist es, diesen fragilen Zufluchtsort in eine befestigte Festung zu verwandeln, während Sie durch die komplexe Politik lokaler Fraktionen navigieren. Dieser **Urban Strife Guide** konzentriert sich auf die Kernsäulen des Überlebens: taktischer Kampf, Ressourcenmanagement und strategische Erkundung.
+
+**Video-Highlights:**
+- **Ersteinrichtung**: Verständnis der Hintergrundgeschichte des CDC-Patienten und der Rettung durch lokale Überlebende.
+- **Kampfmechaniken**: Tiefer Einblick in das AP-System, die Nutzung von Deckung und das einzigartige Haltungssystem.
+- **Siedlungsmanagement**: Wie man Einrichtungen wie die Werkstatt und die Krankenstation verbessert.
+- **Early-Access-Hinweise**: Einblicke in die KI-generierten Porträtänderungen und Preistransparenz.
+
+<YouTubeEmbed videoId="VdufWI5iF4E" title="Ansehen: Urban Strife Gameplay & Erste Eindrücke" />
+
+<Callout type="warning" title="Early Access Hinweis">
+Spieler sollten beachten, dass die 2026-Version des Spiels KI-generierte Porträts und eine spezielle "Schwarm-KI" für Gruppenbewegungen von Feinden enthält. Prüfen Sie während der Early-Access-Phase stets die neuesten Entwickler-Updates bezüglich Preisgestaltung und Inhalts-Patches.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Siedlungsmanagement und Einrichtungs-Upgrades">
+
+Die Verwaltung Ihrer Siedlung ist genauso wichtig wie das Gewinnen von Schlachten. Sie müssen während der Missionen Materialien sammeln, um den Ausbau Ihrer Basis zu finanzieren. Das Upgrade von Einrichtungen erhöht Ihren täglichen Ertrag an lebenswichtigen Vorräten und schaltet fortgeschrittene Handwerksstufen frei.
+
+<CardGrid cols={3}>
+  <Card title="Lebensmittelproduktion">
+    - **Versorgt die Bevölkerung**
+    - Verhindert Hunger-Debuffs
+    - Essenziell für Rekrutierung
+  </Card>
+  <Card title="Krankenstation">
+    - **Heilt Verletzungen**
+    - Produziert Medizin
+    - Reduziert Erholungszeit
+  </Card>
+  <Card title="Werkstatt">
+    - **Craftet Munition/Rüstung**
+    - Repariert Ausrüstung
+    - Schaltet Molotowcocktails frei
+  </Card>
+</CardGrid>
+
+| Einrichtungsname | Primäre Ressource | Vorteil auf Stufe 1 | Vorteil auf Stufe 2 |
+| :--- | :--- | :--- | :--- |
+| **Küche** | Essensreste | Einfache Mahlzeiten | **+10% Erholungsrate** |
+| **Krankenstation** | Medizinische Vorräte | Basisheilung | **Fortgeschrittene Chirurgie** |
+| **Schrottplatz** | Metall/Teile | Basiskomponenten | **Automatisches Schrotteinkommen** |
+| **Waffenkammer** | Schießpulver/Blei | Munitionswiederladen | **Waffenanpassung** |
+
+<Callout type="success" title="Wachstumsstrategie">
+Priorisieren Sie in der ersten Woche immer die Werkstatt. Die Fähigkeit, eigene Munition und Molotowcocktails herzustellen, verringert Ihre Abhängigkeit von zufälligen Beutefunden während risikoreicher Missionen erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meisterung rundenbasierter Kampftaktiken">
+
+Der Kampf in Urban Strife basiert auf einem detaillierten Aktionspunkt-System (AP). Im Gegensatz zu simpleren TRPGs haben Sie die volle Kontrolle darüber, wie Sie Ihre Punkte zwischen Bewegung, Zielen und verschiedenen Feuermodi verteilen. Das Spiel verfügt außerdem über eine spezialisierte "Schwarm-KI", die die Züge großer Gruppen schwächerer Feinde beschleunigt, während die Züge der Spieler bewusst und taktisch bleiben.
+
+| Aktionstyp | AP-Kosten (Durchschnitt) | Taktischer Vorteil |
+| :--- | :--- | :--- |
+| **Schnellschuss** | 3-4 AP | Schnell, geringe Präzision |
+| **Gezielter Schuss** | 6-8 AP | **Hohe Krit-Chance** |
+| **Geduckte Haltung** | 2 AP | Verbesserter Deckungsbonus |
+| **Liegende Haltung** | 3 AP | **Max. Präzision / Stealth** |
+| **Nachladen** | 4-5 AP | Notwendige Wartung |
+
+**Wichtige Kampf-Features:**
+- **Gliedmaßen-Zielsystem**: Sie können spezifische Körperteile anvisieren, um Feinde außer Gefecht zu setzen. Das Zielen auf Beine reduziert die Bewegung, während Kopfschüsse die Chance auf Sofort-Kills bieten.
+- **Haltungssystem**: Ihre Haltung (Rennen, Geduckt, Stealth) bestimmt Ihre Sichtbarkeit für Feinde und die Effektivität der Deckung, in der Sie sich befinden.
+- **Ballistik**: Verschiedene Waffen haben unterschiedliche Reichweiten und Rüstungsdurchschlagswerte, was die Wahl der Ausrüstung vor dem Betreten einer Zone entscheidend macht.
+
+<Callout type="tip" title="Taktischer Vorteil">
+Nutzen Sie den Befehl "Warten", um Feinde ihre AP verbrauchen zu lassen, während sie sich auf Sie zubewegen. Dies ermöglicht es Ihren Söldnern, ihren gesamten AP-Balken für hochpräzise Schüsse zu nutzen, sobald die Feinde im offenen Gelände stehen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Erkundung, Stealth und Crafting">
+
+Bevor die Kugeln fliegen, erkunden Sie die Karten in Echtzeit. Diese Phase ist entscheidend für das Sammeln von Ressourcen und das Positionieren Ihres Trupps. Feinde haben ausgeprägte Sicht- und Hörweiten; wenn Sie außerhalb ihrer Sichtkegel bleiben und sich leise bewegen, können Sie den Kampf zu Ihren eigenen Bedingungen beginnen.
+
+<Steps>
+  <Step num="1" title="Umgebung auskundschaften">
+    Nutzen Sie einen Charakter mit hoher Wahrnehmung, um feindliche Patrouillen und Sichtkegel zu identifizieren, ohne entdeckt zu werden.
+  </Step>
+  <Step num="2" title="Hinterhalt legen">
+    Positionieren Sie Ihre Scharfschützen in erhöhter Deckung und Ihre Nahkampfeinheiten an Ecken. Wechseln Sie manuell in den rundenbasierten Modus, um die "Überraschungs"-Initiative zu erhalten.
+  </Step>
+  <Step num="3" title="Ressourcen sammeln">
+    Sobald der unmittelbare Bereich sicher ist, plündern Sie jeden Behälter. Handwerksmaterialien wie Stoff, Metall und Chemikalien werden für die Herstellung von Molotowcocktails während der Mission benötigt.
+  </Step>
+</Steps>
+
+| Crafting-Gegenstand | Benötigte Komponenten | Bester Einsatzbereich |
+| :--- | :--- | :--- |
+| **Molotowcocktail** | Alkohol, Lappen, Treibstoff | **Gebietskontrolle / Zombies** |
+| **Verband** | Stoff, Alkohol | Sofortiger Blutungsstopp |
+| **9mm-Munition** | Blei, Schießpulver | Standard-Pistole/MP-Einsatz |
+| **Rohrbombe** | Metallrohr, Pulver | **Stark gepanzerte Ziele** |
+
+<Callout type="warning" title="Stealth-Warnung">
+Zombies reagieren besonders empfindlich auf Geräusche. Die Verwendung von Waffen ohne Schalldämpfer lockt jeden "Schwarm" in der Nähe an Ihren Standort, was im frühen Spiel oft dazu führt, dass man überwältigt wird.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Fraktionen und Meilensteine des Fortschritts">
+
+Während Sie die Kampagne 2026 durchspielen, werden Sie auf verschiedene Fraktionen treffen. Ihre Interaktionen – ob durch Diplomatie oder Gewalt – bestimmen, welche speziellen Gebäude Sie in Ihrer Siedlung errichten können und welche Qualität die zum Handel verfügbare Ausrüstung hat.
+
+<Checklist
+  id="progression-checklist"
+  title="Überlebens-Meilensteine:"
+  items={[
+    "Sichern Sie eine zuverlässige Quelle für sauberes Wasser",
+    "Schließen Sie ein neutrales Handelsabkommen mit der ersten Fraktion ab",
+    "Craften Sie ein komplettes Set verstärkter Tier-2-Rüstung",
+    "Säubern Sie das lokale Krankenhaus für medizinische Blaupausen",
+    "Schalten Sie die 'Schwarm'-Unterdrückungstaktiken im Skilltree frei"
+  ]}
+/>
+
+| Fraktionstyp | Primärer Vorteil | Potenzielles Risiko |
+| :--- | :--- | :--- |
+| **Survivalisten** | Hochwertige Waffenmods | Feindselig gegenüber Fremden |
+| **Zivilisten** | Stetiger Lebensmittelhandel | Schlecht bewaffnet / Brauchen Schutz |
+| **Militärreste** | **Fortgeschrittene Ballistik** | Hohe Kosten für Allianz |
+
+<Callout type="info" title="Fraktions-Tipp">
+Versuchen Sie nicht, es jedem recht zu machen. Die Entscheidung für eine Fraktion sperrt oft die Vorteile einer anderen, aber die spezialisierten Gebäude, die sie bieten (wie fortgeschrittene Trainingslager), sind den Kompromiss wert.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Urban Strife FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie funktioniert das Gliedmaßen-Zielsystem in Urban Strife?",
+    answer: "Während Ihres Zuges können Sie spezifische Körperteile eines Feindes auswählen. Das Zielen auf den Kopf erhöht den Schaden und die Chance auf Sofort-Kills, während das Zielen auf die Beine deren Aktionspunkte für den nächsten Zug reduziert. Dies ist essenziell für den Umgang mit gefährlichen Nahkampfgegnern."
+  },
+  {
+    question: "Kann ich Kämpfe durch Stealth komplett vermeiden?",
+    answer: "Obwohl Sie viele Begegnungen im Echtzeit-Erkundungsmodus umgehen können, indem Sie außerhalb der Sicht- und Hörweite der Feinde bleiben, erfordern bestimmte storybasierte Ziele taktische rundenbasierte Kämpfe zur Lösung."
+  },
+  {
+    question: "Was ist der beste Weg, um Aktionspunkte (AP) zu verwalten?",
+    answer: "Stellen Sie immer sicher, dass Sie am Ende einer Bewegung genug AP übrig haben, um eine Verteidigungshaltung einzunehmen oder einen 'Schnellschuss' abzugeben. Zu weites Vorrücken ins offene Gelände ohne verbleibende Punkte für Deckung oder Überwachung ist die häufigste Ursache für das Auslöschen des gesamten Trupps."
+  },
+  {
+    question: "Worauf sollte ich mich beim Crafting in diesem Urban Strife Guide zuerst konzentrieren?",
+    answer: "Priorisieren Sie Molotowcocktails und einfache Verbände. Molotowcocktails sind hochwirksam bei der Kontrolle von Zombiehorden, während Verbände notwendig sind, um den Statuseffekt 'Blutung' zu stoppen, der die Gesundheit eines Überlebenden schnell aufzehren kann."
+  }
+]} />
+
+</Section>

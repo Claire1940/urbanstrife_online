@@ -1,0 +1,231 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "urban strife steam: 1.0 Launch-Leitfaden & Taktik-Walkthrough",
+  description: "Meistern Sie Urban Strife auf Steam mit unserem 2026 1.0 Leitfaden. Entdecken Sie Überlebenstaktiken, Waffen-Tiers, Shelter-Upgrades und Fraktionsentscheidungen für den Full Release.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Urban+Strife+Steam+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki-Team",
+  keywords: "urban strife, steam, guide, taktik, überleben, 1.0 release, walkthrough"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die **urban strife steam** Version 1.0 wurde offiziell am 14. Juli 2026 veröffentlicht und markiert das Ende der Early-Access-Phase.
+- **Kern-Gameplay**: Ein taktisches rundenbasiertes RPG mit realistischer Ballistik, Shelter-Management und tiefgreifender Fraktionspolitik.
+- **Überlebensfokus**: Erfolg erfordert ein Gleichgewicht zwischen Munitionseinsparung, medizinischen Vorräten und der Shelter-Ressourcenproduktion.
+- **Endgame-Vorbereitung**: Die Kampagne gipfelt in einer massiven Belagerung; Ihre Befestigungen und Allianzen bestimmen das Endergebnis.
+- **Plattform**: Derzeit exklusiv für Windows PC über Steam mit vollem 1.0-Content-Support verfügbar.
+</Callout>
+
+<Section icon={Map} title="urban strife steam: Release-Infos & PC-Anforderungen">
+
+Die Ankunft von **urban strife steam** Version 1.0 am 14. Juli 2026 schließt die Storyline der Atlanta-Horde ab und führt mehrere überarbeitete Systeme ein. Nach neunzehn Monaten im Early Access fügt der Full Release die finale Shelter-Belagerung, ein neu gestaltetes Berufs-Perk-System und umfassende Reparaturmechaniken für Ausrüstung hinzu. Egal, ob Sie ein zurückkehrender Überlebender oder ein neuer Milizführer sind, die 1.0-Version bietet eine poliertere und herausforderndere taktische Erfahrung.
+
+| Kategorie | Wert | Details |
+| :--- | :--- | :--- |
+| **Release Version 1.0** | 14. Juli 2026 | Vollständiger Kampagnenabschluss und Endgame-Inhalte |
+| **Standardpreis** | 34,99 $ USD | Regionale Preisgestaltung auf Steam gilt |
+| **Launch-Rabatt** | 30% Rabatt (24,49 $) | Gültig bis zum 21. Juli 2026 |
+| **Plattform** | Windows PC | Unterstützt Steam Cloud und Workshop |
+| **Sprachen** | 6 unterstützt | Englisch, Russisch, Deutsch, Französisch, Spanisch, Chinesisch |
+
+<Callout type="success" title="Kompatibilität der Version 1.0">
+Bestehende Early-Access-Spielstände bleiben mit der 1.0-Version kompatibel. Die Entwickler empfehlen jedoch, eine neue Kampagne zu starten, um den neu gestalteten Questverlauf, neue Blaupausen und die aktualisierte Verteilung der Berufs-Perks von Anfang an zu erleben.
+</Callout>
+
+### PC-Systemanforderungen
+
+Um eine reibungslose Leistung während großer Zombie-Horden-Begegnungen zu gewährleisten, sollte Ihr System die folgenden Spezifikationen erfüllen:
+
+| Anforderung | Minimum | Empfohlen |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 64-bit | Windows 10 64-bit |
+| **CPU** | Intel i5-4690 / AMD FX-8350 | Intel i7-8700K / AMD Ryzen 5 3600 |
+| **RAM** | 16 GB | 16 GB |
+| **GPU** | GTX 970 / RX 480 (4GB VRAM) | RTX 2060 Super / RX 5700 XT (8GB) |
+| **Speicherplatz** | 20 GB verfügbarer Platz | SSD empfohlen |
+
+<Callout type="warning" title="Leistungs-Tipp">
+Große Horden und städtische Umgebungen mit hoher Zerstörbarkeit können CPU-intensiv sein. Wenn Sie während der Atlanta-Horden-Sequenzen Frame-Einbrüche erleben, sollten Sie die Physik- oder Fragment-Einstellungen im Optionsmenü verringern.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Einsteiger-Leitfaden: Die ersten 24 Stunden überleben">
+
+Die ersten Stunden von Urban Strife sind darauf ausgelegt, Ihnen die Grundlagen taktischer Bewegung und Ressourcenmanagement beizubringen. Sie beginnen als Überlebender, der aus einem Labor in Atlanta gerettet wurde, und haben die Aufgabe, den alternden Bewohnern des Urban Shelter beim Wiederaufbau ihrer Gemeinschaft zu helfen. Ihr primäres Ziel ist es, die Basis zu stabilisieren, bevor Sie in die gefährlichen Sektoren von Urban County vordringen.
+
+<Steps>
+  <Step num="1" title="Den Prolog abschließen">
+    Folgen Sie der Einführungsroute durch die Brücken- und Vorstadtsektoren. In dieser Phase lernen Sie, wie man Gegenstände ausrüstet, Aktionspunkte (AP) verwaltet und Zombie-Spawner zerstört. Überspringen Sie die Tutorial-Fenster nicht, da sie die Nuancen des Inventar-HUDs erklären.
+  </Step>
+  <Step num="2" title="Shelter-Ressourcen stabilisieren">
+    Ihre erste Priorität sind Nahrung, Wasser und Medizin. Kehren Sie von jedem Plünderungszug mit diesen lebensnotwendigen Dingen zurück. Nutzen Sie das Shelter-Notizbuch, um Ihren Vorrat zu verfolgen und sicherzustellen, dass die Moral Ihrer Bewohner hoch bleibt.
+  </Step>
+  <Step num="3" title="Ein ausgewogenes Team bilden">
+    Verlassen Sie sich nicht auf einen einzigen "Helden"-Charakter. Rekrutieren Sie Überlebende und verteilen Sie Waffen basierend auf ihren natürlichen Perks. Ein ausgewogenes Team sollte einen Fernkämpfer, einen leisen Nahkampfspezialisten und jemanden für die Feldmedizin umfassen.
+  </Step>
+  <Step num="4" title="Leise Eliminierungen meistern">
+    Munition ist eine endliche und teure Ressource. Benutzen Sie Armbrüste, Nahkampfwaffen oder schallgedämpfte Pistolen, um isolierte Zombies auszuschalten. Lautes Gewehrfeuer sollte für menschliche Feinde oder unvermeidbare Horden-Trigger reserviert bleiben.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Ressourcenmanagement">
+Verlassen Sie niemals einen Sektor mit leeren Inventarplätzen. Selbst minderwertige Gegenstände können in Teile für Reparaturen zerlegt oder dem Shelter gespendet werden, um Ihren Ruf und Ihren Ressourcenpool zu verbessern.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Taktischer Kampf & Steuerung">
+
+Der Kampf in Urban Strife wird durch ein rundenbasiertes Aktionspunkt-System gesteuert. Im Gegensatz zu vielen anderen taktischen RPGs simuliert dieses Spiel Flugbahnen von Kugeln, Materialdurchdringung und einzelne Explosionsfragmente. Positionierung dreht sich nicht nur um die "Trefferchance", sondern um die physischen Eigenschaften der Welt um Sie herum.
+
+### Wichtige Kampf-Shortcuts
+
+| Taste | Aktion | Taktischer Nutzen |
+| :--- | :--- | :--- |
+| **X** | Aktive Waffe wechseln | Schnell zwischen Fern- und Nahkampf umschalten |
+| **F** | Feuermodus ändern | Zwischen Einzel-, Feuerstoß oder Auto wechseln |
+| **Y** | Overwatch aktivieren | Reaktionsfeuer für den gegnerischen Zug vorbereiten |
+| **0** | Gesamte Gruppe auswählen | Nützlich für die Gruppenpositionierung außerhalb des Kampfes |
+| **C** | Haltung ändern | Wechseln zwischen Stehen, Hocken und Liegen |
+
+<Callout type="warning" title="Deckungsmaterial ist entscheidend">
+Nicht jede Deckung ist gleichwertig. Ein Holzzaun mag Gegnern einen visuellen "Treffer-Malus" geben, aber ein großkalibriges Gewehr wird ihn leicht durchschlagen. Priorisieren Sie immer Steinmauern, Motorblöcke oder dicken Beton für maximalen Schutz.
+</Callout>
+
+### Fortgeschrittene taktische Mechaniken
+
+1. **Initiative**: Wenn Sie einen Kampf geduckt und in Deckung beginnen, erhöht sich Ihre Chance, die Initiative zu gewinnen, sodass Ihr Trupp zuerst agieren kann.
+2. **Körperteil-Zielerfassung**: Kopfschüsse verursachen massiven Schaden, haben aber eine geringere Genauigkeit. Nutzen Sie Gliedmaßenschüsse, um schnelle "Runner" zu verlangsamen oder menschliche Scharfschützen auszuschalten.
+3. **Lärm & Aufmerksamkeit**: Jede Aktion erzeugt Lärm. Explosionen und ungedämpfte Schrotflinten können Zombies aus benachbarten Sektoren in Ihren aktuellen Kampf locken.
+4. **Unterbrechungsfeuer**: Charaktere mit hoher Beweglichkeit und verbleibenden AP können feindliche Bewegungen unterbrechen, was eine entscheidende Verteidigungsschicht während des gegnerischen Zuges darstellt.
+
+<Callout type="info" title="Stealth-Vorteil">
+Sie können viele Begegnungen lösen, ohne in den vollen rundenbasierten Kampf zu gehen. Wenn Sie unentdeckt bleiben, können Sie die feindlichen Reihen durch lautlose Takedowns ausdünnen und Ihre Munition für die finalen Ziele sparen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Beste Waffen & Ausrüstungs-Tiers">
+
+Es gibt keine "ultimative" Waffe in Urban Strife. Stattdessen werden Waffen nach ihren taktischen Rollen kategorisiert. Ihre Ausrüstung sollte die spezifischen Bedrohungen des Sektors widerspiegeln, den Sie betreten.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Hordenkontrolle">
+    - **Schrotflinten**: Jedes Pellet wird einzeln berechnet.
+    - **Maschinengewehre**: Hohe Unterdrückung und Flächenschaden.
+    - **Sprengstoffe**: Unverzichtbar zum Räumen von Engpässen.
+    - *Bestens geeignet für*: Shelter-Verteidigung und dichte Zombiegruppen.
+  </Card>
+  <Card title="S-Tier: Präzision">
+    - **Scharfschützengewehre**: Hohe Durchschlagskraft und Reichweite.
+    - **Jagdgewehre**: Zuverlässiger Schaden auf mittlere bis lange Distanz.
+    - **.50 BMG**: Seltene Anti-Materiel-Power.
+    - *Bestens geeignet für*: Menschliche Scharfschützen und gepanzerte Ziele.
+  </Card>
+  <Card title="A-Tier: Stealth">
+    - **Armbrüste**: Unendliche "Munition" durch Wiederbeschaffung.
+    - **Schallgedämpfte Pistolen**: Niedrige AP-Kosten und leise.
+    - **Klingenwaffen**: Lautlose Takedowns mit hoher Krit-Chance.
+    - *Bestens geeignet für*: Aufklärung und lautloses Ausschalten von Wachen.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Waffenreparaturen">
+In Version 1.0 können Sie Owens Reparatur-Operation nutzen, um beschädigte Schusswaffen und Körperpanzerungen wiederherzustellen. Dies erfordert Ersatzteile, die durch das Zerlegen ungewollter Ausrüstung in der Werkstatt gewonnen werden.
+</Callout>
+
+### Rüstung und Schutz
+
+| Rüstungstyp | Stärken | Einschränkungen |
+| :--- | :--- | :--- |
+| **Ballistische Platten** | Hoher Schutz gegen Gewehre | Verbrauchsartikel; nicht reparierbar |
+| **Körperpanzerung** | Schützt den Torso; reparierbar | Schwer; reduziert Bewegungs-AP |
+| **Helme** | Verhindert sofortige Kopfschuss-Tode | Begrenzte Haltbarkeit; hohe Kosten |
+| **Gliedmaßenpanzerung** | Reduziert verkrüppelnde Effekte | Minimaler Einfluss auf die Gesamtgesundheit |
+
+</Section>
+
+<Section icon={Shield} title="Shelter-Upgrades & Fraktionsallianzen">
+
+Der Shelter ist Ihre Operationsbasis und der Schlüssel zum Überleben des Endgames. Die Aufrüstung erfordert ein Gleichgewicht aus Baumaterialien, spezialisierten Rekruten und beständigen Ressourcen-Spenden.
+
+### Phasen der Shelter-Progression
+
+| Phase | Fokus | Schlüsseleinrichtungen |
+| :--- | :--- | :--- |
+| **1. Überleben** | Täglicher Bedarf | Lager, Wasser, Moralsysteme |
+| **2. Dienste** | Kernfunktionen | Radio, Krankenhaus, Autowerkstatt, Werkstatt |
+| **3. Industrie** | Selbstversorgung | Gärten, Rattenfarmen, Hydrokultur |
+| **4. Arsenal** | Kampfbereitschaft | Büchsenmacherbank, Munitionsproduktion |
+| **5. Verteidigung** | Belagerungsvorbereitung | Befestigungen, Elektrozäune, Geschütztürme |
+
+<Callout type="tip" title="Energiemanagement">
+Fortgeschrittene Verteidigungen wie Elektrozäune benötigen konstante Energie. Stellen Sie sicher, dass Sie Ihre Generatoren (Solar, Hydro oder Wind) aufgerüstet haben, bevor die finale Belagerung beginnt, sonst versagen Ihre Befestigungen im kritischsten Moment.
+</Callout>
+
+### Fraktionsvergleich
+
+Ihr Ruf in Urban County bestimmt, welche Fraktion Sie während des Angriffs der Atlanta-Horde unterstützen wird. Wählen Sie Ihre Verbündeten sorgfältig aus, da die Opposition gegen einen Block oft deren einzigartige Belohnungen ausschließt.
+
+| Fraktion | Identität | Wichtige Belohnungen |
+| :--- | :--- | :--- |
+| **Nationalgarde** | Diszipliniertes Militär | Hochwertige Schusswaffen, Armee-HMMWV, Rüstung |
+| **Kirche der zweiten Chance** | Spirituell/Kultisch | Einzigartige Blaupausen, Stealth-Upgrades, Lore |
+| **Shady Lady Biker** | Profitgieriger Schwarzmarkt | Fahrzeugteile, Mechaniker-Support, Handel |
+
+<Callout type="warning" title="Das Wahlsystem">
+Sie können nicht einfach in das Hauptquartier einer Fraktion spazieren. Sie müssen genügend "Stimmen" von lokalen Überlebendengruppen und Baronen sammeln, um Ihren Einfluss zu beweisen, bevor die Hauptakteure Ihnen eine formelle Allianz anbieten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame: Die Belagerung der Atlanta-Horde">
+
+Der letzte Akt der Kampagne konzentriert sich auf den Verteidigungs-Tracker. Dieses System bewertet Ihre gesamte Einsatzbereitschaft, bevor die Atlanta-Horde am Shelter eintrifft. Jede Allianz, jedes Upgrade und jeder Vorrat, den Sie im Laufe des Spiels aufgebaut haben, trägt zu dieser Punktzahl bei.
+
+<Checklist
+  id="siege-readiness"
+  title="Checkliste für die finale Belagerung:"
+  items={[
+    "Reparieren Sie alle Primärwaffen und Körperpanzerungen mit Ersatzteilen.",
+    "Legen Sie Vorräte für mindestens 48 Stunden an Nahrung und Medizin an.",
+    "Stellen Sie sicher, dass alle elektrischen Verteidigungen mit einem funktionierenden Generator verbunden sind.",
+    "Weisen Sie Ihre Überlebenden mit der höchsten Schießfertigkeit den Außenmauern zu.",
+    "Schließen Sie Owens Reparatur-Operation für die schweren Tore des Shelters ab.",
+    "Sichern Sie sich eine Fraktionsallianz für militärische Unterstützung im Late-Game."
+  ]}
+/>
+
+<Callout type="success" title="Die letzte Warnung">
+In der 1.0-Kampagne wird die Belagerung normalerweise um Tag 20 ausgelöst. Das Radio wird eine 24-stündige Warnung ausgeben. Nutzen Sie dieses letzte Fenster, um alle Außenteams zurückzurufen und Ihre beste Ausrüstung in das Shelter-Lager zu bringen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ist Urban Strife für Konsolen verfügbar?",
+    answer: "Derzeit ist Urban Strife nur für Windows PC über Steam verfügbar. Es gibt keine offiziellen Ankündigungen bezüglich PlayStation- oder Xbox-Versionen."
+  },
+  {
+    question: "Wie repariere ich Waffen in der 1.0-Version?",
+    answer: "Sie müssen zuerst Owens Reparatur-Operation freischalten. Sobald diese aktiv ist, können Sie Ersatzteile aus zerlegter Ausrüstung verwenden, um die Haltbarkeit Ihrer Schusswaffen und Rüstungen wiederherzustellen."
+  },
+  {
+    question: "Kann ich mehr als einer Fraktion beitreten?",
+    answer: "Sie können einen positiven Ruf bei mehreren Fraktionen aufrechterhalten, aber für die finale Allianz müssen Sie einen primären Wohltäter wählen. Diese Wahl ist für diesen Spieldurchgang dauerhaft."
+  },
+  {
+    question: "Was passiert, wenn ich die finale Belagerung verliere?",
+    answer: "Die Endsequenz spiegelt Ihre Leistung wider. Wenn Ihre Verteidigung zu schwach ist, droht der Verlust wichtiger NPCs oder ein tragischeres Ende für die Gemeinschaft des Urban Shelter."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,197 @@
+import { Users, Target, Shield, Swords, Map, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Gefährten: Beste Überlebenden-Builds & Rekrutierungs-Guide",
+  description: "Meistern Sie die Urban Strife Gefährten mit unserem Guide zu Rekrutierung, Überlebenden-Builds, fraktionsspezifischen Rekruten und taktischem Squad-Management für den 1.0 Release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Urban+Strife+Companions+Guide",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki Team",
+  keywords: "Urban Strife, Gefährten, Überlebenden-Builds, Rekrutierung, Fraktionen, Guide, Taktik"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Urban Strife Gefährten** sind rekrutierte Überlebende, die deine Miliz bilden, jeder mit einzigartigen angeborenen Perks und definierenden Merkmalen.
+- Das **Learn-by-doing-System** stellt sicher, dass sich Überlebende in den spezifischen Fertigkeiten verbessern, die sie im taktischen Kampf am häufigsten einsetzen.
+- **Fraktionsbündnisse** mit der Nationalgarde, den Bikern oder dem Kult der zweiten Chance bestimmen, welche hochrangigen Rekruten und Ausrüstungsgegenstände verfügbar werden.
+- **Shelter-Upgrades** sind zwingend erforderlich, um eine größere Bevölkerung unterzubringen und die medizinische Versorgung zu gewährleisten, die dein Team einsatzbereit hält.
+- Die **Belagerungsbereitschaft** hängt von deiner Fähigkeit ab, Ausrüstung zu reparieren und Teamrollen auszubalancieren, bevor die Atlanta-Horde an Tag 20 eintrifft.
+</Callout>
+
+<Section icon={Users} title="Urban Strife Gefährten rekrutieren: Aufbau deiner Miliz">
+
+In der postapokalyptischen Welt von Urban Strife hängt dein Überleben vollständig von der Qualität und Zusammensetzung deines Trupps ab. **Urban Strife Gefährten** sind nicht nur generische Einheiten; sie sind individuelle Überlebende mit Hintergrundgeschichten, angeborenen Perks und einzigartigen Merkmalen, die sowohl die Kampfleistung als auch die Dialogoptionen beeinflussen. Nach dem 1.0 Release am 14. Juli 2026 wurde das Rekrutierungssystem um mehr als zwanzig Verbündeten-Upgrades und ein tieferes Ruf-System erweitert, das bestimmt, wer sich deiner Sache anschließt.
+
+Die Rekrutierung beginnt im Urban Shelter, aber dein Kader wird schnell wachsen, während du Urban County erkundest. Du wirst auf unabhängige Überlebende, Flüchtlinge und fraktionstreue Soldaten treffen, die durch erfolgreiche Dialogprüfungen, das Erfüllen spezifischer Interessen oder das Sichern genügender politischer Stimmen im County davon überzeugt werden können, deiner Miliz beizutreten.
+
+| Rekrutierungsquelle | Primäre Methode | Potenzielle Belohnung |
+| :--- | :--- | :--- |
+| **Unabhängige Überlebende** | Rettungsmissionen / Dialog | Spezialisten für das Early-Game, Sanitäter |
+| **Nationalgarde** | Hoher Ruf / Quests | Militärische Schützen, gepanzerte Einheiten |
+| **Shady Lady Biker** | Handelsgeschäfte / Biker-Interessen | Mechaniker, Nahkämpfer |
+| **Kult der zweiten Chance** | Spirituelle Ausrichtung / Quests | Stealth-Spezialisten, einzigartige Merkmale |
+| **Flüchtlingslager** | Shelter-Kapazität / Schutz | Hilfsarbeiter, potenzielle Rekruten |
+
+<Callout type="tip" title="Ruf ist entscheidend">
+Dein persönlicher Ruf eilt dir in Urban County voraus. Der Einsatz von Stärke- oder Intelligenz-Dialogprüfungen kann Rekrutierungswege freischalten, die sonst verschlossen blieben, was dir unnötige Kämpfe erspart und kostbare Munition schont.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Charakterattribute und Learn-by-Doing-Progression">
+
+Urban Strife nutzt ein realistisches „Learn-by-doing“-Progressionssystem. Im Gegensatz zu traditionellen RPGs, bei denen du Punkte nach einem Levelaufstieg verteilst, verbessern deine **Urban Strife Gefährten** ihre Attribute, indem sie bestimmte Aktionen im Feld ausführen. Wenn ein Überlebender häufig ein Scharfschützengewehr benutzt, steigt seine Schießkunst. Wenn er seine Züge damit verbringt, durch die Schatten zu schleichen, wächst seine Beweglichkeit.
+
+Dieses System ermutigt dazu, deine Überlebenden in dedizierten Rollen zu spezialisieren. Intelligenz spielt hier eine entscheidende Rolle, da sie die Geschwindigkeit bestimmt, mit der ein Charakter alle anderen Attribute entwickelt. Ein Überlebender mit hoher Intelligenz wird seinen Beruf viel schneller meistern als ein weniger fähiger Rekrut.
+
+| Attribut | Primärer Effekt | Wachstumsaktion |
+| :--- | :--- | :--- |
+| **Schießkunst** | Fernkampf-Genauigkeit / Krit-Chance | Abfeuern von Schusswaffen, Armbrustnutzung |
+| **Beweglichkeit** | AP für Bewegung / Ausweichen / Interrupts | Schleichen, Ausweichen von Nahkampfattacken |
+| **Geschicklichkeit** | AP-Kosten für Item-Nutzung / Nahkampf-Präzision | Nutzung von Werkzeugen, Medkits, Nahkampf |
+| **Stärke** | Tragegewicht / Nahkampfschaden / Ausdauer | Nahkampf-Kills, Tragen schwerer Lasten |
+| **Zähigkeit** | Max. Gesundheit / Ausdauer / Verletzungsresistenz | Schaden einstecken, lange Expeditionen |
+| **Intelligenz** | Attributs-Wachstumsrate / Dialogprüfungen | Erfolgreiche Skill-Nutzung, Handbücher lesen |
+
+<Callout type="warning" title="AP-Management">
+Jede Aktion, vom Bewegen bis zum Nachladen, verbraucht Aktionspunkte (AP). Prüfe immer die Vorschau deines Zielorts, um sicherzustellen, dass dein Gefährte genügend AP übrig hat, um in Deckung zu gehen oder einen Overwatch-Schuss vorzubereiten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Spezialisierte Überlebendenrollen und Teamzusammensetzung">
+
+Um die Herausforderungen des Late-Games und die finale Belagerung der Atlanta-Horde zu überleben, musst du deine **Urban Strife Gefährten** zu einem ausgewogenen Team organisieren. Obwohl das Spiel dich nicht in starre Klassen zwingt, erlauben die dreistufigen Berufs-Perks, Überlebende zu hochwirksamen Spezialisten zu verfeinern.
+
+<CardGrid cols={3}>
+  <Card title="Der Fernschütze">
+    - **Fokus**: Schießkunst und Beweglichkeit.
+    - **Rolle**: Ausschalten von Prioritätszielen und Overwatch.
+    - **Beste Ausrüstung**: Jagdgewehre, Scharfschützengewehre oder Sturmgewehre.
+  </Card>
+  <Card title="Der Nahkämpfer">
+    - **Fokus**: Stärke, Geschicklichkeit und Zähigkeit.
+    - **Rolle**: Lautlose Takedowns und Munitionsschonung.
+    - **Beste Ausrüstung**: Klingen, Schlagwaffen und schwere Rüstung.
+  </Card>
+  <Card title="Der Stealth-Spezialist">
+    - **Fokus**: Beweglichkeit und Geschicklichkeit.
+    - **Rolle**: Aufklärung, Hinterhalte und schallgedämpftes Feuer.
+    - **Beste Ausrüstung**: Armbrüste, schallgedämpfte Pistolen und leichte Ausrüstung.
+  </Card>
+  <Card title="Der Kampf-Sanitäter">
+    - **Fokus**: Intelligenz und Geschicklichkeit.
+    - **Rolle**: Heilung und Aufrechterhaltung der Einsatzfähigkeit.
+    - **Beste Ausrüstung**: Medizinische Kits, Werkzeuge und PDWs.
+  </Card>
+  <Card title="Der Utility-Überlebende">
+    - **Fokus**: Intelligenz und Stärke.
+    - **Rolle**: Crafting, Looting und Dialogprüfungen.
+    - **Beste Ausrüstung**: Große Rucksäcke, Granaten und Werkzeuge.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Berufs-Perks">
+Sobald du Berufs-Perks freischaltest, kannst du diese frei wählen, um die Distanz und den Waffentyp zu verstärken, den ein Überlebender bereits nutzt. Überprüfe immer das angeborene Merkmal eines Rekruten, bevor du dich auf einen Build festlegst; ein geborener „Anführer“ eignet sich besser als Truppkapitän als ein „Einzelgänger“.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fraktionsbündnisse und einzigartige Rekrutierungsbelohnungen">
+
+Deine Wahl des Bündnisses beeinflusst maßgeblich, welche **Urban Strife Gefährten** ihr volles Potenzial ausschöpfen. Die drei großen Blöcke – die Nationalgarde, die Shady Lady Biker und der Kult der zweiten Chance – bieten jeweils einzigartige Blaupausen, Ausrüstungen und Spezialeinheiten an, die ihren Feinden verwehrt bleiben.
+
+Bis Tag 20 musst du genügend Stimmen gesichert haben, um das Hauptquartier einer Fraktion zu betreten und ein Bündnis zu schließen. Dieses Bündnis schaltet einen dedizierten Upgrade-Zweig in deinem Shelter frei, der deiner Miliz permanente Buffs verleiht und Zugang zur besten Ausrüstung im Spiel gewährt.
+
+| Fraktion | Einzigartiger Rekruten-Vorteil | Spezialausrüstung |
+| :--- | :--- | :--- |
+| **Nationalgarde** | Militärische Disziplin / Hohe Schießkunst | .50 BMG Gewehre, Armee-HMMWV, Körperpanzerung |
+| **Shady Lady Biker** | Mechaniker-Skills / Fahrzeugunterstützung | Schwarzmarkt-Waffen, Fahrzeugteile |
+| **Kult der zweiten Chance** | Stealth-Affinität / Einzigartige Merkmale | Spezial-Armbrüste, versteckte Blaupausen |
+| **Lokale Barone** | Regionale Kenntnisse / Handels-Buffs | Quest-Belohnungen, zusätzliche Flüchtlinge |
+
+<Callout type="info" title="Der Verteidigungs-Tracker">
+Verbündete stellen nicht nur Rekruten zur Verfügung; sie tragen zu deinem Verteidigungs-Tracker bei. Ein starkes Bündnis kann den Unterschied zwischen einer erfolgreichen Verteidigung des Urban Shelters und einem katastrophalen Scheitern während der finalen Belagerung ausmachen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt-Anleitung zur Stärkung deines Trupps">
+
+Der Aufbau eines schlagkräftigen Teams aus **Urban Strife Gefährten** ist ein schrittweiser Prozess, der Erkundung, Ressourcenmanagement und taktischen Kampf erfordert. Folge diesen Schritten, um sicherzustellen, dass deine Miliz bereit für das Endgame ist.
+
+<Steps>
+  <Step num="1" title="Schließe den Prolog ab">
+    Konzentriere dich auf die Storyline „Patient aus Atlanta“. Lerne die Grundlagen von AP, Inventarmanagement und das Zerstören von Zombie-Spawnern. Sichere dir deine ersten Rekruten unter den älteren Bewohnern des Shelters.
+  </Step>
+  <Step num="2" title="Stelle essenzielle Dienste wieder her">
+    Priorisiere Baumaterialien, um das Krankenhaus, die Werkstatt und die Baracken zu reparieren. Du kannst kein großes Team von Gefährten unterstützen, wenn es an Betten zur Unterbringung oder medizinischen Einrichtungen zur Wundversorgung mangelt.
+  </Step>
+  <Step num="3" title="Spezialisiere dein Außenteam">
+    Identifiziere die natürlichen Stärken deiner Rekruten. Weise einen als dedizierten Sanitäter zu, einen anderen als Scharfschützen und mindestens einen als Nahkampfspezialisten, um bei leisen Begegnungen Munition zu sparen.
+  </Step>
+  <Step num="4" title="Ruf und Stimmen farmen">
+    Reise in entlegene Sektoren, um Fraktionsführer zu treffen. Erfülle ihre Interessen, um die für den Zugang zum Hauptquartier erforderlichen Stimmen zu erhalten. Nutze Intelligenz- und Stärkeprüfungen, um Konflikte nach Möglichkeit friedlich zu lösen.
+  </Step>
+  <Step num="5" title="Finalisiere dein Bündnis">
+    Betrete das HQ deiner gewählten Fraktion. Akzeptiere das Bündnis, um Tier-3-Ausrüstung und fraktionsspezifische Shelter-Upgrades freizuschalten. Dies ist der einzige Weg, um die mächtigsten Waffen für deine Gefährten zu erhalten.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Haltbarkeit der Ausrüstung">
+Waffen und Rüstungen nutzen sich bei Gebrauch ab. Nutze das Reparatursystem der Version 1.0 in Owens Werkstatt, um deine beste Ausrüstung instand zu setzen. Denke daran, dass Körperpanzerungen repariert werden können, ballistische Platten jedoch Verbrauchsgüter sind und ersetzt werden müssen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vorbereitungs-Checkliste für die Atlanta-Horde">
+
+Wenn Tag 20 näher rückt, musst du deinen Fokus von Expansion auf Konsolidierung verlagern. Deine **Urban Strife Gefährten** müssen in Höchstform sein und dein Shelter muss vollständig befestigt sein. Nutze diese Checkliste, um deine Bereitschaft für den finalen Konflikt zu prüfen.
+
+<Checklist
+  id="endgame-readiness"
+  title="Anforderungen für die finale Belagerung:"
+  items={[
+    "Repariere alle Primärwaffen und Körperpanzerungen auf 100% Haltbarkeit",
+    "Lagere mindestens 200 Schuss Munition für jede aktive Schusswaffe ein",
+    "Stelle sicher, dass der Shelter über eine 3-Tage-Reserve an Nahrung, Wasser und Treibstoff verfügt",
+    "Setze alle Elektrozäune und automatisierten Verteidigungen unter Strom",
+    "Schließe den finalen Upgrade-Zweig deines gewählten Fraktionsverbündeten ab",
+    "Weise deine fünf stärksten Überlebenden dem Kader für die finale Belagerung zu"
+  ]}
+/>
+
+<Callout type="success" title="Das letzte Opfer">
+Das Ende von Urban Strife spiegelt die menschlichen Konsequenzen deiner Entscheidungen wider. Ein gut vorbereiteter Shelter mit starken Verbündeten kann die „Notfall-Entscheidungen“ verhindern, die oft zum permanenten Verlust geliebter Gefährten während der finalen Schlacht führen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Urban Strife Gefährten FAQ">
+
+<FAQ items={[
+  {
+    question: "Können Urban Strife Gefährten permanent sterben?",
+    answer: "Ja. Urban Strife bietet Permadeath für deine Rekruten. Wenn ein Überlebender verblutet oder massiven Schaden erleidet, der seinen Gesundheitspool übersteigt, ist er für immer verloren. Trage immer Bandagen bei dir und halte deinen Sanitäter nah an der Frontlinie."
+  },
+  {
+    question: "Wie erhöhe ich die Anzahl der Gefährten, die ich anführen kann?",
+    answer: "Du musst die Baracken im Urban Shelter ausbauen. Jede Upgrade-Stufe erhöht dein Bevölkerungslimit, sodass du mehr Milizmitglieder und Flüchtlinge unterbringen kannst."
+  },
+  {
+    question: "Welche Fraktion bietet die besten Gefährten für den Kampf?",
+    answer: "Die Nationalgarde bietet im Allgemeinen Rekruten mit der höchsten Start-Schießkunst und Zugang zu militärischer Panzerung. Die Biker bieten jedoch exzellente Mechaniker für Fahrzeugunterstützung, und der Kult bietet unübertroffene Stealth-Fähigkeiten."
+  },
+  {
+    question: "Benötigen Gefährten Nahrung und Medizin, wenn sie nicht im aktiven Trupp sind?",
+    answer: "Ja. Alle Bewohner des Urban Shelters verbrauchen täglich Nahrung und Wasser. Wenn deine Vorräte knapp werden, sinkt die Moral, was zu verringerter Kampfeffizienz oder dazu führen kann, dass Überlebende die Miliz verlassen."
+  }
+]} />
+
+</Section>

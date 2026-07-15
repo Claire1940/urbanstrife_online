@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Package, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gameplay d'Urban Strife : Guide de Survie & Combat Tactique 2026",
+  description: "Maîtrisez le gameplay d'Urban Strife avec notre guide 2026. Apprenez le combat au tour par tour, l'infiltration, la gestion de base et les stratégies de fouille.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Gameplay+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "urban strife, gameplay, combat tactique, survie, zombies, guide, 2026"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Le **gameplay d'Urban Strife** s'articule autour d'un système tactique au tour par tour profond, situé dans une apocalypse zombie persistante.
+- **L'infiltration est obligatoire** pour survivre au début ; le bruit des armes à feu attire à la fois les zombies et les factions humaines hostiles.
+- **La gestion de la base** nécessite une recherche constante de nourriture et de fournitures médicales pour faire vivre vos survivants.
+- **Le compte à rebours de 20 jours** marque l'arrivée d'une horde massive de zombies, obligeant les joueurs à préparer rapidement leurs défenses.
+- **La progression des personnages** est organique, les statistiques comme l'Agilité et la Dextérité augmentant grâce aux actions réussies sur le terrain.
+</Callout>
+
+<Section icon={Target} title="Mécaniques de Base et Combat Tactique">
+
+Comprendre la boucle fondamentale du **gameplay d'Urban Strife** est essentiel pour survivre à la première semaine. Le jeu utilise un système de Points d'Action (PA) classique des RPG tactiques, mais y ajoute des couches d'interaction environnementale et de physique du son. Chaque coup de feu tiré et chaque porte enfoncée génère des ondes sonores qui peuvent être détectées par les ennemis à travers le brouillard de guerre. Dans la version 2026 du jeu, ces mécaniques ont été affinées pour mettre l'accent sur l'approche \"silencieuse mais mortelle\".
+
+**Points Clés en Vidéo :**
+- **Profondeur du Tour par Tour :** Explorez le système de déplacement et d'attaque basé sur les PA.
+- **Mécaniques d'Infiltration :** Apprenez comment s'accroupir et la ligne de mire affectent la détection.
+- **Boucle de Butin :** Découvrez comment les matériaux récupérés se transforment en ressources pour la base.
+- **Effets d'État :** Observez comment les saignements et les blessures impactent l'efficacité au combat.
+
+<YouTubeEmbed videoId="LiWPNwzvlBY" title="Urban Strife - Turn Based Zombie Survival Full Release Gameplay" />
+
+Le combat n'est pas seulement une question de dégâts bruts ; c'est une question de positionnement et d'utilité. L'utilisation de la capacité \"Vigilance\" (Overwatch) permet à vos personnages de déclencher des attaques pendant le tour de l'ennemi, ce qui est vital pour défendre des couloirs étroits ou des portes. De plus, le jeu dispose d'un système de physique ragdoll et de zones de frappe détaillées, faisant des tirs à la tête des manœuvres à haut risque mais à forte récompense.
+
+| Action de Combat | Coût en PA | Niveau de Bruit | Avantage Principal |
+| :--- | :--- | :--- | :--- |
+| **Attaque au corps à corps** | Faible | Très Faible | Économise les munitions, éliminations silencieuses |
+| **Tir Rapide** | Moyen | Élevé | Défense rapide, précision inférieure |
+| **Tir Visé** | Élevé | Élevé | Chances accrues de coup critique/tir à la tête |
+| **Vigilance (Overwatch)** | Variable | Dépendant | Interrompt le mouvement ennemi |
+| **Rechargement** | Faible | Faible | Nécessaire pour un tir soutenu |
+
+<Callout type="warning" title="Alerte au Bruit">
+Tirer au fusil à pompe peut nettoyer une pièce de pillards, mais cela attirera probablement tous les zombies dans un rayon de trois pâtés de maisons vers votre position exacte. Ayez toujours un personnage axé sur le corps à corps comme Billy Bob prêt à s'occuper des traînards en silence.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Stratégies de Fouille et d'Exploration">
+
+L'exploration dans le **gameplay d'Urban Strife** emmène les joueurs à travers divers environnements urbains et suburbains, tels que la Villa d'Adam. Chaque lieu est une carte dense en butin où chaque maison, voiture et poubelle peut contenir des ressources vitales. Cependant, vous êtes limité par la capacité de transport de votre équipe et l'espace d'inventaire. Une fouille efficace signifie donner la priorité aux matériaux de grande valeur plutôt qu'aux déchets lourds.
+
+En entrant dans une nouvelle zone, comme les banlieues contrôlées par les Cassidy Boys, les joueurs doivent choisir entre diplomatie et agression. Le monde est peuplé de différents gangs et factions, et vos choix lors de ces rencontres dictent votre accès à des marchandises commerciales spécifiques ou à des passages sécurisés.
+
+| Type de Ressource | Source | Cas d'Utilisation | Priorité |
+| :--- | :--- | :--- | :--- |
+| **Nourriture/Alcool** | Cuisines, Garde-mangers | Survie de la base, moral, commerce | ★★★★★ |
+| **Fournitures Médicales** | Pharmacies, Cliniques | Soigner les blessures, arrêter les saignements | ★★★★★ |
+| **Ferraille** | Garages, Boîtes à outils | Artisanat d'armes et améliorations de base | ★★★★☆ |
+| **Essence** | Stations-service, Voitures | Alimenter les générateurs et les véhicules | ★★★★☆ |
+| **Munitions** | Postes de police, Coffres-forts | Essentielles pour les combats de haut niveau | ★★★☆☆ |
+
+<CardGrid cols={3}>
+  <Card title="L'Éclaireur Furtif">
+    - **S'accroupir toujours** pour réduire la visibilité.
+    - Utiliser des arbalètes pour des éliminations à distance silencieuses.
+    - Agilité élevée pour le pillage à longue distance.
+  </Card>
+  <Card title="Le Pilleur Lourd">
+    - Se concentrer sur la Force pour la capacité de transport.
+    - Nettoyer les pièces au corps à corps pour économiser les munitions.
+    - Prioriser la ferraille et les débris de bois.
+  </Card>
+  <Card title="Le Spécialiste du Combat">
+    - Dextérité élevée pour la précision des armes à feu.
+    - Utilise la Vigilance pour protéger les pilleurs.
+    - Gère les explosifs pour le contrôle des foules.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Gestion de l'Inventaire">
+Ne stockez pas tout. Si votre inventaire est plein, cherchez une cachette ou un conteneur central dans la zone pour y stocker le butin excédentaire. Vous pouvez faire plusieurs trajets jusqu'à votre véhicule ou le point de sortie pour maximiser votre récolte.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion de la Base et Besoins des Survivants">
+
+Le refuge sert de plaque tournante dans le **gameplay d'Urban Strife**. Ce n'est pas seulement un endroit pour se reposer ; c'est un écosystème vivant qui nécessite des ressources constantes. Les survivants consomment quotidiennement de la nourriture et des fournitures médicales. Si la production à la base (actuellement de 5 unités par jour) ne répond pas à la consommation (plus de 30 unités par jour), votre communauté sera rapidement confrontée à la famine ou à la maladie.
+
+La progression de la base est liée aux \"Réunions du Conseil\" et à votre relation avec des PNJ clés comme le Colonel ou Kimberly. Ces interactions débloquent de nouvelles recettes d'artisanat et des étapes de l'histoire. L'un des aspects les plus critiques de la méta 2026 est le compte à rebours de 20 jours avant la horde de zombies, qui vous oblige à équilibrer la survie à court terme avec la fortification à long terme.
+
+<Steps>
+  <Step num="1" title="Sécuriser les Ressources">
+    Fouillez la Villa d'Adam ou des zones similaires pour trouver de la nourriture, des médicaments et des matériaux de construction.
+  </Step>
+  <Step num="2" title="Donner à la Réserve">
+    Transférez les objets de votre inventaire personnel vers la réserve de la communauté pour répondre aux besoins quotidiens.
+  </Step>
+  <Step num="3" title="Améliorer les Installations">
+    Utilisez la ferraille et les outils pour construire des pièces spécialisées comme l'Infirmerie ou l'Établi d'artisanat.
+  </Step>
+  <Step num="4" title="Attribuer les Rôles">
+    Attribuez aux survivants des tâches telles que le recyclage, la cuisine ou la garde du périmètre.
+  </Step>
+</Steps>
+
+| Installation | Condition Requise | Fonction |
+| :--- | :--- | :--- |
+| **Infirmerie** | Trousses de secours, Lit propre | Récupération plus rapide des saignements/traumatismes |
+| **Établi d'Artisanat** | Outils, Ferraille | Créer des Molotovs, des bombes artisanales, des munitions |
+| **Centre de Recyclage** | Ferraille, Électricité | Décomposer les objets inutiles en matières premières |
+| **Salle Radio** | Pièces électroniques | Contacter d'autres survivants et factions |
+
+<Callout type="success" title="Conseil de Durabilité">
+Concentrez-vous tôt sur l'amélioration de votre production alimentaire. Bien que la fouille soit excellente, un potager autosuffisant est le seul moyen de survivre en fin de partie lorsque les zones à proximité sont complètement vidées.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression des Personnages et Compétences">
+
+Dans Urban Strife, les personnages ne montent pas de niveau via une barre d'XP traditionnelle. Au lieu de cela, ils s'améliorent par la pratique — un système qui récompense les styles de jeu spécifiques. Si un personnage utilise fréquemment des armes de corps à corps, ses compétences en Force et en Corps à corps augmenteront. S'il passe son temps à se faufiler dans l'ombre, sa Furtivité et son Agilité progresseront.
+
+| Attribut | Comment l'Augmenter | Bénéfice en Jeu |
+| :--- | :--- | :--- |
+| **Force** | Porter des charges lourdes, Corps à corps | Capacité de transport accrue, dégâts au corps à corps |
+| **Agilité** | Parcourir de longues distances, Furtivité | Plus de PA par tour, détection réduite |
+| **Dextérité** | Utiliser des armes à feu, Artisanat | Chances de toucher accrues, rechargement plus rapide |
+| **Endurance** | Subir des dégâts, Missions longues | PV max augmentés, résistance aux saignements |
+
+<Checklist
+  id="character-optimization"
+  title="Objectifs de Développement des Survivants :"
+  items={[
+    "Entraîner au moins deux médecins avec une Dextérité élevée",
+    "Équiper votre 'tank' avec une matraque et un bouclier",
+    "S'assurer que chaque éclaireur possède une arme silencieuse (arbalète)",
+    "Faire tourner les survivants fatigués pour éviter les traumatismes permanents",
+    "Spécialiser un personnage dans les Explosifs pour la Horde"
+  ]}
+/>
+
+<Callout type="info" title="Synergie de Compétences">
+Un personnage avec une Agilité et une Dextérité élevées fait un tireur d'élite parfait. Il peut se repositionner rapidement pour obtenir une meilleure ligne de mire et possède la précision nécessaire pour réussir des tirs à la tête constants à distance.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactiques de Survie Avancées">
+
+À mesure que vous approchez de la limite des 20 jours, la difficulté augmente considérablement. Vous rencontrerez des ennemis humains mieux équipés et des zombies \"hurleurs\" plus grands capables d'alerter toute la carte. Maîtriser des tactiques avancées comme le placement de Molotovs et l'utilisation de plaques balistiques pour l'armure devient une nécessité.
+
+L'environnement est votre meilleure arme. Vous pouvez détruire les abris, allumer des incendies pour bloquer des passages ou utiliser des pièges en \"Vigilance\" pour attirer les ennemis dans des zones de mort. Portez toujours au moins une \"bombe artisanale\" ou un \"Molotov\" pour le contrôle d'urgence de la foule lorsque le nombre de morts-vivants devient écrasant.
+
+| Catégorie d'Arme | Avantages | Inconvénients |
+| :--- | :--- | :--- |
+| **Corps à corps (Rouleau/Marteau)** | Silencieux, pas besoin de munitions | Risque élevé, nécessite de la proximité |
+| **Arbalètes** | Munitions silencieuses et récupérables | Rechargement lent, dégâts plus faibles |
+| **Fusils à pompe** | Dégâts massifs à courte portée | Extrêmement bruyants, munitions lourdes |
+| **Pistolets/Fusils** | Polyvalents, bonne portée | Nécessitent une recherche constante de munitions |
+
+<Callout type="warning" title="Statut de Saignement">
+Le saignement est le tueur silencieux dans le **gameplay d'Urban Strife**. Si un personnage saigne, il perd des PV à chaque tour. Gardez toujours des bandages dans vos emplacements d'accès rapide ; n'attendez jamais la fin de la bataille pour soigner une blessure.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment gérer la horde de zombies du 20e jour ?",
+    answer: "La préparation est la clé. Passez les 15 premiers jours à accumuler des explosifs, à améliorer les défenses de la base et à entraîner vos survivants aux armes à feu à gros dégâts. Assurez-vous d'avoir un excédent de fournitures médicales pour l'après-coup."
+  },
+  {
+    question: "Quel est le meilleur moyen de gérer le bruit ?",
+    answer: "Utilisez des armes de corps à corps ou des arbalètes pour 90 % des rencontres. N'utilisez des armes à feu que lorsque vous êtes acculé ou face à un ennemi de type boss. N'oubliez pas que s'accroupir réduit également de manière significative le bruit de vos déplacements."
+  },
+  {
+    question: "Puis-je rejoindre différentes factions dans Urban Strife ?",
+    answer: "Oui, vous pouvez interagir avec divers gangs comme les Cassidy Boys. Vos choix dans les dialogues et les missions détermineront votre réputation, ce qui peut mener à des opportunités commerciales uniques ou à des raids hostiles sur votre base."
+  },
+  {
+    question: "Comment fonctionne le système de portraits des personnages ?",
+    answer: "Le jeu utilise un système unique de portraits améliorés par l'IA (comme le sosie du 'Colonel Sanders'). Ces portraits reflètent la nature brute et diversifiée du groupe de survivants et sont occasionnellement mis à jour par les développeurs pour une meilleure fidélité visuelle."
+  }
+]} />
+
+</Section>

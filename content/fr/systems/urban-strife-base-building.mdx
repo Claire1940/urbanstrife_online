@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Construction de base dans Urban Strife : Guide d'amélioration de l'abri et de survie",
+  description: "Maîtrisez la construction de base dans Urban Strife. Apprenez à améliorer votre abri, à gérer vos ressources et à survivre à la horde de zombies grâce à notre guide étape par étape.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Base+Building+Guide",
+  date: "2026-07-16",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "urban strife, construction de base, abri, guide de survie, zombies"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Focus sur la construction** : Priorisez les voies d'amélioration de la base pour préparer votre abri à la montée de la jauge de horde de zombies.
+- **Boucle de ressources** : Fouillez chaque conteneur, poubelle et cadavre pour éviter que votre abri ne consomme toutes vos fournitures de survie cruciales.
+- **Gestion d'escouade** : Recrutez jusqu'à quatre compagnons, personnalisez leurs atouts et utilisez le médecin de la base pour les soigner après les missions.
+- **Stratégie de combat** : Utilisez des points d'étranglement pour les attaques de mêlée contre les zombies, et réservez les cocktails Molotov pour les factions humaines dangereuses.
+- **Sauvegardez souvent** : Effectuez manuellement des sauvegardes régulières, car le système de sauvegarde automatique par défaut peut être peu fiable lors de longues campagnes.
+</Callout>
+
+<Section icon={Shield} title="Mécaniques de l'abri et menace de la horde">
+
+Établir une base solide dans le Sud profond post-apocalyptique nécessite une compréhension approfondie des mécaniques de l'abri. Dans Urban Strife, votre base sert de centre névralgique pour la récupération, le recrutement et la distribution des ressources. En tant que nouveau survivant en ville, vous devez vous coordonner avec la Coalition des survivants du Sud pour transformer un abri délabré en une forteresse imprenable. Chaque décision que vous prenez a un impact direct sur votre préparation au test ultime : la défense contre la massive horde de zombies qui menace d'envahir votre foyer.
+
+**Points forts de la vidéo :**
+- **Prémisse de la campagne** : Parcourez une ville fictive près d'Atlanta en tant que survivant immunisé travaillant avec la Coalition locale.
+- **Dynamique de la base** : Gérez les ressources de l'abri tout en vous préparant à la menace croissante de la jauge de horde.
+- **Mécaniques d'escouade** : Sélectionnez et déployez jusqu'à quatre compagnons, en gérant leurs statistiques uniques, leurs atouts et les risques de mort permanente.
+- **Boucle de pillage** : Fouillez méticuleusement les conteneurs pour sécuriser les fournitures, le matériel médical et les objets de combat.
+
+<YouTubeEmbed videoId="YHtuRaZDbaY" title="URBAN STRIFE – Un RPG de zombies à l'ancienne en préparation depuis huit ans | Revue rapide" />
+
+La boucle principale d'Urban Strife consiste à équilibrer les améliorations de la base avec l'exploration active. L'abri n'est pas une zone de sécurité statique ; c'est une entité vivante qui consomme constamment de la nourriture, des médicaments et du carburant. Si vos réserves tombent à zéro, le moral de l'escouade s'effondre et vos survivants souffriront de famine ou de blessures non traitées. La menace globale est représentée par la jauge de horde, un indicateur visuel qui suit la croissance de la menace zombie au fil du temps. Votre objectif principal est d'exploiter les factions rivales, de sécuriser les nœuds de ressources et de renforcer les défenses de la base avant que cette jauge n'atteigne son seuil maximum.
+
+<Callout type="warning" title="Danger de la Horde">
+Surveillez constamment la jauge de horde. Négliger les défenses de la base tout en se concentrant uniquement sur les missions de faction rendra votre abri vulnérable à des raids soudains et dévastateurs.
+</Callout>
+
+| Ressource | Source principale | Utilisation dans la base | Priorité |
+| :--- | :--- | :--- | :--- |
+| Nourriture | Fouille de cuisine, agriculture | Prévient la famine et la perte de moral | Élevée |
+| Médicaments | Hôpitaux, artisanat à la base | Soigne les blessures et arrête les saignements | Élevée |
+| Carburant | Stations-service, zones industrielles | Alimente les générateurs et les outils d'atelier | Moyenne |
+| Munitions | Points de contrôle militaires, artisanat | Défense lors des attaques de horde | Élevée |
+
+</Section>
+
+<Section icon={Swords} title="Préparation de l'escouade et recrutement">
+
+Défendre votre base et mener des expéditions de récupération réussies nécessite une escouade compétente. Vous pouvez recruter et déployer une escouade allant jusqu'à quatre compagnons pour les missions sur le terrain. Chaque compagnon possède des attributs de départ distincts et un ensemble unique d'atouts déblocables. Le système de progression repose sur un arbre d'atouts qui dicte l'efficacité au combat, la vitesse d'artisanat et les compétences de survie. Choisir la bonne combinaison de compagnons est essentiel pour équilibrer la puissance de combat et la capacité de récupération.
+
+<CardGrid cols={3}>
+  <Card title="Spécialiste de la mêlée">
+    - **Rôle principal** : Défense des points d'étranglement
+    - **Choix d'arme** : Couteaux et armes contondantes
+    - **Bénéfice clé** : Exécution silencieuse des zombies
+  </Card>
+  <Card title="Combattant à distance">
+    - **Rôle principal** : Engagement des factions
+    - **Choix d'arme** : Fusils et fusils à pompe
+    - **Bénéfice clé** : Dégâts élevés contre les cibles humaines
+  </Card>
+  <Card title="Spécialiste de soutien">
+    - **Rôle principal** : Médecine de terrain et pillage
+    - **Choix d'arme** : Armes à feu légères et bandages
+    - **Bénéfice clé** : Maintient l'escouade en bonne santé
+  </Card>
+</CardGrid>
+
+Cependant, la menace de la mort permanente ajoute une pression immense à chaque sortie. Si un compagnon tombe au combat, il ne disparaît pas simplement ; il peut se réanimer en zombie, vous forçant à abattre votre ancien allié. Pour atténuer ce risque, vous devez utiliser les mécaniques de discrétion pour partir en reconnaissance, éviter les engagements inutiles et positionner soigneusement les membres de votre escouade. De plus, comme la fonction de sauvegarde automatique peut être peu fiable, maintenir une habitude de sauvegarde manuelle avant et après les rencontres majeures est crucial pour préserver votre effectif.
+
+<Callout type="tip" title="Sauvegarde Manuelle">
+Ne vous fiez pas à la fonction de sauvegarde automatique. Sauvegardez manuellement votre partie avant d'entrer dans de nouveaux secteurs ou de commencer des combats majeurs pour éviter de perdre définitivement des membres de l'escouade.
+</Callout>
+
+| Attribut | Effet au combat | Utilité dans la base | Minimum recommandé |
+| :--- | :--- | :--- | :--- |
+| Force | Dégâts de mêlée, capacité de transport | Accélère la construction physique | 6 |
+| Dextérité | Points d'action, précision | Augmente la vitesse d'artisanat | 7 |
+| Intelligence | Progression des atouts, efficacité médicale | Débloque la recherche avancée | 8 |
+| Constitution | Santé maximale, résistance aux saignements | Réduit le temps de récupération à l'infirmerie | 6 |
+
+</Section>
+
+<Section icon={Map} title="Améliorations de base et gestion des ressources">
+
+Améliorer votre abri nécessite un flux constant de matériaux de construction, de pièces électroniques et de fournitures médicales. Cette nécessité alimente la boucle de pillage centrale du jeu. Lors de l'exploration des secteurs, vous devez fouiller systématiquement chaque armoire, poubelle et cadavre. Bien que le processus de pillage puisse être détaillé et nécessite une gestion minutieuse de l'inventaire, les récompenses sont essentielles pour la progression de la base. Vous pouvez ouvrir deux inventaires de compagnons simultanément pour transférer des objets, ce qui aide à organiser votre butin avant de retourner à la base.
+
+<Steps>
+  <Step num="1" title="Sécuriser le périmètre">
+    Nettoyez les environs immédiats de l'abri pour établir une zone de sécurité. Cela réduit la fréquence des petites attaques de zombies et permet à vos survivants de collecter de la ferraille et du bois de base en toute sécurité.
+  </Step>
+  <Step num="2" title="Établir l'infirmerie">
+    Priorisez l'amélioration des installations médicales. Cela permet au médecin résident de soigner les membres de l'escouade blessés plus rapidement et réduit la consommation de kits de soins portables et de bandages pendant la récupération.
+  </Step>
+  <Step num="3" title="Construire l'atelier">
+    Construisez un atelier pour commencer à fabriquer des munitions personnalisées, réparer les armes endommagées et créer des cocktails Molotov. L'atelier est essentiel pour convertir la ferraille brute en équipement de combat utilisable.
+  </Step>
+  <Step num="4" title="Renforcer les défenses de la base">
+    Installez des barricades, des tours de guet et des points d'étranglement autour de l'entrée de l'abri. Ces structures ralentissent les hordes entrantes et donnent à vos défenseurs un avantage tactique pendant les phases défensives.
+  </Step>
+</Steps>
+
+Une fois les ressources sécurisées, vous devez décider quelles installations de base construire ou améliorer en premier. L'infirmerie devrait toujours être une priorité absolue, car elle permet au médecin de la base de traiter les blessures graves et les infections sans consommer vos kits de terrain portables. L'amélioration de l'atelier débloque la capacité de fabriquer des munitions avancées et de réparer les armes dégradées, garantissant que votre escouade reste prête au combat. Équilibrer ces améliorations empêche votre abri de consommer les fournitures plus vite que vous ne pouvez les récupérer.
+
+<Callout type="success" title="Efficacité des ressources">
+Améliorer vos installations de stockage tôt augmente la capacité maximale de ressources que vous pouvez détenir, évitant ainsi le gaspillage lors du retour de sorties de pillage à haut rendement.
+</Callout>
+
+| Installation | Conditions d'amélioration | Bénéfice principal | Priorité de construction |
+| :--- | :--- | :--- | :--- |
+| Infirmerie | Ferraille, fournitures médicales, outils | Guérison passive plus rapide pour l'escouade | Élevée |
+| Atelier | Pièces métalliques, composants électroniques | Débloque l'artisanat de munitions et les réparations | Élevée |
+| Cuisine | Bois, pièces de cuisinière, eau propre | Réduit la consommation quotidienne de nourriture | Moyenne |
+| Poste de garde | Bois d'œuvre, sacs de sable, fils barbelés | Booste la défense contre les raids | Moyenne |
+
+</Section>
+
+<Section icon={Target} title="Tactiques de combat et stratégies de défense">
+
+Le combat dans Urban Strife est divisé entre la lutte contre les morts-vivants sans cervelle et la bataille contre des factions humaines hostiles, telles que les gangs de motards et les sectaires adorateurs de zombies. Alors que les zombies sont prévisibles et peuvent être canalisés dans des passages étroits, les ennemis humains utilisent des armes à distance, des couvertures et des contournements tactiques. Votre stratégie de défense de base doit tenir compte des deux types de menaces pour assurer la survie de la Coalition.
+
+<Checklist
+  id="defense-checklist"
+  title="Liste de contrôle de défense contre la horde :"
+  items={[
+    "Établir des points d'étranglement clairs à toutes les portes d'entrée",
+    "Équiper les défenseurs d'armes de mêlée à haute durabilité",
+    "Stocker des cocktails Molotov pour les pillards humains",
+    "Soigner tous les membres de l'escouade au maximum chez le médecin",
+    "Sauvegarder manuellement le jeu avant d'initier la phase de défense"
+  ]}
+/>
+
+Les zombies sont lents, prévisibles et très vulnérables aux attaques de mêlée. En positionnant votre escouade à des points d'étranglement étroits, vous pouvez systématiquement éliminer les morts-vivants un par un en utilisant des armes silencieuses comme des couteaux, économisant ainsi de précieuses munitions. Cette approche furtive maintient les niveaux de bruit bas et empêche d'autres hordes de rejoindre la mêlée. Les factions humaines, telles que les gangs de motards et les sectaires, représentent une menace bien plus grande. Ils utilisent des armes à distance, se mettent à l'abri et tentent de déborder vos positions. Contre ces ennemis, la discrétion est rarement une option, et des tactiques bruyantes et agressives sont nécessaires. Les cocktails Molotov sont des outils exceptionnellement puissants pour débusquer les cibles humaines de leurs abris et infliger des dégâts de zone.
+
+<Callout type="info" title="Distinctions de Combat">
+Utilisez des armes de mêlée silencieuses comme des couteaux contre les zombies isolés pour éviter d'alerter toute la carte. Réservez les armes à feu bruyantes et les Molotovs explosifs pour les factions humaines lourdement armées.
+</Callout>
+
+| Faction ennemie | Comportement | Faiblesse | Stratégie recommandée |
+| :--- | :--- | :--- | :--- |
+| Horde de zombies | Agressive, axée mêlée, trajet prévisible | Points d'étranglement, feu | Canaliser dans des couloirs, utiliser la mêlée |
+| Gangs de motards | Combat à distance, abris, mobilité | Contournement, cocktails Molotov | Débusquer avec le feu, utiliser des fusils |
+| Sectaires | Fanatiques, imprévisibles, nombre | Attaques à distance, explosifs | Tuer les chefs d'abord, garder ses distances |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ et Résumé">
+
+Maintenir une base pleinement fonctionnelle tout en gardant votre escouade en vie nécessite une vigilance constante et une planification stratégique. En priorisant les bonnes améliorations d'installations, en gérant la santé de votre escouade et en utilisant un positionnement tactique au combat, vous pouvez défendre avec succès l'abri de la Coalition contre toute menace. Utilisez la section FAQ suivante pour vous référer rapidement aux concepts clés de survie.
+
+<Callout type="tip" title="Dernier conseil de survie">
+Gardez toujours une réserve de carburant et de médicaments. Manquer de ces deux ressources pendant une attaque de horde peut mener à un game over rapide.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment puis-je améliorer mon abri dans Urban Strife ?",
+    answer: "Vous améliorez votre abri en récupérant des ressources comme de la ferraille, du bois et de l'électronique dans les secteurs environnants, puis en utilisant le menu de gestion de base pour construire et améliorer les installations."
+  },
+  {
+    question: "Que dois-je faire si un membre de l'escouade meurt pendant une sortie ?",
+    answer: "Les membres de l'escouade subissent une mort permanente. S'ils meurent, ils disparaissent définitivement et peuvent se transformer en zombies. Il est fortement recommandé de charger une sauvegarde manuelle si vous perdez un compagnon clé."
+  },
+  {
+    question: "Comment la jauge de horde affecte-t-elle mon gameplay ?",
+    answer: "La jauge de horde suit la menace zombie croissante. À mesure qu'elle se remplit, la fréquence et la difficulté des attaques de zombies sur votre base augmentent, nécessitant des défenses plus solides et des défenseurs mieux équipés."
+  },
+  {
+    question: "Existe-t-il un moyen de soigner les membres de l'escouade sans utiliser de kits de soins ?",
+    answer: "Oui. Lorsque vous revenez à votre base, le médecin résident peut soigner gratuitement vos membres d'escouade blessés, vous permettant de conserver vos kits médicaux portables pour les urgences sur le terrain."
+  }
+]} />
+
+</Section>

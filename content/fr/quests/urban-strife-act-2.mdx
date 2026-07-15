@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Construction } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Acte 2 : Guide de la Campagne du Comté & des Alliances de Factions",
+  description: "Maîtrisez l'Acte 2 d'Urban Strife grâce à notre guide sur l'exploration du comté, la réputation des factions et les améliorations d'abri de milieu de partie. Sécurisez votre alliance pour le final de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Urban+Strife+Act+2+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "urban strife, acte 2, campagne du comté, alliance factions, abri, guide"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **L'Acte 2 d'Urban Strife** se concentre sur la transition de la survie locale à la **Campagne du Comté**, où les alliances politiques définissent votre fin de partie.
+- **La Réputation de Faction** est la mécanique centrale ; vous devez obtenir suffisamment de votes des groupes locaux pour accéder aux quartiers généraux des factions majeures.
+- **Les Industries de l'Abri** comme les potagers et les ateliers doivent être priorisées pour réduire votre dépendance aux dangereuses sorties de pillage.
+- **Le Combat Avancé** dans cette phase nécessite de maîtriser la suppression, les interruptions et la pénétration des matériaux face à des ennemis humains blindés.
+- **Le Choix de l'Alliance** est permanent et détermine les améliorations uniques et les renforts que vous recevrez lors du siège final de la horde d'Atlanta.
+</Callout>
+
+<Section icon={Map} title="Transition vers la Campagne du Comté">
+
+Entrer dans **l'acte 2 d'urban strife** marque un tournant majeur dans le gameplay. Après avoir stabilisé votre survie initiale et réparé les installations de base de l'Abri Urbain, la carte du monde s'étend vers le Comté Urbain. Cette phase ne consiste plus seulement à trouver votre prochain repas ; il s'agit désormais de contrôle de carte, d'influence régionale et de préparation face à la gigantesque menace des morts-vivants qui plane depuis Atlanta.
+
+À ce stade, vous rencontrerez les trois grands blocs de pouvoir : la Garde Nationale (Armée Rebelle), l'Église de la Seconde Chance et les Bikers de la Shady Lady. Chaque faction offre une voie narrative distincte et fournit des équipements spécialisés qui peuvent radicalement modifier votre approche tactique.
+
+<CardGrid cols={3}>
+  <Card title="Focus sur l'Exploration">
+    - **Secteurs Éloignés** : S'aventurer plus loin de l'Abri pour trouver du butin de haut niveau.
+    - **Densité des Ressources** : Identifier les cartes riches en carburant, produits chimiques et composants électroniques.
+    - **Hordes Errantes** : Gérer les groupes de zombies qui se déplacent sur la carte en temps réel.
+  </Card>
+  <Card title="Stratégie Politique">
+    - **Barons Locaux** : Négocier avec les chefs des petites colonies pour obtenir leurs votes.
+    - **Gains de Réputation** : Remplir des objectifs spécifiques aux factions pour débloquer des marchands.
+    - **Tests de Dialogue** : Utiliser la Force et l'Intelligence pour résoudre les conflits de manière pacifique.
+  </Card>
+  <Card title="Évolution Tactique">
+    - **Ennemis Blindés** : Affronter des adversaires humains équipés de plaques balistiques et de casques.
+    - **Infiltration Silencieuse** : Utiliser des éliminations discrètes pour éviter d'alerter des cartes entières.
+    - **Goulots d'Étranglement** : Se préparer à affronter de grands groupes de zombies en utilisant le déni de zone.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil d'Exploration">
+Ne vous précipitez pas immédiatement vers les coins les plus reculés de la carte. Assurez-vous que votre équipe d'expédition dispose de suffisamment de carburant et de fournitures médicales pour un voyage de plusieurs jours, car revenir à l'Abri depuis des secteurs éloignés consomme énormément de temps et de ressources.
+</Callout>
+
+| Phase | Objectif Principal | Défi Majeur | Niveau Recommandé |
+| :--- | :--- | :--- | :--- |
+| **Début Acte 2** | Sécuriser les votes régionaux | Pénurie de ressources | Niveau 10-15 |
+| **Milieu Acte 2** | Établir les industries | Factions humaines blindées | Niveau 15-22 |
+| **Fin Acte 2** | Formaliser l'alliance | Escalade des hordes errantes | Niveau 22-30 |
+
+</Section>
+
+<Section icon={Users} title="Réputation de Faction et Choix de l'Alliance">
+
+Le cœur de **l'acte 2 d'urban strife** repose sur le système de réputation. Vous ne pouvez pas simplement entrer dans le quartier général d'une faction majeure ; vous devez gagner votre accès en aidant les petits groupes ou en accomplissant des missions à haut risque pour les lieutenants de faction. Vos choix ici auront des conséquences permanentes sur la fin de partie en 2026.
+
+Chacune des trois factions majeures possède sa propre philosophie et ses propres récompenses. Choisir l'une d'entre elles vous aliénera généralement les autres, évaluez donc soigneusement leurs avantages en fonction de votre style de jeu préféré.
+
+| Faction | Identité | Récompenses Clés | Idéal Pour |
+| :--- | :--- | :--- | :--- |
+| **Garde Nationale** | Militaires disciplinés | Armes à feu de haut niveau, HMMWV militaire, Armures | Puissance de feu directe |
+| **Église de la Seconde Chance** | Sectateurs des morts-vivants | Plans uniques, Équipement de spécialiste | Infiltration & Artisanat |
+| **Bikers de la Shady Lady** | Trafiquants du marché noir | Pièces de véhicules, Accessoires rares | Mobilité & Économie |
+
+<Steps>
+  <Step num="1" title="Gagner la confiance locale">
+    Visitez des colonies indépendantes comme Little Italy ou le Vieux Port. Accomplissez leurs quêtes locales pour gagner des "Votes" ou des points d'"Influence" nécessaires pour être présenté aux factions.
+  </Step>
+  <Step num="2" title="Rencontrer les chefs de faction">
+    Une fois que vous avez assez d'influence, vous serez invité à leur quartier général (Base de la Montagne, Camp de la Seconde Chance ou Bar des Bikers). Rencontrez les dirigeants pour comprendre leur vision.
+  </Step>
+  <Step num="3" title="Réussir la mission d'épreuve">
+    Chaque faction vous confiera une mission de "Loyauté" de haute difficulté. Cela implique souvent de nettoyer un secteur lourdement gardé ou de récupérer un atout critique.
+  </Step>
+  <Step num="4" title="Formaliser l'Alliance">
+    Accepter une alliance formelle vous verrouille dans la branche narrative de cette faction. Cela débloque leurs marchands de niveau 3 et leur contribution spécifique au suivi de défense de l'Abri.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Choix Permanents">
+Une fois que vous acceptez une alliance formelle avec une faction majeure, vous risquez de perdre l'accès aux marchands exclusifs des factions rivales. Assurez-vous d'avoir acheté tous les plans exclusifs dont vous avez besoin avant de vous engager.
+</Callout>
+
+</Section>
+
+<Section icon={Construction} title="Améliorations de l'Abri et Industries de Milieu de Partie">
+
+À mesure que vous progressez dans **l'acte 2 d'urban strife**, le pillage devient moins fiable. La phase des "Industries de Survie" du développement de l'abri est essentielle pour maintenir une grande milice et soutenir les réfugiés sans épuiser vos réserves.
+
+L'objectif est de passer d'un modèle de "pillage pour survivre" à un modèle de "production pour prospérer". Cela nécessite un investissement important en matériaux de construction et le recrutement de PNJ spécialisés au cours de la Campagne du Comté.
+
+| Installation | Priorité | Fonction | Ressources Requises |
+| :--- | :--- | :--- | :--- |
+| **Potagers/Hydroponie** | Haute | Source de nourriture renouvelable | Eau, Graines, Engrais |
+| **Atelier Réaménagé** | Haute | Artisanat avancé & réparations | Électronique, Boîtes à outils |
+| **Garage Auto** | Moyenne | Entretien & amélioration des véhicules | Carburant, Pièces de rechange |
+| **Aile Médicale** | Moyenne | Traitement des blessures permanentes | Produits chimiques, Eau propre |
+| **Fortifications** | Tardive | Augmente la préparation au siège | Métal, Béton, Énergie |
+
+<Callout type="success" title="Bonus de Production">
+Construire l'Atelier tôt dans l'Acte 2 vous permet de commencer à réparer les armes et les armures à l'aide de pièces de récupération. C'est beaucoup plus rentable que de chercher constamment des pièces de rechange neuves sur le terrain.
+</Callout>
+
+### L'Importance de la Gestion de l'Énergie
+En milieu de partie, bon nombre de vos installations avancées nécessitent une alimentation électrique constante. Vous devez équilibrer votre consommation de carburant avec vos besoins de production. Vers la fin de l'Acte 2, vous devriez rechercher des options d'énergie renouvelable comme des panneaux solaires ou des éoliennes, souvent disponibles dans les branches d'amélioration spécifiques aux factions.
+
+</Section>
+
+<Section icon={Swords} title="Tactiques de Combat Avancées pour l'Acte 2">
+
+Le combat dans **l'acte 2 d'urban strife** gagne en complexité à mesure que vous affrontez des milices humaines organisées et des hordes massives de zombies. Les simples tactiques de tir et de mouvement du prologue ne suffisent plus.
+
+**Maîtriser les Fusillades contre les Humains :**
+Les ennemis humains utiliseront efficacement les couvertures et tenteront de flanquer votre position. Vous devez exploiter le système de pénétration des matériaux du jeu. Une simple barrière en bois n'arrêtera pas une balle de fusil de gros calibre, mais un mur en béton ou un bloc moteur de voiture le fera.
+
+**Points Clés en Vidéo :**
+- **Gestion des Points d'Action** : Comment économiser des PA pour la Vigilance (Overwatch) et les Interruptions.
+- **Mécanique de Suppression** : Forcer les ennemis humains à rester à l'abri.
+- **Défense contre les Hordes** : Utiliser les goulots d'étranglement et les explosifs pour gérer plus de 20 zombies.
+
+<Callout type="tip" title="Conseil Tactique">
+Ayez toujours au moins un personnage avec une chance élevée d'"Interruption". Le placer en mode Vigilance près d'une porte ou d'un angle peut stopper net un ennemi de mêlée qui charge ou un soldat flanqueur avant qu'ils ne perturbent le placement de votre escouade.
+</Callout>
+
+**Check-list de Gestion des Hordes de Zombies :**
+- [ ] **Identifier les Goulots d'Étranglement** : Portes, ruelles étroites ou brèches dans les murs.
+- [ ] **Équiper des Fusils à Pompe/Armes Automatiques** : Un volume de tir élevé est essentiel pour stopper le mouvement de la "Phase de Horde".
+- [ ] **Déployer du Déni de Zone** : Utilisez des cocktails Molotov ou des grenades à gaz pour créer des zones que les morts-vivants ne peuvent pas traverser sans danger.
+- [ ] **Gérer le Bruit** : N'oubliez pas que les tirs non silencieux attireront d'autres zombies des secteurs adjacents vers le combat.
+
+</Section>
+
+<Section icon={Trophy} title="Check-list de Préparation pour l'Acte 2">
+
+Avant de passer au dernier épisode de l'histoire et au siège de la horde d'Atlanta, assurez-vous que votre escouade et votre abri répondent à ces critères.
+
+<Checklist
+  id="act-2-readiness"
+  title="Jalons de Milieu de Partie :"
+  items={[
+    "Sécuriser une alliance formelle avec une faction majeure",
+    "Améliorer l'Atelier pour permettre la réparation des armes et armures",
+    "Établir un système de production alimentaire autosuffisant (Potagers)",
+    "Recruter un médecin spécialiste et un chef mécanicien",
+    "Éliminer toutes les hordes errantes à moins de deux secteurs de l'Abri",
+    "Stocker au moins 500 munitions de votre type d'arme principal"
+  ]}
+/>
+
+<Callout type="info">
+La campagne de la version 1.0 déclenche généralement la phase de préparation finale aux alentours du jour 20. Utilisez la seconde moitié de l'Acte 2 pour vous assurer que votre indicateur de défense est dans la zone "Élevé" ou "Optimal".
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment déclencher le début de l'Acte 2 d'Urban Strife ?",
+    answer: "L'Acte 2 commence naturellement après avoir terminé les missions de restauration de l'Abri et réparé la radio de la ville. Cela débloque la carte étendue du Comté et le système de réputation de faction."
+  },
+  {
+    question: "Puis-je rester neutre et éviter de rejoindre une faction ?",
+    answer: "Bien que vous puissiez retarder votre choix, la fin de partie nécessite une alliance pour garantir les ressources et les renforts nécessaires au siège final. Rester neutre trop longtemps risquerait de laisser votre abri sous-défendu."
+  },
+  {
+    question: "Quelle est la meilleure arme pour les combats de l'Acte 2 ?",
+    answer: "Les fusils de chasse à lunette sont excellents pour éliminer les tireurs d'élite humains, tandis que les fusils à pompe restent indispensables pour le contrôle des hordes. Les pistolets équipés de silencieux sont essentiels pour les missions de reconnaissance furtives."
+  },
+  {
+    question: "Que se passe-t-il si ma réputation auprès d'une faction devient hostile ?",
+    answer: "L'hostilité vous bloquera l'accès à leurs marchands et à leurs missions. Dans certains cas, ils pourront même envoyer des groupes de pillards pour attaquer votre équipe d'expédition sur la carte du monde."
+  }
+]} />
+
+</Section>

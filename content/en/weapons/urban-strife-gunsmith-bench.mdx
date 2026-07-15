@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "urban strife gunsmith bench: Crafting, Repairs & Weapon Mods Guide",
+  description: "Master the urban strife gunsmith bench to repair weapons, craft silencers, and install tactical kits. Learn how to unlock Owen's workshop in Version 1.0.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Gunsmith+Bench+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **urban strife gunsmith bench**: The central hub for maintaining weapon durability, crafting silencers, and installing advanced tactical kits.
+- **Owen's Repair Operation**: Unlocked during the early campaign, this system allows you to restore damaged firearms using salvaged parts.
+- **Resource Management**: Prioritize collecting chemicals, metal components, and spare weapon parts to keep your arsenal operational.
+- **Siege Readiness**: Repairing your primary weapons and stocking up on explosive ammunition is critical before the Day 20 Atlanta Horde assault.
+</Callout>
+
+<Section icon={Wrench} title="The Role of the urban strife gunsmith bench in Version 1.0">
+
+In the 1.0 release of Urban Strife, the **urban strife gunsmith bench** serves as the backbone of your militia's offensive capabilities. Unlike the early access versions, the full release introduces a comprehensive durability system where weapons and body armor degrade through use and combat damage. The gunsmith bench and the associated workshop facilities are no longer optional upgrades; they are survival necessities that determine whether your squad can survive prolonged expeditions into Urban County.
+
+The workshop environment is divided into several specialized stations. While basic repairs can be handled once Owen's operation is active, the gunsmith bench specifically focuses on high-precision modifications. This includes the fabrication of silencers for stealth operations, the installation of high-capacity magazines for horde control, and the application of tactical weapon kits that improve accuracy and Action Point efficiency.
+
+<Callout type="tip" title="Efficiency Tip">
+Always salvage duplicate or low-quality weapons before they reach 0% durability. Salvaging items with some remaining condition yields more high-quality components for the gunsmith bench.
+</Callout>
+
+| Activity | Primary Requirement | Outcome |
+| :--- | :--- | :--- |
+| **Basic Repair** | Salvaged Parts / Owen | Restores weapon and armor durability |
+| **Modification** | Gunsmith Bench / Blueprints | Installs silencers, scopes, and mags |
+| **Salvaging** | Workshop Tools | Converts unwanted gear into raw materials |
+| **Ammunition** | Chemical Station | Produces standard and specialty rounds |
+
+</Section>
+
+<Section icon={Settings} title="Unlocking the Workshop and Owen's Repair Services">
+
+Accessing the **urban strife gunsmith bench** requires progressing through the initial Shelter restoration phases. You cannot simply build these facilities from the start; you must rescue specific specialists and clear the necessary sectors to secure the tools required for advanced gunsmithing.
+
+<Steps>
+  <Step num="1" title="Complete the Prologue">
+    Follow the opening story where the CDC patient is brought to Urban Shelter. This phase introduces the basic inventory and equipment management systems.
+  </Step>
+  <Step num="2" title="Repair the Shelter Workshop">
+    The workshop is one of the five essential services (alongside the radio, hospital, auto shop, and barracks). You must allocate construction materials to restore this facility.
+  </Step>
+  <Step num="3" title="Initiate Owen's Operation">
+    Once the workshop is functional, Owen will offer repair services. This unlocks the ability to use salvaged parts to fix damaged firearms and body armor.
+  </Step>
+  <Step num="4" title="Secure Blueprints and Tools">
+    Advanced modifications at the gunsmith bench require specific blueprints found during exploration or earned through faction alliances like the Shady Lady Bikers.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Limitation">
+While the gunsmith bench can repair the housing of body armor, ballistic plates are considered expendable. Once a plate is destroyed, it must be replaced entirely rather than repaired.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Weapon Modification and Tactical Kits">
+
+The **urban strife gunsmith bench** is where you transform standard scavenged firearms into specialized tools of war. Modifications are divided into several categories, each affecting different tactical stats such as range, noise, penetration, and Action Point (AP) cost.
+
+<CardGrid cols={3}>
+  <Card title="Stealth Mods">
+    - **Silencers**: Crafted at the bench.
+    - Reduces noise radius significantly.
+    - Essential for night raids.
+  </Card>
+  <Card title="Capacity Mods">
+    - **High-Cap Magazines**: Increases ammo count.
+    - Reduces reload frequency.
+    - Best for automatic weapons.
+  </Card>
+  <Card title="Tactical Kits">
+    - **Accuracy Kits**: Improves hit chance.
+    - **AP Kits**: Lowers firing costs.
+    - Requires rare components.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Modification Mechanics">
+Attaching or detaching modifications during active combat consumes Action Points. It is highly recommended to finalize your loadouts at the Shelter gunsmith bench before departing on a mission.
+</Callout>
+
+| Mod Category | Common Materials | Best For |
+| :--- | :--- | :--- |
+| **Silencers** | Metal, Tools, Chemicals | Pistols, Rifles, Submachine Guns |
+| **Scopes** | Glass, Metal, Components | Hunting Rifles, Sniper Rifles |
+| **Magazines** | Metal, Springs, Parts | Assault Rifles, Shotguns |
+| **Stocks** | Wood, Plastic, Metal | Recoil control on burst fire |
+
+</Section>
+
+<Section icon={Sparkles} title="Material Scavenging for Crafting">
+
+To utilize the **urban strife gunsmith bench** effectively, you must maintain a steady flow of raw materials. The 1.0 economy is tight, and wasting high-tier components on low-value backup weapons can leave your primary squad vulnerable during the endgame.
+
+<Checklist
+  id="material-priority"
+  title="Scavenging Priority List:"
+  items={[
+    "Metal Scraps: Found in industrial sectors and dismantled cars.",
+    "Chemicals: Essential for cleaning kits and ammunition production.",
+    "Electronic Components: Required for advanced tactical attachments.",
+    "Weapon Parts: Obtained by salvaging broken or duplicate firearms.",
+    "Toolkits: Necessary for performing high-tier modifications."
+  ]}
+/>
+
+<Callout type="success" title="Storage Tip">
+Crafting at the Shelter can draw directly from your base stash. You do not need to have the materials in your character's personal inventory to use the gunsmith bench.
+</Callout>
+
+| Material | Primary Source | Usage at Bench |
+| :--- | :--- | :--- |
+| **Gunpowder** | Chemical Station / Loot | Crafting specialty ammunition |
+| **Steel Parts** | Salvaging Rifles | Heavy repairs and barrel mods |
+| **Springs** | Salvaging Handguns | Magazine and trigger adjustments |
+| **Adhesives** | General Scavenging | Basic repairs and makeshift mods |
+
+</Section>
+
+<Section icon={Shield} title="Preparing for the Atlanta Horde Siege">
+
+As you approach the final act of the campaign, the **urban strife gunsmith bench** becomes the most important facility in the Shelter. The Defense Tracker evaluates your readiness based on your fortifications, but your squad's individual performance depends on the condition of their gear.
+
+The Atlanta Horde assault is a war of attrition. You will not have the opportunity to scavenge for parts once the siege begins. Use the final 24-hour warning period to perform a total overhaul of your arsenal.
+
+| Siege Prep Step | Facility | Goal |
+| :--- | :--- | :--- |
+| **Full Repair** | Owen's Workshop | All primary weapons at 100% durability |
+| **Ammo Stockpile** | Chemical Station | 500+ rounds of varied calibers |
+| **Plate Refresh** | Gunsmith Bench | Install fresh ballistic plates in all armor |
+| **Mod Optimization** | Gunsmith Bench | Maximize range and AP efficiency |
+
+<Callout type="warning" title="Endgame Spoilers">
+The final siege evaluates your power supply. Ensure your workshop and gunsmith bench are powered if you plan on doing emergency repairs between waves.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Expert Tactics and FAQ">
+
+Mastering the **urban strife gunsmith bench** involves understanding the nuances of the 1.0 repair system and faction rewards. Certain factions, like the National Guard (Rogue Army), provide access to military-grade blueprints that cannot be found elsewhere.
+
+<FAQ items={[
+  {
+    question: "Can I repair a weapon that has 0% durability?",
+    answer: "Yes, but the cost in salvaged parts and time is significantly higher. It is more efficient to repair weapons when they drop below 50%."
+  },
+  {
+    question: "Where do I find the blueprint for silencers?",
+    answer: "Silencer blueprints are often found in police stations or can be purchased from Shady Lady Biker traders after reaching a high enough reputation."
+  },
+  {
+    question: "Do modifications stay on the gun if I salvage it?",
+    answer: "No. You should manually remove expensive attachments like scopes and tactical kits at the gunsmith bench before salvaging a weapon to avoid losing them."
+  },
+  {
+    question: "What is the difference between Owen's repairs and the gunsmith bench?",
+    answer: "Owen handles general durability restoration for a fee or parts, while the gunsmith bench is used for specialized modifications and crafting new attachments."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Focus your upgrades on weapons that use common ammunition types like 9mm and 12-gauge for the early game, saving your high-tier modifications for sniper rifles and light machine guns as you prepare for the horde.
+</Callout>
+
+</Section>

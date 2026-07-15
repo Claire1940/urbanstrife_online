@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, UserPlus, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Charaktererstellung: Die besten Starter-Builds für 2026",
+  description: "Meistern Sie die Charaktererstellung in Urban Strife mit unserem Guide zu Attributen, Berufsvorteilen und den besten Starter-Builds für den postapokalyptischen 1.0-Release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Character+Creation+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki-Team",
+  keywords: "Urban Strife, Charaktererstellung, Starter-Builds, Attribute, Berufsvorteile, Guide"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- Die **Charaktererstellung in Urban Strife** konzentriert sich auf sechs Kernattribute, die sich durch ein **Learning-by-Doing-System** verbessern.
+- **Berufsvorteile (Profession Perks)** sind in drei Stufen unterteilt und sollten basierend auf Ihrer geplanten Rolle auf dem Schlachtfeld ausgewählt werden.
+- **Angeborene Vorteile (Native Perks)** und einzigartige prägende Eigenschaften sind dauerhaft, was den Hintergrund jedes Überlebenden für die langfristige Lebensfähigkeit entscheidend macht.
+- **Stärke und Intelligenz** sind wichtig für Dialogprüfungen, während **Präzision und Beweglichkeit** den taktischen Kampf dominieren.
+- **Balanzen Sie Ihre Truppe aus**, indem Sie sicherstellen, dass Ihr Startcharakter eine Lücke füllt, die nicht von frühen Rekruten abgedeckt wird.
+</Callout>
+
+<Section icon={UserPlus} title="Die Kernattribute verstehen">
+
+Bei der **Charaktererstellung in Urban Strife** legt Ihre anfängliche Attributsverteilung den Grundstein für die gesamte Reise Ihres Überlebenden. Im Gegensatz zu traditionellen RPGs, bei denen die Werte statisch bleiben, nutzt Urban Strife ein dynamisches Wachstumssystem, bei dem wiederholte Aktionen bestimmte Attribute verbessern. Ihre Startpunkte bestimmen jedoch Ihre „Untergrenze“ und wie schnell Sie in den ersten Stunden der Version 1.0 Spitzenleistungen erbringen können.
+
+Das Spiel bietet sechs Primärattribute, die von Ihrer Tragfähigkeit bis hin zu Ihrer Fähigkeit, gegnerische Züge zu unterbrechen, alles beeinflussen. Das Verständnis der Synergien zwischen diesen Werten entscheidet darüber, ob ein Überlebender die Belagerung der Atlanta-Horde übersteht oder bereits im ersten Vorortgefecht fällt.
+
+| Attribut | Primärer Kampfeffekt | Nutzen außerhalb des Kampfes | Wachstums-Trigger |
+| :--- | :--- | :--- | :--- |
+| **Stärke** | Nahkampfschaden / Ausdauer | **Tragfähigkeit** / Einschüchterung | Nahkampftreffer / Schweres Heben |
+| **Geschicklichkeit** | Nahkampftrefferchance / AP-Kosten | **Handwerk** / Werkzeugeffizienz | Gegenstände benutzen / Nahkampf |
+| **Beweglichkeit** | Bewegungs-AP / Ausweichen | Heimlichkeit / Unterbrechungschance | Schleichen / Angriffen ausweichen |
+| **Konstitution** | Max. Gesundheit / Ausdauer | Verletzungsresistenz | Schaden erleiden / Lange Märsche |
+| **Intelligenz** | Attributswachstums-Tempo | **Dialogprüfungen** / Taktik | Erfolgreicher Einsatz von Fähigkeiten |
+| **Präzision** | Fernkampfgenauigkeit | Waffenwartung | Fernkampftreffer landen |
+
+<Callout type="tip" title="Strategische Verteilung">
+Priorisieren Sie **Intelligenz**, wenn Sie möchten, dass Ihr Charakter schnell stärker wird. Eine hohe Intelligenz erhöht die Entwicklungsgeschwindigkeit aller anderen Attribute, was sie zur wertvollsten langfristigen Investition für einen Hauptcharakter macht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Erstellungsprozess">
+
+Die Erstellung Ihres Anführers in Urban Strife erfordert ein Gleichgewicht zwischen unmittelbaren Überlebensbedürfnissen und langfristiger Spezialisierung. Die Version 1.0 führt eine verfeinerte Benutzeroberfläche ein, die zeigt, wie sich Ihre Biografie-Entscheidungen auf Ihre angeborenen Startvorteile auswirken. Folgen Sie diesem Ablauf, um sicherzustellen, dass Ihr Charakter optimal auf die Herausforderungen von Urban County vorbereitet ist.
+
+<Steps>
+  <Step num="1" title="Definieren Sie Ihre Biografie">
+    Wählen Sie einen Hintergrund, der einen **Angeborenen Vorteil** bietet, der zu Ihrem bevorzugten Spielstil passt. Hintergründe wie „Felderfahrung“ oder „Tauschhandel“ bieten dauerhafte Boni, die nirgendwo anders erworben werden können. Ihre Biografie beeinflusst auch, wie bestimmte Fraktionen, wie die Shady Lady Biker, Ihnen anfangs begegnen.
+  </Step>
+  <Step num="2" title="Attributspunkte verteilen">
+    Verteilen Sie Ihre begrenzten Startpunkte. Für einen ausgewogenen Start sollten Sie mindestens 6 Punkte in **Intelligenz** anstreben, um das Wachstum zu fördern, und 7 Punkte in Ihrem primären Kampfwert (Präzision für Schützen, Stärke für Nahkämpfer). Vermeiden Sie es, die Konstitution zu vernachlässigen, da eine geringe Gesundheit das frühe Spiel extrem bestrafend macht.
+  </Step>
+  <Step num="3" title="Anfängliche Berufsvorteile auswählen">
+    Berufsvorteile sind in drei Stufen unterteilt. Im Erstellungsbildschirm wählen Sie Ihren Vorteil der Stufe 1. Diese Vorteile definieren Ihre Rolle, wie z. B. ein „Sanitäter“ für effiziente Heilung oder ein „Späher“ für verbesserte Sicht und Heimlichkeit.
+  </Step>
+  <Step num="4" title="Aussehen und Ausrüstung fertigstellen">
+    Obwohl kosmetisch, wird Ihre Startausrüstung durch Ihren Hintergrund bestimmt. Einige Hintergründe starten mit besseren Nahkampfwerkzeugen, während andere eine einfache Schusswaffe mit begrenzter Munition bieten. Stellen Sie sicher, dass Ihre Start-Schnellzugriffsplätze für den sofortigen Nutzen konfiguriert sind.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Unumkehrbare Entscheidungen">
+Angeborene Vorteile und prägende Eigenschaften sind **dauerhaft**. Im Gegensatz zu Berufsvorteilen, die im Laufe des Stufenaufstiegs erweitert werden können, bleiben diese Grundeigenschaften bis zum Ende der Kampagne bei Ihrem Charakter. Wählen Sie einen Hintergrund, der einen Nutzen bietet, den Sie bei anderen Rekruten nicht so leicht finden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Berufsvorteile und Fähigkeitsstufen">
+
+Das System der Berufsvorteile in Urban Strife ermöglicht eine tiefgehende Spezialisierung. Wenn Ihr Charakter Aufgaben ausführt, schaltet er den Zugang zu höheren Vorteilsklassen frei. Dieses System stellt sicher, dass ein Charakter, der viel Zeit mit Scharfschützenaktivitäten verbringt, ganz natürlich Vorteile freischaltet, die die Tödlichkeit auf große Distanz erhöhen, während ein engagierter Plünderer effizienter bei der Ressourcenbeschaffung wird.
+
+| Vorteilsklasse | Freischaltbedingung | Auswirkungsgrad | Beispielhafte Spezialisierungen |
+| :--- | :--- | :--- | :--- |
+| **Stufe 1** | Initiale Erstellung / Level 1 | **Grundlegend** | Einfacher Sanitäter, Späher, Schütze |
+| **Stufe 2** | Fortschritt im Mittleren Spiel | **Spezialisiert** | Gefechtschirurg, Scharfschütze, Raufbold |
+| **Stufe 3** | Late-Game-Expertise | **Elite** | Feldlegende, Geist, Belagerungsmeister |
+
+Wenn Sie Ihre Strategie für die **Charaktererstellung in Urban Strife** planen, werfen Sie frühzeitig einen Blick auf die Vorteile der Stufe 3. Wenn Sie der ultimative Scharfschütze werden wollen, müssen Sie sicherstellen, dass Ihre Beweglichkeit und Präzision hoch genug sind, um die Anforderungen dieser Elite-Fähigkeiten später in der Kampagne zu erfüllen.
+
+<Callout type="success" title="Synergie-Bonus">
+Die Abstimmung Ihres Waffentyps auf Ihren Berufsvorteil bietet kumulative Boni. Wenn Sie beispielsweise eine Schrotflinte mit einem auf „Hordenkontrolle“ ausgerichteten Vorteilspfad verwenden, erhöht dies Ihre Streuungseffizienz und Ihre Unterdrückungsfähigkeiten erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Die besten Starter-Builds für 2026">
+
+Um Ihnen zu helfen, die ersten 24 Stunden in Urban County zu überleben, haben wir drei hocheffektive Archetypen identifiziert. Diese Builds sind so konzipiert, dass sie mit der Ressourcenknappheit im frühen Spiel umgehen können und gleichzeitig einen klaren Weg zur Dominanz im späten Spiel bieten.
+
+<CardGrid cols={3}>
+  <Card title="Der Taktische Scharfschütze">
+    - **Primäre Werte**: Präzision, Beweglichkeit
+    - **Angeborener Vorteil**: Fokussiertes Zielen
+    - **Rolle**: Ausschalten von Prioritätszielen und Überwachungsgassen.
+    - **Beste Ausrüstung**: Jagdgewehre oder schallgedämpfte Pistolen.
+  </Card>
+  <Card title="Der Frontlinien-Überlebende">
+    - **Primäre Werte**: Stärke, Konstitution
+    - **Angeborener Vorteil**: Abgehärtet
+    - **Rolle**: Lautlose Nahkampf-Takedowns und Einstecken von Schaden.
+    - **Beste Ausrüstung**: Klingen, stumpfe Waffen und schwere Rüstung.
+  </Card>
+  <Card title="Der Trupp-Spezialist">
+    - **Primäre Werte**: Intelligenz, Geschicklichkeit
+    - **Angeborener Vorteil**: Einfallsreich
+    - **Rolle**: Handwerk, medizinische Unterstützung und Dialoge.
+    - **Beste Ausrüstung**: Universalwerkzeuge, Armbrüste und Erste-Hilfe-Sets.
+  </Card>
+</CardGrid>
+
+Jeder dieser Builds glänzt in spezifischen Szenarien. Der **Taktische Scharfschütze** ist unerlässlich für den Umgang mit menschlichen Feinden, die Deckung nutzen, während der **Frontlinien-Überlebende** der kosteneffizienteste Weg ist, um kleine Gruppen von Zombies zu eliminieren, ohne wertvolle Munition zu verschwenden.
+
+<Callout type="info" title="Flexibilität des Builds">
+Urban Strife verwendet keine sturen Klassen. Sie können als Schütze beginnen und im Laufe der Zeit hohe Nahkampffähigkeiten entwickeln, wenn Sie eine legendäre Klinge finden. Die „Besten Starter-Builds“ bieten lediglich den effizientesten Weg durch den Prolog.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überleben und Teamintegration">
+
+Ihr erstellter Charakter kämpft nicht allein. Im Laufe der Kampagne werden Sie Überlebende mit ihren eigenen einzigartigen Hintergründen und Fähigkeiten rekrutieren. Eine effektive **Charaktererstellung in Urban Strife** beinhaltet die Planung für ein ausgewogenes vierköpfiges Einsatzteam. Wenn Sie einen reinen Kampfcharakter erstellen, müssen Sie die Rekrutierung eines engagierten Sanitäters und eines Mechanikers schon früh priorisieren.
+
+| Truppenrolle | Essentielles Attribut | Hauptverantwortung | Frühe Rekrutierungs-Empfehlung |
+| :--- | :--- | :--- | :--- |
+| **Leitender Späher** | Beweglichkeit | Heimlichkeit, Aufklärung und Fallen | Überlebende mit hoher Beweglichkeit |
+| **Sanitäter** | Geschicklichkeit | Heilung und Statuseffekte entfernen | Intelligenzbasierte Rekruten |
+| **Schwerer Schütze** | Stärke | Unterdrückung und Hordenkontrolle | Überlebende mit hoher Konstitution |
+| **Technikexperte** | Intelligenz | Handwerk und Schlösserknacken | Überlebende mit hoher Geschicklichkeit |
+
+<Callout type="warning" title="Inventarverwaltung">
+Vermeiden Sie es, Ihre gesamte beste Ausrüstung nur Ihrem Hauptcharakter zu geben. Die Verteilung von Waffen und Medizin auf die Truppe stellt sicher, dass der Rest des Teams immer noch effektiv agieren kann, wenn Ihr Anführer unterdrückt oder verletzt wird.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für die Charaktererstellung">
+
+Nutzen Sie diese Checkliste, um sicherzustellen, dass Ihr Charakter bereit für die Atlanta-Horde und die Fraktionskriege von Urban County ist.
+
+<Checklist
+  id="character-check"
+  title="Checkliste für die abschließende Überprüfung:"
+  items={[
+    "Intelligenz ist mindestens auf 6 für optimales Attributswachstum",
+    "Primäres Kampfattribut ist mindestens auf 7 für frühe Genauigkeit",
+    "Angeborener Vorteil passt zu Ihrer beabsichtigten langfristigen Rolle",
+    "Die Startbiografie bietet nützliche Gegenstände für das frühe Spiel",
+    "Berufsvorteil der Stufe 1 ergänzt Ihre Startwaffe",
+    "Die Konstitution reicht aus, um einen einzelnen Hinterhalt zu überleben"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Kann ich meine Attribute in Urban Strife zurücksetzen?",
+    answer: "Nein, Kernattribute sind dauerhaft und wachsen natürlich durch das Gameplay. Sie können jedoch im Laufe Ihres Fortschritts andere Berufsvorteile wählen, um Ihre Rolle anzupassen."
+  },
+  {
+    question: "Was ist der wichtigste Wert bei der Charaktererstellung in Urban Strife?",
+    answer: "Intelligenz wird im Allgemeinen als der wichtigste Wert angesehen, da sie die Geschwindigkeit bestimmt, mit der sich alle anderen Attribute und Fähigkeiten verbessern."
+  },
+  {
+    question: "Beeinflusst der Hintergrund meines Charakters den Ruf bei Fraktionen?",
+    answer: "Ja, bestimmte Hintergründe bieten einzigartige Dialogoptionen und anfängliche Ruf-Boosts bei Fraktionen wie der Nationalgarde oder dem Kult der Zweiten Chance."
+  },
+  {
+    question: "Wie erhöhe ich meine Tragfähigkeit?",
+    answer: "Die Tragfähigkeit ist direkt an Ihr Stärke-Attribut gekoppelt. Sie können sie erhöhen, indem Sie Nahkampfwaffen verwenden oder häufig schwere Lasten tragen."
+  }
+]} />
+
+</Section>

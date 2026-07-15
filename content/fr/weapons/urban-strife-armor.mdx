@@ -1,0 +1,156 @@
+import { Shield, Swords, Target, Trophy, HelpCircle, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armure Urban Strife : Guide du meilleur équipement de protection et de réparation",
+  description: "Comparez les meilleurs ensembles d'armures, plaques balistiques et casques d'Urban Strife. Apprenez à réparer l'équipement tactique et à survivre à la Horde d'Atlanta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Armor+and+Protection+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "Urban Strife, armure, protection, réparation, plaques balistiques, guide de survie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mécanique principale** : Chaque pièce d'**armure Urban Strife** absorbe les dégâts entrants en fonction de son matériau, de sa durabilité et de sa couverture.
+- **Plaques consommables** : Les plaques balistiques se dégradent lorsqu'elles sont touchées et **ne peuvent pas être réparées**, même si le gilet qui les contient peut être restauré.
+- **Système de réparation** : Débloquez l'opération de réparation d'Owen dans l'Abri pour restaurer l'armure endommagée à l'aide de matériaux de récupération.
+- **Pénalité de poids** : Une protection plus lourde augmente les chances de survie mais peut réduire les Points d'Action (PA) et la vitesse de déplacement.
+- **Stratégie contre la Horde** : Priorisez l'armure de corps et de membres pour les combattants de première ligne afin de bloquer les dégâts mortels des foules denses de zombies.
+</Callout>
+
+<Section icon={Shield} title="Explication des mécaniques d'armure d'Urban Strife">
+
+Choisir la bonne **armure Urban Strife** fait la différence entre survivre à une embuscade à bout portant et perdre un membre précieux de l'escouade. La protection dans Urban Strife ne repose pas sur une simple réduction forfaitaire des dégâts. Au lieu de cela, le jeu simule les trajectoires balistiques réelles, la pénétration des matériaux et la dispersion des fragments. Lorsqu'une balle ou une explosion touche un survivant, le jeu évalue la couverture de l'armure, l'épaisseur du matériau et la durabilité actuelle.
+
+L'armure est divisée en emplacements distincts, protégeant la tête, le torse et les membres. Chaque pièce échange la protection physique contre le poids, ce qui impacte directement la mobilité d'un survivant et sa réserve de Points d'Action (PA).
+
+| Emplacement d'armure | Objectif principal | Statistique clé | Impact du poids |
+| :--- | :--- | :--- | :--- |
+| **Casque** | Empêche les dégâts mortels par tir à la tête | Résistance à la pénétration | Faible à Moyen |
+| **Gilet pare-balles** | Protège le torse, les organes vitaux et l'endurance | Capacité de durabilité | Élevé |
+| **Armure de membre** | Réduit les malus d'infirmité aux bras et jambes | Pénalité d'évasion / vitesse | Moyen |
+| **Plaques balistiques** | Absorbe les munitions de fusil de gros calibre | Absorption des dégâts | Très élevé |
+
+<Callout type="warning" title="Avertissement sur l'endurance et le poids">
+L'armure tactique lourde augmente considérablement votre charge. Les survivants ayant une faible Force subiront une consommation d'endurance sévère et perdront des PA de mouvement maximum s'ils sont surchargés. Équilibrez toujours votre équipement de protection par rapport aux attributs physiques du porteur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classement des meilleures armures et équipements de protection">
+
+Tous les équipements de protection ne se valent pas. Les combattants de mêlée en première ligne ont besoin de tenues lourdes et durables pour absorber les attaques de griffes au corps à corps, tandis que les éclaireurs furtifs et les tireurs d'élite ont besoin d'un équipement léger et silencieux qui préserve leur évasion et leurs PA.
+
+Voici comment se classent les principaux équipements de protection pour les rôles tactiques dans la version 1.0 de 2026 :
+
+<CardGrid cols={3}>
+  <Card title="Rang S : Tactique Lourd">
+    - **Idéal pour les combattants de première ligne**
+    - Gilets balistiques de haut niveau
+    - Casques militaires lourds
+    - Absorption maximale des dégâts
+  </Card>
+  <Card title="Rang A : Éclaireur Silencieux">
+    - **Idéal pour la furtivité et les snipers**
+    - Cuir léger ou gilets rembourrés
+    - Faible génération de bruit
+    - Aucune pénalité de mouvement
+  </Card>
+  <Card title="Rang B : Équipement Improvisé">
+    - **Idéal pour le début de partie**
+    - Plaques de ferraille
+    - Casques de moto basiques
+    - Poids élevé, faible durabilité
+  </Card>
+</CardGrid>
+
+Le tableau suivant compare les principaux types d'armures par rôle tactique, soulignant leurs forces et limitations principales sur le champ de bataille :
+
+| Rôle de l'armure | Meilleures options d'équipement | Forces principales | Limitations primaires |
+| :--- | :--- | :--- | :--- |
+| **Défense de Horde** | Gilets balistiques lourds, Casques anti-émeute | Haute protection contre la mêlée et les fragments | Extrêmement lourd, réduit la furtivité |
+| **Éclaireur Furtif** | Vestes en cuir, Kits silencieux | Faible bruit, préserve des PA de mouvement élevés | Vulnérable aux fusils de gros calibre |
+| **Mêlée de première ligne** | Gilets à plaques complètes, Protège-membres | Empêche les membres infirmes, haute durabilité | Consommation rapide d'endurance |
+| **Combat à distance** | Gilets tactiques moyens, Plaques balistiques | Poids équilibré, excellente couverture du torse | Les plaques se dégradent définitivement |
+
+<Callout type="tip" title="Conseil d'expert sur l'armure">
+Gardez une armure de rechange dans votre réserve de l'Abri. N'envoyez pas vos meilleurs combattants dans des secteurs de haute difficulté avec un équipement endommagé, car un seul tir de fusil à haute pénétration d'un sniper hostile peut contourner complètement une armure ruinée.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment réparer l'armure et l'équipement">
+
+Dans la version 1.0, l'entretien de l'équipement est essentiel. Les armes et les armures se dégradent avec le temps, mais elles peuvent être restaurées à leur pleine fonctionnalité une fois que vous avez établi les installations appropriées dans le hub de la [Communauté Steam d'Urban Strife](https://store.steampowered.com/app/710230/Urban_Strife/).
+
+<Steps>
+  <Step num="1" title="Débloquez l'opération de réparation d'Owen">
+    Terminez les premières missions de la campagne pour restaurer l'atelier de l'Abri et recruter Owen. Une fois sa station de réparation active, vous pouvez commencer à traiter l'équipement endommagé.
+  </Step>
+  <Step num="2" title="Récupérez l'équipement excédentaire">
+    Ne vendez pas les armes et armures de bas niveau en double ou endommagées. Récupérez-les à l'atelier pour produire des pièces de réparation essentielles et des matériaux de fabrication bruts.
+  </Step>
+  <Step num="3" title="Remplacez les plaques balistiques">
+    N'oubliez pas que les plaques balistiques internes sont consommables. Lorsque la durabilité d'une plaque tombe à zéro, jetez-la et insérez une nouvelle plaque de remplacement dans le gilet.
+  </Step>
+  <Step num="4" title="Effectuez un entretien régulier">
+    Vérifiez la durabilité de l'armure de votre escouade après chaque expédition majeure. Réparer l'équipement avant qu'il ne soit complètement ruiné empêche une défaillance structurelle permanente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Fonction de sécurité de récupération">
+L'interface de la version 1.0 exclut automatiquement les armes et armures actuellement équipées du menu de récupération, vous empêchant de détruire accidentellement vos configurations actives.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de vérification de l'armure pour le siège de fin de partie">
+
+À l'approche de la date limite du jour 20 et de la préparation du siège final de la Horde d'Atlanta, l'équipement de protection de votre escouade doit être dans un état optimal. Le Suivi de Défense évalue votre préparation globale, y compris vos stocks d'armures et vos fortifications actives.
+
+<Checklist
+  id="siege-armor-prep"
+  title="Jalons de préparation au siège :"
+  items={[
+    "Équiper tous les défenseurs de première ligne avec des gilets tactiques lourds de Rang S",
+    "Insérer des plaques balistiques neuves et intactes dans toutes les armures corporelles actives",
+    "Équiper tous les défenseurs à distance avec des casques balistiques moyens pour éviter les tirs à la tête des snipers",
+    "Récupérer tout l'équipement de ferraille indésirable pour constituer une réserve massive de pièces de réparation",
+    "S'assurer que le générateur de l'Abri a assez de carburant pour alimenter les clôtures électriques et les défenses automatiques"
+  ]}
+/>
+
+<Callout type="success" title="Conseil de réussite du siège">
+Pendant le siège final, la récupération normale est désactivée. Assurez-vous que vos défenseurs actifs ont des pièces d'armure de rechange dans leurs emplacements rapides afin de pouvoir échanger l'équipement cassé en plein combat sans accéder à la réserve principale.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je réparer les plaques balistiques dans Urban Strife ?",
+    answer: "Non. Bien que vous puissiez réparer le gilet pare-balles lui-même via l'opération de réparation d'Owen, les plaques balistiques internes sont strictement consommables et doivent être remplacées une fois leur durabilité épuisée."
+  },
+  {
+    question: "L'armure lourde affecte-t-elle ma discrétion ?",
+    answer: "Oui. L'armure tactique lourde et les casques métalliques augmentent le bruit que vous générez en vous déplaçant, ce qui permet aux zombies et aux gardes humains de vous détecter beaucoup plus facilement."
+  },
+  {
+    question: "Comment obtenir de meilleurs plans d'armure ?",
+    answer: "Les plans d'armure avancés s'obtiennent en explorant des secteurs éloignés, en commerçant avec des factions à haute réputation comme la Rogue Army, ou en complétant des améliorations d'atelier spécifiques."
+  },
+  {
+    question: "Que se passe-t-il si la durabilité de mon armure tombe à zéro pendant le combat ?",
+    answer: "Lorsque la durabilité de l'armure atteint zéro, elle cesse d'absorber les dégâts et ne protège plus le porteur contre la pénétration balistique ou les attaques de mêlée. Le survivant subira la totalité des dégâts directement sur sa santé."
+  }
+]} />
+
+</Section>

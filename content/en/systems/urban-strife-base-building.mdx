@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Base Building: Shelter Upgrade & Survival Guide",
+  description: "Master urban strife base building. Learn how to upgrade your shelter, manage resources, and survive the zombie horde with our step-by-step guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Base+Building+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Base Building Focus**: Prioritize urban strife base building upgrade paths to prepare your shelter for the growing zombie horde meter.
+- **Resource Loop**: Scavenge every container, trash can, and corpse to prevent your shelter from burning through crucial survival supplies.
+- **Squad Management**: Recruit up to four companions, customize their perks, and use the base doctor to heal them after missions.
+- **Combat Strategy**: Utilize choke points for melee attacks against zombies, and save Molotovs for dangerous human factions.
+- **Save Often**: Manually save your progress frequently as the default autosave system can be unreliable during long campaigns.
+</Callout>
+
+<Section icon={Shield} title="Shelter Mechanics & The Horde Threat">
+
+Establishing a secure foothold in the post-apocalyptic Deep South requires a deep understanding of shelter mechanics. In Urban Strife, your base serves as the central hub for recovery, recruitment, and resource distribution. As the new survivor in town, you must coordinate with the Coalition of Southern survivors to turn a run-down shelter into an impenetrable fortress. Every decision you make directly impacts your readiness for the ultimate test: defending against the massive zombie horde that threatens to overrun your home.
+
+**Video Highlights:**
+- **Campaign Premise**: Navigate a fictional town outside Atlanta as an immune survivor working with the local Coalition.
+- **Base Dynamics**: Manage shelter resources while preparing for the escalating threat of the zombie horde meter.
+- **Squad Mechanics**: Select and deploy up to four companions, managing their unique stats, perks, and permadeath risks.
+- **Looting Loop**: Scavenge meticulously through containers to secure supplies, medical gear, and combat items.
+
+<YouTubeEmbed videoId="YHtuRaZDbaY" title="URBAN STRIFE – An Old School Zombie RPG Eight Years in the Making | Quick Review" />
+
+The core loop of Urban Strife revolves around balancing base upgrades with active exploration. The shelter is not a static safe zone; it is a living entity that constantly consumes food, medicine, and fuel. If your supplies drop to zero, squad morale plummets, and your survivors will suffer from starvation or untreated wounds. The overarching threat is represented by the Horde Meter, a visual indicator that tracks the growth of the zombie threat over time. Your primary goal is to exploit rival factions, secure resource nodes, and build up base defenses before this meter reaches its maximum threshold.
+
+<Callout type="warning" title="Horde Danger">
+Monitor the Horde Meter constantly. Neglecting base defenses while focusing solely on faction missions will leave your shelter vulnerable to sudden, devastating raids.
+</Callout>
+
+| Resource | Primary Source | Base Usage | Priority |
+| Food | Kitchen scavenging, farming | Prevents starvation and morale loss | High |
+| Medicine | Hospitals, crafting at base | Heals squad wounds and stops bleeding | High |
+| Fuel | Gas stations, industrial zones | Powers generators and workshop tools | Medium |
+| Ammo | Military checkpoints, crafting | Defense during horde attacks | High |
+
+</Section>
+
+<Section icon={Swords} title="Squad Preparation & Base Recruitment">
+
+Defending your base and running successful salvage runs requires a capable squad. You can recruit and deploy a squad of up to four companions for field missions. Each companion possesses distinct starting attributes and a unique set of unlockable perks. The progression system relies on a perk tree that dictates combat efficiency, crafting speed, and survival skills. Choosing the right combination of companions is essential for balancing combat power and scavenging capability.
+
+<CardGrid cols={3}>
+  <Card title="Melee Specialist">
+    - **Primary Role**: Choke point defense
+    - **Weapon Choice**: Knives and blunt weapons
+    - **Key Benefit**: Quiet execution of zombies
+  </Card>
+  <Card title="Ranged Combatant">
+    - **Primary Role**: Faction engagement
+    - **Weapon Choice**: Rifles and shotguns
+    - **Key Benefit**: High damage against human targets
+  </Card>
+  <Card title="Support Specialist">
+    - **Primary Role**: Field medicine and looting
+    - **Weapon Choice**: Light firearms and bandages
+    - **Key Benefit**: Keeps squad healthy during long runs
+  </Card>
+</CardGrid>
+
+However, the threat of permadeath adds immense pressure to every outing. If a companion falls in battle, they do not simply disappear; they can reanimate as a zombie, forcing you to put down your former ally. To mitigate this risk, you must utilize stealth mechanics to scout ahead, avoid unnecessary engagements, and position your squad members carefully. Furthermore, because the autosave feature can be unreliable, maintaining a habit of manual saving before and after major encounters is critical to preserving your roster.
+
+<Callout type="tip" title="Manual Saving">
+Do not rely on the autosave feature. Manually save your game before entering new sectors or starting major combat encounters to avoid losing squad members permanently.
+</Callout>
+
+| Attribute | Combat Effect | Base Utility | Recommended Minimum |
+| Strength | Melee damage, carrying capacity | Speeds up physical construction | 6 |
+| Dexterity | Action points, accuracy | Increases crafting speed | 7 |
+| Intelligence | Perk progression, medic effectiveness | Unlocks advanced research | 8 |
+| Constitution | Maximum health, bleed resistance | Reduces recovery time in med bay | 6 |
+
+</Section>
+
+<Section icon={Map} title="Base Upgrades & Resource Management">
+
+Upgrading your shelter requires a steady influx of construction materials, electronic parts, and medical supplies. This necessity drives the core looting loop of the game. When exploring sectors, you must systematically search every cabinet, trash can, and corpse. While the looting process can be detailed and requires careful inventory management, the rewards are essential for base progression. You can open two companion inventories simultaneously to transfer items, which helps organize your haul before returning to base.
+
+<Steps>
+  <Step num="1" title="Secure the Perimeter">
+    Clear the immediate surroundings of the shelter to establish a safe zone. This reduces the frequency of minor zombie attacks and allows your survivors to gather basic scrap metal and wood safely.
+  </Step>
+  <Step num="2" title="Establish the Medical Bay">
+    Prioritize upgrading the medical facilities. This allows the resident doctor to heal injured squad members faster and reduces the consumption of portable medkits and bandages during recovery.
+  </Step>
+  <Step num="3" title="Construct the Workshop">
+    Build a workshop to start crafting custom ammunition, repairing damaged weapons, and creating Molotov cocktails. The workshop is essential for converting raw scrap into usable combat gear.
+  </Step>
+  <Step num="4" title="Reinforce Base Defenses">
+    Set up barricades, watchtowers, and choke points around the shelter entrance. These structures slow down incoming hordes and give your defenders a tactical advantage during defensive phases.
+  </Step>
+</Steps>
+
+Once resources are secured, you must decide which base facilities to construct or upgrade first. The medical bay should always be a high priority, as it allows the base doctor to treat severe wounds and infections without consuming your portable field kits. Upgrading the workshop unlocks the ability to craft advanced ammunition and repair degraded weapons, ensuring your squad remains combat-ready. Balancing these upgrades prevents your shelter from burning through supplies faster than you can salvage them.
+
+<Callout type="success" title="Resource Efficiency">
+Upgrading your storage facilities early increases the maximum cap of resources you can hold, preventing waste when returning from high-yield looting runs.
+</Callout>
+
+| Facility | Upgrade Requirements | Primary Benefit | Build Priority |
+| Medical Bay | Scrap metal, medical supplies, tools | Faster passive healing for idle squad | High |
+| Workshop | Metal parts, electronic components | Unlocks ammo crafting and weapon repairs | High |
+| Kitchen | Wood, stove parts, clean water | Reduces daily food consumption rates | Medium |
+| Guard Post | Lumber, sandbags, barbed wire | Boosts defense ratings against raids | Medium |
+
+</Section>
+
+<Section icon={Target} title="Combat Tactics & Defense Strategies">
+
+Combat in Urban Strife is divided between fighting the mindless undead and battling hostile human factions, such as biker gangs and zombie-worshiping cultists. While zombies are predictable and can be funneled into narrow pathways, human enemies utilize ranged weapons, cover, and tactical flanking. Your base defense strategy must account for both types of threats to ensure the survival of the Coalition.
+
+<Checklist
+  id="defense-checklist"
+  title="Horde Defense Checklist:"
+  items={[
+    "Establish clear choke points at all entry gates",
+    "Equip defenders with high-durability melee weapons",
+    "Stockpile Molotov cocktails for human raiders",
+    "Heal all squad members to full health at the base doctor",
+    "Manually save the game before initiating the defense phase"
+  ]}
+/>
+
+Zombies are slow, predictable, and highly vulnerable to melee attacks. By positioning your squad at narrow choke points, you can systematically eliminate the undead one by one using quiet weapons like knives, conserving precious ammunition. This stealthy approach keeps the noise levels down and prevents additional hordes from joining the fray. Human factions, such as biker gangs and cultists, present a much greater threat. They utilize ranged weapons, take cover, and attempt to flank your positions. Against these enemies, stealth is rarely an option, and loud, aggressive tactics are required. Molotov cocktails are exceptionally powerful tools for flushing human targets out of cover and dealing area-of-effect damage.
+
+<Callout type="info" title="Combat Distinctions">
+Use quiet melee weapons like knives against isolated zombies to avoid alerting the entire map. Save noisy firearms and explosive Molotovs for heavily armed human factions.
+</Callout>
+
+| Enemy Faction | Behavior | Weakness | Recommended Strategy |
+| Zombie Horde | Aggressive, melee-focused, pathing-dependent | Choke points, fire damage | Funnel into narrow corridors, use melee |
+| Biker Gangs | Ranged combat, use cover, high mobility | Flanking, Molotov cocktails | Flush out of cover with fire, use rifles |
+| Cultists | Fanatical, unpredictable, swarm tactics | Ranged attacks, explosives | Kill leaders first, maintain distance |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ & Summary">
+
+Maintaining a fully functional base while keeping your squad alive requires constant vigilance and strategic planning. By prioritizing the right facility upgrades, managing your squad's health, and utilizing tactical positioning in combat, you can successfully defend the Coalition's shelter against any threat the Deep South throws at you. Use the following FAQ section to quickly reference key survival concepts.
+
+<Callout type="tip" title="Final Survival Tip">
+Always keep a reserve of fuel and medicine. Running out of these two resources during a horde attack can lead to a quick game over.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I upgrade my shelter in Urban Strife?",
+    answer: "You upgrade your shelter by scavenging resources like scrap metal, wood, and electronics from surrounding sectors, then using the base management menu to construct and upgrade facilities."
+  },
+  {
+    question: "What should I do if a squad member dies during a run?",
+    answer: "Squad members suffer from permadeath. If they die, they are gone permanently and may turn into zombies. It is highly recommended to load a manual save if you lose a key companion."
+  },
+  {
+    question: "How does the Horde Meter affect my gameplay?",
+    answer: "The Horde Meter tracks the growing zombie threat. As it fills, the frequency and difficulty of zombie attacks on your base increase, requiring stronger defenses and better-equipped defenders."
+  },
+  {
+    question: "Is there a way to heal squad members without using medkits?",
+    answer: "Yes. When you return to your base, the resident doctor can patch up your injured squad members for free, allowing you to save your portable medical kits for field emergencies."
+  }
+]} />
+
+</Section>

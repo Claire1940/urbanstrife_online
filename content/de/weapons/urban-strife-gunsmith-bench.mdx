@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Büchsenmacher-Werkbank: Anleitung für Handwerk, Reparaturen & Waffen-Mods",
+  description: "Meistere die Büchsenmacher-Werkbank in Urban Strife, um Waffen zu reparieren, Schalldämpfer herzustellen und taktische Modifikationen zu installieren. Erfahre, wie du Owens Werkstatt in Version 1.0 freischaltest.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Gunsmith+Bench+Guide",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Büchsenmacher-Werkbank in Urban Strife**: Der zentrale Knotenpunkt für die Wartung der Waffenhaltbarkeit, die Herstellung von Schalldämpfern und die Installation fortschrittlicher taktischer Modifikationen.
+- **Owens Reparaturservice**: Wird in der frühen Kampagne freigeschaltet und ermöglicht es dir, beschädigte Schusswaffen mithilfe von Altteilen zu reparieren.
+- **Ressourcenmanagement**: Priorisiere das Sammeln von Chemikalien, Metallkomponenten und Ersatzwaffenteilen, um dein Arsenal einsatzbereit zu halten.
+- **Belagerungsbereitschaft**: Das Reparieren deiner Primärwaffen und das Aufstocken von Sprengmunition ist vor dem Angriff der Atlanta-Horde an Tag 20 von entscheidender Bedeutung.
+</Callout>
+
+<Section icon={Wrench} title="Die Rolle der Büchsenmacher-Werkbank in Version 1.0">
+
+In der Version 1.0 von Urban Strife bildet die **Büchsenmacher-Werkbank** das Rückgrat der Offensivkapazitäten deiner Miliz. Im Gegensatz zu den Early-Access-Versionen führt die Vollversion ein umfassendes Haltbarkeitssystem ein, bei dem Waffen und Körperpanzerung durch Nutzung und Kampfschäden verschleißen. Die Büchsenmacher-Werkbank und die dazugehörigen Werkstatteinrichtungen sind keine optionalen Upgrades mehr, sondern Überlebensnotwendigkeiten, die darüber entscheiden, ob dein Trupp längere Expeditionen in Urban County überstehen kann.
+
+Die Werkstattumgebung ist in mehrere spezialisierte Stationen unterteilt. Während grundlegende Reparaturen durchgeführt werden können, sobald Owens Betrieb aktiv ist, konzentriert sich die Büchsenmacher-Werkbank speziell auf hochpräzise Modifikationen. Dazu gehören die Herstellung von Schalldämpfern für verdeckte Operationen, der Einbau von Magazinen mit hoher Kapazität zur Hordenkontrolle und die Anwendung taktischer Waffen-Kits, die die Genauigkeit und die Aktionspunkte-Effizienz verbessern.
+
+<Callout type="tip" title="Effizienz-Tipp">
+Zerlege doppelte oder minderwertige Waffen immer, bevor ihre Haltbarkeit 0 % erreicht. Das Zerlegen von Gegenständen mit verbleibendem Zustand bringt hochwertigere Komponenten für die Büchsenmacher-Werkbank.
+</Callout>
+
+| Aktivität | Hauptanforderung | Ergebnis |
+| :--- | :--- | :--- |
+| **Grundlegende Reparatur** | Altteile / Owen | Stellt die Haltbarkeit von Waffen und Rüstung wieder her |
+| **Modifikation** | Büchsenmacher-Werkbank / Baupläne | Installiert Schalldämpfer, Visierteile und Magazine |
+| **Zerlegen** | Werkzeugset | Wandelt unerwünschte Ausrüstung in Rohstoffe um |
+| **Munition** | Chemie-Station | Stellt Standard- und Spezialmunition her |
+
+</Section>
+
+<Section icon={Settings} title="Freischalten der Werkstatt und Owens Reparaturservice">
+
+Der Zugriff auf die **Büchsenmacher-Werkbank** erfordert Fortschritte in den ersten Phasen der Zufluchtsort-Restaurierung. Du kannst diese Einrichtungen nicht einfach von Anfang an bauen; du musst bestimmte Spezialisten retten und die erforderlichen Sektoren sichern, um die für fortgeschrittene Büchsenmacherarbeiten benötigten Werkzeuge zu erhalten.
+
+<Steps>
+  <Step num="1" title="Schließe den Prolog ab">
+    Folge der Einführungsgeschichte, in der der CDC-Patient in den Zufluchtsort gebracht wird. Diese Phase führt in die grundlegenden Inventar- und Ausrüstungsverwaltungssysteme ein.
+  </Step>
+  <Step num="2" title="Repariere die Werkstatt der Zuflucht">
+    Die Werkstatt ist einer der fünf wesentlichen Dienste (neben Funk, Krankenhaus, Autowerkstatt und Kaserne). Du musst Baumaterialien zuweisen, um diese Einrichtung wiederherzustellen.
+  </Step>
+  <Step num="3" title="Owens Betrieb starten">
+    Sobald die Werkstatt funktionstüchtig ist, bietet Owen Reparaturdienste an. Dies schaltet die Fähigkeit frei, Altteile zur Reparatur beschädigter Schusswaffen und Körperpanzerungen zu verwenden.
+  </Step>
+  <Step num="4" title="Baupläne und Werkzeuge sichern">
+    Fortgeschrittene Modifikationen an der Büchsenmacher-Werkbank erfordern bestimmte Baupläne, die du bei Erkundungen findest oder durch Fraktionsbündnisse wie die Shady Lady Bikers erhältst.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kritische Einschränkung">
+Während die Büchsenmacher-Werkbank das Gehäuse von Körperpanzerungen reparieren kann, gelten ballistische Platten als Verbrauchsmaterial. Sobald eine Platte zerstört ist, muss sie komplett ersetzt anstatt repariert zu werden.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Waffenmodifikation und Taktische Kits">
+
+An der **Büchsenmacher-Werkbank** verwandelst du standardmäßige, geplünderte Schusswaffen in spezialisierte Kriegswerkzeuge. Modifikationen sind in verschiedene Kategorien unterteilt, die sich jeweils auf unterschiedliche taktische Werte wie Reichweite, Lautstärke, Durchschlagskraft und Aktionspunktkosten (AP) auswirken.
+
+<CardGrid cols={3}>
+  <Card title="Schleich-Mods">
+    - **Schalldämpfer**: An der Werkbank hergestellt.
+    - Reduziert den Lärmradius erheblich.
+    - Unerlässlich für nächtliche Überfälle.
+  </Card>
+  <Card title="Kapazitäts-Mods">
+    - **Trommelmagazine**: Erhöht die Munitionskapazität.
+    - Reduziert die Nachladehäufigkeit.
+    - Am besten für automatische Waffen.
+  </Card>
+  <Card title="Taktische Kits">
+    - **Präzisions-Kits**: Verbessert die Trefferchance.
+    - **AP-Kits**: Senkt die Schusskosten.
+    - Erfordert seltene Komponenten.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Modifikationsmechanik">
+Das Anbringen oder Entfernen von Modifikationen während eines aktiven Kampfes verbraucht Aktionspunkte. Es wird dringend empfohlen, deine Ausrüstung an der Büchsenmacher-Werkbank der Zuflucht fertigzustellen, bevor du zu einer Mission aufbrichst.
+</Callout>
+
+| Mod-Kategorie | Häufige Materialien | Am besten für |
+| :--- | :--- | :--- |
+| **Schalldämpfer** | Metall, Werkzeuge, Chemikalien | Pistolen, Gewehre, Maschinenpistolen |
+| **Zielfernrohre** | Glas, Metall, Komponenten | Jagdgewehre, Scharfschützengewehre |
+| **Magazine** | Metall, Federn, Teile | Sturmgewehre, Schrotflinten |
+| **Schäfte** | Holz, Kunststoff, Metall | Rückstoßkontrolle bei Feuerstößen |
+
+</Section>
+
+<Section icon={Sparkles} title="Materialbeschaffung für das Handwerk">
+
+Um die **Büchsenmacher-Werkbank** effektiv zu nutzen, musst du einen stetigen Fluss an Rohstoffen aufrechterhalten. Die Wirtschaft in Version 1.0 ist hart kalkuliert, und das Verschwenden von High-Tier-Komponenten für minderwertige Ersatzwaffen kann deinen Primärtrupp im Endspiel verwundbar machen.
+
+<Checklist
+  id="material-priority"
+  title="Prioritätenliste für die Materialsuche:"
+  items={[
+    "Metallschrott: In Industriesektoren und zerlegten Autos zu finden.",
+    "Chemikalien: Unerlässlich für Reinigungssets und Munitionsproduktion.",
+    "Elektronische Komponenten: Erforderlich für fortgeschrittene taktische Aufsätze.",
+    "Waffenteile: Erhalten durch das Zerlegen defekter oder doppelter Schusswaffen.",
+    "Werkzeugkoffer: Notwendig für die Durchführung von High-Tier-Modifikationen."
+  ]}
+/>
+
+<Callout type="success" title="Lagerungs-Tipp">
+Das Herstellen in der Zuflucht kann direkt auf dein Hauptlager zugreifen. Du musst die Materialien nicht im persönlichen Inventar deines Charakters haben, um die Büchsenmacher-Werkbank zu benutzen.
+</Callout>
+
+| Material | Hauptquelle | Verwendung an der Werkbank |
+| :--- | :--- | :--- |
+| **Schwarzpulver** | Chemie-Station / Beute | Herstellung von Spezialmunition |
+| **Stahlteile** | Zerlegen von Gewehren | Schwere Reparaturen und Lauf-Mods |
+| **Federn** | Zerlegen von Handfeuerwaffen | Magazin- und Abzugsanpassungen |
+| **Klebstoffe** | Allgemeine Suche | Grundlegende Reparaturen und provisorische Mods |
+
+</Section>
+
+<Section icon={Shield} title="Vorbereitung auf die Belagerung der Atlanta-Horde">
+
+Wenn du dich dem letzten Akt der Kampagne näherst, wird die **Büchsenmacher-Werkbank** zur wichtigsten Einrichtung im Zufluchtsort. Der Verteidigungs-Tracker bewertet deine Bereitschaft basierend auf deinen Befestigungen, aber die individuelle Leistung deines Trupps hängt vom Zustand ihrer Ausrüstung ab.
+
+Der Angriff der Atlanta-Horde ist ein Zermürbungskrieg. Du wirst keine Gelegenheit haben, nach Teilen zu suchen, sobald die Belagerung beginnt. Nutze die letzte 24-Stunden-Warnfrist, um dein Arsenal komplett zu überholen.
+
+| Belagerungsvorbereitungsschritt | Einrichtung | Ziel |
+| :--- | :--- | :--- |
+| **Vollständige Reparatur** | Owens Werkstatt | Alle Primärwaffen bei 100 % Haltbarkeit |
+| **Munitionsvorrat** | Chemie-Station | 500+ Runden verschiedener Kaliber |
+| **Platten erneuern** | Büchsenmacher-Werkbank | Frische ballistische Platten in allen Rüstungen installieren |
+| **Mod-Optimierung** | Büchsenmacher-Werkbank | Reichweite und AP-Effizienz maximieren |
+
+<Callout type="warning" title="Endspiel-Spoiler">
+Die letzte Belagerung bewertet deine Stromversorgung. Stelle sicher, dass deine Werkstatt und deine Büchsenmacher-Werkbank mit Strom versorgt sind, wenn du zwischen den Wellen Notreparaturen durchführen möchtest.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Experten-Taktiken und FAQ">
+
+Die Meisterung der **Büchsenmacher-Werkbank** erfordert das Verständnis der Nuancen des 1.0-Reparatursystems und der Fraktionsbelohnungen. Bestimmte Fraktionen wie die Nationalgarde (Rogue Army) bieten Zugang zu militärischen Bauplänen, die nirgendwo anders zu finden sind.
+
+<FAQ items={[
+  {
+    question: "Kann ich eine Waffe reparieren, die 0 % Haltbarkeit hat?",
+    answer: "Ja, aber die Kosten für Altteile und Zeit sind deutlich höher. Es ist effizienter, Waffen zu reparieren, wenn sie unter 50 % fallen."
+  },
+  {
+    question: "Wo finde ich den Bauplan für Schalldämpfer?",
+    answer: "Baupläne für Schalldämpfer sind oft in Polizeistationen zu finden oder können bei Händlern der Shady Lady Biker gekauft werden, sobald ein ausreichend hoher Ruf erreicht wurde."
+  },
+  {
+    question: "Bleiben Modifikationen auf der Waffe, wenn ich sie zerlege?",
+    answer: "Nein. Du solltest teure Aufsätze wie Zielfernrohre und taktische Kits an der Büchsenmacher-Werkbank manuell entfernen, bevor du eine Waffe zerlegst, um deren Verlust zu vermeiden."
+  },
+  {
+    question: "Was ist der Unterschied zwischen Owens Reparaturen und der Büchsenmacher-Werkbank?",
+    answer: "Owen kümmert sich gegen eine Gebühr oder Teile um die allgemeine Wiederherstellung der Haltbarkeit, während die Büchsenmacher-Werkbank für spezielle Modifikationen und die Herstellung neuer Aufsätze verwendet wird."
+  }
+]} />
+
+<Callout type="tip" title="Letzter Ratschlag">
+Konzentriere deine Upgrades im frühen Spiel auf Waffen, die gängige Munitionstypen wie 9 mm und Kaliber 12 verwenden, und hebe dir deine High-Tier-Modifikationen für Scharfschützengewehre und leichte Maschinengewehre auf, während du dich auf die Horde vorbereitest.
+</Callout>
+
+</Section>

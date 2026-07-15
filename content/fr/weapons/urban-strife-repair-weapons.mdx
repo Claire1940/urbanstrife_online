@@ -1,0 +1,171 @@
+import { Wrench, Hammer, Shield, Swords, Target, HelpCircle, Zap, Recycle, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Réparation d'armes dans Urban Strife : Guide de maintenance et de récupération 1.0",
+  description: "Découvrez comment réparer les armes et armures dans Urban Strife version 1.0. Maîtrisez la récupération, l'atelier d'Owen et la durabilité de l'équipement pour survivre à la Horde d'Atlanta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Weapon+Repair+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "urban strife, réparation d'armes, maintenance, récupération, plaques balistiques, guide de survie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Réparer les armes dans Urban Strife** : Nécessite de débloquer **l'opération de réparation d'Owen** à l'atelier de l'Abri dans la version 1.0.
+- **Mécaniques de récupération** : Décomposez l'équipement superflu en **Pièces de réparation** ; la version 1.0 protège les objets équipés contre le recyclage accidentel.
+- **Gestion de la durabilité** : Une faible durabilité augmente les risques d'enrayage et réduit l'efficacité de l'armure ; maintenez l'équipement principal au-dessus de 75 %.
+- **Contraintes d'armure** : Bien que le gilet soit réparable, les **plaques balistiques** sont des consommables et doivent être entièrement remplacées.
+- **Priorité des ressources** : Concentrez les réparations sur les fusils de précision de haut niveau et les armes automatiques avant le siège final de l'Abri.
+</Callout>
+
+<Section icon={Wrench} title="Débloquer le système de réparation dans Urban Strife 1.0">
+
+Le passage de l'Accès Anticipé à la version officielle 1.0 le 14 juillet 2026 a introduit plusieurs systèmes de survie critiques, la boucle de maintenance de l'équipement étant la plus impactante. Dès les premières heures de la campagne, vous remarquerez que vos armes à feu s'usent. Pour **réparer les armes dans Urban Strife**, vous devez d'abord stabiliser l'Abri Urbain et progresser dans la phase initiale "Restaurer l'Abri".
+
+La maintenance n'est pas disponible immédiatement à votre arrivée. Vous devez spécifiquement remplir les objectifs liés à l'atelier et recruter ou activer Owen, l'expert technique résident de l'Abri. Une fois l'opération de réparation d'Owen active, l'atelier se transforme d'une simple zone de stockage en un centre fonctionnel pour maintenir l'arsenal de votre milice en parfait état.
+
+| Exigence | Type | Objectif |
+| :--- | :--- | :--- |
+| **Opération d'Owen** | Quête/Déblocage | Active l'interface de réparation à l'atelier |
+| **Atelier Niveau 1** | Installation | Fournit les outils de base pour l'entretien des armes |
+| **Pièces de réparation** | Ressource | Consommées pendant le processus de restauration |
+| **Ferraille** | Matériau | Utilisée pour les réparations structurelles de base |
+
+<Callout type="warning" title="Avertissement de Maintenance">
+N'attendez pas qu'une arme atteigne 0 % de durabilité. Les armes à feu en mauvais état ont une probabilité nettement plus élevée de s'enrayer en plein combat, ce qui peut coûter de précieux Points d'Action pour les dégager et potentiellement mener à l'élimination de votre escouade.
+</Callout>
+
+</Section>
+
+<Section icon={Recycle} title="Récupération et gestion des ressources">
+
+Pour soutenir une milice hautement opérationnelle, vous ne pouvez pas compter uniquement sur la découverte de butin intact. La méthode principale pour obtenir les matériaux nécessaires pour **réparer les armes dans Urban Strife** est le système de récupération. Dans Urban Strife, chaque pièce d'équipement indésirable — des tuyaux rouillés aux pistolets fissurés — peut être décomposée en composants fonctionnels.
+
+La mise à jour 1.0 a apporté une amélioration majeure de la qualité de vie : le jeu exclut désormais par défaut les objets actuellement équipés de la liste de récupération. Cela évite l'erreur catastrophique de démanteler accidentellement votre fusil de précision principal en nettoyant votre inventaire.
+
+**Rendements et efficacité de la récupération**
+
+| Catégorie d'objet | Rendement principal | Rendement secondaire |
+| :--- | :--- | :--- |
+| **Armes de mêlée** | Ferraille | Pièces en bois/plastique |
+| **Pistols/SMGs** | Pièces de réparation de base | Petits ressorts |
+| **Fusils/Fusils à pompe** | Pièces de réparation avancées | Acier de haute qualité |
+| **Armures/Gilets** | Bandes de tissu | Fragments de Kevlar |
+
+<Callout type="tip" title="Conseil d'Efficacité">
+Récupérer des objets avant qu'ils ne soient complètement ruinés (0 % de durabilité) donne souvent des matériaux plus utiles. Si vous trouvez une arme en double en "Mauvais état", récupérez-la immédiatement pour fournir des pièces à votre arme principale en "Bon état".
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Récupération d'armes">
+    - **Identifier les doublons** : Gardez un exemplaire de chaque calibre pour la polyvalence.
+    - **Vérifier les accessoires** : Retirez les lunettes ou silencieux avant la récupération.
+    - **Focus sur le rendement** : Les armes de tiers supérieur fournissent des "Pièces avancées".
+  </Card>
+  <Card title="Récupération d'armures">
+    - **Récupération de tissu** : Essentiel pour la fabrication de kits médicaux.
+    - **Extraction de plaques** : Retirez d'abord les plaques balistiques endommagées.
+    - **Gestion du poids** : Récupérer sur place réduit l'encombrement.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Hammer} title="Étape par étape : Comment réparer votre équipement">
+
+Une fois que vous avez sécurisé l'atelier et rassemblé suffisamment de pièces via le butin récupéré, le processus réel pour **réparer les armes dans Urban Strife** est simple mais nécessite une hiérarchisation minutieuse de vos ressources.
+
+<Steps>
+  <Step num="1" title="Accéder à l'interface de l'atelier">
+    Rendez-vous dans la zone de l'Atelier au sein de l'Abri Urbain. Interagissez avec l'établi ou parlez à Owen pour ouvrir le menu de maintenance. Vous verrez une liste de tous les objets réparables actuellement dans votre réserve ou votre inventaire.
+  </Step>
+  <Step num="2" title="Évaluer la durabilité et le coût">
+    Sélectionnez l'arme ou la pièce d'armure que vous souhaitez réparer. L'interface affichera le pourcentage de durabilité actuel et la quantité requise de Pièces de réparation ou de Ferraille nécessaire pour la restaurer à 100 %.
+  </Step>
+  <Step num="3" title="Confirmer l'opération de réparation">
+    Si vous possédez les matériaux nécessaires, confirmez la réparation. Notez que l'équipement militaire de haut niveau, comme les fusils d'assaut de l'Armée Rebelle, nécessite des pièces beaucoup plus spécialisées qu'un simple fusil de chasse ou un pistolet 9 mm.
+  </Step>
+  <Step num="4" title="Vérifier l'état de préparation au combat">
+    Une fois la réparation terminée, rééquipez l'objet. Vérifiez les modes de tir de l'arme et assurez-vous qu'elle est complètement chargée avant de partir pour votre prochaine expédition dans le comté d'Urban.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Stratégie de Réparation Pro">
+Concentrez vos réparations sur les armes utilisant des types de munitions courants au début. Il vaut mieux avoir un SMG 9 mm parfaitement entretenu avec 200 munitions qu'un fusil de précision à 50 % de durabilité avec seulement 5 balles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maintenance de l'armure vs Plaques balistiques">
+
+Un point de confusion fréquent pour les nouveaux survivants est la différence entre la réparation de l'armure corporelle et la gestion des plaques balistiques. Bien que vous puissiez **réparer les armes dans Urban Strife** ainsi que la structure du gilet, les inserts de protection suivent des règles différentes.
+
+Dans la simulation tactique 1.0, l'armure est modulaire. Le gilet lui-même (le support) offre un niveau de protection de base et peut être réparé à l'atelier en utilisant du tissu et des fragments de kevlar. Cependant, les plaques balistiques insérées dans le gilet absorbent le plus gros des tirs de gros calibre et sont considérées comme consommables.
+
+| Composant | Réparable ? | Matériau requis | Remarques |
+| :--- | :--- | :--- | :--- |
+| **Gilet tactique** | Oui | Tissu/Kevlar | Restaure la durabilité de base |
+| **Plaque balistique** | Non | Remplacement | Doit être changée lorsqu'elle est brisée |
+| **Casques en acier** | Oui | Ferraille | Haute durabilité, poids lourd |
+| **Armure de membre** | Oui | Plastique/Métal | Se dégrade rapidement au corps à corps |
+
+<Callout type="warning" title="Alerte de Combat">
+Un gilet avec 100 % de durabilité mais 0 % d'intégrité de plaque n'offre presque aucune protection contre les balles de fusil. Transportez toujours des plaques de rechange dans le coffre de votre véhicule pour les longues expéditions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Priorité de maintenance pour la fin de partie">
+
+À l'approche des dernières étapes de la campagne — spécifiquement le siège de la Horde d'Atlanta — la capacité à **réparer les armes dans Urban Strife** devient un goulot d'étranglement pour votre survie. Le siège interrompt la récupération normale, ce qui signifie que vous devez entrer dans le conflit final avec votre arsenal en parfait état.
+
+Le Suivi de Défense évalue votre préparation globale, et l'état de l'équipement de votre milice joue un rôle dans l'efficacité avec laquelle elle peut tenir le périmètre. Utilisez les jours précédant le siège pour liquider tout le butin non essentiel en pièces de réparation.
+
+**Liste de contrôle de maintenance pour la fin de partie**
+
+<Checklist
+  id="siege-prep"
+  title="Tâches de préparation au siège :"
+  items={[
+    "Réparer tous les fusils de précision principaux à 100 % de durabilité",
+    "Remplacer toutes les plaques balistiques fissurées des armures de première ligne",
+    "Récupérer toutes les armes de 'Tiers 1' pour générer des pièces de rechange",
+    "S'assurer que l'atelier d'Owen dispose d'un surplus de plus de 50 pièces de réparation",
+    "Vérifier la fiabilité de toutes les armes de poing de secours"
+  ]}
+/>
+
+<Callout type="info" title="Avis d'Expert">
+Pendant le siège final, les armes se dégraderont plus rapidement en raison des tirs soutenus. Commencer la bataille à 100 % n'est pas seulement un bonus ; c'est une nécessité pour éviter les dysfonctionnements au milieu du combat lorsque les morts-vivants atteignent les portes.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je réparer mes armes sur le terrain pendant une mission dans Urban Strife ?",
+    answer: "Non, les réparations d'armes et d'armures doivent être effectuées à l'atelier de l'Abri Urbain une fois que l'opération de réparation d'Owen est débloquée. Vous devriez emporter des armes de rechange si vous prévoyez un engagement prolongé."
+  },
+  {
+    question: "Les accessoires d'armes perdent-ils de la durabilité ?",
+    answer: "Non, les accessoires comme les lunettes, les silencieux et les visées laser n'ont pas de durabilité individuelle. Cependant, certains silencieux peuvent avoir une durée de vie limitée ou affecter la chauffe de l'arme."
+  },
+  {
+    question: "Que se passe-t-il si une arme atteint 0 % de durabilité ?",
+    answer: "Une arme à 0 % de durabilité devient cassée et inutilisable. Elle ne peut plus être utilisée jusqu'à ce qu'elle soit ramenée à l'Abri et réparée à l'aide d'une quantité importante de ressources."
+  },
+  {
+    question: "Est-il moins cher de réparer ou de fabriquer de nouvelles armes ?",
+    answer: "En général, la réparation est plus rentable pour l'équipement de haut niveau. La fabrication est préférable pour les consommables comme les explosifs ou les outils de survie de base dont le coût en matériaux est faible."
+  }
+]} />
+
+</Section>

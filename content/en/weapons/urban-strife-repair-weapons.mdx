@@ -1,0 +1,170 @@
+import { Wrench, Hammer, Shield, Swords, Target, HelpCircle, Zap, Recycle, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Repair Weapons: 1.0 Maintenance & Salvage Guide",
+  description: "Learn how to urban strife repair weapons and armor in the 1.0 release. Master salvaging, Owen's workshop, and gear durability to survive the Atlanta Horde.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Weapon+Repair+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban strife repair weapons**: Requires unlocking **Owen's repair operation** at the Shelter workshop in the 1.0 version.
+- **Salvaging mechanics**: Break down surplus gear into **Repair Parts**; 1.0 protects equipped items from accidental salvage.
+- **Durability management**: Low durability increases weapon jamming and reduces armor effectiveness; keep main gear above 75%.
+- **Armor constraints**: While body armor is repairable, **ballistic plates** are expendable and must be replaced entirely.
+- **Resource priority**: Focus repairs on high-tier sniper rifles and automatic weapons before the final Shelter siege.
+</Callout>
+
+<Section icon={Wrench} title="Unlocking the Repair System in Urban Strife 1.0">
+
+The transition from Early Access to the 1.0 official release on July 14, 2026, introduced several critical survival systems, with the equipment maintenance loop being the most impactful. In the early hours of the campaign, you will notice your firearms accumulating wear and tear. To **urban strife repair weapons**, you must first stabilize the Urban Shelter and progress through the initial "Restore the Shelter" phase.
+
+Maintenance is not available immediately upon arrival. You must specifically complete the objectives related to the workshop and recruit or enable Owen, the Shelter's resident technical expert. Once Owen's repair operation is active, the workshop transforms from a simple storage area into a functional hub for keeping your militia's arsenal in peak condition.
+
+| Requirement | Type | Purpose |
+| :--- | :--- | :--- |
+| **Owen's Operation** | Quest/Unlock | Enables the repair interface at the workshop |
+| **Workshop Level 1** | Facility | Provides the basic tools for firearm maintenance |
+| **Repair Parts** | Resource | Consumed during the restoration process |
+| **Scrap Metal** | Material | Used for basic structural repairs and low-tier gear |
+
+<Callout type="warning" title="Maintenance Warning">
+Do not wait for a weapon to reach 0% durability. Firearms with low condition ratings have a significantly higher chance of jamming during combat, which can cost precious Action Points to clear and potentially lead to a squad wipe.
+</Callout>
+
+</Section>
+
+<Section icon={Recycle} title="Salvaging and Resource Management">
+
+To sustain a high-functioning militia, you cannot rely solely on finding pristine loot. The primary method for obtaining the materials needed to **urban strife repair weapons** is through the salvage system. In Urban Strife, every piece of unwanted equipment—from rusted pipes to cracked pistols—can be broken down into functional components.
+
+The 1.0 update brought a much-needed quality-of-life improvement: the game now excludes currently equipped items from the salvage list by default. This prevents the catastrophic mistake of accidentally dismantling your primary sniper rifle while cleaning out your inventory.
+
+**Salvage Yields and Efficiency**
+
+| Item Category | Primary Yield | Secondary Yield |
+| :--- | :--- | :--- |
+| **Melee Weapons** | Scrap Metal | Wood/Plastic Parts |
+| **Pistols/SMGs** | Basic Repair Parts | Small Springs |
+| **Rifles/Shotguns** | Advanced Repair Parts | High-grade Steel |
+| **Armor/Vests** | Fabric Strips | Kevlar Scraps |
+
+<Callout type="tip" title="Efficiency Tip">
+Salvaging items before they are completely ruined (0% durability) often yields more useful materials. If you find a duplicate weapon in "Poor" condition, salvage it immediately to provide parts for your "Good" condition primary weapon.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Weapon Salvaging">
+    - **Identify duplicates**: Keep one of each caliber for versatility.
+    - **Check attachments**: Remove scopes or silencers before salvaging.
+    - **Yield focus**: Higher tier weapons provide "Advanced Parts."
+  </Card>
+  <Card title="Armor Salvaging">
+    - **Fabric recovery**: Essential for medical kit crafting.
+    - **Plate extraction**: Remove damaged ballistic plates first.
+    - **Weight management**: Salvaging on-site reduces encumbrance.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Hammer} title="Step-by-Step: How to Repair Your Gear">
+
+Once you have secured the workshop and gathered enough parts from salvaged loot, the actual process to **urban strife repair weapons** is straightforward but requires careful prioritization of your resources.
+
+<Steps>
+  <Step num="1" title="Access the Workshop Interface">
+    Navigate to the Workshop area within the Urban Shelter. Interact with the workbench or speak with Owen to open the maintenance menu. You will see a list of all repairable items currently in your stash or inventory.
+  </Step>
+  <Step num="2" title="Evaluate Durability and Cost">
+    Select the weapon or armor piece you wish to fix. The interface will display the current durability percentage and the required amount of Repair Parts or Scrap Metal needed to restore it to 100%.
+  </Step>
+  <Step num="3" title="Confirm the Repair Operation">
+    If you have the necessary materials, confirm the repair. Note that high-tier military equipment, such as the Rogue Army's assault rifles, requires significantly more specialized parts than a basic hunting rifle or a 9mm pistol.
+  </Step>
+  <Step num="4" title="Verify Combat Readiness">
+    After the repair is complete, re-equip the item. Check the weapon's fire modes and ensure it is fully loaded before heading out on your next expedition into Urban County.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Pro Repair Strategy">
+Focus your repairs on weapons that use common ammunition types early on. It is better to have a perfectly maintained 9mm SMG with 200 rounds than a 50% durability sniper rifle with only 5 bullets.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Armor Maintenance vs. Ballistic Plates">
+
+A common point of confusion for new survivors is the difference between repairing body armor and managing ballistic plates. While you can **urban strife repair weapons** and the "carrier" portion of armor, the protective inserts follow different rules.
+
+In the 1.0 tactical simulation, armor is modular. The vest itself (the carrier) provides a base level of protection and can be repaired at the workshop using fabric and kevlar scraps. However, the ballistic plates inserted into the vest absorb the brunt of high-caliber fire and are considered expendable.
+
+| Component | Repairable? | Material Required | Notes |
+| :--- | :--- | :--- | :--- |
+| **Tactical Vest** | Yes | Fabric/Kevlar | Restores base durability |
+| **Ballistic Plate** | No | Replacement | Must be swapped when shattered |
+| **Steel Helmets** | Yes | Scrap Metal | High durability, heavy weight |
+| **Limb Armor** | Yes | Plastic/Metal | Decays quickly in melee combat |
+
+<Callout type="warning" title="Combat Alert">
+A vest with 100% durability but 0% plate integrity offers almost no protection against rifle rounds. Always carry spare plates in your vehicle's cargo for long expeditions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Maintenance Priority for the Endgame">
+
+As you approach the final stages of the campaign—specifically the Atlanta Horde siege—the ability to **urban strife repair weapons** becomes a bottleneck for your survival. The siege stops normal scavenging, meaning you must enter the final conflict with your arsenal at maximum condition.
+
+The Defense Tracker evaluates your overall readiness, and the condition of your militia's gear plays a role in how effectively they can hold the perimeter. Use the days leading up to the siege to liquidate all non-essential loot into repair parts.
+
+**Endgame Maintenance Checklist**
+
+<Checklist
+  id="siege-prep"
+  title="Siege Readiness Tasks:"
+  items={[
+    "Repair all primary sniper rifles to 100% durability",
+    "Replace all cracked ballistic plates in frontline armor",
+    "Salvage all 'Tier 1' weapons to generate spare parts",
+    "Ensure Owen's workshop has a surplus of 50+ Repair Parts",
+    "Check all sidearms for backup reliability"
+  ]}
+/>
+
+<Callout type="info" title="Expert Insight">
+During the final siege, weapons will degrade faster due to sustained fire. Starting the battle at 100% is not just a bonus; it is a necessity to prevent mid-battle malfunctions when the undead reach the gates.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I urban strife repair weapons in the field during a mission?",
+    answer: "No, weapon and armor repairs must be performed at the Urban Shelter workshop once Owen's repair operation is unlocked. You should carry backup weapons if you expect a long engagement."
+  },
+  {
+    question: "Do weapon attachments lose durability?",
+    answer: "No, attachments like scopes, silencers, and laser sights do not have individual durability. However, some silencers may have a limited lifespan or affect the heat buildup of the weapon."
+  },
+  {
+    question: "What happens if a weapon reaches 0% durability?",
+    answer: "A weapon at 0% durability becomes broken and unusable. It cannot be fired until it is brought back to the Shelter and repaired using a significant amount of resources."
+  },
+  {
+    question: "Is it cheaper to repair or craft new weapons?",
+    answer: "Generally, repairing is more cost-effective for high-tier gear. Crafting is better for consumables like explosives or basic survival tools where the material cost is low."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Guide: 2026 Survival Tactics & Combat Strategy",
+  description: "Master the apocalypse with our Urban Strife guide. Learn settlement management, turn-based combat tactics, and faction alliances for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Survival+Tactics",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Action Point Economy**: Master the AP system in **urban strife guide** to balance movement and high-impact attacks.
+- **Settlement Priority**: Focus on upgrading food and medicine facilities early to sustain your survivor group.
+- **Stealth Mechanics**: Utilize sight and hearing ranges to set up ambushes before entering turn-based mode.
+- **Limb Targeting**: Use specific body part targeting to inflict bleed or instant kills on high-threat targets.
+- **Faction Diplomacy**: Balance alliances carefully, as they unlock unique buildings and specialized resources.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Guide: Surviving the First 30 Days">
+
+The world of Urban Strife is a brutal turn-based RPG environment where every decision, from the scrap you scavenge to the stance you take in combat, determines your longevity. As a mysterious CDC patient rescued from a car accident, you are thrust into a leadership role within a small settlement of survivors. Your primary objective is to transform this fragile sanctuary into a fortified stronghold while navigating the complex politics of local factions. This **urban strife guide** focuses on the core pillars of survival: tactical combat, resource management, and strategic exploration.
+
+**Video Highlights:**
+- **Initial Setup**: Understanding the CDC patient backstory and the rescue by local survivors.
+- **Combat Mechanics**: Deep dive into the AP system, cover usage, and the unique stance system.
+- **Settlement Management**: How to upgrade facilities like the workshop and medical bay.
+- **Early Access Concerns**: Insights into the AI-generated portrait changes and pricing transparency.
+
+<YouTubeEmbed videoId="VdufWI5iF4E" title="Check Out: Urban Strife Gameplay & First Impressions" />
+
+<Callout type="warning" title="Early Access Notice">
+Players should note that the 2026 version of the game features AI-generated portraits and specific "Swarm AI" for group enemy movements. Always check for the latest developer updates regarding pricing and content patches during the Early Access phase.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Settlement Management and Facility Upgrades">
+
+Managing your settlement is just as critical as winning battles. You must hoover up materials during missions to fund the expansion of your base. Upgrading facilities increases your daily intake of essential supplies and unlocks advanced crafting tiers.
+
+<CardGrid cols={3}>
+  <Card title="Food Production">
+    - **Sustains Population**
+    - Prevents hunger debuffs
+    - Essential for recruitment
+  </Card>
+  <Card title="Medical Bay">
+    - **Heals Injuries**
+    - Produces medicine
+    - Reduces recovery time
+  </Card>
+  <Card title="Workshop">
+    - **Crafts Ammo/Armor**
+    - Repairs gear
+    - Unlocks Molotovs
+  </Card>
+</CardGrid>
+
+| Facility Name | Primary Resource | Benefit at Level 1 | Benefit at Level 2 |
+| :--- | :--- | :--- | :--- |
+| **Kitchen** | Food Scraps | Basic meal prep | **+10% Recovery Speed** |
+| **Infirmary** | Medical Supplies | Basic healing | **Advanced Surgery** |
+| **Scrap Yard** | Metal/Parts | Basic components | **Automatic Scrap Income** |
+| **Armory** | Gunpowder/Lead | Ammo reloading | **Weapon Customization** |
+
+<Callout type="success" title="Growth Strategy">
+Always prioritize the Workshop in the first week. The ability to craft your own ammunition and Molotov cocktails significantly reduces your reliance on lucky loot drops during high-risk missions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mastering Turn-Based Combat Tactics">
+
+Combat in Urban Strife revolves around a granular Action Point (AP) system. Unlike simpler TRPGs, you have total control over how you distribute your points between movement, aiming, and utilizing different firing modes. The game also features a specialized "Swarm AI" designed to speed up the turns of large groups of weaker enemies, though player turns remain deliberate and tactical.
+
+| Action Type | AP Cost (Average) | Tactical Benefit |
+| :--- | :--- | :--- |
+| **Snap Shot** | 3-4 AP | Quick, low accuracy |
+| **Aimed Shot** | 6-8 AP | **High crit chance** |
+| **Crouch Stance** | 2 AP | Improved cover bonus |
+| **Prone Stance** | 3 AP | **Max accuracy / Stealth** |
+| **Reloading** | 4-5 AP | Essential maintenance |
+
+**Key Combat Features:**
+- **Limb Targeting**: You can target specific body parts to disable enemies. Targeting legs reduces movement, while headshots offer a chance for instant kills.
+- **Stance System**: Your stance (Running, Crouched, Stealth) determines your visibility to enemies and the effectiveness of the cover you occupy.
+- **Ballistics**: Different weapons have varying ranges and armor penetration values, making loadout choice vital before entering a zone.
+
+<Callout type="tip" title="Tactical Advantage">
+Use the "Wait" command to let enemies exhaust their AP while moving toward you. This allows your mercenaries to spend their full AP bar on high-accuracy shots once the enemies are out in the open.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Exploration, Stealth, and Crafting">
+
+Before the bullets fly, you explore maps in real-time. This phase is crucial for gathering resources and positioning your squad. Enemies have distinct sight and hearing ranges; if you stay out of their vision cones and move quietly, you can initiate combat on your own terms.
+
+<Steps>
+  <Step num="1" title="Scout the Perimeter">
+    Use a high-perception character to identify enemy patrols and vision cones without being detected.
+  </Step>
+  <Step num="2" title="Set the Ambush">
+    Position your snipers in high-ground cover and your melee units near corners. Enter turn-based mode manually to gain the "Surprise" initiative.
+  </Step>
+  <Step num="3" title="Resource Vacuuming">
+    Once the immediate area is clear, loot every container. Crafting materials like cloth, metal, and chemicals are needed for mid-mission Molotov production.
+  </Step>
+</Steps>
+
+| Craftable Item | Components Required | Best Use Case |
+| :--- | :--- | :--- |
+| **Molotov** | Alcohol, Rag, Fuel | **Area Denial / Zombies** |
+| **Bandage** | Cloth, Alcohol | Immediate bleeding stop |
+| **9mm Ammo** | Lead, Gunpowder | Standard pistol/SMG use |
+| **Pipe Bomb** | Metal Pipe, Powder | **High-Armor Targets** |
+
+<Callout type="warning" title="Stealth Warning">
+Zombies are particularly sensitive to sound. Using unsuppressed firearms will draw every "Swarm" in the vicinity to your location, often leading to being overwhelmed in the early game.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Factions and Progression Milestones">
+
+As you progress through the 2026 campaign, you will encounter various factions. Your interactions—whether through diplomacy or force—will dictate the special buildings you can construct in your settlement and the quality of gear available for trade.
+
+<Checklist
+  id="progression-checklist"
+  title="Survival Milestones:"
+  items={[
+    "Secure a reliable source of clean water",
+    "Establish a neutral trade agreement with the first faction",
+    "Craft a full set of Tier 2 reinforced armor",
+    "Clear the local hospital for medical blueprints",
+    "Unlock the 'Swarm' suppression tactics in the skill tree"
+  ]}
+/>
+
+| Faction Type | Primary Benefit | Potential Risk |
+| :--- | :--- | :--- |
+| **Survivalists** | High-tier weapon mods | Hostile to outsiders |
+| **Civilians** | Steady food trade | Poorly armed / Need protection |
+| **Military Remnants** | **Advanced Ballistics** | High cost of alliance |
+
+<Callout type="info" title="Faction Tip">
+Don't try to please everyone. Siding with one faction often locks out the benefits of another, but the specialized buildings they provide (like advanced training camps) are worth the trade-off.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Urban Strife FAQ">
+
+<FAQ items={[
+  {
+    question: "How does the limb targeting system work in Urban Strife?",
+    answer: "During your turn, you can select specific body parts on an enemy. Targeting the head increases damage and instant-kill chances, while targeting legs reduces their Action Points for the next turn. This is essential for managing dangerous melee enemies."
+  },
+  {
+    question: "Can I avoid combat entirely using stealth?",
+    answer: "While you can bypass many encounters using the real-time exploration mode and staying out of enemy sight/hearing ranges, certain story-driven objectives will require tactical turn-based combat to resolve."
+  },
+  {
+    question: "What is the best way to manage Action Points (AP)?",
+    answer: "Always ensure you have enough AP left at the end of a move to enter a defensive stance or take a 'Snap Shot.' Moving too far into the open without points left for cover or overwatch is the most common cause of squad wipes."
+  },
+  {
+    question: "What should I focus on crafting first in this Urban Strife guide?",
+    answer: "Prioritize Molotov cocktails and basic bandages. Molotovs are highly effective at controlling crowds of zombies, while bandages are necessary to stop the 'Bleeding' status effect which can quickly drain a survivor's health."
+  }
+]} />
+
+</Section>

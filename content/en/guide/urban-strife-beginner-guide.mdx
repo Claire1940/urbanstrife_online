@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Beginner Guide: Essential Tips & Starting Walkthrough",
+  description: "Master the early game of Urban Strife with our comprehensive beginner guide. Learn character creation, combat mechanics, and shelter progression.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Beginner+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Guide**: This **urban strife beginner guide** focuses on surviving the tough early-game phase.
+- **Faction Mechanics**: Recent updates allow you to keep three friendly factions around your base for daily trade.
+- **Combat Focus**: Headshots are powerful but hard to land; melee is the most reliable way to save early ammo.
+- **Stat Progression**: Stats level up dynamically based on your actions, influenced heavily by your Intelligence.
+- **Resource Management**: Prioritize collecting fuel, food, and crafting materials during your initial street sweeps.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Beginner Guide: Essential Early Survival">
+
+Starting your journey in the post-apocalyptic world of Urban Strife can be daunting. The latest major updates have redesigned the early-game flow, making it less linear and offering players more tactical freedom. You no longer need to destroy the two starting factions immediately. Instead, you can maintain peaceful, cooperative trade relationships with up to three nearby factions, which restock their trading inventories daily.
+
+**Video Highlights:**
+- **Faction Diplomacy**: Learn how to utilize the three friendly starting factions for daily trading.
+- **Dynamic Progression**: Understand how stats increase naturally through gameplay rather than static point allocation.
+- **Combat Realities**: See first-hand how weapon aiming, cover, and early-game melee combat function.
+
+<YouTubeEmbed videoId="cjR0XVWBn3c" title="Urban Strife Big Update - Lets Play HardCore Ep 1 - Better loot & better start" />
+
+<Callout type="tip" title="Trading Tip">
+Take advantage of the daily inventory restocks at friendly faction bases. Selling excess junk and buying 9mm or .45 caliber ammunition early on will give you a massive advantage over relying solely on basic crossbows.
+</Callout>
+
+### Starting Character Archetypes
+
+Choosing your starting build sets the foundation for your survival. While you can customize your stats, your playstyle dictates how your character grows over time.
+
+| Archetype | Primary Role | Key Stat | Starting Perk |
+|---|---|---|---|
+| **Sniper** | Long-range DPS | Marksmanship | Headshot Proficiency |
+| **Melee Specialist** | Frontline Tank | Strength / Agility | Melee Mastery |
+| **Jack of All Trades** | Flexible Support | Intelligence | Fast Learner |
+
+</Section>
+
+<Section icon={Shield} title="Character Creation and Dynamic Stats">
+
+Character creation in Urban Strife features a unique hidden modifier: **Intelligence**. Unlike other RPGs where stats remain static until you level up manually, this game utilizes a dynamic progression system. Your actions directly increase your skills, while your Intelligence stat determines how quickly these attributes and perks level up.
+
+<CardGrid cols={3}>
+  <Card title="High Intelligence Build">
+    - **Faster skill progression**
+    - Quick perk unlocks
+    - Ideal for versatile, multi-role main characters
+  </Card>
+  <Card title="Combat Focused Build">
+    - **High starting Marksmanship**
+    - Reduced Endurance and Strength
+    - Perfect for dedicated snipers and backline damage
+  </Card>
+  <Card title="Melee Tank Build">
+    - **High Strength and Agility**
+    - Heavy blunt weapon usage
+    - Excellent for conserving early-game ammunition
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Stat Cap Warning">
+Dynamic stat increases are incredibly powerful, but keep in mind that you cannot increase your stats above 100% in a single scenario. Plan your character growth accordingly.
+</Callout>
+
+### Dynamic Stat Training Methods
+
+| Attribute | Training Action | Primary Benefit |
+|---|---|---|
+| **Marksmanship** | Shooting enemies / Landing headshots | Increased hit chance and ranged damage |
+| **Endurance** | Moving while heavily encumbered | Higher health pool and stamina |
+| **Agility** | Dodging attacks / High AP movement | Increased Action Points (AP) per turn |
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and Tactical Aiming">
+
+Combat in Urban Strife is turn-based and highly tactical. The aiming system relies on line of sight, angles, and exposed body parts. You can only target body parts that are actively exposed from behind cover. While headshots deal devastating damage, they are difficult to land early in the game without proper skills.
+
+<Steps>
+  <Step num="1" title="Assess Enemy Exposure">
+    Check which body parts of the target are exposed. If an enemy is behind high cover, headshots might be completely blocked.
+  </Step>
+  <Step num="2" title="Choose the Right Weapon">
+    Use melee or blunt weapons on isolated targets to save precious ammo. Save shotguns and rifles for armored threats.
+  </Step>
+  <Step num="3" title="Manage Action Points (AP)">
+    Always leave enough AP at the end of your turn to seek cover or reload your weapon. Standing in the open is a death sentence.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Aiming Mechanics">
+If you find your hit chances are low, try repositioning to get a better angle around the enemy's cover. Even a slight step to the side can reveal fully exposed limbs.
+</Callout>
+
+### Early Game Weapon Comparison
+
+| Weapon Type | Range (Tiles) | Ammo Type | Best Used For |
+|---|---|---|---|
+| **Nail Gun / Crossbow** | 9 - 13 | Nails / Bolts | Quietly picking off single zombies |
+| **9mm / .45 Pistol** | 15 - 20 | 9mm / .45 ACP | Mid-range defense against bandits |
+| **Shotgun** | 11 - 13 | Birdshot / Slugs | High close-range burst damage |
+
+</Section>
+
+<Section icon={Trophy} title="First Map Walkthrough and Looting Routes">
+
+The first map, Adam Ville, is fully open from the start. This allows you to gather a massive amount of supplies early, including food, medicine, and body armor. Your primary objective is clearing out local bandit groups and securing the streets for your shelter.
+
+<Checklist
+  id="adam-ville-objectives"
+  title="Adam Ville Checklist:"
+  items={[
+    "Loot the local houses for food and dirty rags",
+    "Equip your main characters with found body armor",
+    "Clear out the small bandit group near the middle street",
+    "Acquire the shotgun and birdshot ammo from the locked lockers",
+    "Speak with Brother Jeremiah to unlock future questlines"
+  ]}
+/>
+
+<Callout type="success" title="Looting Tip">
+Prioritize looting trash cans and medical cabinets. Dirty rags can be crafted into basic bandages, which are essential for treating bleeding injuries after tough skirmishes.
+</Callout>
+
+### Key Loot Locations in Adam Ville
+
+| Location | Key Loot | Danger Level | Recommended Strategy |
+|---|---|---|---|
+| **Locked Locker** | Shotgun, Body Armor | Low | Breach carefully, no enemies inside |
+| **Middle Street** | Bandits, Ammo, Rags | Medium | Use cover, lure them out one by one |
+| **Residential Houses** | Food, Crafting Tubes, Medicine | Low | Watch out for hidden indoor zombies |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I increase my character's stats in Urban Strife?",
+    answer: "Stats increase dynamically as you perform actions. For example, shooting enemies increases Marksmanship, and moving while carrying heavy items increases Endurance. Your Intelligence stat determines how fast these stats level up."
+  },
+  {
+    question: "What is the best way to conserve ammunition early on?",
+    answer: "Utilize melee weapons like knives or blunt objects against single zombies. You can also use quiet, low-cost weapons like crossbows and nail guns for trash mobs, saving your firearms for armed bandits."
+  },
+  {
+    question: "Can I ally with multiple factions?",
+    answer: "Yes. Following recent updates, you can maintain peaceful, cooperative relationships with up to three starting factions around your base. This allows you to trade with all of them daily, though you will eventually choose one primary ally."
+  },
+  {
+    question: "What should I do if my characters get injured?",
+    answer: "Use bandages crafted from dirty rags or medical kits found in residential areas to stop bleeding immediately. Injuries reduce your combat stats, so healing up between fights is crucial."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,197 @@
+import { Users, Target, Shield, Swords, Map, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Compagnons d'Urban Strife : Guide de recrutement et meilleurs builds de survivants",
+  description: "Maîtrisez les compagnons d'Urban Strife grâce à notre guide sur le recrutement, les builds de survivants, les recrues spécifiques aux factions et la gestion tactique d'escouade pour la version 1.0.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Urban+Strife+Companions+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "urban strife, compagnons, survivants, recrutement, builds, factions, combat tactique"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Les compagnons d'Urban Strife** sont des survivants recrutés qui forment votre milice, chacun possédant des compétences passives natives et des traits distinctifs uniques.
+- **Le système d'apprentissage par la pratique** garantit que les survivants améliorent les compétences spécifiques qu'ils utilisent le plus fréquemment lors des combats tactiques.
+- **Les alliances de factions** avec la Garde Nationale, les Bikers ou le Culte de la Seconde Chance déterminent les recrues de haut niveau et les équipements de pointe disponibles.
+- **Les améliorations de l'abri** sont obligatoires pour accueillir une population plus importante et fournir les soins médicaux nécessaires au maintien opérationnel de votre escouade.
+- **La préparation au siège** dépend de votre capacité à réparer l'équipement et à équilibrer les rôles de votre équipe avant l'arrivée de la Horde d'Atlanta au jour 20.
+</Callout>
+
+<Section icon={Users} title="Recruter des compagnons dans Urban Strife : Bâtir votre milice">
+
+Dans le monde post-apocalyptique d'Urban Strife, votre survie dépend entièrement de la qualité et de la composition de votre escouade. Les **compagnons d'Urban Strife** ne sont pas de simples unités génériques ; ce sont des survivants individuels dotés d'une histoire personnelle, de compétences passives natives et de traits de caractère uniques qui influencent à la fois leurs performances au combat et les options de dialogue. Suite à la sortie de la version 1.0 le 14 juillet 2026, le système de recrutement a été enrichi de plus de vingt améliorations d'alliés et d'un système de réputation plus profond qui détermine qui rejoindra votre cause.
+
+Le recrutement commence à l'Abri Urbain (Urban Shelter), mais votre effectif s'agrandira rapidement à mesure que vous explorerez le comté d'Urban. Vous rencontrerez des survivants indépendants, des réfugiés et des soldats affiliés à des factions que vous pourrez convaincre de rejoindre votre milice grâce à des tests de dialogue réussis, en répondant à des intérêts spécifiques ou en obtenant suffisamment de votes politiques au sein du comté.
+
+| Source de recrutement | Méthode principale | Récompense potentielle |
+| :--- | :--- | :--- |
+| **Survivants indépendants** | Missions de sauvetage / Dialogue | Spécialistes de début de partie, Médecins |
+| **Garde Nationale** | Haute réputation / Quêtes | Tireurs d'élite militaires, Unités blindées |
+| **Bikers Shady Lady** | Accords commerciaux / Intérêts des Bikers | Mécaniciens, Combattants de mêlée |
+| **Culte de la Seconde Chance** | Alignement spirituel / Quêtes | Spécialistes de l'infiltration, Traits uniques |
+| **Camps de réfugiés** | Capacité de l'abri / Protection | Main-d'œuvre générale, Recrues potentielles |
+
+<Callout type="tip" title="La réputation compte">
+Votre réputation personnelle vous suit à travers tout le comté d'Urban. Utiliser des choix de dialogue basés sur la Force ou l'Intelligence peut débloquer des options de recrutement qui seraient autrement inaccessibles, vous évitant ainsi des combats inutiles et préservant vos précieuses munitions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Attributs des personnages et progression par la pratique">
+
+Urban Strife utilise un système de progression réaliste basé sur l'apprentissage par la pratique (learn-by-doing). Contrairement aux RPG traditionnels où vous attribuez des points lors d'une montée de niveau, vos **compagnons d'Urban Strife** améliorent leurs attributs en effectuant des actions spécifiques sur le terrain. Si un survivant utilise fréquemment un fusil de précision, sa Précision (Marksmanship) augmentera. S'il passe ses tours à se faufiler dans l'ombre, son Agilité s'améliorera.
+
+Ce système encourage la spécialisation de vos survivants dans des rôles dédiés. L'Intelligence joue un rôle crucial ici, car elle détermine la vitesse à laquelle un personnage développe tous ses autres attributs. Un survivant doté d'une Intelligence élevée maîtrisera sa profession beaucoup plus rapidement qu'une recrue moins douée.
+
+| Attribut | Effet principal | Action de progression |
+| :--- | :--- | :--- |
+| **Précision** | Précision à distance / Chance de coup critique | Tirer avec des armes à feu, Utilisation d'arbalètes |
+| **Agilité** | PA de mouvement / Évasion / Interruptions | Se faufiler, Esquiver les attaques de mêlée |
+| **Dextérité** | Coût en PA des objets / Précision en mêlée | Utiliser des outils, des kits de soin, Combat de mêlée |
+| **Force** | Capacité de charge / Dégâts de mêlée / Endurance | Éliminations en mêlée, Transporter des charges lourdes |
+| **Constitution** | Santé max / Endurance / Résistance aux blessures | Subir des dégâts, Longues expéditions |
+| **Intelligence** | Vitesse de progression / Choix de dialogue | Utilisation réussie de compétences, Lire des manuels |
+
+<Callout type="warning" title="Gestion des PA">
+Chaque action, du déplacement au rechargement, consomme des Points d'Action (PA). Visualisez toujours votre destination à l'avance pour vous assurer que votre compagnon dispose d'assez de PA pour se mettre à couvert ou préparer un tir de couverture (Overwatch).
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rôles de survivants spécialisés et composition d'équipe">
+
+Pour survivre aux défis de fin de partie et au siège final de la Horde d'Atlanta, vous devez organiser vos **compagnons d'Urban Strife** en une équipe équilibrée. Bien que le jeu ne vous impose pas de classes rigides, les trois niveaux de compétences professionnelles vous permettent de transformer vos survivants en spécialistes hautement efficaces.
+
+<CardGrid cols={3}>
+  <Card title="Le Tireur à Distance">
+    - **Focus** : Précision et Agilité.
+    - **Rôle** : Élimination des cibles prioritaires et tir de couverture (Overwatch).
+    - **Meilleur équipement** : Fusils de chasse, fusils de précision ou fusils d'assaut.
+  </Card>
+  <Card title="Le Combattant de Mêlée">
+    - **Focus** : Force, Dextérité et Constitution.
+    - **Rôle** : Éliminations silencieuses et économie de munitions.
+    - **Meilleur équipement** : Armes tranchantes, armes contondantes et armures lourdes.
+  </Card>
+  <Card title="Le Spécialiste de l'Infiltration">
+    - **Focus** : Agilité et Dextérité.
+    - **Rôle** : Reconnaissance, embuscades et tirs silencieux.
+    - **Meilleur équipement** : Arbalètes, pistolets avec silencieux et équipement léger.
+  </Card>
+  <Card title="Le Médecin de Combat">
+    - **Focus** : Intelligence and Dextérité.
+    - **Rôle** : Soigner et maintenir l'escouade opérationnelle.
+    - **Meilleur équipement** : Trousses de secours, outils utilitaires et pistolets-mitrailleurs (PDW).
+  </Card>
+  <Card title="Le Survivant Polyvalent">
+    - **Focus** : Intelligence et Force.
+    - **Rôle** : Artisanat, pillage et choix de dialogue.
+    - **Meilleur équipement** : Grands sacs à dos, grenades et outils.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Compétences de profession">
+Une fois que vous débloquez les compétences de profession, vous pouvez les sélectionner librement pour renforcer la distance et le type d'arme qu'un survivant utilise déjà. Vérifiez toujours le trait natif d'une recrue avant de vous lancer dans un build ; un « Leader Né » fera un bien meilleur capitaine d'escouade qu'un « Solitaire ».
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Alliances de factions et récompenses de recrues uniques">
+
+Votre choix d'alliance a un impact significatif sur la capacité de vos **compagnons d'Urban Strife** à atteindre leur plein potentiel. Les trois blocs majeurs — la Garde Nationale, les Bikers Shady Lady et le Culte de la Seconde Chance — offrent chacun des plans d'artisanat, des équipements et des recrues spécialisées uniques, inaccessibles à leurs ennemis.
+
+Au jour 20, vous devez avoir obtenu suffisamment de votes pour pénétrer dans le quartier général d'une faction et finaliser une alliance. Cette alliance débloque une branche d'amélioration dédiée dans votre abri, offrant des bonus permanents à votre milice et l'accès au meilleur équipement du jeu.
+
+| Faction | Avantage de recrue unique | Équipement spécialisé |
+| :--- | :--- | :--- |
+| **Garde Nationale** | Discipline militaire / Haute Précision | Fusils .50 BMG, HMMWV de l'armée, Gilets pare-balles |
+| **Bikers Shady Lady** | Compétences mécaniques / Soutien de véhicules | Armes du marché noir, Pièces de véhicules |
+| **Culte de la Seconde Chance** | Affinité avec l'infiltration / Traits uniques | Arbalètes spécialisées, Plans d'artisanat cachés |
+| **Barons Locaux** | Connaissance régionale / Bonus commerciaux | Récompenses de quêtes, Réfugiés supplémentaires |
+
+<Callout type="info" title="L'Indicateur de Défense">
+Les alliés ne fournissent pas seulement des recrues ; ils contribuent à votre indicateur de défense (Defense Tracker). Une alliance solide peut faire la différence entre une défense réussie de l'Abri Urbain et un échec catastrophique lors du siège final.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide étape par étape pour renforcer votre escouade">
+
+Bâtir une équipe puissante de **compagnons d'Urban Strife** est un processus progressif qui implique de l'exploration, de la gestion de ressources et du combat tactique. Suivez ces étapes pour vous assurer que votre milice est prête pour la fin de partie.
+
+<Steps>
+  <Step num="1" title="Terminer le Prologue">
+    Concentrez-vous sur l'histoire du « Patient d'Atlanta ». Apprenez les bases des PA, de la gestion d'inventaire et de la destruction des nids de zombies. Recrutez vos premiers compagnons parmi les résidents âgés de l'abri.
+  </Step>
+  <Step num="2" title="Restaurer les services essentiels">
+    Priorisez les matériaux de construction pour réparer l'hôpital, l'atelier et les baraquements. Vous ne pouvez pas entretenir une grande équipe de compagnons si vous manquez de lits pour les loger ou d'installations médicales pour soigner leurs blessures.
+  </Step>
+  <Step num="3" title="Spécialiser votre équipe d'expédition">
+    Identifiez les forces naturelles de vos recrues. Assignez-en une comme médecin dédié, une autre comme tireur d'élite à longue portée, et au moins une comme spécialiste du corps à corps pour économiser les munitions lors des affrontements discrets.
+  </Step>
+  <Step num="4" title="Cumuler réputation et votes">
+    Voyagez vers les secteurs éloignés pour rencontrer les chefs de faction. Répondez à leurs intérêts pour obtenir les votes requis pour accéder à leurs quartiers généraux. Utilisez des tests d'Intelligence et de Force pour résoudre les conflits pacifiquement lorsque c'est possible.
+  </Step>
+  <Step num="5" title="Finaliser votre alliance">
+    Entrez dans le QG de la faction de votre choix. Acceptez l'alliance pour débloquer l'équipement de niveau 3 et les améliorations d'abri spécifiques à la faction. C'est le seul moyen d'obtenir les armes les plus puissantes pour vos compagnons.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Durabilité de l'équipement">
+Les armes et armures s'usent avec l'usage. Utilisez le système de réparation de la version 1.0 à l'atelier d'Owen pour restaurer vos meilleurs équipements. N'oubliez pas que si les gilets pare-balles peuvent être réparés, les plaques balistiques sont des consommables et doivent être remplacées.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de préparation pour la Horde d'Atlanta">
+
+À l'approche du jour 20, vous devez déplacer votre attention de l'expansion vers la consolidation. Vos **compagnons d'Urban Strife** doivent être au sommet de leur forme, et votre abri doit être entièrement fortifié. Utilisez cette liste pour vérifier votre état de préparation avant le conflit final.
+
+<Checklist
+  id="endgame-readiness"
+  title="Exigences pour le siège final :"
+  items={[
+    "Réparer toutes les armes principales et armures à 100 % de durabilité",
+    "Accumuler au moins 200 munitions pour chaque arme à feu active",
+    "S'assurer que l'abri dispose d'une réserve de 3 jours de nourriture, d'eau et de carburant",
+    "Alimenter toutes les clôtures électriques et les défenses automatisées",
+    "Terminer la dernière branche d'amélioration de votre faction alliée",
+    "Assigner vos cinq survivants les plus forts à l'effectif du siège final"
+  ]}
+/>
+
+<Callout type="success" title="Le sacrifice final">
+La fin d'Urban Strife reflète les conséquences humaines de vos décisions. Un abri bien préparé avec des alliés solides peut éviter les « choix d'urgence » qui conduisent souvent à la perte définitive de compagnons chers lors de la bataille finale.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur les compagnons d'Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Les compagnons d'Urban Strife peuvent-ils mourir définitivement ?",
+    answer: "Oui. Urban Strife intègre une mort permanente (permadeath) pour vos recrues. Si un survivant se vide de son sang ou subit des dégâts massifs dépassant ses points de vie maximums, il disparaît à jamais. Gardez toujours des bandages sur vous et maintenez votre médecin près de la ligne de front."
+  },
+  {
+    question: "Comment puis-je augmenter le nombre de compagnons que je peux diriger ?",
+    answer: "Vous devez améliorer les baraquements au sein de l'Abri Urbain. Chaque niveau d'amélioration augmente votre limite de population, vous permettant de loger davantage de membres de la milice et de réfugiés."
+  },
+  {
+    question: "Quelle faction fournit les meilleurs compagnons pour le combat ?",
+    answer: "La Garde Nationale fournit généralement des recrues avec les meilleures statistiques initiales en Précision et un accès à des armures de qualité militaire. Cependant, les Bikers offrent d'excellents mécaniciens pour le soutien logistique et les véhicules, tandis que le Culte propose des capacités d'infiltration inégalées."
+  },
+  {
+    question: "Les compagnons consomment-ils de la nourriture et des médicaments lorsqu'ils ne sont pas dans l'escouade active ?",
+    answer: "Oui. Tous les résidents de l'Abri Urbain consomment quotidiennement de la nourriture et de l'eau. Si vos réserves s'épuisent, le moral chutera, ce qui peut entraîner une baisse de l'efficacité au combat ou le départ de survivants de votre milice."
+  }
+]} />
+
+</Section>

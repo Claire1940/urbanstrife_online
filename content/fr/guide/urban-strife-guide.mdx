@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide Urban Strife : Tactiques de survie et stratégie de combat 2026",
+  description: "Maîtrisez l'apocalypse avec notre guide Urban Strife. Apprenez la gestion de colonie, les tactiques de combat au tour par tour et les alliances de factions pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Survival+Tactics",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Économie des points d'action** : Maîtrisez le système de PA dans ce **guide Urban Strife** pour équilibrer vos mouvements et vos attaques puissantes.
+- **Priorité à la colonie** : Concentrez-vous sur l'amélioration précoce des installations de nourriture et de médecine pour faire vivre votre groupe de survivants.
+- **Mécaniques d'infiltration** : Utilisez les portées de vision et d'audition pour tendre des embuscades avant d'entrer en mode tour par tour.
+- **Ciblage des membres** : Visez des parties spécifiques du corps pour infliger des saignements ou éliminer instantanément les cibles très menaçantes.
+- **Diplomatie des factions** : Équilibrez soigneusement vos alliances, car elles débloquent des bâtiments uniques et des ressources spécialisées.
+</Callout>
+
+<Section icon={Map} title="Guide Urban Strife : Survivre aux 30 premiers jours">
+
+Le monde d'Urban Strife est un RPG au tour par tour brutal où chaque décision, de la ferraille que vous récupérez à la posture que vous adoptez au combat, détermine votre longévité. En tant que mystérieux patient du CDC secouru après un accident de voiture, vous êtes propulsé dans un rôle de leader au sein d'une petite colonie de survivants. Votre objectif principal est de transformer ce sanctuaire fragile en un bastion fortifié tout en naviguant dans la politique complexe des factions locales. Ce **guide Urban Strife** se concentre sur les piliers essentiels de la survie : le combat tactique, la gestion des ressources et l'exploration stratégique.
+
+**Points forts de la vidéo :**
+- **Configuration initiale** : Comprendre l'histoire du patient du CDC et son sauvetage par les survivants locaux.
+- **Mécaniques de combat** : Analyse approfondie du système de PA, de l'utilisation des abris et du système unique de postures.
+- **Gestion de la colonie** : Comment améliorer les installations telles que l'atelier et la baie médicale.
+- **Préoccupations liées à l'accès anticipé** : Aperçu des modifications apportées aux portraits générés par IA et de la transparence des prix.
+
+<YouTubeEmbed videoId="VdufWI5iF4E" title="Découvrez : Gameplay et premières impressions d'Urban Strife" />
+
+<Callout type="warning" title="Avis sur l'accès anticipé">
+Les joueurs doivent noter que la version 2026 du jeu propose des portraits générés par IA et une IA de groupe (« Swarm AI ») spécifique pour les mouvements des ennemis en grand nombre. Pensez à toujours vérifier les dernières mises à jour des développeurs concernant les prix et les correctifs de contenu pendant la phase d'accès anticipé.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Gestion de la colonie et améliorations des installations">
+
+Gérer votre colonie est tout aussi crucial que de remporter des batailles. Vous devez récupérer un maximum de matériaux lors de vos missions pour financer l'expansion de votre base. L'amélioration des installations augmente votre apport quotidien de fournitures essentielles et débloque des niveaux d'artisanat avancés.
+
+<CardGrid cols={3}>
+  <Card title="Production de nourriture">
+    - **Nourrit la population**
+    - Évite les malus de faim
+    - Indispensable pour le recrutement
+  </Card>
+  <Card title="Baie médicale">
+    - **Soigne les blessures**
+    - Produit des médicaments
+    - Réduit le temps de récupération
+  </Card>
+  <Card title="Atelier">
+    - **Fabrique des munitions/armures**
+    - Répare l'équipement
+    - Débloque les cocktails Molotov
+  </Card>
+</CardGrid>
+
+| Nom de l'installation | Ressource principale | Avantage au niveau 1 | Avantage au niveau 2 |
+| :--- | :--- | :--- | :--- |
+| **Cuisine** | Restes de nourriture | Préparation de repas de base | **+10 % de vitesse de récupération** |
+| **Infirmerie** | Fournitures médicales | Soins de base | **Chirurgie avancée** |
+| **Décharge** | Métal/Pièces | Composants de base | **Revenu automatique de ferraille** |
+| **Armurerie** | Poudre/Plomb | Rechargement de munitions | **Personnalisation des armes** |
+
+<Callout type="success" title="Stratégie de croissance">
+Donnez toujours la priorité à l'Atelier au cours de la première semaine. La possibilité de fabriquer vos propres munitions et cocktails Molotov réduit considérablement votre dépendance aux butins aléatoires lors des missions à haut risque.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtriser les tactiques de combat au tour par tour">
+
+Le combat dans Urban Strife s'articule autour d'un système précis de points d'action (PA). Contrairement aux TRPG plus simples, vous contrôlez totalement la répartition de vos points entre le déplacement, la visée et l'utilisation de différents modes de tir. Le jeu dispose également d'une IA de groupe (« Swarm AI ») conçue pour accélérer les tours des grands groupes d'ennemis plus faibles, bien que les tours du joueur restent délibérés et tactiques.
+
+| Type d'action | Coût en PA (Moyen) | Avantage tactique |
+| :--- | :--- | :--- |
+| **Tir réflexe** | 3-4 PA | Rapide, faible précision |
+| **Tir visé** | 6-8 PA | **Chances de coup critique élevées** |
+| **Posture accroupie** | 2 PA | Bonus d'abri amélioré |
+| **Posture allongée** | 3 PA | **Précision max / Discrétion** |
+| **Rechargement** | 4-5 PA | Entretien essentiel |
+
+**Caractéristiques clés du combat :**
+- **Ciblage des membres** : Vous pouvez cibler des parties spécifiques du corps pour paralyser les ennemis. Cibler les jambes réduit le déplacement, tandis que les tirs à la tête offrent une chance d'élimination instantanée.
+- **Système de posture** : Votre posture (Course, Accroupi, Furtif) détermine votre visibilité pour les ennemis et l'efficacité de l'abri que vous occupez.
+- **Balistique** : Les différentes armes ont des portées et des valeurs de pénétration d'armure variables, ce qui rend le choix de votre équipement crucial avant de pénétrer dans une zone.
+
+<Callout type="tip" title="Avantage tactique">
+Utilisez la commande « Attendre » pour laisser les ennemis épuiser leurs PA en se déplaçant vers vous. Cela permet à vos mercenaires de dépenser toute leur barre de PA dans des tirs de haute précision une fois que les ennemis sont à découvert.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Exploration, discrétion et artisanat">
+
+Avant que les balles ne fusent, vous explorez les cartes en temps réel. Cette phase est cruciale pour rassembler des ressources et positionner votre escouade. Les ennemis ont des portées de vision et d'audition distinctes ; si vous restez hors de leurs cônes de vision et vous déplacez silencieusement, vous pouvez engager le combat selon vos propres conditions.
+
+<Steps>
+  <Step num="1" title="Reconnaître le périmètre">
+    Utilisez un personnage à haute perception pour identifier les patrouilles ennemies et leurs cônes de vision sans vous faire repérer.
+  </Step>
+  <Step num="2" title="Préparer l'embuscade">
+    Positionnez vos tireurs d'élite à l'abri sur les hauteurs et vos unités de mêlée près des angles. Entrez manuellement en mode tour par tour pour obtenir l'initiative de « Surprise ».
+  </Step>
+  <Step num="3" title="Pillage des ressources">
+    Une fois la zone immédiate sécurisée, fouillez chaque conteneur. Les matériaux d'artisanat comme le tissu, le métal et les produits chimiques sont nécessaires pour fabriquer des cocktails Molotov en cours de mission.
+  </Step>
+</Steps>
+
+| Objet à fabriquer | Composants requis | Meilleur cas d'utilisation |
+| :--- | :--- | :--- |
+| **Cocktail Molotov** | Alcool, Chiffon, Carburant | **Déni de zone / Zombies** |
+| **Bandage** | Tissu, Alcool | Arrêt immédiat des saignements |
+| **Munitions 9mm** | Plomb, Poudre | Utilisation standard pistolet/PM |
+| **Bombe artisanale** | Tuyau métallique, Poudre | **Cibles lourdement blindées** |
+
+<Callout type="warning" title="Avertissement de discrétion">
+Les zombies sont particulièrement sensibles au bruit. L'utilisation d'armes à feu sans silencieux attirera toutes les « hordes » (Swarm) des environs vers votre position, ce qui mène souvent à se faire submerger en début de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Factions et étapes de progression">
+
+Au fil de votre progression dans la campagne de 2026, vous rencontrerez diverses factions. Vos interactions, qu'elles soient diplomatiques ou basées sur la force, dicteront les bâtiments spéciaux que vous pourrez construire dans votre colonie et la qualité de l'équipement disponible pour le commerce.
+
+<Checklist
+  id="progression-checklist"
+  title="Étapes de survie :"
+  items={[
+    "Sécuriser une source fiable d'eau potable",
+    "Établir un accord commercial neutre avec la première faction",
+    "Fabriquer un ensemble complet d'armure renforcée de niveau 2",
+    "Nettoyer l'hôpital local pour récupérer des plans médicaux",
+    "Débloquer les tactiques de suppression de « Horde » dans l'arbre de compétences"
+  ]}
+/>
+
+| Type de faction | Avantage principal | Risque potentiel |
+| :--- | :--- | :--- |
+| **Survivalistes** | Modifications d'armes de haut niveau | Hostiles aux étrangers |
+| **Civils** | Commerce régulier de nourriture | Mal armés / Ont besoin de protection |
+| **Vestiges militaires** | **Balistique avancée** | Coût d'alliance élevé |
+
+<Callout type="info" title="Conseil sur les factions">
+N'essayez pas de plaire à tout le monde. S'allier avec une faction bloque souvent les avantages d'une autre, mais les bâtiments spécialisés qu'elles fournissent (comme les camps d'entraînement avancés) en valent la peine.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ d'Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Comment fonctionne le système de ciblage des membres dans Urban Strife ?",
+    answer: "Pendant votre tour, vous pouvez sélectionner des parties du corps spécifiques d'un ennemi. Cibler la tête augmente les dégâts et les chances d'élimination instantanée, tandis que cibler les jambes réduit leurs points d'action pour le tour suivant. C'est essentiel pour gérer les ennemis de mêlée dangereux."
+  },
+  {
+    question: "Puis-je éviter complètement le combat en utilisant la discrétion ?",
+    answer: "Bien que vous puissiez contourner de nombreux affrontements en utilisant le mode d'exploration en temps réel et en restant hors de portée de vue et d'audition des ennemis, certains objectifs liés à l'histoire nécessiteront un combat tactique au tour par tour."
+  },
+  {
+    question: "Quelle est la meilleure façon de gérer les points d'action (PA) ?",
+    answer: "Assurez-vous toujours d'avoir assez de PA à la fin d'un déplacement pour adopter une posture défensive ou effectuer un « Tir réflexe ». Se déplacer trop loin à découvert sans points pour s'abriter ou se mettre en alerte est la cause la plus fréquente d'élimination de l'escouade."
+  },
+  {
+    question: "Sur quoi dois-je me concentrer en priorité pour l'artisanat dans ce guide d'Urban Strife ?",
+    answer: "Donnez la priorité aux cocktails Molotov et aux bandages de base. Les Molotovs sont très efficaces pour contrôler les foules de zombies, tandis que les bandages sont nécessaires pour stopper l'effet de statut « Saignement » qui peut rapidement vider la santé d'un survivant."
+  }
+]} />
+
+</Section>

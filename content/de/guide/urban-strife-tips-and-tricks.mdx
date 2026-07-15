@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Tipps und Tricks: Survival- & Taktik-Guide",
+  description: "Meistern Sie Urban Strife mit wichtigen Tipps und Tricks. Lernen Sie taktische Kämpfe, Prioritäten für Shelter-Upgrades, Fraktionsentscheidungen und Charakter-Builds kennen.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/dd322c/fff?text=Survival+Tips+and+Tricks",
+  date: "2026-07-16",
+  author: "urban strife Wiki-Team",
+  keywords: "Urban Strife, Tipps, Tricks, Survival, Taktik, Guide, Kampf, Shelter, Fraktionen"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kampfstrategie**: Beherrschen Sie das rundenbasierte AP-System, Deckungsmaterialien und Stealth-Mechaniken, um Gefechte zu gewinnen.
+- **Shelter-Priorität**: Konzentrieren Sie sich auf die Stabilisierung der täglichen Versorgung mit Nahrung, Wasser und Strom, bevor Sie in fortgeschrittene Industriezweige expandieren.
+- **Waffenwahl**: Passen Sie die taktische Rolle jedem Einsatz an; nutzen Sie Schrotflinten für Horden und Gewehre für menschliche Scharfschützen.
+- **Fraktionsbündnisse**: Bauen Sie Ihren Ruf vor Ort aus, um mächtige fraktionsspezifische Upgrades und Händler für das Late-Game freizuschalten.
+- **Belagerungsvorbereitung**: Halten Sie Ihre Ausrüstung repariert und die Verteidigungsanlagen unter Strom, bevor der Angriff der Atlanta-Horde an Tag 20 erfolgt.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Tipps und Tricks für Anfänger">
+
+Das Überleben in den postapokalyptischen Straßen von Urban County erfordert eine Mischung aus taktischer Geduld, sorgfältigem Ressourcenmanagement und strategischer Voraussicht. In diesem Guide behandeln wir die wichtigsten **Urban Strife Tipps und Tricks**, die Ihnen helfen, eine florierende Miliz aufzubauen, Ihre Heimatbasis wieder aufzubauen und die Untoten-Horden zu überleben.
+
+Konzentrieren Sie sich zu Beginn Ihrer Kampagne darauf, zu lernen, wie Sie Ihr Inventar verwalten, Ihren Trupp gesund halten und unnötige Schießereien vermeiden. Munition und medizinische Vorräte sind in den ersten Stunden knappe Ressourcen. Daher ist es genauso wichtig zu lernen, wann man leise kämpft, wie zu wissen, wie man ein Gewehr zielt.
+
+| Frühes Ziel | Hauptfokus | Praktischer Nutzen |
+| :--- | :--- | :--- |
+| **Tutorial-Brücke** | Erlernen von Grundbewegungen, Quick-Slots und Kampfaktionen | Verhindert grundlegende taktische Fehler in frühen Sektoren |
+| **Spawner zerstören** | Aktive Zombie-Spawner schnell lokalisieren und eliminieren | Stoppt endlose Wellen von Untoten, die Ihr Team überwältigen könnten |
+| **Shelter-Notizbuch** | Überprüfung verfügbarer Upgrades und Ressourcenkategorien | Hilft bei der Planung Ihrer unmittelbaren Plünderungs- und Bauziele |
+| **Team-Setup** | Kombination aus Fernkampfpräzision, leisem Nahkampf und Medizin | Stellt sicher, dass Ihr Trupp verschiedene Bedrohungen sicher bewältigen kann |
+
+<Callout type="tip" title="Profi-Tipp">
+Lesen Sie die Tutorial-Popups immer aufmerksam durch, anstatt sie sofort zu schließen. Wenn Sie eine Mechanik später noch einmal überprüfen müssen, können Sie abgeschlossene Hilfebildschirme direkt über das Haupt-HUD erneut öffnen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Taktischer Kampf und Beherrschung der Aktionspunkte">
+
+Der Kampf in diesem taktischen RPG basiert auf simulierten Geschossbahnen, Materialdurchdringung und präzisem Management der Aktionspunkte (AP). Egal, ob Sie gegen rivalisierende menschliche Fraktionen kämpfen oder sich gegen eine massive Welle von Zombies verteidigen: Positionierung und Lärmkontrolle sind der Schlüssel zum Sieg.
+
+### Vergleich der Kampfmechaniken
+
+| Taktisches Element | Kampfanwendung | Wichtige Einschränkungen |
+| :--- | :--- | :--- |
+| **Aktionspunkte (AP)** | Bestimmt Bewegung, Angriffe und Gegenstandsnutzung | Wenn die AP im offenen Gelände ausgehen, bleiben Charaktere verwundbar |
+| **Stealth & Lärm** | Nutzung von Nahkampf und Armbrüsten, um Gruppen nicht zu alarmieren | Schlägt sofort fehl, wenn eine laute Schusswaffe abgefeuert wird |
+| **Überwachung (Y)** | Richtet Reaktionsangriffe während des gegnerischen Zuges ein | Schusslinien können durch sich bewegende Teammitglieder blockiert werden |
+| **Körperteil-Zielerfassung** | Zielt auf Köpfe für Schaden oder Gliedmaßen, um Ziele zu verkrüppeln | Kopfschüsse haben deutlich geringere Basis-Trefferchancen |
+
+<CardGrid cols={3}>
+  <Card title="Taktiken gegen Menschen">
+    - **Nutzen Sie Flankenmanöver**, um gegnerische Deckungswinkel zu umgehen.
+    - **Setzen Sie großkalibrige Gewehre ein**, um dünne Holzwände zu durchschlagen.
+    - **Schützen Sie Frontkämpfer** mit reparierter Körperpanzerung.
+  </Card>
+  <Card title="Verteidigung gegen Zombiehorden">
+    - **Leiten Sie Gruppen in Engpässe** wie schmale Türöffnungen.
+    - **Rüsten Sie Schrotflinten und Automatikwaffen** zur Massenkontrolle aus.
+    - **Setzen Sie Molotowcocktails ein**, um Vormarschwege mit Feuer zu blockieren.
+  </Card>
+  <Card title="Allgemeine Positionierung">
+    - **Beenden Sie Züge immer in Deckung**, um die gegnerische Trefferchance zu senken.
+    - **Ducken Sie sich hinter schweren Objekten** wie Motorblöcken von Autos.
+    - **Suchen Sie erhöhte Positionen**, um Reichweiten- und Genauigkeitsmodifikatoren zu erhöhen.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warnung">
+Ballistische Platten absorbieren schweren Schaden, nutzen sich bei Treffern aber schnell ab. Im Gegensatz zu Standard-Körperpanzerung sind diese Platten Verbrauchsmaterial und können nicht repariert werden, wenn sie zerstört sind.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Überlebenden-Entwicklung und Spezialisten-Builds">
+
+Ihre Truppmitglieder werden stärker, indem sie Aktionen im Feld ausführen. Das wiederholte Abfeuern von Waffen, Schleichen oder Behandeln von Wunden verbessert direkt die entsprechenden Attribute. Um ein effizientes Team aufzubauen, weisen Sie Ihren Überlebenden spezifische Rollen zu und lassen Sie ihre Felderfahrung ihre Stärken verstärken.
+
+<Steps>
+  <Step num="1" title="Native Perks identifizieren">
+    Überprüfen Sie die Biografie, die nativen Perks und die einzigartigen Merkmale jedes Rekruten. Zwei Überlebende könnten dieselbe Rolle ausfüllen, aber basierend auf ihrem Hintergrund in unterschiedlichen Situationen glänzen.
+  </Step>
+  <Step num="2" title="Attribute durch Aktionen trainieren">
+    Lassen Sie Ihren designierten Schützen Fernangriffe ausführen, lassen Sie Ihren Sanitäter alle Heilgegenstände anwenden und lassen Sie Ihren Stealth-Scout geduckt gehen, um die Kernattribute natürlich zu steigern.
+  </Step>
+  <Step num="3" title="Passende Berufs-Perks auswählen">
+    Nutzen Sie das dreistufige Berufs-Perk-System, um die Primäraufgabe Ihres Überlebenden zu verstärken. Vermeiden Sie es, einen Spezialisten mit hohen Handwerksfertigkeiten in eine reine Frontkampfrolle zu zwingen.
+  </Step>
+</Steps>
+
+| Spezialistenrolle | Kernattribute | Primäre Feldverantwortung |
+| :--- | :--- | :--- |
+| **Fernschütze** | Treffsicherheit, Beweglichkeit | Sichern von Überwachungslinien und Ausschalten wichtiger Ziele |
+| **Nahkämpfer** | Stärke, Geschicklichkeit, Ausdauer | Einsparen von Munition und Ausführen lautloser Takedowns |
+| **Stealth-Scout** | Beweglichkeit, Geschicklichkeit | Aufspüren gegnerischer Positionen und Vorbereiten leiser Hinterhalte |
+| **Kampfsanitäter** | Geschicklichkeit, Intelligenz, Ausdauer | Verletzte Kämpfer unter schwerem Druck einsatzfähig halten |
+
+<Callout type="info" title="Hinweis">
+Intelligenz ist ein sehr wertvolles Attribut, da es die allgemeine Progressionsgeschwindigkeit aller anderen Attribute erhöht und einzigartige Dialogoptionen freischaltet.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Shelter-Upgrades und Crafting-Prioritäten">
+
+Der Shelter dient als Ihre Operationsbasis und ist der ultimative Test für Ihre Überlebensstrategie. Das Aufrüsten Ihrer Einrichtungen in einer logischen Reihenfolge stellt sicher, dass Ihre Gemeinschaft ernährt, gesund und gut verteidigt bleibt, bevor die finale Belagerung der Kampagne beginnt.
+
+### Shelter-Upgrade-Pfad
+
+| Phase | Priorität | Einrichtungsfokus | Strategischer Zweck |
+| :--- | :--- | :--- | :--- |
+| **1. Stabilisieren** | Sofort | Nahrung, Wasser, Treibstoff und Strom | Verhindert den täglichen Ressourcenverfall und hält Anlagen in Betrieb |
+| **2. Wiederherstellen** | Hoch | Funkgerät, Krankenhaus, Werkstatt, Baracken | Schaltet den Kernfortschritt der Kampagne und die Heilung des Trupps frei |
+| **3. Produzieren** | Hoch | Gärten, Hydrokulturen, Rattenfarmen | Verringert die Abhängigkeit von Plünderungstouren für Grundnahrungsmittel |
+| **4. Waffenkammer** | Mittel | Umgerüstete Werkstatt, Büchsenmacherbank | Ermöglicht Munitionscrafting, Waffenreparaturen und Modifikationen |
+| **5. Verteidigung** | Late-Game | Befestigungen, Elektrozäune, Solar | Bereitet die Basis physisch auf den Angriff der Horden an Tag 20 vor |
+
+<Callout type="success" title="Erfolg">
+Sie können Gegenstände direkt mit Ressourcen herstellen, die in Ihrem Basislager oder in nahegelegenen Beutebehältern gelagert sind. Das manuelle Hin- und Herschieben von Gegenständen im Inventar entfällt dadurch.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fraktionsbeziehungen und Erkundung des County">
+
+Drei große Fraktionen kämpfen um die Kontrolle über Urban County: die Nationalgarde (Rogue Army Garrison), die Church of Second Chance und die Shady Lady Bikers. Ihr Ruf bei diesen Gruppen beeinflusst, wie Händler Sie behandeln, welche Rekruten sich Ihrer Sache anschließen und wer Ihnen im Finale beisteht.
+
+<Checklist
+  id="faction-goals"
+  title="Fraktions- und Kampagnen-Meilensteine:"
+  items={[
+    "Schließen Sie lokale Quests ab, um Ruf bei Ihrer gewählten Fraktion aufzubauen",
+    "Sichern Sie sich genug politische Unterstützung und Stimmen, um das Fraktionshauptquartier zu betreten",
+    "Schalten Sie fortgeschrittene Tier-3-Händler und fraktionsspezifische Fahrzeug-Upgrades frei",
+    "Etablieren Sie eine formelle Allianz, um Ihren Unterstützungspfad für das Endspiel festzulegen",
+    "Überwachen Sie umherziehende Untoten-Horden auf der County-Karte, um befreundete Sektoren zu schützen"
+  ]}
+/>
+
+<Callout type="warning" title="Endspiel-Warnung">
+Das Eingehen einer formellen Allianz mit einer Fraktion sperrt dauerhaft die Upgrade-Pfade und Unterstützungssysteme ihrer Rivalen. Wählen Sie Ihre Verbündeten vor dem finalen Konflikt sorgfältig aus.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was sind die besten Urban Strife Tipps und Tricks zum Sparen von Munition?",
+    answer: "Nutzen Sie Nahkampfwaffen, Armbrüste oder schallgedämpfte Pistolen, um isolierte Zombies lautlos auszuschalten. Sparen Sie teure Schrotpatronen, automatisches Feuer und großkalibrige Gewehrmunition für gruppierte menschliche Feinde oder große Horden auf, die Ihren Trupp bedrohen."
+  },
+  {
+    question: "Wie repariere ich beschädigte Waffen und Körperpanzerung?",
+    answer: "Sobald Sie Owens Reparaturbetrieb im Shelter freigeschaltet haben, können Sie die Haltbarkeit von Waffen und Rüstungen mit Teilen wiederherstellen, die aus doppelter oder unerwünschter Ausrüstung gewonnen wurden. Beachten Sie, dass verbrauchbare ballistische Platten nicht repariert werden können."
+  },
+  {
+    question: "Was passiert, wenn eine Siedlung an eine umherziehende Untoten-Horde fällt?",
+    answer: "Wenn es Ihnen nicht gelingt, eine Siedlung zu verteidigen, kann sie dauerhaft verloren gehen, und die Bewohner können als mächtige, gepanzerte untote Feinde zurückkehren. Zudem erzeugen gefallene Siedlungen mehr umherziehende Horden, die sich über die Karte ausbreiten."
+  },
+  {
+    question: "Wann findet die finale Belagerung durch die Atlanta-Horde statt?",
+    answer: "Die finale Belagerung ist für Tag 20 Ihrer Kampagne angesetzt. Das Funkgerät wird 24 In-Game-Stunden vor Beginn des Angriffs eine Warnung senden, was Ihnen ein letztes Zeitfenster gibt, um zum Shelter zurückzukehren, die Verteidigung hochzufahren und Ihre Kampfausrüstung zu reparieren."
+  }
+]} />
+
+</Section>

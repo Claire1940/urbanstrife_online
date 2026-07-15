@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife vs. Dead State: Vergleich & Überlebensmechaniken-Guide",
+  description: "Entdecken Sie die wichtigsten Unterschiede zwischen Urban Strife und Dead State, einschließlich rundenbasiertem Kampf, Basis-Management und Plünderungstaktiken für Spieler im Jahr 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+vs+Dead+State",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team",
+  keywords: "Urban Strife, Dead State, Vergleich, Überlebensmechaniken, rundenbasierter Kampf, Basis-Management"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Urban Strife vs. Dead State**: Beide Spiele teilen die DNA des rundenbasierten taktischen Überlebenskampfes, aber Urban Strife bietet eine modernisierte Engine und verfeinerte Raster-Mechaniken.
+- **Überlebens-Timer**: Spieler stehen vor der drohenden Gefahr einer Zombiehorde, die in etwa **20 Tagen** eintrifft, was ein effizientes Zeitmanagement erfordert.
+- **Basis-Management**: Die Spende von Ressourcen erfolgt manuell und erfordert ständiges Plündern von Nahrungsmitteln und medizinischen Vorräten, um den Unterschlupf zu erhalten.
+- **Kampftiefe**: Taktische Optionen wie **Overwatch** (Überwachung), Schleichen in der Hocke und das gezielte Anvisieren von Körperteilen sind überlebenswichtig bei Begegnungen mit Banden.
+- **Atmosphäre**: Während Dead State ein Kultklassiker ist, bietet Urban Strife eine ähnliche "Karten-Atmosphäre" mit aktualisierter Grafik und einem komplexeren Crafting-System.
+</Callout>
+
+<Section icon={Map} title="Kern-Gameplay: Vergleich zwischen Urban Strife und Dead State">
+
+Bei der Bewertung von **Urban Strife vs. Dead State** ist es unmöglich, die spirituelle Abstammung zu ignorieren. Urban Strife übernimmt die grundlegenden Elemente klassischer Zombie-Survival-RPGs und aktualisiert sie für ein modernes Publikum. Beide Spiele betonen eine Top-Down-Perspektive, rundenbasierten taktischen Kampf auf Rastern und eine Welt, in der menschliche Fraktionen oft gefährlicher sind als die Untoten. Urban Strife führt jedoch einen strengeren Zeitplan und einen unverwechselbaren visuellen Stil ein, einschließlich des Einsatzes von KI-gestützten Charakterporträts, die in der Community für erhebliche Diskussionen gesorgt haben.
+
+**Video-Highlights:**
+- **Full Release Gameplay**: Ein Blick auf die Version 1.0 von Urban Strife und den Fortschritt im frühen Spiel.
+- **Kampfmechaniken**: Demonstration des rundenbasierten Systems, einschließlich Kopfschüssen und Nahkampf-Ragdoll-Physik.
+- **Basis-Interaktion**: So verwalten Sie das Inventar und spenden Vorräte an das Gemeinschaftslager.
+- **Dead State Vibes**: Direkte Vergleiche mit der Atmosphäre und dem Kartendesign des Vorgängers.
+
+<YouTubeEmbed videoId="LiWPNwzvlBY" title="Urban Strife - Turn Based Zombie Survival Full Release Gameplay" />
+
+| Feature | Urban Strife | Dead State |
+| :--- | :--- | :--- |
+| **Engine** | Modernes 3D / Unreal | Torque 3D (Legacy) |
+| **Kampf** | Rundenbasiert / Raster | Rundenbasiert / Raster |
+| **Zeitplan** | 20-Tage-Horden-Timer | Open-End-Überleben |
+| **Fraktionen** | Mehrere Banden (Cassidy Boys) | Diverse Unterschlupf-Gruppen |
+| **Porträts** | KI-generiert / Nachbearbeitet | Handgezeichnet / Traditionell |
+| **Crafting** | Tiefgründig (Molotows, Nagelbomben) | Standard-Überlebens-Crafting |
+
+<Callout type="tip" title="Strategische Erkenntnis">
+Wenn Ihnen die atmosphärische Spannung von Dead State gefallen hat, wird Ihnen die Kartennavigation in Urban Strife sehr vertraut vorkommen. Der Übergang zwischen der Weltkarte und taktischen Orten behält das klassische Survival-RPG-Gefühl bei.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Taktischer Kampf und Schleichmechaniken">
+
+Der Kampf in Urban Strife ist unerbittlich. Im Gegensatz zu schnelleren RPGs zählt jeder Aktionspunkt (AP) erheblich. Spieler müssen den von Schusswaffen erzeugten Lärm gegen die Effizienz von Nahkampfwaffen abwägen. Schleichen ist nicht nur eine sekundäre Option; es ist oft eine Notwendigkeit, wenn man in von Banden kontrollierte Vororte wie Adam's Villa eindringt. Das Hocken verringert die Sichtbarkeit und verbessert die Genauigkeit, schränkt jedoch die Mobilität ein.
+
+<CardGrid cols={2}>
+  <Card title="Schleichender Ansatz">
+    - **Geringerer Lärm**: Nutzen Sie Armbrüste oder Nahkampf, um nicht die gesamte Karte zu alarmieren.
+    - **Hocken**: Verbessert den Schleichwert und bietet bessere Deckungsboni.
+    - **Hinterhalt**: Hohes kritisches Schadenspotenzial bei unachtsamen Feinden.
+  </Card>
+  <Card title="Aggressiver Kampf">
+    - **Overwatch**: Richten Sie Zonen ein, um feindliche Bewegungen während ihres Zuges zu unterbrechen.
+    - **Sprengstoffe**: Nutzen Sie Molotowcocktails und Rohrbomben zur Gebietsabsperrung.
+    - **Sperrfeuer**: Verwenden Sie Großkalibergeschosse, um Ziele zu betäuben oder Blutungen zu verursachen.
+  </Card>
+</CardGrid>
+
+| Waffentyp | Schadenspotenzial | Lärmpegel | Spezielle Effekte |
+| :--- | :--- | :--- | :--- |
+| **Nahkampf (Schlagstock)** | Mittel | Lautlos | Betäubung, stumpfes Trauma |
+| **Armbrust** | Mittel | Lautlos | Hohe Genauigkeit, langsames Nachladen |
+| **Schrotflinte** | Hoch | Extrem | Rückstoß, Blutung |
+| **Nagelpistole** | Niedrig | Niedrig | Schnelles Feuer, herstellbare Munition |
+| **Molotow** | Flächenwirkung | Moderat | Brandschaden über Zeit |
+
+<Callout type="warning" title="Verletzungsmanagement">
+Blutungen sind ein häufiger Statuseffekt in Urban Strife. Tragen Sie immer Bandagen in Ihren aktiven Schnellzugriffs-Slots. Wenn ein Charakter blutet, sinkt seine Gesundheit in jeder Runde rapide, bis er behandelt wird.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Basis-Management und Ressourcensuche">
+
+Im Vergleich von **Urban Strife vs. Dead State** fühlt sich das Basis-Management-System in Urban Strife manueller an. Sie "haben" nicht einfach Vorräte; Sie müssen sie aktiv plündern und dann manuell an das Gemeinschaftslager spenden, um den täglichen Bedarf zu decken. Der Unterschlupf verbraucht alle 24 Stunden Nahrung und medizinische Vorräte, und das Verfehlen dieser Quoten kann zu Moralverlust oder dem Tod von Charakteren führen.
+
+<Steps>
+  <Step num="1" title="Erste Plünderungen">
+    Konzentrieren Sie sich auf "Basisvorräte" wie Zeitschriften, feinen Alkohol und Dosenfutter in Wohngebieten.
+  </Step>
+  <Step num="2" title="Materialbeschaffung">
+    Sammeln Sie Metallschrott, Draht und Keramikfliesen, um fortschrittliche Handwerksrezepte wie ballistische Platten freizuschalten.
+  </Step>
+  <Step num="3" title="Manuelle Spende">
+    Kehren Sie zum Unterschlupf zurück und sprechen Sie mit dem Quartiermeister (z. B. Kimberly), um Gegenstände aus Ihrem persönlichen Lager in den Gemeinschaftspool zu verschieben.
+  </Step>
+  <Step num="4" title="Fähigkeiten verbessern">
+    Nutzen Sie die Auszeit, um die Charakterprotokolle auf Steigerungen von Beweglichkeit, Geschicklichkeit und Ausdauer zu überprüfen, die Sie während der Feldeinsätze erworben haben.
+  </Step>
+</Steps>
+
+| Ressource | Hauptquelle | Verwendung | Priorität |
+| :--- | :--- | :--- | :--- |
+| **Nahrung** | Vororte, Küchen | Täglicher Verbrauch | ★★★★★ |
+| **Medizin** | Apotheken, Kliniken | Heilung von Verletzungen | ★★★★☆ |
+| **Benzin** | Garagen, Autos | Generator / Reisen | ★★★☆☆ |
+| **Schrott** | Industriegebiete | Crafting / Reparaturen | ★★★☆☆ |
+
+<Callout type="success" title="Effizienz-Tipp">
+Ignorieren Sie keine "Müll"-Gegenstände wie Vaseline oder Sprühfarbe. Diese werden oft für spezielle, hochrangige Handwerksrezepte benötigt, die Ihrer Truppe im Kampf einen erheblichen Vorteil verschaffen können.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fraktionen und Weltinteraktion">
+
+Die Welt von Urban Strife ist von verschiedenen Banden und Überlebensgruppen wie den Cassidy Boys bevölkert. Ihre Interaktionen mit diesen Gruppen bestimmen den Schwierigkeitsgrad bestimmter Sektoren. Während Sie versuchen können, Fraktionen gegeneinander auszuspielen, erzwingt die Realität der Apokalypse oft eine "Alles was rot ist, muss weg"-Mentalität. Die Erzählung des Spiels wird durch den Zusammenbruch von Atlanta und das Eintreffen eines CDC-Konvois vorangetrieben, was einen strukturierten Hintergrund für Ihre Überlebensbemühungen bietet.
+
+<Checklist
+  id="faction-goals"
+  title="Fraktions- & Erkundungs-Checkliste:"
+  items={[
+    "Lokalisieren Sie das Büro des Sheriffs in Adam's Villa",
+    "Identifizieren Sie bandenkontrollierte Gebiete auf der Weltkarte",
+    "Sichern Sie das Waffenlager im Keller des Vororts",
+    "Interagieren Sie mit wichtigen NPCs wie Colonel Sanders und Billy Bow",
+    "Reparieren Sie das Funkgerät, um Langstreckenverbindungen herzustellen"
+  ]}
+/>
+
+<Callout type="info" title="Charakterporträts">
+Beachten Sie, dass die Charakterporträts einen KI-gestützten Stil verwenden, der bei einigen Spielern einen "Uncanny Valley"-Effekt (Unbehaglichkeit) hervorruft. Die Entwickler haben angedeutet, dass sie diese basierend auf dem Feedback der Community im Laufe der Zeit nachbessern werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritt und Überleben FAQ">
+
+Während Sie den 20-Tage-Zyklus durchlaufen, steigt der Schwierigkeitsgrad erheblich an. Das Verständnis der Nuancen des Inventarsystems – insbesondere des Unterschieds zwischen Tragegewicht und Slot-Kapazität – ist überlebenswichtig. Oft werden Sie feststellen, dass Ihre Slots "voll" sind, bevor Sie überlastet sind, was schwierige Entscheidungen darüber erfordert, was Sie zurücklassen müssen.
+
+| Gegenstandskategorie | Tragestrategie | Empfohlener Charakter |
+| :--- | :--- | :--- |
+| **Schwere Waffen** | Nur Haupt-Slot | Hohe Stärke (Billy Bow) |
+| **Munition/Verbrauchsgüter** | Schnellzugriffs-Slots | Sanitäter / Aufklärer |
+| **Geplünderte Beute** | Rucksack / Lager | Charaktere mit hoher Ausdauer |
+| **Quest-Gegenstände** | Persönliches Inventar | Hauptcharakter |
+
+<FAQ items={[
+  {
+    question: "Wie unterscheidet sich der Kampf in Urban Strife von Dead State?",
+    answer: "Urban Strife bietet ein verfeinertes Deckungssystem und ein besseres visuelles Feedback für Trefferchancen (z. B. 77% Kopfschuss). Es enthält auch mehr Umweltgefahren und eine moderne Benutzeroberfläche im Vergleich zur älteren Engine von Dead State."
+  },
+  {
+    question: "Was ist die wichtigste Ressource, die man früh plündern sollte?",
+    answer: "Nahrung und medizinische Vorräte haben die höchste Priorität. Der Unterschlupf verbraucht täglich eine festgelegte Menge (ca. 30 Einheiten), und man kann schnell ins Hintertreffen geraten, wenn man Wohngebiete nicht frühzeitig plündert."
+  },
+  {
+    question: "Kann ich die Ankunft der Zombiehorde nach 20 Tagen verhindern?",
+    answer: "Der 20-Tage-Timer ist eine zentrale erzählerische Mechanik. Sie können die Ankunft der Horde zwar nicht verhindern, aber Sie können die Zeit nutzen, um Ihre Basis zu befestigen, Ihre Überlebenden auszubilden und Munition zu horten."
+  },
+  {
+    question: "Gibt es in Urban Strife ein Limit für das Tragegewicht?",
+    answer: "Ja, Charaktere haben sowohl ein Tragegewichtslimit, das auf ihrer Stärke basiert, als auch eine begrenzte Anzahl von Inventarslots. Überlastete Charaktere bewegen sich langsamer und haben im Kampf reduzierte AP."
+  }
+]} />
+
+<Callout type="tip" title="Abschließende Empfehlung">
+Wenn Ihnen der reguläre Preis des Spiels etwas zu hoch erscheint, warten Sie auf einen Sale. Für Fans des Genres, die das ursprüngliche Dead State geliebt haben, bietet Urban Strife jedoch eine sehr ähnliche und befriedigende taktische Erfahrung, die die Investition für den 1.0-Release definitiv wert ist.
+</Callout>
+
+</Section>

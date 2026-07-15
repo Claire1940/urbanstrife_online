@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Rapport de reconnaissance de la pharmacie dans Urban Strife : Guide complet",
+  description: "Maîtrisez la mission du rapport de reconnaissance de la pharmacie dans Urban Strife grâce à notre guide 2026. Découvrez les combats tactiques, les choix de factions et l'emplacement du butin.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Pharmacy+Scout+Report+Guide",
+  date: "2026-07-16",
+  author: "Équipe Wiki Urban Strife",
+  keywords: "urban strife, rapport de reconnaissance pharmacie, guide, mission, tactique, factions"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Rapport de reconnaissance de la pharmacie (urban strife pharmacy scout report)** : Un document de renseignement crucial en début de partie pour influencer votre réputation auprès des factions.
+- **Objectif principal** : Sécuriser l'établissement médical dans le secteur suburbain et récupérer les informations documentées.
+- **Approche tactique** : Privilégiez la **discrétion** et le **corps à corps** pour nettoyer l'intérieur sans alerter la horde environnante.
+- **Impact de faction** : Le choix du destinataire (les Bikers ou la Milice) détermine votre accès aux équipements de début de partie et les prix du commerce.
+- **Récompense clé** : Débloque des fournitures médicales avancées et des pistes de recrutement potentielles pour l'Abri Urbain (Urban Shelter).
+</Callout>
+
+<Section icon={Map} title="Comprendre le rapport de reconnaissance de la pharmacie">
+
+Avec la sortie officielle de la version 1.0 d'Urban Strife le **14 juillet 2026**, les joueurs plongent dans le réseau complexe de la politique des factions et de la survie tactique. Le **rapport de reconnaissance de la pharmacie** représente l'un des premiers points de décision majeurs de la campagne d'Urban County. Cette mission ne consiste pas seulement à trouver un morceau de papier ; c'est un test de la capacité de votre escouade à naviguer dans des environnements intérieurs étroits tout en gérant les niveaux de bruit qui attirent les morts-vivants.
+
+Le rapport contient des informations vitales concernant les stocks de médicaments restants dans la région. Dans un monde où les antibiotiques sont aussi précieux que les munitions, savoir où sont cachées les fournitures "propres" donne à la faction de votre choix un avantage stratégique massif. En tant que chef de file de l'Abri Urbain, la façon dont vous gérerez ce rapport définira votre relation avec les Bikers (Shady Lady Bikers) et la Milice locale.
+
+| Caractéristique | Spécification |
+|:--- |:--- |
+| **Type de mission** | Récupération tactique / Renseignements de faction |
+| **Lieu cible** | Pharmacie de banlieue (Secteur B-12) |
+| **Ennemis principaux** | Rôdeurs de bas niveau, embuscade possible de pillards |
+| **Outils requis** | Crochets, pied-de-biche, armes de mêlée silencieuses |
+| **Objet clé** | Rapport de reconnaissance de la pharmacie (Document) |
+
+<Callout type="tip" title="Note de l'éditeur">
+Assurez-vous toujours que votre inventaire dispose d'au moins deux emplacements vides par personnage avant d'entrer dans la pharmacie. La densité de butin médical y est élevée, et vous ne voulez pas laisser de bandages de premiers secours derrière vous pendant que vous transportez le rapport.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : Obtenir le rapport de reconnaissance">
+
+Sécuriser le **rapport de reconnaissance de la pharmacie** nécessite une approche méthodique. La pharmacie est souvent entourée d'un périmètre "souple" de zombies qui peut facilement se transformer en un affrontement "difficile" si vous utilisez des armes à feu non silencieuses. Suivre cet itinéraire vous permet de minimiser la consommation de ressources tout en maximisant votre avantage tactique.
+
+<Steps>
+  <Step num="1" title="Reconnaissance du périmètre">
+    Approchez de la pharmacie par la ruelle arrière. Utilisez un personnage avec une grande **Agilité** pour observer par les fenêtres. Évitez l'entrée principale, car elle est souvent bloquée par des débris et attire davantage l'attention des hordes qui errent dans les rues.
+  </Step>
+  <Step num="2" title="Entrée silencieuse">
+    Utilisez un pied-de-biche ou des crochets sur la porte arrière. Si votre **Dextérité** est assez élevée, le crochetage est préférable pour maintenir la jauge de bruit à zéro. Une fois à l'intérieur, accroupissez-vous immédiatement pour réduire votre profil de détection.
+  </Step>
+  <Step num="3" title="Nettoyer l'intérieur">
+    La pharmacie contient généralement 3 ou 4 zombies piégés derrière les comptoirs. Utilisez des tirs d'interruption (**Interrupt Fire**) avec des arbalètes ou effectuez des éliminations silencieuses au corps à corps. N'utilisez pas d'explosifs à l'intérieur, car ils risquent de détruire les conteneurs abritant le rapport.
+  </Step>
+  <Step num="4" title="Récupérer les informations">
+    Le rapport est généralement situé dans le bureau du directeur à l'arrière ou à l'intérieur d'un coffre-fort au sol verrouillé derrière le comptoir des ordonnances. Fouillez en priorité tous les conteneurs mis en évidence comme "Objet de quête".
+  </Step>
+  <Step num="5" title="Exfiltration">
+    Une fois le rapport dans votre inventaire, sortez par la même porte arrière. Ne vous attardez pas à piller chaque étagère si la jauge de vigilance de la horde augmente. Revenez sur la carte du monde pour déclencher le dialogue de livraison à la faction.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement crucial">
+Dans la version 1.0, certains secteurs ont des générateurs de zombies ("Zombie Spawners") situés dans les sous-sols à proximité. Si vous mettez trop de temps à récupérer le rapport, la pharmacie risque d'être submergée par une seconde vague de morts-vivants.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat tactique et recommandations d'équipement">
+
+Le nettoyage du secteur de la pharmacie exige un équilibre entre vitesse et silence. L'intérieur étant exigu, les fusils de précision à longue portée sont un fardeau. Concentrez-vous plutôt sur des configurations à haute mobilité et sur l'efficacité en combat rapproché. La mission du **rapport de reconnaissance de la pharmacie** est le moment idéal pour tester vos armes de poing équipées de silencieux et vos armes de mêlée contondantes.
+
+<CardGrid cols={2}>
+  <Card title="L'infiltrateur discret">
+    - **Arme principale** : Arbalète ou pistolet avec silencieux
+    - **Arme de mêlée** : Couteau de combat ou machette
+    - **Compétence clé** : Discrétion et Agilité
+    - **Rôle** : Élimine discrètement les menaces intérieures et crochète les serrures.
+  </Card>
+  <Card title="Le briseur de première ligne">
+    - **Arme principale** : Fusil à pompe (uniquement en soutien)
+    - **Arme de mêlée** : Batte de baseball ou masse
+    - **Compétence clé** : Force et Endurance
+    - **Rôle** : Bloque les portes et gère les erreurs bruyantes.
+  </Card>
+</CardGrid>
+
+| Classe d'arme | Coût en PA | Niveau de bruit | Efficacité |
+|:--- |:--- |:--- |:--- |
+| **Arbalète** | Modéré | Silencieux | Élevée (Cible unique) |
+| **9mm avec silencieux** | Faible | Très faible | Modérée (Tirs à la tête) |
+| **Couteau de combat** | Très faible | Silencieux | Élevée (Attaques sournoises) |
+| **Fusil à pompe** | Élevé | Extrême | Urgence uniquement |
+
+<Callout type="success" title="Astuce tactique">
+Utilisez la commande "Attendre" (Wait) pour attirer les zombies dans les encadrements de portes. Cela crée un goulot d'étranglement où vos combattants au corps à corps peuvent utiliser la mécanique d'interruption (**Interrupt**) pour frapper avant que le zombie ne puisse terminer son mouvement.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Décision de faction : À qui donner le rapport ?">
+
+Une fois que vous avez le **rapport de reconnaissance de la pharmacie**, vous devez décider quelle faction soutenir. Ce choix a des conséquences à long terme sur la progression de votre campagne 2026. Il n'y a pas de "mauvais" choix, mais votre décision doit s'aligner sur les besoins actuels de votre Abri, qu'il s'agisse de meilleures armes ou de fournitures médicales plus régulières.
+
+| Faction | Récompense pour le rapport | Bénéfice à long terme |
+|:--- |:--- |:--- |
+| **Bikers (Shady Lady)** | Modifications d'armes du marché noir | Prix réduits sur les munitions/pièces |
+| **Milice locale** | Trousses de secours et antibiotiques | Meilleure réputation auprès des colons |
+| **Abri Urbain (Garder)** | Boost temporaire de moral | Capacité à fabriquer des médicaments de haut niveau |
+
+### Analyse de l'impact des factions
+- **Les Bikers** : Remettre le rapport au clan des Shady Lady améliore votre position auprès du côté mercantile d'Urban County. Ils débloqueront plus tôt les améliorations de l'**établi d'armurier** (Gunsmith Workbench), vous permettant de réparer les armes à feu endommagées trouvées sur le terrain.
+- **La Milice** : Choisir les restes de la Garde Nationale ou la Milice locale met l'accent sur la stabilité de la communauté. Ils fournissent les plans pour l'amélioration de l'**Hôpital** de votre Abri, indispensable pour soigner les infections et les blessures graves subies lors des sièges de hordes ultérieurs.
+
+<Callout type="info" title="Mise à jour de réputation">
+La réputation dans Urban Strife est un jeu à somme nulle au début. Gagner les faveurs des Bikers diminuera légèrement votre position auprès de la Milice, ce qui peut entraîner des frais de péage plus élevés lors de vos déplacements dans les secteurs sous leur contrôle.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Intégration à l'Abri et table de butin">
+
+La pharmacie ne contient pas seulement le rapport ; c'est une mine d'or pour les ressources nécessaires à l'amélioration de l'Abri Urbain. Après avoir sécurisé le **rapport de reconnaissance de la pharmacie**, veillez à piller les étagères restantes. Ces matériaux sont essentiels pour la phase de stabilisation de la survie quotidienne de votre base.
+
+<Checklist
+  id="pharmacy-loot"
+  title="Butin indispensable de la pharmacie :"
+  items={[
+    "Antibiotiques (Apparition rare dans les coffres à l'arrière)",
+    "Bandages propres (Cumulez-en au moins 10)",
+    "Produits chimiques (Utilisés pour la fabrication d'explosifs)",
+    "Eau distillée (Essentielle pour l'Hôpital)",
+    "Injections d'adrénaline (Utilité au combat)"
+  ]}
+/>
+
+| Catégorie d'objet | Utilisation dans l'Abri | Priorité |
+|:--- |:--- |:--- |
+| **Fournitures médicales** | Soigne les blessures et les maladies | **Élevée** |
+| **Produits chimiques** | Fabrication de munitions et de grenades | Moyenne |
+| **Ferraille** | Construction générale / réparations | Faible |
+| **Alcool** | Fabrication de cocktails Molotov / Moral | Moyenne |
+
+<Callout type="tip" title="Astuce de fabrication pro">
+Si vous avez un survivant avec une **Intelligence** élevée, utilisez-le pour fouiller la pharmacie. Il aura plus de chances de trouver des recettes de fabrication cachées pour des médicaments artisanaux dissimulées dans les dossiers du bureau.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion et FAQ">
+
+Le **rapport de reconnaissance de la pharmacie** est bien plus qu'une simple quête de récupération ; c'est votre introduction à la profondeur tactique et aux nuances politiques d'Urban Strife. En équilibrant discrétion, combat et loyauté envers les factions, vous posez les bases d'une campagne réussie menant au siège final de la horde d'Atlanta.
+
+<FAQ items={[
+  {
+    question: "Puis-je terminer la mission de la pharmacie sans tuer de zombies ?",
+    answer: "Oui, c'est possible en utilisant une configuration axée sur la discrétion et des grenades fumigènes, mais c'est extrêmement difficile. Il est généralement plus sûr d'éliminer silencieusement les 3 ou 4 zombies à l'intérieur du bâtiment."
+  },
+  {
+    question: "Que se passe-t-il si je perds le rapport de reconnaissance de la pharmacie ?",
+    answer: "Les objets de quête dans Urban Strife ne peuvent pas être vendus ou jetés accidentellement. Cependant, si le personnage qui le transporte meurt et que vous ne pouvez pas récupérer son corps, la mission échouera et vous perdrez l'opportunité d'améliorer votre réputation."
+  },
+  {
+    question: "L'emplacement du rapport change-t-il d'une partie à l'autre ?",
+    answer: "La pharmacie se trouve toujours dans le même secteur (B-12), mais le conteneur exact contenant le rapport peut être aléatoire, alternant entre le coffre-fort au sol et le bureau du directeur."
+  },
+  {
+    question: "Est-il préférable de donner le rapport aux Bikers ou à la Milice ?",
+    answer: "Pour les débutants, la Milice est recommandée car les récompenses médicales et les plans d'Hôpital rendent la survie en début de partie beaucoup plus clémente."
+  }
+]} />
+
+</Section>

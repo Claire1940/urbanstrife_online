@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Workshop: Complete Crafting & Repair Guide",
+  description: "Master the Urban Strife workshop. Learn to unlock blueprints, repair weapons and armor, and craft high-tier ammunition in the Version 1.0 release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b82823/fff?text=Workshop+And+Crafting+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: The **urban strife workshop** is the core facility for equipment maintenance, custom ammo fabrication, and weapon upgrades.
+- **Repair System**: Weapons and armor lose durability during combat. You must salvage duplicate gear to accumulate parts for repairs.
+- **Stash Integration**: Crafting draws directly from your global Shelter stash, removing the need to carry heavy raw materials in your active inventory.
+- **Progression Priority**: Restore the workshop early in Phase 2 to transition from scarce scavenged loot to self-sufficient custom loadouts.
+- **Ballistic Plates**: Remember that protective ballistic plates are expendable and cannot be repaired, even if the host armor is fully restored.
+</Callout>
+
+<Section icon={Map} title="Introduction to the Urban Strife Workshop">
+
+The post-apocalyptic county of Urban County is unforgiving, and relying solely on scavenged pre-war loot will eventually leave your militia outgunned. Rebuilding the **urban strife workshop** is your gateway to survival, turning broken scrap into combat-ready instruments of war. Launched in Version 1.0 on July 14, 2026, the complete game introduces deeper equipment repair systems and overhauled crafting chains that directly impact your defensive capabilities leading up to the final Atlanta horde siege.
+
+Unlike temporary field crafting, the dedicated home base workshop allows you to manage advanced industries, modify firearms, and recycle useless junk into high-grade components. By understanding how to efficiently run this facility, you ensure your squad maintains a decisive tactical advantage.
+
+| System Component | Primary Purpose | Unlock Requirement |
+|---|---|---|
+| **Salvaging Station** | Converts duplicate weapons/armor into raw parts | Available immediately at Shelter |
+| **Repair Bench** | Restores durability of firearms and suits of armor | Complete Owen's repair operation |
+| **Ammo Press** | Crafts match-grade, explosive, and custom bullets | Workshop Upgrade Level 2 |
+| **Tool Rack** | Lowers the Action Point cost of weapon modifications | Workshop Upgrade Level 1 |
+
+<Callout type="tip" title="Stash Convenience">
+You do not need to manually transfer metal, chemicals, or gunpowder to your character's backpack before crafting. The workshop interface automatically detects and draws resources directly from your global Shelter stash.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipment Repairs and Salvaging Rules">
+
+In the Version 1.0 release, weapons and body armor decay dynamically as they suffer wear-and-tear or absorb ballistic impacts. Operating damaged firearms increases the risk of malfunctions, while degraded armor offers significantly reduced protection against incoming rounds.
+
+To maintain your arsenal, you must establish a steady recycling loop. Salvaging unwanted weapons and armor produces specialized repair parts. By default, the game excludes currently equipped gear from the salvage screen to prevent accidental destruction of your active loadouts.
+
+| Equipment Type | Degradation Trigger | Repair Method | Special Rules |
+|---|---|---|---|
+| **Firearms** | Firing rounds, environmental exposure | Owen's Repair Bench using weapon parts | High-tier weapons require more advanced parts |
+| **Body Armor** | Absorbing ballistic or melee hits | Owen's Repair Bench using armor parts | Fabric backing can be fully restored |
+| **Ballistic Plates** | Directly absorbing high-penetration shots | Cannot be repaired | Must be replaced with fresh plates |
+| **Melee Tools** | Striking physical targets or doors | Standard workshop repair | Durability decays rapidly on hard surfaces |
+
+<Callout type="warning" title="Expendable Armor Plates">
+Do not waste resources trying to repair ballistic plates. These are designed as disposable inserts. Keep a stockpile of replacement plates in your stash and swap them out before embarking on high-difficulty sector missions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Workshop Progression">
+
+To fully optimize your crafting capabilities, you must upgrade your workshop in structured phases. Trying to craft high-tier military ammunition before securing basic tool access will stall your economy. Follow this progression path to establish an efficient industrial pipeline.
+
+<Steps>
+  <Step num="1" title="Secure Basic Construction Materials">
+    Scavenge nearby suburban sectors and residential blocks to gather wood, scrap metal, and hardware components. Keep these in your global stash rather than selling them to early traders.
+  </Step>
+  <Step num="2" title="Restore the Town-Center Workshop">
+    Spend your initial construction materials to repair the physical workshop building in the Shelter town center. This unlocks basic crafting options like Molotov cocktails and simple melee reinforcements.
+  </Step>
+  <Step num="3" title="Unlock Owen's Repair Operation">
+    Complete the recruitment and localized quests for Owen. Once he is stationed at your workshop, the repair interface becomes active, allowing you to restore damaged firearms.
+  </Step>
+  <Step num="4" title="Upgrade to Level 2 (Industrial Press)">
+    Invest rare electronic components and machinery parts to upgrade the workshop. This unlocks the Ammo Press, enabling the fabrication of custom ammunition types such as Dum-Dum and explosive rounds.
+  </Step>
+  <Step num="5" title="Integrate Faction Blueprints">
+    Establish alliances with major factions like the National Guard, the Church of Second Chance, or the Shady Lady Bikers. High-level reputation unlocks exclusive blueprints for advanced tactical gear.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Blueprint Acquisition">
+While basic blueprints are unlocked automatically by upgrading the workshop, rare and specialized recipes are hidden throughout Urban County. Check with faction traders and search secure safes in military checkpoints to find them.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Crafting Recipes and Specialization Options">
+
+The workshop allows you to specialize your squad's loadout based on your preferred tactical approach. Whether you favor silent operations or overwhelming firepower, choosing the right crafting priorities will save valuable resources.
+
+<CardGrid cols={3}>
+  <Card title="Stealth & Utility">
+    - **Suppressed Pistols**: Craft silencers at the gunsmith bench to eliminate isolated targets quietly.
+    - **Crossbow Bolts**: Produce reusable ammunition from basic wood and metal scraps.
+    - **Tactical Kits**: Fabricate lockpicks and medical shears to expand field options.
+  </Card>
+  <Card title="Horde Defense">
+    - **Molotov Cocktails**: Combine fuel and cloth to create immediate area-denial fire zones.
+    - **Shotgun Shells**: Manufacture high-spread buckshot to shred incoming zombie groups.
+    - **Pipe Bombs**: Produce cheap, high-noise explosives to lure and destroy clustered undead.
+  </Card>
+  <Card title="Anti-Armor Combat">
+    - **AP Ammunition**: Press armor-piercing rounds to bypass heavy helmets and ballistic vests.
+    - **Explosive Rounds**: Create specialized rifle ammo that fragments on impact.
+    - **Grenade Upgrades**: Retool standard fragmentation grenades for wider blast radiuses.
+  </Card>
+</CardGrid>
+
+| Crafted Item | Primary Ingredients | Workshop Level | Tactical Best Use |
+|---|---|---|---|
+| **Silencer (Pistol)** | Metal parts, Tool kit, Springs | Level 1 | Quietly clearing isolated perimeter guards |
+| **Dum-Dum Ammo** | Standard casing, Lead, Soft-point mold | Level 2 | Maximizing flesh damage against unarmored zombies |
+| **AP Rifle Rounds** | Steel cores, Gunpowder, Heavy casings | Level 3 | Defeating heavily armored Rogue Army soldiers |
+| **Molotov Cocktail** | Fuel, Glass bottle, Rags | Level 1 | Creating chokepoints during horde defenses |
+
+<Callout type="success" title="Militia Synergy">
+Assign a survivor with high Intelligence and Dexterity to run your crafting operations. Their attribute growth speeds up when performing repetitive utility tasks, and certain character perks can reduce overall material costs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Workshop Checklist for Siege Readiness">
+
+As the campaign progresses toward Day 20, the threat of the Atlanta horde looms over your Shelter. Your workshop must transition from a passive upgrade station into a high-output military production line. Use this checklist to ensure your defenses are fully prepared before the final radio warning sounds.
+
+<Checklist
+  id="workshop-siege-prep"
+  title="Pre-Siege Industrial Milestones:"
+  items={[
+    "Upgrade the workshop to Level 3 to access all advanced military blueprints.",
+    "Repair all primary and secondary firearms to 100% durability using Owen's bench.",
+    "Replace degraded ballistic plates in all frontline defender armor sets.",
+    "Convert surplus low-tier weapons into raw parts to fund emergency mid-battle repairs.",
+    "Craft and stockpile at least 50 rounds of specialized anti-horde ammunition per defender.",
+    "Ensure the Shelter power grid has enough fuel to run the workshop alongside active electric fences."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock the urban strife workshop for repairs?",
+    answer: "You must first repair the physical workshop facility in the Shelter town center during Phase 2 of your progression. After that, complete Owen's introductory recruitment questline to station him at the repair bench."
+  },
+  {
+    question: "Why can't I repair my ballistic plates at the workshop?",
+    answer: "Ballistic plates are designed as sacrificial inserts that absorb high-penetration damage. They destroy themselves in the process and cannot be repaired. You must craft or scavenge replacement plates and insert them manually."
+  },
+  {
+    question: "Do I need to carry crafting ingredients in my inventory?",
+    answer: "No. The workshop is fully integrated with your Shelter's global storage. As long as the raw materials, chemicals, or gun parts are deposited in your base stash, the crafting interface will detect and use them automatically."
+  },
+  {
+    question: "What happens if my weapon's durability drops to zero?",
+    answer: "A weapon at zero durability becomes completely broken, resulting in frequent jams, massive accuracy penalties, and eventually rendering the firearm unusable until it is fully restored at the workshop."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,16 @@
       "twitterDescription": "Urban Strife Wiki covers beginner guides, mission walkthroughs, survivor builds, weapons, shelter upgrades, factions, maps, crafting, and tactical combat tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "builds": "Builds",
+    "weapons": "Weapons",
+    "systems": "Systems",
+    "quests": "Quests",
+    "locations": "Locations",
+    "release": "Release",
+    "reviews": "Reviews"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -308,10 +317,22 @@
         }
       ],
       "shortcuts": [
-        { "key": "X", "action": "Swap the selected character's active weapon" },
-        { "key": "F", "action": "Change the current weapon's available fire mode" },
-        { "key": "Y", "action": "Activate Overwatch" },
-        { "key": "0", "action": "Select the entire party for group movement outside combat" }
+        {
+          "key": "X",
+          "action": "Swap the selected character's active weapon"
+        },
+        {
+          "key": "F",
+          "action": "Change the current weapon's available fire mode"
+        },
+        {
+          "key": "Y",
+          "action": "Activate Overwatch"
+        },
+        {
+          "key": "0",
+          "action": "Select the entire party for group movement outside combat"
+        }
       ]
     },
     "urbanStrifeBestWeapons": {
@@ -393,35 +414,53 @@
         {
           "role": "Ranged Shooter",
           "bestFor": "Reliable firearm damage, Overwatch lanes and priority-target removal",
-          "attributes": ["Marksmanship", "Agility"],
+          "attributes": [
+            "Marksmanship",
+            "Agility"
+          ],
           "focus": "Make ranged attacks regularly instead of carrying a firearm only as a backup. Marksmanship sets ranged aim accuracy while Agility affects movement Action Points, interrupt chances and melee evasion.",
           "plan": "Use cover, elevation and clean firing lanes. Reserve expensive shots for important targets and keep enough ammunition for the late campaign."
         },
         {
           "role": "Melee Fighter",
           "bestFor": "Silent kills, ammunition conservation and protecting fragile squad members",
-          "attributes": ["Strength", "Dexterity", "Endurance"],
+          "attributes": [
+            "Strength",
+            "Dexterity",
+            "Endurance"
+          ],
           "focus": "Use the melee family that matches the intended job: blade or pierce, blunt, hand-to-hand or heavy melee. Strength raises carry capacity, melee damage and stamina, Dexterity affects item-use Action Points and melee accuracy, and Endurance increases health and stamina.",
           "plan": "Approach through cover or stealth, avoid open firing lanes and carry a low-Action-Point backup weapon for emergencies."
         },
         {
           "role": "Stealth and Ambush Specialist",
           "bestFor": "Scouting, silent takedowns, opening attacks and avoiding unnecessary alerts",
-          "attributes": ["Agility", "Dexterity"],
+          "attributes": [
+            "Agility",
+            "Dexterity"
+          ],
           "focus": "Sneak frequently, since sneaking and successful melee dodges contribute to Agility growth. Combine silent melee weapons, crossbows or suppressed firearms with ambushes from cover before combat fully escalates.",
           "plan": "Scout first, isolate a target, secure an escape route and let the rest of the squad cover the withdrawal."
         },
         {
           "role": "Medic and Combat Support",
           "bestFor": "Healing, emergency rescues and keeping injured fighters operational",
-          "attributes": ["Dexterity", "Intelligence", "Endurance"],
+          "attributes": [
+            "Dexterity",
+            "Intelligence",
+            "Endurance"
+          ],
           "focus": "Make this survivor the regular user of medical supplies instead of spreading healing actions randomly across the squad. Dexterity reduces item-use Action Points, Intelligence speeds all attribute growth and enables Intelligence dialogue checks, and Endurance gives more health and stamina for dangerous rescues.",
           "plan": "End turns behind solid cover, keep movement points available and avoid spending the medic's entire turn on low-value attacks."
         },
         {
           "role": "Utility, Crafting and Dialogue Survivor",
           "bestFor": "Carrying loot, crafting, grenade use, specialist tools and alternate quest solutions",
-          "attributes": ["Strength", "Dexterity", "Intelligence"],
+          "attributes": [
+            "Strength",
+            "Dexterity",
+            "Intelligence"
+          ],
           "focus": "Use the survivor for encumbered carrying, backpack crafting, grenades and other repeatable utility actions, and bring the character into conversations where faction background, Intelligence or Strength can reveal alternative information and quest solutions.",
           "plan": "Keep tools and mission items organized on this character, but distribute critical ammunition and medicine so one knockout does not disable the whole squad."
         }
@@ -436,49 +475,84 @@
           "phase": "1. Stabilize Daily Survival",
           "priority": "Immediate",
           "focus": "Food, water security, health supplies, morale and power",
-          "facilities": ["Shelter supply storage", "Donation flow for food, health and morale items", "Fuel and power management"],
+          "facilities": [
+            "Shelter supply storage",
+            "Donation flow for food, health and morale items",
+            "Fuel and power management"
+          ],
           "goal": "Return from every safe trip with food, medicine, morale items, fuel and general materials instead of carrying only weapons."
         },
         {
           "phase": "2. Restore Essential Services",
           "priority": "High",
           "focus": "Repair damaged town-center facilities that open core campaign functions",
-          "facilities": ["City radio", "Hospital", "Auto shop", "Workshop", "Permanent barracks"],
+          "facilities": [
+            "City radio",
+            "Hospital",
+            "Auto shop",
+            "Workshop",
+            "Permanent barracks"
+          ],
           "goal": "Prioritize construction materials and specialist access until communication, medical care, vehicle work, crafting and team facilities are operational."
         },
         {
           "phase": "3. Establish Survival Industries",
           "priority": "High",
           "focus": "Reduce dependence on scavenging by producing necessities at home",
-          "facilities": ["Gardens", "Hydroponics", "Rat farms", "Frog ponds", "Other food and survival industries"],
+          "facilities": [
+            "Gardens",
+            "Hydroponics",
+            "Rat farms",
+            "Frog ponds",
+            "Other food and survival industries"
+          ],
           "goal": "Spend early surplus on repeatable production before decorative projects or narrow specialty upgrades."
         },
         {
           "phase": "4. Build the Arsenal and Crafting Chain",
           "priority": "High",
           "focus": "Turn common loot and materials into combat-ready equipment",
-          "facilities": ["Retooled workshop", "Specialist crafting stations", "Weapon modification and parts production"],
+          "facilities": [
+            "Retooled workshop",
+            "Specialist crafting stations",
+            "Weapon modification and parts production"
+          ],
           "goal": "Keep chemicals, components, metal, spare weapons and useful attachments instead of selling or discarding every duplicate."
         },
         {
           "phase": "5. Add Training, Mobility and Scavenging Capacity",
           "priority": "Medium",
           "focus": "Improve the quality and reach of field operations",
-          "facilities": ["Training facilities", "Auto shop improvements", "Scavenging teams", "Vehicle and cargo support"],
+          "facilities": [
+            "Training facilities",
+            "Auto shop improvements",
+            "Scavenging teams",
+            "Vehicle and cargo support"
+          ],
           "goal": "Balance fuel consumption against the need to reach harder maps, haul more loot and rescue threatened settlements."
         },
         {
           "phase": "6. Unlock Faction and Power Upgrades",
           "priority": "Late Campaign",
           "focus": "Convert political progress into permanent Shelter advantages",
-          "facilities": ["Faction-specific upgrade branches", "Solar, hydro and wind generators", "Fortifications and powered defenses"],
+          "facilities": [
+            "Faction-specific upgrade branches",
+            "Solar, hydro and wind generators",
+            "Fortifications and powered defenses"
+          ],
           "goal": "Secure an alliance, collect faction rewards and maintain enough power capacity for every defense that must remain active."
         },
         {
           "phase": "7. Lock In Siege Readiness",
           "priority": "Before the Final Warning",
           "focus": "Stop expanding and convert remaining resources into survival",
-          "facilities": ["Defense Tracker review", "Weapon and armor repair", "Ammunition reserve", "Powered fortifications", "Medical and food stockpile"],
+          "facilities": [
+            "Defense Tracker review",
+            "Weapon and armor repair",
+            "Ammunition reserve",
+            "Powered fortifications",
+            "Medical and food stockpile"
+          ],
           "goal": "Repair the best weapons and armor, salvage unwanted gear for repair parts, stock ammunition and place the strongest fighters on the final roster."
         }
       ]
@@ -492,35 +566,55 @@
           "faction": "National Guard",
           "alias": "Earlier known as the Rogue Army Garrison",
           "identity": "A disciplined military power based in a heavily fortified mountain base that claims to protect Urban while demanding obedience, payment and loyalty.",
-          "perks": ["Military-grade firearms, ammunition and armor", "Army-specific traders and advanced equipment", "Faction vehicle access including the Army HMMWV"],
+          "perks": [
+            "Military-grade firearms, ammunition and armor",
+            "Army-specific traders and advanced equipment",
+            "Faction vehicle access including the Army HMMWV"
+          ],
           "alliance": "An accepted alliance opens faction upgrades, rewards and late-game support, but places the Shelter against rival blocs."
         },
         {
           "faction": "Church of Second Chance",
           "alias": "Also called the Cult of Second Chance",
           "identity": "Father Walker's movement at the former juvenile re-education facility treats the post-pandemic world as a spiritual rebirth and embraces the undead in ways other survivors find dangerous.",
-          "perks": ["Faction blueprints and specialist rewards", "Unique materials and alliance upgrades", "Access to the faction's hidden camp and leadership"],
+          "perks": [
+            "Faction blueprints and specialist rewards",
+            "Unique materials and alliance upgrades",
+            "Access to the faction's hidden camp and leadership"
+          ],
           "alliance": "The Church can become the Shelter's chosen ally, opening its story route and benefits while making its enemies part of the final political cost."
         },
         {
           "faction": "Shady Lady Bikers",
           "alias": "The local biker charter",
           "identity": "A profit-driven faction built around the Shady Lady biker bar, focused on deals, entertainment, vehicle work, weapons and black-market trade.",
-          "perks": ["Black-market weapons", "Vehicle parts and mechanic support", "Biker traders, faction gear and vehicle-related rewards"],
+          "perks": [
+            "Black-market weapons",
+            "Vehicle parts and mechanic support",
+            "Biker traders, faction gear and vehicle-related rewards"
+          ],
           "alliance": "A biker alliance adds its own upgrade and equipment path to the Shelter and determines which rival factions will oppose you."
         },
         {
           "faction": "Local Survivor Groups and Barons",
           "alias": "Firefighters, refugees, federal groups, independent camps and regional strongmen",
           "identity": "Smaller groups scattered across settlements, public buildings and fortified sector maps have their own needs, routines and moral limits. They may become voters, refugees, traders, recruits, enemies or victims of roaming hordes.",
-          "perks": ["Quest rewards and blueprints", "Additional recruits or refugees", "Sector access, supplies and local information"],
+          "perks": [
+            "Quest rewards and blueprints",
+            "Additional recruits or refugees",
+            "Sector access, supplies and local information"
+          ],
           "alliance": "Their votes and survival help determine access to major faction headquarters and how much of Urban remains alive when the endgame begins."
         },
         {
           "faction": "Reputation, Votes and Recruit Affinity",
           "alias": "The campaign's relationship system",
           "identity": "Personal reputation follows the player into later conversations, while recruit backgrounds can make strangers more willing to reveal information.",
-          "perks": ["Different story paths and Shelter upgrades", "Faction-specific traders and Tier 3 equipment", "Vehicles, advanced blueprints and more than twenty ally upgrades"],
+          "perks": [
+            "Different story paths and Shelter upgrades",
+            "Faction-specific traders and Tier 3 equipment",
+            "Vehicles, advanced blueprints and more than twenty ally upgrades"
+          ],
           "alliance": "After securing the required votes, the chosen faction opens its headquarters. Accepting the alliance commits the Shelter to that ally for the final conflict."
         }
       ]
@@ -702,125 +796,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Urban Strife Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced combat and Shelter strategies for Urban Strife.",
-      "metaTitle": "Urban Strife Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Urban Strife guides covering beginner tips, tactical combat, Shelter management, faction strategies and expert survival tactics.",
+      "description": "Complete Urban Strife guides from beginner survival tips to advanced tactical combat, Shelter progression and faction strategies.",
+      "metaTitle": "Urban Strife Guides - Beginner Tips to Advanced Tactics",
+      "metaDescription": "Master Urban Strife with complete guides covering beginner tips, turn-based combat, Action Points, Shelter progression, faction alliances and survival strategies.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Urban Strife gameplay mechanics, tactical combat, survival strategies and Shelter development from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIs": "What are Urban Strife Guides?",
+      "whatIsDescription": "Comprehensive Urban Strife guides covering gameplay mechanics, turn-based tactical combat, realistic ballistics, survival strategy and Shelter development from your first steps to advanced endgame techniques.",
+      "why": "Why read the guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand Action Point combat, ballistics and Shelter systems while avoiding common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes to stabilize the Shelter and prepare for the Atlanta horde",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for faction alliances, weapon loadouts and siege defense"
+        "step1Description": "Understand Action Point combat, ballistics, Interrupt Fire, stealth and Shelter systems while avoiding beginner mistakes",
+        "step2Title": "Progress Faster",
+        "step2Description": "Follow proven early-game routes to stabilize the Shelter, manage fuel and food, and prepare for the horde siege",
+        "step3Title": "Master Advanced Tactics",
+        "step3Description": "Develop expert strategies for faction alliances, weapon loadouts, positioning and siege defense"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Urban Strife Crafting",
-      "description": "Master Shelter crafting with recipes, weapon modifications, ammunition types and resource management for Urban Strife.",
-      "metaTitle": "Urban Strife Crafting - Recipes & Weapon Mods",
-      "metaDescription": "Master Urban Strife crafting. Learn ammunition recipes, weapon attachments, explosives, repair parts and resource management strategies.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "Urban Strife crafting lets you produce ammunition, attachments, explosives and repair parts from the Shelter stash and scavenged materials, with hidden recipes unlocked through exploration and faction alliances.",
-      "why": "Why master crafting?",
+    "builds": {
+      "title": "Urban Strife Builds",
+      "description": "Optimal Urban Strife character builds covering stats, skills, perks, survivor roles and squad composition for every stage of the campaign.",
+      "metaTitle": "Urban Strife Builds - Best Character Stats, Skills & Perks",
+      "metaDescription": "Build the best Urban Strife characters with optimized stats, skill trees, perk picks, companion roles and squad loadouts for melee, ranged, medic and stealth survivors.",
+      "categoryLabel": "CHARACTER BUILDS",
+      "whatIs": "What are Urban Strife Builds?",
+      "whatIsDescription": "Urban Strife builds cover character creation, attribute distribution, skill progression, perk selection and companion roles. Stats level dynamically based on your actions, so planning your build and squad composition shapes your entire campaign.",
+      "why": "Why plan your builds?",
       "whySteps": {
-        "step1Title": "Equip Your Squad",
-        "step1Description": "Produce weapons, attachments and ammunition tailored to each survivor role",
-        "step2Title": "Repair and Sustain",
-        "step2Description": "Restore weapons and body armor with salvaged parts instead of replacing them",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Convert common loot into combat-ready equipment for the final siege"
+        "step1Title": "Optimize Attributes",
+        "step1Description": "Distribute Strength, Agility, Intelligence and other stats to match each survivor's combat role",
+        "step2Title": "Pick the Right Perks",
+        "step2Description": "Choose perks that reinforce ranged, melee, medical or stealth specialization",
+        "step3Title": "Build a Balanced Squad",
+        "step3Description": "Recruit and assign companions so your team covers healing, repair, scouting and firepower"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Builds"
     },
-    "items": {
-      "title": "Urban Strife Weapons and Items",
-      "description": "Detailed guides covering firearms, melee weapons, explosives, armor and attachments with stats and usage tips for Urban Strife.",
-      "metaTitle": "Urban Strife Weapons & Items - Gear Guide",
-      "metaDescription": "Complete Urban Strife item database including firearms, melee weapons, explosives, armor and attachments with penetration, damage and Action Point data.",
-      "categoryLabel": "WEAPONS & EQUIPMENT",
-      "whatIs": "What are Weapons and Items?",
-      "whatIsDescription": "Comprehensive guides for Urban Strife firearms, melee weapons, crossbows, explosives, armor and attachments. Learn penetration, damage, Action Point costs and optimal loadouts by tactical role.",
-      "why": "Why check weapon guides?",
+    "weapons": {
+      "title": "Urban Strife Weapons",
+      "description": "Detailed Urban Strife weapon guides covering firearms, melee, crossbows, armor, attachments, ammo types, repair and the gunsmith bench.",
+      "metaTitle": "Urban Strife Weapons - Best Guns, Melee, Armor & Attachments",
+      "metaDescription": "Master Urban Strife weapons with stats for firearms, melee, crossbows, explosives and armor. Learn penetration, damage, Action Point costs, ammo types, repair and gunsmith crafting.",
+      "categoryLabel": "WEAPONS & GEAR",
+      "whatIs": "What are Urban Strife Weapons?",
+      "whatIsDescription": "Complete guides to Urban Strife firearms, melee weapons, crossbows, explosives, body armor and attachments. Learn penetration values, damage, Action Point costs, ammunition types and the gunsmith bench for repairs and modifications.",
+      "why": "Why study weapons?",
       "whySteps": {
         "step1Title": "Match Weapons to Roles",
-        "step1Description": "Pair each survivor with the right firearm, melee or stealth tool",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose attachments and ammunition for stealth, horde control or penetration",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip armor and backup weapons to survive prolonged firefights"
+        "step1Description": "Pair each survivor with the right pistol, shotgun, rifle, sniper, crossbow or melee tool",
+        "step2Title": "Understand Ballistics",
+        "step2Description": "Compare penetration, damage and Action Point costs to pick optimal loadouts for stealth and horde control",
+        "step3Title": "Repair and Modify",
+        "step3Description": "Use the gunsmith bench to restore and upgrade weapons and armor instead of replacing them"
       },
       "featured": "Featured & Essential",
-      "all": "All Weapons and Items"
+      "all": "All Weapons"
     },
-    "biomes": {
-      "title": "Urban Strife Maps and Sectors",
-      "description": "Explore Urban County locations, sector routes, resource spots and danger zones across the Urban Strife campaign map.",
-      "metaTitle": "Urban Strife Maps - Sectors & Exploration Routes",
-      "metaDescription": "Explore Urban Strife maps including Urban County, Little Italy, Old Port, Adams Villa and hidden sectors with loot routes and danger notes.",
-      "categoryLabel": "MAPS & SECTORS",
-      "whatIs": "What are Maps and Sectors?",
-      "whatIsDescription": "Guides to Urban Strife map sectors, location layouts, resource distribution and danger zones. Learn what to expect and how to prepare for each area of Urban County.",
-      "why": "Why study the maps?",
+    "systems": {
+      "title": "Urban Strife Systems",
+      "description": "Master Urban Strife Shelter systems, base building, workshop crafting, material gathering, blueprints, fuel and survival industries.",
+      "metaTitle": "Urban Strife Systems - Shelter, Workshop, Blueprints & Fuel",
+      "metaDescription": "Complete Urban Strife systems guides covering Shelter base building, workshop crafting, material sourcing, blueprint usage, vehicle refueling and survival industries.",
+      "categoryLabel": "SHELTER SYSTEMS",
+      "whatIs": "What are Urban Strife Systems?",
+      "whatIsDescription": "Urban Strife systems cover Shelter base building, facility upgrades, the workshop, crafting chains, material gathering, blueprint usage and fuel management. These mechanics keep your survivors supplied and your base defended through the campaign.",
+      "why": "Why learn the systems?",
+      "whySteps": {
+        "step1Title": "Build Your Shelter",
+        "step1Description": "Plan facility upgrades for food, medicine, power, morale and population capacity",
+        "step2Title": "Gather and Craft",
+        "step2Description": "Source materials, use blueprints and run the workshop to produce equipment and supplies",
+        "step3Title": "Keep Moving",
+        "step3Description": "Manage fuel and refuel your car to reach distant maps and trade with factions"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Systems"
+    },
+    "quests": {
+      "title": "Urban Strife Quests",
+      "description": "Step-by-step Urban Strife quest and mission walkthroughs covering story acts, objectives, key item locations, choices and the final siege.",
+      "metaTitle": "Urban Strife Quests - Story Walkthrough & Mission Guide",
+      "metaDescription": "Complete Urban Strife quest walkthroughs with objective order, key item locations, dialogue choices, faction outcomes and the final horde siege for every story act.",
+      "categoryLabel": "QUESTS & STORY",
+      "whatIs": "What are Urban Strife Quests?",
+      "whatIsDescription": "Urban Strife quests cover the main story acts, side missions and faction objectives. Each guide details where to start, the objective order, key item and character locations, dialogue choices, failure conditions and how choices shape the campaign.",
+      "why": "Why follow quest guides?",
+      "whySteps": {
+        "step1Title": "Find Objectives Fast",
+        "step1Description": "Locate quest givers, key items like the radio descrambler and mission targets without backtracking",
+        "step2Title": "Make the Right Choices",
+        "step2Description": "Understand dialogue and faction outcomes before committing to a decision",
+        "step3Title": "Prepare for the Siege",
+        "step3Description": "Complete faction chains and stockpile resources for the final horde defense"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Quests"
+    },
+    "locations": {
+      "title": "Urban Strife Locations",
+      "description": "Explore Urban Strife maps and locations, sector layouts, loot routes, resource nodes and danger zones across Urban County.",
+      "metaTitle": "Urban Strife Locations - Maps, Sectors & Loot Routes",
+      "metaDescription": "Discover Urban Strife locations including the Urban County map, Adams Villa, FEMA Hospital, National Guard Base and hidden sectors with loot routes and danger notes.",
+      "categoryLabel": "MAPS & LOCATIONS",
+      "whatIs": "What are Urban Strife Locations?",
+      "whatIsDescription": "Guides to Urban Strife map sectors and key locations such as Adams Villa, the FEMA Hospital and the National Guard Base. Learn sector layouts, resource distribution, high-value loot routes and danger zones across Urban County.",
+      "why": "Why explore the maps?",
       "whySteps": {
         "step1Title": "Find Resources",
-        "step1Description": "Locate food, medicine, fuel and rare components across each sector",
+        "step1Description": "Locate food, medicine, fuel, weapons and rare components across each sector",
         "step2Title": "Avoid Dangers",
-        "step2Description": "Understand faction territory, spawners and roaming horde paths",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right fuel, cargo space and equipment for distant maps"
+        "step2Description": "Understand faction territory, zombie spawners and roaming horde paths",
+        "step3Title": "Plan Expeditions",
+        "step3Description": "Prepare the right fuel, cargo space and gear before traveling to distant maps"
       },
       "featured": "Featured & Essential",
-      "all": "All Maps and Sectors"
+      "all": "All Locations"
     },
-    "building": {
-      "title": "Urban Strife Shelter Building",
-      "description": "Master Shelter facilities, production industries, crafting chains and siege defenses in Urban Strife.",
-      "metaTitle": "Urban Strife Shelter - Upgrades & Defense",
-      "metaDescription": "Master Urban Strife Shelter building with facility upgrades, survival industries, crafting chains, powered defenses and siege readiness planning.",
-      "categoryLabel": "SHELTER & DEFENSE",
-      "whatIs": "What is Shelter Building?",
-      "whatIsDescription": "Guides to Urban Strife Shelter facilities, production industries, crafting chains, power systems and fortifications. Learn to build and defend your home base through the final siege.",
-      "why": "Why upgrade the Shelter?",
+    "release": {
+      "title": "Urban Strife Release",
+      "description": "Urban Strife release info including the 1.0 launch date, platforms, Steam Deck support, PC requirements and console availability.",
+      "metaTitle": "Urban Strife Release - Date, Platforms & Steam Deck",
+      "metaDescription": "Get the latest Urban Strife release information: 1.0 launch date, PC and Steam availability, Steam Deck compatibility, system requirements and PS5 or Xbox console status.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Urban Strife Release?",
+      "whatIsDescription": "Urban Strife launched its full 1.0 version on July 14, 2026 for Windows PC on Steam. These guides cover the release date, supported platforms, Steam Deck compatibility, PC system requirements and the current console availability status.",
+      "why": "Why check release info?",
       "whySteps": {
-        "step1Title": "Stabilize Survival",
-        "step1Description": "Secure food, water, medicine, morale and power for daily operations",
-        "step2Title": "Build Industries",
-        "step2Description": "Produce necessities at home so scavenging is no longer the only supply line",
-        "step3Title": "Defend the Siege",
-        "step3Description": "Power fortifications and stockpile supplies before the Atlanta horde"
+        "step1Title": "Confirm the Release Date",
+        "step1Description": "Know the official 1.0 launch date and full version status",
+        "step2Title": "Check Platforms",
+        "step2Description": "See where to play on PC, Steam, Steam Deck and whether console versions exist",
+        "step3Title": "Verify Requirements",
+        "step3Description": "Review PC system requirements and compatibility before buying"
       },
       "featured": "Featured & Essential",
-      "all": "All Shelter Guides"
+      "all": "All Release Info"
     },
-    "support": {
-      "title": "Urban Strife Support",
-      "description": "Technical support, PC requirements, performance optimization and troubleshooting for common Urban Strife issues.",
-      "metaTitle": "Urban Strife Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Urban Strife including PC requirements, performance optimization, crash fixes and platform compatibility guidance.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering Urban Strife PC requirements, performance optimization, crash fixes and platform compatibility. Get help with settings, saves and common issues.",
-      "why": "Why check support?",
+    "reviews": {
+      "title": "Urban Strife Reviews",
+      "description": "Urban Strife reviews and community feedback, Steam ratings, worth-it analysis and comparisons with similar survival RPGs.",
+      "metaTitle": "Urban Strife Reviews - Is It Worth It? Ratings & Comparisons",
+      "metaDescription": "Read Urban Strife reviews covering Steam ratings, strengths and weak points, whether the game is worth playing and how it compares to similar tactical survival RPGs like Dead State.",
+      "categoryLabel": "REVIEWS & VERDICTS",
+      "whatIs": "What are Urban Strife Reviews?",
+      "whatIsDescription": "Urban Strife reviews summarize player and critic feedback, Steam review ratings, standout strengths and weak points, whether the game is worth buying and how it compares to similar tactical survival RPGs.",
+      "why": "Why read the reviews?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best experience on your hardware",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Cloud, Workshop, Family Sharing and save support"
+        "step1Title": "See the Verdict",
+        "step1Description": "Understand the overall player and critic reception at a glance",
+        "step2Title": "Decide If It Is Worth It",
+        "step2Description": "Weigh strengths and weaknesses against your tastes before buying",
+        "step3Title": "Compare Alternatives",
+        "step3Description": "See how Urban Strife stacks up against comparable survival RPGs"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Reviews"
     }
   }
 }

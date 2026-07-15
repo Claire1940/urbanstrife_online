@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Komplettlösung: Taktischer Überlebens- & Basisbau-Guide",
+  description: "Meistern Sie den frühen Kampf, optimieren Sie Basis-Upgrades und navigieren Sie durch Fraktionsentscheidungen in dieser umfassenden Urban Strife Komplettlösung.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Walkthrough",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Hauptziel**: Meistern Sie die **Urban Strife Komplettlösung**, um Ressourcen zu sichern, rivalisierende Banden zu besiegen und Ihren Zufluchtsort wiederaufzubauen.
+- **Kampfkern**: Nutzen Sie Zeiteinheiten (TU) klug; beenden Sie Ihren Zug immer hinter hoher Deckung, um tödliches Gegenfeuer zu überleben.
+- **Basis-Wirtschaft**: Priorisieren Sie den frühen Bau der Wasserpumpe und von Farmparzellen, um dem täglichen Ressourcenverfall entgegenzuwirken.
+- **Status-Fortschritt**: Attribute steigen durch direkte Nutzung auf, anstatt durch traditionelle Erfahrungspunkte.
+- **Wichtige Beute**: Sammeln Sie allen Metallschrott, Flaschen und Benzin; Handwerk ist entscheidend für die Herstellung von Waffenaufsätzen.
+</Callout>
+
+<Section icon={Map} title="Einführung in Urban Strife & Kampagnen-Grundlagen">
+
+Urban Strife ist ein taktisches, rundenbasiertes CRPG, das in einer düsteren Zombie-Apokalypse spielt. Als Gruppe von Plünderern, die in einer zerrütteten Welt als Gesetzeshüter fungieren, beginnt Ihre Reise in einer kleinen Enklave der Zivilisation, die von skrupellosen lokalen Banden und Untoten bedroht wird. Diese **Urban Strife Komplettlösung** deckt die grundlegenden Mechaniken, Kampfstrategien und Zufluchtsort-Managementsysteme ab, die zum Überleben im frühen Spiel erforderlich sind.
+
+**Video-Highlights:**
+- **Geistiger Nachfolger von Dead State**: Erbt tiefgründige Überlebensmechaniken, Basisbau und rundenbasierten Grid-Kampf.
+- **Realistische Reisezeiten**: Das Durchqueren der Karte dauert Minuten statt Stunden, was eine straffe, taktische Planung ermöglicht.
+- **Dynamisches Fraktionssystem**: Interagieren Sie mit einzigartigen lokalen Gruppen, erfüllen Sie Gefälligkeiten und schalten Sie spezialisierte Händler frei.
+
+<YouTubeEmbed videoId="vGTEbc3H9xg" title="Ein neues Open-World-Zombie-Apokalypse-Plünderer-RPG - Urban Strife" />
+
+<Callout type="tip" title="Überlebens-Tipp">
+Halten Sie das Inventar Ihrer Truppmitglieder immer leicht unter der maximalen Kapazität, es sei denn, Sie versuchen aktiv, deren Stärke-Attribut durch Überlastung zu trainieren.
+</Callout>
+
+### Übersicht der Kernsysteme
+
+Es ist entscheidend zu verstehen, wie das Spiel den Charakterfortschritt und die Weltreisen handhabt, bevor Sie Ihren Zufluchtsort verlassen.
+
+| Feature | Systemmechanik | Taktische Auswirkung |
+| :--- | :--- | :--- |
+| **Fortschritt** | Aufleveln durch aktive Nutzung | Verwenden Sie bestimmte Waffen, um Treffsicherheit oder Nahkampf natürlich zu steigern |
+| **Reisen** | Realistische Zeitintervalle | Reisen dauert 15-30 Minuten, was verschwendetes Tageslicht minimiert |
+| **Verletzungen** | Regionaler Schaden im Tarkov-Stil | Gliedmaßenspezifische Wunden erfordern zielgerichtete medizinische Verbände |
+| **Plündern** | Gewichtsbasierte Kapazität | Überladene Charaktere bewegen sich langsamer, bauen aber körperliche Stärke auf |
+
+</Section>
+
+<Section icon={Swords} title="Frühe Kamphtaktiken & Waffenauswahl">
+
+Der Kampf in Urban Strife basiert auf der klassischen Zuteilung von Zeiteinheiten (TU). Jede Aktion – Bewegen, Zielen, Schießen und Ducken – verbraucht TUs. Der Erfolg hängt davon ab, dass Sie Ihren Trupp hinter verlässlicher Deckung positionieren und Ihre Schusswinkel verwalten.
+
+<CardGrid cols={3}>
+  <Card title="Nahbereichs-Power">
+    - **Schrotflinten & Streuwaffen**
+    - Hoher Schaden im Nahbereich
+    - Hervorragend zum Säubern von Räumen
+  </Card>
+  <Card title="Geräuschloser Nutzen">
+    - **Armbrüste & Bögen**
+    - Geräuschloses Ausschaltwerkzeug
+    - Schont wertvolle Munition
+  </Card>
+  <Card title="Mittlere Reichweitenkontrolle">
+    - **Pistolen & Gewehre**
+    - Hohe Genauigkeitsskalierung
+    - Ideal für Overwatch-Sektoren
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Kampfwarnung">
+Das Spiel verwendet ein realistisches Projektilkollisionssystem. Seien Sie vorsichtig, wenn Sie an Verbündeten vorbeischießen; das Schießen durch ein Feld, das von einem Truppmitglied besetzt ist, kann zu katastrophalem Eigenbeschuss führen.
+</Callout>
+
+### Hierarchie des Waffenfortschritts
+
+Das Upgrade von behelfsmäßigen zivilen Werkzeugen auf militärische Ausrüstung hat Priorität. Nutzen Sie diese Tabelle, um Ihre frühen Arsenal-Upgrades zu planen.
+
+| Waffenklasse | Option für das frühe Spiel | Upgrade für das mittlere Spiel | Kampfrolle |
+| :--- | :--- | :--- | :--- |
+| **Schrotflinte** | Doppellauf-Breaker | Pump-Action 12-Gauge | Hohe Kontrolle von Menschenmengen im Nahkampf |
+| **Pistole** | Rostige Handfeuerwaffe Kaliber .22 | Taktische 9mm-Seitenwaffe | Kostengünstige Backup-Waffe |
+| **Fernkampf** | Recurvebogen aus Holz | Geräuschlose Stahlarmbrust | Werkzeug für lautloses Ausschalten und Anlocken |
+| **Nahkampf** | Küchenbratpfanne | Machete / Kampfmesser | Leises Ausschalten isolierter Ziele |
+
+</Section>
+
+<Section icon={Shield} title="Zufluchtsort-Management & Basisbau">
+
+Ihre Heimatbasis ist das Herzstück Ihrer Überlebensbemühungen. Sie müssen den täglichen Ressourcenverfall verwalten, indem Sie geplünderte Güter in den Gemeinschaftspool spenden und wichtige Versorgungseinrichtungen errichten.
+
+<Steps>
+  <Step num="1" title="Entladen & Spenden">
+    Kehren Sie von Beutezügen zurück und deponieren Sie Benzin, Nahrung und medizinische Vorräte, um den täglichen Verfall von Moral und Gesundheit zu stoppen.
+  </Step>
+  <Step num="2" title="Wasserpumpe bauen">
+    Bauen Sie die Wasserpumpe frühzeitig, um verletzten Truppmitgliedern einen stetigen täglichen Bonus auf die Gesundheitsregeneration zu sichern.
+  </Step>
+  <Step num="3" title="Farmparzellen anlegen">
+    Errichten Sie landwirtschaftliche Zonen, um den täglichen Nahrungsverbrauch auszugleichen und Hunger-Debuffs zu verhindern.
+  </Step>
+  <Step num="4" title="Werkstatt verbessern">
+    Bauen Sie eine eigene Werkstatt, um Waffenaufsätze wie Schalldämpfer, Zielfernrohre und maßgeschneiderte Munition herzustellen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Ressourcenmanagement">
+Ihr Zufluchtsort verbraucht jeden Morgen Ressourcen. Wenn es Ihnen nicht gelingt, eine positive Nahrungs- und Gesundheitsversorgung aufrechtzuerhalten, wird die Gesamtmoral Ihrer Gemeinschaft schnell sinken.
+</Callout>
+
+### Tägliche Ressourcenbilanz
+
+Behalten Sie die täglichen Produktionswerte Ihres Zufluchtsorts genau im Auge, um kritische Engpässe zu vermeiden.
+
+| Ressource | Tägliche Verfallsrate | Hauptquelle | Minderungsgebäude |
+| :--- | :--- | :--- | :--- |
+| **Nahrung** | Hoch (-26/Tag früh) | Geplünderte Konserven | Farmparzellen (+15/Tag) |
+| **Gesundheit** | Mittel (-24/Tag) | Medizinische Kisten & Verbände | Wasserpumpe (+10/Tag) |
+| **Benzin** | Niedrig (nutzungsbasiert) | Verlassene Kofferräume | Generatorstation |
+| **Materialien** | Variabel (Bau) | Zerlegter Metallschrott | Werkstatt |
+
+</Section>
+
+<Section icon={Target} title="Little Italy Komplettlösung: Umgang mit Schwarzbrennern">
+
+Sobald Sie die anfängliche Banditenbedrohung um Adams Villa beseitigt haben, führt Sie Ihre Suche nach dem vermissten Professor Ford nach Little Italy. Hier treffen Sie auf den lokalen Händler Honest Joe und seine Crew.
+
+### Schritt-für-Schritt-Questverlauf
+
+1. **Honest Joes Kaufhaus finden**: Gehen Sie zum örtlichen Friseurladen in Little Italy, um Honest Joe und seinen Wachmann Bubba zu finden.
+2. **Bubbas Bitte annehmen**: Sprechen Sie mit Bubba, um mehr über eine Gruppe feindseliger, Randalierer-Schwarzbrenner zu erfahren, die sich in einem nahe gelegenen Haus eingenistet haben.
+3. **Die Hausbesetzer flankieren**: Positionieren Sie Ihre Fernkampf-Charaktere entlang des äußeren Zauns, während Ihre Einheiten mit Schrotflinten die Vordertür aufbrechen.
+4. **Den Badezimmer-Zombie beseitigen**: Achten Sie bei der Durchsuchung nach dem Kampf auf einen isolierten Zombie, der im Badezimmer der Besetzer gefangen ist.
+5. **Fraktionshändler freischalten**: Kehren Sie zu Bubba zurück, um spezialisierte Händler freizuschalten: Slimy Ned (Mechaniker), Bangs (Sprengstoffe) und Corkscrew (Alkohol).
+
+<Callout type="success" title="Quest-Belohnung">
+Das Erfüllen von Bubbas Aufgabe schaltet den Zugang zu hochwertigen Handelsgütern frei, darunter taktische 12-Gauge-Schrotflinten und wertvolle Handwerksmaterialien.
+</Callout>
+
+### Inventarprofile der Händler
+
+Zu wissen, mit wem man handeln sollte, spart wertvolle Zeit und Ressourcen bei der Vorbereitung auf den nächsten Beutezug.
+
+| Händlername | Spezialisierung | Akzeptierte Handelswaren | Empfohlener Kauf |
+| :--- | :--- | :--- | :--- |
+| **Slimy Ned** | Fahrzeugteile & Benzin | Metallschrott, Werkzeuge | Motoröl, Reparatursätze |
+| **Bangs** | Schusswaffen & Sprengstoffe | Schießpulver, Bleirohr | Rohrbomben, 12-Gauge-Nägel |
+| **Corkscrew** | Raffinierter Alkohol | Flaschen, Zucker | Hochwertiger Treibstoff, Molotowcocktails |
+| **Honest Joe** | Medizinische Pillen & Luxusartikel | Goldzähne, Wertsachen | Hochwirksame Schmerzmittel |
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste der Kampagnenziele">
+
+Verwenden Sie diese Checkliste, um Ihren Fortschritt durch das erste große Kapitel des Spiels zu verfolgen.
+
+<Checklist
+  id="urban-strife-chapter-1"
+  title="Meilensteine von Kapitel 1:"
+  items={[
+    "Eliminieren Sie die Anführer der Casey Boys-Bande in Adams Villa",
+    "Bauen Sie die Wasserpumpe und die Farmparzelle in Ihrem Zufluchtsort",
+    "Finden Sie Honest Joes Kaufhaus in Little Italy",
+    "Beseitigen Sie die abtrünnigen Schwarzbrenner für Bubba",
+    "Rüsten Sie mindestens zwei Truppmitglieder mit Tier-2-Schusswaffen aus",
+    "Etablieren Sie eine zuverlässige Quelle für medizinische Vorräte"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie verbessere ich Treffsicherheit und andere Attribute in Urban Strife?",
+    answer: "Attribute verbessern sich durch direkte Nutzung. Um die Treffsicherheit zu erhöhen, müssen Ihre Charaktere im Kampf aktiv Waffen abfeuern. Nahkampffähigkeiten steigen, indem man Ziele mit Nahkampfwaffen trifft, und Stärke erhöht sich durch das Tragen schwerer Lasten."
+  },
+  {
+    question: "Wo finde ich Professor Ford während der Hauptquestreihe?",
+    answer: "Nachdem Sie sein von Banditen verwüstetes Haus in Adams Villa gefunden haben, müssen Sie nach Little Italy reisen und mit Honest Joe sprechen, um Gerüchte über seinen Fluchtweg in Richtung des Alten Hafens zu sammeln."
+  },
+  {
+    question: "Wie funktioniert die Mechanik der Bewusstlosigkeit im Kampf?",
+    answer: "Charaktere haben eine grüne Gesundheitsanzeige und eine rote Ermüdungsanzeige. Jeder Treffer verringert die grüne Anzeige und erhöht die rote Anzeige. Wenn die rote Anzeige den verbleibenden grünen Bereich vollständig ausfüllt, wird der Charakter bewusstlos."
+  },
+  {
+    question: "Kann ich Inventargegenstände direkt zwischen Charakteren übertragen?",
+    answer: "In den frühen Versionen des Spiels gibt es keinen direkten Drag-and-Drop-Transfer zwischen den Charakterporträts auf dem Spielfeld. Sie müssen den Gegenstand auf den Boden legen, damit ein anderer Charakter ihn aufheben kann, oder ihn über den gemeinsamen Zufluchtsort-Bildschirm verwalten."
+  }
+]} />
+
+</Section>

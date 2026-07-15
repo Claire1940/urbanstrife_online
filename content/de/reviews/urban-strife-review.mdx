@@ -1,0 +1,225 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Test: Gameplay-Mechaniken & Überlebens-Tipps für 2026",
+  description: "Ein ausführlicher Urban Strife Test über taktische Kämpfe, Basisbau und Charakterentwicklung in diesem Zombie-Apokalypse-RPG.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Urban+Strife+Review",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Urban Strife Test**: Dieser Titel ist ein geistiger Nachfolger von Dead State und verbindet rundenbasierte Taktik mit tiefgründigen Überlebensmechaniken.
+- **Kampfsystem**: Nutzt ein klassisches Zeiteinheiten-System (TU), das an das originale XCOM und Jagged Alliance erinnert.
+- **Fortschrittsmodell**: Charaktere steigen durch die direkte Anwendung von Fähigkeiten auf, anstatt durch traditionelle Erfahrungspunkte.
+- **Basis-Management**: Der Erfolg hängt von der Balance zwischen Nahrung, Wasser, medizinischer Versorgung und der Moral in Ihrem Hauptquartier ab.
+- **Taktische Tiefe**: Bietet fortschrittliche Mechaniken wie Zonen-Schadensmodelle, geräuschbasierte Erkennung und ein komplexes Sichtsystem.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Test: Erste Eindrücke und Gameplay">
+
+In Diskussionen und Tests zu Urban Strife wird häufig die einzigartige Position des Spiels als moderne Interpretation des klassischen Zombie-Survival-RPGs hervorgehoben. Angesiedelt in einer offenen Postapokalypse übernehmen Sie die Rolle eines Deputy, der als Sheriff einer ums Überleben kämpfenden Zivilisation fungiert. Ihr Hauptziel ist es, Ressourcen zu plündern, eine nachhaltige Heimatbasis aufzubauen und sich in der tückischen Politik verfeindeter Banden und Fraktionen zurechtzufinden. Das Spiel setzt auf einen düsteren, realistischen Überlebensansatz, bei dem jede Kugel zählt und jedes Geräusch unerwünschte Aufmerksamkeit erregen kann.
+
+**Video-Highlights:**
+- Detaillierter Einblick in das Plündern in der offenen Welt und die RPG-Mechaniken.
+- Vergleich mit geistigen Vorgängern wie Dead State und dem klassischen XCOM.
+- Übersicht über das rundenbasierte Kampfsystem und die Verwaltung der Basiseinrichtungen.
+- Analyse des Charakterfortschritts und der Handwerkssysteme.
+
+<YouTubeEmbed videoId="vGTEbc3H9xg" title="A New Open World Zombie Apocalypse Scavenging RPG - Urban Strife" />
+
+Die Atmosphäre ist geladen mit der Anspannung einer Welt, die die anfängliche Panik hinter sich gelassen hat und sich nun in einem Zustand permanenter, lokaler Konflikte befindet. Sie kämpfen nicht nur gegen die Untoten; Sie müssen auch mit dem menschlichen Faktor umgehen, der oft weitaus gefährlicher ist. Die Geschichte beginnt mit dem Mord an Sheriff Rogers, woraufhin Sie die Scherben aufsammeln und die Gemeinschaft gegen skrupellose Gruppen wie die Casey-Boys verteidigen müssen.
+
+<Callout type="tip" title="Profi-Tipp">
+Priorisieren Sie zu Beginn immer die Beschaffung von Benzin. Es ist unerlässlich, um die Generatoren Ihrer Basis am Laufen zu halten, und ist bei den ersten Plünderungstouren oft die am schwersten in großen Mengen zu findende Ressource.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Taktischer Kampf und Zeiteinheiten-Management">
+
+Der Kampf im Spiel ist eine bewusste, rundenbasierte Angelegenheit, die Geduld und Positionierung belohnt. Anstelle des vereinfachten Zwei-Aktionen-Systems moderner Strategiespiele nutzt dieser Titel ein feingranulares Zeiteinheiten-System (Time Units / TU). Jede Aktion – Ducken, Nachladen, Öffnen einer Tür oder Abfeuern einer Waffe – verbraucht eine bestimmte Anzahl an Einheiten. Dies ermöglicht anspruchsvolle taktische Manöver, wie das Hervorlugen aus der Deckung für einen Schuss und das anschließende Zurückziehen in Sicherheit innerhalb desselben Zuges.
+
+| Kampf-Feature | Beschreibung | Taktische Auswirkung |
+| :--- | :--- | :--- |
+| **Zeiteinheiten (TU)** | Punkte, die für jede Aktion verbraucht werden | Ermöglicht eine hochgradig detaillierte Zugplanung |
+| **Overwatch (Wachmodus)** | Unterbrechen von Feindbewegungen durch Sperrfeuer | Unverzichtbar für die Verteidigung von Engpässen |
+| **Zonen-Schaden** | Schaden wird an bestimmten Gliedmaßen erfasst | Verletzungen können Bewegung oder Präzision schwächen |
+| **Geräuschsystem** | Lärm durch Schüsse und Bewegungen | Lockt nahegelegene Zombies an oder alarmiert Banditen |
+| **Deckungsmechaniken** | Dynamischer Schutz durch Umgebungsobjekte | Entscheidend für das Überleben von Schusswechseln |
+
+Das Ballistiksystem ist bemerkenswert komplex. Sie haben nicht immer eine klare prozentuale Trefferchance; stattdessen müssen Sie sich auf die Schießkunst-Fähigkeit Ihres Charakters und die Qualität seiner Waffe verlassen. Die Waffen reichen von behelfsmäßigen Rohrwaffen bis hin zu taktischen Schrotflinten, jeweils mit unterschiedlichen Feuermodi und effektiven Reichweiten.
+
+<CardGrid cols={2}>
+  <Card title="Nahkampftaktiken">
+    - **Hohes Stealth-Potenzial**
+    - Schont wertvolle Munition
+    - Risiko von Gegenangriffen
+    - Effektiv zum Ausschalten am Boden liegender Feinde
+  </Card>
+  <Card title="Fernkampftaktiken">
+    - **Sicherer Distanzvorteil**
+    - Hohe Letalität durch Kopfschüsse
+    - Lauter Lärm lockt Horden an
+    - Erfordert ständiges Munitionsmanagement
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warnung">
+Das Spiel verfügt über ein „Rot/Grün“-Gesundheitssystem. Selbst wenn ein Charakter noch Lebenspunkte (HP) hat, führt ein hoher Aufbau der „Roten“ Leiste (Trauma) zur Bewusstlosigkeit, was ihn extrem verwundbar macht.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überlebensinfrastruktur: Basisbau und Ressourcenmanagement">
+
+Ihre Zuflucht dient als Herzstück Ihrer Operationen. Es ist nicht nur ein Menü, sondern ein physischer Ort, an dem Sie Anlagen errichten müssen, um Ihre Überlebenden am Leben zu erhalten. Das Ressourcenmanagement ist ein ständiger Kampf, da Sie den täglichen Verbrauch gegen das abwägen müssen, was Sie in den umliegenden Stadtvierteln plündern können.
+
+<Steps>
+  <Step num="1" title="Erste Plünderungen">
+    Konzentrieren Sie sich darauf, die unmittelbare Nachbarschaft (wie Adams Villa) zu säubern, um grundlegende Handwerksmaterialien und Nahrung zu sichern.
+  </Step>
+  <Step num="2" title="Bau von Einrichtungen">
+    Priorisieren Sie eine Wasserpumpe und Anbaufelder, um den täglichen Verbrauch Ihrer Medizin- und Nahrungsvorräte zu senken.
+  </Step>
+  <Step num="3" title="Gemeinschaftsspenden">
+    Spenden Sie überschüssige Güter an das Gemeinschaftslager, um die Anzeigen für medizinische Versorgung, Nahrung und Wasser zu füllen, was die allgemeine Moral steigert.
+  </Step>
+  <Step num="4" title="Fortgeschrittene Upgrades">
+    Bauen Sie eine Maschinenwerkstatt und eine Autowerkstatt, um mit der Herstellung von Waffenmodifikationen zu beginnen und Fahrzeuge für schnellere Reisen zu reparieren.
+  </Step>
+</Steps>
+
+Das Spiel nutzt realistische Reisezeiten auf der Weltkarte. Die Bewegung zwischen Orten wie Little Italy oder dem Old Port dauert Minuten statt Stunden, wodurch sich die Logistik des Plünderns sehr bodenständig anfühlt. Sie müssen jedoch sicherstellen, dass Ihr Team ausgeruht ist, da Erschöpfung die Kampfleistung erheblich beeinträchtigt.
+
+| Einrichtung | Hauptvorteil | Ressourcenkosten |
+| :--- | :--- | :--- |
+| **Anbaufeld** | Erzeugt tägliche Nahrungsvorräte | Saatgut, Wasser, Arbeitskraft |
+| **Maschinenwerkstatt** | Schaltet das Herstellen von Waffenmods frei | Werkzeuge, Altmetall |
+| **Lesezimmer** | Erhöht die Moral der Überlebenden | Bücher, gemütliche Möbel |
+| **Wasserpumpe** | Liefert sauberes Wasser für die Gesundheit | Bauteile, Benzin |
+
+<Callout type="success" title="Erfolgs-Tipp">
+Der frühe Bau eines Lesezimmers mag wie Luxus erscheinen, aber eine hohe Moral verhindert das Desertieren von Überlebenden und verbessert die Gesamteffizienz der Basis im Mid-Game.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Charakterentwicklung und Fähigkeiten-Fortschritt">
+
+Einer der am meisten gelobten Aspekte in den Tests zu Urban Strife ist das „nutzungsbasierte“ Fortschrittssystem. Charaktere erhalten keine pauschalen Erfahrungspunkte für das Abschließen von Quests. Stattdessen verbessern sich ihre Attribute und Fähigkeiten, während sie entsprechende Aktionen ausführen. Wenn ein Charakter häufig eine Schrotflinte benutzt, steigen seine Schießkunst und Stärke im Laufe der Zeit ganz natürlich an.
+
+| Attribut | Wie man es steigert | Vorteil |
+| :--- | :--- | :--- |
+| **Schießkunst** | Erfolgreiches Treffen von Zielen | Verbesserte Präzision und Krit-Chance |
+| **Ausdauer** | Bewegen mit Überlastung | Erhöhte Gesundheit und Ausdauer |
+| **Zähigkeit** | Einstecken und Überleben von Schaden | Höherer Widerstand gegen Trauma (Rote Leiste) |
+| **Stärke** | Nutzung schwerer Waffen oder Nahkampf | Erhöhte Tragekapazität und Nahkampfschaden |
+
+Sobald Attribute bestimmte Schwellenwerte erreichen, schalten Sie Perks frei. Diese ähneln dem Perk-System in klassischen Fallout-Titeln und bieten erhebliche Gameplay-Modifikatoren, mit denen Sie Charaktere auf Rollen wie „Späher“, „Schwerer Angreifer“ oder „Sanitäter“ spezialisieren können.
+
+<Checklist
+  id="character-optimization"
+  title="Ziele für den frühen Spielverlauf:"
+  items={[
+    "Spezialisieren Sie mindestens einen Charakter auf Armbrüste für lautlose Kills",
+    "Überladen Sie Ihren Haupt-Plünderer, um früh Ausdauer zu trainieren",
+    "Stellen Sie sicher, dass Ihr Sanitäter häufig Bandagen benutzt, um die Medizin-Fähigkeit zu steigern",
+    "Schalten Sie den Perk 'Schalldämpfer-Herstellung' über die Maschinenwerkstatt frei"
+  ]}
+/>
+
+<Callout type="info" title="Experten-Einblick">
+Scheuen Sie sich nicht davor, Ihre Charaktere etwas mehr Gewicht tragen zu lassen. Der Ausdauerzuwachs durch leichte Überlastung ist den geringen Bewegungsnachteil auf lange Sicht absolut wert.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Interaktion und Fraktionsmechaniken">
+
+Die soziale Landschaft der Apokalypse ist von verschiedenen Fraktionen bevölkert, von denen jede ihre eigenen Pläne verfolgt. Sie werden NPCs wie Honest Joe treffen, einem moralisch flexiblen Händler, und Bubba, seinem gutherzigen, aber einfältigen Assistenten. Die Interaktion mit diesen Charakteren eröffnet Handelsrouten und Questreihen, die für das langfristige Überleben unerlässlich sind.
+
+**Wichtige Fraktionen und NPCs:**
+- **Honest Joe's Emporium**: Eine Anlaufstelle für illegale Waren, Alkohol und Informationen.
+- **Die Biker**: Eine Gruppe, die lokale Ressourcen durch Einschüchterung kontrolliert.
+- **Die Fanatiker**: Untoten-Anbeter, die eine einzigartige Bedrohung für die Nachbarschaft darstellen.
+- **Die Armee**: Eine disziplinierte, aber distanzierte Gruppe, die sich selten in lokale Streitigkeiten einmischt.
+
+| NPC / Gruppe | Ort | Primäre Dienstleistung |
+| :--- | :--- | :--- |
+| **Honest Joe** | Little Italy | Hochwertiger Handel und illegale Waren |
+| **Slimy Ned** | Little Italy | Verkauf von Werkzeugen, Teilen und Benzin |
+| **Bangs** | Little Italy | Schusswaffen, Munition und Sprengstoffe |
+| **Corkscrew** | Little Italy | Qualitativ hochwertiger, raffinierter Alkohol |
+
+Verhandlungen sind ein wesentlicher Bestandteil des Spielerlebnisses. Sie können sich entscheiden, lokalen Geschäften zu helfen, die Nachbarschaft sicher zu halten, oder sich für den schnellen Profit auf die Seite aggressiverer Elemente schlagen. Diese Entscheidungen beeinflussen Ihren Ruf und die Verfügbarkeit bestimmter Händler.
+
+<Callout type="tip" title="Strategie-Tipp">
+Wenn Sie es mit den Schwarzbrennern in Little Italy zu tun haben, versuchen Sie, deren „Kampffestung“ mit Stealth und Granaten zu säubern. Frontalangriffe gegen verschanzte Feinde sind mit minderwertiger Ausrüstung oft tödlich.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fazit: Die Balance zwischen Tiefgang und Sperrigkeit">
+
+Zusammenfassend zeigt dieser Test zu Urban Strife ein Spiel, das zutiefst ehrgeizig ist, aber gelegentlich durch seine Indie-Wurzeln ausgebremst wird. Die Tiefe der Systeme – von der Inventarverwaltung bis zum taktischen Kampf – ist für Fans des Genres beeindruckend. Allerdings sollten sich Spieler auf ein gewisses Maß an Sperrigkeit („Clunkiness“) einstellen.
+
+<CardGrid cols={3}>
+  <Card title="Das Gute">
+    - **Tiefgründiger taktischer Kampf**
+    - Belohnender Fortschritt
+    - Atmosphärische Welt
+    - Realistisches Überleben
+  </Card>
+  <Card title="Das Schlechte">
+    - **Langsame Animationen**
+    - Sperrige UI-Navigation
+    - Probleme bei der Wegfindung
+    - Repetitive Schauplätze
+  </Card>
+  <Card title="Das Urteil">
+    - **Ein Must-Play für Fans**
+    - Erfordert Geduld
+    - Hoher Wiederspielwert
+    - Solide Indie-Arbeit
+  </Card>
+</CardGrid>
+
+Ein bemerkenswertes Problem ist das Durchqueren der Karte. Charaktere stellen sich oft im Gänsemarsch an, um über Zäune zu springen oder Türen zu öffnen, was das Erkundungstempo verlangsamen kann. Darüber hinaus ist die Benutzeroberfläche für den Austausch von Gegenständen zwischen Gruppenmitgliedern etwas unintuitiv, da Gegenstände oft zuerst auf den Boden gelegt werden müssen, anstatt sie direkt zu übergeben. Trotz dieser Mängel bleibt die Kernschleife aus Plündern, Bauen und Kämpfen für Liebhaber entschleunigter Taktik-RPGs hochgradig fesselnd.
+
+<Callout type="info" title="Abschließende Zusammenfassung">
+Wenn Sie eine hohe Toleranz für budgetbedingte Ecken und Kanten haben und Titel wie Dead State oder Jagged Alliance 2 geliebt haben, bietet Urban Strife im Jahr 2026 eine dichte, lohnende Erfahrung, die die investierte Zeit absolut wert ist.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist Urban Strife ein geistiger Nachfolger von Dead State?",
+    answer: "Ja, es teilt viele Kernmechaniken mit Dead State, darunter das Basis-Management, den rundenbasierten Kampf und den Fokus auf die Verwaltung einer Überlebendengemeinschaft in einer Zombie-Apokalypse."
+  },
+  {
+    question: "Wie funktioniert der Charakterfortschritt?",
+    answer: "Charaktere steigen durch Benutzung auf. Das Ausführen von Aktionen wie Schießen, das Tragen schwerer Lasten oder das Heilen von Verbündeten steigert die entsprechenden Attribute und Fähigkeiten direkt."
+  },
+  {
+    question: "Kann ich Stealth nutzen, um Kämpfe zu vermeiden?",
+    answer: "Absolut. Das Spiel verfügt über ein ausgeklügeltes Geräusch- und Sichtsystem, das es Spielern ermöglicht, sich an Feinden vorbeizuschleichen oder lautlose Ausschaltungen mit Nahkampfwaffen oder Armbrüsten durchzuführen."
+  },
+  {
+    question: "Was sind die wichtigsten Ressourcen, die ich verwalten muss?",
+    answer: "Die primären Ressourcen sind Nahrung, Wasser, Benzin und medizinische Vorräte. Benzin ist besonders wichtig für die Aufrechterhaltung der Basiseinrichtungen und der Stromversorgung."
+  }
+]} />
+
+</Section>

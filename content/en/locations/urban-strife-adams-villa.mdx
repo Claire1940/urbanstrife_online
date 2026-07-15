@@ -1,0 +1,140 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Adams Villa: Tactical Loot & Survival Guide",
+  description: "Master the Urban Strife Adams Villa sector. Learn optimal tactical positioning, high-value loot routes, zombie spawner locations, and hazard survival tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/18181b/dc2626?text=Adams+Villa+Tactical+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Navigate the dangerous suburban layout of **urban strife adams villa** to secure rare crafting blueprints and weapon components.
+- **Key Threat**: High-density zombie spawners and tactical human factions occupying elevated vantage points.
+- **Top Strategy**: Use silent melee weapons or crossbows to clear isolated perimeter targets before engaging central structures.
+- **Critical Resource**: Collect high-durability armor plates, chemicals, and fuel to upgrade the Urban Shelter before the Day 20 siege.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Adams Villa Tactical Overview">
+
+The suburban sector of **urban strife adams villa** serves as a vital mid-game destination in Urban County. Known for its dense residential layouts, barricaded estates, and narrow alleyways, this map demands careful tactical movement. Entering this sector without a clear plan often results in your squad being surrounded by roaming undead or pinned down by hostile human survivors.
+
+Understanding the layout and local faction presence is critical to surviving the excursion. The area features a mix of civilian homes, locked garages, and defensive choke points that can work for or against your squad.
+
+| Sector Attribute | Tactical Value | Practical Application |
+| :--- | :--- | :--- |
+| **Faction Control** | Independent / Hostile | Expect crossfire between local scavengers and roaming undead hordes |
+| **Loot Density** | High (Industrial & Medical) | Prioritize locked garages, toolboxes, and master bedroom safes |
+| **Threat Level** | Moderate to High | Bring suppressed firearms, high-AP melee weapons, and healing items |
+| **Key Extraction** | Northern Roadside | Secure a clear retreat path before looting deep inside the estates |
+
+<Callout type="tip" title="Tactical Advantage">
+Always approach the villa estates while crouched. Standing or running near the perimeter walls will alert nearby zombie spawners, stripping your squad of the initiative.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="High-Value Loot and Spawner Locations">
+
+To maximize your expedition to the **urban strife adams villa** sector, you must target specific high-value containers while avoiding or systematically destroying active zombie spawners. The residential buildings contain valuable domestic supplies, while garages and work sheds hold the components needed for advanced workshop upgrades.
+
+| Location Type | Primary Loot | Threat Level | Tactical Note |
+| :--- | :--- | :--- | :--- |
+| **Main Estate Safe** | Rare blueprints, Pristine sidearms | High | Guarded by armored undead; use blunt weapons to conserve ammo |
+| **Suburban Garages** | Vehicle parts, Fuel, Metal scraps | Medium | Watch out for hidden spawners behind breakable wooden doors |
+| **Garden Sheds** | Chemicals, Tools, Herbal medicine | Low | Ideal spots to set up a temporary defensive bottleneck |
+| **Zombie Spawners** | High-tier components (on destruction) | Critical | Destroy immediately using explosives or heavy melee strikes |
+
+<CardGrid cols={3}>
+  <Card title="Residential Safes">
+    Safes inside the master bedrooms require lockpicks or high-strength characters to force open. They yield the best tactical gear in the sector.
+  </Card>
+  <Card title="Industrial Toolboxes">
+    Located in outer workshops and garages. These contain the mechanical parts required to complete Owen's repair operations back at the Shelter.
+  </Card>
+  <Card title="Medical Cabinets">
+    Found in residential bathrooms. Essential for stocking up on bandages and trauma kits to treat bleeding wounds.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Hazard Warning">
+Do not change weapon attachments or manage heavy inventory while inside active buildings. These actions consume Action Points and can trigger ambush spawns if noise levels spike.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Sector Clear Guide">
+
+Clearing the **urban strife adams villa** sector requires a systematic approach. Follow this step-by-step progression to secure the area, gather maximum resources, and extract your squad safely.
+
+<Steps>
+  <Step num="1" title="Establish a Secure Entry Point">
+    Enter the sector from the northern roadside. Position your ranged shooters behind low stone walls or vehicles to establish clear Overwatch lanes. Keep your melee fighters close to protect the flanks.
+  </Step>
+  <Step num="2" title="Quietly Clear the Perimeter">
+    Use crossbows, suppressed pistols, or silent melee weapons to eliminate isolated zombies patrolling the outer gardens. Avoid using loud shotguns or automatic rifles at this stage to prevent alerting the entire neighborhood.
+  </Step>
+  <Step num="3" title="Locate and Neutralize Spawners">
+    Identify active zombie spawners located near the estate entrances. Move your squad into position during your turn, then focus high-damage attacks or throw a Molotov cocktail to destroy the spawner before it can call in reinforcements.
+  </Step>
+  <Step num="4" title="Breach and Clear Hostile Buildings">
+    Approach closed doors while crouched. Have a high-strength survivor breach the door, then immediately trigger Overwatch with your shooters. Deal with any hostile scavengers or armored undead inside using high-penetration calibers.
+  </Step>
+  <Step num="5" title="Consolidate Loot and Extract">
+    Transfer high-value blueprints, medical supplies, and repair parts to your strongest survivors. Avoid overencumbering your main combatants. Retreat to the northern extraction zone while maintaining a defensive rear guard.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mission Success">
+Once the sector is secure, deposit all collected resources directly into the Shelter stash. Use the salvaged components to initiate weapon and armor repairs with Owen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Checklist for Adams Villa">
+
+Before deploying your away team to the villa, ensure your squad meets the necessary tactical requirements. Use this checklist to prepare your loadout and survival assets.
+
+<Checklist
+  id="adams-villa-prep"
+  title="Deployment Readiness Checklist:"
+  items={[
+    "Equip at least two survivors with silent weapons (crossbows or suppressed firearms).",
+    "Carry a minimum of three trauma bandages per character to stop bleeding injuries.",
+    "Bring lockpicks or a high-strength character to access locked safes and garages.",
+    "Pack at least two Molotov cocktails or fragmentation grenades for horde control.",
+    "Ensure all primary firearms are repaired to at least 80% durability before departure."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best weapon choice for the urban strife adams villa sector?",
+    answer: "A combination of silent weapons for the outer perimeter and high-damage shotguns or automatic rifles for indoor close-quarters combat is highly recommended. Always keep a low-AP sidearm or melee weapon equipped to finish off wounded targets without wasting expensive ammunition."
+  },
+  {
+    question: "How do I deal with the armored zombies guarding the main villa safe?",
+    answer: "Armored targets resist standard low-caliber gunfire. Use blunt melee weapons to deplete their stamina and knock them down, or use high-penetration hunting rifles. Alternatively, throw a Molotov cocktail to bypass their armor with fire damage."
+  },
+  {
+    question: "Can I find vehicle parts in Adams Villa?",
+    answer: "Yes, the garages and workshops scattered around the villa estates are prime scavenging locations for vehicle parts, fuel, and mechanical tools. These are essential for upgrading your auto shop and maintaining cargo transport back at the Shelter."
+  },
+  {
+    question: "What should I do if my squad gets surrounded by a zombie horde?",
+    answer: "Fall back immediately to a narrow choke point, such as a doorway or a garden gate. Position your melee fighters in front to block the path while your ranged shooters use shotguns or automatic fire to tear through the front of the horde. Use explosives to clear dense clusters."
+  }
+]} />
+
+</Section>

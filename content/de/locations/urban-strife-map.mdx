@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Karte: Essenzieller Leitfaden für Navigation & Looting",
+  description: "Meistern Sie die Urban Strife Karte mit unserem Guide für 2026. Lernen Sie wichtige Orte wie Adams Villa kennen, finden Sie hochwertigen Loot und navigieren Sie sicher durch das Ödland von Atlanta.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Map+Guide",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team",
+  keywords: "Urban Strife Karte, Adams Villa, Atlanta, Überleben, Looting, Strategie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptfokus**: Das Navigieren auf der **Urban Strife Karte** erfordert ein ausgewogenes Verhältnis zwischen Reisezeit und Ressourcenverbrauch.
+- **Wichtiger Ort**: **Adams Villa** dient als früher Knotenpunkt für hochwertigen Loot und entscheidenden Story-Fortschritt.
+- **Kampfstrategie**: Nutzen Sie die **Sichtlinie (LoS)** und erhöhte Positionen, um Zombiehorden und Kultisten zu bewältigen.
+- **Looting-Mechanik**: Priorisieren Sie **Werkzeuge, Klebeband und medizinische Vorräte** gegenüber schweren, minderwertigen Gegenständen.
+- **Basis-Management**: Stellen Sie immer sicher, dass Ihr **Unterschlupf** befestigt ist, bevor Sie entfernte Kartenabschnitte erkunden.
+</Callout>
+
+<Section icon={Map} title="Weltkarten-Übersicht und Navigation">
+
+Das Navigieren auf der **Urban Strife Karte** ist der Grundstein für das Überleben in diesem postapokalyptischen RPG, das am Rande von Atlanta, Georgia, spielt. Die Welt ist in verschiedene Sektoren unterteilt, die von verlassenen Autobahnen bis hin zu befestigten Wohngebieten reichen. Die Bewegung auf der Weltkarte verbraucht Zeit – typischerweise in Minuten gemessen – und wirkt sich auf die Erschöpfung und den Hunger Ihres Teams aus. Das Verständnis der Entfernung zwischen Ihrem zentralen Unterschlupf und Plünderungsorten wie Adams Villa ist entscheidend für effiziente Ressourcen-Runs.
+
+**Video-Highlights:**
+- **Open-World-Design**: Erkundung der Autobahnsysteme und Unterschlüpfe an den Abfahrten.
+- **Bewegungsmechanik**: Wie 15-Minuten-Reisesegmente Ihre Überlebensstrategie beeinflussen.
+- **Karten-Interface**: Nutzung der immersiven medizinischen Berichte und To-do-Listen innerhalb der Benutzeroberfläche.
+- **POI-Identifizierung**: Auffinden der Polizeilimousine und spezifischer plünderbarer Behälter.
+
+<YouTubeEmbed videoId="0GyA_wCnR4k" title="Urban Strife - Open World Zombie Apocalypse Survival RPG" />
+
+| Merkmal | Beschreibung | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Reisezeit** | 15-Minuten-Schritte zwischen lokalen Sektoren | Erhöht Hunger und Erschöpfung |
+| **Bedrohungsstufe** | Dynamische Hordenbewegung über die Karte | Bestimmt, wann bestimmte Routen zu meiden sind |
+| **Unterschlupf-Hub** | Zentrale Basis für Upgrades und Erholung | Primäres Ziel für alle geplünderten Vorräte |
+| **POIs** | Interessante Orte wie Adams Villa oder Fords Haus | Risikoreiche Zonen mit hohen Belohnungen |
+
+<Callout type="tip" title="Profi-Tipp">
+Überprüfen Sie vor dem Aufbruch immer Ihre Anzeige für die Hordengefahr auf der Weltkarte. Wenn die Anzeige hoch ist, sollten Sie bis zum Morgengrauen warten oder eine längere, sicherere Route wählen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wichtige Orte: Erkundung von Adams Villa">
+
+Adams Villa stellt eine der ersten großen Herausforderungen auf der **Urban Strife Karte** dar. Dieses Wohngebiet ist mehr als nur eine Ansammlung von Häusern; es ist eine befestigte Zone, die derzeit von der Alpha-Legion und verschiedenen Kultisten-Plünderern besetzt ist. Wenn Sie diesen Sektor betreten, ist Ihr primäres Ziel oft das Auffinden von Professor Ford, dessen Wohnsitz durch markante Umweltgeschichten wie Morsecode-Kratzer und SOS-Zeichen gekennzeichnet ist.
+
+<CardGrid cols={3}>
+  <Card title="Fords Residenz">
+    - **SOS-Zeichen**: Achten Sie auf Morsecode-Kratzer an den Wänden.
+    - **Loot-Dichte**: Hohe Konzentration an medizinischen Vorräten und Chemikalien.
+    - **Gefahr**: Oft von Kultisten-Patrouillen umgeben.
+  </Card>
+  <Card title="Polizeilimousinen-Standort">
+    - **Waffen-Drops**: Bester Ort für frühe Schusswaffen wie die Magnum .22.
+    - **Munition**: Überprüfen Sie den Kofferraum und nahegelegene Müllcontainer nach Schrotpatronen.
+    - **Strategischer Wert**: Bietet Deckung bei Straßengefechten.
+  </Card>
+  <Card title="Der Garagen-Knotenpunkt">
+    - **Werkzeugquelle**: Essenziell für das Finden von Brecheisen und Gartenscheren.
+    - **Handwerk**: Enthält Kleber, Klebeband und Vaseline.
+    - **Stealth**: Mehrere Einstiegspunkte für Flankenmanöver.
+  </Card>
+</CardGrid>
+
+| Ort | Bemerkenswerter Loot | Gegnertyp | Schwierigkeit |
+| :--- | :--- | :--- | :--- |
+| **Adams Villa Straße** | Vaseline, Benzin | Kultisten-Plünderer | Mittel |
+| **Sheriff Rogers Haus** | Polizeiausrüstung, Munition | Zombies | Niedrig |
+| **Professor Fords Labor** | Koffeinprodukte, Medizinkits | Alpha-Legion | Hoch |
+| **Hinterhof-Mülltonnen** | Metallschrott, leere Flaschen | Keine | Sehr niedrig |
+
+<Callout type="warning" title="Wichtig">
+Die Alpha-Legion in Adams Villa benutzt Nagelpistolen und Armbrüste. Obwohl ihnen die Reichweite fehlt, ist ihre Fähigkeit, Blutungsschaden zu verursachen, im frühen Spiel erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampf und Kartenbewusstsein">
+
+Der Kampf in Urban Strife ist untrennbar mit dem Layout der **Urban Strife Karte** verbunden. Die Umgebung ist nicht nur eine Kulisse; sie ist ein taktisches Werkzeug. Sie müssen die "Out"-Taste verwenden, um interagierbare Objekte und potenzielle Deckung hervorzuheben. Das Spiel verwendet ein rundenbasiertes Aktionspunkte-System (AP), bei dem jedes bewegte Feld und jeder abgegebene Schuss gegen Ihre verbleibende Energie abgewogen werden muss.
+
+| Waffentyp | Optimale Reichweite | AP-Kosten | Bester Anwendungsfall |
+| :--- | :--- | :--- | :--- |
+| **Magnum .22** | Mittel | 12-15 AP | Einzelne Plünderer ausschalten |
+| **Bratpfanne/Nahkampf** | Nahbereich | 8-10 AP | Stealth-Kills oder Erledigen am Boden liegender Feinde |
+| **Nagelpistole** | Kurz | 10 AP | Verursachen von Statuseffekten (Bluten) |
+| **Armbrust** | Mittel-Lang | 18 AP | Lautlose Kills aus der Deckung |
+
+<Callout type="success" title="Taktischer Vorteil">
+Nutzen Sie die Sprungmechanik, um durch Fenster und über niedrige Zäune zu gelangen. Dies ermöglicht es Ihnen, Feinde in Häusern zu flankieren, ohne alle auf der Straße zu alarmieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Plünderungstaktiken und Ressourcenmanagement">
+
+Das Plündern der **Urban Strife Karte** ist ein akribischer Prozess. Im Gegensatz zu anderen RPGs haben Gegenstände in Urban Strife ein erhebliches Gewicht und Volumen, was bedeutet, dass Sie nicht alles mitnehmen können. Sie müssen Gegenstände basierend auf den aktuellen Bedürfnissen Ihres Unterschlupfs priorisieren. Wenn Ihr Generator kaputt ist, konzentrieren Sie sich auf Werkzeuge und Kabel; wenn Ihr Team hungert, priorisieren Sie Konserven und Naturheilmittel.
+
+<Steps>
+  <Step num="1" title="Perimeter sichern">
+    Säubern Sie die unmittelbare Umgebung von allen Zombies und Kultisten, bevor Sie plündern, um Hinterhalte während der Überlastung zu vermeiden.
+  </Step>
+  <Step num="2" title="Hochwertige Behälter identifizieren">
+    Verwenden Sie die 'Out'-Taste, um nach leuchtenden Objekten zu suchen. Konzentrieren Sie sich zuerst auf Kofferräume, Medizinschränke und Werkzeugkästen.
+  </Step>
+  <Step num="3" title="Inventarsortierung">
+    Verteilen Sie schwere Gegenstände wie Autoteile oder Gartenscheren auf Ihre stärksten Teammitglieder, um eine individuelle Überlastung zu vermeiden.
+  </Step>
+  <Step num="4" title="Extraktion">
+    Kehren Sie zum Ausgangspunkt der Karte zurück, sobald Ihr Inventar voll ist. Denken Sie daran, dass das Reisen mit Übergewicht deutlich mehr Ausdauer verbraucht.
+  </Step>
+</Steps>
+
+| Ressourcenkategorie | Essenzielle Gegenstände | Primäre Quelle |
+| :--- | :--- | :--- |
+| **Medizinisch** | Bandagen, Feldsanitäter-Kits | Badezimmer, medizinische Betten |
+| **Handwerk** | Klebeband, Kleber, Drähte | Garagen, Küchenschubladen |
+| **Verpflegung** | Konserven, Limonade, Mehl | Küchen, Speisekammern |
+| **Nützliches** | Vaseline, Seife, Hygieneartikel | Toiletten, Nachttische |
+
+<Callout type="info" title="Plünderungs-Tipp">
+Plündern kann langsam sein. Wenn ein Gebiet von Feinden gesäubert ist, nutzen Sie einen Charakter als "Maultier", der in der Nähe des Ausgangs bleibt, während andere Gegenstände auf einen zentralen Haufen bringen, um die Extraktion zu beschleunigen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Meilensteine des Kartenfortschritts">
+
+Um die **Urban Strife Karte** erfolgreich zu meistern, sollten Spieler bestimmte Meilensteine anstreben, die auf eine stabile und fortschreitende Kolonie hindeuten. Diese Ziele stellen sicher, dass Sie auf die eskalierenden Bedrohungen vorbereitet sind, die tiefer in den Ruinen von Atlanta lauern.
+
+<Checklist
+  id="map-goals-2026"
+  title="Überlebens-Meilensteine:"
+  items={[
+    "Etablierung einer 15-minütigen Reiseroute nach Adams Villa",
+    "Sicherung der Magnum .22 aus der Polizeilimousine",
+    "Auffinden von Professor Ford und Entschlüsselung der SOS-Nachricht",
+    "Sammeln von genügend Klebeband und Kleber für grundlegende Waffenreparaturen",
+    "Säuberung des Kultisten-Plündererlagers im Wohnsektor"
+  ]}
+/>
+
+<Callout type="tip" title="Expertenrat">
+Eilen Sie nicht ins Stadtzentrum. Die Außenbezirke bieten reichlich Ressourcen, um Ihre Schießkunst und Beweglichkeit zu verbessern, bevor Sie sich den militärischen Bedrohungen in der Innenstadt von Atlanta stellen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie finde ich bestimmte Orte auf der Urban Strife Karte?",
+    answer: "Orte werden durch Dialoge mit NPCs wie dem Sheriff oder durch das Finden von physischen Karten und Notizen in der Welt enthüllt. Sobald sie entdeckt wurden, erscheinen sie als Symbole auf Ihrem Weltkarten-Interface."
+  },
+  {
+    question: "Spielt die Tageszeit beim Reisen eine Rolle?",
+    answer: "Ja. Reisen in der Nacht erhöht die Chance, auf Zombiehorden zu treffen, und verringert Ihre Sichtweite im taktischen Kampf, was Stealth schwieriger macht, aber potenziell sicherer ist, um dem Fernfeuer der Kultisten zu entgehen."
+  },
+  {
+    question: "Kann ich zwischen entdeckten Orten schnellreisen?",
+    answer: "Es gibt keine 'sofortige' Schnellreise. Bewegungen verbrauchen immer In-Game-Zeit und Ressourcen, obwohl sich etablierte Routen schneller anfühlen können, wenn Sie mit dem Gelände und den Bedrohungen vertraut sind."
+  },
+  {
+    question: "Was soll ich tun, wenn mein Charakter beim Plündern überladen ist?",
+    answer: "Werfen Sie minderwertige Gegenstände wie leere Flaschen oder Getränkedosen weg. Priorisieren Sie 'Naturheilmittel' und Werkzeuge, da diese schwerer zu finden und für den Fortschritt im Mid-Game essenziell sind."
+  }
+]} />
+
+</Section>

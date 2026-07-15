@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife : Guide de la quête des Fédéraux et récompenses de faction",
+  description: "Maîtrisez la quête des Fédéraux dans Urban Strife grâce à notre guide détaillé. Découvrez les alliances avec la Garde Nationale, les objectifs de mission et les récompenses d'équipement de haut niveau.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=The+Feds+Quest+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **La quête des Fédéraux** (The Feds Quest) est une mission charnière du milieu à la fin du jeu impliquant la **Garde Nationale** (également connue sous le nom de Garnison de l'Armée Rebelle).
+- **Objectif principal** : Sécuriser le soutien fédéral ou découvrir les secrets de la base de montagne pour influencer la préparation du siège final.
+- **Condition clé** : Une **réputation** élevée auprès des groupes alignés sur l'armée ou des tests d'**Intelligence** réussis sont souvent nécessaires pour des résolutions pacifiques.
+- **Meilleure récompense** : Accès aux **armes à feu de qualité militaire** et au véhicule **HMMWV de l'armée** pour voyager plus rapidement dans le comté.
+- **Avertissement critique** : Les décisions prises au cours de cette série de quêtes impactent directement votre **suivi de défense** pour l'assaut de la horde d'Atlanta du jour 20.
+</Callout>
+
+<Section icon={Map} title="Comprendre la quête des Fédéraux dans Urban Strife">
+
+Dans le paysage post-apocalyptique d'Urban County, **Urban Strife : La quête des Fédéraux** sert de pont entre la survie locale et la lutte politique plus large pour la région. Les « Fédéraux » font principalement référence aux restes de la Garde Nationale, établis dans une base de montagne lourdement fortifiée. Cette série de quêtes n'est pas un simple défi de combat ; c'est un test de la légitimité de votre Abri et de votre capacité à naviguer dans les loyautés complexes de la Garnison de l'Armée Rebelle.
+
+| Phase de la quête | Lieu principal | Objectif principal | Difficulté |
+| :--- | :--- | :--- | :--- |
+| **Premier contact** | Périphérie d'Urban County | Localiser les éclaireurs fédéraux et établir un canal de dialogue | Niveau 1 |
+| **Vérification** | Portes de la base de montagne | Prouver la valeur de l'Abri par un don de ressources ou un service | Niveau 2 |
+| **Plongée profonde** | Installation souterraine | Enquêter sur les motivations fédérales ou sécuriser l'alliance | Niveau 3 |
+| **Extraction finale** | QG de la faction | S'échapper avec les plans ou finaliser le traité militaire | Niveau 3+ |
+
+<Callout type="tip" title="La réputation compte">
+Avant de commencer cette quête, assurez-vous que votre escouade comprend un survivant ayant une **Intelligence** élevée ou un passé militaire. Cela peut déverrouiller des options de dialogue qui évitent des affrontements coûteux ou des pots-de-vin gourmands en ressources.
+</Callout>
+
+Améliorer votre réputation auprès des Fédéraux vous permet d'accéder à l'inventaire de commerce le plus avancé du jeu. Contrairement aux motards de Shady Lady ou à l'Église de la Seconde Chance, la Garde Nationale se concentre sur des équipements standardisés à haute pénétration, essentiels pour faire face aux morts-vivants blindés en fin de partie.
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape pour la quête des Fédéraux">
+
+Naviguer dans la série de quêtes des Fédéraux nécessite un équilibre entre positionnement tactique et ingénierie sociale. Suivez ces étapes pour éviter de vous aliéner la puissance militaire avant d'avoir sécurisé leur technologie de pointe.
+
+<Steps>
+  <Step num="1" title="Sécuriser la liaison radio">
+    Avant que la quête ne se déclenche, vous devez réparer la **Radio de la ville** (City Radio) à l'Abri Urbain. Une fois opérationnelle, écoutez les transmissions fédérales cryptées. Vous devrez vous rendre dans un secteur désigné dans les collines du nord pour rencontrer un contact. Évitez d'amener toute la milice lors de la première rencontre pour limiter les tensions.
+  </Step>
+  <Step num="2" title="La vérification des ressources">
+    Les Fédéraux exigeront des preuves que votre Abri ne pèse pas sur les ressources régionales. Vous devez fournir une quantité spécifique de **médicaments** et de **carburant**. Alternativement, si votre test de **Force** est assez élevé, vous pouvez intimider les éclaireurs pour obtenir l'accès en vous basant sur vos états de service.
+  </Step>
+  <Step num="3" title="Infiltrer la base de montagne">
+    Une fois aux portes, vous utilisez la **phase d'alliance**. Vous devez naviguer dans la base sans dégainer vos armes. Profitez-en pour localiser le **HMMWV de l'armée** et l'intendant principal. Votre objectif est de rencontrer le commandant pour discuter de la menace de la **horde d'Atlanta**.
+  </Step>
+  <Step num="4" title="Le conflit interne">
+    Vous découvrirez une dissension au sein de la garnison. Vous devez choisir de soutenir la direction établie ou un groupe dissident de soldats qui souhaite partager les provisions avec la population civile. Ce choix détermine vos **récompenses de faction** à long terme.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement de combat">
+Si vous choisissez la voie hostile pendant la phase d'infiltration, préparez-vous à des tirs de précision de tireurs d'élite depuis les remparts de la base. Les Fédéraux utilisent la **vigilance** (Overwatch) plus efficacement que n'importe quelle autre faction du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleurs équipements pour les missions fédérales">
+
+Les missions impliquant les Fédéraux vous opposent souvent à des adversaires humains bien protégés ou à des groupes denses de soldats. Les armes de mêlée standard et les pistolets de petit calibre sont souvent insuffisants. Vous aurez besoin d'armes dotées d'une forte **pénétration des matériaux** et de capacités de perforation d'armure.
+
+| Type d'arme | Modèle recommandé | Rôle tactique | Efficacité perforante |
+| :--- | :--- | :--- | :--- |
+| **Fusil d'assaut** | M16 / AK-74 | Suppression à moyenne portée et tir en rafale | Élevée |
+| **Fusil de précision** | Fusil de chasse (à lunette) | Élimination des cibles prioritaires (officiers/tireurs d'élite) | Modérée |
+| **Fusil à pompe** | Fusil à pompe | Défense rapprochée contre les équipes d'assaut | Modérée |
+| **Explosifs** | Grenades à fragmentation | Nettoyage des positions retranchées derrière des abris | Faible |
+
+<CardGrid cols={2}>
+  <Card title="Priorité à la perforation d'armure">
+    Les Fédéraux portent des **protections corporelles** et des **plaques balistiques** de haut niveau. Utilisez des munitions de 5,56 mm ou 7,62 mm. Les balles à pointe creuse sont inefficaces ici ; privilégiez les variantes standard ou perforantes pour garantir que les dégâts atteignent la cible.
+  </Card>
+  <Card title="Approche furtive">
+    Si votre **Agilité** est élevée, utilisez des pistolets à silencieux pour éliminer la garde extérieure. Cependant, une fois l'alarme déclenchée, les militaires utiliseront des fusées éclairantes pour annuler votre avantage de vision, rendant la furtivité traditionnelle beaucoup plus difficile.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Astuce d'arme">
+Le **fusil anti-matériel .50 BMG**, bien que rare, peut pénétrer les murs les plus épais de la base de montagne. Si vous en trouvez un avant cette quête, il peut grandement simplifier l'affrontement du boss en vous permettant de tirer hors de sa portée de détection.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparaison des factions : Fédéraux vs Motards vs Culte">
+
+Choisir de s'aligner avec les Fédéraux pendant cette quête a des conséquences importantes pour la fin de partie de votre Abri. L'alliance que vous sécurisez détermine les **améliorations de puissance** spécifiques disponibles pour la défense finale du jour 20.
+
+| Caractéristique | Garde Nationale (Fédéraux) | Motards Shady Lady | Église de la Seconde Chance |
+| :--- | :--- | :--- | :--- |
+| **Récompense principale** | Matériel et véhicules militaires | Équipement du marché noir et réparations | Matériaux uniques et recrues |
+| **Bonus de défense** | Tourelles automatiques | Barricades renforcées | Bonus de moral et d'endurance |
+| **Soutien de siège** | Soutien aérien / Tireurs d'élite | Équipes d'assaut mobiles | Leures de morts-vivants |
+| **Type de recrue** | Soldats disciplinés | Mécaniciens qualifiés | Soigneurs spirituels |
+
+<Callout type="info" title="Impact à long terme">
+Une alliance avec les Fédéraux rend généralement les **motards de Shady Lady** hostiles. Cela signifie que vous perdrez l'accès au réseau commercial du bar des motards, mais que vous gagnerez le soutien logistique de l'armée, qui est bien supérieur pour le siège final de la **horde d'Atlanta**.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Récompenses de quête et liste de contrôle">
+
+Terminer la **quête des Fédéraux dans Urban Strife** déverrouille plusieurs avantages permanents pour votre Abri. Utilisez la liste de contrôle ci-dessous pour vous assurer d'avoir maximisé les récompenses de cette mission.
+
+<Checklist
+  id="feds-quest-rewards"
+  title="Objectifs de complétion de la quête fédérale :"
+  items={[
+    "Sécuriser le HMMWV de l'armée pour le garage de l'Abri",
+    "Débloquer les plans militaires de niveau 3 de l'armurier",
+    "Recruter au moins un spécialiste de la garnison",
+    "Installer l'amélioration du suivi de défense automatisé",
+    "Établir une route commerciale permanente pour les munitions de 5,56 mm"
+  ]}
+/>
+
+La récompense non matérielle la plus précieuse est l'augmentation de votre **suivi de défense**. Une alliance militaire ajoute des « points » significatifs à votre préparation au siège, reflétant l'entraînement professionnel que votre milice reçoit des conseillers fédéraux.
+
+<Callout type="tip" title="Stratégie de pro">
+Si vous jouez une partie « sans conflit » (Zero-Conflict), vous pouvez terminer la quête des Fédéraux en faisant don d'un excédent massif de **nourriture** et d'**eau propre**. Cela nécessite que les **jardins** et l'**hydroponie** de votre Abri soient entièrement améliorés avant le début de la quête.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je terminer la quête des Fédéraux si j'ai déjà rejoint les Motards ?",
+    answer: "Oui, mais c'est beaucoup plus difficile. Vous devrez accomplir une série de « missions de rédemption » pour prouver que vous n'êtes plus affilié au club de motards, ou réussir un test d'Intelligence très élevé pour négocier une paix neutre."
+  },
+  {
+    question: "Que se passe-t-il si le commandant des Fédéraux meurt pendant la quête ?",
+    answer: "La garnison sombrera dans le chaos et vous perdrez l'accès à l'alliance militaire. Cependant, vous pouvez toujours piller la base pour obtenir de l'équipement de haut niveau, bien que vous manquiez de soutien à long terme pour le siège final."
+  },
+  {
+    question: "Le HMMWV de l'armée est-il meilleur que le fourgon civil standard ?",
+    answer: "Considérablement. Il a une plus grande durabilité, une meilleure vitesse hors route et peut être amélioré avec une mitrailleuse montée si vous avez un mécanicien qualifié et les bons plans."
+  },
+  {
+    question: "Comment cette quête affecte-t-elle l'arrivée de la horde d'Atlanta ?",
+    answer: "Si vous sécurisez l'alliance fédérale, les militaires fourniront une alerte précoce et un soutien d'artillerie à longue portée lors de la défense finale, rendant le siège du jour 20 beaucoup plus gérable."
+  }
+]} />
+
+</Section>

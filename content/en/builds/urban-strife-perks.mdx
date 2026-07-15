@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Perks: Core Attributes & Character Build Guide",
+  description: "Master the urban strife perks system with our comprehensive guide to attributes, survival traits, and tactical character builds for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Perks+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban strife perks**: Foundational traits linked to core attributes like Strength and Agility.
+- **Action Points (AP)**: The primary currency for combat, determined by your Agility and current health.
+- **Specializations**: Focus on specific weapon masteries such as Shotguns for crowd control or Crossbows for stealth.
+- **Base Synergy**: Unlocking shelter upgrades directly impacts your team's passive survival perks.
+- **Tactical Depth**: Use crouching and overwatch to maximize the efficiency of your character's combat perks.
+</Callout>
+
+<Section icon={Users} title="Character Attributes and Perk Foundations">
+
+In the world of Urban Strife, your character's effectiveness is defined by their core attributes. These statistics act as the foundation for all **urban strife perks** and traits you will unlock as you progress through the 2026 campaign. Unlike traditional RPGs, every point invested in an attribute has a tangible impact on tactical combat, from how far you can move to how likely you are to interrupt an enemy's turn.
+
+**Video Highlights:**
+- Detailed look at the character customization screen and attribute point allocation.
+- Comparison between different starting builds: Melee vs. Ranged focus.
+- Overview of the team management system including key survivors like Billy Bow and Lucy Lee.
+- Demonstration of how attributes like Agility directly affect Action Points (AP).
+
+<YouTubeEmbed videoId="aGY-r3iDZos" title="Urban Strife - XCOM Meets Survival" />
+
+Understanding how these attributes interact is vital for building a balanced squad. Each survivor in your group can be specialized to fill a specific niche, whether that is a front-line tank or a back-line medic.
+
+| Attribute | Primary Effects | Perk Synergy |
+| :--- | :--- | :--- |
+| **Endurance** | Max Health, Resistance | Tanking, Survival |
+| **Strength** | Carry Capacity, Melee Damage | Heavy Weapons, CQC |
+| **Agility** | Action Points (AP), Interrupt Chance | Flanking, Overwatch |
+| **Dexterity** | Item Usage, Melee Accuracy | Crafting, Precision Melee |
+| **Marksmanship** | Ranged Accuracy, Crit Chance | Sniping, Firearms |
+| **Intelligence** | Experience Gain, Skill Efficiency | Support, Engineering |
+
+<Callout type="tip" title="Pro Tip">
+When starting a new run in 2026, prioritize Agility for at least two of your characters. Having a high Interrupt chance allows you to stop scavengers and zombies before they reach your cover.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Masteries and Weapon Perks">
+
+Combat in Urban Strife is a brutal affair where resource management is just as important as tactical positioning. The **urban strife perks** associated with different weapon classes allow you to dictate the flow of battle. Whether you are using a salvaged nail gun or a high-powered shotgun, understanding your effective range and AP costs is the difference between life and death.
+
+<CardGrid cols={3}>
+  <Card title="Melee Specialist">
+    - **High Strength/Dexterity**
+    - Focuses on blunt force (Pin Rollers) or blades.
+    - Excellent for silent zombie takedowns.
+  </Card>
+  <Card title="Ranged Marksman">
+    - **High Marksmanship/Agility**
+    - Uses rifles (Plinker 10-22) and crossbows.
+    - Dominates long-range engagements.
+  </Card>
+  <Card title="Tactical Breacher">
+    - **High Endurance/Strength**
+    - Specializes in shotguns and heavy armor.
+    - Clears rooms and breaks enemy morale.
+  </Card>
+</CardGrid>
+
+The tactical layer also includes environmental interactions. Crouching significantly increases your accuracy and defensive rating, making it a mandatory action for any character built around ranged perks.
+
+| Weapon Type | AP Cost (Attack) | Effective Range | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **Shotgun** | 12 AP | Short | Group clearing, High DMG |
+| **Pistol** | 6-8 AP | Medium | Flexible sidearm, Finishing |
+| **Crossbow** | 10 AP | Long | Stealth, Recoverable ammo |
+| **Nail Gun** | 5 AP | Short | Rapid fire, Low resource cost |
+| **Melee (Blunt)** | 7 AP | CQC | Stun chance, No noise |
+
+<Callout type="warning" title="Critical Warning">
+Zombies are attracted to noise. Using firearms without silencers will rapidly increase the "Horde Threat" level of your current location. Always keep a melee specialist ready for silent kills.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Progression and Base Management">
+
+Your progression in Urban Strife isn't just about leveling up individuals; it's about the survival of your colony. As you upgrade your shelter, you unlock global **urban strife perks** that provide bonuses to all team members. These upgrades require specific resources like wood, metal, chemicals, and high-tech parts found during scavenging runs.
+
+<Steps>
+  <Step num="1" title="Secure the Radio">
+    Locate Professor Ford to fix the radio, enabling communication with other factions and unlocking the world map.
+  </Step>
+  <Step num="2" title="Establish Power">
+    Build an electric generator to power the pharmacy and garage, which are essential for advanced crafting.
+  </Step>
+  <Step num="3" title="Medical Infrastructure">
+    Work with Lucy Lee to get the clinic operational, providing passive healing perks and injury recovery.
+  </Step>
+  <Step num="4" title="Vehicle Restoration">
+    Transplant car parts into a new vehicle to reduce travel time and expand your scavenging radius.
+  </Step>
+</Steps>
+
+Base management also involves balancing your survival rating against the growing threat of the undead. A higher survival rating attracts better recruits but may also draw the attention of marauding factions like Caesar's Legion.
+
+<Callout type="info" title="Resource Management">
+Always check the "Time" on your UI. Missions are significantly harder at night when crawlers and the undead become more active. Plan your scavenging runs to end before sunset.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Checklist and Faction Relations">
+
+Success in the 2026 wasteland requires navigating the complex politics of survivor factions. Your standing with groups like the Urban Biker Charter or the National Guard can unlock unique **urban strife perks**, such as access to military-grade hardware or specialized training.
+
+<Checklist
+  id="early-game-survival"
+  title="Essential 2026 Survival Goals:"
+  items={[
+    "Clear the Adams Villa for initial resources",
+    "Equip all survivors with at least one melee backup",
+    "Craft bandages using cloth rags and chemicals",
+    "Reach 'Neutral' status with the Biker Charter",
+    "Upgrade character Agility to reach 20+ AP"
+  ]}
+/>
+
+Maintaining these relationships is a balancing act. Helping one faction may turn another hostile, leading to dangerous encounters on the world map.
+
+| Faction | Primary Leader | Status Perks |
+| :--- | :--- | :--- |
+| **Urban Bikers** | The Prez | Vehicle parts, Fuel access |
+| **Church of Second Chance** | Unknown | Medical supplies, Morale boost |
+| **National Guard** | Commander | High-tier firearms, Armor |
+| **Caesar's Legion** | Various | Hostile by default, Loot focus |
+
+<Callout type="success" title="Strategy Success">
+Disassembling unused weapons (like extra shotguns) is the fastest way to get gun parts for crafting scopes and silencers. Use a toolbox to maximize the yield from disassembly.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Tactical Tips">
+
+To truly master the **urban strife perks** system, you must look beyond basic stats and utilize the game's deeper mechanics. Flanking, line-of-sight manipulation, and limb-specific injuries play a massive role in high-level play.
+
+- **Limb Targeting**: If an enemy has a dangerous weapon, target their arms to reduce their accuracy. To stop a runner, target the legs.
+- **Overwatch Stacking**: Place multiple characters on overwatch covering a single choke point to create a "kill zone" that can wipe out entire scavenger squads.
+- **Crafting Efficiency**: Use Billy Bow for crafting melee weapons and Lucy Lee for medical supplies to benefit from their natural proficiency bonuses.
+- **Inventory Swapping**: You can swap weapons between characters during combat if they are adjacent, allowing you to adapt to changing ranges instantly.
+
+| Tactical Action | AP Cost | Benefit |
+| :--- | :--- | :--- |
+| **Crouch** | 2 AP | +Accuracy, -Profile |
+| **Run** | Variable | High mobility, High noise |
+| **Sneak** | Variable | Low noise, Stealth kills |
+| **Reload** | 4-6 AP | Essential for firearms |
+| **Swap Weapon** | 3 AP | Adapt to range |
+
+<Callout type="tip" title="Final Advice">
+Don't get attached to a single weapon. If you kill an enemy with a better gun, pick it up and use it immediately. In Urban Strife, the best gear is often whatever you just took from your opponent.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I unlock more urban strife perks for my characters?",
+    answer: "Perks are unlocked by spending attribute points during level-ups and by completing specific faction quests that grant unique traits."
+  },
+  {
+    question: "What is the most important attribute for a beginner?",
+    answer: "Agility is widely considered the most important because it determines your total Action Points (AP) and your ability to interrupt enemies."
+  },
+  {
+    question: "Can I respec my character's perks and attributes?",
+    answer: "Currently, attribute choices are permanent, but you can change your character's role by swapping their gear and weapon specializations."
+  },
+  {
+    question: "Does the time of day really matter for missions?",
+    answer: "Yes, in 2026 the night cycle significantly buffs undead enemies, making stealth harder and combat much more dangerous."
+  }
+]} />
+
+</Section>

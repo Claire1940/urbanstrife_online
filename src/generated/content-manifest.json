@@ -1,1 +1,714 @@
-{}
+{
+  "de": {
+    "builds": [
+      {
+        "slug": "urban-strife-best-build",
+        "file": "urban-strife-best-build"
+      },
+      {
+        "slug": "urban-strife-character-build",
+        "file": "urban-strife-character-build"
+      },
+      {
+        "slug": "urban-strife-character-creation",
+        "file": "urban-strife-character-creation"
+      },
+      {
+        "slug": "urban-strife-companions",
+        "file": "urban-strife-companions"
+      },
+      {
+        "slug": "urban-strife-perks",
+        "file": "urban-strife-perks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "urban-strife-beginner-guide",
+        "file": "urban-strife-beginner-guide"
+      },
+      {
+        "slug": "urban-strife-gameplay",
+        "file": "urban-strife-gameplay"
+      },
+      {
+        "slug": "urban-strife-guide",
+        "file": "urban-strife-guide"
+      },
+      {
+        "slug": "urban-strife-tips-and-tricks",
+        "file": "urban-strife-tips-and-tricks"
+      },
+      {
+        "slug": "urban-strife-walkthrough",
+        "file": "urban-strife-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "urban-strife-adams-villa",
+        "file": "urban-strife-adams-villa"
+      },
+      {
+        "slug": "urban-strife-fema-hospital",
+        "file": "urban-strife-fema-hospital"
+      },
+      {
+        "slug": "urban-strife-map",
+        "file": "urban-strife-map"
+      },
+      {
+        "slug": "urban-strife-national-guard-base",
+        "file": "urban-strife-national-guard-base"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "urban-strife-act-2",
+        "file": "urban-strife-act-2"
+      },
+      {
+        "slug": "urban-strife-locate-professor-ford",
+        "file": "urban-strife-locate-professor-ford"
+      },
+      {
+        "slug": "urban-strife-pharmacy-scout-report",
+        "file": "urban-strife-pharmacy-scout-report"
+      },
+      {
+        "slug": "urban-strife-radio-descrambler",
+        "file": "urban-strife-radio-descrambler"
+      },
+      {
+        "slug": "urban-strife-the-feds-quest",
+        "file": "urban-strife-the-feds-quest"
+      }
+    ],
+    "release": [
+      {
+        "slug": "urban-strife-full-release",
+        "file": "urban-strife-full-release"
+      },
+      {
+        "slug": "urban-strife-ps5",
+        "file": "urban-strife-ps5"
+      },
+      {
+        "slug": "urban-strife-release-date",
+        "file": "urban-strife-release-date"
+      },
+      {
+        "slug": "urban-strife-steam-deck",
+        "file": "urban-strife-steam-deck"
+      },
+      {
+        "slug": "urban-strife-steam",
+        "file": "urban-strife-steam"
+      },
+      {
+        "slug": "urban-strife-xbox",
+        "file": "urban-strife-xbox"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "urban-strife-is-good",
+        "file": "urban-strife-is-good"
+      },
+      {
+        "slug": "urban-strife-reddit",
+        "file": "urban-strife-reddit"
+      },
+      {
+        "slug": "urban-strife-review",
+        "file": "urban-strife-review"
+      },
+      {
+        "slug": "urban-strife-vs-dead-state",
+        "file": "urban-strife-vs-dead-state"
+      },
+      {
+        "slug": "urban-strife-worth-it",
+        "file": "urban-strife-worth-it"
+      }
+    ],
+    "systems": [
+      {
+        "slug": "urban-strife-base-building",
+        "file": "urban-strife-base-building"
+      },
+      {
+        "slug": "urban-strife-how-to-get-materials",
+        "file": "urban-strife-how-to-get-materials"
+      },
+      {
+        "slug": "urban-strife-how-to-refuel-car",
+        "file": "urban-strife-how-to-refuel-car"
+      },
+      {
+        "slug": "urban-strife-how-to-use-blueprints",
+        "file": "urban-strife-how-to-use-blueprints"
+      },
+      {
+        "slug": "urban-strife-workshop",
+        "file": "urban-strife-workshop"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "urban-strife-all-weapons",
+        "file": "urban-strife-all-weapons"
+      },
+      {
+        "slug": "urban-strife-armor",
+        "file": "urban-strife-armor"
+      },
+      {
+        "slug": "urban-strife-best-weapons",
+        "file": "urban-strife-best-weapons"
+      },
+      {
+        "slug": "urban-strife-gunsmith-bench",
+        "file": "urban-strife-gunsmith-bench"
+      },
+      {
+        "slug": "urban-strife-repair-weapons",
+        "file": "urban-strife-repair-weapons"
+      }
+    ]
+  },
+  "en": {
+    "builds": [
+      {
+        "slug": "urban-strife-best-build",
+        "file": "urban-strife-best-build"
+      },
+      {
+        "slug": "urban-strife-character-build",
+        "file": "urban-strife-character-build"
+      },
+      {
+        "slug": "urban-strife-character-creation",
+        "file": "urban-strife-character-creation"
+      },
+      {
+        "slug": "urban-strife-companions",
+        "file": "urban-strife-companions"
+      },
+      {
+        "slug": "urban-strife-perks",
+        "file": "urban-strife-perks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "urban-strife-beginner-guide",
+        "file": "urban-strife-beginner-guide"
+      },
+      {
+        "slug": "urban-strife-gameplay",
+        "file": "urban-strife-gameplay"
+      },
+      {
+        "slug": "urban-strife-guide",
+        "file": "urban-strife-guide"
+      },
+      {
+        "slug": "urban-strife-tips-and-tricks",
+        "file": "urban-strife-tips-and-tricks"
+      },
+      {
+        "slug": "urban-strife-walkthrough",
+        "file": "urban-strife-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "urban-strife-adams-villa",
+        "file": "urban-strife-adams-villa"
+      },
+      {
+        "slug": "urban-strife-fema-hospital",
+        "file": "urban-strife-fema-hospital"
+      },
+      {
+        "slug": "urban-strife-map",
+        "file": "urban-strife-map"
+      },
+      {
+        "slug": "urban-strife-national-guard-base",
+        "file": "urban-strife-national-guard-base"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "urban-strife-act-2",
+        "file": "urban-strife-act-2"
+      },
+      {
+        "slug": "urban-strife-locate-professor-ford",
+        "file": "urban-strife-locate-professor-ford"
+      },
+      {
+        "slug": "urban-strife-pharmacy-scout-report",
+        "file": "urban-strife-pharmacy-scout-report"
+      },
+      {
+        "slug": "urban-strife-radio-descrambler",
+        "file": "urban-strife-radio-descrambler"
+      },
+      {
+        "slug": "urban-strife-the-feds-quest",
+        "file": "urban-strife-the-feds-quest"
+      }
+    ],
+    "release": [
+      {
+        "slug": "urban-strife-full-release",
+        "file": "urban-strife-full-release"
+      },
+      {
+        "slug": "urban-strife-ps5",
+        "file": "urban-strife-ps5"
+      },
+      {
+        "slug": "urban-strife-release-date",
+        "file": "urban-strife-release-date"
+      },
+      {
+        "slug": "urban-strife-steam-deck",
+        "file": "urban-strife-steam-deck"
+      },
+      {
+        "slug": "urban-strife-steam",
+        "file": "urban-strife-steam"
+      },
+      {
+        "slug": "urban-strife-xbox",
+        "file": "urban-strife-xbox"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "urban-strife-is-good",
+        "file": "urban-strife-is-good"
+      },
+      {
+        "slug": "urban-strife-reddit",
+        "file": "urban-strife-reddit"
+      },
+      {
+        "slug": "urban-strife-review",
+        "file": "urban-strife-review"
+      },
+      {
+        "slug": "urban-strife-vs-dead-state",
+        "file": "urban-strife-vs-dead-state"
+      },
+      {
+        "slug": "urban-strife-worth-it",
+        "file": "urban-strife-worth-it"
+      }
+    ],
+    "systems": [
+      {
+        "slug": "urban-strife-base-building",
+        "file": "urban-strife-base-building"
+      },
+      {
+        "slug": "urban-strife-how-to-get-materials",
+        "file": "urban-strife-how-to-get-materials"
+      },
+      {
+        "slug": "urban-strife-how-to-refuel-car",
+        "file": "urban-strife-how-to-refuel-car"
+      },
+      {
+        "slug": "urban-strife-how-to-use-blueprints",
+        "file": "urban-strife-how-to-use-blueprints"
+      },
+      {
+        "slug": "urban-strife-workshop",
+        "file": "urban-strife-workshop"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "urban-strife-all-weapons",
+        "file": "urban-strife-all-weapons"
+      },
+      {
+        "slug": "urban-strife-armor",
+        "file": "urban-strife-armor"
+      },
+      {
+        "slug": "urban-strife-best-weapons",
+        "file": "urban-strife-best-weapons"
+      },
+      {
+        "slug": "urban-strife-gunsmith-bench",
+        "file": "urban-strife-gunsmith-bench"
+      },
+      {
+        "slug": "urban-strife-repair-weapons",
+        "file": "urban-strife-repair-weapons"
+      }
+    ]
+  },
+  "fr": {
+    "builds": [
+      {
+        "slug": "urban-strife-best-build",
+        "file": "urban-strife-best-build"
+      },
+      {
+        "slug": "urban-strife-character-build",
+        "file": "urban-strife-character-build"
+      },
+      {
+        "slug": "urban-strife-character-creation",
+        "file": "urban-strife-character-creation"
+      },
+      {
+        "slug": "urban-strife-companions",
+        "file": "urban-strife-companions"
+      },
+      {
+        "slug": "urban-strife-perks",
+        "file": "urban-strife-perks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "urban-strife-beginner-guide",
+        "file": "urban-strife-beginner-guide"
+      },
+      {
+        "slug": "urban-strife-gameplay",
+        "file": "urban-strife-gameplay"
+      },
+      {
+        "slug": "urban-strife-guide",
+        "file": "urban-strife-guide"
+      },
+      {
+        "slug": "urban-strife-tips-and-tricks",
+        "file": "urban-strife-tips-and-tricks"
+      },
+      {
+        "slug": "urban-strife-walkthrough",
+        "file": "urban-strife-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "urban-strife-adams-villa",
+        "file": "urban-strife-adams-villa"
+      },
+      {
+        "slug": "urban-strife-fema-hospital",
+        "file": "urban-strife-fema-hospital"
+      },
+      {
+        "slug": "urban-strife-map",
+        "file": "urban-strife-map"
+      },
+      {
+        "slug": "urban-strife-national-guard-base",
+        "file": "urban-strife-national-guard-base"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "urban-strife-act-2",
+        "file": "urban-strife-act-2"
+      },
+      {
+        "slug": "urban-strife-locate-professor-ford",
+        "file": "urban-strife-locate-professor-ford"
+      },
+      {
+        "slug": "urban-strife-pharmacy-scout-report",
+        "file": "urban-strife-pharmacy-scout-report"
+      },
+      {
+        "slug": "urban-strife-radio-descrambler",
+        "file": "urban-strife-radio-descrambler"
+      },
+      {
+        "slug": "urban-strife-the-feds-quest",
+        "file": "urban-strife-the-feds-quest"
+      }
+    ],
+    "release": [
+      {
+        "slug": "urban-strife-full-release",
+        "file": "urban-strife-full-release"
+      },
+      {
+        "slug": "urban-strife-ps5",
+        "file": "urban-strife-ps5"
+      },
+      {
+        "slug": "urban-strife-release-date",
+        "file": "urban-strife-release-date"
+      },
+      {
+        "slug": "urban-strife-steam-deck",
+        "file": "urban-strife-steam-deck"
+      },
+      {
+        "slug": "urban-strife-steam",
+        "file": "urban-strife-steam"
+      },
+      {
+        "slug": "urban-strife-xbox",
+        "file": "urban-strife-xbox"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "urban-strife-is-good",
+        "file": "urban-strife-is-good"
+      },
+      {
+        "slug": "urban-strife-reddit",
+        "file": "urban-strife-reddit"
+      },
+      {
+        "slug": "urban-strife-review",
+        "file": "urban-strife-review"
+      },
+      {
+        "slug": "urban-strife-vs-dead-state",
+        "file": "urban-strife-vs-dead-state"
+      },
+      {
+        "slug": "urban-strife-worth-it",
+        "file": "urban-strife-worth-it"
+      }
+    ],
+    "systems": [
+      {
+        "slug": "urban-strife-base-building",
+        "file": "urban-strife-base-building"
+      },
+      {
+        "slug": "urban-strife-how-to-get-materials",
+        "file": "urban-strife-how-to-get-materials"
+      },
+      {
+        "slug": "urban-strife-how-to-refuel-car",
+        "file": "urban-strife-how-to-refuel-car"
+      },
+      {
+        "slug": "urban-strife-how-to-use-blueprints",
+        "file": "urban-strife-how-to-use-blueprints"
+      },
+      {
+        "slug": "urban-strife-workshop",
+        "file": "urban-strife-workshop"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "urban-strife-all-weapons",
+        "file": "urban-strife-all-weapons"
+      },
+      {
+        "slug": "urban-strife-armor",
+        "file": "urban-strife-armor"
+      },
+      {
+        "slug": "urban-strife-best-weapons",
+        "file": "urban-strife-best-weapons"
+      },
+      {
+        "slug": "urban-strife-gunsmith-bench",
+        "file": "urban-strife-gunsmith-bench"
+      },
+      {
+        "slug": "urban-strife-repair-weapons",
+        "file": "urban-strife-repair-weapons"
+      }
+    ]
+  },
+  "ru": {
+    "builds": [
+      {
+        "slug": "urban-strife-best-build",
+        "file": "urban-strife-best-build"
+      },
+      {
+        "slug": "urban-strife-character-build",
+        "file": "urban-strife-character-build"
+      },
+      {
+        "slug": "urban-strife-character-creation",
+        "file": "urban-strife-character-creation"
+      },
+      {
+        "slug": "urban-strife-companions",
+        "file": "urban-strife-companions"
+      },
+      {
+        "slug": "urban-strife-perks",
+        "file": "urban-strife-perks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "urban-strife-beginner-guide",
+        "file": "urban-strife-beginner-guide"
+      },
+      {
+        "slug": "urban-strife-gameplay",
+        "file": "urban-strife-gameplay"
+      },
+      {
+        "slug": "urban-strife-guide",
+        "file": "urban-strife-guide"
+      },
+      {
+        "slug": "urban-strife-tips-and-tricks",
+        "file": "urban-strife-tips-and-tricks"
+      },
+      {
+        "slug": "urban-strife-walkthrough",
+        "file": "urban-strife-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "urban-strife-adams-villa",
+        "file": "urban-strife-adams-villa"
+      },
+      {
+        "slug": "urban-strife-fema-hospital",
+        "file": "urban-strife-fema-hospital"
+      },
+      {
+        "slug": "urban-strife-map",
+        "file": "urban-strife-map"
+      },
+      {
+        "slug": "urban-strife-national-guard-base",
+        "file": "urban-strife-national-guard-base"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "urban-strife-act-2",
+        "file": "urban-strife-act-2"
+      },
+      {
+        "slug": "urban-strife-locate-professor-ford",
+        "file": "urban-strife-locate-professor-ford"
+      },
+      {
+        "slug": "urban-strife-pharmacy-scout-report",
+        "file": "urban-strife-pharmacy-scout-report"
+      },
+      {
+        "slug": "urban-strife-radio-descrambler",
+        "file": "urban-strife-radio-descrambler"
+      },
+      {
+        "slug": "urban-strife-the-feds-quest",
+        "file": "urban-strife-the-feds-quest"
+      }
+    ],
+    "release": [
+      {
+        "slug": "urban-strife-full-release",
+        "file": "urban-strife-full-release"
+      },
+      {
+        "slug": "urban-strife-ps5",
+        "file": "urban-strife-ps5"
+      },
+      {
+        "slug": "urban-strife-release-date",
+        "file": "urban-strife-release-date"
+      },
+      {
+        "slug": "urban-strife-steam-deck",
+        "file": "urban-strife-steam-deck"
+      },
+      {
+        "slug": "urban-strife-steam",
+        "file": "urban-strife-steam"
+      },
+      {
+        "slug": "urban-strife-xbox",
+        "file": "urban-strife-xbox"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "urban-strife-is-good",
+        "file": "urban-strife-is-good"
+      },
+      {
+        "slug": "urban-strife-reddit",
+        "file": "urban-strife-reddit"
+      },
+      {
+        "slug": "urban-strife-review",
+        "file": "urban-strife-review"
+      },
+      {
+        "slug": "urban-strife-vs-dead-state",
+        "file": "urban-strife-vs-dead-state"
+      },
+      {
+        "slug": "urban-strife-worth-it",
+        "file": "urban-strife-worth-it"
+      }
+    ],
+    "systems": [
+      {
+        "slug": "urban-strife-base-building",
+        "file": "urban-strife-base-building"
+      },
+      {
+        "slug": "urban-strife-how-to-get-materials",
+        "file": "urban-strife-how-to-get-materials"
+      },
+      {
+        "slug": "urban-strife-how-to-refuel-car",
+        "file": "urban-strife-how-to-refuel-car"
+      },
+      {
+        "slug": "urban-strife-how-to-use-blueprints",
+        "file": "urban-strife-how-to-use-blueprints"
+      },
+      {
+        "slug": "urban-strife-workshop",
+        "file": "urban-strife-workshop"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "urban-strife-all-weapons",
+        "file": "urban-strife-all-weapons"
+      },
+      {
+        "slug": "urban-strife-armor",
+        "file": "urban-strife-armor"
+      },
+      {
+        "slug": "urban-strife-best-weapons",
+        "file": "urban-strife-best-weapons"
+      },
+      {
+        "slug": "urban-strife-gunsmith-bench",
+        "file": "urban-strife-gunsmith-bench"
+      },
+      {
+        "slug": "urban-strife-repair-weapons",
+        "file": "urban-strife-repair-weapons"
+      }
+    ]
+  }
+}

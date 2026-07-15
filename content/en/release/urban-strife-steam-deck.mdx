@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "urban strife steam deck: Setup Guide & Performance Tips",
+  description: "Optimize Urban Strife on Steam Deck. Learn the best controller layouts, graphics settings, and performance tweaks for smooth tactical gameplay.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Steam+Deck",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Run **urban strife steam deck** setups using Proton Experimental to resolve compatibility issues and prevent launch crashes.
+- Map the **right trackpad** to mouse input to navigate the game's complex strategy interface easily.
+- Set **shadows to low** and cap the framerate at 40 FPS to prevent battery drain.
+- Enable **half-rate shading** in SteamOS settings to stabilize performance during large zombie horde encounters.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Steam Deck Compatibility and Performance">
+
+Urban Strife brings old-school turn-based strategy, heavily inspired by classic tactical RPGs like Jagged Alliance, into a gritty post-apocalyptic world. Players must manage a band of survivors, navigate realistic bullet dynamics, survive a dynamic day-night cycle, and handle hunger and wounds. Running this complex simulation on a handheld device requires specific optimization steps.
+
+Because the game is in Early Access, optimization is still a work in progress. The default control scheme is designed for a keyboard and mouse, resulting in a clunky interface when first launching on handheld consoles. By optimizing your settings, you can achieve a stable gameplay experience.
+
+**Video Highlights:**
+- Turn-based tactical combat combined with survival mechanics.
+- Simultaneous zombie movement keeps tactical pacing intense.
+- Early Access build includes clunky UI elements that need controller mapping.
+
+<YouTubeEmbed videoId="Gz8xP-YEHaw" title="Urban Strife review in 60 seconds!" />
+
+To get a clear picture of how the game runs on the Steam Deck, review the compatibility metrics below. These benchmarks reflect testing on the latest SteamOS builds.
+
+| Metric | Status | Note |
+|---|---|---|
+| Proton Version | Proton Experimental | Resolves launch crashes |
+| Frame Rate | 35-45 FPS | Variable in dense areas |
+| Controls | Keyboard & Mouse Layout | Steam Input required |
+| Battery Life | ~2.5 Hours | Heavy CPU load during turns |
+
+<Callout type="warning" title="Early Access Notice">
+As of 2026, Urban Strife is in Early Access. Players should expect occasional UI clunkiness and optimization patches that may affect Steam Deck performance.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Graphics Settings for Optimized Battery and Framerate">
+
+Balancing visual quality with battery life is essential when playing CPU-intensive tactical games on the go. The day-night cycle and dynamic lighting in Urban Strife can stress the Steam Deck APU, especially during transition periods. Lowering specific settings can significantly improve frametime consistency.
+
+Adjusting the settings below will help maintain a stable frame rate without sacrificing too much visual clarity. Pay close attention to shadow quality, as dynamic shadows are the primary source of GPU bottlenecks in this game.
+
+| Setting | Recommended Value | Performance Impact |
+|---|---|---|
+| Resolution | 1280x800 | Base performance |
+| Display Mode | Borderless Windowed | Better overlay stability |
+| Shadow Quality | Low | High CPU savings |
+| Texture Quality | Medium | Moderate VRAM usage |
+| Anti-Aliasing | FXAA | Low GPU overhead |
+| V-Sync | Off | Use SteamOS limiter |
+
+To help you choose the right balance between performance and battery life, we have outlined three primary setup profiles.
+
+<CardGrid cols={3}>
+  <Card title="Battery Saver">
+    - **Target FPS**: 30 FPS
+    - **TDP Limit**: 9 Watts
+    - **Battery Life**: 3.5+ Hours
+    - Best for long travel sessions.
+  </Card>
+  <Card title="Balanced Profile">
+    - **Target FPS**: 40 FPS
+    - **TDP Limit**: 12 Watts
+    - **Battery Life**: 2.5 Hours
+    - Recommended for general play.
+  </Card>
+  <Card title="Quality Profile">
+    - **Target FPS**: 45+ FPS
+    - **TDP Limit**: 15 Watts (Uncapped)
+    - **Battery Life**: Under 2 Hours
+    - Best visual fidelity.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Battery Saving Tip">
+Enable FSR (FidelityFX Super Resolution) in the Steam Quick Access Menu to scale from 1152x720 for a significant battery boost.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Steam Input Configurations for Tactical Controls">
+
+The default user interface of Urban Strife relies heavily on mouse hover states and keyboard hotkeys. This design makes controller navigation difficult without custom Steam Input mapping. By utilizing the Steam Deck trackpads and back buttons, you can create a layout that mimics a native controller setup.
+
+Mapping these controls allows you to quickly select units, manage inventory, and target specific body parts during combat. Follow the steps below to configure your custom controller layout.
+
+<Steps>
+  <Step num="1" title="Access Controller Settings">
+    Press the Steam button while the game is running, navigate to the right, and select Controller Settings.
+  </Step>
+  <Step num="2" title="Map Right Trackpad to Mouse">
+    Set the Right Trackpad behavior to As Mouse. Adjust the sensitivity to medium to allow for precise targeting of zombie limbs.
+  </Step>
+  <Step num="3" title="Create Left Trackpad Radial Menus">
+    Configure the Left Trackpad as a Radial Menu. Map the buttons to keyboard shortcuts like I for Inventory, M for Map, and C for Character Sheet.
+  </Step>
+  <Step num="4" title="Assign Back Paddles">
+    Map L4 and R4 to Quick Save (F5) and Quick Load (F9). Map L5 and R5 to cycle through your squad members (Tab and Shift+Tab).
+  </Step>
+</Steps>
+
+<Callout type="info" title="Control Scheme Recommendation">
+Utilize the Steam Deck gyro controls mapped to mouse movement for fine-tuning headshots and targeting specific zombie limbs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Mechanics and Horde Performance Tweaks">
+
+Managing hunger, wounds, and ammo is core to the gameplay. When large hordes move simultaneously, the Steam Deck CPU faces heavy calculations, causing temporary framerate drops. Optimizing the game's background processes can help mitigate these performance dips.
+
+The simultaneous turn resolution system means that all zombies move at once. During these phases, limiting the game's physics calculations and lowering background settings can prevent the system from stuttering.
+
+| Mechanic | Performance Impact | Optimization Tweak |
+|---|---|---|
+| Zombie Turns | High CPU load | Cap FPS to 40 |
+| Day/Night Cycle | Moderate GPU load | Lower dynamic light quality |
+| Bullet Dynamics | Low CPU load | Keep physics processing default |
+| Inventory Management | Low load | Use trackpad virtual menus |
+
+Before heading out into the quarantine zone, ensure you have completed the following optimization steps to guarantee a smooth experience.
+
+<Checklist
+  id="deck-optimization-checklist"
+  title="Steam Deck Optimization Checklist:"
+  items={[
+    "Install the game on internal SSD rather than MicroSD for faster load times.",
+    "Set SteamOS Refresh Rate to 40Hz and Frame Limit to 40 FPS.",
+    "Force Proton Experimental in the game compatibility properties.",
+    "Configure back buttons for tactical pause and quick-save."
+  ]}
+/>
+
+<Callout type="success" title="Survival Strategy">
+Always pause the game using your mapped hotkey before managing inventory to avoid getting ambushed during real-time segments.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Troubleshooting and Frequently Asked Questions">
+
+Managing your squad on a smaller screen can introduce unique challenges. This section addresses common technical issues and questions regarding running the game on Steam Deck.
+
+<FAQ items={[
+  {
+    question: "Does urban strife steam deck support native controller inputs?",
+    answer: "The game currently lacks native controller support, requiring Steam Input mouse emulation for handheld play."
+  },
+  {
+    question: "How do I resolve performance stutters during zombie turns?",
+    answer: "Lower the shadow quality in the graphics menu and set the SteamOS frame limiter to 40 FPS to stabilize the CPU load."
+  },
+  {
+    question: "What Proton version is recommended for Urban Strife?",
+    answer: "Proton Experimental provides the best compatibility and fixes launch crashes observed in older Proton versions."
+  },
+  {
+    question: "Can I adjust the UI size for the Steam Deck screen?",
+    answer: "Yes, you can increase the UI scale in the in-game display settings to improve readability on the 7-inch screen."
+  }
+]} />
+
+<Callout type="info" title="Community Layouts">
+Check the community layouts section in Steam Input to find setups shared by other Steam Deck players.
+</Callout>
+
+</Section>

@@ -1,0 +1,156 @@
+import { Shield, Swords, Target, Trophy, HelpCircle, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Rüstung: Beste Schutzausrüstung & Reparatur-Leitfaden",
+  description: "Vergleichen Sie die besten Urban Strife Rüstungssets, ballistischen Platten und Helme. Erfahren Sie, wie Sie taktische Schutzausrüstung reparieren und die Atlanta-Horde überleben.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Armor+and+Protection+Guide",
+  date: "2026-07-16",
+  author: "urban strife Wiki-Team",
+  keywords: "Urban Strife, Rüstung, Reparatur, Schutzausrüstung, Ballistische Platten, Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptmechanik**: Jedes Teil der **Urban Strife Rüstung** absorbiert eingehenden Schaden basierend auf Material, Haltbarkeit und Abdeckung.
+- **Verbrauchsplatten**: Ballistische Platten verschleißen bei Treffern und **können nicht repariert werden**, auch wenn die Weste, in der sie stecken, wiederhergestellt werden kann.
+- **Reparatursystem**: Schalten Sie Owens Reparaturbetrieb im Shelter frei, um beschädigte Rüstungen mit geborgenen Materialien zu reparieren.
+- **Gewichtsstrafe**: Schwererer Schutz erhöht die Überlebenschancen, kann aber Aktionspunkte (AP) und Bewegungsgeschwindigkeit reduzieren.
+- **Horden-Strategie**: Priorisieren Sie Körper- und Gliedmaßenpanzerung für Frontkämpfer, um tödlichen Schaden durch dichte Zombie-Horden abzuwehren.
+</Callout>
+
+<Section icon={Shield} title="Urban Strife Rüstungsmechanik erklärt">
+
+Die Wahl der richtigen **Urban Strife Rüstung** entscheidet darüber, ob man einen Hinterhalt aus nächster Nähe überlebt oder ein wertvolles Truppmitglied verliert. Der Schutz in Urban Strife basiert nicht auf einfacher Schadensreduzierung. Stattdessen simuliert das Spiel reale ballistische Flugbahnen, Materialdurchdringung und Splitterstreuung. Wenn eine Kugel oder eine Explosion einen Überlebenden trifft, bewertet das Spiel die Abdeckung der Rüstung, die Materialdicke und die aktuelle Haltbarkeit.
+
+Die Rüstung ist in verschiedene Slots unterteilt, die Kopf, Oberkörper und Gliedmaßen schützen. Jedes Teil tauscht physischen Schutz gegen Gewicht ein, was sich direkt auf die Mobilität und den Aktionspunkt-Pool (AP) eines Überlebenden auswirkt.
+
+| Rüstungs-Slot | Hauptzweck | Wichtiger Wert | Gewichtsauswirkung |
+| :--- | :--- | :--- | :--- |
+| **Helm** | Verhindert tödlichen Kopfschussschaden | Durchschlagsfestigkeit | Gering bis Mittel |
+| **Körperpanzerung** | Schützt Brust, lebenswichtige Organe und Ausdauer | Haltbarkeitskapazität | Hoch |
+| **Gliedmaßenpanzerung** | Reduziert verkrüppelnde Debuffs an Armen und Beinen | Ausweichen / Geschwindigkeitsstrafe | Mittel |
+| **Ballistische Platten** | Absorbiert Gewehrmunition hohen Kalibers | Schadensabsorption | Sehr hoch |
+
+<Callout type="warning" title="Warnung zu Ausdauer und Gewicht">
+Schwere taktische Rüstung erhöht Ihre Gewichtsbelastung drastisch. Überlebende mit geringer Stärke leiden unter schwerem Ausdauerverlust und verlieren bei Überlastung maximale Bewegungs-AP. Balance Sie Ihre Schutzausrüstung immer gegen die physischen Attribute des Trägers ab.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Bestenliste für Rüstungen und Schutzausrüstung">
+
+Nicht alle Schutzausrüstungen sind gleich. Front-Nahkämpfer benötigen schwere, langlebige Anzüge, um Klauenangriffe aus nächster Nähe abzufangen, während Stealth-Späher und Scharfschützen leichte, geräuscharme Ausrüstung benötigen, die ihr Ausweichen und ihre AP bewahrt.
+
+Hier ist die Rangliste der primären Schutzausrüstung für taktische Rollen in der Version 1.0 von 2026:
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Schwer Taktisch">
+    - **Best für Frontkämpfer**
+    - Hochwertige ballistische Westen
+    - Schwere Militärhelme
+    - Maximale Schadensabsorption
+  </Card>
+  <Card title="A-Tier: Lautloser Späher">
+    - **Best für Stealth & Sniper**
+    - Leichte Leder- oder Polsterwesten
+    - Geringe Geräuschentwicklung
+    - Keine Bewegungsstrafen
+  </Card>
+  <Card title="B-Tier: Improvisierte Ausrüstung">
+    - **Best für das Early Game**
+    - Schrottmetallplatten
+    - Einfache Motorradhelme
+    - Hohes Gewicht, geringe Haltbarkeit
+  </Card>
+</CardGrid>
+
+Die folgende Tabelle vergleicht die Haupttypen der Rüstungen nach taktischer Rolle und skizziert ihre primären Stärken und Einschränkungen auf dem Schlachtfeld:
+
+| Rüstungsrolle | Beste Ausrüstungsoptionen | Hauptstärken | Primäre Einschränkungen |
+| :--- | :--- | :--- | :--- |
+| **Hordenverteidigung** | Schwere ballistische Westen, Riot-Helme | Hoher Schutz gegen Nahkampf und Splitter | Extrem schwer, reduziert Stealth |
+| **Stealth-Aufklärung** | Lederjacken, schallgedämpfte Kits | Geringes Geräusch, bewahrt hohe Bewegungs-AP | Anfällig für großkalibrige Gewehre |
+| **Front-Nahkampf** | Vollplattenwesten, Gliedmaßenschutz | Verhindert Verkrüppelung, hohe Haltbarkeit | Schneller Ausdauerverbrauch |
+| **Fernkampf** | Mittlere taktische Westen, ballistische Platten | Ausgewogenes Gewicht, exzellente Brustabdeckung | Platten verschleißen permanent |
+
+<Callout type="tip" title="Profi-Tipp zur Rüstung">
+Bewahren Sie Ersatzrüstungen in Ihrem Shelter-Lager auf. Schicken Sie Ihre besten Kämpfer nicht mit beschädigter Ausrüstung in Sektoren mit hohem Schwierigkeitsgrad, da ein einziger Schuss aus einem Scharfschützengewehr mit hoher Durchschlagskraft eine ruinierte Rüstung komplett umgehen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="So reparieren Sie Rüstung und Ausrüstung">
+
+In Version 1.0 ist die Wartung der Ausrüstung unerlässlich. Waffen und Körperpanzerungen nutzen sich mit der Zeit ab, können aber wieder voll funktionsfähig gemacht werden, sobald Sie die entsprechenden Einrichtungen im [Urban Strife Steam Community](https://store.steampowered.com/app/710230/Urban_Strife/) Hub errichtet haben.
+
+<Steps>
+  <Step num="1" title="Owens Reparaturbetrieb freischalten">
+    Schließen Sie die frühen Kampagnenmissionen ab, um die Werkstatt des Shelters wiederherzustellen und Owen zu rekrutieren. Sobald seine Reparaturstation aktiv ist, können Sie mit der Bearbeitung beschädigter Ausrüstung beginnen.
+  </Step>
+  <Step num="2" title="Überschüssige Ausrüstung verwerten">
+    Verkaufen Sie keine doppelten oder beschädigten Waffen und Rüstungen niedriger Stufen. Verwerten Sie diese in der Werkstatt, um wichtige Ersatzteile und Rohmaterialien für das Crafting zu gewinnen.
+  </Step>
+  <Step num="3" title="Ballistische Platten ersetzen">
+    Denken Sie daran, dass interne ballistische Platten Verbrauchsgegenstände sind. Wenn die Haltbarkeit einer Platte auf Null sinkt, entsorgen Sie diese und setzen Sie eine neue Ersatzplatte in die Weste ein.
+  </Step>
+  <Steps num="4" title="Regelmäßige Wartung durchführen">
+    Überprüfen Sie nach jeder größeren Expedition die Haltbarkeit der Rüstung Ihres Trupps. Die Reparatur von Ausrüstung, bevor sie komplett ruiniert ist, verhindert dauerhaftes strukturelles Versagen.
+  </Steps>
+</Steps>
+
+<Callout type="info" title="Sicherheitsfunktion beim Verwerten">
+Die Benutzeroberfläche von Version 1.0 schließt aktuell ausgerüstete Waffen und Rüstungen automatisch aus dem Verwertungsmenü aus, um zu verhindern, dass Sie versehentlich Ihre aktive Ausrüstung zerstören.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame-Checkliste zur Vorbereitung der Belagerungsrüstung">
+
+Wenn Sie sich dem Tag 20 nähern und sich auf die finale Belagerung durch die Atlanta-Horde vorbereiten, muss die Schutzausrüstung Ihres Trupps in optimalem Zustand sein. Der Verteidigungs-Tracker bewertet Ihre allgemeine Bereitschaft, einschließlich Ihrer gelagerten Rüstungen und aktiven Befestigungen.
+
+<Checklist
+  id="siege-armor-prep"
+  title="Meilensteine der Belagerungsbereitschaft:"
+  items={[
+    "Alle Frontverteidiger mit schweren taktischen Westen der S-Klasse ausrüsten",
+    "Frische, unbeschädigte ballistische Platten in alle aktiven Körperpanzerungen einsetzen",
+    "Alle Fernkampfverteidiger mit mittleren ballistischen Helmen ausrüsten, um Scharfschützen-Kopfschüsse zu verhindern",
+    "Alle unerwünschte Schrottausrüstung verwerten, um eine massive Reserve an Ersatzteilen aufzubauen",
+    "Sicherstellen, dass der Shelter-Generator genug Treibstoff hat, um Elektrozäune und automatische Verteidigungen zu betreiben"
+  ]}
+/>
+
+<Callout type="success" title="Tipp für den Belagerungserfolg">
+Während der finalen Belagerung ist normales Plündern deaktiviert. Stellen Sie sicher, dass Ihre aktiven Verteidiger Ersatzrüstungsteile in ihren Schnellslots haben, damit sie mitten im Kampf kaputte Ausrüstung austauschen können, ohne auf das Hauptlager zugreifen zu müssen.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Kann ich ballistische Platten in Urban Strife reparieren?",
+    answer: "Nein. Während Sie die Weste der Körperpanzerung selbst mit Owens Reparaturbetrieb reparieren können, sind die internen ballistischen Platten reine Verbrauchsgegenstände und müssen ersetzt werden, sobald ihre Haltbarkeit erschöpft ist."
+  },
+  {
+    question: "Beeinflusst schwere Rüstung meinen Stealth-Wert?",
+    answer: "Ja. Schwere taktische Rüstungen und Metallhelme erhöhen die Geräusche, die Sie bei der Bewegung verursachen, was es für Zombies und menschliche Wachen viel einfacher macht, Sie zu entdecken."
+  },
+  {
+    question: "Wie bekomme ich bessere Rüstungs-Blaupausen?",
+    answer: "Fortgeschrittene Rüstungs-Blaupausen erhält man durch das Erkunden entfernter Sektoren, den Handel mit Fraktionen mit hohem Ruf (wie der Rogue Army) oder durch das Abschließen spezifischer Werkstatt-Upgrades."
+  },
+  {
+    question: "Was passiert, wenn die Haltbarkeit meiner Rüstung während des Kampfes auf Null sinkt?",
+    answer: "Wenn die Haltbarkeit der Rüstung Null erreicht, absorbiert sie keinen Schaden mehr und schützt den Träger nicht mehr vor ballistischer Durchdringung oder Nahkampfangriffen. Der Überlebende erleidet den vollen Schaden direkt auf seinen Gesundheitspool."
+  }
+]} />
+
+</Section>

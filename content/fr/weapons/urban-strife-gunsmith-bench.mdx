@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Établi d'armurier Urban Strife : Guide de fabrication, réparations et modifications d'armes",
+  description: "Maîtrisez l'établi d'armurier d'Urban Strife pour réparer des armes, fabriquer des silencieux et installer des kits tactiques. Apprenez à débloquer l'atelier d'Owen dans la version 1.0.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Gunsmith+Bench+Guide",
+  date: "2026-07-16",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "Urban Strife, établi d'armurier, modification d'armes, réparation, artisanat, atelier d'Owen, guide de survie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Établi d'armurier Urban Strife** : Le centre névralgique pour maintenir la durabilité des armes, fabriquer des silencieux et installer des kits tactiques avancés.
+- **Opération de réparation d'Owen** : Débloqué au début de la campagne, ce système vous permet de restaurer les armes à feu endommagées en utilisant des pièces de récupération.
+- **Gestion des ressources** : Priorisez la collecte de produits chimiques, de composants métalliques et de pièces d'armes de rechange pour garder votre arsenal opérationnel.
+- **Préparation au siège** : Réparer vos armes principales et constituer un stock de munitions explosives est critique avant l'assaut de la horde d'Atlanta au jour 20.
+</Callout>
+
+<Section icon={Wrench} title="Le rôle de l'établi d'armurier dans la version 1.0">
+
+Dans la version 1.0 d'Urban Strife, l'**établi d'armurier** constitue la colonne vertébrale des capacités offensives de votre milice. Contrairement aux versions en accès anticipé, la version finale introduit un système de durabilité complet où les armes et les protections corporelles se dégradent avec l'usage et les dégâts de combat. L'établi d'armurier et les installations d'atelier associées ne sont plus des améliorations optionnelles ; ce sont des nécessités de survie qui déterminent si votre escouade peut survivre à des expéditions prolongées dans le comté d'Urban.
+
+L'environnement de l'atelier est divisé en plusieurs stations spécialisées. Alors que les réparations de base peuvent être gérées une fois que l'opération d'Owen est active, l'établi d'armurier se concentre spécifiquement sur les modifications de haute précision. Cela inclut la fabrication de silencieux pour les opérations furtives, l'installation de chargeurs haute capacité pour le contrôle des hordes, et l'application de kits d'armes tactiques qui améliorent la précision et l'efficacité des Points d'Action.
+
+<Callout type="tip" title="Conseil d'efficacité">
+Récupérez toujours les pièces des armes en double ou de mauvaise qualité avant qu'elles n'atteignent 0 % de durabilité. Le démantèlement d'objets ayant encore un peu de durabilité donne davantage de composants de haute qualité pour l'établi d'armurier.
+</Callout>
+
+| Activité | Exigence principale | Résultat |
+| :--- | :--- | :--- |
+| **Réparation de base** | Pièces de récupération / Owen | Restaure la durabilité des armes et armures |
+| **Modification** | Établi d'armurier / Plans | Installe silencieux, lunettes et chargeurs |
+| **Démantèlement** | Outils d'atelier | Convertit l'équipement inutile en matières premières |
+| **Munitions** | Station chimique | Produit des cartouches standards et spéciales |
+
+</Section>
+
+<Section icon={Settings} title="Débloquer l'atelier et les services de réparation d'Owen">
+
+L'accès à l'**établi d'armurier d'Urban Strife** nécessite de progresser dans les phases initiales de restauration de l'Abri. Vous ne pouvez pas simplement construire ces installations dès le départ ; vous devez secourir des spécialistes spécifiques et nettoyer les secteurs nécessaires pour sécuriser les outils requis pour l'armurerie avancée.
+
+<Steps>
+  <Step num="1" title="Terminer le prologue">
+    Suivez l'histoire d'ouverture où le patient du CDC est amené à l'Abri Urbain. Cette phase introduit les systèmes de base de gestion d'inventaire et d'équipement.
+  </Step>
+  <Step num="2" title="Réparer l'atelier de l'Abri">
+    L'atelier est l'un des cinq services essentiels (aux côtés de la radio, de l'hôpital, du garage et des casernes). Vous devez allouer des matériaux de construction pour restaurer cette installation.
+  </Step>
+  <Step num="3" title="Lancer l'opération d'Owen">
+    Une fois l'atelier fonctionnel, Owen proposera des services de réparation. Cela débloque la possibilité d'utiliser des pièces de récupération pour réparer les armes à feu et les protections corporelles endommagées.
+  </Step>
+  <Step num="4" title="Sécuriser les plans et les outils">
+    Les modifications avancées à l'établi d'armurier nécessitent des plans spécifiques trouvés lors de l'exploration ou obtenus via des alliances de factions comme les Shady Lady Bikers.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limitation critique">
+Bien que l'établi d'armurier puisse réparer la structure des protections corporelles, les plaques balistiques sont considérées comme des consommables. Une fois qu'une plaque est détruite, elle doit être entièrement remplacée plutôt que réparée.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Modification d'armes et kits tactiques">
+
+L'**établi d'armurier d'Urban Strife** est l'endroit où vous transformez des armes à feu standard récupérées en outils de guerre spécialisés. Les modifications sont divisées en plusieurs catégories, chacune affectant différentes statistiques tactiques telles que la portée, le bruit, la pénétration et le coût en Points d'Action (PA).
+
+<CardGrid cols={3}>
+  <Card title="Mods furtifs">
+    - **Silencieux** : Fabriqués à l'établi.
+    - Réduit significativement le rayon sonore.
+    - Essentiel pour les raids nocturnes.
+  </Card>
+  <Card title="Mods de capacité">
+    - **Chargeurs haute capacité** : Augmente le nombre de munitions.
+    - Réduit la fréquence de rechargement.
+    - Idéal pour les armes automatiques.
+  </Card>
+  <Card title="Kits tactiques">
+    - **Kits de précision** : Améliore les chances de toucher.
+    - **Kits de PA** : Réduit le coût de tir.
+    - Nécessite des composants rares.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mécaniques de modification">
+Attacher ou détacher des modifications pendant un combat actif consomme des Points d'Action. Il est fortement recommandé de finaliser vos équipements à l'établi d'armurier de l'Abri avant de partir en mission.
+</Callout>
+
+| Catégorie de mod | Matériaux communs | Idéal pour |
+| :--- | :--- | :--- |
+| **Silencieux** | Métal, Outils, Chimie | Pistolets, Fusils, Mitraillettes |
+| **Lunettes** | Verre, Métal, Composants | Fusils de chasse, Fusils de précision |
+| **Chargeurs** | Métal, Ressorts, Pièces | Fusils d'assaut, Fusils à pompe |
+| **Crosses** | Bois, Plastique, Métal | Contrôle du recul en tir en rafale |
+
+</Section>
+
+<Section icon={Sparkles} title="Récupération de matériaux pour l'artisanat">
+
+Pour utiliser efficacement l'**établi d'armurier d'Urban Strife**, vous devez maintenir un flux constant de matières premières. L'économie de la version 1.0 est tendue, et gaspiller des composants de haut niveau sur des armes de rechange de faible valeur peut rendre votre escouade principale vulnérable lors de la phase finale.
+
+<Checklist
+  id="material-priority"
+  title="Priorités de récupération :"
+  items={[
+    "Ferraille : Trouvée dans les secteurs industriels et les voitures démantelées.",
+    "Produits chimiques : Essentiels pour les kits de nettoyage et la production de munitions.",
+    "Composants électroniques : Requis pour les accessoires tactiques avancés.",
+    "Pièces d'armes : Obtenues en démantelant des armes brisées ou en double.",
+    "Boîtes à outils : Nécessaires pour effectuer des modifications de haut niveau."
+  ]}
+/>
+
+<Callout type="success" title="Conseil de stockage">
+L'artisanat à l'Abri peut puiser directement dans votre réserve de base. Vous n'avez pas besoin d'avoir les matériaux dans l'inventaire personnel de votre personnage pour utiliser l'établi d'armurier.
+</Callout>
+
+| Matériau | Source principale | Utilisation à l'établi |
+| :--- | :--- | :--- |
+| **Poudre à canon** | Station chimique / Butin | Fabrication de munitions spéciales |
+| **Pièces en acier** | Démantèlement de fusils | Réparations lourdes et mods de canon |
+| **Ressorts** | Démantèlement de pistolets | Ajustements de chargeur et de détente |
+| **Adhésifs** | Récupération générale | Réparations de base et mods de fortune |
+
+</Section>
+
+<Section icon={Shield} title="Préparation au siège de la horde d'Atlanta">
+
+À l'approche de l'acte final de la campagne, l'**établi d'armurier d'Urban Strife** devient l'installation la plus importante de l'Abri. Le Suivi de Défense évalue votre préparation en fonction de vos fortifications, mais la performance individuelle de votre escouade dépend de l'état de son équipement.
+
+L'assaut de la horde d'Atlanta est une guerre d'usure. Vous n'aurez pas l'occasion de chercher des pièces une fois le siège commencé. Utilisez la période d'avertissement finale de 24 heures pour effectuer une révision complète de votre arsenal.
+
+| Étape de prépa au siège | Installation | Objectif |
+| :--- | :--- | :--- |
+| **Réparation complète** | Atelier d'Owen | Toutes les armes principales à 100 % |
+| **Stock de munitions** | Station chimique | Plus de 500 cartouches de calibres variés |
+| **Renouvellement plaques** | Établi d'armurier | Installer des plaques balistiques neuves partout |
+| **Optimisation des mods** | Établi d'armurier | Maximiser la portée et l'efficacité des PA |
+
+<Callout type="warning" title="Spoilers de fin de jeu">
+Le siège final évalue votre alimentation électrique. Assurez-vous que votre atelier et votre établi d'armurier sont alimentés si vous prévoyez d'effectuer des réparations d'urgence entre les vagues.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tactiques d'expert et FAQ">
+
+Maîtriser l'**établi d'armurier d'Urban Strife** implique de comprendre les nuances du système de réparation 1.0 et les récompenses de factions. Certaines factions, comme la Garde nationale (Armée rebelle), donnent accès à des plans de qualité militaire introuvables ailleurs.
+
+<FAQ items={[
+  {
+    question: "Puis-je réparer une arme qui a 0 % de durabilité ?",
+    answer: "Oui, mais le coût en pièces de récupération et en temps est nettement plus élevé. Il est plus efficace de réparer les armes lorsqu'elles tombent sous les 50 %."
+  },
+  {
+    question: "Où trouver le plan des silencieux ?",
+    answer: "Les plans de silencieux se trouvent souvent dans les commissariats de police ou peuvent être achetés auprès des marchands Shady Lady Bikers après avoir atteint une réputation suffisante."
+  },
+  {
+    question: "Les modifications restent-elles sur l'arme si je la démantèle ?",
+    answer: "Non. Vous devez retirer manuellement les accessoires coûteux comme les lunettes et les kits tactiques à l'établi d'armurier avant de démanteler une arme pour éviter de les perdre."
+  },
+  {
+    question: "Quelle est la différence entre les réparations d'Owen et l'établi d'armurier ?",
+    answer: "Owen gère la restauration générale de la durabilité contre des frais ou des pièces, tandis que l'établi d'armurier est utilisé pour les modifications spécialisées et la fabrication de nouveaux accessoires."
+  }
+]} />
+
+<Callout type="tip" title="Dernier conseil">
+Concentrez vos améliorations sur les armes utilisant des types de munitions courants comme le 9mm et le calibre 12 pour le début de partie, en réservant vos modifications de haut niveau pour les fusils de précision et les mitrailleuses légères en vue de la horde.
+</Callout>
+
+</Section>

@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, UserPlus, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Création de personnage Urban Strife : Les meilleurs builds de départ 2026",
+  description: "Maîtrisez la création de personnage dans Urban Strife avec notre guide sur les attributs, les atouts de profession et les meilleurs builds de départ pour la version 1.0 post-apocalyptique.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Character+Creation+Guide",
+  date: "2026-07-16",
+  author: "L'équipe Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **La création de personnage dans Urban Strife** se concentre sur six attributs de base qui évoluent via un système d'**apprentissage par la pratique**.
+- **Les atouts de profession** sont divisés en trois niveaux et doivent être choisis en fonction de votre rôle prévu sur le champ de bataille.
+- **Les atouts natifs** et les traits distinctifs uniques sont permanents, ce qui rend le passé de chaque survivant crucial pour sa viabilité à long terme.
+- **La Force et l'Intelligence** sont vitales pour les tests de dialogue, tandis que **le Tir et l'Agilité** dominent le combat tactique.
+- **Équilibrez votre escouade** en vous assurant que votre personnage de départ comble une lacune non couverte par les premières recrues du jeu.
+</Callout>
+
+<Section icon={UserPlus} title="Comprendre les attributs de base">
+
+Dans la **création de personnage d'Urban Strife**, l'allocation initiale de vos attributs pose les bases de toute l'aventure de votre survivant. Contrairement aux RPG traditionnels où les statistiques restent statiques, Urban Strife utilise un système de croissance dynamique où les actions répétées améliorent des attributs spécifiques. Cependant, vos points de départ déterminent votre « plancher » et la rapidité avec laquelle vous pouvez atteindre des niveaux de performance d'élite dans les premières heures de la version 1.0.
+
+Le jeu propose six attributs principaux qui influencent tout, de votre capacité de charge à votre aptitude à interrompre les tours ennemis. Comprendre la synergie entre ces statistiques fait la différence entre un survivant qui prospère lors du siège de la horde d'Atlanta et un autre qui tombe lors du premier affrontement en banlieue.
+
+| Attribut | Effet principal en combat | Utilité hors combat | Déclencheur de croissance |
+| :--- | :--- | :--- | :--- |
+| **Force** | Dégâts de mêlée / Endurance | **Capacité de charge** / Intimidation | Coups au corps à corps / Portage lourd |
+| **Dextérité** | Précision en mêlée / Coût en PA | **Artisanat** / Efficacité des outils | Utilisation d'objets / Combat de mêlée |
+| **Agilité** | PA de mouvement / Évasion | Discrétion / Chance d'interruption | Furtivité / Esquive d'attaques |
+| **Endurance** | Santé max / Énergie | Résistance aux blessures | Subir des dégâts / Longues marches |
+| **Intelligence** | Vitesse de croissance des stats | **Tests de dialogue** / Tactique | Utilisation réussie de compétences |
+| **Tir** | Précision à distance | Entretien des armes | Réussir des tirs à distance |
+
+<Callout type="tip" title="Allocation Stratégique">
+Priorisez **l'Intelligence** si vous voulez un personnage qui progresse rapidement. Une Intelligence élevée augmente la vitesse de progression de tous les autres attributs, ce qui en fait l'investissement à long terme le plus précieux pour un personnage principal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processus de création étape par étape">
+
+Créer votre leader dans Urban Strife nécessite d'équilibrer les besoins de survie immédiats et la spécialisation à long terme. La version 1.0 a introduit une interface raffinée qui met en évidence la manière dont vos choix de biographie affectent vos atouts natifs de départ. Suivez cette séquence pour vous assurer que votre personnage est optimisé pour les défis d'Urban County.
+
+<Steps>
+  <Step num="1" title="Définissez votre biographie">
+    Sélectionnez un passé qui fournit un **atout natif** aligné avec votre style de jeu préféré. Des passés comme « Expérience de terrain » ou « Troc » offrent des bonus permanents qui ne peuvent être acquis ailleurs. Votre biographie influence également la façon dont certaines factions, comme les Shady Lady Bikers, vous perçoivent initialement.
+  </Step>
+  <Step num="2" title="Distribuez les points d'attributs">
+    Allouez vos points de départ limités. Pour un début équilibré, visez au moins 6 points en **Intelligence** pour booster la croissance et 7 points dans votre statistique de combat principale (Tir pour les tireurs, Force pour la mêlée). Évitez de négliger l'Endurance, car une santé faible rend le début de partie extrêmement punitif.
+  </Step>
+  <Step num="3" title="Sélectionnez les premiers atouts de profession">
+    Les atouts de profession sont classés en trois niveaux. Dans l'écran de création, vous choisirez votre atout de Niveau 1. Ces atouts définissent votre rôle, comme un « Médecin » pour l'efficacité des soins ou un « Éclaireur » pour une vision et une discrétion accrues.
+  </Step>
+  <Step num="4" title="Finalisez l'apparence et l'équipement">
+    Bien que cosmétique, votre équipement de départ est déterminé par votre passé. Certains passés commencent avec de meilleurs outils de mêlée, tandis que d'autres peuvent fournir une arme à feu de base avec des munitions limitées. Assurez-vous que vos emplacements rapides de départ sont configurés pour une utilité immédiate.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Choix irréversibles">
+Les atouts natifs et les traits définissants sont **permanents**. Contrairement aux atouts de profession, qui peuvent être étendus à mesure que vous montez de niveau, ces traits de base resteront avec votre personnage jusqu'à la fin de la campagne. Choisissez un passé qui offre une utilité que vous ne trouverez pas facilement chez d'autres recrues.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Atouts de profession et niveaux de compétence">
+
+Le système d'atouts de profession dans Urban Strife permet une spécialisation profonde. À mesure que votre personnage accomplit des tâches, il débloque l'accès à des niveaux d'atouts supérieurs. Ce système garantit qu'un personnage qui passe son temps à tirer de loin débloquera naturellement des atouts qui améliorent la létalité à longue portée, tandis qu'un récupérateur dédié deviendra plus efficace pour la collecte de ressources.
+
+| Niveau d'atout | Condition de déblocage | Niveau d'impact | Exemples de spécialisations |
+| :--- | :--- | :--- | :--- |
+| **Niveau 1** | Création initiale / Niveau 1 | **Fondamental** | Médecin de base, Éclaireur, Canonnier |
+| **Niveau 2** | Progression en milieu de jeu | **Spécialisé** | Chirurgien de combat, Tireur d'élite, Bagarreur |
+| **Niveau 3** | Expertise de fin de jeu | **Élite** | Légende de terrain, Fantôme, Maître de siège |
+
+Lorsque vous planifiez votre stratégie de **création de personnage Urban Strife**, regardez tôt les atouts de Niveau 3. Si vous voulez être le tireur d'élite ultime, vous devez vous assurer que votre Agilité et votre Tir sont suffisamment élevés pour répondre aux exigences de ces compétences de niveau élite plus tard dans la campagne.
+
+<Callout type="success" title="Bonus de synergie">
+Faire correspondre votre type d'arme à votre atout de profession offre des bonus cumulatifs. Par exemple, l'utilisation d'un fusil à pompe avec un arbre d'atouts axé sur le « Contrôle de horde » augmente considérablement l'efficacité de la dispersion des plomb et vos capacités de suppression.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Meilleurs builds de départ pour 2026">
+
+Pour vous aider à survivre aux premières 24 heures dans Urban County, nous avons identifié trois archétypes hautement efficaces. Ces builds sont conçus pour gérer la rareté des ressources en début de partie tout en offrant une voie claire vers la domination en fin de jeu.
+
+<CardGrid cols={3}>
+  <Card title="Le tireur d'élite tactique">
+    - **Stats principales** : Tir, Agilité
+    - **Atout natif** : Visée concentrée
+    - **Rôle** : Élimination de cibles prioritaires et surveillance de zone.
+    - **Meilleur équipement** : Fusils de chasse ou pistolets avec silencieux.
+  </Card>
+  <Card title="Le survivant de première ligne">
+    - **Stats principales** : Force, Endurance
+    - **Atout natif** : Endurci
+    - **Rôle** : Éliminations silencieuses au corps à corps et encaissement de dégâts.
+    - **Meilleur équipement** : Lames, armes contondantes et armures lourdes.
+  </Card>
+  <Card title="Le spécialiste d'escouade">
+    - **Stats principales** : Intelligence, Dextérité
+    - **Atout natif** : Ingénieux
+    - **Rôle** : Artisanat, soutien médical et dialogue.
+    - **Meilleur équipement** : Outils utilitaires, arbalètes et kits de soin.
+  </Card>
+</CardGrid>
+
+Chacun de ces builds excelle dans des scénarios spécifiques. Le **tireur d'élite tactique** est essentiel pour s'occuper des ennemis humains qui utilisent des abris, tandis que le **survivant de première ligne** est le moyen le plus rentable de nettoyer de petits groupes de zombies sans gaspiller de précieuses munitions.
+
+<Callout type="info" title="Flexibilité du build">
+Urban Strife n'utilise pas de classes rigides. Vous pouvez commencer comme tireur et finir par développer des compétences de mêlée élevées si vous trouvez une lame légendaire. Les « Meilleurs builds de départ » fournissent simplement le chemin le plus efficace à travers le prologue.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survie et intégration d'équipe">
+
+Le personnage que vous créez ne combat pas seul. Tout au long de la campagne, vous recruterez des survivants avec leurs propres antécédents et compétences uniques. Une **création de personnage Urban Strife** efficace implique de planifier une équipe de quatre personnes équilibrée. Si vous créez un personnage purement combatif, vous devez prioriser le recrutement rapide d'un médecin dédié et d'un mécanicien.
+
+| Rôle d'escouade | Attribut essentiel | Responsabilité clé | Correspondance recrue précoce |
+| :--- | :--- | :--- | :--- |
+| **Éclaireur de tête** | Agilité | Furtivité, reconnaissance et pièges | Survivants à haute Agilité |
+| **Médecin de combat** | Dextérité | Soins et retrait d'états | Recrues basées sur l'Intelligence |
+| **Artilleur lourd** | Force | Suppression et contrôle de horde | Survivants à haute Endurance |
+| **Expert technique** | Intelligence | Artisanat et crochetage | Recrues à haute Dextérité |
+
+<Callout type="warning" title="Gestion de l'inventaire">
+Évitez de donner tout votre meilleur équipement à votre personnage principal. Répartir les armes et les médicaments dans l'escouade garantit que si votre leader est neutralisé ou blessé, le reste de l'équipe peut toujours fonctionner efficacement.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de création de personnage">
+
+Utilisez cette liste pour vérifier que votre personnage est prêt pour la horde d'Atlanta et les guerres de factions d'Urban County.
+
+<Checklist
+  id="character-check"
+  title="Checklist de révision finale :"
+  items={[
+    "L'Intelligence est d'au moins 6 pour une croissance optimale des attributs",
+    "L'attribut de combat principal est d'au moins 7 pour la précision de début de jeu",
+    "L'atout natif correspond à votre rôle prévu à long terme",
+    "La biographie de départ fournit des objets utiles pour le début de partie",
+    "L'atout de profession de Niveau 1 complète votre arme de départ",
+    "L'Endurance est suffisante pour survivre à une seule embuscade"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je réinitialiser mes attributs dans Urban Strife ?",
+    answer: "Non, les attributs de base sont permanents et croissent naturellement via le gameplay. Cependant, vous pouvez choisir différents atouts de profession au fil de votre progression pour faire pivoter votre rôle."
+  },
+  {
+    question: "Quelle est la statistique la plus importante pour la création de personnage ?",
+    answer: "L'intelligence est généralement considérée comme la plus importante car elle régit la vitesse à laquelle tous les autres attributs et compétences s'améliorent."
+  },
+  {
+    question: "Le passé de mon personnage affecte-t-il la réputation auprès des factions ?",
+    answer: "Oui, certains passés offrent des options de dialogue uniques et des boosts de réputation initiaux auprès de factions comme la Garde Nationale ou le Culte de la Seconde Chance."
+  },
+  {
+    question: "Comment augmenter ma capacité de charge ?",
+    answer: "La capacité de charge est directement liée à votre attribut de Force. Vous pouvez l'augmenter en utilisant des armes de mêlée ou en transportant fréquemment des charges lourdes."
+  }
+]} />
+
+</Section>

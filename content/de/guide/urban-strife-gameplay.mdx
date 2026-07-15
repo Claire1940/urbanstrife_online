@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Package, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Gameplay: Survival- & Taktik-Guide 2026",
+  description: "Meistere das Gameplay von Urban Strife mit unserem Guide für 2026. Lerne alles über rundenbasierte Kämpfe, Stealth-Mechaniken, Basis-Management und Plünderungsstrategien zum Überleben.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Gameplay+Guide",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Das Gameplay von Urban Strife** basiert auf einem tiefgreifenden rundenbasierten Taktiksystem in einer persistenten Zombie-Apokalypse.
+- **Schleichen ist überlebenswichtig** in der Anfangsphase; Schusswaffenlärm lockt sowohl Zombies als auch feindliche menschliche Fraktionen an.
+- **Basis-Management** erfordert das kontinuierliche Sammeln von Nahrung und medizinischen Vorräten, um deine Überlebenden zu versorgen.
+- **Der 20-Tage-Timer** markiert die Ankunft einer riesigen Zombiehorde und zwingt Spieler dazu, schnell Verteidigungsanlagen zu errichten.
+- **Charakterentwicklung** geschieht organisch; Attribute wie Beweglichkeit und Geschicklichkeit steigen durch erfolgreiche Aktionen im Feld.
+</Callout>
+
+<Section icon={Target} title="Kernmechaniken und taktischer Kampf">
+
+Das Verständnis des grundlegenden Spielablaufs von **Urban Strife** ist entscheidend, um die erste Woche zu überleben. Das Spiel nutzt ein Aktionspunkt-System (AP), das in klassischen taktischen RPGs üblich ist, ergänzt es jedoch um Ebenen der Umgebungsinteraktion und Lärmphysik. Jeder abgefeuerte Schuss und jede eingetretene Tür erzeugt Schallwellen, die von Feinden jenseits des Nebels des Krieges wahrgenommen werden können. In der 2026er-Version des Spiels wurden diese Mechaniken verfeinert, um den „still und tödlich“-Ansatz zu betonen.
+
+**Video-Highlights:**
+- **Rundenbasierte Tiefe:** Entdecke das AP-basierte Bewegungs- und Angriffssystem.
+- **Stealth-Mechaniken:** Lerne, wie Hocken und Sichtlinien die Entdeckung beeinflussen.
+- **Plünderungs-Loop:** Sieh, wie gesammelte Materialien in Basisvorräte umgewandelt werden.
+- **Status-Effekte:** Beobachte, wie Blutungen und Verletzungen die Kampfeffektivität beeinträchtigen.
+
+<YouTubeEmbed videoId="LiWPNwzvlBY" title="Urban Strife - Turn Based Zombie Survival Full Release Gameplay" />
+
+Im Kampf geht es nicht nur um rohen Schaden, sondern um Positionierung und Nutzen. Die Fähigkeit „Überwachung“ (Overwatch) erlaubt es deinen Charakteren, Angriffe während des gegnerischen Zuges auszulösen, was bei der Verteidigung enger Korridore oder Türen lebenswichtig ist. Zudem bietet das Spiel ein Ragdoll-Physiksystem und detaillierte Trefferzonen, was Kopfschüsse zu riskanten, aber lohnenden Manövern macht.
+
+| Kampfaktion | AP-Kosten | Lärmpegel | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| **Nahkampfangriff** | Niedrig | Sehr niedrig | Spart Munition, stille Kills |
+| **Schnellschuss** | Mittel | Hoch | Schnelle Verteidigung, geringere Genauigkeit |
+| **Gezielter Schuss** | Hoch | Hoch | Erhöhte Chance auf kritische Treffer/Kopfschüsse |
+| **Überwachung** | Variabel | Abhängig | Unterbricht gegnerische Bewegungen |
+| **Nachladen** | Niedrig | Niedrig | Notwendig für anhaltendes Feuer |
+
+<Callout type="warning" title="Lärmwarnung">
+Eine Schrotflinte könnte zwar einen Raum von Plünderern säubern, aber sie wird wahrscheinlich jeden Zombie im Umkreis von drei Häuserblocks zu deinem Standort locken. Habe immer einen auf Nahkampf spezialisierten Charakter wie Billy Bob bereit, um Nachzügler lautlos auszuschalten.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Plünderungs- und Erkundungsstrategien">
+
+Die Erkundung im **Urban Strife-Gameplay** führt Spieler durch verschiedene urbane und vorstädtische Umgebungen, wie zum Beispiel Adams Villa. Jeder Ort ist eine dichte „Beute-Karte“, auf der jedes Haus, jedes Auto und jeder Mülleimer wichtige Ressourcen enthalten könnte. Du bist jedoch durch das Tragegewicht und den Inventarplatz deines Teams begrenzt. Effizientes Plündern bedeutet, hochwertige Materialien schwerem Schrott vorzuziehen.
+
+Wenn du eine neue Zone betrittst, wie die von den Cassidy Boys kontrollierten Vororte, musst du dich zwischen Diplomatie und Aggression entscheiden. Die Welt wird von verschiedenen Gangs und Fraktionen bevölkert, und deine Entscheidungen in diesen Begegnungen bestimmen deinen Zugang zu Handelswaren oder sicheren Wegen.
+
+| Ressourcentyp | Quelle | Verwendungszweck | Priorität |
+| :--- | :--- | :--- | :--- |
+| **Nahrung/Alkohol** | Küchen, Vorratskammern | Basis-Überleben, Moral, Handel | ★★★★★ |
+| **Medizinische Vorräte** | Apotheken, Kliniken | Heilung von Verletzungen, Blutungen stoppen | ★★★★★ |
+| **Metallschrott** | Garagen, Werkzeugkästen | Waffenbau und Basis-Upgrades | ★★★★☆ |
+| **Benzin** | Tankstellen, Autos | Generatoren und Fahrzeuge betreiben | ★★★★☆ |
+| **Munition** | Polizeistationen, Tresore | Essenziell für High-End-Kämpfe | ★★★☆☆ |
+
+<CardGrid cols={3}>
+  <Card title="Der heimliche Kundschafter">
+    - **Immer hocken**, um die Sichtbarkeit zu verringern.
+    - Nutze Armbrüste für lautlose Fernangriffe.
+    - Hohe Beweglichkeit für Plünderungen über lange Distanzen.
+  </Card>
+  <Card title="Der schwere Plünderer">
+    - Fokus auf Stärke für mehr Tragegewicht.
+    - Räume Zimmer mit Nahkampfwaffen, um Munition zu sparen.
+    - Priorisiere Metall- und Holzschrott.
+  </Card>
+  <Card title="Der Kampfspezialist">
+    - Hohe Geschicklichkeit für Schusswaffengenauigkeit.
+    - Nutzt Überwachung, um Plünderer zu schützen.
+    - Verwaltet Sprengstoffe zur Massenkontrolle.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Inventar-Management">
+Horte nicht alles. Wenn dein Inventar voll ist, suche nach einem „Versteck“ oder einem zentralen Behälter in der Zone, um überschüssige Beute zu lagern. Du kannst mehrere Fahrten zu deinem Fahrzeug oder zum Ausgangspunkt machen, um deine Ausbeute zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Basis-Management und Überlebensbedürfnisse">
+
+Der Unterschlupf dient als dein Dreh- und Angelpunkt im **Urban Strife-Gameplay**. Er ist nicht nur ein Ort zum Ausruhen; es ist ein lebendiges Ökosystem, das ständige Zufuhr benötigt. Überlebende verbrauchen täglich Nahrung und medizinische Vorräte. Wenn die Produktion in der Basis (derzeit 5 Einheiten pro Tag) den Verbrauch (30+ Einheiten pro Tag) nicht deckt, wird deine Gemeinschaft schnell mit Hunger oder Krankheiten konfrontiert sein.
+
+Der Fortschritt der Basis ist an „Ratssitzungen“ und deine Beziehung zu Schlüssel-NPCs wie dem Colonel oder Kimberly gebunden. Diese Interaktionen schalten neue Handwerksrezepte und Meilensteine in der Geschichte frei. Einer der kritischsten Aspekte des Meta-Spiels 2026 ist der 20-Tage-Countdown bis zur Zombiehorde, was dich dazu zwingt, kurzfristiges Überleben mit langfristiger Befestigung in Einklang zu bringen.
+
+<Steps>
+  <Step num="1" title="Ressourcen sichern">
+    Plündere Adams Villa oder ähnliche Zonen nach Nahrung, Medikamenten und Baumaterialien.
+  </Step>
+  <Step num="2" title="In das Lager spenden">
+    Übertrage Gegenstände aus deinem persönlichen Inventar in das Gemeinschaftslager, um den täglichen Bedarf zu decken.
+  </Step>
+  <Step num="3" title="Einrichtungen verbessern">
+    Nutze Schrott und Werkzeuge, um spezialisierte Räume wie das Lazarett oder die Werkbank zu bauen.
+  </Step>
+  <Step num="4" title="Rollen zuweisen">
+    Teile Überlebende Aufgaben wie Recycling, Kochen oder die Bewachung des Umkreises zu.
+  </Step>
+</Steps>
+
+| Einrichtung | Anforderung | Funktion |
+| :--- | :--- | :--- |
+| **Lazarett** | Med-Kits, sauberes Bett | Schnellere Genesung von Blutungen/Traumata |
+| **Werkbank** | Werkzeuge, Metallschrott | Erstelle Molotow-Cocktails, Rohrbomben, Munition |
+| **Recyclingzentrum** | Schrott, Elektrizität | Zerlege nutzlose Gegenstände in Rohmaterialien |
+| **Funkraum** | Elektronikteile | Kontaktiere andere Überlebende und Fraktionen |
+
+<Callout type="success" title="Tipp zur Nachhaltigkeit">
+Konzentriere dich frühzeitig auf die Verbesserung deiner Nahrungsproduktion. Während Plündern großartig ist, ist ein selbstversorgender Garten der einzige Weg, das späte Spiel zu überstehen, wenn nahegelegene Zonen leergeplündert sind.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Charakterentwicklung und Fähigkeiten">
+
+Charaktere in Urban Strife leveln nicht durch eine traditionelle XP-Leiste auf. Stattdessen verbessern sie sich durch Übung – ein System, das spezifische Spielstile belohnt. Wenn ein Charakter häufig Nahkampfwaffen benutzt, steigen seine Stärke- und Nahkampf-Fertigkeiten. Wenn sie ihre Zeit damit verbringen, durch Schatten zu schleichen, werden ihre Schleichen- und Beweglichkeitswerte steigen.
+
+| Attribut | Wie man es steigert | Gameplay-Vorteil |
+| :--- | :--- | :--- |
+| **Stärke** | Schwere Lasten tragen, Nahkampf | Höheres Tragegewicht, Nahkampfschaden |
+| **Beweglichkeit** | Lange Strecken bewegen, Schleichen | Mehr AP pro Zug, geringere Entdeckung |
+| **Geschicklichkeit** | Schusswaffen benutzen, Handwerk | Höhere Trefferchance, schnelleres Nachladen |
+| **Ausdauer** | Schaden erleiden, lange Missionen | Höhere HP, Widerstand gegen Blutungen |
+
+<Checklist
+  id="character-optimization"
+  title="Ziele für die Entwicklung der Überlebenden:"
+  items={[
+    "Trainiere mindestens zwei Sanitäter mit hoher Geschicklichkeit",
+    "Rüste deinen 'Tank' mit einem Schlagstock und Schild aus",
+    "Stelle sicher, dass jeder Kundschafter eine lautlose Waffe (Armbrust) hat",
+    "Rotiere müde Überlebende, um dauerhafte Traumata zu vermeiden",
+    "Spezialisiere einen Charakter auf Sprengstoffe für die Horde"
+  ]}
+/>
+
+<Callout type="info" title="Fähigkeiten-Synergie">
+Ein Charakter mit hoher Beweglichkeit und Geschicklichkeit ist der perfekte Scharfschütze. Sie können sich schnell neu positionieren, um eine bessere Sichtlinie zu erhalten, und haben die Genauigkeit, um aus der Distanz konsistente Kopfschüsse zu landen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fortgeschrittene Überlebenstaktiken">
+
+Während du dich auf die 20-Tage-Marke zubewegst, steigt der Schwierigkeitsgrad. Du wirst auf besser ausgerüstete menschliche Feinde und größere „Screamer“-Zombies treffen, die die gesamte Karte alarmieren können. Die Beherrschung fortgeschrittener Taktiken wie die Platzierung von Molotow-Cocktails und die Nutzung von ballistischen Kacheln als Rüstung wird zur Notwendigkeit.
+
+Die Umgebung ist deine beste Waffe. Du kannst Deckungen zerstören, Feuer legen, um Wege zu blockieren, oder „Überwachungs“-Fallen nutzen, um Feinde in Tötungszonen zu locken. Trage immer mindestens eine „Rohrbombe“ oder einen „Molotow-Cocktail“ für Notfälle bei der Massenkontrolle bei dir, wenn die Zahl der Untoten überwältigend wird.
+
+| Waffenkategorie | Vorteile | Nachteile |
+| :--- | :--- | :--- |
+| **Nahkampf (Nudelholz/Hammer)** | Lautlos, keine Munition nötig | Hohes Risiko, erfordert Nähe |
+| **Armbrüste** | Lautlos, Munition wiederverwendbar | Langsames Nachladen, geringerer Schaden |
+| **Schrotflinten** | Massiver Nahkampfschaden | Extrem laut, schwere Munition |
+| **Pistolen/Gewehre** | Vielseitig, gute Reichweite | Erfordert ständiges Munitionssammeln |
+
+<Callout type="warning" title="Status: Blutung">
+Blutungen sind der stille Mörder im **Urban Strife-Gameplay**. Wenn ein Charakter blutet, verliert er jeden Zug HP. Habe immer Bandagen in deinen Schnellzugriff-Slots; warte niemals bis nach dem Kampf, um eine Wunde zu versorgen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie gehe ich mit der 20-Tage-Zombiehorde um?",
+    answer: "Vorbereitung ist der Schlüssel. Verbringe die ersten 15 Tage damit, Sprengstoffe zu horten, Basisverteidigungen zu verbessern und deine Überlebenden an schadensstarken Schusswaffen auszubilden. Stelle sicher, dass du genügend medizinische Vorräte für die Zeit danach hast."
+  },
+  {
+    question: "Was ist der beste Weg, um Lärm zu managen?",
+    answer: "Nutze für 90 % der Begegnungen Nahkampfwaffen oder Armbrüste. Verwende Schusswaffen nur, wenn du in die Enge getrieben wirst oder einem Boss-Gegner gegenüberstehst. Denke daran, dass Hocken auch das Geräusch deiner Bewegung erheblich reduziert."
+  },
+  {
+    question: "Kann ich mich verschiedenen Fraktionen in Urban Strife anschließen?",
+    answer: "Ja, du kannst mit verschiedenen Gangs wie den Cassidy Boys interagieren. Deine Entscheidungen in Dialogen und Missionen bestimmen deinen Status, was zu einzigartigen Handelsmöglichkeiten oder feindlichen Überfällen auf deine Basis führen kann."
+  },
+  {
+    question: "Wie funktioniert das Charakter-Porträt-System?",
+    answer: "Das Spiel verwendet ein einzigartiges KI-gestütztes Porträt-System (wie den Lookalike von 'Colonel Sanders'). Diese Porträts spiegeln die raue, vielfältige Natur der Überlebenden wider und werden gelegentlich von den Entwicklern für eine bessere visuelle Wiedergabetreue aktualisiert."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Toutes les armes d'Urban Strife : Tier List Tactique et Guide d'Équipement",
+  description: "Maîtrisez le système de toutes les armes d'Urban Strife avec notre guide 2026. Comparez les armes à feu, le corps à corps et les explosifs pour survivre à l'apocalypse.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a14/dd322c?text=Urban+Strife+All+Weapons+Guide",
+  date: "2026-07-16",
+  author: "Équipe Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Toutes les armes d'Urban Strife** : Le succès dépend de l'adéquation entre la classe d'arme (fusils à pompe, fusils, corps à corps) et les types d'ennemis spécifiques, comme les factions humaines ou les hordes de zombies.
+- **Efficacité des Points d'Action (PA)** : Vérifiez toujours le coût en PA par tir ; un pistolet à faibles dégâts mais à faible coût en PA peut être plus efficace qu'un fusil à gros dégâts qui consomme tout un tour.
+- **Durabilité des Armes** : La version 1.0 introduit un système de réparation profond via l'opération d'Owen ; récupérer des pièces sur l'équipement en double est essentiel pour entretenir votre arsenal principal.
+- **Gestion du Bruit** : Les coups de feu attirent les hordes errantes ; portez toujours une arme secondaire silencieuse comme une arbalète ou une arme de poing avec silencieux pour la reconnaissance furtive.
+- **Mécaniques de Pénétration** : Les fusils de gros calibre peuvent tirer à travers les murs en bois et les portières de voiture, tandis que les fusils à pompe sont supérieurs pour stopper les cibles sans armure à courte portée.
+</Callout>
+
+<Section icon={Map} title="Catégories d'Armes et Rôles Tactiques">
+
+Dans le monde brutal d'Urban Strife, votre arsenal est la seule chose qui sépare votre milice de la horde d'Atlanta. Suite à la sortie officielle de la version 1.0 le 14 juillet 2026, le système d'armes a été affiné pour mettre l'accent sur la spécialisation tactique plutôt que sur les simples chiffres de dégâts. Comprendre l'écosystème de **toutes les armes d'Urban Strife** nécessite une analyse approfondie de la manière dont les différents équipements gèrent la pénétration des matériaux, les niveaux de bruit et la consommation de points d'action.
+
+Chaque survivant de votre escouade doit être équipé en fonction de son rôle principal sur le champ de bataille. Un tireur d'élite dédié nécessite des fusils de haute puissance avec optiques, tandis que votre « tank » de première ligne a besoin d'une armure lourde et d'un fusil à pompe fiable ou d'une arme de corps à corps. Le jeu utilise un moteur balistique réaliste où chaque plomb et fragment est calculé individuellement, rendant le positionnement tout aussi important que l'arme elle-même.
+
+<CardGrid cols={3}>
+  <Card title="Contrôle de Horde">
+    - **Équipement Principal** : Fusils à pompe, Mitrailleuses, Molotovs
+    - **Usage Idéal** : Canaliser de grands groupes dans des goulots d'étranglement
+    - **Avantage** : Dégâts multi-cibles élevés
+  </Card>
+  <Card title="Frappe de Précision">
+    - **Équipement Principal** : Fusils de chasse, Fusils de précision
+    - **Usage Idéal** : Éliminer les tireurs d'élite et les chefs humains
+    - **Avantage** : Portée et pénétration supérieures
+  </Card>
+  <Card title="Reconnaissance Silencieuse">
+    - **Équipement Principal** : Arbalètes, Pistolets silencieux, Lames
+    - **Usage Idéal** : Éliminer les zombies isolés sans donner l'alerte
+    - **Avantage** : Génération de bruit nulle
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de Pro : L'Équilibre des PA">
+Ne regardez pas seulement la statistique de dégâts. Une arme qui coûte 8 PA pour tirer pourrait vous laisser à découvert. Assurez-vous toujours que votre survivant a assez de PA restants pour retourner à couvert après avoir tiré.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tier List de toutes les armes d'Urban Strife (2026)">
+
+Le choix du meilleur équipement dépend de la faction que vous combattez et de l'environnement. Bien qu'un fusil anti-matériel .50 BMG soit objectivement puissant, sa rareté et son bruit extrême en font un outil spécialisé plutôt qu'une arme quotidienne. La tier list suivante classe les catégories de **toutes les armes d'Urban Strife** en fonction de leur polyvalence, de leur coût en ressources et de leurs performances lors du siège final de la horde d'Atlanta.
+
+| Rang | Classe d'Arme | Rôle Tactique | Efficacité |
+| :--- | :--- | :--- | :--- |
+| **S** | **Fusils à pompe** | Défense de horde en combat rapproché | ★★★★★ |
+| **S** | **Fusils de précision** | Pénétration longue portée / Élimination de boss | ★★★★★ |
+| **A** | **Arbalètes** | Munitions infinies / Opérations furtives | ★★★★☆ |
+| **A** | **Fusils d'assaut** | Combat polyvalent à moyenne portée | ★★★★☆ |
+| **B** | **Pistolets** | Arme secondaire à faible PA / Secours d'urgence | ★★★☆☆ |
+| **B** | **Corps à corps (Lames)** | Éliminations silencieuses / Économie de munitions | ★★★☆☆ |
+| **C** | **Pistolets-mitrailleurs** | Cadence de tir élevée / Faible pénétration | ★★☆☆☆ |
+
+<Callout type="warning" title="Pénurie de Munitions">
+Les armes de haut rang comme les fusils de précision et les mitrailleuses consomment des munitions rares. Réservez-les pour les quartiers généraux des factions ou les derniers épisodes de l'histoire pour ne pas vous retrouver à sec lorsque le traqueur de défense passe dans la zone rouge.
+</Callout>
+
+### Rang S : Les Incontournables
+Les fusils à pompe sont les rois incontestés de l'apocalypse dans Urban Strife. Comme le jeu calcule chaque plomb séparément, une seule décharge peut toucher plusieurs zombies dans un groupe, ce qui en fait l'outil le plus efficace pour nettoyer des secteurs. Les fusils de précision, en particulier les variantes rares en .50 BMG, vous permettent de contourner entièrement les abris ennemis, en tirant à travers les murs pour neutraliser les soldats de la Garde Nationale avant qu'ils ne puissent réagir.
+
+### Rang A : Polyvalence et Furtivité
+Les arbalètes sont essentielles pour toute partie en mode « Ironman ». Comme les carreaux peuvent souvent être récupérés ou fabriqués à bas prix, ils vous permettent d'économiser votre poudre pour les grands combats. Les fusils d'assaut offrent le meilleur équilibre pour l'exploration générale, offrant des capacités de tir en rafale pour le contrôle des foules et une précision au coup par coup pour les rencontres humaines.
+
+</Section>
+
+<Section icon={Swords} title="Armes à Feu, Munitions et Statistiques de Pénétration">
+
+Le système balistique d'Urban Strife est l'une de ses fonctionnalités les plus complexes. Les armes ne se contentent pas de « toucher » ou de « rater » ; elles interagissent avec l'environnement. Une mince clôture en bois n'offre presque aucune protection contre une balle de 7,62 mm, alors qu'un bloc moteur de voiture peut arrêter la plupart des armes de petit calibre. En explorant le catalogue de **toutes les armes d'Urban Strife**, portez une attention particulière aux valeurs de pénétration.
+
+| Type d'Arme | Calibres Communs | Pénétration | Niveau de Bruit | Coût en PA |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pistolets** | 9mm, .45 ACP | Faible | Modéré | 3-5 |
+| **Fusils à pompe** | Calibre 12 | Très Faible | Élevé | 6-8 |
+| **Fusils** | .308, 7.62mm | Élevée | Élevé | 7-9 |
+| **Magnum** | .357, .44 Mag | Moyenne | Très Élevé | 5-7 |
+| **Arbalète** | Carreaux en acier | Aucune | Nul | 5-6 |
+
+<Callout type="success" title="Synergie des Kits d'Armes">
+Vous pouvez trouver ou fabriquer des « Kits d'Armes Tactiques » qui réduisent les coûts en PA ou augmentent la capacité du chargeur. Les appliquer à un fusil de rang A peut effectivement le propulser au niveau de performance du rang S pour la campagne de fin de partie.
+</Callout>
+
+### Types de Munitions
+Toutes les balles ne se valent pas. Les joueurs peuvent trouver ou fabriquer des munitions spécialisées à l'établi de l'armurier :
+- **Pointe Creuse** : Dégâts accrus contre les cibles sans armure (Zombies), mais inefficaces contre les soldats des factions.
+- **Perce-armure** : Indispensable pour combattre la Garde Nationale ou la garnison de l'armée renégate.
+- **Balles Dum-Dum** : Provoquent des effets de saignement, parfaites pour ralentir les survivants « Boss » à haute santé.
+
+</Section>
+
+<Section icon={Shield} title="Combat au Corps à Corps et Équipement de Furtivité">
+
+Les munitions sont une ressource finie. Pour survivre au long voyage du Prologue à la Chute du Roi, vous devez maîtriser le combat au corps à corps. Les armes de mêlée dans Urban Strife sont divisées en catégories contondantes et tranchantes, chacune servant un objectif tactique distinct.
+
+| Classe de Mêlée | Idéal Pour | Coût en Endurance | Effet Spécial |
+| :--- | :--- | :--- | :--- |
+| **Lames/Couteaux** | Éliminations furtives | Faible | Forte chance de saignement |
+| **Contondant/Battes** | Contrôle de foule | Moyen | Étourdissement/Renversement |
+| **Lourd (Haches)** | Dégâts élevés | Élevé | Destruction d'armure |
+| **À mains nues** | Dernier recours | Très Faible | Drain d'endurance |
+
+<Steps>
+  <Step num="1" title="Initier la Furtivité">
+    Accroupissez-vous et utilisez les cônes de vision des ennemis pour approcher par l'arrière. Évitez de marcher sur du verre brisé ou des débris bruyants.
+  </Step>
+  <Step num="2" title="Sélectionner la Partie du Corps">
+    Visez la tête pour une élimination rapide, ou les jambes pour estropier l'ennemi si vous devez battre en retraite et vous regrouper.
+  </Step>
+  <Step num="3" title="Exécuter et se Relocaliser">
+    Après une élimination silencieuse, éloignez-vous immédiatement. Même les meurtres silencieux peuvent être découverts si un garde en patrouille trouve le corps.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Entretien des Protections Corporelles">
+Bien que vos armes puissent être réparées, n'oubliez pas que les plaques balistiques sont consommables. Même si vous réparez le gilet, la plaque elle-même doit être remplacée une fois qu'elle a été brisée par les tirs ennemis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Entretien des Armes : Guide de Réparation et Modification">
+
+La mise à jour 1.0 a considérablement modifié la façon dont les joueurs interagissent avec leur équipement. Vous ne pouvez plus simplement utiliser une arme éternellement ; la durabilité compte. Une fois l'opération de réparation d'Owen débloquée à l'abri, vous pouvez commencer à restaurer **toutes les armes d'Urban Strife** que vous avez récupérées pour les remettre à neuf.
+
+**La Boucle de Récupération :**
+1. Collectez les armes en double ou cassées lors des expéditions.
+2. Retournez à l'abri et utilisez l'atelier pour les démanteler.
+3. Utilisez les « Pièces d'Armes » résultantes pour réparer vos fusils de précision et fusils à pompe de haut rang.
+4. Installez des modifications comme des silencieux, des lunettes et des chargeurs étendus pour spécialiser votre escouade.
+
+<Checklist
+  id="weapon-prep"
+  title="Liste de Contrôle pour la Fin de Partie :"
+  items={[
+    "Réparer toutes les armes à feu principales à 100 % de durabilité",
+    "Stocker au moins 200 cartouches de 7,62 mm pour le siège d'Atlanta",
+    "Équiper chaque combattant de première ligne de plaques balistiques neuves",
+    "Fabriquer 10+ cocktails Molotov pour le déni de zone",
+    "S'assurer que le médecin a une arme de poing silencieuse pour les sauvetages discrets"
+  ]}
+/>
+
+<Callout type="warning" title="L'Alerte de Siège">
+Le jeu vous donnera un avertissement radio 24 heures avant l'arrivée de la horde finale. Utilisez ce temps pour effectuer les dernières réparations. Vous ne pouvez pas réparer l'équipement une fois que la bataille du siège a commencé.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ : Maîtriser l'Arsenal d'Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure arme pour le siège final de la horde d'Atlanta ?",
+    answer: "Les fusils à pompe et les explosifs sont rois. La forte densité de la horde rend les balles individuelles moins efficaces que les dégâts de zone. Assurez-vous d'avoir installé des chargeurs de grande capacité."
+  },
+  {
+    question: "Puis-je utiliser des armes silencieuses pour nettoyer chaque carte discrètement ?",
+    answer: "Généralement, oui. Cependant, certains événements de l'histoire et déclencheurs d'escalade de horde forceront le combat ouvert. Portez toujours une arme de secours bruyante et puissante au cas où."
+  },
+  {
+    question: "Comment obtenir le fusil anti-matériel .50 BMG ?",
+    answer: "C'est une trouvaille rare de fin de partie, généralement située dans les secteurs de haute sécurité de la Garde Nationale ou comme récompense pour des alliances spécifiques avec des factions. C'est la seule arme capable de tirer de manière fiable à travers les abris en béton lourd."
+  },
+  {
+    question: "Les accessoires d'armes se cassent-ils avec le temps ?",
+    answer: "Non, les accessoires comme les lunettes et les silencieux n'ont pas de durabilité individuelle. Cependant, l'arme à laquelle ils sont fixés en a une. Si une arme se brise complètement, vous pouvez toujours détacher les modules et les déplacer sur un nouveau châssis."
+  }
+]} />
+
+</Section>

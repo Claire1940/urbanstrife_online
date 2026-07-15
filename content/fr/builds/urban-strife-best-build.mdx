@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Meilleur Build Urban Strife : Guide de Progression des Personnages 2026",
+  description: "Maîtrisez les meilleurs builds dans Urban Strife. Apprenez l'allocation optimale des attributs, la progression des compétences et les atouts de profession pour vos survivants dans la version v1.0 de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/881313/fff?text=Urban+Strife+Builds",
+  date: "2026-07-16",
+  author: "L'équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- La planification du **meilleur build d'Urban Strife** nécessite de se concentrer tôt sur des attributs spécifiques pour débloquer de puissants atouts de profession de niveau 3.
+- La **spécialisation par rôle** est essentielle ; évitez de trop disperser vos points dans des statistiques de combat et d'utilité non essentielles.
+- La **progression par la pratique** signifie que vos survivants s'améliorent par des actions répétées, attribuez-leur donc des rôles cohérents sur le champ de bataille.
+- La **sélection des atouts** doit renforcer les traits natifs de votre personnage pour créer des unités de combat ou de soutien hautement efficaces.
+- La **synergie du refuge** est vitale, garantissant que vos personnages les mieux optimisés disposent de l'équipement et des munitions nécessaires pour soutenir de longues expéditions.
+</Callout>
+
+<Section icon={Swords} title="Comprendre les attributs des personnages">
+
+Dans Urban Strife, l'efficacité de votre build est dictée par six attributs fondamentaux. Ces attributs déterminent votre succès au combat, dans les dialogues et dans la gestion des ressources. Plutôt que d'essayer d'être un « touche-à-tout », concentrez vos survivants sur un rôle principal.
+
+| Attribut | Avantage du rôle principal | Interaction clé |
+| :--- | :--- | :--- |
+| **Tir de précision** | Augmente la précision à distance | Affecte tous les tirs d'armes à feu et d'arbalètes |
+| **Force** | Augmente la capacité de transport et les dégâts de mêlée | Débloque les options de dialogue d'intimidation |
+| **Agilité** | Améliore les PA de mouvement et les chances d'interruption | Crucial pour la discrétion et l'esquive en mêlée |
+| **Dextérité** | Réduit le coût en PA de l'utilisation d'objets | Vital pour les médecins et les spécialistes utilitaires |
+| **Intelligence** | Accélère la progression des attributs | Débloque des solutions de quêtes uniques |
+| **Endurance** | Augmente les PV max et l'endurance | Essentiel pour tous les survivants de première ligne |
+
+<Callout type="tip" title="Conseil de pro">
+Associez toujours la progression de vos attributs à une pratique constante. Si vous voulez qu'un personnage devienne un tireur d'élite, donnez la priorité au Tir de précision et assurez-vous que c'est lui qui manie vos fusils lors de chaque affrontement.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Builds optimaux basés sur les rôles">
+
+Construire une escouade équilibrée est la clé pour survivre à la horde d'Atlanta. Utilisez ces rôles établis pour affecter efficacement vos recrues.
+
+<CardGrid cols={3}>
+  <Card title="Tireur à distance">
+    - **Attributs** : Tir de précision, Agilité
+    - **Objectif** : Couverture des lignes de tir, cibles prioritaires
+    - **Meilleure arme** : Fusil de précision ou de chasse
+  </Card>
+  <Card title="Combattant de mêlée">
+    - **Attributs** : Force, Endurance
+    - **Objectif** : Protéger les alliés fragiles, contrôle de foule
+    - **Meilleure arme** : Armes tranchantes ou contondantes
+  </Card>
+  <Card title="Médecin de combat">
+    - **Attributs** : Dextérité, Intelligence
+    - **Objectif** : Soins, soutien d'urgence
+    - **Meilleure arme** : Arme de poing avec silencieux
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Stratégie de build">
+Vos recrues possèdent des traits natifs uniques. Inspectez-les toujours avant de finaliser un build, car ils peuvent fournir des bonus significatifs qui complètent des atouts de profession spécifiques.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Atouts de profession et progression">
+
+La version 1.0 a introduit un système d'atouts repensé où les compétences sont divisées en trois niveaux. Une fois débloqués, vous pouvez choisir librement vos atouts pour affiner votre build.
+
+| Niveau | Condition requise | Objectif stratégique |
+| :--- | :--- | :--- |
+| **Niveau 1** | Déblocages en début de partie | Efficacité de combat de base et survie |
+| **Niveau 2** | Progression en milieu de partie | Performance dans un rôle spécialisé |
+| **Niveau 3** | Maîtrise en fin de partie | Avantages tactiques décisifs |
+
+<Steps>
+  <Step num="1" title="Identifier le rôle">
+    Choisissez un survivant et déterminez sa tâche principale sur le champ de bataille (ex. Éclaireur, Médecin ou Artilleur lourd).
+  </Step>
+  <Step num="2" title="Concentrer les attributs">
+    Dépensez vos premiers points dans les deux attributs clés requis pour ce rôle afin de maximiser l'efficacité.
+  </Step>
+  <Step num="3" title="Sélectionner les atouts correspondants">
+    Choisissez des atouts de profession qui améliorent directement les armes ou les actions que ce survivant utilise le plus fréquemment.
+  </Step>
+  <Step num="4" title="Entretenir l'équipement">
+    Utilisez le système de réparation du refuge pour maintenir en parfait état l'équipement spécifique à ce build.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important">
+Ne négligez pas l'Endurance de vos combattants principaux. Même les meilleurs tireurs tomberont rapidement s'ils manquent de PV pour survivre à une seule erreur lors d'un affrontement avec une horde de zombies.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons de progression">
+
+<Checklist
+  id="build-milestones"
+  title="Liste de contrôle de la progression du build :"
+  items={[
+    "Attribuer un rôle dédié à chaque membre actif de l'escouade",
+    "Atteindre les atouts de niveau 2 pour tous les survivants de terrain principaux",
+    "Sécuriser une arme d'élite pour votre tireur principal",
+    "Établir un approvisionnement constant en pièces de rechange au refuge",
+    "Terminer l'entraînement spécifique à une faction pour les compétences avancées"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur build d'Urban Strife pour les débutants ?",
+    answer: "Concentrez-vous sur une escouade équilibrée avec au moins un tireur à distance dédié et un combattant de mêlée. Donnez la priorité à l'Endurance et au Tir de précision dès le début pour vous assurer que vos survivants peuvent encaisser les coups et riposter avec précision."
+  },
+  {
+    question: "Puis-je réinitialiser le build de mon personnage ?",
+    answer: "Bien que vous puissiez affiner votre build grâce à la sélection des atouts et à la progression des attributs, concentrez-vous sur une performance de rôle cohérente pour obtenir les meilleurs résultats. Le jeu récompense la spécialisation précoce de vos survivants."
+  },
+  {
+    question: "Comment puis-je améliorer la précision de mon tireur ?",
+    answer: "Augmentez l'attribut Tir de précision et recherchez des accessoires d'armes à l'atelier du refuge. Les tirs à haut pourcentage de réussite sont toujours préférables aux tirs à la tête risqués à longue distance."
+  }
+]} />
+
+</Section>

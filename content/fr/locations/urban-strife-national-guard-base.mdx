@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Base de la Garde Nationale d'Urban Strife : Guide d'accès et récompenses de faction",
+  description: "Découvrez comment accéder à la base hautement fortifiée de la Garde Nationale dans Urban Strife. Comparez les choix de faction, les parcours de réputation et les récompenses militaires d'élite.",
+  keywords: "urban strife, garde nationale, base militaire, guide, récompenses, faction, armée",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=National+Guard+Base+Guide",
+  date: "2026-07-16",
+  author: "L'équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif Principal** : Sécuriser les blocs de vote dans tout le comté d'Urban pour accéder au quartier général montagneux hautement fortifié de la **base de la garde nationale d'urban strife**.
+- **Alignement de Faction** : S'aligner avec la Garde Nationale (Garnison de l'Armée Rebelle) débloque des armes à feu militaires de haut niveau, des armures balistiques lourdes et le véhicule utilitaire HMMWV de l'armée.
+- **Stratégie de Réputation** : Réalisez les intérêts spécifiques à la faction et utilisez des tests de dialogue de Force ou d'Intelligence pour préserver des vies et gagner du capital politique.
+- **Siège de Fin de Partie** : Votre choix d'alliance dicte directement les améliorations d'Abri disponibles et le soutien actif pendant le siège final de la Horde d'Atlanta au jour 20.
+</Callout>
+
+<Section icon={Map} title="Localiser la base de la Garde Nationale">
+
+La **base de la garde nationale d'urban strife** représente le summum de la puissance militaire et de la sécurité dans le comté d'Urban. Décrite dans les archives historiques comme le quartier général de la Garnison de l'Armée Rebelle, cette forteresse montagneuse lourdement fortifiée reste fermée aux étrangers jusqu'à ce que vous établissiez une influence politique substantielle. 
+
+Pour obtenir l'entrée, vous devez traverser les secteurs dangereux du comté d'Urban, résoudre les conflits locaux et rassembler suffisamment de votes locaux auprès des colonies indépendantes pour prouver votre valeur au commandement militaire.
+
+| Mesure | Détails | Impact Pratique |
+| :--- | :--- | :--- |
+| **Type de lieu** | Base montagneuse fortifiée | Haute altitude, configuration défensive avec de nombreux points d'étranglement |
+| **Faction principale** | Garde Nationale (Armée Rebelle) | Personnel militaire hautement discipliné et lourdement armé |
+| **Condition d'accès** | Soutien par vote à l'échelle du comté | Nécessite d'accomplir des quêtes pour les petites colonies régionales |
+| **Récompenses principales** | Équipement militaire et véhicules de niveau 3 | Donne accès au HMMWV de l'armée et à l'armure balistique lourde |
+
+<Callout type="warning" title="Avertissement d'Hostilité">
+Attaquer les patrouilles militaires ou échouer à des accords critiques avec les barons alignés sur l'armée vous bloquera définitivement l'accès à la base, transformant les soldats les plus disciplinés du comté en ennemis mortels et bien équipés.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Accéder à la base : Guide pas à pas">
+
+Pénétrer dans la base de la Garde Nationale nécessite une approche méthodique de la diplomatie régionale et de l'exploration tactique. Vous ne pouvez pas simplement forcer les portes d'entrée ; vous devez systématiquement bâtir votre réputation à travers le comté.
+
+<Steps>
+  <Step num="1" title="Établir le réseau de communication de l'Abri">
+    Réparez la radio de la ville dans l'Abri d'Urban pour commencer à suivre les transmissions des secteurs éloignés. Cela vous permet de surveiller les mouvements militaires et d'identifier les colonies qui ont besoin d'une aide immédiate.
+  </Step>
+  <Step num="2" title="Résoudre les conflits des colonies indépendantes">
+    Voyagez vers les secteurs régionaux tels que Little Italy et Old Port. Aidez les camps indépendants, les pompiers et les barons locaux à survivre aux hordes de morts-vivants pour obtenir leur soutien politique et leurs futurs votes.
+  </Step>
+  <Step num="3" title="Utiliser les tests de dialogue des personnages">
+    Lors des interactions avec les représentants des factions, utilisez des membres de l'escouade ayant des statistiques de Force ou d'Intelligence élevées. Des tests de dialogue réussis peuvent résoudre les impasses de manière pacifique, préservant des vies et offrant d'énormes gains de réputation.
+  </Step>
+  <Step num="4" title="Sécuriser les votes requis">
+    Présentez votre soutien régional accumulé aux émissaires de la Garde Nationale. Une fois le seuil de vote atteint, les coordonnées du quartier général montagneux seront marquées sur votre carte du monde.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Astuce pour Gagner de l'Espace">
+Avant de partir pour la base, videz l'inventaire de votre escouade. Les marchands militaires proposent du matériel exceptionnellement lourd, et vous aurez besoin d'une capacité de charge maximale pour ramener votre nouvel arsenal à l'Abri.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparaison des factions et récompenses">
+
+Le comté d'Urban est dominé par trois factions principales. S'aligner avec la Garde Nationale dans leur base montagneuse offre des avantages distincts, mais cela vous aliène immédiatement des autres puissances régionales. Consultez la grille ci-dessous pour comparer vos options de fin de partie.
+
+<CardGrid cols={3}>
+  <Card title="Garde Nationale">
+    - **Base** : Base montagneuse fortifiée
+    - **Avantages** : Armes à feu d'élite, armure lourde et véhicule blindé HMMWV de l'armée.
+    - **Inconvénients** : Exige une obéissance stricte et vous met en guerre avec les factions rivales.
+  </Card>
+  <Card title="Église de la Seconde Chance">
+    - **Base** : Camp de la Seconde Chance
+    - **Avantages** : Plans d'artisanat uniques, outils de furtivité et voies de résolution pacifiques.
+    - **Inconvénients** : Adopte la horde de morts-vivants d'une manière que la plupart des survivants trouvent très dérangeante.
+  </Card>
+  <Card title="Bikers de la Shady Lady">
+    - **Base** : Bar et club de Bikers
+    - **Avantages** : Commerce au marché noir à haut rendement, pièces de véhicules et réparations d'armes bon marché.
+    - **Inconvénients** : Motivations axées sur le profit nécessitant un flux de trésorerie constant et des accords impitoyables.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Synergie d'Alliance">
+Accepter l'alliance avec la Garde Nationale débloque plus de vingt améliorations d'alliés spécifiques pour l'Abri d'Urban, y compris des systèmes de réseau à énergie solaire et des défenses périmétriques automatisées.
+</Callout>
+
+| Faction | Stock du Marchand d'Élite | Véhicule Unique Débloqué | Axe d'Amélioration de l'Abri |
+| :--- | :--- | :--- | :--- |
+| **Garde Nationale** | Fusils d'assaut, .50 BMG, Armure de combat | HMMWV de l'armée | Tourelles automatisées, Réseau électrique |
+| **Église de la Seconde Chance** | Arbalètes spécialisées, Toxines, Plans | Buggy de reconnaissance | Hydroponie, Médecine par les plantes |
+| **Bikers de la Shady Lady** | Mitraillettes, Accessoires personnalisés | Chopper et Camion de transport | Atelier auto, Raffineries de carburant |
+
+</Section>
+
+<Section icon={Shield} title="Intégration de l'Abri et préparation du siège du jour 20">
+
+Votre relation avec la Garde Nationale a un impact direct sur vos capacités de défense de base. À l'approche du jour 20, la Horde d'Atlanta ciblera l'Abri d'Urban. L'intégration de la technologie militaire dans vos défenses est l'un des moyens les plus fiables de survivre au siège final.
+
+| Système de Défense | Coût en Matériaux | Énergie Requise | Contribution au Siège |
+| :--- | :--- | :--- | :--- |
+| **Fortifications renforcées** | Métal et Béton élevés | Aucun | Absorbe des impacts physiques massifs |
+| **Clôtures périmétriques électriques** | Composants moyens | 15 kW | Ralentit et endommage les hordes qui avancent |
+| **Tourelles sentinelles automatisées** | Pièces militaires élevées | 25 kW | Inflige un tir automatique soutenu |
+
+<Callout type="warning" title="Avertissement sur le Réseau Électrique">
+Les défenses militaires avancées comme les clôtures électriques et les tourelles sentinelles ne contribuent absolument en rien au suivi de la défense si votre Abri ne peut pas générer suffisamment d'énergie stable pour les maintenir opérationnelles pendant l'assaut.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons de la base de la Garde Nationale">
+
+Utilisez cette liste de contrôle pour vous assurer que vous avez pleinement exploité les ressources et les opportunités disponibles au quartier général militaire avant que la campagne n'entre dans son point de non-retour.
+
+<Checklist
+  id="national-guard-milestones"
+  title="Liste de contrôle de la campagne militaire :"
+  items={[
+    "Accumuler suffisamment de votes régionaux pour débloquer les coordonnées de la base montagneuse",
+    "Acheter l'ensemble d'armure de combat de niveau 3 auprès de l'intendant militaire",
+    "Sécuriser le véhicule HMMWV de l'armée pour maximiser la vitesse de déplacement sur la carte et la capacité de chargement",
+    "Débloquer le plan de la tourelle sentinelle automatisée pour l'atelier de l'Abri",
+    "S'engager dans l'alliance avec la Garde Nationale pour verrouiller un soutien d'élite pour le siège du jour 20"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je accéder à la base de la garde nationale d'urban strife sans les choisir comme allié final ?",
+    answer: "Oui. Vous pouvez obtenir les votes pour entrer dans la base, commercer avec leur intendant et accomplir les quêtes préliminaires sans signer le traité d'alliance final. Cela vous permet d'acheter de l'équipement militaire d'élite même si vous prévoyez de vous ranger du côté des Bikers ou de l'Église plus tard."
+  },
+  {
+    question: "Que se passe-t-il si ma réputation auprès de la Garde Nationale devient hostile ?",
+    answer: "Si vous devenez hostile, la base sera verrouillée et des équipes de frappe militaires lourdement armées commenceront à patrouiller sur la carte du monde. Vous perdrez l'accès aux plaques balistiques d'élite et aux vendeurs de munitions de gros calibre."
+  },
+  {
+    question: "Comment le HMMWV de l'armée se compare-t-il aux autres véhicules de faction ?",
+    answer: "Le HMMWV de l'armée possède l'indice de blindage le plus élevé et la plus grande capacité de chargement de tous les véhicules du jeu, ce qui en fait le choix de premier ordre pour transporter des cargaisons de ravitaillement massives vers l'Abri, bien qu'il consomme nettement plus de carburant que les alternatives plus légères."
+  },
+  {
+    question: "Les plaques balistiques achetées à la base militaire sont-elles réparables ?",
+    answer: "Non. Bien que le système de réparation de la version 1.0 permette à Owen de restaurer la durabilité de l'armure elle-même, les plaques balistiques internes sont strictement consommables et doivent être remplacées une fois détruites."
+  }
+]} />
+
+</Section>
