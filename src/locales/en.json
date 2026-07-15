@@ -7,7 +7,7 @@
       "ogTitle": "Urban Strife Wiki - Walkthrough, Builds & Weapons",
       "ogDescription": "Urban Strife Wiki covers beginner guides, mission walkthroughs, survivor builds, weapons, shelter upgrades, factions, maps, crafting, and tactical combat tips.",
       "twitterTitle": "Urban Strife Wiki - Walkthrough, Builds & Weapons",
-      "twitterDescription": "Urban Strife Wiki covers beginner guides, mission walkthroughs, survivor builds, weapons, shelter, factions, maps, crafting, and tactical combat tips."
+      "twitterDescription": "Urban Strife Wiki covers beginner guides, mission walkthroughs, survivor builds, weapons, shelter upgrades, factions, maps, crafting, and tactical combat tips."
     }
   },
   "nav": {},
@@ -52,696 +52,597 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Urban Strife Gameplay",
+    "description": "Lead turn-based tactical battles with simulated ballistics, rebuild Urban Shelter, train survivors, and pick a side between rival factions before the Atlanta horde arrives."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Urban Strife",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to survive the apocalypse in Urban Strife — beginner routes, combat tactics, weapons, builds, shelter upgrades, factions and the full story walkthrough.",
     "cards": [
+      {
+        "icon": "CalendarCheck",
+        "title": "Release, Price & Platforms",
+        "description": "Version 1.0 launch date, Steam price, launch discount, PC requirements and supported languages"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First-hours route, away-team preparation and early Shelter priorities"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Crosshair",
+        "title": "Combat & Controls",
+        "description": "Action Points, Overwatch, body-part targeting, penetration and keyboard shortcuts"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Sword",
+        "title": "Best Weapons & Gear",
+        "description": "Firearms, crossbows, melee, explosives and armor ranked by tactical role"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Users",
+        "title": "Character Builds",
+        "description": "Attributes, skills, profession perks and five squad role directions"
       },
       {
         "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Shelter Upgrades",
+        "description": "Facilities, survival industries, crafting chains and siege readiness"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Flag",
+        "title": "Factions & Recruits",
+        "description": "National Guard, Church of Second Chance and Shady Lady alliances and consequences"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Map",
+        "title": "Story Walkthrough",
+        "description": "Campaign stages, faction decisions and the Atlanta horde endgame"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "urbanStrifeReleaseInfo": {
+      "title": "Urban Strife Release Date, Price and PC Requirements",
+      "eyebrow": "Release Information",
+      "subtitle": "Urban Strife Version 1.0 launched on Steam for Windows PC on July 14, 2026. The complete release adds the campaign conclusion, the final Shelter siege and several major progression systems.",
+      "intro": "Urban Strife entered Steam Early Access on December 10, 2024 before reaching Version 1.0 on July 14, 2026. The full release completes the Atlanta Horde storyline, adds the final Shelter defense sequence, introduces equipment repairs and redesigns character profession perks.",
+      "specs": [
+        {
+          "category": "Version 1.0 Release",
+          "value": "July 14, 2026",
+          "details": "The complete game launched after roughly nineteen months in Steam Early Access."
+        },
+        {
+          "category": "Early Access Release",
+          "value": "December 10, 2024",
+          "details": "Early Access introduced the core campaign, tactical combat, faction quests, exploration and Shelter management while later story and endgame content was still in development."
+        },
+        {
+          "category": "Platform",
+          "value": "Windows PC via Steam",
+          "details": "Urban Strife is a single-player game with Steam Cloud, Steam Workshop and Family Sharing support. No console or macOS edition is listed."
+        },
+        {
+          "category": "Standard Price",
+          "value": "$34.99 USD",
+          "details": "Steam applies regional pricing in supported countries, so the final local price may differ."
+        },
+        {
+          "category": "Launch Discount",
+          "value": "30% off: $24.49 USD",
+          "details": "The introductory Steam offer runs through July 21, 2026."
+        },
+        {
+          "category": "Supported Languages",
+          "value": "English, French, German, Spanish, Russian, Simplified Chinese",
+          "details": "English includes interface text, subtitles and full audio. French, German, Spanish, Russian and Simplified Chinese include translated interfaces and subtitles."
+        },
+        {
+          "category": "Minimum PC Requirements",
+          "value": "Windows 10 64-bit, 16 GB RAM, 20 GB storage",
+          "details": "Intel Core i5-4690 or AMD FX-8350, Nvidia GTX 970 or AMD RX 480 with at least 4 GB VRAM, and DirectX 11."
+        },
+        {
+          "category": "Recommended PC Requirements",
+          "value": "Windows 10 64-bit, 16 GB RAM, SSD recommended",
+          "details": "Intel Core i7-8700K or AMD Ryzen 5 3600, Nvidia RTX 2060 Super or AMD RX 5700 XT with at least 8 GB VRAM, DirectX 11 and 20 GB storage."
+        },
+        {
+          "category": "Complete Campaign",
+          "value": "Atlanta Horde and final Shelter siege",
+          "details": "Version 1.0 concludes the main story with the horde attacking Urban Shelter. Fortifications, powered upgrades, stored supplies and recruited allies all contribute to the Shelter Defense Tracker."
+        },
+        {
+          "category": "New Version 1.0 Systems",
+          "value": "Repairs and redesigned profession perks",
+          "details": "Weapons and body armor can be repaired after starting the repair operation. Profession perks are divided into three tiers and can be freely selected after unlocking them."
+        },
+        {
+          "category": "Early Access Save Support",
+          "value": "Existing saves remain compatible",
+          "details": "Early Access saves were not wiped, although beginning a fresh campaign is recommended for the most complete Version 1.0 experience."
+        }
+      ]
+    },
+    "urbanStrifeBeginnerGuide": {
+      "title": "Urban Strife Beginner Guide and First-Hours Route",
+      "eyebrow": "Getting Started",
+      "intro": "The early campaign introduces equipment slots, tactical movement, zombie spawners, scavenging and Shelter management. Progress carefully through the Prologue, return valuable supplies to the Shelter and avoid treating every encounter as a full gunfight.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "title": "Begin with a Fresh Version 1.0 Campaign",
+          "description": "Create your character and follow the opening story in which the CDC patient is rescued and brought to Urban Shelter. A new campaign uses the current quest flow, perk system and blueprint distribution.",
+          "tips": [
+            "Read the tutorial windows instead of closing them immediately; completed help screens can be reopened from the HUD.",
+            "Use the opening sequence to learn quick slots, equipment management and basic interaction controls."
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "title": "Complete the Bridge and Prologue Tutorials",
+          "description": "The introductory route teaches equipping items, movement, combat actions and the destruction of zombie spawners. Finish these objectives before freely exploring harder locations.",
+          "tips": [
+            "Equip healing items and weapons in accessible slots before combat begins.",
+            "Destroy active spawners when the mission permits it so they cannot keep adding zombies to the battle."
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "title": "Inspect Urban Shelter Before Leaving",
+          "description": "Urban Shelter is the central base for storage, production, recovery and long-term defense. Review the Shelter Notebook, available upgrades and resource categories before selecting your first away team.",
+          "tips": [
+            "Food, medicine, morale supplies, fuel, power and construction materials all support different Shelter systems.",
+            "The radio, hospital, auto shop, workshop and barracks are important parts of the wider rebuilding plan."
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "title": "Prepare a Balanced Away Team",
+          "description": "Use the roster screen to confirm who is leaving the Shelter. A practical early group combines accurate ranged attacks, quiet melee options and access to medical treatment.",
+          "tips": [
+            "Give each fighter a usable weapon instead of placing every valuable gun on one character.",
+            "Carry enough medicine to stop bleeding and treat serious injuries, but leave surplus supplies in the Shelter stash.",
+            "Check ammunition types before departure because carrying a gun without compatible rounds wastes inventory space."
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "title": "Clear Nearby Prologue Areas First",
+          "description": "Explore the Shelter surroundings and early suburban sectors before challenging stronger faction locations. The world-map sector panel identifies previously visited areas and displays the main local faction difficulty.",
+          "tips": [
+            "Finish nearby objectives and return with supplies rather than pushing through several unknown sectors in one trip.",
+            "Search containers, abandoned buildings and defeated enemies after an area is secure.",
+            "Avoid carrying so much loot that the team cannot keep essential ammunition or medical items."
+          ]
+        },
+        {
+          "title": "Fight Isolated Zombies Quietly",
+          "description": "Use melee weapons, crossbows or suppressed firearms when a loud attack could alert additional enemies. Gunfire, explosions and careless movement can pull more threats into the encounter.",
+          "tips": [
+            "Approach while crouched and use cover to reduce the risk of losing the initiative.",
+            "Use high-percentage attacks instead of repeatedly attempting difficult headshots.",
+            "Save shotguns, automatic fire and explosives for groups that justify their ammunition cost."
+          ]
+        },
+        {
+          "title": "Protect Medicine, Ammunition and Durability",
+          "description": "Urban Strife tracks ammunition, injuries and equipment condition. Use the cheapest safe solution for each encounter and avoid changing attachments during combat unless the tactical benefit is worth the Action Point cost.",
+          "tips": [
+            "Do not fire expensive rifle or shotgun ammunition at a target that can be safely finished with melee.",
+            "Stop bleeding quickly because untreated wounds keep reducing health.",
+            "Keep backup weapons instead of relying on one damaged firearm for the entire expedition."
+          ]
+        },
+        {
+          "title": "Salvage Surplus Equipment Carefully",
+          "description": "Unwanted weapons and armor can be salvaged into parts used for repairs and Shelter development. Version 1.0 excludes equipped items from salvage by default, helping protect the gear currently used by the party.",
+          "tips": [
+            "Preserve useful spare guns until you know which ammunition and weapon classes your recruits need.",
+            "Salvaging equipment before it becomes completely ruined can produce more useful material.",
+            "Keep crafting tools available because using them can consume durability."
+          ]
+        },
+        {
+          "title": "Return, Recover and Upgrade",
+          "description": "Deposit loot in the Shelter stash, treat injured survivors and invest materials in useful facilities. Once the repair operation is available, damaged weapons and body armor can be restored with salvaged parts.",
+          "tips": [
+            "Repair equipment you regularly use instead of spending every part on low-value backup items.",
+            "Ballistic plates are expendable and cannot be repaired, even though the body armor holding them can be restored.",
+            "Maintain powered defenses and stockpiles as the campaign moves toward the Atlanta Horde siege."
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "urbanStrifeCombatControls": {
+      "title": "Urban Strife Combat, Overwatch and Controls Guide",
+      "eyebrow": "Tactical Combat",
+      "intro": "Urban Strife uses turn-based Action Point combat backed by simulated bullet trajectories, material penetration and individual explosion fragments. Positioning, noise and available reactions are as important as raw weapon damage.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Plan the Entire Turn Around Action Points",
+          "description": "Movement, attacks and combat interactions consume Action Points. Preview a destination before moving so the selected character still has enough points to attack, take cover or prepare Overwatch.",
+          "example": "Move only as far as needed to gain a clear firing angle instead of spending the full turn crossing open ground."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Win Initiative from Cover",
+          "description": "Initiative determines which side reacts first when contact begins. Crouched characters positioned in cover are less likely to suffer an enemy ambush, while standing or running into detection is much riskier.",
+          "example": "Approach a guarded building while crouched behind vehicles or walls, then begin the fight from a protected firing position."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Use Cover Based on Its Material",
+          "description": "Cover effectiveness depends on material, thickness and firing angle. A car engine can stop most common calibers, while a thin wall may be penetrated by a powerful hunting rifle.",
+          "example": "Hide behind the engine block rather than a car door, and do not assume wooden walls provide complete protection from rifles."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Check Hit Chance and Expected Damage",
+          "description": "The targeting interface estimates hit chance and potential damage while accounting for range, obstruction and bullet attenuation. Reposition when the preview shows poor odds instead of wasting ammunition.",
+          "example": "A short flank that removes a wall or cover penalty can be more valuable than firing twice from a bad angle."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Choose the Correct Body Part",
+          "description": "Headshots offer high payoff with lower accuracy, center-mass attacks provide a safer hit chance, and limb attacks can cripple, slow or disable a target.",
+          "example": "Use a torso shot when a wounded enemy must be stopped immediately, or target a limb when disabling the target matters more than maximum damage."
+        },
+        {
+          "title": "Control Noise and Detection",
+          "description": "Enemy awareness is influenced by dynamic sight and hearing ranges. Melee weapons, crossbows and suppressed pistols support quiet eliminations, while unsuppressed gunfire and explosives can attract additional enemies.",
+          "example": "Silently remove an isolated guard before using loud weapons against the main group."
+        },
+        {
+          "title": "Prepare Interrupts and Overwatch",
+          "description": "Overwatch creates a reaction opportunity during the enemy turn. Place the character where enemies must cross a clear firing lane and avoid blocking that lane with teammates.",
+          "example": "Aim Overwatch toward a doorway or narrow street, then allow advancing enemies to enter the prepared line of fire."
+        },
+        {
+          "title": "Fight Human Enemies with Flanks and Penetration",
+          "description": "Human opponents use cover, reposition and read the battlefield. Break their firing angles, attack from more than one direction and use suitable calibers or explosives against weak cover.",
+          "example": "Keep one fighter covering the front while a second character enters through a window or moves around the side of the building."
+        },
+        {
+          "title": "Handle Individual Zombies Efficiently",
+          "description": "Avoid spending high-value ammunition on a lone zombie when a controlled melee attack, crossbow bolt or accurate low-cost shot can end the encounter without attracting a larger group.",
+          "example": "Use a quiet weapon on the first zombie and keep a firearm ready in case the attack reveals additional enemies."
+        },
+        {
+          "title": "Defend Against Large Hordes",
+          "description": "Horde zombies move together during a dedicated simultaneous phase while making individual pathing decisions. Use choke points, overlapping firing lanes, shotguns, automatic fire and area explosives before the group surrounds the party.",
+          "example": "Retreat through a narrow entrance, place ranged fighters behind cover and concentrate damage on the front of the horde."
+        }
+      ],
+      "shortcuts": [
+        { "key": "X", "action": "Swap the selected character's active weapon" },
+        { "key": "F", "action": "Change the current weapon's available fire mode" },
+        { "key": "Y", "action": "Activate Overwatch" },
+        { "key": "0", "action": "Select the entire party for group movement outside combat" }
+      ]
+    },
+    "urbanStrifeBestWeapons": {
+      "title": "Urban Strife Best Weapons and Gear by Tactical Role",
+      "eyebrow": "Weapons and Equipment",
+      "intro": "There is no single weapon that solves every encounter. Pistols conserve Action Points, rifles reward range and penetration, shotguns dominate close groups, silent equipment limits enemy alerts, and protective gear trades durability for survival.",
+      "tiers": [
+        {
+          "tier": "S",
+          "role": "Horde Control",
+          "weapons": "Shotguns, machine guns, automatic and burst-fire weapons, grenades and Molotov cocktails",
+          "bestFor": "Dense zombie groups, chokepoints and Shelter defense",
+          "strengths": "Shotguns calculate every pellet separately and can deliver heavy close-range damage. Burst fire provides cumulative damage and can penetrate multiple targets, while explosives create fragments or area denial.",
+          "limitations": "These options are loud, consume ammunition quickly and can attract enemies from a wider area."
+        },
+        {
+          "tier": "S",
+          "role": "Long-Range Penetration",
+          "weapons": "Hunting rifles, sniper rifles and the rare .50 BMG anti-materiel rifle",
+          "bestFor": "Armored targets, human marksmen and enemies behind penetrable cover",
+          "strengths": "High-powered rifles deliver strong single-target damage and can penetrate materials that stop weaker weapons. The rare .50 BMG rifle can destroy cover and fire through substantial obstacles.",
+          "limitations": "Rifles are less convenient at close range and should not waste valuable ammunition on weak isolated enemies."
+        },
+        {
+          "tier": "A",
+          "role": "Silent Ranged Combat",
+          "weapons": "Crossbows and suppressed pistols",
+          "bestFor": "Stealth routes, isolated guards and quiet zombie removal",
+          "strengths": "These weapons allow ranged attacks without producing the noise of standard firearms. Crossbows support silent play without conventional ammunition, while pistols remain quick to use.",
+          "limitations": "They offer less crowd control than shotguns, automatic weapons or explosives and can struggle when several enemies attack at once."
+        },
+        {
+          "tier": "A",
+          "role": "Low-AP Sidearm",
+          "weapons": "Pistols and revolvers",
+          "bestFor": "Finishing wounded targets, mobile fighters and emergency backup",
+          "strengths": "Pistols are the game's low-Action-Point firearm class, making them useful when a character must move and still attack during the same turn.",
+          "limitations": "Sidearms generally provide less damage, range and cover penetration than rifles or dedicated heavy weapons."
+        },
+        {
+          "tier": "A",
+          "role": "Close-Range Stealth",
+          "weapons": "Blades, blunt weapons, baseball bats, improvised tools and unarmed attacks",
+          "bestFor": "Silent takedowns, ammunition conservation and close zombie encounters",
+          "strengths": "Melee attacks create less noise and require no ammunition. Blunt attacks can damage stamina and support non-lethal knockouts against suitable targets.",
+          "limitations": "The attacker must enter dangerous close range and may be exposed if the first strike fails."
+        },
+        {
+          "tier": "A",
+          "role": "Cover Destruction and Area Control",
+          "weapons": "Fragmentation grenades, homemade explosives, Molotov cocktails and specialty bombs",
+          "bestFor": "Enemies behind light cover, grouped targets and blocked approaches",
+          "strengths": "Explosions generate individual fragments, can destroy or bypass cover and force enemies away from protected positions. Molotovs help control routes used by advancing groups.",
+          "limitations": "Explosives are limited resources, create substantial noise and can endanger nearby party members."
+        },
+        {
+          "tier": "B",
+          "role": "Body Protection",
+          "weapons": "Body armor, ballistic plates, limb armor and helmets",
+          "bestFor": "Frontline fighters, exposed movement and prolonged firefights",
+          "strengths": "Armor absorbs incoming damage and reduces the risk faced by characters holding close positions or crossing contested areas. Body armor can be repaired through the Version 1.0 repair system.",
+          "limitations": "Armor plates and limb protection decay when hit. Ballistic plates are expendable and cannot be repaired."
+        },
+        {
+          "tier": "Utility",
+          "role": "Attachments and Tactical Kits",
+          "weapons": "Silencers, weapon attachments, tactical weapon kits and high-capacity magazines",
+          "bestFor": "Specializing a reliable weapon for stealth, accuracy or sustained fire",
+          "strengths": "Attachments, kits and magazines improve the tactical role of equipment and can be looted, fabricated or produced through Shelter facilities.",
+          "limitations": "Attaching or detaching equipment during combat consumes Action Points, so changes should normally be completed before contact."
+        }
+      ]
+    },
+    "urbanStrifeCharacterBuilds": {
+      "title": "Urban Strife Character Builds, Skills and Perks",
+      "eyebrow": "Squad Development",
+      "intro": "There is no mandatory class setup. Decide what each survivor should do most often, give that character matching weapons and field responsibilities, and let repeated actions reinforce the attributes needed for that role before selecting supporting profession perks.",
+      "roles": [
+        {
+          "role": "Ranged Shooter",
+          "bestFor": "Reliable firearm damage, Overwatch lanes and priority-target removal",
+          "attributes": ["Marksmanship", "Agility"],
+          "focus": "Make ranged attacks regularly instead of carrying a firearm only as a backup. Marksmanship sets ranged aim accuracy while Agility affects movement Action Points, interrupt chances and melee evasion.",
+          "plan": "Use cover, elevation and clean firing lanes. Reserve expensive shots for important targets and keep enough ammunition for the late campaign."
+        },
+        {
+          "role": "Melee Fighter",
+          "bestFor": "Silent kills, ammunition conservation and protecting fragile squad members",
+          "attributes": ["Strength", "Dexterity", "Endurance"],
+          "focus": "Use the melee family that matches the intended job: blade or pierce, blunt, hand-to-hand or heavy melee. Strength raises carry capacity, melee damage and stamina, Dexterity affects item-use Action Points and melee accuracy, and Endurance increases health and stamina.",
+          "plan": "Approach through cover or stealth, avoid open firing lanes and carry a low-Action-Point backup weapon for emergencies."
+        },
+        {
+          "role": "Stealth and Ambush Specialist",
+          "bestFor": "Scouting, silent takedowns, opening attacks and avoiding unnecessary alerts",
+          "attributes": ["Agility", "Dexterity"],
+          "focus": "Sneak frequently, since sneaking and successful melee dodges contribute to Agility growth. Combine silent melee weapons, crossbows or suppressed firearms with ambushes from cover before combat fully escalates.",
+          "plan": "Scout first, isolate a target, secure an escape route and let the rest of the squad cover the withdrawal."
+        },
+        {
+          "role": "Medic and Combat Support",
+          "bestFor": "Healing, emergency rescues and keeping injured fighters operational",
+          "attributes": ["Dexterity", "Intelligence", "Endurance"],
+          "focus": "Make this survivor the regular user of medical supplies instead of spreading healing actions randomly across the squad. Dexterity reduces item-use Action Points, Intelligence speeds all attribute growth and enables Intelligence dialogue checks, and Endurance gives more health and stamina for dangerous rescues.",
+          "plan": "End turns behind solid cover, keep movement points available and avoid spending the medic's entire turn on low-value attacks."
+        },
+        {
+          "role": "Utility, Crafting and Dialogue Survivor",
+          "bestFor": "Carrying loot, crafting, grenade use, specialist tools and alternate quest solutions",
+          "attributes": ["Strength", "Dexterity", "Intelligence"],
+          "focus": "Use the survivor for encumbered carrying, backpack crafting, grenades and other repeatable utility actions, and bring the character into conversations where faction background, Intelligence or Strength can reveal alternative information and quest solutions.",
+          "plan": "Keep tools and mission items organized on this character, but distribute critical ammunition and medicine so one knockout does not disable the whole squad."
+        }
+      ]
+    },
+    "urbanStrifeShelterUpgrades": {
+      "title": "Urban Strife Shelter Upgrades and Crafting",
+      "eyebrow": "Base Progression",
+      "intro": "Upgrade in layers: stabilize daily needs first, restore facilities that unlock essential services, expand production and crafting, and then commit resources to faction bonuses and siege defenses. Crafting can draw directly from the base stash and loot containers, while hidden recipes come from exploration, unusual NPCs and faction alliances.",
+      "phases": [
+        {
+          "phase": "1. Stabilize Daily Survival",
+          "priority": "Immediate",
+          "focus": "Food, water security, health supplies, morale and power",
+          "facilities": ["Shelter supply storage", "Donation flow for food, health and morale items", "Fuel and power management"],
+          "goal": "Return from every safe trip with food, medicine, morale items, fuel and general materials instead of carrying only weapons."
+        },
+        {
+          "phase": "2. Restore Essential Services",
+          "priority": "High",
+          "focus": "Repair damaged town-center facilities that open core campaign functions",
+          "facilities": ["City radio", "Hospital", "Auto shop", "Workshop", "Permanent barracks"],
+          "goal": "Prioritize construction materials and specialist access until communication, medical care, vehicle work, crafting and team facilities are operational."
+        },
+        {
+          "phase": "3. Establish Survival Industries",
+          "priority": "High",
+          "focus": "Reduce dependence on scavenging by producing necessities at home",
+          "facilities": ["Gardens", "Hydroponics", "Rat farms", "Frog ponds", "Other food and survival industries"],
+          "goal": "Spend early surplus on repeatable production before decorative projects or narrow specialty upgrades."
+        },
+        {
+          "phase": "4. Build the Arsenal and Crafting Chain",
+          "priority": "High",
+          "focus": "Turn common loot and materials into combat-ready equipment",
+          "facilities": ["Retooled workshop", "Specialist crafting stations", "Weapon modification and parts production"],
+          "goal": "Keep chemicals, components, metal, spare weapons and useful attachments instead of selling or discarding every duplicate."
+        },
+        {
+          "phase": "5. Add Training, Mobility and Scavenging Capacity",
+          "priority": "Medium",
+          "focus": "Improve the quality and reach of field operations",
+          "facilities": ["Training facilities", "Auto shop improvements", "Scavenging teams", "Vehicle and cargo support"],
+          "goal": "Balance fuel consumption against the need to reach harder maps, haul more loot and rescue threatened settlements."
+        },
+        {
+          "phase": "6. Unlock Faction and Power Upgrades",
+          "priority": "Late Campaign",
+          "focus": "Convert political progress into permanent Shelter advantages",
+          "facilities": ["Faction-specific upgrade branches", "Solar, hydro and wind generators", "Fortifications and powered defenses"],
+          "goal": "Secure an alliance, collect faction rewards and maintain enough power capacity for every defense that must remain active."
+        },
+        {
+          "phase": "7. Lock In Siege Readiness",
+          "priority": "Before the Final Warning",
+          "focus": "Stop expanding and convert remaining resources into survival",
+          "facilities": ["Defense Tracker review", "Weapon and armor repair", "Ammunition reserve", "Powered fortifications", "Medical and food stockpile"],
+          "goal": "Repair the best weapons and armor, salvage unwanted gear for repair parts, stock ammunition and place the strongest fighters on the final roster."
+        }
+      ]
+    },
+    "urbanStrifeFactions": {
+      "title": "Urban Strife Factions, Reputation and Recruits",
+      "eyebrow": "Alliances and Consequences",
+      "intro": "The three major blocs are the National Guard, the Church of Second Chance and the Shady Lady biker charter. Smaller settlements, barons and recruitable survivors also react to your actions, and their survival can affect votes, map control, rewards and the strength of roaming undead hordes.",
+      "factions": [
+        {
+          "faction": "National Guard",
+          "alias": "Earlier known as the Rogue Army Garrison",
+          "identity": "A disciplined military power based in a heavily fortified mountain base that claims to protect Urban while demanding obedience, payment and loyalty.",
+          "perks": ["Military-grade firearms, ammunition and armor", "Army-specific traders and advanced equipment", "Faction vehicle access including the Army HMMWV"],
+          "alliance": "An accepted alliance opens faction upgrades, rewards and late-game support, but places the Shelter against rival blocs."
+        },
+        {
+          "faction": "Church of Second Chance",
+          "alias": "Also called the Cult of Second Chance",
+          "identity": "Father Walker's movement at the former juvenile re-education facility treats the post-pandemic world as a spiritual rebirth and embraces the undead in ways other survivors find dangerous.",
+          "perks": ["Faction blueprints and specialist rewards", "Unique materials and alliance upgrades", "Access to the faction's hidden camp and leadership"],
+          "alliance": "The Church can become the Shelter's chosen ally, opening its story route and benefits while making its enemies part of the final political cost."
+        },
+        {
+          "faction": "Shady Lady Bikers",
+          "alias": "The local biker charter",
+          "identity": "A profit-driven faction built around the Shady Lady biker bar, focused on deals, entertainment, vehicle work, weapons and black-market trade.",
+          "perks": ["Black-market weapons", "Vehicle parts and mechanic support", "Biker traders, faction gear and vehicle-related rewards"],
+          "alliance": "A biker alliance adds its own upgrade and equipment path to the Shelter and determines which rival factions will oppose you."
+        },
+        {
+          "faction": "Local Survivor Groups and Barons",
+          "alias": "Firefighters, refugees, federal groups, independent camps and regional strongmen",
+          "identity": "Smaller groups scattered across settlements, public buildings and fortified sector maps have their own needs, routines and moral limits. They may become voters, refugees, traders, recruits, enemies or victims of roaming hordes.",
+          "perks": ["Quest rewards and blueprints", "Additional recruits or refugees", "Sector access, supplies and local information"],
+          "alliance": "Their votes and survival help determine access to major faction headquarters and how much of Urban remains alive when the endgame begins."
+        },
+        {
+          "faction": "Reputation, Votes and Recruit Affinity",
+          "alias": "The campaign's relationship system",
+          "identity": "Personal reputation follows the player into later conversations, while recruit backgrounds can make strangers more willing to reveal information.",
+          "perks": ["Different story paths and Shelter upgrades", "Faction-specific traders and Tier 3 equipment", "Vehicles, advanced blueprints and more than twenty ally upgrades"],
+          "alliance": "After securing the required votes, the chosen faction opens its headquarters. Accepting the alliance commits the Shelter to that ally for the final conflict."
+        }
+      ]
+    },
+    "urbanStrifeStoryWalkthrough": {
+      "title": "Urban Strife Story Walkthrough and Horde Endgame",
+      "eyebrow": "Campaign Route",
+      "intro": "Progress is not a single fixed quest line. Exploration order, rescued groups, faction reputation, Shelter upgrades and alliance decisions all feed into the final act, where the Defense Tracker measures the strength of your fortifications, supplies, allies and powered upgrades.",
+      "stages": [
+        {
+          "heading": "Prologue: The Patient from Atlanta",
+          "spoiler": "Low",
+          "objectives": [
+            "Survive the opening after being evacuated by the CDC from an Atlanta laboratory.",
+            "Recover at Urban Shelter and learn the basic tactical, inventory and survival systems.",
+            "Meet the aging residents who rescued the player and understand why the Shelter needs outside help."
+          ],
+          "decisions": [
+            "Define the player character's early combat and dialogue strengths.",
+            "Preserve scarce medicine and ammunition while collecting food, morale and construction supplies."
+          ],
+          "readiness": "Leave the opening area with working weapons, healing supplies and enough carrying capacity to return useful Shelter resources."
+        },
+        {
+          "heading": "Early Campaign: Restore the Shelter",
+          "spoiler": "Low",
+          "objectives": [
+            "Repair the city radio, hospital, auto shop, workshop and barracks.",
+            "Recruit local survivors and form a balanced field team.",
+            "Stabilize food, health, morale, fuel and construction-material supplies."
+          ],
+          "decisions": [
+            "Choose which damaged service receives materials first.",
+            "Decide whether to invest in immediate combat equipment or long-term production such as gardens and specialist facilities."
+          ],
+          "readiness": "Core services should be operating and the squad should complete nearby Tier 1 encounters without consuming the entire reserve."
+        },
+        {
+          "heading": "County Campaign: Survivor Conflicts and Faction Votes",
+          "spoiler": "Moderate",
+          "objectives": [
+            "Explore increasingly dangerous sectors farther from the Shelter.",
+            "Meet independent survivor groups, faction barons, federal remnants, cultists, bikers and soldiers.",
+            "Use combat, bargaining, faction affinity, Strength checks or Intelligence checks to resolve local conflicts."
+          ],
+          "decisions": [
+            "Choose which groups to save, recruit, expose, defeat or leave behind.",
+            "Protect useful settlements when roaming undead begin attacking human-controlled sectors.",
+            "Build enough support to earn the votes required for access to a major faction headquarters."
+          ],
+          "readiness": "Maintain fuel, cargo space and spare equipment for distant maps while keeping the Shelter supplied."
+        },
+        {
+          "heading": "Alliance Phase: Choose a Major Faction",
+          "spoiler": "High",
+          "objectives": [
+            "Enter the headquarters of the National Guard, Church of Second Chance or Shady Lady bikers after securing the required votes.",
+            "Meet the faction leader, uncover the group's deeper motives and decide whether to accept the alliance.",
+            "Trade discovered secrets and complete alliance content for powerful rewards."
+          ],
+          "decisions": [
+            "Select which faction will stand with the Shelter when the Atlanta horde arrives.",
+            "Accept the political and military consequences of opposing the other major blocs."
+          ],
+          "readiness": "Review the ally's upgrade branch, traders, blueprints and vehicle options before spending remaining late-game materials."
+        },
+        {
+          "heading": "Final Story Episode: The Fall of the King",
+          "spoiler": "Major",
+          "objectives": [
+            "Travel to the fallen kingdom built around Urban High School.",
+            "Investigate the self-sustaining community and its plan to challenge the Republic.",
+            "Explore the school and football-field areas and resolve the last major regional story conflict."
+          ],
+          "decisions": [
+            "Decide how the leader and his followers fit into the wider faction struggle.",
+            "Finish unresolved story business before committing all resources to the siege."
+          ],
+          "readiness": "Complete desired faction missions, recruitments and blueprint rewards before the campaign enters its final preparation window."
+        },
+        {
+          "heading": "Horde Escalation: Urban Is Reclaimed by the Dead",
+          "spoiler": "Major",
+          "objectives": [
+            "Respond to moving hordes created in the wake of human conflicts.",
+            "Defend threatened camps or clear sectors that have already fallen.",
+            "Prevent compromised settlements from generating additional hordes that spread across the county."
+          ],
+          "decisions": [
+            "Choose which calls for help are worth the travel time, ammunition and fuel.",
+            "Accept that arriving late can turn powerful human NPCs into armored undead carrying valuable equipment."
+          ],
+          "readiness": "Keep a mobile response team, spare fuel and anti-horde ammunition while finishing Shelter upgrades."
+        },
+        {
+          "heading": "Final Preparation: Check the Defense Tracker",
+          "spoiler": "Endgame",
+          "objectives": [
+            "Review the Shelter's Defense Tracker before the assault.",
+            "Improve fortifications, supplies, allies and final upgrades.",
+            "Keep powered defenses online and place the strongest available fighters on the siege roster."
+          ],
+          "decisions": [
+            "Stop low-value expansion and turn remaining resources into ammunition, medicine, food and repair parts.",
+            "Repair weapons and body armor, and salvage unwanted equipment for parts.",
+            "Decide which equipment must be preserved because ballistic plates cannot be repaired."
+          ],
+          "readiness": "The Version 1.0 campaign schedules the siege for Day 20 and sends a radio warning 24 in-game hours before it begins."
+        },
+        {
+          "heading": "Atlanta Horde Siege and Ending Sequence",
+          "spoiler": "Finale",
+          "objectives": [
+            "Defend the Shelter through the final siege missions.",
+            "Use prepared firing positions, repaired equipment, stored ammunition and faction support against the incoming mass of undead.",
+            "Protect the community with the facilities and defenses built throughout the campaign."
+          ],
+          "decisions": [
+            "Commit limited fighters and supplies where they have the greatest effect.",
+            "Respond to final sacrifices or emergency choices created by weak defenses or missing resources."
+          ],
+          "readiness": "Normal scavenging can no longer solve shortages once the siege is underway. The Shelter survives on the people, stockpiles, power and upgrades already secured."
         }
       ]
     }
@@ -749,31 +650,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Urban Strife",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Urban Strife?",
+        "answer": "Urban Strife is a post-apocalyptic tactical survival RPG on Steam. It blends turn-based Action Point combat with simulated ballistics, Shelter management, survivor recruitment and faction alliances set in a zombie-ravaged Southern town."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When did Urban Strife release?",
+        "answer": "Urban Strife reached Version 1.0 on July 14, 2026, after entering Steam Early Access on December 10, 2024. The full release completes the Atlanta Horde storyline, adds the final Shelter siege and introduces equipment repairs."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play Urban Strife?",
+        "answer": "Urban Strife is available on Steam for Windows PC, with Steam Cloud, Steam Workshop and Family Sharing support. No console or macOS edition is currently listed."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How much does Urban Strife cost?",
+        "answer": "Urban Strife is priced at $34.99 USD on Steam, with a 30% launch discount bringing it to $24.49 USD through July 21, 2026. Steam applies regional pricing in supported countries."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Is Urban Strife a single-player game?",
+        "answer": "Yes. Urban Strife is a single-player experience with no multiplayer or co-op. You lead a militia, rebuild Urban Shelter and choose a faction alliance before the Atlanta horde arrives."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What languages does Urban Strife support?",
+        "answer": "Urban Strife supports English with full audio, plus French, German, Spanish, Russian and Simplified Chinese with translated interfaces and subtitles, for six supported languages in total."
       }
     ]
   },
@@ -802,121 +703,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Urban Strife Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced combat and Shelter strategies for Urban Strife.",
+      "metaTitle": "Urban Strife Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Urban Strife guides covering beginner tips, tactical combat, Shelter management, faction strategies and expert survival tactics.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Urban Strife gameplay mechanics, tactical combat, survival strategies and Shelter development from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand Action Point combat, ballistics and Shelter systems while avoiding common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven routes to stabilize the Shelter and prepare for the Atlanta horde",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for faction alliances, weapon loadouts and siege defense"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "title": "Urban Strife Crafting",
+      "description": "Master Shelter crafting with recipes, weapon modifications, ammunition types and resource management for Urban Strife.",
+      "metaTitle": "Urban Strife Crafting - Recipes & Weapon Mods",
+      "metaDescription": "Master Urban Strife crafting. Learn ammunition recipes, weapon attachments, explosives, repair parts and resource management strategies.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
+      "whatIsDescription": "Urban Strife crafting lets you produce ammunition, attachments, explosives and repair parts from the Shelter stash and scavenged materials, with hidden recipes unlocked through exploration and faction alliances.",
       "why": "Why master crafting?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
+        "step1Title": "Equip Your Squad",
+        "step1Description": "Produce weapons, attachments and ammunition tailored to each survivor role",
+        "step2Title": "Repair and Sustain",
+        "step2Description": "Restore weapons and body armor with salvaged parts instead of replacing them",
         "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step3Description": "Convert common loot into combat-ready equipment for the final siege"
       },
       "featured": "Featured & Essential",
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Urban Strife Weapons and Items",
+      "description": "Detailed guides covering firearms, melee weapons, explosives, armor and attachments with stats and usage tips for Urban Strife.",
+      "metaTitle": "Urban Strife Weapons & Items - Gear Guide",
+      "metaDescription": "Complete Urban Strife item database including firearms, melee weapons, explosives, armor and attachments with penetration, damage and Action Point data.",
+      "categoryLabel": "WEAPONS & EQUIPMENT",
+      "whatIs": "What are Weapons and Items?",
+      "whatIsDescription": "Comprehensive guides for Urban Strife firearms, melee weapons, crossbows, explosives, armor and attachments. Learn penetration, damage, Action Point costs and optimal loadouts by tactical role.",
+      "why": "Why check weapon guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Title": "Match Weapons to Roles",
+        "step1Description": "Pair each survivor with the right firearm, melee or stealth tool",
         "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
+        "step2Description": "Choose attachments and ammunition for stealth, horde control or penetration",
         "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step3Description": "Equip armor and backup weapons to survive prolonged firefights"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Weapons and Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Urban Strife Maps and Sectors",
+      "description": "Explore Urban County locations, sector routes, resource spots and danger zones across the Urban Strife campaign map.",
+      "metaTitle": "Urban Strife Maps - Sectors & Exploration Routes",
+      "metaDescription": "Explore Urban Strife maps including Urban County, Little Italy, Old Port, Adams Villa and hidden sectors with loot routes and danger notes.",
+      "categoryLabel": "MAPS & SECTORS",
+      "whatIs": "What are Maps and Sectors?",
+      "whatIsDescription": "Guides to Urban Strife map sectors, location layouts, resource distribution and danger zones. Learn what to expect and how to prepare for each area of Urban County.",
+      "why": "Why study the maps?",
       "whySteps": {
         "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
+        "step1Description": "Locate food, medicine, fuel and rare components across each sector",
         "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
+        "step2Description": "Understand faction territory, spawners and roaming horde paths",
         "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step3Description": "Prepare the right fuel, cargo space and equipment for distant maps"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Maps and Sectors"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Urban Strife Shelter Building",
+      "description": "Master Shelter facilities, production industries, crafting chains and siege defenses in Urban Strife.",
+      "metaTitle": "Urban Strife Shelter - Upgrades & Defense",
+      "metaDescription": "Master Urban Strife Shelter building with facility upgrades, survival industries, crafting chains, powered defenses and siege readiness planning.",
+      "categoryLabel": "SHELTER & DEFENSE",
+      "whatIs": "What is Shelter Building?",
+      "whatIsDescription": "Guides to Urban Strife Shelter facilities, production industries, crafting chains, power systems and fortifications. Learn to build and defend your home base through the final siege.",
+      "why": "Why upgrade the Shelter?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Stabilize Survival",
+        "step1Description": "Secure food, water, medicine, morale and power for daily operations",
+        "step2Title": "Build Industries",
+        "step2Description": "Produce necessities at home so scavenging is no longer the only supply line",
+        "step3Title": "Defend the Siege",
+        "step3Description": "Power fortifications and stockpile supplies before the Atlanta horde"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Shelter Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "title": "Urban Strife Support",
+      "description": "Technical support, PC requirements, performance optimization and troubleshooting for common Urban Strife issues.",
+      "metaTitle": "Urban Strife Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for Urban Strife including PC requirements, performance optimization, crash fixes and platform compatibility guidance.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Technical guides covering Urban Strife PC requirements, performance optimization, crash fixes and platform compatibility. Get help with settings, saves and common issues.",
       "why": "Why check support?",
       "whySteps": {
         "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
+        "step1Description": "Resolve crashes, performance problems and compatibility issues",
         "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
+        "step2Description": "Configure settings for the best experience on your hardware",
         "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step3Description": "Learn about Steam Cloud, Workshop, Family Sharing and save support"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"
