@@ -36,7 +36,7 @@ function parseContentDir(dir: string): { language: string; contentType: string }
 
 /**
  * 根据 slug 在目录中反查真实文件名（不含 .mdx）
- * 例如 slug="lucid-blocks-guide" → 返回 "lucid:blocks-guide"
+ * 例如 slug="urban-strife-beginner-guide" → 返回清单中对应的真实文件名
  * （改为查清单，签名保持 (dir, slug) 不变，调用方无需改动）
  */
 export function findFileBySlug(dir: string, slug: string, _basePath: string[] = []): string | null {

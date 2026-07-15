@@ -1,12 +1,960 @@
 {
+  "seo": {
+    "home": {
+      "title": "Urban Strife Wiki - Cheminement, Builds & Armes",
+      "description": "Urban Strife Wiki couvre les guides du débutant, les cheminements de mission, les builds de survivants, les armes, les améliorations d'abri, les factions, les cartes, l'artisanat et les conseils de combat tactique.",
+      "keywords": "Urban Strife, Steam, cheminement, builds, armes, abri, factions, cartes",
+      "ogTitle": "Urban Strife Wiki - Cheminement, Builds & Armes",
+      "ogDescription": "Urban Strife Wiki couvre les guides du débutant, les cheminements de mission, les builds de survivants, les armes, les améliorations d'abri, les factions, les cartes, l'artisanat et les conseils de combat tactique.",
+      "twitterTitle": "Urban Strife Wiki - Cheminement, Builds & Armes",
+      "twitterDescription": "Urban Strife Wiki couvre les guides du débutant, les cheminements de mission, les builds de survivants, les armes, les améliorations d'abri, les factions, les cartes, l'artisanat et les conseils de combat tactique."
+    }
+  },
   "nav": {
     "guide": "Guide",
     "builds": "Builds",
-    "weapons": "Weapons",
-    "systems": "Systems",
-    "quests": "Quests",
-    "locations": "Locations",
-    "release": "Release",
-    "reviews": "Reviews"
+    "weapons": "Armes",
+    "systems": "Systèmes",
+    "quests": "Quêtes",
+    "locations": "Lieux",
+    "release": "Sortie",
+    "reviews": "Avis"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Steam",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles connexes",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles à venir"
+  },
+  "hero": {
+    "badge": "RPG tactique de survie post-apocalyptique",
+    "title": "Urban Strife Wiki",
+    "description": "Dirigez une milice à travers une ville du Sud ravagée par les zombies, explorez des lieux dangereux, reconstruisez Urban Shelter, fabriquez des armes, recrutez des survivants et choisissez entre des factions rivales.",
+    "getFreeCodesCTA": "Voir le guide du débutant",
+    "playOnSteamCTA": "Jouer sur Steam",
+    "stats": {
+      "stat1": {
+        "value": "14 juil. 2026",
+        "label": "Date de sortie"
+      },
+      "stat2": {
+        "value": "74 %",
+        "label": "Avis positifs"
+      },
+      "stat3": {
+        "value": "403",
+        "label": "Avis Steam"
+      },
+      "stat4": {
+        "value": "6",
+        "label": "Langues supportées"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Urban Strife",
+    "description": "Menez des combats tactiques au tour par tour avec une balistique simulée, reconstruisez Urban Shelter, formez des survivants et choisissez votre camp entre des factions rivales avant l'arrivée de la horde d'Atlanta."
+  },
+  "tools": {
+    "title": "Urban Strife",
+    "titleHighlight": "Ressources",
+    "subtitle": "Tout ce dont vous avez besoin pour survivre à l'apocalypse dans Urban Strife — itinéraires pour débutants, tactiques de combat, armes, builds, améliorations de l'abri, factions et le guide complet de l'histoire.",
+    "cards": [
+      {
+        "icon": "CalendarCheck",
+        "title": "Sortie, prix et plateformes",
+        "description": "Date de lancement de la version 1.0, prix Steam, remise de lancement, configuration PC requise et langues supportées"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guide du débutant",
+        "description": "Itinéraire des premières heures, préparation de l'équipe d'expédition et priorités initiales de l'abri"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Combat et commandes",
+        "description": "Action Points, Overwatch, ciblage de parties du corps, pénétration et raccourcis clavier"
+      },
+      {
+        "icon": "Sword",
+        "title": "Meilleures armes et équipement",
+        "description": "Armes à feu, arbalètes, corps à corps, explosifs et armures classés par rôle tactique"
+      },
+      {
+        "icon": "Users",
+        "title": "Builds de personnages",
+        "description": "Attributs, compétences, atouts de profession et cinq orientations de rôles d'escouade"
+      },
+      {
+        "icon": "Home",
+        "title": "Améliorations de l'abri",
+        "description": "Installations, industries de survie, chaînes d'artisanat et préparation au siège"
+      },
+      {
+        "icon": "Flag",
+        "title": "Factions et recrues",
+        "description": "Alliances avec la National Guard, la Church of Second Chance et Shady Lady et conséquences"
+      },
+      {
+        "icon": "Map",
+        "title": "Guide de l'histoire",
+        "description": "Étapes de la campagne, décisions de faction et phase finale de la horde d'Atlanta"
+      }
+    ]
+  },
+  "modules": {
+    "urbanStrifeReleaseInfo": {
+      "title": "Date de sortie, prix et configuration PC requise pour Urban Strife",
+      "eyebrow": "Informations de sortie",
+      "subtitle": "La version 1.0 de Urban Strife a été lancée sur Steam pour Windows PC le 14 juillet 2026. La version complète ajoute la conclusion de la campagne, le siège final de l'abri et plusieurs systèmes de progression majeurs.",
+      "intro": "Urban Strife est entré en accès anticipé sur Steam le 10 décembre 2024 avant d'atteindre la version 1.0 le 14 juillet 2026. La version complète termine l'intrigue de la horde d'Atlanta, ajoute la séquence de défense finale de l'abri, introduit les réparations d'équipement et repense les atouts de profession des personnages.",
+      "specs": [
+        {
+          "category": "Sortie de la version 1.0",
+          "value": "14 juillet 2026",
+          "details": "Le jeu complet a été lancé après environ dix-neuf mois d'accès anticipé sur Steam."
+        },
+        {
+          "category": "Sortie en accès anticipé",
+          "value": "10 décembre 2024",
+          "details": "L'accès anticipé a introduit la campagne principale, le combat tactique, les quêtes de faction, l'exploration et la gestion de l'abri, tandis que le contenu de fin de jeu et la suite de l'histoire étaient encore en développement."
+        },
+        {
+          "category": "Plateforme",
+          "value": "Windows PC via Steam",
+          "details": "Urban Strife est un jeu solo avec prise en charge de Steam Cloud, Steam Workshop et du partage familial. Aucune édition console ou macOS n'est répertoriée."
+        },
+        {
+          "category": "Prix standard",
+          "value": "34,99 $ USD",
+          "details": "Steam applique une tarification régionale dans les pays pris en charge, le prix local final peut donc varier."
+        },
+        {
+          "category": "Remise de lancement",
+          "value": "-30 % : 24,49 $ USD",
+          "details": "L'offre de lancement Steam est valable jusqu'au 21 juillet 2026."
+        },
+        {
+          "category": "Langues prises en charge",
+          "value": "Anglais, français, allemand, espagnol, russe, chinois simplifié",
+          "details": "L'anglais comprend le texte de l'interface, les sous-titres et l'audio complet. Le français, l'allemand, l'espagnol, le russe et le chinois simplifié comprennent l'interface et les sous-titres traduits."
+        },
+        {
+          "category": "Configuration PC minimale",
+          "value": "Windows 10 64 bits, 16 Go de RAM, 20 Go de stockage",
+          "details": "Intel Core i5-4690 ou AMD FX-8350, Nvidia GTX 970 ou AMD RX 480 avec au moins 4 Go de VRAM, et DirectX 11."
+        },
+        {
+          "category": "Configuration PC recommandée",
+          "value": "Windows 10 64 bits, 16 Go de RAM, SSD recommandé",
+          "details": "Intel Core i7-8700K ou AMD Ryzen 5 3600, Nvidia RTX 2060 Super ou AMD RX 5700 XT avec au moins 8 Go de VRAM, DirectX 11 et 20 Go de stockage."
+        },
+        {
+          "category": "Campagne complète",
+          "value": "Horde d'Atlanta et siège final de l'abri",
+          "details": "La version 1.0 conclut l'histoire principale avec la horde attaquant Urban Shelter. Les fortifications, les améliorations électriques, les réserves stockées et les alliés recrutés contribuent tous au Defense Tracker de l'abri."
+        },
+        {
+          "category": "Nouveaux systèmes de la version 1.0",
+          "value": "Réparations et compétences de profession repensées",
+          "details": "Les armes et les protections corporelles peuvent être réparées après avoir lancé l'opération de réparation. Les compétences de profession sont divisées en trois niveaux et peuvent être sélectionnées librement après avoir été débloquées."
+        },
+        {
+          "category": "Prise en charge des sauvegardes de l'accès anticipé",
+          "value": "Les sauvegardes existantes restent compatibles",
+          "details": "Les sauvegardes de l'accès anticipé n'ont pas été effacées, bien qu'il soit recommandé de commencer une nouvelle campagne pour profiter de l'expérience la plus complète de la version 1.0."
+        }
+      ]
+    },
+    "urbanStrifeBeginnerGuide": {
+      "title": "Guide du débutant Urban Strife et itinéraire des premières heures",
+      "eyebrow": "Pour commencer",
+      "intro": "Le début de la campagne introduit les emplacements d'équipement, le mouvement tactique, les points d'apparition de zombies, la récupération et la gestion de l'abri. Progressez prudemment dans le Prologue, rapportez les fournitures précieuses à l'abri et évitez de traiter chaque rencontre comme une fusillade généralisée.",
+      "steps": [
+        {
+          "title": "Commencez par une nouvelle campagne de la version 1.0",
+          "description": "Créez votre personnage et suivez l'histoire d'ouverture dans laquelle le patient du CDC est secouru et emmené à Urban Shelter. Une nouvelle campagne utilise le flux de quêtes actuel, le système de compétences et la distribution des plans.",
+          "tips": [
+            "Lisez les fenêtres de tutoriel au lieu de les fermer immédiatement ; les écrans d'aide consultés peuvent être rouverts depuis le HUD.",
+            "Utilisez la séquence d'ouverture pour apprendre les emplacements rapides, la gestion de l'équipement et les commandes d'interaction de base."
+          ]
+        },
+        {
+          "title": "Terminez les tutoriels du pont et du prologue",
+          "description": "L'itinéraire d'introduction enseigne l'équipement d'objets, le mouvement, les actions de combat et la destruction des points d'apparition de zombies. Terminez ces objectifs avant d'explorer librement des lieux plus difficiles.",
+          "tips": [
+            "Équipez des objets de soin et des armes dans des emplacements accessibles avant que le combat ne commence.",
+            "Détruisez les points d'apparition actifs lorsque la mission le permet afin qu'ils ne puissent plus ajouter de zombies au combat."
+          ]
+        },
+        {
+          "title": "Inspectez Urban Shelter avant de partir",
+          "description": "Urban Shelter est la base centrale pour le stockage, la production, la récupération et la défense à long terme. Consultez le carnet de l'abri, les améliorations disponibles et les catégories de ressources avant de sélectionner votre première équipe d'expédition.",
+          "tips": [
+            "La nourriture, les médicaments, les fournitures de moral, le carburant, l'énergie et les matériaux de construction soutiennent tous différents systèmes de l'abri.",
+            "La radio, l'hôpital, le garage, l'atelier et la caserne sont des éléments importants du plan de reconstruction global."
+          ]
+        },
+        {
+          "title": "Préparer une équipe d'exploration équilibrée",
+          "description": "Utilisez l'écran de l'effectif pour confirmer qui quitte l'abri. Un groupe de départ pratique combine des attaques à distance précises, des options de mêlée discrètes et un accès aux soins médicaux.",
+          "tips": [
+            "Donnez à chaque combattant une arme utilisable au lieu de confier toutes les armes précieuses à un seul personnage.",
+            "Emportez assez de médicaments pour stopper les saignements et soigner les blessures graves, mais laissez les fournitures superflues dans la réserve de l'abri.",
+            "Vérifiez les types de munitions avant le départ, car transporter une arme sans munitions compatibles gaspille de l'espace d'inventaire."
+          ]
+        },
+        {
+          "title": "Nettoyez d'abord les zones de prologue à proximité",
+          "description": "Explorez les environs de l'abri et les premiers secteurs de banlieue avant de défier les lieux de factions plus fortes. Le panneau des secteurs de la carte du monde identifie les zones déjà visitées et affiche la difficulté principale de la faction locale.",
+          "tips": [
+            "Terminez les objectifs proches et revenez avec des fournitures plutôt que de traverser plusieurs secteurs inconnus en un seul voyage.",
+            "Fouillez les conteneurs, les bâtiments abandonnés et les ennemis vaincus une fois la zone sécurisée.",
+            "Évitez de transporter trop de butin pour que l'équipe puisse conserver les munitions ou les articles médicaux essentiels."
+          ]
+        },
+        {
+          "title": "Combattez discrètement les zombies isolés",
+          "description": "Utilisez des armes de mêlée, des arbalètes ou des armes à feu avec silencieux lorsqu'une attaque bruyante pourrait alerter d'autres ennemis. Les coups de feu, les explosions et les mouvements imprudents peuvent attirer plus de menaces dans l'affrontement.",
+          "tips": [
+            "Approchez en position accroupie et utilisez les abris pour réduire le risque de perdre l'initiative.",
+            "Utilisez des attaques à haut pourcentage de réussite au lieu de tenter répétitivement des tirs à la tête difficiles.",
+            "Réservez les fusils à pompe, le tir automatique et les explosifs pour les groupes qui justifient le coût de leurs munitions."
+          ]
+        },
+        {
+          "title": "Protégez les médicaments, les munitions et la durabilité",
+          "description": "Urban Strife suit les munitions, les blessures et l'état de l'équipement. Utilisez la solution sûre la moins coûteuse pour chaque affrontement et évitez de changer d'accessoires pendant le combat, sauf si l'avantage tactique en vaut le coût en Action Points.",
+          "tips": [
+            "Ne tirez pas de munitions de fusil ou de fusil à pompe coûteuses sur une cible qui peut être achevée en toute sécurité au corps à corps.",
+            "Stoppez rapidement les saignements, car les plaies non traitées continuent de réduire la santé.",
+            "Gardez des armes de secours au lieu de compter sur une seule arme à feu endommagée pour toute l'expédition."
+          ]
+        },
+        {
+          "title": "Récupérez soigneusement l'équipement superflu",
+          "description": "Les armes et armures indésirables peuvent être démantelées en pièces utilisées pour les réparations et le développement de l'abri. La version 1.0 exclut par défaut les objets équipés du démantèlement, aidant ainsi à protéger l'équipement actuellement utilisé par le groupe.",
+          "tips": [
+            "Conservez les armes de rechange utiles jusqu'à ce que vous sachiez de quelles classes d'armes et de munitions vos recrues ont besoin.",
+            "Démanteler l'équipement avant qu'il ne soit complètement ruiné peut produire des matériaux plus utiles.",
+            "Gardez des outils d'artisanat à disposition car leur utilisation peut consommer de la durabilité."
+          ]
+        },
+        {
+          "title": "Rentrer, récupérer et améliorer",
+          "description": "Déposez le butin dans la réserve de l'abri, soignez les survivants blessés et investissez des matériaux dans des installations utiles. Une fois l'opération de réparation disponible, les armes et armures endommagées peuvent être restaurées avec des pièces de récupération.",
+          "tips": [
+            "Réparez l'équipement que vous utilisez régulièrement au lieu de dépenser chaque pièce pour des objets de secours de faible valeur.",
+            "Les plaques balistiques sont consommables et ne peuvent pas être réparées, même si le gilet pare-balles qui les contient peut être restauré.",
+            "Maintenez les défenses alimentées et les stocks à mesure que la campagne progresse vers le siège de la horde d'Atlanta."
+          ]
+        }
+      ]
+    },
+    "urbanStrifeCombatControls": {
+      "title": "Guide du combat, de l'Overwatch et des commandes d'Urban Strife",
+      "eyebrow": "Combat tactique",
+      "intro": "Urban Strife utilise un combat au tour par tour basé sur les Action Points, soutenu par des trajectoires de balles simulées, la pénétration des matériaux et des fragments d'explosion individuels. Le positionnement, le bruit et les réactions disponibles sont aussi importants que les dégâts bruts des armes.",
+      "steps": [
+        {
+          "title": "Planifiez tout le tour en fonction des Action Points",
+          "description": "Les déplacements, les attaques et les interactions de combat consomment des Action Points. Visualisez une destination avant de bouger afin que le personnage sélectionné ait encore assez de points pour attaquer, se mettre à couvert ou préparer un Overwatch.",
+          "example": "Ne vous déplacez que de la distance nécessaire pour obtenir un angle de tir dégagé au lieu de passer tout le tour à traverser un terrain découvert."
+        },
+        {
+          "title": "Gagnez l'initiative à couvert",
+          "description": "L'initiative détermine quel camp réagit en premier au début du contact. Les personnages accroupis et à couvert sont moins susceptibles de subir une embuscade ennemie, tandis que rester debout ou courir dans la zone de détection est bien plus risqué.",
+          "example": "Approchez d'un bâtiment gardé en restant accroupi derrière des véhicules ou des murs, puis commencez le combat depuis une position de tir protégée."
+        },
+        {
+          "title": "Utilisez le couvert selon son matériau",
+          "description": "L'efficacité d'un couvert dépend du matériau, de l'épaisseur et de l'angle de tir. Un moteur de voiture peut arrêter les calibres les plus courants, tandis qu'un mur mince peut être pénétré par un puissant fusil de chasse.",
+          "example": "Cachez-vous derrière le bloc moteur plutôt que derrière une portière, et ne supposez pas que les murs en bois offrent une protection complète contre les fusils."
+        },
+        {
+          "title": "Vérifiez les chances de toucher et les dégâts prévus",
+          "description": "L'interface de visée estime les chances de toucher et les dégâts potentiels tout en tenant compte de la portée, des obstacles et de l'atténuation des balles. Repositionnez-vous lorsque l'aperçu affiche de faibles probabilités au lieu de gaspiller des munitions.",
+          "example": "Un court contournement qui élimine une pénalité de mur ou de couvert peut être plus précieux que de tirer deux fois avec un mauvais angle."
+        },
+        {
+          "title": "Choisissez la bonne partie du corps",
+          "description": "Les tirs à la tête offrent une récompense élevée avec une précision moindre, les attaques au centre de la masse offrent des chances de toucher plus sûres, et les attaques sur les membres peuvent paralyser, ralentir ou neutraliser une cible.",
+          "example": "Utilisez un tir au torse lorsqu'un ennemi blessé doit être arrêté immédiatement, ou ciblez un membre lorsque neutraliser la cible importe plus que les dégâts maximaux."
+        },
+        {
+          "title": "Contrôlez le bruit et la détection",
+          "description": "La vigilance de l'ennemi est influencée par des portées de vue et d'audition dynamiques. Les armes de mêlée, les arbalètes et les pistolets avec silencieux favorisent les éliminations discrètes, tandis que les coups de feu non silencieux et les explosifs peuvent attirer des ennemis supplémentaires.",
+          "example": "Éliminez silencieusement un garde isolé avant d'utiliser des armes bruyantes contre le groupe principal."
+        },
+        {
+          "title": "Préparez les interruptions et l'Overwatch",
+          "description": "L'Overwatch crée une opportunité de réaction pendant le tour de l'ennemi. Placez le personnage là où les ennemis doivent traverser une ligne de tir dégagée et évitez de bloquer cette ligne avec des coéquipiers.",
+          "example": "Visez avec l'Overwatch vers une porte ou une rue étroite, puis laissez les ennemis qui avancent entrer dans la ligne de tir préparée."
+        },
+        {
+          "title": "Combattez les ennemis humains par le flanc et la pénétration",
+          "description": "Les adversaires humains utilisent les couverts, se repositionnent et analysent le champ de bataille. Brisez leurs angles de tir, attaquez de plusieurs directions et utilisez des calibres adaptés ou des explosifs contre les couverts fragiles.",
+          "example": "Gardez un combattant pour couvrir le front pendant qu'un second personnage entre par une fenêtre ou contourne le bâtiment par le côté."
+        },
+        {
+          "title": "Gérez efficacement les zombies isolés",
+          "description": "Évitez de dépenser des munitions de grande valeur pour un zombie seul alors qu'une attaque de mêlée contrôlée, un carreau d'arbalète ou un tir précis à faible coût peut mettre fin à la rencontre sans attirer un groupe plus important.",
+          "example": "Utilisez une arme silencieuse sur le premier zombie et gardez une arme à feu prête au cas où l'attaque révélerait d'autres ennemis."
+        },
+        {
+          "title": "Défendez-vous contre les grandes hordes",
+          "description": "Les zombies de la horde se déplacent ensemble lors d'une phase simultanée dédiée tout en prenant des décisions de trajectoire individuelles. Utilisez des points de passage étroits, des lignes de tir croisées, des fusils à pompe, des tirs automatiques et des explosifs de zone avant que le groupe n'encercle l'escouade.",
+          "example": "Battez en retraite par une entrée étroite, placez les tireurs à distance derrière un couvert et concentrez les dégâts sur le front de la horde."
+        }
+      ],
+      "shortcuts": [
+        {
+          "key": "X",
+          "action": "Changer l'arme active du personnage sélectionné"
+        },
+        {
+          "key": "F",
+          "action": "Changer le mode de tir disponible de l'arme actuelle"
+        },
+        {
+          "key": "Y",
+          "action": "Activer l'Overwatch"
+        },
+        {
+          "key": "0",
+          "action": "Sélectionner toute l'escouade pour le mouvement de groupe hors combat"
+        }
+      ]
+    },
+    "urbanStrifeBestWeapons": {
+      "title": "Meilleures armes et équipements d'Urban Strife par rôle tactique",
+      "eyebrow": "Armes et équipement",
+      "intro": "Aucune arme ne permet de résoudre toutes les situations. Les pistolets économisent les Action Points, les fusils privilégient la portée et la pénétration, les fusils à pompe dominent les groupes rapprochés, l'équipement silencieux limite les alertes ennemies et l'équipement de protection échange la durabilité contre la survie.",
+      "tiers": [
+        {
+          "tier": "S",
+          "role": "Contrôle de horde",
+          "weapons": "Fusils à pompe, mitrailleuses, armes automatiques et à rafale, grenades et cocktails Molotov",
+          "bestFor": "Groupes denses de zombies, points de passage étroits et défense de l'abri",
+          "strengths": "Les fusils à pompe calculent chaque plomb séparément et peuvent infliger de lourds dégâts à courte portée. Le tir en rafale offre des dégâts cumulatifs et peut traverser plusieurs cibles, tandis que les explosifs créent des fragments ou assurent un déni de zone.",
+          "limitations": "Ces options sont bruyantes, consomment rapidement des munitions et peuvent attirer des ennemis d'une zone plus large."
+        },
+        {
+          "tier": "S",
+          "role": "Pénétration à longue portée",
+          "weapons": "Fusils de chasse, fusils de précision et le rare fusil anti-matériel .50 BMG",
+          "bestFor": "Cibles blindées, tireurs humains et ennemis derrière une couverture pénétrable",
+          "strengths": "Les fusils de forte puissance infligent de lourds dégâts à une cible unique et peuvent pénétrer des matériaux qui arrêtent les armes plus faibles. Le rare fusil .50 BMG peut détruire les abris et tirer à travers des obstacles importants.",
+          "limitations": "Les fusils sont moins pratiques à courte portée et ne devraient pas gaspiller des munitions précieuses sur des ennemis isolés et faibles."
+        },
+        {
+          "tier": "A",
+          "role": "Combat à distance silencieux",
+          "weapons": "Arbalètes et pistolets avec silencieux",
+          "bestFor": "Itinéraires furtifs, gardes isolés et élimination discrète de zombies",
+          "strengths": "Ces armes permettent des attaques à distance sans produire le bruit des armes à feu standard. Les arbalètes favorisent un jeu furtif sans munitions conventionnelles, tandis que les pistolets restent rapides à utiliser.",
+          "limitations": "Elles offrent moins de contrôle de foule que les fusils à pompe, les armes automatiques ou les explosifs, et peuvent être en difficulté lorsque plusieurs ennemis attaquent à la fois."
+        },
+        {
+          "tier": "A",
+          "role": "Arme de poing à faible Action Points",
+          "weapons": "Pistolets et revolvers",
+          "bestFor": "Achèvement de cibles blessées, combattants mobiles et renfort d'urgence",
+          "strengths": "Les pistolets sont la classe d'armes à feu à faible Action Points du jeu, ce qui les rend utiles lorsqu'un personnage doit se déplacer et attaquer durant le même tour.",
+          "limitations": "Les armes de poing offrent généralement moins de dégâts, de portée et de pénétration de couverture que les fusils ou les armes lourdes dédiées."
+        },
+        {
+          "tier": "A",
+          "role": "Furtivité à courte portée",
+          "weapons": "Lames, armes contondantes, battes de baseball, outils improvisés et attaques à mains nues",
+          "bestFor": "Éliminations silencieuses, conservation des munitions et rencontres rapprochées avec des zombies",
+          "strengths": "Les attaques de mêlée font moins de bruit et ne nécessitent aucune munition. Les attaques contondantes peuvent entamer l'endurance et permettre des mises hors de combat non létales contre des cibles appropriées.",
+          "limitations": "L'attaquant doit entrer dans une zone dangereuse à courte portée et peut se retrouver exposé si la première frappe échoue."
+        },
+        {
+          "tier": "A",
+          "role": "Destruction d'abri et contrôle de zone",
+          "weapons": "Grenades à fragmentation, explosifs artisanaux, cocktails Molotov et bombes spécialisées",
+          "bestFor": "Ennemis derrière une couverture légère, cibles groupées et accès bloqués",
+          "strengths": "Les explosions génèrent des fragments individuels, peuvent détruire ou contourner les abris et forcer les ennemis à quitter leurs positions protégées. Les Molotovs aident à contrôler les itinéraires utilisés par les groupes qui avancent.",
+          "limitations": "Les explosifs sont des ressources limitées, créent un bruit important et peuvent mettre en danger les membres de l'escouade à proximité."
+        },
+        {
+          "tier": "B",
+          "role": "Protection corporelle",
+          "weapons": "Protections corporelles, plaques balistiques, protections de membres et casques",
+          "bestFor": "Combattants de première ligne, déplacements exposés et fusillades prolongées",
+          "strengths": "L'armure absorbe les dégâts entrants et réduit les risques pour les personnages tenant des positions rapprochées ou traversant des zones contestées. Les protections corporelles peuvent être réparées via le système de réparation Version 1.0.",
+          "limitations": "Les plaques d'armure et les protections de membres se dégradent lors des impacts. Les plaques balistiques sont consommables et ne peuvent pas être réparées."
+        },
+        {
+          "tier": "Utilité",
+          "role": "Accessoires et kits tactiques",
+          "weapons": "Silencieux, accessoires d'arme, kits d'arme tactiques et chargeurs grande capacité",
+          "bestFor": "Spécialiser une arme fiable pour la discrétion, la précision ou le tir soutenu",
+          "strengths": "Les accessoires, kits et chargeurs améliorent le rôle tactique de l'équipement et peuvent être pillés, fabriqués ou produits dans les installations de l'abri.",
+          "limitations": "Attacher ou détacher de l'équipement en combat consomme des Action Points, les modifications doivent donc normalement être effectuées avant le contact."
+        }
+      ]
+    },
+    "urbanStrifeCharacterBuilds": {
+      "title": "Builds de personnage, compétences et atouts d'Urban Strife",
+      "eyebrow": "Développement de l'escouade",
+      "intro": "Il n'y a pas de configuration de classe obligatoire. Décidez de ce que chaque survivant doit faire le plus souvent, attribuez-lui des armes et des responsabilités sur le terrain correspondantes, et laissez les actions répétées renforcer les attributs requis pour ce rôle avant de choisir des atouts professionnels de soutien.",
+      "roles": [
+        {
+          "role": "Tireur à distance",
+          "bestFor": "Dégâts d'armes à feu fiables, lignes d'Overwatch et élimination des cibles prioritaires",
+          "attributes": [
+            "Tir d'élite",
+            "Agilité"
+          ],
+          "focus": "Effectuez régulièrement des attaques à distance au lieu de porter une arme à feu uniquement en secours. Le tir d'élite détermine la précision de la visée à distance tandis que l'Agilité affecte les Action Points de mouvement, les chances d'interruption et l'esquive au corps à corps.",
+          "plan": "Utilisez les abris, la hauteur et des lignes de tir dégagées. Réservez les tirs coûteux pour les cibles importantes et gardez suffisamment de munitions pour la fin de la campagne."
+        },
+        {
+          "role": "Combattant au corps à corps",
+          "bestFor": "Éliminations silencieuses, économie de munitions et protection des membres d'escouade fragiles",
+          "attributes": [
+            "Force",
+            "Dextérité",
+            "Endurance"
+          ],
+          "focus": "Utilisez le type d'arme de corps à corps qui correspond au rôle prévu : tranchante ou perforante, contondante, à mains nues ou corps à corps lourd. La Force augmente la capacité de transport, les dégâts au corps à corps et l'endurance, la Dextérité affecte les Action Points d'utilisation d'objets et la précision au corps à corps, et l'Endurance augmente la santé et l'énergie.",
+          "plan": "Approchez à couvert ou en toute discrétion, évitez les lignes de tir dégagées et portez une arme de secours à faible coût en Action Points pour les urgences."
+        },
+        {
+          "role": "Spécialiste de la discrétion et des embuscades",
+          "bestFor": "Reconnaissance, éliminations silencieuses, attaques d'ouverture et évitement des alertes inutiles",
+          "attributes": [
+            "Agilité",
+            "Dextérité"
+          ],
+          "focus": "Faufilez-vous fréquemment, car la discrétion et les esquives réussies au corps à corps contribuent à la progression de l'Agilité. Combinez des armes de corps à corps silencieuses, des arbalètes ou des armes à feu équipées de silencieux avec des embuscades à couvert avant que le combat ne s'intensifie.",
+          "plan": "Faites d'abord de la reconnaissance, isolez une cible, sécurisez une voie d'évacuation et laissez le reste de l'escouade couvrir le repli."
+        },
+        {
+          "role": "Médecin et soutien de combat",
+          "bestFor": "Soins, sauvetages d'urgence et maintien opérationnel des combattants blessés",
+          "attributes": [
+            "Dextérité",
+            "Intelligence",
+            "Endurance"
+          ],
+          "focus": "Faites de ce survivant l'utilisateur régulier des fournitures médicales au lieu de répartir les actions de soin au hasard dans l'escouade. La Dextérité réduit les Action Points d'utilisation d'objets, l'Intelligence accélère la progression de tous les attributs et permet les choix de dialogue liés à l'Intelligence, et l'Endurance donne plus de santé et d'énergie pour les sauvetages dangereux.",
+          "plan": "Terminez vos tours derrière un abri solide, gardez des points de mouvement disponibles et évitez de consacrer tout le tour du médecin à des attaques de faible importance."
+        },
+        {
+          "role": "Survivant utilitaire, d'artisanat et de dialogue",
+          "bestFor": "Transport du butin, artisanat, utilisation de grenades, outils spécialisés et solutions de quêtes alternatives",
+          "attributes": [
+            "Force",
+            "Dextérité",
+            "Intelligence"
+          ],
+          "focus": "Utilisez ce survivant pour le transport de charges lourdes, la fabrication depuis le sac à dos, les grenades et d'autres actions utilitaires répétables, et intégrez le personnage aux conversations où l'affiliation à une faction, l'Intelligence ou la Force peuvent révéler des informations alternatives et des solutions de quêtes.",
+          "plan": "Gardez les outils et les objets de mission organisés sur ce personnage, mais distribuez les munitions et les médicaments critiques afin qu'une mise hors de combat ne paralyse pas toute l'escouade."
+        }
+      ]
+    },
+    "urbanStrifeShelterUpgrades": {
+      "title": "Améliorations de l'Urban Shelter et artisanat d'Urban Strife",
+      "eyebrow": "Progression de la base",
+      "intro": "Améliorez par étapes : stabilisez d'abord les besoins quotidiens, restaurez les installations débloquant les services essentiels, développez la production et l'artisanat, puis consacrez des ressources aux bonus de factions et aux défenses de siège. L'artisanat peut puiser directement dans la réserve de la base et les conteneurs de butin, tandis que les recettes cachées proviennent de l'exploration, de PNJ inhabituels et d'alliances avec les factions.",
+      "phases": [
+        {
+          "phase": "1. Stabiliser la survie quotidienne",
+          "priority": "Immédiate",
+          "focus": "Nourriture, sécurité de l'eau, fournitures de santé, moral et énergie",
+          "facilities": [
+            "Stockage des fournitures de l'abri",
+            "Flux de dons pour la nourriture, la santé et les objets de moral",
+            "Gestion du carburant et de l'énergie"
+          ],
+          "goal": "Revenez de chaque voyage sûr avec de la nourriture, des médicaments, des objets de moral, du carburant et des matériaux généraux au lieu de ne transporter que des armes."
+        },
+        {
+          "phase": "2. Restaurer les services essentiels",
+          "priority": "Élevée",
+          "focus": "Réparez les installations endommagées du centre-ville qui ouvrent les fonctions principales de la campagne",
+          "facilities": [
+            "Radio de la ville",
+            "Hôpital",
+            "Garage automobile",
+            "Atelier",
+            "Casernes permanentes"
+          ],
+          "goal": "Donnez la priorité aux matériaux de construction et à l'accès aux spécialistes jusqu'à ce que les installations de communication, de soins médicaux, de mécanique, d'artisanat et d'équipe soient opérationnelles."
+        },
+        {
+          "phase": "3. Établir des industries de survie",
+          "priority": "Élevée",
+          "focus": "Réduisez la dépendance à la récupération en produisant le nécessaire sur place",
+          "facilities": [
+            "Jardins",
+            "Hydroponie",
+            "Élevages de rats",
+            "Étangs à grenouilles",
+            "Autres industries alimentaires et de survie"
+          ],
+          "goal": "Dépensez les surplus initiaux dans la production répétable avant les projets décoratifs ou les améliorations de spécialité restreintes."
+        },
+        {
+          "phase": "4. Construire l'arsenal et la chaîne d'artisanat",
+          "priority": "Élevée",
+          "focus": "Transformez le butin et les matériaux courants en équipement prêt au combat",
+          "facilities": [
+            "Atelier réoutillé",
+            "Postes d'artisanat spécialisés",
+            "Modification d'armes et production de pièces"
+          ],
+          "goal": "Conservez les produits chimiques, les composants, le métal, les armes de rechange et les accessoires utiles au lieu de vendre ou de jeter chaque doublon."
+        },
+        {
+          "phase": "5. Ajouter de l'entraînement, de la mobilité et de la capacité de récupération",
+          "priority": "Moyenne",
+          "focus": "Améliorez la qualité et la portée des opérations sur le terrain",
+          "facilities": [
+            "Installations d'entraînement",
+            "Améliorations du garage automobile",
+            "Équipes de collecte",
+            "Soutien en véhicules et cargaison"
+          ],
+          "goal": "Équilibrez la consommation de carburant avec le besoin d'atteindre des cartes plus difficiles, de transporter plus de butin et de secourir les colonies menacées."
+        },
+        {
+          "phase": "6. Débloquer les améliorations de faction et d'énergie",
+          "priority": "Fin de campagne",
+          "focus": "Convertissez les progrès politiques en avantages permanents pour l'Urban Shelter",
+          "facilities": [
+            "Branches d'amélioration spécifiques aux factions",
+            "Générateurs solaires, hydrauliques et éoliens",
+            "Fortifications et défenses alimentées"
+          ],
+          "goal": "Sécurisez une alliance, collectez les récompenses de faction et maintenez une capacité énergétique suffisante pour chaque défense devant rester active."
+        },
+        {
+          "phase": "7. Confirmer la préparation au siège",
+          "priority": "Avant l'avertissement final",
+          "focus": "Arrêtez l'expansion et convertissez les ressources restantes en survie",
+          "facilities": [
+            "Révision du Defense Tracker",
+            "Réparation d'armes et d'armures",
+            "Réserve de munitions",
+            "Fortifications alimentées",
+            "Stock de nourriture et de médicaments"
+          ],
+          "goal": "Réparez les meilleures armes et armures, récupérez des pièces sur l'équipement inutile, stockez des munitions et placez les combattants les plus forts dans l'effectif final."
+        }
+      ]
+    },
+    "urbanStrifeFactions": {
+      "title": "Factions, réputation et recrues d'Urban Strife",
+      "eyebrow": "Alliances et conséquences",
+      "intro": "Les trois blocs majeurs sont la National Guard, la Church of Second Chance et le chapitre de motards Shady Lady. Les colonies plus petites, les barons et les survivants recrutables réagissent également à vos actions, et leur survie peut affecter les votes, le contrôle de la carte, les récompenses et la puissance des hordes de morts-vivants errantes.",
+      "factions": [
+        {
+          "faction": "National Guard",
+          "alias": "Anciennement connue sous le nom de Rogue Army Garrison",
+          "identity": "Une puissance militaire disciplinée basée dans une base de montagne lourdement fortifiée qui prétend protéger Urban tout en exigeant obéissance, paiement et loyauté.",
+          "perks": [
+            "Armes à feu, munitions et armures de qualité militaire",
+            "Marchands spécifiques à l'armée et équipement avancé",
+            "Accès aux véhicules de faction, y compris le HMMWV de l'armée"
+          ],
+          "alliance": "Une alliance acceptée débloque des améliorations de faction, des récompenses et un soutien en fin de jeu, mais oppose l'Urban Shelter aux blocs rivaux."
+        },
+        {
+          "faction": "Church of Second Chance",
+          "alias": "Également appelée le Cult of Second Chance",
+          "identity": "Le mouvement du Père Walker dans l'ancien centre de rééducation pour mineurs traite le monde post-pandémique comme une renaissance spirituelle et accepte les morts-vivants d'une manière que les autres survivants jugent dangereuse.",
+          "perks": [
+            "Plans de faction et récompenses de spécialiste",
+            "Matériaux uniques et améliorations d'alliance",
+            "Accès au camp caché et aux dirigeants de la faction"
+          ],
+          "alliance": "La Church of Second Chance peut devenir l'alliée choisie de l'Urban Shelter, ouvrant sa trame narrative et ses avantages tout en intégrant ses ennemis au coût politique final."
+        },
+        {
+          "faction": "Shady Lady Bikers",
+          "alias": "Le chapitre de motards local",
+          "identity": "Une faction axée sur le profit, construite autour du bar de motards Shady Lady, centrée sur les transactions, le divertissement, l'entretien des véhicules, les armes et le commerce au marché noir.",
+          "perks": [
+            "Armes du marché noir",
+            "Pièces de véhicules et soutien mécanique",
+            "Marchands bikers, équipement de faction et récompenses liées aux véhicules"
+          ],
+          "alliance": "Une alliance avec les bikers ajoute son propre chemin d'amélioration et d'équipement à l'Urban Shelter et détermine quelles factions rivales s'opposeront à vous."
+        },
+        {
+          "faction": "Groupes de survivants locaux et barons",
+          "alias": "Pompiers, réfugiés, groupes fédéraux, camps indépendants et hommes forts régionaux",
+          "identity": "Les petits groupes dispersés dans les colonies, les bâtiments publics et les cartes de secteurs fortifiés ont leurs propres besoins, routines et limites morales. Ils peuvent devenir des électeurs, des réfugiés, des marchands, des recrues, des ennemis ou les victimes de hordes errantes.",
+          "perks": [
+            "Récompenses de quêtes et schémas",
+            "Recrues ou réfugiés supplémentaires",
+            "Accès aux secteurs, fournitures et informations locales"
+          ],
+          "alliance": "Leurs votes et leur survie aident à déterminer l'accès aux quartiers généraux des factions majeures et quelle proportion d'Urban reste en vie au début de la phase finale."
+        },
+        {
+          "faction": "Réputation, votes et affinité des recrues",
+          "alias": "Le système de relations de la campagne",
+          "identity": "La réputation personnelle suit le joueur dans les conversations ultérieures, tandis que le passé des recrues peut rendre les étrangers plus enclins à révéler des informations.",
+          "perks": [
+            "Différents arcs narratifs et améliorations de l'Urban Shelter",
+            "Marchands spécifiques aux factions et équipement de rang 3",
+            "Véhicules, schémas avancés et plus de vingt améliorations d'alliés"
+          ],
+          "alliance": "Après avoir obtenu les votes requis, la faction choisie ouvre son quartier général. Accepter l'alliance engage l'Urban Shelter envers cet allié pour le conflit final."
+        }
+      ]
+    },
+    "urbanStrifeStoryWalkthrough": {
+      "title": "Guide de l'histoire d'Urban Strife et phase finale de la horde",
+      "eyebrow": "Itinéraire de la campagne",
+      "intro": "La progression n'est pas une ligne de quête fixe unique. L'ordre d'exploration, les groupes secourus, la réputation de faction, les améliorations de l'Urban Shelter et les décisions d'alliance alimentent tous l'acte final, où le Defense Tracker mesure la force de vos fortifications, fournitures, alliés et améliorations alimentées.",
+      "stages": [
+        {
+          "heading": "Prologue : Le patient d'Atlanta",
+          "spoiler": "Faible",
+          "objectives": [
+            "Survivre à l'ouverture après avoir été évacué par le CDC d'un laboratoire d'Atlanta.",
+            "Récupérer à l'Urban Shelter et apprendre les systèmes tactiques, d'inventaire et de survie de base.",
+            "Rencontrer les résidents vieillissants qui ont sauvé le joueur et comprendre pourquoi l'Urban Shelter a besoin d'aide extérieure."
+          ],
+          "decisions": [
+            "Définir les forces initiales de combat et de dialogue du personnage du joueur.",
+            "Préserver les médicaments et les munitions rares tout en collectant de la nourriture, du moral et des fournitures de construction."
+          ],
+          "readiness": "Quitter la zone de départ avec des armes fonctionnelles, des fournitures de soins et une capacité de transport suffisante pour rapporter des ressources utiles à l'Urban Shelter."
+        },
+        {
+          "heading": "Début de campagne : Restaurer l'Urban Shelter",
+          "spoiler": "Faible",
+          "objectives": [
+            "Réparer la radio de la ville, l'hôpital, l'atelier auto, l'atelier et les casernes.",
+            "Recruter des survivants locaux et former une équipe de terrain équilibrée.",
+            "Stabiliser les approvisionnements en nourriture, santé, moral, carburant et matériaux de construction."
+          ],
+          "decisions": [
+            "Choisir quel service endommagé reçoit les matériaux en premier.",
+            "Décider d'investir dans l'équipement de combat immédiat ou dans la production à long terme comme les jardins et les installations spécialisées."
+          ],
+          "readiness": "Les services de base doivent être opérationnels et l'escouade doit terminer les rencontres de rang 1 à proximité sans consommer l'intégralité de la réserve."
+        },
+        {
+          "heading": "Campagne d'Urban County : Conflits de survivants et votes de factions",
+          "spoiler": "Modérée",
+          "objectives": [
+            "Explorer des secteurs de plus en plus dangereux loin de l'Urban Shelter.",
+            "Rencontrer des groupes de survivants indépendants, des barons de factions, des vestiges fédéraux, des sectaires, des bikers et des soldats.",
+            "Utilisez le combat, la négociation, l'affinité de faction, les tests de Force ou d'Intelligence pour résoudre les conflits locaux."
+          ],
+          "decisions": [
+            "Choisissez quels groupes sauver, recruter, dénoncer, vaincre ou abandonner.",
+            "Protégez les colonies utiles lorsque les morts-vivants errants commencent à attaquer les secteurs sous contrôle humain.",
+            "Obtenez suffisamment de soutien pour gagner les votes requis afin d'accéder au quartier général d'une faction majeure."
+          ],
+          "readiness": "Gérez le carburant, l'espace de chargement et l'équipement de rechange pour les cartes lointaines tout en ravitaillant le refuge."
+        },
+        {
+          "heading": "Phase d'alliance : Choisissez une faction majeure",
+          "spoiler": "Élevée",
+          "objectives": [
+            "Entrez dans le quartier général de la National Guard, de la Church of Second Chance ou des motards de la Shady Lady après avoir obtenu les votes requis.",
+            "Rencontrez le chef de la faction, découvrez les motivations profondes du groupe et décidez d'accepter ou non l'alliance.",
+            "Échangez les secrets découverts et terminez le contenu d'alliance pour obtenir de puissantes récompenses."
+          ],
+          "decisions": [
+            "Sélectionnez la faction qui soutiendra le refuge à l'arrivée de la horde d'Atlanta.",
+            "Acceptez les conséquences politiques et militaires de votre opposition aux autres blocs majeurs."
+          ],
+          "readiness": "Examinez la branche d'amélioration de l'allié, les marchands, les plans et les options de véhicules avant de dépenser les matériaux restants de fin de partie."
+        },
+        {
+          "heading": "Épisode final de l'histoire : La chute du roi",
+          "spoiler": "Majeure",
+          "objectives": [
+            "Rendez-vous dans le royaume déchu construit autour de l'Urban High School.",
+            "Enquêtez sur la communauté autosuffisante et son plan pour défier la République.",
+            "Explorez l'école et le terrain de football et résolvez le dernier conflit narratif régional majeur."
+          ],
+          "decisions": [
+            "Décidez de la place du chef et de ses partisans dans la lutte de factions plus large.",
+            "Terminez les affaires narratives non résolues avant de consacrer toutes vos ressources au siège."
+          ],
+          "readiness": "Terminez les missions de faction, les recrutements et les récompenses de plans souhaités avant que la campagne n'entre dans sa phase de préparation finale."
+        },
+        {
+          "heading": "Escalade de la horde : Urban est reconquis par les morts",
+          "spoiler": "Majeure",
+          "objectives": [
+            "Réagissez aux hordes mobiles créées à la suite des conflits humains.",
+            "Défendez les camps menacés ou nettoyez les secteurs qui sont déjà tombés.",
+            "Empêchez les colonies compromises de générer des hordes supplémentaires qui se propagent dans tout le comté."
+          ],
+          "decisions": [
+            "Choisissez quels appels à l'aide valent le temps de trajet, les munitions et le carburant.",
+            "Acceptez que le fait d'arriver tard puisse transformer de puissants PNJ humains en morts-vivants blindés transportant un équipement précieux."
+          ],
+          "readiness": "Maintenez une équipe d'intervention mobile, du carburant de rechange et des munitions anti-horde tout en terminant les améliorations du refuge."
+        },
+        {
+          "heading": "Préparation finale : Vérifiez le Defense Tracker",
+          "spoiler": "Fin de partie",
+          "objectives": [
+            "Examinez le Defense Tracker du refuge avant l'assaut.",
+            "Améliorez les fortifications, les fournitures, les alliés et les dernières améliorations.",
+            "Maintenez les défenses alimentées en ligne et placez les combattants les plus forts disponibles sur la liste du siège."
+          ],
+          "decisions": [
+            "Arrêtez l'expansion de faible valeur et transformez les ressources restantes en munitions, médicaments, nourriture et pièces de réparation.",
+            "Réparez les armes et les protections corporelles, et recyclez l'équipement inutile pour en récupérer les pièces.",
+            "Décidez quel équipement doit être préservé car les plaques balistiques ne peuvent pas être réparées."
+          ],
+          "readiness": "La campagne de la version 1.0 prévoit le siège pour le jour 20 et envoie un avertissement radio 24 heures de jeu avant qu'il ne commence."
+        },
+        {
+          "heading": "Siège de la horde d'Atlanta et séquence de fin",
+          "spoiler": "Final",
+          "objectives": [
+            "Défendez le Urban Shelter lors des missions de siège final.",
+            "Utilisez les positions de tir préparées, l'équipement réparé, les munitions stockées et le soutien des factions contre la masse de morts-vivants qui approche.",
+            "Protégez la communauté avec les installations et les défenses construites tout au long de la campagne."
+          ],
+          "decisions": [
+            "Engagez vos combattants et vos ressources limitées là où ils auront le plus d'effet.",
+            "Répondez aux sacrifices finaux ou aux choix d'urgence créés par des défenses faibles ou un manque de ressources."
+          ],
+          "readiness": "Le pillage normal ne peut plus résoudre les pénuries une fois le siège entamé. Le Urban Shelter survit grâce aux personnes, aux stocks, à l'énergie et aux améliorations déjà sécurisés."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Foire aux",
+    "titleHighlight": "questions",
+    "subtitle": "Tout ce que vous devez savoir sur Urban Strife",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Urban Strife ?",
+        "answer": "Urban Strife est un RPG de survie tactique post-apocalyptique sur Steam. Il mélange des combats au tour par tour basés sur les Action Points avec une balistique simulée, la gestion du Urban Shelter, le recrutement de survivants et des alliances de factions dans une ville du Sud ravagée par les zombies."
+      },
+      {
+        "question": "Quand Urban Strife est-il sorti ?",
+        "answer": "Urban Strife a atteint la version 1.0 le 14 juillet 2026, après être entré en accès anticipé sur Steam le 10 décembre 2024. La sortie complète termine le scénario de la horde d'Atlanta, ajoute le siège final du Urban Shelter et introduit les réparations d'équipement."
+      },
+      {
+        "question": "Où puis-je jouer à Urban Strife ?",
+        "answer": "Urban Strife est disponible sur Steam pour PC Windows, avec la prise en charge de Steam Cloud, du Steam Workshop et du partage familial. Aucune version console ou macOS n'est actuellement prévue."
+      },
+      {
+        "question": "Combien coûte Urban Strife ?",
+        "answer": "Urban Strife est au prix de 34,99 $ USD sur Steam, avec une réduction de lancement de 30 % le ramenant à 24,49 $ USD jusqu'au 21 juillet 2026. Steam applique une tarification régionale dans les pays pris en charge."
+      },
+      {
+        "question": "Urban Strife est-il un jeu solo ?",
+        "answer": "Oui. Urban Strife est une expérience solo sans multijoueur ni coop. Vous dirigez une milice, reconstruisez le Urban Shelter et choisissez une alliance de faction avant l'arrivée de la horde d'Atlanta."
+      },
+      {
+        "question": "Quelles langues Urban Strife prend-il en charge ?",
+        "answer": "Urban Strife prend en charge l'anglais avec audio complet, ainsi que le français, l'allemand, l'espagnol, le russe et le chinois simplifié avec des interfaces et des sous-titres traduits, soit six langues prises en charge au total."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à survivre à l'apocalypse ?",
+    "description": "Rejoignez la communauté Urban Strife sur Discord pour des soluces, des guides de builds, des stratégies de faction et des conseils de survie !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Jouer sur Steam"
+  },
+  "footer": {
+    "title": "Wiki Urban Strife",
+    "description": "Votre centre de ressources complet pour les soluces, builds, armes, améliorations de shelter, factions, cartes et guides de survie de Urban Strife.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Légal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Communauté Steam",
+    "steamStore": "Magasin Steam",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki Urban Strife. Non affilié aux développeurs de Urban Strife.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guides pour Urban Strife",
+      "description": "Guides complets pour Urban Strife, des conseils de survie pour débutants au combat tactique avancé, en passant par la progression de l'abri et les stratégies de factions.",
+      "metaTitle": "Guides pour Urban Strife - Conseils pour débutants et tactiques avancées",
+      "metaDescription": "Maîtrisez Urban Strife grâce à des guides complets couvrant les conseils pour débutants, le combat au tour par tour, les Action Points, la progression de l'abri, les alliances de factions et les stratégies de survie.",
+      "categoryLabel": "GUIDES DE JEU",
+      "whatIs": "Que sont les guides pour Urban Strife ?",
+      "whatIsDescription": "Des guides complets pour Urban Strife couvrant les mécaniques de jeu, le combat tactique au tour par tour, la balistique réaliste, la stratégie de survie et le développement de l'abri, de vos premiers pas aux techniques avancées de fin de partie.",
+      "why": "Pourquoi lire les guides ?",
+      "whySteps": {
+        "step1Title": "Apprendre les mécaniques de base",
+        "step1Description": "Comprenez le combat lié aux Action Points, la balistique, les tirs d'interruption, la discrétion et les systèmes de l'abri tout en évitant les erreurs de débutant",
+        "step2Title": "Progresser plus vite",
+        "step2Description": "Suivez des itinéraires de début de partie éprouvés pour stabiliser l'abri, gérer le carburant et la nourriture, et vous préparer au siège de la horde",
+        "step3Title": "Maîtriser les tactiques avancées",
+        "step3Description": "Développez des stratégies d'expert pour les alliances de factions, les configurations d'armes, le positionnement et la défense de siège"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides"
+    },
+    "builds": {
+      "title": "Builds pour Urban Strife",
+      "description": "Des builds de personnages optimaux pour Urban Strife couvrant les statistiques, les compétences, les atouts, les rôles des survivants et la composition de l'escouade pour chaque étape de la campagne.",
+      "metaTitle": "Builds pour Urban Strife - Meilleures statistiques, compétences et atouts de personnage",
+      "metaDescription": "Créez les meilleurs personnages d'Urban Strife avec des statistiques optimisées, des arbres de compétences, des choix d'atouts, des rôles de compagnons et des équipements d'escouade pour les survivants spécialisés dans le corps à corps, le combat à distance, les soins et la discrétion.",
+      "categoryLabel": "BUILDS DE PERSONNAGES",
+      "whatIs": "Que sont les builds pour Urban Strife ?",
+      "whatIsDescription": "Les builds d'Urban Strife couvrent la création de personnages, la répartition des attributs, la progression des compétences, la sélection des atouts et les rôles des compagnons. Les statistiques augmentent de manière dynamique en fonction de vos actions, la planification de votre build et de la composition de votre escouade façonne donc l'ensemble de votre campagne.",
+      "why": "Pourquoi planifier vos builds ?",
+      "whySteps": {
+        "step1Title": "Optimiser les attributs",
+        "step1Description": "Répartissez la force, l'agilité, l'intelligence et d'autres statistiques pour correspondre au rôle de combat de chaque survivant",
+        "step2Title": "Choisir les bons atouts",
+        "step2Description": "Choisissez des atouts qui renforcent la spécialisation à distance, au corps à corps, médicale ou en discrétion",
+        "step3Title": "Composer une escouade équilibrée",
+        "step3Description": "Recrutez et affectez des compagnons afin que votre équipe couvre les soins, les réparations, la reconnaissance et la puissance de feu"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les builds"
+    },
+    "weapons": {
+      "title": "Armes d'Urban Strife",
+      "description": "Guides d'armes détaillés pour Urban Strife couvrant les armes à feu, le corps à corps, les arbalètes, les armures, les accessoires, les types de munitions, les réparations et l'établi d'armurier.",
+      "metaTitle": "Armes d'Urban Strife - Meilleures armes à feu, corps à corps, armures et accessoires",
+      "metaDescription": "Maîtrisez les armes d'Urban Strife grâce aux statistiques des armes à feu, du corps à corps, des arbalètes, des explosifs et des armures. Découvrez la pénétration, les dégâts, les coûts en Action Points, les types de munitions, les réparations et la fabrication à l'établi d'armurier.",
+      "categoryLabel": "ARMES ET ÉQUIPEMENT",
+      "whatIs": "Que sont les armes d'Urban Strife ?",
+      "whatIsDescription": "Guides complets des armes à feu, armes de corps à corps, arbalètes, explosifs, protections corporelles et accessoires d'Urban Strife. Découvrez les valeurs de pénétration, les dégâts, les coûts en Action Points, les types de munitions et l'établi d'armurier pour les réparations et les modifications.",
+      "why": "Pourquoi étudier les armes ?",
+      "whySteps": {
+        "step1Title": "Associer les armes aux rôles",
+        "step1Description": "Associez chaque survivant au bon pistolet, fusil à pompe, fusil, sniper, arbalète ou arme de mêlée",
+        "step2Title": "Comprendre la balistique",
+        "step2Description": "Comparez la pénétration, les dégâts et les coûts en Action Points pour choisir l'équipement optimal pour la discrétion et le contrôle de horde",
+        "step3Title": "Réparer et modifier",
+        "step3Description": "Utilisez l'établi d'armurier pour restaurer et améliorer les armes et armures au lieu de les remplacer"
+      },
+      "featured": "Mis en avant et essentiels",
+      "all": "Toutes les armes"
+    },
+    "systems": {
+      "title": "Systèmes d'Urban Strife",
+      "description": "Maîtrisez les systèmes d'Urban Shelter, la construction de base, l'artisanat d'atelier, la collecte de matériaux, les plans, le carburant et les industries de survie.",
+      "metaTitle": "Systèmes d'Urban Strife - Shelter, atelier, plans et carburant",
+      "metaDescription": "Guides complets des systèmes d'Urban Strife couvrant la construction d'Urban Shelter, l'artisanat d'atelier, l'approvisionnement en matériaux, l'utilisation des plans, le ravitaillement des véhicules et les industries de survie.",
+      "categoryLabel": "SYSTÈMES D'ABRI",
+      "whatIs": "Que sont les systèmes d'Urban Strife ?",
+      "whatIsDescription": "Les systèmes d'Urban Strife couvrent la construction d'Urban Shelter, l'amélioration des installations, l'atelier, les chaînes d'artisanat, la collecte de matériaux, l'utilisation des plans et la gestion du carburant. Ces mécaniques permettent de ravitailler vos survivants et de défendre votre base tout au long de la campagne.",
+      "why": "Pourquoi apprendre les systèmes ?",
+      "whySteps": {
+        "step1Title": "Construisez votre abri",
+        "step1Description": "Planifiez les améliorations d'installations pour la nourriture, la médecine, l'énergie, le moral et la capacité de population",
+        "step2Title": "Collecter et fabriquer",
+        "step2Description": "Trouvez des matériaux, utilisez des plans et gérez l'atelier pour produire des équipements et des fournitures",
+        "step3Title": "Continuez à avancer",
+        "step3Description": "Gérez le carburant et ravitaillez votre voiture pour atteindre des cartes lointaines et commercer avec les factions"
+      },
+      "featured": "Mis en avant et essentiels",
+      "all": "Tous les systèmes"
+    },
+    "quests": {
+      "title": "Quêtes d'Urban Strife",
+      "description": "Guides pas à pas des quêtes et missions d'Urban Strife couvrant les actes de l'histoire, les objectifs, l'emplacement des objets clés, les choix et le siège final.",
+      "metaTitle": "Quêtes d'Urban Strife - Guide de l'histoire et des missions",
+      "metaDescription": "Soluces complètes des quêtes d'Urban Strife avec l'ordre des objectifs, l'emplacement des objets clés, les choix de dialogue, les conséquences sur les factions et le siège final de la horde pour chaque acte de l'histoire.",
+      "categoryLabel": "QUÊTES ET HISTOIRE",
+      "whatIs": "Que sont les quêtes d'Urban Strife ?",
+      "whatIsDescription": "Les quêtes d'Urban Strife couvrent les principaux actes de l'histoire, les missions secondaires et les objectifs de faction. Chaque guide détaille où commencer, l'ordre des objectifs, l'emplacement des objets clés et des personnages, les choix de dialogue, les conditions d'échec et comment les choix façonnent la campagne.",
+      "why": "Pourquoi suivre des guides de quêtes ?",
+      "whySteps": {
+        "step1Title": "Trouvez les objectifs rapidement",
+        "step1Description": "Localisez les donneurs de quêtes, les objets clés comme le décrypteur radio et les cibles de mission sans faire de retours en arrière",
+        "step2Title": "Faites les bons choix",
+        "step2Description": "Comprenez les conséquences des dialogues et des factions avant de prendre une décision",
+        "step3Title": "Préparez-vous pour le siège",
+        "step3Description": "Terminez les suites de quêtes des factions et stockez des ressources pour la défense finale contre la horde"
+      },
+      "featured": "Mis en avant et essentiels",
+      "all": "Toutes les quêtes"
+    },
+    "locations": {
+      "title": "Lieux d'Urban Strife",
+      "description": "Explorez les cartes et les lieux d'Urban Strife, les configurations des secteurs, les itinéraires de butin, les points de ressources et les zones de danger à travers Urban County.",
+      "metaTitle": "Lieux d'Urban Strife - Cartes, secteurs et itinéraires de butin",
+      "metaDescription": "Découvrez les lieux d'Urban Strife, y compris la carte d'Urban County, Adams Villa, FEMA Hospital, la base de la National Guard et les secteurs cachés avec leurs itinéraires de butin et leurs indications de danger.",
+      "categoryLabel": "CARTES ET LIEUX",
+      "whatIs": "Que sont les lieux d'Urban Strife ?",
+      "whatIsDescription": "Guides des secteurs de carte et des lieux clés d'Urban Strife comme Adams Villa, le FEMA Hospital et la base de la National Guard. Apprenez les configurations des secteurs, la répartition des ressources, les itinéraires de butin de grande valeur et les zones de danger à travers Urban County.",
+      "why": "Pourquoi explorer les cartes ?",
+      "whySteps": {
+        "step1Title": "Trouver des ressources",
+        "step1Description": "Localisez la nourriture, les médicaments, le carburant, les armes et les composants rares dans chaque secteur",
+        "step2Title": "Éviter les dangers",
+        "step2Description": "Comprenez le territoire des factions, les points d'apparition des zombies et les trajectoires des hordes errantes",
+        "step3Title": "Planifier des expéditions",
+        "step3Description": "Préparez le bon carburant, l'espace de stockage et l'équipement nécessaires avant de voyager vers des cartes lointaines"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les lieux"
+    },
+    "release": {
+      "title": "Sortie d'Urban Strife",
+      "description": "Informations sur la sortie d'Urban Strife, y compris la date de lancement de la version 1.0, les plateformes, la compatibilité Steam Deck, la configuration PC requise et la disponibilité sur console.",
+      "metaTitle": "Sortie d'Urban Strife - Date, plateformes et Steam Deck",
+      "metaDescription": "Obtenez les dernières informations sur la sortie d'Urban Strife : date de lancement de la version 1.0, disponibilité sur PC et Steam, compatibilité Steam Deck, configuration système requise et statut des versions console PS5 ou Xbox.",
+      "categoryLabel": "INFORMATIONS DE SORTIE",
+      "whatIs": "Qu'est-ce que la sortie d'Urban Strife ?",
+      "whatIsDescription": "Urban Strife a lancé sa version 1.0 complète le 14 juillet 2026 pour Windows PC sur Steam. Ces guides couvrent la date de sortie, les plateformes prises en charge, la compatibilité Steam Deck, la configuration PC requise et le statut actuel de disponibilité sur console.",
+      "why": "Pourquoi consulter les informations de sortie ?",
+      "whySteps": {
+        "step1Title": "Confirmer la date de sortie",
+        "step1Description": "Connaître la date de lancement officielle de la version 1.0 et le statut de la version complète",
+        "step2Title": "Vérifier les plateformes",
+        "step2Description": "Voir où jouer sur PC, Steam, Steam Deck et si des versions console existent",
+        "step3Title": "Vérifier la configuration requise",
+        "step3Description": "Passez en revue la configuration PC requise et la compatibilité avant d'acheter"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Toutes les informations de sortie"
+    },
+    "reviews": {
+      "title": "Avis sur Urban Strife",
+      "description": "Avis sur Urban Strife et retours de la communauté, évaluations Steam, analyses de rentabilité et comparaisons avec des RPG de survie similaires.",
+      "metaTitle": "Avis sur Urban Strife - En vaut-il la peine ? Évaluations et comparaisons",
+      "metaDescription": "Lisez les avis sur Urban Strife couvrant les évaluations Steam, les points forts et les points faibles, si le jeu vaut la peine d'être joué et comment il se compare à des RPG de survie tactiques similaires comme Dead State.",
+      "categoryLabel": "AVIS ET VERDICTS",
+      "whatIs": "Que sont les avis sur Urban Strife ?",
+      "whatIsDescription": "Les avis sur Urban Strife résument les retours des joueurs et des critiques, les évaluations des avis Steam, les points forts et les points faibles marquants, si le jeu vaut la peine d'être acheté et comment il se compare à des RPG de survie tactiques similaires.",
+      "why": "Pourquoi lire les avis ?",
+      "whySteps": {
+        "step1Title": "Voir le verdict",
+        "step1Description": "Comprendre l'accueil global des joueurs et des critiques en un coup d'œil",
+        "step2Title": "Décider si cela en vaut la peine",
+        "step2Description": "Peser les points forts et les faiblesses par rapport à vos goûts avant d'acheter",
+        "step3Title": "Comparer les alternatives",
+        "step3Description": "Voir comment Urban Strife se compare aux RPG de survie similaires"
+      },
+      "featured": "À la une et indispensables",
+      "all": "Tous les avis"
+    }
   }
 }
