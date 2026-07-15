@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Urban Strife Wiki - Solution, builds et armes",
+      "description": "Le wiki Urban Strife couvre les guides pour débutants, les solutions de missions, les builds de survivants, les armes, les améliorations d'abri, les factions, les cartes, la fabrication et des conseils de combat tactique.",
+      "keywords": "Urban Strife, Steam, solution, builds, armes, abri, factions, cartes",
+      "ogTitle": "Urban Strife Wiki - Solution, builds et armes",
+      "ogDescription": "Le wiki Urban Strife couvre les guides pour débutants, les solutions de missions, les builds de survivants, les armes, les améliorations d'abri, les factions, les cartes, la fabrication et des conseils de combat tactique.",
+      "twitterTitle": "Urban Strife Wiki - Solution, builds et armes",
+      "twitterDescription": "Le wiki Urban Strife couvre les guides pour débutants, les solutions de missions, les builds de survivants, les armes, les améliorations d'abri, les factions, les cartes, la fabrication et des conseils de combat tactique."
     }
   },
   "nav": {
@@ -613,22 +613,22 @@
         {
           "title": "Discord officiel",
           "subtitle": "Annonces • Commentaires • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "url": "https://discord.gg/2zguXAa"
         },
         {
           "title": "X officiel (Twitter)",
           "subtitle": "Mises à jour et publications des développeurs",
-          "url": "https://x.com/lucidblocks"
+          "url": "https://x.com/UrbanStrifeGame"
         },
         {
           "title": "Hub de la communauté Steam",
           "subtitle": "Discussions • Captures d'écran • Guides",
-          "url": "https://steamcommunity.com/app/3495730"
+          "url": "https://steamcommunity.com/app/710230"
         },
         {
           "title": "Page du magasin Steam",
           "subtitle": "Liste de souhaits • Démo • Description officielle",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "url": "https://store.steampowered.com/app/710230/Urban_Strife/"
         }
       ]
     },

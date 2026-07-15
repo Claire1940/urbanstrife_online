@@ -135,6 +135,9 @@ export default function HomePageClient({
         sameAs: [
           "https://store.steampowered.com/app/710230/Urban_Strife/",
           "https://www.urbanstrifegame.com/",
+          "https://discord.gg/2zguXAa",
+          "https://x.com/UrbanStrifeGame",
+          "https://www.youtube.com/urbanstrifegame/",
           "https://www.reddit.com/r/UrbanStrifeGame/",
           "https://steamcommunity.com/app/710230",
         ],
@@ -1325,7 +1328,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://www.urbanstrifegame.com/"
+                    href="https://discord.gg/2zguXAa"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1400,7 +1403,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://www.urbanstrifegame.com/"
+                    href="https://discord.gg/2zguXAa"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Survive the Apocalypse?",
+    "description": "Join the Urban Strife community on Discord for walkthroughs, build guides, faction strategies, and survival tips!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Urban Strife Wiki",
+    "description": "Your complete resource hub for Urban Strife walkthroughs, builds, weapons, shelter upgrades, factions, maps, and survival guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Urban Strife Wiki. Not affiliated with the developers of Urban Strife.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

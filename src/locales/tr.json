@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Urban Strife Wiki - Walkthrough, Build'ler ve Silahlar",
+      "description": "Urban Strife Wiki; başlangıç rehberleri, görev walkthrough'ları, hayatta kalan build'leri, silahlar, sığınak yükseltmeleri, gruplar, haritalar, üretim ve taktiksel savaş ipuçlarını kapsar.",
+      "keywords": "Urban Strife, Steam, walkthrough, build, silahlar, sığınak, gruplar, haritalar",
+      "ogTitle": "Urban Strife Wiki - Walkthrough, Build'ler ve Silahlar",
+      "ogDescription": "Urban Strife Wiki; başlangıç rehberleri, görev walkthrough'ları, hayatta kalan build'leri, silahlar, sığınak yükseltmeleri, gruplar, haritalar, üretim ve taktiksel savaş ipuçlarını kapsar.",
+      "twitterTitle": "Urban Strife Wiki - Walkthrough, Build'ler ve Silahlar",
+      "twitterDescription": "Urban Strife Wiki; başlangıç rehberleri, görev walkthrough'ları, hayatta kalan build'leri, silahlar, sığınak yükseltmeleri, gruplar, haritalar, üretim ve taktiksel savaş ipuçlarını kapsar."
     }
   },
   "nav": {
@@ -613,22 +613,22 @@
         {
           "title": "Resmi Discord",
           "subtitle": "Duyurular • Geri Bildirim • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "url": "https://discord.gg/2zguXAa"
         },
         {
           "title": "Resmi X (Twitter)",
           "subtitle": "Güncellemeler & geliştirici gönderileri",
-          "url": "https://x.com/lucidblocks"
+          "url": "https://x.com/UrbanStrifeGame"
         },
         {
           "title": "Steam Topluluk Merkezi",
           "subtitle": "Tartışmalar • Ekran Görüntüleri • Rehberler",
-          "url": "https://steamcommunity.com/app/3495730"
+          "url": "https://steamcommunity.com/app/710230"
         },
         {
           "title": "Steam Mağaza Sayfası",
           "subtitle": "İstek Listesi • Demo • Resmi açıklama",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "url": "https://store.steampowered.com/app/710230/Urban_Strife/"
         }
       ]
     },

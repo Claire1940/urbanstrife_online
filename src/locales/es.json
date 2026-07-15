@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Urban Strife Wiki - Guías, builds y armas",
+      "description": "La Urban Strife Wiki cubre guías para principiantes, guías de misiones, builds de supervivientes, armas, mejoras de refugio, facciones, mapas, fabricación y consejos de combate táctico.",
+      "keywords": "Urban Strife, Steam, guías, builds, armas, refugio, facciones, mapas",
+      "ogTitle": "Urban Strife Wiki - Guías, builds y armas",
+      "ogDescription": "La Urban Strife Wiki cubre guías para principiantes, guías de misiones, builds de supervivientes, armas, mejoras de refugio, facciones, mapas, fabricación y consejos de combate táctico.",
+      "twitterTitle": "Urban Strife Wiki - Guías, builds y armas",
+      "twitterDescription": "La Urban Strife Wiki cubre guías para principiantes, guías de misiones, builds de supervivientes, armas, mejoras de refugio, facciones, mapas, fabricación y consejos de combate táctico."
     }
   },
   "nav": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Urban Strife Wiki - Lösung, Builds & Waffen",
+      "description": "Das Urban Strife Wiki bietet Anfängerleitfäden, Missionslösungen, Überlebenden-Builds, Waffen, Zuflucht-Upgrades, Fraktionen, Karten, Crafting und Tipps für taktische Kämpfe.",
+      "keywords": "Urban Strife, Steam, Lösung, Builds, Waffen, Zuflucht, Fraktionen, Karten",
+      "ogTitle": "Urban Strife Wiki - Lösung, Builds & Waffen",
+      "ogDescription": "Das Urban Strife Wiki bietet Anfängerleitfäden, Missionslösungen, Überlebenden-Builds, Waffen, Zuflucht-Upgrades, Fraktionen, Karten, Crafting und Tipps für taktische Kämpfe.",
+      "twitterTitle": "Urban Strife Wiki - Lösung, Builds & Waffen",
+      "twitterDescription": "Das Urban Strife Wiki bietet Anfängerleitfäden, Missionslösungen, Überlebenden-Builds, Waffen, Zuflucht-Upgrades, Fraktionen, Karten, Crafting und Tipps für taktische Kämpfe."
     }
   },
   "nav": {
@@ -613,22 +613,22 @@
         {
           "title": "Offizieller Discord",
           "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "url": "https://discord.gg/2zguXAa"
         },
         {
           "title": "Offizielles X (Twitter)",
           "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
+          "url": "https://x.com/UrbanStrifeGame"
         },
         {
           "title": "Steam Community Hub",
           "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
+          "url": "https://steamcommunity.com/app/710230"
         },
         {
           "title": "Steam Store Seite",
           "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "url": "https://store.steampowered.com/app/710230/Urban_Strife/"
         }
       ]
     },
