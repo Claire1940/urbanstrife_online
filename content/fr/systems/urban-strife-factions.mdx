@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Factions d'Urban Strife : Guide d'alliance et de progression 2026",
+  description: "Naviguez dans le système complexe de factions d'Urban Strife. Apprenez à gérer les alliances, débloquer des plans de base exclusifs et survivre à la horde imminente.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Factions+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Factions principales** : Alignez-vous avec la Garnison de l'Armée Dissidente, les Bikers Shady Lady ou le Culte de la Seconde Chance pour assurer la survie de votre base.
+- **Règle stratégique** : La dimension stratégique du jeu impose qu'une seule faction majeure puisse rester dans la banlieue avant l'arrivée de la horde finale.
+- **Verrous de plans** : Les améliorations avancées de la base sont liées à la faveur des factions, ce qui nécessite de planifier soigneusement votre alignement dès le début de la partie.
+- **Synergie de combat** : Utilisez la balistique réaliste et les systèmes de tours de zombies simultanés pour nettoyer efficacement les zones contrôlées par les factions.
+- **Voie optimale** : S'allier avec les militaires offre des améliorations défensives très fiables, bien que cela nécessite de démanteler les opérations rivales.
+</Callout>
+
+<Section icon={Map} title="Les trois factions de la banlieue dans Urban Strife">
+
+Naviguer dans le paysage complexe des **factions d'Urban Strife** est crucial pour survivre dans les ruines apocalyptiques du Comté d'Urban. Deux ans après une épidémie virale dévastatrice, le jeu vous oblige à diriger une communauté en difficulté connue sous le nom de Refuge Urbain. Pour assurer l'avenir de votre peuple, vous devez interagir avec trois groupes distincts qui contrôlent la banlieue environnante. Chaque faction possède des ressources, des idéologies et des capacités défensives uniques qui peuvent soit aider, soit condamner votre refuge.
+
+Les trois principaux groupes que vous rencontrerez sont le Culte de la Seconde Chance, les Bikers Shady Lady et la Garnison de l'Armée Dissidente. Bien qu'ils maintiennent actuellement une paix fragile, l'arrivée imminente d'une immense horde de zombies provoque une crise diplomatique et militaire. Comprendre qui sont ces survivants et ce qu'ils proposent est la première étape vers une alliance prospère.
+
+**Points forts de la vidéo :**
+- **Combat tactique** : Explique le système d'IA au tour par tour simultané qui accélère les affrontements avec les zombies.
+- **Balistique et couverture** : Détaille les calculs de projectiles en temps réel et les environnements destructibles.
+- **Gestion de la base** : Souligne l'importance de l'amélioration des ateliers, des jardins et des dortoirs pour la durabilité à long terme.
+
+<YouTubeEmbed videoId="_KHkn77UddE" title="Critique d'Urban Strife - Vaut-il le coup pour les fans de survie zombie ? | Analyse de la démo de gameplay" />
+
+Pour vous aider à évaluer rapidement les puissances locales, voici un aperçu des principales factions occupant les secteurs suburbains du Comté d'Urban :
+
+| Faction | Attitude | Activité principale | Avantage unique |
+| :--- | :--- | :--- | :--- |
+| **Garnison de l'Armée Dissidente** | Pragmatique | Garder la zone de quarantaine | Équipement militaire de haut niveau et défenses structurées |
+| **Bikers Shady Lady** | Amicale | Distiller de l'alcool de contrebande et faire le trafic de drogue | Excellentes améliorations de mobilité et fournitures d'artisanat |
+| **Culte de la Seconde Chance** | Excentrique | Pratiquer des rituels d'alimentation de zombies | Connaissances médicales spécialisées et contrôle de foule |
+
+<Callout type="info" title="Relations entre les factions">
+Bien que ces factions ne soient pas ouvertement en guerre lorsque vous les rencontrez pour la première fois, leurs idéologies contradictoires rendent impossible une coexistence pacifique à long terme une fois que les ressources s'amenuisent.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Survie stratégique et mécaniques de conflit de factions">
+
+Le conflit central dans Urban Strife tourne autour d'une limite stratégique stricte : une seule faction peut rester dans la banlieue au moment où la horde descend. Selon les informations des développeurs partagées sur les [forums de la communauté Steam](https://steamcommunity.com/app/710230/discussions/0/594009125553222539/), ce choix de conception est ancré dans l'histoire du Refuge Urbain. Des années auparavant, une gigantesque émeute de la faim a failli anéantir le refuge après qu'ils ont laissé entrer trop de groupes rivaux dans leurs murs. Par conséquent, les résidents paranoïaques ne risqueront pas de laisser des factions rivales coexister dans la sécurité du périmètre.
+
+Cela signifie que vous êtes obligé de faire un choix définitif. S'allier avec une faction vous oblige inévitablement à initier le départ ou le démantèlement des deux autres. Vos décisions déclencheront des événements narratifs spécifiques, modifiant votre réputation et changeant la façon dont vous préparez vos défenses.
+
+<CardGrid cols={3}>
+  <Card title="La voie militaire">
+    - **Avantages** : Donne accès à des améliorations de sécurité professionnelles et à des armes balistiques lourdes.
+    - **Inconvénients** : Nécessite de saboter activement ou d'éliminer les factions alignées sur les civils.
+  </Card>
+  <Card title="La voie des hors-la-loi">
+    - **Avantages** : Débloque un commerce de ressources à haut rendement et des options de personnalisation de véhicules uniques.
+    - **Inconvénients** : Diminue le moral général de la communauté en raison des activités illicites et louches de la faction.
+  </Card>
+  <Card title="La voie des fanatiques">
+    - **Avantages** : Fournit un artisanat chimique avancé et des traits de survie psychologique uniques.
+    - **Inconvénients** : Vous oblige à tolérer des rituels bizarres et risqués impliquant les morts-vivants.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Choix irréversibles">
+Une fois que vous vous engagez dans la trame narrative majeure d'une faction spécifique, les deux autres finiront par vous considérer comme une menace. Assurez-vous d'avoir acheté tous les objets nécessaires auprès de leurs marchands avant de continuer.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guide étape par étape du processus de départ des factions">
+
+Pour sécuriser une alliance et vous préparer à la horde de zombies, vous devez gérer systématiquement la présence des **factions d'Urban Strife** rivales. Ce processus implique de résoudre les menaces locales, d'accomplir des quêtes d'alignement spécifiques et de gérer les retombées politiques au sein de votre propre refuge.
+
+Comme les résidents du Refuge Urbain refusent d'héberger plusieurs groupes rivaux, vous devez servir de catalyseur pour le départ des autres factions. Cela peut être accompli par le biais de sabotages secrets, de combats directs ou en éliminant les menaces de zombies spécifiques qui maintiennent ces factions ancrées sur leurs territoires actuels.
+
+<Steps>
+  <Step num="1" title="Établir le contact initial">
+    Localisez les représentants de chaque faction dans la banlieue. Accomplissez leurs tâches d'introduction, comme enquêter sur la zone de quarantaine locale pour les militaires ou livrer des fournitures aux bikers.
+  </Step>
+  <Step num="2" title="Acquérir des renseignements locaux">
+    Parlez au maire et aux PNJ clés du Refuge Urbain pour comprendre la position de vote de la communauté. Branchez-vous sur la radio militaire pour suivre les mouvements de la horde qui approche.
+  </Step>
+  <Step num="3" title="Initier le sabotage ou la relocalisation">
+    Commencez le processus de déplacement des factions rivales. Par exemple, si vous vous alliez avec l'armée, vous devez soit détruire les zombies qui les piègent dans leur garnison, soit saboter les opérations de distillation clandestine des Bikers pour les forcer à plier bagage.
+  </Step>
+  <Step num="4" title="Déclencher le vote final du refuge">
+    Une fois que seul l'allié de votre choix reste viable dans la banlieue, présentez votre proposition d'alliance au conseil du refuge. Cela garantit leur coopération et prépare vos forces combinées pour le siège défensif.
+  </Step>
+</Steps>
+
+Le tableau ci-dessous présente les déclencheurs spécifiques requis pour forcer les factions rivales à quitter le secteur suburbain :
+
+| Faction cible | Alignement avec | Action requise | Résultat |
+| :--- | :--- | :--- | :--- |
+| **Bikers Shady Lady** | Armée dissidente | Saboter leur principal camion d'alcool | Les bikers abandonnent le secteur en raison des pertes de revenus |
+| **Culte de la Seconde Chance** | Bikers Shady Lady | Nettoyer les lieux de rituels de morts-vivants locaux | Les adeptes se dispersent après l'échec de leurs rituels |
+| **Garnison de l'Armée Dissidente** | Culte de la Seconde Chance | Éliminer la horde de zombies environnante | Les soldats évacuent en toute sécurité vers leur base principale |
+
+<Callout type="success" title="Résolutions non violentes">
+Dans la mesure du possible, cherchez des occasions d'éliminer les populations locales de zombies pour déclencher la relocalisation pacifique d'une faction. Cela vous permet d'atteindre vos objectifs stratégiques sans perdre votre réputation morale auprès des résidents de votre refuge.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression des plans et améliorations de la base">
+
+La construction de la base est profondément liée au système de factions. Votre refuge sert de plaque tournante centrale pour l'artisanat, la récupération et la planification tactique. Pour construire des installations avancées comme l'atelier spécialisé, les jardins à haut rendement ou les dortoirs renforcés, vous devez obtenir des plans détenus exclusivement par des factions spécifiques.
+
+Ces plans ne sont pas de simples schémas passifs ; ils représentent les connaissances spécialisées, les matériaux rares et la main-d'œuvre qualifiée que seule certaines factions possèdent. Si vous ne maintenez pas une réputation suffisante auprès d'un groupe, ils retiendront ces améliorations critiques, vous obligeant à vous rabattre sur des alternatives inférieures et gourmandes en ressources.
+
+<Checklist
+  id="faction-milestones"
+  title="Jalons de progression de faction :"
+  items={[
+    "Atteindre le statut Amical avec au moins une faction majeure",
+    "Débloquer le plan de l'Atelier de niveau 2 pour la fabrication de munitions avancées",
+    "Acquérir l'extension de la baie médicale auprès du Culte de la Seconde Chance",
+    "Sécuriser le kit d'amélioration de véhicule auprès des Bikers Shady Lady",
+    "Défendre avec succès le Refuge Urbain lors de l'événement de la horde de milieu de partie"
+  ]}
+/>
+
+Pour planifier efficacement la progression de votre base, consultez cette liste d'améliorations exclusives aux factions et leurs matériaux requis :
+
+| Amélioration d'installation | Source de faction | Matériaux requis | Bénéfice de base |
+| :--- | :--- | :--- | :--- |
+| **Atelier de presse à munitions** | Garnison de l'Armée Dissidente | 150 ferrailles, 50 composants électroniques | Permet de fabriquer des munitions perforantes spécialisées |
+| **Jardin hydroponique** | Culte de la Seconde Chance | 100 ferrailles, 40 produits chimiques | Double la production de nourriture et produit des herbes médicinales rares |
+| **Dortoirs fortifiés** | Garnison de l'Armée Dissidente | 200 ferrailles, 80 bois | Augmente la capacité maximale de survivants et renforce la défense passive |
+| **Atelier de garage** | Bikers Shady Lady | 120 ferrailles, 60 pièces mécaniques | Débloque des options de voyage avancées et le blindage de SUV |
+
+<Callout type="tip" title="Emplacements de plans alternatifs">
+Si vous vous retrouvez bloqué pour obtenir les plans d'une faction en raison de vos choix d'alliance, vous pouvez parfois trouver des versions inférieures de ces modèles en explorant minutieusement des bâtiments commerciaux verrouillés, des coffres-forts et des points de contrôle militaires à haut risque dans les régions extérieures de la carte.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je rester neutre avec toutes les factions d'Urban Strife ?",
+    answer: "Non. La conception stratégique du jeu impose qu'une seule faction reste dans la banlieue avant l'arrivée de la horde finale. Tenter de rester entièrement neutre finira par isoler le Refuge Urbain, le laissant mal défendu contre la menace imminente."
+  },
+  {
+    question: "Pourquoi les résidents de mon refuge veulent-ils attaquer des factions amicales ?",
+    answer: "Les résidents du refuge sont profondément paranoïaques en raison d'une émeute de la faim historique qui a failli détruire leur communauté. Ils pensent que le fait d'héberger plusieurs factions aux idéologies contradictoires à l'intérieur des murs pendant un siège entraînera inévitablement un autre conflit interne."
+  },
+  {
+    question: "Que se passe-t-il si je détruis les ressources d'une faction ?",
+    answer: "Détruire des ressources, telles que les réserves de carburant des Bikers ou les cages de rituels du Culte, fera immédiatement chuter votre réputation auprès de ce groupe au statut d'hostile. Cela vous bloquera définitivement l'accès à leurs marchands uniques et à leurs plans."
+  },
+  {
+    question: "Puis-je trouver des plans spécifiques à une faction dans le monde ouvert ?",
+    answer: "Oui, mais ils sont rares. Bien que le moyen le plus efficace d'obtenir des plans soit de gagner la faveur d'une faction, vous pouvez occasionnellement récupérer des modèles alternatifs en explorant des zones à haut risque, en forçant des portes de sécurité ou en battant des zombies d'élite."
+  }
+]} />
+
+<Callout type="info" title="Préparatifs finaux">
+Avant de vous engager dans votre vote de faction final, assurez-vous que votre escouade est entièrement équipée, que les défenses de votre base sont actives et que vos installations de stockage sont approvisionnées en munitions et en fournitures médicales.
+</Callout>
+
+</Section>

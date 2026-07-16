@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Station-service d'Urban Strife : Choix de quête et guide de ravitaillement",
+  description: "Apprenez à résoudre la quête d'essence du motel, à acheter du carburant à Sister Ruby et à ravitailler votre voiture de police dans la mission de la station-service d'Urban Strife.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Gas+Station",
+  date: "2026-07-16",
+  author: "Équipe Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Choix de la station-service** : Se ranger du côté des cultistes du motel nécessite de faire sauter la **station-service d'Urban Strife** pour progresser.
+- **Prix de l'essence de Ruby** : Sister Ruby vend de l'essence pour 120 pièces après le dernier patch de la base de données RPG.
+- **Mécanique de ravitaillement** : Faites un clic droit sur le bidon d'essence dans l'inventaire de votre personnage tout en vous tenant près du véhicule.
+- **Gestion des ressources** : Accumulez des bidons provenant des bikers pour éviter de payer des prix élevés aux cultistes.
+</Callout>
+
+<Section icon={Map} title="Le dilemme de la station-service d'Urban Strife : Cultistes contre Bikers">
+
+Naviguer dans les terres désolées post-apocalyptiques exige une vigilance et des ressources constantes, en particulier lors des rencontres pivots à la **station-service d'Urban Strife**. Au début du jeu, vous vous retrouverez pris entre deux factions rivales au motel : les cultistes locaux et les bikers concurrents. Les décisions que vous prendrez ici dicteront la disponibilité de vos ressources, votre réputation de faction et votre accès au carburant pour véhicules.
+
+Si vous choisissez de vous ranger du côté des cultistes au motel, votre objectif principal consistera à saboter l'infrastructure de carburant locale. Sergio, l'une des figures éminentes des cultistes, vous charge de faire sauter la station-service voisine pour affaiblir l'emprise des bikers sur la région. Choisir cette voie modifie l'économie locale et limite vos options de ravitaillement direct, vous forçant à compter sur les marchands de faction pour vos besoins de survie.
+
+| Faction | Action principale requise | Résultat immédiat | Impact sur l'accès au carburant |
+|---|---|---|---|
+| **Cultistes** | Faire sauter la station-service | Sergio vous redirige vers Sister Ruby | Prix élevés (120 pièces par bidon) |
+| **Bikers** | Défendre la station-service | Garder les pompes à essence intactes | Tarifs commerciaux standards |
+
+<Callout type="warning" title="Avertissement de Quête Critique">
+Faire sauter la station-service la supprime définitivement en tant que lieu de pillage physique pour le carburant brut, vous obligeant à compter entièrement sur le stock des vendeurs ou sur les butins aléatoires d'ennemis vaincus.
+</Callout>
+
+Avant de déclencher l'explosion, assurez-vous d'avoir fouillé la zone environnante à la recherche de pièces automobiles détachées, de ferraille et de fournitures médicales. Une fois la démolition terminée, retournez voir Sergio au motel. Il louera vos efforts et promettra que les cultistes partageront leurs réserves de carburant avec votre escouade, vous dirigeant vers Sister Ruby pour la distribution.
+
+</Section>
+
+<Section icon={Trophy} title="Approvisionnement et prix de l'essence de Sister Ruby">
+
+Après avoir terminé la quête de démolition, les joueurs se dirigent souvent directement vers Sister Ruby en espérant une récompense généreuse ou du carburant à prix réduit. Cependant, naviguer dans la hiérarchie des cultistes demande de la patience. Dans les versions antérieures du jeu, les joueurs rencontraient une incohérence de script où l'inventaire VIP de Sister Ruby apparaissait complètement vide, laissant les escouades en rade sans carburant.
+
+Grâce au patch de révision du script RPG implémenté en 2026, ce bug d'inventaire a été résolu. Sister Ruby stocke désormais correctement des bidons d'essence dans son inventaire VIP après que vous ayez terminé la série de quêtes du motel. Cependant, ne vous attendez pas à une réduction massive pour vos efforts destructeurs.
+
+| Vendeur | Coût de base du carburant | Disponibilité | Prérequis |
+|---|---|---|---|
+| **Sister Ruby** | 120 Pièces | Élevée | Allié aux Cultistes |
+| **Standard Snitch** | 100 Pièces | Moyenne | Réputation Neutre |
+| **Marchands Bikers** | 90 Pièces | Faible | Allié aux Bikers |
+
+<CardGrid cols={3}>
+  <Card title="S'allier aux Cultistes">
+    - **Avantages** : Haute réputation auprès de la faction du motel.
+    - **Inconvénients** : L'essence coûte 120 pièces par bidon.
+    - **Résultat** : Zone de sécurité débloquée tôt.
+  </Card>
+  <Card title="S'allier aux Bikers">
+    - **Avantages** : Prix du carburant moins chers (90-100 pièces).
+    - **Inconvénients** : Relations hostiles avec les cultistes.
+    - **Résultat** : Rencontres de combat plus tactiques.
+  </Card>
+  <Card title="Récupération Neutre">
+    - **Avantages** : Économisez des pièces en évitant le commerce.
+    - **Inconvénients** : Risque élevé d'embuscade dans les ruines.
+    - **Résultat** : Progression lente mais rentable.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Conseil d'Optimisation Commerciale">
+Conservez des objets de troc de grande valeur, tels que des composants d'armes et de l'eau propre, spécifiquement pour commercer avec Sister Ruby afin de compenser le coût gonflé de 120 pièces pour le carburant.
+</Callout>
+
+Bien que le prix de 120 pièces par bidon soit plus élevé que le tarif standard, cela reste une source fiable de carburant pour les escouades jouant en difficulté hardcore. À ce stade, vous devriez avoir rassemblé suffisamment d'équipement en battant des patrouilles de bikers pour financer vos besoins de voyage initiaux.
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de ravitaillement du véhicule">
+
+L'acquisition de la voiture de police est une étape majeure de votre campagne, mais la maintenir en état de marche nécessite de comprendre l'interface du véhicule. Un problème courant auquel les joueurs sont confrontés est de transporter des dizaines de bidons d'essence dans leur inventaire ou de les stocker dans le coffre de la voiture, pour constater que le véhicule refuse toujours de démarrer.
+
+Le processus de ravitaillement dans ce jeu est manuel et nécessite un positionnement spécifique. Le jeu ne puise pas automatiquement le carburant de votre stockage de véhicule ou de la réserve globale du camp. Vous devez interagir physiquement avec la voiture en utilisant l'inventaire actif de votre personnage.
+
+<Steps>
+  <Step num="1" title="Transférer le bidon dans l'inventaire actif">
+    Déplacez le bidon de carburant de votre coffre de véhicule ou du stockage du camp directement dans l'inventaire personnel de votre personnage actif.
+  </Step>
+  <Step num="2" title="Positionner votre personnage">
+    Marchez avec votre personnage juste à côté de la porte du conducteur ou de la trappe à carburant arrière de la voiture de police.
+  </Step>
+  <Step num="3" title="Interagir via le clic droit">
+    Ouvrez votre inventaire, faites un clic droit sur le bidon d'essence et sélectionnez l'option pour ravitailler le véhicule dans le menu contextuel.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Efficacité du ravitaillement">
+Ravitaillez toujours votre véhicule avant de vous lancer dans de longs trajets terrestres. Tomber en panne de carburant sur la carte du monde déclenche des rencontres aléatoires d'urgence qui peuvent prendre votre escouade au dépourvu.
+</Callout>
+
+Assurez-vous que votre personnage actif dispose de suffisamment de points d'action et n'est pas en mode combat lorsque vous tentez de ravitailler, car effectuer l'entretien pendant des escarmouches actives peut exposer votre escouade à des manœuvres de flanquement ennemies.
+
+</Section>
+
+<Section icon={Target} title="Récupération de carburant et liste de ressources">
+
+Si vous préférez éviter les prix élevés pratiqués par Sister Ruby, la récupération reste votre meilleure alternative. Les terres désolées contiennent plusieurs caches cachées où des bidons de carburant apparaissent naturellement, bien que ces zones soient souvent gardées par une faune hostile ou des pillards désespérés.
+
+Lors de la planification d'une sortie de récupération, donnez la priorité aux zones industrielles, aux points de contrôle routiers abandonnés et aux arrière-cours de garages. Ces zones ont la plus forte probabilité de fournir des bidons de carburant intacts.
+
+| Catégorie de zone | Niveau de danger | Rendement en carburant attendu | Obstacles clés |
+|---|---|---|---|
+| **Épaves d'autoroute** | Faible | 1-2 Bidons | Zombies dispersés |
+| **Camps de Bikers** | Élevé | 3-5 Bidons | Patrouilles armées |
+| **Garages industriels** | Moyen | 2-3 Bidons | Coffres-forts à crocheter |
+
+<Checklist
+  id="gas-station-scavenge"
+  title="Étapes de sécurité du carburant :"
+  items={[
+    "Sécuriser au moins 5 bidons de rechange avant de faire sauter la station-service",
+    "Débloquer l'inventaire VIP de Sister Ruby en terminant la série de quêtes du motel",
+    "Localiser et réparer la voiture de police dans les banlieues",
+    "Établir une réserve de carburant secondaire dans votre camp principal"
+  ]}
+/>
+
+<Callout type="info" title="Alerte de gestion du poids">
+Les bidons d'essence sont des objets lourds. Lorsque vous planifiez une sortie dédiée au carburant, limitez les armes et les armures lourdes que portent vos récupérateurs pour vous assurer qu'ils ont une capacité de charge suffisante pour ramener le carburant.
+</Callout>
+
+En équilibrant vos achats auprès de Sister Ruby avec des sorties de récupération ciblées, vous pouvez maintenir une réserve de carburant saine sans ruiner les réserves de pièces de votre escouade.
+
+</Section>
+
+<Section icon={Shield} title="FAQ et dépannage">
+
+<Callout type="tip" title="Soutien de la communauté">
+Si vous rencontrez des problèmes de script pendant la série de quêtes du motel, vérifiez que votre client de jeu est mis à jour avec le dernier patch de la base de données RPG de 2026.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Pourquoi Sister Ruby n'a-t-elle pas d'essence dans son inventaire après que j'ai fait sauter la station-service d'Urban Strife ?",
+    answer: "Il s'agissait d'un bug connu dans la version initiale du script. Les développeurs ont corrigé cela dans la mise à jour de révision RPG. Assurez-vous que votre jeu est à jour et vérifiez spécifiquement son onglet d'inventaire VIP."
+  },
+  {
+    question: "Comment utiliser les bidons d'essence pour remplir ma voiture de police ?",
+    answer: "Vous devez vous tenir près du véhicule avec le bidon d'essence dans votre inventaire personnel, faire un clic droit sur le bidon et sélectionner l'option de ravitaillement. Garder des bidons dans le coffre de la voiture ou dans la réserve ne fonctionnera pas."
+  },
+  {
+    question: "Est-il préférable de s'allier aux cultistes ou aux bikers pour l'économie de carburant ?",
+    answer: "S'allier aux bikers permet généralement d'obtenir des prix de carburant moins chers. Cependant, s'allier aux cultistes offre une meilleure sécurité en début de jeu et des récompenses de quête uniques, malgré le coût de carburant plus élevé de Ruby à 120 pièces."
+  },
+  {
+    question: "Puis-je empêcher la destruction de la station-service d'Urban Strife ?",
+    answer: "Oui, vous pouvez choisir de vous ranger du côté des bikers ou de résoudre le conflit par des branches de quêtes alternatives qui maintiennent l'infrastructure de la station-service intacte."
+  }
+]} />
+
+</Section>

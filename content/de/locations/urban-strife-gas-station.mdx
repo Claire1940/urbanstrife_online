@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Tankstelle: Quest-Entscheidungen & Leitfaden zum Auftanken",
+  description: "Erfahren Sie, wie Sie die Tankstellen-Quest am Motel lösen, Treibstoff von Schwester Ruby kaufen und Ihr Polizeiauto in der Tankstellenmission von Urban Strife auftanken.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Gas+Station",
+  date: "2026-07-16",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Entscheidung an der Tankstelle**: Wenn Sie sich auf die Seite der Motel-Kultisten schlagen, müssen Sie die **Urban Strife Tankstelle** in die Luft jagen, um voranzukommen.
+- **Rubys Treibstoffpreis**: Schwester Ruby verkauft Benzin nach dem neuesten RPG-Datenbank-Patch für 120 Münzen.
+- **Auftank-Mechanik**: Klicken Sie mit der rechten Maustaste auf den Benzinkanister im Inventar Ihres Charakters, während Sie dicht neben dem Fahrzeug stehen.
+- **Ressourcenmanagement**: Horten Sie Kanister von den Bikern, um die hohen Preise der Kultisten zu umgehen.
+</Callout>
+
+<Section icon={Map} title="Das Urban Strife Tankstellen-Dilemma: Kultisten vs. Biker">
+
+Das Navigieren durch das postapokalyptische Ödland erfordert ständige Wachsamkeit und Ressourcen, insbesondere bei den entscheidenden Begegnungen an der **Urban Strife Tankstelle**. Zu Beginn des Spiels geraten Sie am Motel zwischen die Fronten zweier verfeindeter Fraktionen: den örtlichen Kultisten und den rivalisierenden Bikern. Die Entscheidungen, die Sie hier treffen, bestimmen Ihre Ressourcenverfügbarkeit, Ihren Ruf bei den Fraktionen und Ihren Zugang zu Fahrzeugtreibstoff.
+
+Wenn Sie sich auf die Seite der Kultisten im Motel schlagen, verlagert sich Ihr Hauptziel auf die Sabotage der lokalen Treibstoffinfrastruktur. Sergio, eine der führenden Persönlichkeiten unter den Kultisten, beauftragt Sie damit, die nahegelegene Tankstelle in die Luft zu jagen, um den Einfluss der Biker in der Region zu schwächen. Dieser Weg verändert die lokale Wirtschaft und schränkt Ihre direkten Möglichkeiten zum Auftanken ein, sodass Sie für Ihr Überleben auf Händler der Fraktion angewiesen sind.
+
+| Fraktion | Erforderliche Hauptaktion | Unmittelbares Ergebnis | Auswirkung auf Treibstoffzugang |
+|---|---|---|---|
+| **Kultisten** | Tankstelle in die Luft jagen | Sergio verweist Sie an Schwester Ruby | Hohe Preise (120 Münzen pro Kanister) |
+| **Biker** | Tankstelle verteidigen | Treibstoffpumpen intakt halten | Standard-Handelstarife |
+
+<Callout type="warning" title="Kritische Quest-Warnung">
+Das Sprengen der Tankstelle entfernt diese dauerhaft als physischen Plünderungsort für Treibstoff. Dadurch sind Sie vollständig auf Händlerbestände oder zufällige Beute von besiegten Gegnern angewiesen.
+</Callout>
+
+Stellen Sie vor der Sprengung sicher, dass Sie die Umgebung nach Autoteilen, Altmetall und medizinischen Vorräten abgesucht haben. Kehren Sie nach der Zerstörung zu Sergio im Motel zurück. Er wird Ihre Bemühungen loben und versprechen, dass die Kultisten ihre Treibstoffreserven mit Ihrer Truppe teilen, und Sie für die Verteilung an Schwester Ruby verweisen.
+
+</Section>
+
+<Section icon={Trophy} title="Schwester Rubys Treibstoffvorrat und Preise">
+
+Nach Abschluss der Zerstörungs-Quest machen sich Spieler oft direkt auf den Weg zu Schwester Ruby und erwarten eine großzügige Belohnung oder vergünstigten Treibstoff. Das Navigieren in der Hierarchie der Kultisten erfordert jedoch Geduld. In früheren Versionen des Spiels stießen Spieler auf einen Skriptfehler, bei dem Schwester Rubys VIP-Inventar völlig leer war, sodass Trupps ohne Treibstoff dastanden.
+
+Dank des im Jahr 2026 implementierten RPG-Skript-Revisionspatches wurde dieser Inventarfehler behoben. Schwester Ruby führt nun korrekt Benzinkanister in ihrem VIP-Inventar, nachdem Sie die Motel-Questreihe abgeschlossen haben. Erwarten Sie jedoch keinen massiven Rabatt für Ihre Zerstörungsarbeit.
+
+| Händler | Treibstoff-Grundpreis | Verfügbarkeit | Anforderungen |
+|---|---|---|---|
+| **Schwester Ruby** | 120 Münzen | Hoch | Auf der Seite der Kultisten |
+| **Standard-Snitch** | 100 Münzen | Mittel | Neutraler Ruf |
+| **Biker-Händler** | 90 Münzen | Niedrig | Auf der Seite der Biker |
+
+<CardGrid cols={3}>
+  <Card title="Auf der Seite der Kultisten">
+    - **Vorteile**: Hoher Ruf bei der Motel-Fraktion.
+    - **Nachteile**: Benzin kostet 120 Münzen pro Kanister.
+    - **Ergebnis**: Sicherheitszone wird früh freigeschaltet.
+  </Card>
+  <Card title="Auf der Seite der Biker">
+    - **Vorteile**: Günstigere Treibstoffpreise (90-100 Münzen).
+    - **Nachteile**: Feindselige Beziehungen zu den Kultisten.
+    - **Ergebnis**: Taktischere Kampfsituationen.
+  </Card>
+  <Card title="Neutrales Plündern">
+    - **Vorteile**: Münzen sparen durch Verzicht auf Handel.
+    - **Nachteile**: Hohes Risiko von Hinterhalten in Ruinen.
+    - **Ergebnis**: Langsamer, aber kosteneffizienter Fortschritt.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Tipp zur Handelsoptimierung">
+Heben Sie sich wertvolle Tauschartikel wie Waffenkomponenten und sauberes Wasser gezielt für den Handel mit Schwester Ruby auf, um die erhöhten Treibstoffkosten von 120 Münzen auszugeleichen.
+</Callout>
+
+Obwohl der Preis von 120 Münzen pro Kanister über dem Standardsatz liegt, bleibt er eine verlässliche Treibstoffquelle für Trupps, die auf dem Schwierigkeitsgrad „Hardcore“ spielen. Zu diesem Zeitpunkt sollten Sie durch das Besiegen von Biker-Patrouillen genügend Ausrüstung gesammelt haben, um Ihre ersten Reiseanforderungen zu finanzieren.
+
+</Section>
+
+<Section icon={Swords} title="Mechanik zum Auftanken von Fahrzeugen">
+
+Der Erhalt des Polizeiautos ist ein wichtiger Meilenstein in Ihrer Kampagne, aber um es fahrbereit zu halten, müssen Sie die Fahrzeugschnittstelle verstehen. Ein häufiges Problem für Spieler besteht darin, dass sie Dutzende von Benzinkanistern in ihrem Inventar tragen oder im Kofferraum lagern, das Fahrzeug aber trotzdem nicht anspringt.
+
+Das Auftanken in diesem Spiel erfolgt manuell und erfordert eine bestimmte Positionierung. Das Spiel zieht Treibstoff nicht automatisch aus Ihrem Fahrzeuglager oder dem globalen Lager des Lagers. Sie müssen physisch über das aktive Inventar Ihres Charakters mit dem Auto interagieren.
+
+<Steps>
+  <Step num="1" title="Kanister ins aktive Inventar verschieben">
+    Verschieben Sie den Treibstoffkanister aus Ihrem Fahrzeugkofferraum oder dem Lager direkt in das persönliche Inventar Ihres aktiven Charakters.
+  </Step>
+  <Step num="2" title="Charakter positionieren">
+    Stellen Sie Ihren Charakter direkt neben die Fahrertür oder den hinteren Tankdeckel des Polizeiautos.
+  </Step>
+  <Step num="3" title="Per Rechtsklick interagieren">
+    Öffnen Sie Ihr Inventar, klicken Sie mit der rechten Maustaste auf den Benzinkanister und wählen Sie im Kontextmenü die Option zum Auftanken des Fahrzeugs.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Effizienz beim Auftanken">
+Tanken Sie Ihr Fahrzeug immer auf, bevor Sie sich auf lange Überlandreisen begeben. Wenn Ihnen auf der Weltkarte der Treibstoff ausgeht, werden zufällige Notfallbegegnungen ausgelöst, die Ihren Trupp unvorbereitet treffen können.
+</Callout>
+
+Stellen Sie sicher, dass Ihr aktiver Charakter über genügend Aktionspunkte verfügt und sich nicht im Kampfmodus befindet, wenn Sie versuchen aufzutanken, da Wartungsarbeiten während aktiver Gefechte Ihren Trupp feindlichen Flankenangriffen aussetzen können.
+
+</Section>
+
+<Section icon={Target} title="Treibstoffsuche und Ressourcen-Checkliste">
+
+Wenn Sie die hohen Preise von Schwester Ruby vermeiden möchten, bleibt das Plündern Ihre beste Alternative. Das Ödland enthält mehrere versteckte Verstecke, in denen Benzinkanister natürlich spawnen, obwohl diese Gebiete oft von feindlichen Wildtieren oder verzweifelten Plünderern bewacht werden.
+
+Priorisieren Sie bei der Planung einer Plündertour Industriegebiete, verlassene Autobahn-Kontrollpunkte und Garagenhöfe. Diese Bereiche weisen die höchste Wahrscheinlichkeit auf, intakte Benzinkanister zu finden.
+
+| Zonen-Kategorie | Gefahrenstufe | Erwartete Treibstoffausbeute | Haupthindernisse |
+|---|---|---|---|
+| **Autobahnwracks** | Niedrig | 1-2 Kanister | Vereinzelte Zombies |
+| **Biker-Lager** | Hoch | 3-5 Kanister | Bewaffnete Patrouillen |
+| **Industriegaragen** | Mittel | 2-3 Kanister | Geknackte Tresore |
+
+<Checklist
+  id="gas-station-scavenge"
+  title="Meilensteine der Treibstoffsicherung:"
+  items={[
+    "Sichern Sie mindestens 5 Ersatzkanister, bevor Sie die Tankstelle sprengen",
+    "Schalten Sie Schwester Rubys VIP-Inventar frei, indem Sie die Motel-Questreihe abschließen",
+    "Finden und reparieren Sie das Polizeiauto in den Vororten",
+    "Richten Sie ein sekundäres Treibstofflager in Ihrem Hauptlager ein"
+  ]}
+/>
+
+<Callout type="info" title="Gewichtsmanagement-Warnung">
+Benzinkanister sind schwere Gegenstände. Wenn Sie eine gezielte Treibstoffsuche planen, begrenzen Sie die Waffen und die schwere Rüstung, die Ihre Plünderer tragen, um sicherzustellen, dass sie genügend Tragfähigkeit haben, um den Treibstoff zurückzubringen.
+</Callout>
+
+Indem Sie Ihre Einkäufe bei Schwester Ruby mit gezielten Plündertouren ausbalancieren, können Sie eine gesunde Treibstoffreserve aufrechterhalten, ohne den Münzvorrat Ihres Trupps aufzubrauchen.
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen und Fehlerbehebung">
+
+<Callout type="tip" title="Community-Unterstützung">
+Wenn Sie während der Motel-Questreihe auf Skriptprobleme stoßen, überprüfen Sie, ob Ihr Spiel-Client auf den neuesten RPG-Datenbank-Patch von 2026 aktualisiert ist.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Warum hat Schwester Ruby kein Benzin in ihrem Inventar, nachdem ich die Urban Strife Tankstelle gesprengt habe?",
+    answer: "Dies war ein bekannter Fehler in der ersten Skriptversion. Die Entwickler haben dies im RPG-Revisions-Update behoben. Stellen Sie sicher, dass Ihr Spiel aktualisiert ist, und überprüfen Sie speziell ihren VIP-Inventarreiter."
+  },
+  {
+    question: "Wie benutze ich die Benzinkanister, um das Polizeiauto aufzutanken?",
+    answer: "Sie müssen mit dem Benzinkanister in Ihrem persönlichen Inventar in der Nähe des Fahrzeugs stehen, mit der rechten Maustaste auf den Kanister klicken und die Option zum Auftanken wählen. Das Aufbewahren von Kanistern im Kofferraum oder Lager funktioniert nicht."
+  },
+  {
+    question: "Ist es für die Treibstoffökonomie besser, sich auf die Seite der Kultisten oder der Biker zu schlagen?",
+    answer: "Sich auf die Seite der Biker zu schlagen, führt im Allgemeinen zu günstigeren Treibstoffpreisen. Die Seite der Kultisten bietet jedoch eine bessere Sicherheit im frühen Spiel und einzigartige Quest-Belohnungen, trotz Rubys höherer Treibstoffkosten von 120 Münzen."
+  },
+  {
+    question: "Kann ich verhindern, dass die Urban Strife Tankstelle zerstört wird?",
+    answer: "Ja, Sie können sich auf die Seite der Biker schlagen oder den Konflikt über alternative Questzweige lösen, bei denen die Infrastruktur der Tankstelle intakt bleibt."
+  }
+]} />
+
+</Section>

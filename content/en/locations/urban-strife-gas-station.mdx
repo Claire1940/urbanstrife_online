@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Gas Station: Quest Choices & Refueling Guide",
+  description: "Learn how to resolve the motel gas quest, buy fuel from Sister Ruby, and refuel your police car in the Urban Strife gas station mission.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Gas+Station",
+  date: "2026-07-16",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gas Station Choice**: Siding with motel cultists requires blowing up the **urban strife gas station** to progress.
+- **Ruby's Gas Price**: Sister Ruby sells gas for 120 coins after the latest RPG database patch.
+- **Refueling Mechanic**: Right-click the gas canister in your character's inventory while standing close to the vehicle.
+- **Resource Management**: Stockpile canisters from bikers to avoid paying high prices to the cultists.
+</Callout>
+
+<Section icon={Map} title="The Urban Strife Gas Station Dilemma: Cultists vs Bikers">
+
+Navigating the post-apocalyptic wasteland requires constant vigilance and resources, especially when dealing with the pivotal **urban strife gas station** encounters. Early in the game, you will find yourself caught between two conflicting factions at the motel: the local cultists and the rival bikers. The decisions you make here dictate your resource availability, faction reputation, and access to vehicle fuel.
+
+If you choose to side with the cultists at the motel, your primary objective shifts toward sabotaging the local fuel infrastructure. Sergio, one of the prominent figures among the cultists, tasks you with blowing up the nearby gas station to weaken the bikers' hold on the region. Choosing this path alters the local economy and limits your direct fueling options, forcing you to rely on faction traders for your survival needs.
+
+| Faction | Primary Action Required | Immediate Outcome | Fuel Access Impact |
+|---|---|---|---|
+| **Cultists** | Blow up the gas station | Sergio redirects you to Sister Ruby | High prices (120 coins per can) |
+| **Bikers** | Defend the gas station | Keep the fuel pumps intact | Standard trading rates |
+
+<Callout type="warning" title="Critical Quest Warning">
+Blowing up the gas station permanently removes it as a physical looting location for raw fuel, forcing you to rely entirely on vendor stock or random drops from defeated enemies.
+</Callout>
+
+Before initiating the explosion, ensure you have scavenged the surrounding area for loose automobile parts, scrap metal, and medical supplies. Once the demolition is complete, return to Sergio at the motel. He will praise your efforts and promise that the cultists will share their fuel reserves with your squad, directing you to Sister Ruby for your distribution.
+
+</Section>
+
+<Section icon={Trophy} title="Sister Ruby's Gas Supply and Pricing">
+
+After completing the demolition quest, players often head straight to Sister Ruby expecting a generous reward or discounted fuel. However, navigating the cultist hierarchy requires patience. In earlier versions of the game, players encountered a scripting inconsistency where Sister Ruby's VIP inventory appeared completely empty, leaving squads stranded without fuel. 
+
+Thanks to the RPG script revision patch implemented in 2026, this inventory bug has been resolved. Sister Ruby now correctly stocks gas canisters in her VIP inventory after you complete the motel questline. However, do not expect a massive discount for your destructive efforts.
+
+| Vendor | Base Fuel Cost | Availability | Requirements |
+|---|---|---|---|
+| **Sister Ruby** | 120 Coins | High | Sided with Cultists |
+| **Standard Snitch** | 100 Coins | Medium | Neutral Reputation |
+| **Biker Traders** | 90 Coins | Low | Sided with Bikers |
+
+<CardGrid cols={3}>
+  <Card title="Siding with Cultists">
+    - **Pros**: High reputation with motel faction.
+    - **Cons**: Gas costs 120 coins per canister.
+    - **Outcome**: Safe zone unlocked early.
+  </Card>
+  <Card title="Siding with Bikers">
+    - **Pros**: Cheaper fuel prices (90-100 coins).
+    - **Cons**: Hostile relations with the cultists.
+    - **Outcome**: More tactical combat encounters.
+  </Card>
+  <Card title="Neutral Scavenging">
+    - **Pros**: Save coins by avoiding trade.
+    - **Cons**: High risk of ambush in ruins.
+    - **Outcome**: Slow but cost-effective progression.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Trading Optimization Tip">
+Keep high-value barter items, such as weapon components and clean water, specifically for trading with Sister Ruby to offset the inflated 120-coin fuel cost.
+</Callout>
+
+While the price of 120 coins per canister is higher than the standard rate, it remains a reliable source of fuel for squads playing on hardcore difficulty. At this stage, you should have gathered enough equipment from defeating biker patrols to fund your initial travel requirements.
+
+</Section>
+
+<Section icon={Swords} title="Vehicle Refueling Mechanics">
+
+Acquiring the police car is a major milestone in your campaign, but keeping it running requires understanding the vehicle interface. A common issue players face is carrying dozens of gas canisters in their inventory or storing them in the car trunk, only to find the vehicle still refuses to start.
+
+The refueling process in this game is manual and requires specific positioning. The game does not automatically pull fuel from your vehicle storage or global camp stash. You must physically interact with the car using your character's active inventory.
+
+<Steps>
+  <Step num="1" title="Transfer Canister to Active Inventory">
+    Move the fuel canister from your vehicle trunk or camp storage directly into the personal inventory of your active character.
+  </Step>
+  <Step num="2" title="Position Your Character">
+    Walk your character directly next to the driver's side door or the rear fuel cap of the police car.
+  </Step>
+  <Step num="3" title="Interact via Right-Click">
+    Open your inventory, right-click on the gas canister, and select the option to refuel the vehicle from the context menu.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Refueling Efficiency">
+Always refuel your vehicle before embarking on long overland journeys. Running out of fuel on the world map triggers emergency random encounters that can catch your squad off guard.
+</Callout>
+
+Ensure your active character has sufficient action points and is not in combat mode when attempting to refuel, as performing maintenance during active skirmishes can expose your squad to enemy flanking maneuvers.
+
+</Section>
+
+<Section icon={Target} title="Fuel Scavenging and Resource Checklist">
+
+If you prefer to avoid the high prices charged by Sister Ruby, scavenging remains your best alternative. The wasteland contains several hidden caches where fuel canisters spawn naturally, though these areas are often guarded by hostile wildlife or desperate raiders.
+
+When planning a scavenging run, prioritize industrial zones, abandoned highway checkpoints, and garage backlots. These areas have the highest probability of yielding intact fuel canisters.
+
+| Zone Category | Danger Level | Expected Fuel Yield | Key Obstacles |
+|---|---|---|---|
+| **Highway Wrecks** | Low | 1-2 Canisters | Scattered Zombies |
+| **Biker Camps** | High | 3-5 Canisters | Armed Patrols |
+| **Industrial Garages** | Medium | 2-3 Canisters | Lockpicked Safes |
+
+<Checklist
+  id="gas-station-scavenge"
+  title="Fuel Security Milestones:"
+  items={[
+    "Secure at least 5 spare canisters before blowing up the gas station",
+    "Unlock Sister Ruby's VIP inventory by completing the motel questline",
+    "Locate and repair the police car in the suburbs",
+    "Establish a secondary fuel stash at your main camp"
+  ]}
+/>
+
+<Callout type="info" title="Weight Management Alert">
+Gas canisters are heavy items. When planning a dedicated fuel run, limit the weapons and heavy armor your scavengers carry to ensure they have enough carrying capacity to bring the fuel back.
+</Callout>
+
+By balancing your purchases from Sister Ruby with targeted scavenging runs, you can maintain a healthy fuel reserve without bankrupting your squad's coin supply.
+
+</Section>
+
+<Section icon={Shield} title="FAQ and Troubleshooting">
+
+<Callout type="tip" title="Community Support">
+If you encounter any script issues during the motel questline, verify that your game client is updated to the latest 2026 RPG database patch.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Why does Sister Ruby have no gas in her inventory after I blew up the urban strife gas station?",
+    answer: "This was a known bug in the initial script release. The developers have patched this in the RPG revision update. Ensure your game is updated, and check her VIP inventory tab specifically."
+  },
+  {
+    question: "How do I use the gas canisters to fill up my police car?",
+    answer: "You must stand near the vehicle with the gas canister in your personal inventory, right-click the canister, and select the refuel option. Keeping canisters in the car trunk or stash will not work."
+  },
+  {
+    question: "Is it better to side with the cultists or the bikers for fuel economy?",
+    answer: "Siding with the bikers generally yields cheaper fuel prices. However, siding with the cultists provides better early-game safety and unique quest rewards, despite Ruby's higher fuel cost of 120 coins."
+  },
+  {
+    question: "Can I prevent the urban strife gas station from being destroyed?",
+    answer: "Yes, you can choose to side with the bikers or resolve the conflict through alternative quest branches that keep the gas station infrastructure intact."
+  }
+]} />
+
+</Section>

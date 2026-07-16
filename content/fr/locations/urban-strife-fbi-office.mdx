@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Bureau du FBI d'Urban Strife : Guide pour voler le coffre-fort et infiltration furtive",
+  description: "Apprenez comment voler le coffre-fort du Firm au bureau du FBI dans Urban Strife en utilisant des tactiques de discrétion sans déclencher d'agressivité hostile.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=FBI+Office+Stealth+Guide",
+  date: "2026-07-16",
+  author: "Équipe du Wiki d'Urban Strife",
+  keywords: "urban strife, bureau du fbi, voler coffre-fort, discrétion, le firm, guide tactique"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal** : Récupérer le coffre-fort verrouillé du quartier général de la faction du Firm sur la carte du **bureau du fbi d'urban strife**.
+- **Mécanique clé** : Voler le coffre-fort est considéré comme un acte hostile ; entrer dans leur champ de vision à l'intérieur de la zone protégée déclenche un combat immédiat.
+- **Meilleure stratégie** : Exécutez le casse après minuit, lorsque les cônes de vision des gardes et les patrouilles actives sont considérablement réduits.
+- **Avertissement critique** : Ne brisez pas les fenêtres arrière pour entrer, car cette action alerte automatiquement tout le complexe.
+- **Approche alternative** : Si la discrétion échoue, éliminez les sbires du Firm en utilisant des positions tactiques à couvert élevé pour sécuriser le butin.
+</Callout>
+
+<Section icon={Map} title="Aperçu de la carte du bureau du FBI d'Urban Strife">
+
+Naviguer dans la quête du **bureau du fbi d'urban strife** présente l'un des défis tactiques les plus intrigants du jeu. Situé dans un secteur contesté, la carte du bureau du FBI est lourdement gardée par une faction de motards connue sous le nom de Firm. Votre objectif principal ici est de récupérer un coffre-fort sécurisé de haute valeur, verrouillé au plus profond de leur territoire.
+
+Parce que le Firm contrôle cette zone, tenter de repartir avec leur propriété se solde généralement par une fusillade mortelle. Cependant, le jeu permet plusieurs approches tactiques, allant de l'infiltration à enjeux élevés au combat total. Comprendre la disposition du complexe et la dynamique de la faction est essentiel avant d'agir.
+
+| Paramètre | Détails |
+| :--- | :--- |
+| Emplacement de la carte | Secteur du bureau du FBI |
+| Faction clé | Le Firm (Gang de motards) |
+| Objet cible | Coffre-fort sécurisé |
+| PNJ principal | Le Directeur |
+| Type de quête | Infiltration / Récupération |
+
+<Callout type="info" title="Relations avec les Factions">
+Le Firm n'est pas hostile envers votre escouade à vue lors de votre première arrivée. Vous pouvez parler à leur chef, « Le Directeur », pour recueillir des informations. Cependant, pénétrer dans leurs zones rouges restreintes ou toucher à leur propriété rend immédiatement tout le complexe hostile.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Trouver le coffre-fort dans le magasin de vélos">
+
+De nombreux joueurs fouillent le bâtiment principal du FBI à plusieurs étages à la recherche du coffre-fort cible, mais c'est une erreur courante. Le coffre se trouve en réalité dans l'arrière-boutique du magasin de vélos adjacent, qui sert de club-house principal au Firm. C'est la pièce exacte où réside leur chef autoproclamé, « Le Directeur ».
+
+La zone entourant immédiatement le coffre-fort est désignée comme une zone protégée. Cette zone est marquée par des carrés de grille rouges sur votre interface tactique. Si un membre du Firm repère votre escouade à l'intérieur de ces carrés rouges, ou vous surprend en train d'interagir avec le coffre, il vous signalera instantanément pour vol et engagera le combat.
+
+<CardGrid cols={3}>
+  <Card title="Route du Casse Furtif">
+    - **Zéro perte de réputation** : Gardez le Firm neutre pour les échanges futurs.
+    - **Difficulté élevée** : Nécessite un timing et des mouvements précis.
+    - **Dépendant du temps** : Fortement recommandé de ne tenter que de nuit.
+  </Card>
+  <Card title="Route du Combat Total">
+    - **Butin garanti** : Éliminez tous les défenseurs pour un maximum de butin.
+    - **Coût en ressources élevé** : Consomme des munitions et des objets de soin précieux.
+    - **Hostilité de faction** : Ruine définitivement les relations avec le Firm.
+  </Card>
+  <Card title="Leurre et Distraction">
+    - **Approche hybride** : Utilisez le bruit ou des leurres pour éloigner les gardes.
+    - **Risque modéré** : Nécessite une escouade divisée et une planification minutieuse.
+    - **IA imprévisible** : Les gardes peuvent retourner à leurs postes rapidement.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Évitez les fenêtres">
+Tenter de contourner les gardes en brisant les fenêtres arrière du magasin de vélos échouera. Briser du verre crée un bruit fort et alerte automatiquement toute la faction, rendant la discrétion impossible dès le départ.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Voler le coffre-fort sur la carte du bureau du FBI d'Urban Strife">
+
+Pour réussir le casse sans tirer un seul coup de feu, vous devez exploiter le cycle jour-nuit dynamique du jeu. Pendant la journée, le magasin de vélos est lourdement gardé, et les cônes de vision superposés des sbires du Firm rendent l'entrée indétectable presque impossible.
+
+Selon les stratégies communautaires partagées sur les forums Steam, attendre après minuit est la clé du succès. La nuit, les patrouilles de gardes sont réduites et l'obscurité réduit considérablement leurs cônes de vision (les carrés de grille rouges), ouvrant des passages sûrs vers l'arrière-boutique.
+
+| Condition | Infiltration de jour | Infiltration de nuit |
+| :--- | :--- | :--- |
+| Vision des gardes | Grands cônes de grille rouges | Cônes considérablement réduits |
+| Fréquence des patrouilles | Actives et superposées | Gardes statiques, moins de patrouilles |
+| Sensibilité à l'alerte | Alarme immédiate à vue | Remplissage plus lent de la jauge de détection |
+| Approche recommandée | Distraction ou Combat | Discrétion pure |
+| Niveau de difficulté | Difficile | Modéré |
+
+<Steps>
+  <Step num="1" title="Attendre jusqu'à minuit">
+    Établissez un camp ou passez le temps jusqu'à ce que l'horloge sonne minuit. L'obscurité est votre meilleur atout, car elle réduit la taille des cônes de vision des gardes et modifie leurs itinéraires de patrouille.
+  </Step>
+  <Step num="2" title="Identifier les angles morts">
+    Approchez-vous du magasin de vélos depuis les ombres. Activez votre interface tactique pour examiner les grilles de vision rouges des gardes restants. Identifiez les lacunes dans leur couverture menant vers l'arrière-boutique.
+  </Step>
+  <Step num="3" title="Infiltrer l'arrière-boutique">
+    Déplacez le membre le plus furtif de votre escouade à l'intérieur en utilisant le mouvement accroupi. Assurez-vous que vos points d'action sont maximisés à chaque tour pour traverser rapidement toute zone potentiellement exposée.
+  </Step>
+  <Step num="4" title="Interagir et se retirer">
+    Saisissez le coffre-fort dans l'arrière-boutique. Si la jauge de détection d'un garde commence à se remplir, retirez-vous immédiatement dans un coin sombre et restez hors de vue. Attendez environ une minute en temps réel pour que leur état d'alerte diminue avant de vous éclipser du complexe.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Utiliser la mécanique de diminution de l'alerte">
+Si un garde soupçonne votre présence mais n'entre pas en mode de combat complet, figez-vous sur place ou retirez-vous dans l'ombre. L'IA fouillera brièvement la zone immédiate puis reprendra sa patrouille standard après environ une minute de silence en temps réel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Tactique : La Route de l'Agressivité">
+
+Si la discrétion n'est pas votre style de jeu préféré, ou si votre escouade est équipée pour la guerre, éliminer le Firm par la force est une option viable et très gratifiante. Les sbires du Firm transportent des armes à feu, des munitions et des armures de milieu de jeu décentes qui peuvent considérablement booster les capacités de votre escouade.
+
+Lors d'un combat à l'intérieur du magasin de vélos, les points d'étranglement sont vos meilleurs alliés. Les portes étroites et les couloirs serrés du bâtiment vous permettent de canaliser les ennemis dans votre ligne de mire tout en gardant votre escouade en sécurité derrière des abris solides.
+
+| Type d'unité | Arme principale | Niveau de menace | Contre-mesure tactique |
+| :--- | :--- | :--- | :--- |
+| Sbire du Firm | Pistolets / Mêlée | Faible | Éliminations silencieuses au corps à corps ou tirs à longue distance |
+| Garde du Firm | Fusils à pompe / PM | Moyen | Flanc depuis un abri solide, utiliser des grenades flash |
+| Le Directeur | Fusil d'assaut / Lourd | Élevé | Tir de suppression, grenades à fragmentation |
+
+<Callout type="success" title="Récompenses de combat">
+Anéantir le Firm permet non seulement de sécuriser le coffre-fort, mais vous donne également accès à toute leur réserve d'armurerie à l'intérieur du magasin de vélos, offrant un excellent coup de pouce à la progression globale de votre escouade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Préparation et Liste de contrôle">
+
+Avant de tenter le casse furtif ou l'assaut de combat au bureau du FBI, assurez-vous que votre escouade est correctement équipée. Avoir les bons outils peut faire la différence entre une fuite propre et une élimination désastreuse de l'escouade.
+
+<Checklist
+  id="fbi-office-prep"
+  title="Liste de préparation de mission :"
+  items={[
+    "Équipez votre infiltrateur principal d'une armure légère pour maximiser son score de discrétion",
+    "Apportez des crochets pour contourner silencieusement les portes intérieures verrouillées",
+    "Emportez des grenades fumigènes ou flash pour couvrir votre fuite si vous êtes repéré",
+    "Assurez-vous que vos escouades de combat sont positionnées à couvert à l'extérieur du magasin en guise de plan de secours",
+    "Sauvegardez votre partie manuellement avant d'entrer dans la zone protégée du magasin de vélos"
+  ]}
+/>
+
+<Callout type="warning" title="Mises à jour du système de discrétion">
+Gardez à l'esprit que les mises à jour du jeu ajustent fréquemment les paramètres de discrétion et les taux de détection de l'IA. Vérifiez toujours les statistiques de discrétion actives de votre escouade dans le menu des personnages avant de tenter une approche sans agressivité.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Où se trouve le coffre-fort sur la carte du bureau du fbi d'urban strife ?",
+    answer: "Le coffre-fort n'est pas dans le bâtiment principal du FBI. Il se trouve dans l'arrière-boutique du magasin de vélos adjacent, juste là où se trouve le chef de faction, « Le Directeur »."
+  },
+  {
+    question: "Puis-je voler le coffre-fort sans combattre le Firm ?",
+    answer: "Oui. En attendant après minuit, les cônes de vision des gardes sont réduits, ce qui permet à un personnage très furtif de se glisser dans l'arrière-boutique, de saisir le coffre et de s'échapper sans déclencher de combat."
+  },
+  {
+    question: "Est-ce que briser la fenêtre du magasin de vélos alerte les gardes ?",
+    answer: "Oui. Briser n'importe quelle fenêtre du complexe crée un bruit qui alerte immédiatement le Firm et déclenche l'agressivité hostile, contournant la phase standard de détection furtive."
+  },
+  {
+    question: "Que dois-je faire si un garde commence à me détecter ?",
+    answer: "Retirez-vous immédiatement dans une zone sombre hors de leur ligne de mire. Attendez environ une minute en temps réel sans faire de bruit, et les gardes abandonneront leur état d'alerte pour reprendre leurs patrouilles."
+  }
+]} />
+
+</Section>
