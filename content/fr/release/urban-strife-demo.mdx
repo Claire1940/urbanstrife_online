@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Users, Home } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Démo d'Urban Strife : Guide de stratégie 2026 et analyse du combat",
+  description: "Maîtrisez la démo d'Urban Strife avec notre guide expert. Explorez le combat au tour par tour, la construction de base et les stratégies de faction dans cette analyse de RPG de survie 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Urban+Strife+Demo+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "démo urban strife, guide de combat, survie zombie, RPG tactique, gestion de base"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé principal** : La **démo d'Urban Strife** offre un aperçu approfondi des mécaniques de survie au tour par tour et du combat tactique.
+- **Mécanique centrale** : Le combat utilise un **système balistique unique** et des mouvements de zombies simultanés pour augmenter la tension.
+- **Stratégie de survie** : Concentrez-vous sur la **gestion des ressources** et l'établissement d'alliances avec les factions locales pour sécuriser votre abri.
+- **Conseil tactique** : Utilisez l'**environnement destructible** pour créer de nouveaux passages ou éliminer les couvertures ennemies lors des escarmouches.
+- **Contenu de la démo** : La version actuelle propose un **Prologue complètement remanié** avec des éléments d'interface mis à jour.
+</Callout>
+
+<Section icon={Map} title="Démo d'Urban Strife : Présentation et mise en route">
+
+La **démo d'Urban Strife** plonge les joueurs dans un monde ravagé par une épidémie virale, deux ans après l'effondrement initial. Vous incarnez un mystérieux survivant secouru par l'**Urban Shelter**, une petite communauté luttant pour maintenir l'ordre au milieu du chaos. En tant que leader, votre objectif principal est de reconstruire ce sanctuaire, de gérer le moral de vos survivants et de naviguer dans le paysage social périlleux du sud des États-Unis post-apocalyptique.
+
+**Points forts de la vidéo :**
+- **IA dynamique** : Observation du mouvement simultané des zombies pour accélérer les rencontres au tour par tour.
+- **Balistique** : Démonstration de projectiles pénétrant des matériaux comme le bois et le métal mince.
+- **Gestion de base** : Visite des ateliers de fabrication et des installations de durabilité.
+- **Interaction avec les factions** : Aperçu du système de dialogue à embranchements avec les groupes du début de partie.
+
+<YouTubeEmbed videoId="_KHkn77UddE" title="Urban Strife Review - Is It Worth Playing for Zombie Survival Fans? | Gameplay Demo Analysis" />
+
+La démo sert de tranche verticale de l'expérience complète, mettant en avant l'exploration non linéaire et le poids important des décisions morales. Les joueurs peuvent explorer des ruines urbaines, des forêts denses et des tunnels souterrains. Pour faciliter les déplacements sur ces grandes cartes, un SUV personnalisable est fourni, servant également de stockage étendu pour vos sorties de récupération.
+
+| Fonctionnalité | Disponibilité dans la démo | Description |
+| :--- | :--- | :--- |
+| **Histoire du Prologue** | Accès complet | Introduction complète au récit de l'Urban Shelter. |
+| **Combat au tour par tour** | Activé | Système tactique complet incluant la balistique et les couvertures destructibles. |
+| **Construction de base** | Partielle | Accès aux ateliers de base, à l'infirmerie et aux casernes. |
+| **Factions** | 3 Groupes | Interactions avec le Culte, les Bikers et l'Armée Rebelle. |
+| **Exploration** | Hubs locaux | Exploration du comté immédiat entourant l'abri. |
+
+<Callout type="tip" title="Conseil de Pro">
+Avant de vous lancer dans le combat, consultez la "fiche de triche" fournie dans la mise à jour des actualités Steam. Elle contient des raccourcis vitaux pour l'interface que le tutoriel en jeu pourrait survoler trop rapidement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat tactique et systèmes balistiques">
+
+Le cœur de la **démo d'Urban Strife** réside dans son moteur de combat sophistiqué. Contrairement aux jeux au tour par tour traditionnels où chaque unité se déplace individuellement, Urban Strife utilise une **IA de mouvement simultané** pour les essaims de zombies. Cela évite le "jeu d'attente" souvent présent dans le genre, rendant les rencontres avec de grands groupes fluides et dangereuses.
+
+Le système balistique est tout aussi impressionnant. Chaque balle tirée est traitée comme un objet physique avec une trajectoire calculée. Des facteurs tels que les statistiques de l'arme et la densité du matériau déterminent si un tir pénètre un mur ou ricoche sans danger. Cela ajoute une couche de profondeur où la "couverture" est relative ; une clôture en bois peut vous cacher, mais elle n'arrêtera pas une balle de fusil de gros calibre.
+
+| Type d'action | Coût en PA | Bénéfice tactique |
+| :--- | :--- | :--- |
+| **Tir standard** | Moyen | Dégâts fiables basés sur la précision de l'arme. |
+| **Vigilance** | Variable | Tire automatiquement sur les ennemis passant dans votre ligne de mire. |
+| **Attaque de mêlée** | Faible | Éliminations silencieuses ; économise les munitions précieuses. |
+| **Interagir** | Faible | Ouvrir des portes, grimper aux fenêtres ou piller des conteneurs en plein combat. |
+| **Recharger** | Faible/Moyen | Entretien essentiel ; le coût varie selon le type d'arme. |
+
+<CardGrid cols={2}>
+  <Card title="Focus Combat à distance">
+    - **Pénétration de matériau** : Tirez à travers des couvertures minces pour surprendre les ennemis.
+    - **Ligne de mire** : Utilisez l'élévation pour augmenter votre probabilité de toucher.
+    - **Gestion des munitions** : Fabriquez des munitions spécialisées dans l'atelier pour les ennemis blindés.
+  </Card>
+  <Card title="Focus Mêlée et Discrétion">
+    - **Gestion de l'endurance** : Les attaques de mêlée consomment de l'endurance ; ne vous surmenez pas.
+    - **Éliminations silencieuses** : Nettoyez les pièces sans alerter tout le voisinage.
+    - **Environnement** : Utilisez les ombres et les coins pour tendre des embuscades dévastatrices.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement de Combat">
+La démo manque actuellement d'un mode "accéléré" pour les combats entre humains. Planifiez vos tours avec soin, car les escarmouches plus importantes contre des factions armées peuvent prendre un temps considérable à se résoudre.
+</Callout>
+
+</Section>
+
+<Section icon={Home} title="Construction de base et gestion des ressources">
+
+La survie dans la **démo d'Urban Strife** ne consiste pas seulement à gagner des combats ; il s'agit de soutenir une communauté. L'Urban Shelter sert de hub stratégique. Ici, vous devez allouer les ressources collectées lors de l'exploration pour améliorer les installations qui offrent des avantages à long terme.
+
+La couche de gestion implique de maintenir le moral du groupe élevé tout en équilibrant les besoins de votre peuple. Les ateliers permettent de créer des accessoires d'armes et des fournitures médicales, tandis que les jardins et les casernes se concentrent sur la durabilité de la nourriture et de la main-d'œuvre.
+
+| Installation | Fonction principale | Bénéfice d'amélioration clé |
+| :--- | :--- | :--- |
+| **Atelier** | Artisanat | Débloque des munitions avancées et des mods d'armes. |
+| **Infirmerie** | Soins | Récupération plus rapide des blessures et traitement des infections. |
+| **Jardin** | Production de nourriture | Réduit la dépendance aux conserves récupérées. |
+| **Casernes** | Logement | Augmente le nombre maximum de miliciens recrutables. |
+| **Garage** | Entretien du véhicule | Améliore l'efficacité énergétique du SUV et sa capacité de stockage. |
+
+<Callout type="success" title="Conseil de durabilité">
+Priorisez le Jardin tôt dans la démo. La nourriture récupérée est limitée, et établir une source renouvelable de nutrition garantit que vos survivants ne subissent pas de pénalités de moral dues à la faim.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Dynamique des factions et choix moraux">
+
+Le sud des États-Unis dans Urban Strife est peuplé de diverses factions, chacune ayant son propre agenda et sa propre boussole morale. Vos interactions avec ces groupes détermineront les ressources auxquelles vous pourrez accéder et la fin ultime de votre histoire. La **démo d'Urban Strife** met en avant trois groupes principaux que vous rencontrerez tôt dans le récit.
+
+| Nom de la faction | Alignement général | Opportunités uniques |
+| :--- | :--- | :--- |
+| **Culte de la Seconde Chance** | Religieux/Fanatique | Accès à des bonus psychologiques uniques et des recrues. |
+| **Bikers Shady Lady** | Mercenaire/Protecteur | Pièces de véhicule de haute qualité et entraînement au combat. |
+| **Garnison de l'Armée Rebelle** | Autoritaire/Militariste | Armes à feu de haut niveau et équipement tactique. |
+
+Naviguer dans ces relations est un exercice d'équilibre. S'allier avec les Bikers pourrait vous fournir les pièces nécessaires pour réparer votre SUV, mais cela pourrait simultanément s'antagoniser la Garnison de l'Armée Rebelle, entraînant des raids sur votre abri. Le système de dialogue à embranchements garantit que chaque choix a du poids, rendant la narration aussi réactive que le combat tactique.
+
+<Callout type="info" title="Influence des factions">
+Votre réputation auprès d'une faction affecte les prix commerciaux et la disponibilité de quêtes secondaires spécifiques. Vérifiez toujours votre statut avant de tenter de négocier des objets de grande valeur.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de survie étape par étape">
+
+Pour tirer le meilleur parti de votre temps dans la **démo d'Urban Strife**, suivez ces étapes essentielles pour sécuriser votre abri et préparer la survie à long terme de votre groupe.
+
+<Steps>
+  <Step num="1" title="Sécurisez le périmètre">
+    Nettoyez la zone immédiate autour de l'Urban Shelter des zombies errants. Utilisez des armes de mêlée chaque fois que possible pour conserver les munitions pour les rencontres humaines plus dangereuses.
+  </Step>
+  <Step num="2" title="Récupérez l'essentiel">
+    Localisez les bâtiments résidentiels à proximité pour trouver des matériaux de construction de base et de la nourriture. Concentrez-vous sur la collecte de bois et de ferraille pour vos premières améliorations d'atelier.
+  </Step>
+  <Step num="3" title="Établissez un atelier">
+    Construisez l'installation de l'Atelier dès que vous avez les matériaux. Cela vous permet de réparer les armes à feu endommagées trouvées sur le terrain, ce qui est beaucoup moins cher que d'en acheter de nouvelles.
+  </Step>
+  <Step num="4" title="Établissez le premier contact">
+    Approchez l'avant-poste de la faction la plus proche. Écoutez leurs demandes mais évitez de conclure des alliances permanentes avant d'avoir repéré les autres groupes concurrents dans la zone.
+  </Step>
+  <Step num="5" title="Améliorez le SUV">
+    Une fois le Garage fonctionnel, concentrez-vous sur l'expansion de l'espace du coffre du SUV. Cela augmente considérablement l'efficacité de vos sorties de récupération en vous permettant de ramener plus de butin en un seul voyage.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Conseil d'exploration">
+N'ignorez pas les tunnels. Bien qu'ils soient souvent infestés de zombies, ils contiennent fréquemment des fournitures médicales de grande valeur qui sont rares à la surface.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de fin de démo">
+
+Avant de terminer la **démo d'Urban Strife**, assurez-vous d'avoir expérimenté tous les systèmes de base et préparé votre sauvegarde pour d'éventuelles futures mises à jour ou la sortie complète.
+
+<Checklist
+  id="demo-milestones"
+  title="Objectifs de la démo d'Urban Strife :"
+  items={[
+    "Terminer l'intrigue du 'Nouveau Prologue'",
+    "Améliorer au moins deux installations de base au niveau 2",
+    "Défendre avec succès l'abri contre un raid de zombies",
+    "Rencontrer les trois factions majeures et terminer une quête pour chacune",
+    "Trouver et réparer le SUV personnalisable",
+    "Débloquer au moins trois compétences de combat dans l'arbre de compétences"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Limitations actuelles et perspectives d'avenir">
+
+En tant que titre en accès anticipé, la **démo d'Urban Strife** est un travail en cours. Bien que les mécaniques de base soient robustes, les joueurs doivent être conscients de certains problèmes. Le passage aux portraits de personnages générés par IA a été un point de discorde au sein de la communauté, car certains estiment qu'ils manquent du charme des illustrations originales faites à la main. De plus, l'absence d'un bouton d'accélération pour le combat peut rendre les grandes batailles fastidieuses.
+
+Cependant, les développeurs de MicroProse ont été actifs pour répondre aux commentaires. La démo est fréquemment mise à jour pour corriger les bugs et affiner l'interface utilisateur. Pour les fans de stratégie au tour par tour classique et de RPG de survie profonds, l'innovation dans les systèmes balistiques et d'IA fait d'Urban Strife un titre à suivre de près en 2026.
+
+| Aspect | État actuel | Objectif futur |
+| :--- | :--- | :--- |
+| **Performance** | Stable sur les PC de milieu de gamme | Optimisation supplémentaire pour le matériel bas de gamme. |
+| **Style artistique** | Mitigé (Portraits IA) | Raffinement potentiel ou retour aux actifs faits à la main. |
+| **Vitesse de combat** | Lente dans les grands groupes | Implémentation d'un bouton d'accélération ou de passage des animations. |
+| **Profondeur de contenu** | Élevée (pour une démo) | Campagne complète avec de multiples variations de fin. |
+
+<Callout type="warning" title="Note de développement">
+Gardez à l'esprit que les fichiers de sauvegarde de la démo ne seront pas toujours compatibles avec la version finale du jeu. Utilisez la démo principalement pour apprendre les mécaniques et tester différents styles de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ de la démo d'Urban Strife">
+
+<FAQ items={[
+  {
+    question: "La démo d'Urban Strife est-elle gratuite ?",
+    answer: "Oui, la démo d'Urban Strife est actuellement disponible gratuitement sur Steam, proposant un Prologue complètement remanié pour que les joueurs puissent tester les mécaniques."
+  },
+  {
+    question: "Puis-je sauvegarder ma progression dans la démo ?",
+    answer: "Oui, vous pouvez sauvegarder votre progression, mais sachez que les mises à jour majeures pendant la période d'accès anticipé peuvent occasionnellement rompre la compatibilité des fichiers de sauvegarde."
+  },
+  {
+    question: "La démo prend-elle en charge le multijoueur ?",
+    answer: "Actuellement, la démo d'Urban Strife se concentre exclusivement sur l'expérience RPG solo et de survie tactique."
+  },
+  {
+    question: "Comment fonctionne la balistique dans le jeu ?",
+    answer: "Le jeu utilise un calcul en temps réel pour chaque projectile, prenant en compte le matériau de la couverture, les statistiques de l'arme et l'angle de tir."
+  }
+]} />
+
+</Section>

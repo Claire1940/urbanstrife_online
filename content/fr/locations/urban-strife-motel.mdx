@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Motel d'Urban Strife : Solution, guide des quêtes et corrections de bugs",
+  description: "Maîtrisez la zone du Motel d'Urban Strife grâce à notre solution complète. Apprenez des stratégies de combat, terminez la quête Motel California et corrigez les bugs de progression.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Motel+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "urban strife, motel, guide, solution, quête, combat, bugs"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Lieu principal** : Le **motel d'urban strife** est un carrefour central du début et du milieu de partie, abritant des sectateurs, des motards et des hordes de morts-vivants.
+- **Focus combat** : L'élimination furtive au corps à corps est largement supérieure aux armes à feu bruyantes en raison des pénalités de précision extrêmes subies la nuit.
+- **Progression de quête** : Nettoyez les environs, consultez les chefs des sectateurs et éliminez les éclaireurs cachés à la laverie.
+- **Correction de bug critique** : Si la quête « éliminer les éclaireurs » ne progresse pas, localisez le dernier éclaireur caché près du baril de feu.
+- **Butin clé** : Récupérez le fusil à pompe Winchester et les fournitures médicales dans la pharmacie et les chambres du motel.
+</Callout>
+
+<Section icon={Map} title="Explorer le motel d'Urban Strife">
+
+Naviguer dans le secteur du **motel d'urban strife** nécessite un équilibre minutieux entre furtivité, positionnement tactique et diplomatie entre factions. Cette zone sert de carrefour critique où s'affrontent les intérêts du gang de motards local, des mystérieux sectateurs et de la horde de zombies envahissante. Survivre dans cette zone dépend fortement de votre compréhension du terrain, composé de couloirs intérieurs étroits, de parkings ouverts et de points de passage hautement défendables.
+
+À votre arrivée au motel, vous vous retrouverez dans un environnement sombre et atmosphérique. La disposition est relativement compacte mais regorge de dangers environnementaux et d'ennemis cachés. Explorer de nuit offre des avantages tactiques distincts pour la furtivité, mais introduit également de graves pénalités de visibilité qui peuvent paralyser l'efficacité à distance de votre escouade.
+
+**Points forts de la vidéo :**
+- **Configuration de mêlée furtive** : Découvrez comment les éliminations silencieuses au corps à corps vous permettent de nettoyer le motel sans alerter toute la horde.
+- **Pénalités de combat nocturne** : Constatez l'impact dramatique de l'obscurité sur la précision à distance et pourquoi les armes à feu échouent souvent en combat rapproché.
+- **Exploration de la pharmacie et de la laverie** : Une solution détaillée pour piller des fournitures médicales de grande valeur et éliminer les éclaireurs hostiles.
+- **Améliorations d'armes** : Découvrez l'emplacement et les performances du fusil à pompe court Winchester trouvé dans les casiers des motards.
+
+<YouTubeEmbed videoId="PSY9LkVMJ8U" title="Urban Strife - Let's Play Ép. 6 - Motel - La secte & leurs zombies - Rapports des motards - Pharmacie & laverie" />
+
+Pour optimiser votre exploration, sécurisez toujours le périmètre extérieur avant de tenter de pénétrer dans les bâtiments principaux du motel. Des zombies errants et des voleurs hostiles patrouillent à la périphérie, et ne pas les éliminer tôt peut amener votre escouade à être prise à revers lors des rencontres de quête critiques.
+
+<Callout type="warning" title="Pénalité de précision nocturne">
+Les armes à distance subissent une réduction massive des chances de toucher dans l'obscurité. Si vous devez combattre la nuit, appuyez-vous sur des spécialistes du corps à corps ou rapprochez vos tireurs à bout portant pour atténuer cette pénalité.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de combat : Corps à corps vs Armes à feu">
+
+Le combat dans le secteur du motel oblige les joueurs à faire un choix difficile entre l'élimination silencieuse au corps à corps et les engagements bruyants aux armes à feu. En raison de la disposition étroite des chambres du motel et de la pharmacie, la gestion du bruit est votre atout le plus précieux. Tirer un seul coup de feu non silencieux peut alerter les générateurs de zombies à proximité, transformant rapidement une escarmouche contrôlée en une horde écrasante.
+
+Le combat au corps à corps est exceptionnellement puissant dans cette zone. Les personnages équipés de pieds-de-biche ou de marteaux peuvent souvent éliminer des zombies isolés en un seul tour sans générer de bruit. Les armes à distance, bien qu'utiles contre les adversaires humains, nécessitent des investissements importants en munitions et en points d'action qui sont difficiles à maintenir en début de partie.
+
+| Stratégie | Avantages | Inconvénients | Meilleure utilisation |
+|---|---|---|---|
+| Corps à corps | Silencieux, grande précision de base, préserve les munitions | Nécessite une exposition au corps à corps, risqué contre les groupes | Éliminer les zombies isolés et éliminations furtives |
+| Armes à feu | Dégâts de rafale élevés, maintient les ennemis à distance | Bruyant, attire les générateurs, graves pénalités nocturnes | Engager les factions humaines hostiles dans les zones ouvertes |
+| Furtivité | Offre des avantages de positionnement, évite les combats inutiles | Exécution lente en temps réel, demande de la patience | Reconnaissance des pièces et mise en place d'embuscades coordonnées |
+
+Pour optimiser l'efficacité au combat de votre escouade, attribuez des rôles distincts à vos survivants en fonction de leur équipement et de leurs spécialités de compétences.
+
+<CardGrid cols={3}>
+  <Card title="Lucy (Spécialiste du corps à corps)">
+    - **Fort potentiel d'élimination furtive**
+    - Excellente précision au pied-de-biche
+    - Parfaite pour nettoyer les pièces en silence
+  </Card>
+  <Card title="Baba (Avant-garde)">
+    - **Grande durabilité physique**
+    - Équipé d'armes contondantes lourdes
+    - Capable de tenir des points de passage
+  </Card>
+  <Card title="Personnage principal (Tacticien)">
+    - **Options d'équipement polyvalentes**
+    - Coordonne le positionnement de l'escouade
+    - Déclenche des manœuvres tactiques furtives
+  </Card>
+</CardGrid>
+
+Lorsque vous affrontez des ennemis humains à l'intérieur du motel, utilisez les encadrements de portes comme points de passage naturels. Forcez les hostiles à dépenser leurs points d'action pour se déplacer vers vos combattants au corps à corps positionnés, vous permettant d'exécuter des contre-attaques à gros dégâts lorsqu'ils entrent à portée.
+
+<Callout type="tip" title="Maîtrise des points de passage">
+Positionez vos survivants de corps à corps juste à côté des portes. Les ennemis tentant d'entrer dans la pièce seront forcés de marcher à portée de votre corps à corps, déclenchant des attaques d'opportunité automatiques.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solution de la quête Motel California">
+
+La série de quêtes « Motel California » représente la progression narrative principale dans ce secteur. Pour terminer cette quête, vous devez naviguer dans le paysage politique délicat entre les sectateurs résidant dans le motel et les éclaireurs motards hostiles qui occupent la laverie à proximité.
+
+Progresser dans cette quête implique de rassembler des informations locales, d'obtenir les votes des factions et d'éliminer des cibles spécifiques sans nuire à votre réputation auprès d'alliés potentiels.
+
+<Steps>
+  <Step num="1" title="Sécuriser le périmètre du motel">
+    Nettoyez la zone environnante des zombies errants et des voleurs indépendants. Cela vous permet de naviguer entre les lieux clés de la quête sans déclencher de combats accidentels.
+  </Step>
+  <Step num="2" title="Consulter les chefs des sectateurs">
+    Entrez dans le bâtiment principal du motel et parlez avec le Frère Joshua et la Sœur Helena. Le Frère Joshua vous chargera d'éliminer les éclaireurs motards à proximité, tandis que la Sœur Helena débloquera son inventaire de marchande une fois les voleurs locaux éliminés.
+  </Step>
+  <Step num="3" title="Enquêter sur la laverie">
+    Rendez-vous dans le secteur de la laverie où les éclaireurs motards ont établi leurs défenses. Préparez votre escouade pour un combat rapproché avant d'entrer dans le bâtiment.
+  </Step>
+  <Step num="4" title="Éliminer les éclaireurs et résoudre les bugs">
+    Battez les éclaireurs motards à l'intérieur de la laverie. Si la quête ne se valide pas après avoir nettoyé la pièce, fouillez la zone extérieure pour localiser d'éventuels éclaireurs passifs cachés à proximité.
+  </Step>
+</Steps>
+
+| PNJ | Emplacement | Rôle principal | Interaction clé |
+|---|---|---|---|
+| Frère Joshua | Hall du motel | Chef des sectateurs | Donne la quête principale d'élimination des éclaireurs |
+| Sœur Helena | Boutique du motel | Marchande de faction | Ouvre sa boutique après l'élimination des voleurs locaux |
+| Éclaireurs motards | Laverie | Cibles hostiles | Doivent être éliminés pour progresser dans la quête principale |
+
+Un problème récurrent signalé par les joueurs sur les [forums de la communauté Steam](https://steamcommunity.com/app/710230/discussions/0/599661851858565562/) concerne la quête d'élimination des éclaireurs qui ne se valide pas. Il s'agit rarement d'un bug mécanique ; c'est généralement causé par un unique éclaireur passif qui n'engage pas le combat lorsque ses alliés sont éliminés silencieusement.
+
+<Callout type="info" title="Correction du bug de l'éclaireur près du baril de feu">
+Si votre suivi de quête ne se met pas à jour après avoir nettoyé la laverie, vérifiez le baril de feu à l'extérieur. Le dernier éclaireur motard reste souvent passif près du feu et doit être ciblé manuellement pour faire progresser la quête.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pillage et gestion des ressources">
+
+La rareté des ressources est une mécanique essentielle dans le secteur du **motel d'urban strife**. Les munitions, l'eau propre et les fournitures médicales sont extrêmement limitées, ce qui rend un pillage minutieux indispensable à la survie à long terme de votre escouade. Le complexe du motel contient plusieurs conteneurs de grande valeur qui abritent des armes avancées et des objets de soin critiques.
+
+Donnez la priorité au pillage de la pharmacie et des chambres privées du motel. Ces zones contiennent des armoires à pharmacie verrouillées et des casiers personnels qui nécessitent des crochets ou de la force brute pour y accéder.
+
+| Objet de butin | Emplacement exact | Utilité principale | Priorité |
+|---|---|---|---|
+| Fusil à pompe Winchester | Casiers des motards | Importants dégâts de rafale à courte portée | Élevée |
+| Fournitures médicales | Armoire de la pharmacie | Soigne les blessures graves et les infections | Élevée |
+| Rapport d'éclaireur | Cadavre de motard | Objet de quête clé contenant des infos sur la faction | Critique |
+| Carreaux d'arbalète | Sol de la laverie | Munitions silencieuses pour la furtivité à distance | Moyenne |
+
+Avant de quitter le secteur, assurez-vous d'avoir accompli tous les objectifs d'exploration majeurs afin de maximiser votre rendement en ressources.
+
+<Checklist
+  id="motel-loot-milestones"
+  title="Objectifs essentiels du motel :"
+  items={[
+    "Piller les armoires de la pharmacie pour obtenir des fournitures médicales avancées",
+    "Récupérer le fusil à pompe Winchester dans les casiers verrouillés des motards",
+    "Récupérer le rapport d'éclaireur pour débloquer des dialogues de faction plus profonds",
+    "Éliminer les voleurs locaux pour débloquer la boutique de Sœur Helena",
+    "Sécuriser tous les carreaux d'arbalète éparpillés sur le sol de la laverie"
+  ]}
+/>
+
+Il est vital de bien gérer l'espace de votre inventaire lors de ces sessions de pillage. Jetez les objets de pacotille de faible valeur au profit des fournitures médicales et des munitions, car ces ressources sont beaucoup plus difficiles à acquérir dans les secteurs ultérieurs.
+
+<Callout type="success" title="Guérison des blessures aux membres">
+Les blessures aux membres réduisent considérablement vos points d'action de combat et votre précision. Utilisez immédiatement les fournitures médicales récupérées dans la pharmacie pour soigner les membres d'escouade estropiés avant de vous rendre sur la carte suivante.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Pourquoi ma précision à distance est-elle si faible dans le secteur du motel ?",
+    answer: "Le secteur du motel est généralement exploré de nuit, ce qui introduit une lourde pénalité d'obscurité pour toutes les attaques à distance. Pour améliorer vos chances de toucher, utilisez des armes de corps à corps, équipez des lampes de poche ou rapprochez vos tireurs à bout portant."
+  },
+  {
+    question: "Comment corriger le bug où la quête des éclaireurs ne se termine pas ?",
+    answer: "C'est généralement dû à un éclaireur passif qui n'a pas rejoint le combat parce que vous avez éliminé ses alliés en silence. Fouillez l'extérieur de la laverie près du baril de feu pour trouver et éliminer ce dernier éclaireur."
+  },
+  {
+    question: "Est-il sûr d'utiliser des armes à feu à l'intérieur des chambres du motel ?",
+    answer: "L'utilisation d'armes à feu sans silencieux dans des espaces confinés est fortement déconseillée. Le bruit alertera les générateurs de zombies à proximité, provoquant des vagues de morts-vivants qui envahiront les couloirs et piégeront votre escouade."
+  },
+  {
+    question: "Comment débloquer la boutique de Sœur Helena ?",
+    answer: "Vous devez éliminer les voleurs indépendants qui patrouillent à l'extérieur du motel. Une fois vaincus, parlez à Sœur Helena dans le hall pour accéder à son inventaire de commerce."
+  }
+]} />
+
+<Callout type="tip" title="Sauvegarde stratégique">
+Créez toujours un fichier de sauvegarde manuelle avant d'entrer dans la laverie ou d'entamer le dialogue avec les chefs des sectateurs afin d'éviter les blocages de quête ou les issues de combat défavorables.
+</Callout>
+
+</Section>

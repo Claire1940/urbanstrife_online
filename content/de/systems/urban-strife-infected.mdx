@@ -1,0 +1,118 @@
+import { Map, Shield, Target, AlertTriangle, CheckCircle, Info, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife: Infektionsmanagement & Überlebenshandbuch 2026",
+  description: "Erfahren Sie, wie Sie mit infizierten Teammitgliedern in Urban Strife umgehen, antivirale Mechaniken verstehen und Ihre Überlebensstrategie im Jahr 2026 optimieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Survival+Guide",
+  date: "2026-07-21",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Mechaniken für Infizierte in Urban Strife** erfordern eine konsequente medizinische Versorgung, um den Verlust von Charakteren zu verhindern.
+- **Antivirale Behandlung** erfolgt automatisch in der Basis, wenn Dr. Henderson alle 24 Stunden aufgesucht wird.
+- **Trupp-Management** ermöglicht es, infizierte Mitglieder in die Reserve zu verschieben, um einen totalen Kaderverlust zu vermeiden.
+- **Fehlerbewusstsein** ist entscheidend; bei einigen Spielern können Probleme mit der Aktualisierung der 24-Stunden-Uhr auftreten.
+- **Kampagnenfortschritt** kann durch Infektionen beeinträchtigt werden, priorisieren Sie daher die Gesundheit Ihres Hauptmediziners.
+</Callout>
+
+<Section icon={Shield} title="Infektionsmechaniken verstehen">
+
+Die Verwaltung der Gesundheit Ihrer Überlebenden hat in Urban Strife höchste Priorität. Wenn ein Teammitglied infiziert wird, hängt sein Überleben von Ihrer Fähigkeit ab, regelmäßige medizinische Eingriffe sicherzustellen. Derzeit kann die Infektion nicht sofort mit einem einzigen Gegenstand „geheilt“ werden; stattdessen beruht sie auf einem wiederkehrenden Wartungszyklus in Ihrer Basis.
+
+**Wesentliche Überlebensdaten:**
+
+| Status | Effekt | Anforderung |
+| :--- | :--- | :--- |
+| Infiziert | Zeitlich begrenzte Gesundheit | 24-Stunden-Basisbesuch |
+| Gesund | Volle Kampfbereitschaft | Regelmäßige Wartung |
+| Reserve | Pausierter Infektionsfortschritt | Wechsel in der Basis |
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn Sie bemerken, dass der Infektions-Timer bei einem wichtigen Charakter abläuft, verschieben Sie ihn sofort in Ihren Reserve-Kader. Dies verhindert, dass er sich verwandelt, während Sie sich auf andere Missionsziele konzentrieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Umgang mit infizierten Teammitgliedern">
+
+Um Ihr Team am Leben zu erhalten, müssen Sie das Zusammenspiel zwischen der Infektion und Ihren Basiseinrichtungen verstehen. Dr. Henderson fungiert als primäre medizinische Instanz für die Verwaltung dieser Zustände.
+
+<Steps>
+  <Step num="1" title="Gesundheitszustand überwachen">
+    Überprüfen Sie regelmäßig die Vitalwerte Ihres Teams nach Kampfbegegnungen, um frühe Anzeichen einer Infektion zu erkennen.
+  </Step>
+  <Step num="2" title="Zur Basis zurückkehren">
+    Besuchen Sie den Unterschlupf alle 24 Stunden, um den automatischen Prozess der antiviralen Verabreichung auszulösen.
+  </Step>
+  <Step num="3" title="Heilung validieren">
+    Stellen Sie sicher, dass die 24-Stunden-Uhr korrekt aktualisiert wird; falls keine Interaktion erfolgt, überprüfen Sie den Verletzungsstatus des Charakters.
+  </Step>
+  <Step num="4" title="Reserven nutzen">
+    Wenn die Behandlung fehlschlägt oder Sie andere Aufgaben priorisieren müssen, verschieben Sie das infizierte Mitglied in die Reserveliste.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Hinweis der Entwickler">
+Das Entwicklungsteam hat bestätigt, dass bei einigen Spielern Fehler auftreten können, bei denen die 24-Stunden-Uhr nicht zurückgesetzt wird. Wenn Ihr Charakter keine Behandlung erhält, stellen Sie sicher, dass Sie nicht sofort speichern und wechseln, da dies zu Fehlern im Kader führen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Strategischer Vergleich: Behandlung vs. Reserve">
+
+Die Entscheidung, wie mit einem infizierten Überlebenden umgegangen werden soll, hängt von Ihren aktuellen Ressourcen und der Bedeutung der Einheit ab. Nutzen Sie die folgende Tabelle, um die beste Vorgehensweise zu bestimmen.
+
+| Strategie | Nutzen | Risiko |
+| :--- | :--- | :--- |
+| Aktive Behandlung | Erhält die Einsatzbereitschaft | Erfordert ständige Basisbesuche |
+| Reserve-Wechsel | Verhindert Charakterverlust | Reduziert die aktive Kampfkraft |
+| Frühe Extraktion | Minimiert die Exposition | Hohes Risiko des Missionsscheiterns |
+
+<CardGrid cols={2}>
+  <Card title="Aktive Behandlung">
+    - Am besten für Kerneinheiten
+    - Hält den Trupp zusammen
+    - Hoher Verwaltungsaufwand
+  </Card>
+  <Card title="Reserve-Strategie">
+    - Sicher für nicht essenzielle Einheiten
+    - Ermöglicht Team-Rotation
+    - Erfordert Ausfallzeit des Charakters
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Wartungs-Checkliste">
+- [ ] Überprüfen Sie den Status der Überlebenden nach jeder Mission
+- [ ] Halten Sie einen 24-Stunden-Besuchsplan ein
+- [ ] Halten Sie einen gesunden Ersatzmediziner in der Reserve
+- [ ] Melden Sie persistente Fehler in den [Steam Community Foren](https://steamcommunity.com/app/710230/discussions/)
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Kann ich einen infizierten Charakter in Urban Strife vollständig heilen?",
+    answer: "Derzeit gibt es keine dauerhafte Heilung. Sie müssen die Infektion durch regelmäßige antivirale Behandlungen verwalten, die alle 24 Stunden in der Basis verabreicht werden."
+  },
+  {
+    question: "Was passiert, wenn ich einen infizierten Charakter in der Basis austausche?",
+    answer: "Derzeit gibt es ein bekanntes Problem, bei dem das Austauschen eines infizierten Charakters in der Basis dazu führen kann, dass dieser aus Ihrem Kader verschwindet. Es wird empfohlen, den Austausch zu vermeiden, bis ein Fix bestätigt wurde."
+  },
+  {
+    question: "Warum behandelt der Arzt mein infiziertes Teammitglied nicht?",
+    answer: "Der 24-Stunden-Zyklus erfordert, dass der Charakter in der Basis anwesend ist. Wenn die Uhr nicht aktualisiert wird, stellen Sie sicher, dass der Charakter einen aktiven Infektionsstatus hat und Ihr Spielstand nicht von bekannten Fehlern betroffen ist."
+  }
+]} />
+
+</Section>

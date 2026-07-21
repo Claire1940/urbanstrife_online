@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Blueprint: Shelter Upgrades & NPC Hand-in Guide",
+  description: "Master the urban strife blueprint system to upgrade your shelter. Learn where to find blueprints, which NPCs to talk to, and how to avoid common inventory bugs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Shelter+Blueprint+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban strife blueprint** items are essential for upgrading your Refugee Camp and unlocking advanced crafting recipes.
+- **Hand-in NPCs** are specialized: Martin handles defense, Ellen handles morale, and the Cook/Medic handle survival.
+- **Prerequisites matter** as many advanced buildings like the Greenhouse require a basic Vegetable Garden first.
+- **Inventory management** is critical; ensure your backpack has space when receiving blueprints to prevent items from disappearing.
+- **Faction specific** blueprints exist to reward players for aligning with the Army, Bikers, or Cultists.
+</Callout>
+
+<Section icon={Hammer} title="Understanding the Urban Strife Blueprint System">
+
+In the brutal world of Urban Strife, your shelter is your only sanctuary. The **urban strife blueprint** system dictates how your base evolves from a derelict refugee camp into a fortified bastion. Unlike traditional RPGs where you might simply click a "build" button, this game requires you to physically locate plans and deliver them to the appropriate specialist within your camp.
+
+Blueprints act as the technological gatekeepers of your progression. Without them, your survivors will lack the necessary tools for long-term health, morale, and defense. These items are typically found as loot in high-tier zones, rewarded for completing faction-specific missions, or purchased from specialized traders.
+
+<CardGrid cols={3}>
+  <Card title="Acquisition">
+    - **Mission Rewards**: Primary source for faction-specific tech.
+    - **World Loot**: Found in desks, safes, and industrial crates.
+    - **NPC Trading**: Some blueprints are sold by wandering merchants.
+  </Card>
+  <Card title="Storage">
+    - **Backpack**: Required for the initial hand-in process.
+    - **Stash**: Can be used for building once the NPC has learned it.
+    - **Weight**: Blueprints are light but take up valuable inventory slots.
+  </Card>
+  <Card title="Usage">
+    - **Unlock**: Hand the item to the correct camp specialist.
+    - **Build**: Gather materials (mats) and gas for construction.
+    - **Upgrade**: Tiered progression from basic to advanced structures.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Inventory Bug Alert">
+As of the latest 2026 updates, there is a known issue where choosing a blueprint as a quest reward while your character's inventory is full causes the item to disappear. Always ensure you have at least one open slot before completing major story milestones or faction missions.
+</Callout>
+
+| Blueprint Status | Meaning | Action Required |
+| :--- | :--- | :--- |
+| **White Icon** | Not yet learned | Take to the appropriate NPC specialist |
+| **Red Icon** | Learned but lacks materials | Gather Scrap, Wood, or Electronic parts |
+| **Greyed Out** | Prerequisite missing | Build the Tier 1 version of the structure |
+| **Faction Locked** | Requires reputation | Complete tasks for the specific faction |
+
+</Section>
+
+<Section icon={Users} title="NPC Specialists and Hand-in Locations">
+
+Once you have secured an **urban strife blueprint**, you cannot simply use it from your inventory. You must identify which leader in the Refugee Camp manages that specific sector of survival. Delivering a blueprint to the wrong person is impossible, but finding the right one can be confusing for new players.
+
+The camp is divided into functional zones: Food/Health, Morale/Leisure, and Defense/Utility. Each zone is overseen by an NPC who acts as your architect for those specific upgrades.
+
+| NPC Name | Category | Primary Buildings |
+| :--- | :--- | :--- |
+| **Martin Fulton-Vine** | Defense & Utility | Metal Ramparts, Gym, Shooting Range, Recycling |
+| **Ellen Wells-Carter** | Morale & Leisure | Reading Room, Jail, Biker Bar, Prayer Room |
+| **The Cook** | Food & Agriculture | Vegetable Garden, Kitchen Upgrades, Spice Herbs |
+| **The Medic** | Health & Recovery | Infirmary, Medical Lab, Advanced Surgery |
+
+<Callout type="tip" title="Pro Tip: The Multi-NPC Interface">
+When talking to any major camp leader, look at the top of the interface for a line of blue area symbols. You can swap between different NPCs and their respective upgrade menus without exiting the conversation, making it easier to manage multiple blueprints at once.
+</Callout>
+
+### Defense and Recycling
+Martin is your go-to for everything related to the physical safety of the camp. He handles the "Free For All" (FFA) blueprints that don't require faction alignment, such as the basic Metal Ramparts and the Outdoor Gym. If you find a blueprint for Soldier Guards or Watchtowers, Martin is the only one who can implement them.
+
+### Morale and Social Upgrades
+Ellen manages the psychological well-being of your survivors. While she can build the basic Jail and Reading Room using FFA materials, advanced social structures like the Biker Bar or the Radio Show require faction-specific blueprints. These are usually earned by siding with the Bikers or the Army respectively.
+
+</Section>
+
+<Section icon={Target} title="Blueprint Progression and Prerequisites">
+
+Building in Urban Strife is a linear process. You cannot jump straight to an Armored Bus Gate without first establishing the basic perimeter. Understanding the "tech tree" of your **urban strife blueprint** collection will save you from wasting resources on low-priority upgrades.
+
+<Steps>
+  <Step num="1" title="Secure the Blueprint">
+    Locate the physical item in the world or receive it as a mission reward. Ensure it is in your lead character's backpack.
+  </Step>
+  <Step num="2" title="Identify the Specialist">
+    Match the blueprint type (e.g., Agriculture) to the correct NPC (e.g., The Cook).
+  </Step>
+  <Step num="3" title="Submit and Learn">
+    Interact with the NPC and select the option to donate or hand in the blueprint. The building will now appear in the construction menu.
+  </Step>
+  <Step num="4" title="Check Prerequisites">
+    Open the construction menu. If the building is greyed out, hover over it to see which Tier 1 structure is required first.
+  </Step>
+  <Step num="5" title="Allocate Resources">
+    Provide the required Scrap Metal, Wood, and Gas. Construction begins immediately upon resource allocation.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Resource Management">
+Materials for construction can be pulled directly from your camp stash. You do not need to carry 500 units of scrap in your backpack to start a build project once the blueprint has been learned by the NPC.
+</Callout>
+
+| Structure Tier | Building Example | Prerequisite Required |
+| :--- | :--- | :--- |
+| **Tier 1 (Basic)** | Vegetable Garden | None (FFA) |
+| **Tier 2 (Advanced)** | Greenhouse | Vegetable Garden |
+| **Tier 3 (Specialist)** | Spice Herbs | Vegetable Garden + Biker Blueprint |
+| **Defense Tier 1** | Electric Fence | None (Pre-built/FFA) |
+| **Defense Tier 2** | Metal Ramparts | Electric Fence |
+| **Defense Tier 3** | Armored Bus Gate | Metal Ramparts + Biker Blueprint |
+
+</Section>
+
+<Section icon={Shield} title="Faction-Specific Blueprints and Replayability">
+
+One of the core mechanics of the **urban strife blueprint** system is faction exclusivity. Not every blueprint can be obtained in a single playthrough. Your choices during the second act of the game will determine which high-end technology you can access.
+
+The developers have confirmed that limiting blueprint choices is a deliberate design decision to encourage different playstyles. For example, the Army provides superior defensive structures and training facilities, while the Bikers offer better morale-boosting social hubs and modified vehicles.
+
+<CardGrid cols={2}>
+  <Card title="Army (The Professional Path)">
+    - **Watchtower**: Superior sightlines for camp guards.
+    - **Radio Show**: High-efficiency morale boost for disciplined survivors.
+    - **Advanced Armory**: Unlocks high-tier military gear crafting.
+  </Card>
+  <Card title="Bikers (The Chaos Path)">
+    - **Biker Bar**: High morale boost but requires alcohol resources.
+    - **Armored Bus Gate**: Heavy-duty defense for the main entrance.
+    - **Spice Herbs**: Increases food quality and trade value.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="General (FFA) Blueprints">
+Buildings like the Outdoor Gym, Shooting Range, and basic Recycling Center are "Free For All." They are not tied to any faction and can be unlocked by any player as long as they find the blueprint and provide Martin with at least 50 materials.
+</Callout>
+
+| Upgrade Type | Faction | Benefit |
+| :--- | :--- | :--- |
+| **Watchtower** | Army | Increased defense range |
+| **Biker Bar** | Bikers | Massive morale per drink |
+| **Prayer Room** | Cultists | Low-cost morale boost |
+| **Greenhouse** | Army | Year-round food production |
+| **Compost Beds** | Cultists | Faster crop growth cycles |
+
+</Section>
+
+<Section icon={Sparkles} title="Shelter Optimization Checklist">
+
+To ensure your camp is running at peak efficiency, follow this checklist for managing your **urban strife blueprint** collection and construction projects.
+
+<Checklist
+  id="blueprint-goals-2026"
+  title="Essential Shelter Milestones:"
+  items={[
+    "Clear inventory before accepting quest rewards to avoid blueprint loss.",
+    "Hand in the Outdoor Gym blueprint to Martin early for stat training.",
+    "Build the Vegetable Garden immediately to unlock the food tech tree.",
+    "Deliver the Reading Room blueprint to Ellen to manage early-game stress.",
+    "Identify which faction blueprints align with your preferred playstyle.",
+    "Check the stash regularly to ensure you have enough scrap for defense upgrades."
+  ]}
+/>
+
+<Callout type="tip" title="Stat Training">
+Buildings like the Gym and Shooting Range are not just for show. Once built via their respective blueprints, they allow your survivors to train their Strength and Marksmanship during downtime, which is vital for late-game combat encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Urban Strife Blueprint FAQ">
+
+<FAQ items={[
+  {
+    question: "Why can't I build the Greenhouse even though I have the blueprint?",
+    answer: "The Greenhouse requires a Vegetable Garden as a prerequisite. You must build the basic garden first before the NPC will allow you to upgrade it to a Greenhouse."
+  },
+  {
+    question: "I gave a blueprint to Martin but I don't see it in the build menu. What happened?",
+    answer: "Check the top of the interface. You may be looking at the 'Recycling' or 'Gas' tabs. Click the different area icons to find the specific category for the blueprint you just handed in."
+  },
+  {
+    question: "Can I unlock every single blueprint in one game?",
+    answer: "No. Some blueprints are faction-specific (Army, Bikers, or Cultists). You will need to play through the game multiple times and make different choices to experience all the shelter upgrades."
+  },
+  {
+    question: "What should I do if my blueprint disappears due to a full inventory?",
+    answer: "Currently, this is a known bug. You may need to reload an earlier save or check if the item dropped on the floor. Developers are working on a patch to send overflow rewards to the camp stash."
+  }
+]} />
+
+</Section>

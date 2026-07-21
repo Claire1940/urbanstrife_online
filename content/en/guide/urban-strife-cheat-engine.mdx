@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "urban strife cheat engine: Setup Guide & Feature Breakdown",
+  description: "Master the urban strife cheat engine table to modify base resources, character attributes, and equipment durability for the ultimate survival experience.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Cheat+Engine+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **urban strife cheat engine** allows players to modify core survival mechanics including base supplies and character stats.
+- **Base Control** is essential for managing materials, morale, food, and gas without the grind.
+- **Character Pointers** require movement to update; if you see default values like 55, move your unit to refresh the pointer.
+- **Equipment Modding** focuses on infinite ammo and preventing item breakage by freezing durability values.
+- **Version Compatibility** can be maintained manually by updating script offsets in the Cheat Engine memory viewer.
+</Callout>
+
+<Section icon={Target} title="Getting Started with urban strife cheat engine">
+
+The **urban strife cheat engine** table is a community-driven tool designed to alleviate the harsh resource management and tactical difficulty of this post-apocalyptic RPG. By utilizing an Unreal Engine-based script, players can access deep-level memory addresses to alter their gameplay experience. Whether you are struggling with the scarcity of materials or looking to build a super-soldier, the Cheat Engine (CE) table provides the necessary pointers to bypass standard game limitations.
+
+**Video Highlights:**
+- Overview of the Master Script and its primary sub-options.
+- Demonstration of the Base Control system and resource modification.
+- Explanation of the Character Pointer system and the movement-trigger requirement.
+- Tutorial on manually updating the table for new game patches.
+
+<YouTubeEmbed videoId="ZJ3982u_PPU" title="Unlock Ultimate Power in Urban Strife - Cheat Engine Table" />
+
+<Callout type="warning" title="Anti-Cheat Awareness">
+Urban Strife is primarily a single-player experience, but always ensure you are running the game in offline mode if any future multiplayer features are added. Using Cheat Engine while connected to active leaderboards or multiplayer servers may result in account flags.
+</Callout>
+
+### Core Table Components
+The table is generally organized into three main categories. Understanding these is vital for effective modding:
+
+| Category | Primary Function | Complexity |
+| :--- | :--- | :--- |
+| **Base Control** | Edits materials, morale, food, and gas | Low |
+| **Equipment Control** | Modifies ammo count and item durability | Medium |
+| **Character Pointer** | Edits strength, agility, and health | High |
+
+</Section>
+
+<Section icon={Shield} title="Base Resource and Supply Management">
+
+Resource management is the backbone of survival in Urban Strife. The **urban strife cheat engine** table includes a Base Control script that hooks into the global supply variables. Once activated, players can see real-time updates to their base inventory. This is particularly useful for players who want to focus on the tactical combat rather than the constant search for fuel or food.
+
+| Resource Type | Description | Recommended Action |
+| :--- | :--- | :--- |
+| **Materials** | Used for building and repairs | Set to 9999 for instant upgrades |
+| **Morale** | Affects settler performance | Keep above 80 to prevent desertion |
+| **Food** | Daily consumption requirement | Lock at 500 to ignore hunger |
+| **Gas** | Required for vehicles and power | Freeze at high values for travel |
+
+<Callout type="tip" title="Morale Management">
+If your morale drops too low due to story events, use the Base Control script to instantly reset it. This prevents the negative status effects that can cripple your combat effectiveness during early-game raids.
+</Callout>
+
+The script functions by reading the database values stored in the game's memory. While the UI might show production and consumption rates, editing the raw material counts is the most direct way to influence your base's survival. Note that some values are "for show" in the database and may not affect gameplay unless the primary consumption function is bypassed.
+
+</Section>
+
+<Section icon={Swords} title="Combat and Equipment Modification">
+
+Combat in Urban Strife is unforgiving. Weapons degrade, and ammunition is often scarce. The **urban strife cheat engine** table provides specific controls for currently equipped items. This script is "context-sensitive," meaning it targets the item currently held or highlighted by the character.
+
+<CardGrid cols={2}>
+  <Card title="Ranged Weapon Control">
+    - **Ammo Count**: Change your current magazine to 999 or higher.
+    - **Reload Bypass**: Prevent the need for frequent reloading during turn-based combat.
+    - **Weight Reduction**: Set weapon weight to zero to increase Action Points (AP).
+  </Card>
+  <Card title="Melee and Durability">
+    - **Durability Lock**: Set the 'Uses' value to 1 and freeze it to prevent breakage.
+    - **Infinite Use**: Stop items from disappearing after their final use.
+    - **Weight Management**: Carry heavy melee weapons without encumbrance penalties.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Zero Weight Exploit">
+By setting the weight of all equipped items to 0 via the inventory pointer, your character gains a significant boost to mobility and total AP per turn, allowing for more actions in tactical mode.
+</Callout>
+
+### Equipment Attribute Table
+
+| Attribute | Effect of Modification | Stability |
+| :--- | :--- | :--- |
+| **Current Ammo** | Infinite firing without reloading | High |
+| **Max Ammo** | Increases magazine capacity permanently | Medium |
+| **Durability** | Prevents weapon and armor degradation | High |
+| **Weight** | Increases character movement range | High |
+
+</Section>
+
+<Section icon={Activity} title="Advanced Character Stat Editing">
+
+The Character Pointer is the most powerful yet sensitive part of the **urban strife cheat engine**. It allows for the modification of core attributes like Strength, Agility, and Marksmanship. However, because the game uses a dynamic pointer system, the values may not appear immediately upon activating the script.
+
+| Attribute | Combat Impact | Max Recommended Value |
+| :--- | :--- | :--- |
+| **Strength** | Carry capacity and melee damage | 100 |
+| **Agility** | Total Action Points (AP) and dodge | 100 |
+| **Marksmanship** | Accuracy with firearms | 100 |
+| **Intelligence** | Experience gain and skill checks | 100 |
+| **Health** | Total HP before death | 999 |
+
+<Steps>
+  <Step num="1" title="Activate Character Script">
+    Enable the "Character Pointer" option in the Cheat Engine list.
+  </Step>
+  <Step num="2" title="Trigger Update">
+    Move your character one tile in the game world. This forces the game to update the memory address the script is looking for.
+  </Step>
+  <Step num="3" title="Verify Character Tag">
+    Check the 'Character Tag' in the CE list. If it is 1, 2, 3, or 4, you are likely editing your main party. If it shows other values, you might be looking at an NPC or Zombie.
+  </Step>
+  <Step num="4" title="Apply Changes">
+    Change the values of the desired attributes and freeze them if necessary.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="The 55 Value Bug">
+If you see all stats showing as "55," the pointer is currently targeting a generic NPC or has not yet hooked into your specific character. Do not change these values until you move your character and see your actual stats reflected in the table.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="How to Update the Table Manually">
+
+Since Urban Strife is in active development, game updates often break Cheat Engine tables by changing memory offsets. The **urban strife cheat engine** can be manually updated if you understand the basic logic of assembly code. The video tutorial by Big Bear highlights that most Unreal Engine updates only change the "base pointer" rather than the entire logic of the script.
+
+### Troubleshooting and Updates
+
+| Issue | Cause | Solution |
+| :--- | :--- | :--- |
+| **Script won't activate** | AOB (Array of Bytes) changed | Perform a new AOB scan for the function |
+| **Values show as ??** | Game version mismatch | Update the base pointer in the script |
+| **Game Crashes** | Memory address corruption | Disable "Freeze" on health or AP values |
+
+<Steps>
+  <Step num="1" title="Identify the Script">
+    Right-click the failing script (e.g., Base Control) and select "Change Script."
+  </Step>
+  <Step num="2" title="Find the Injection Point">
+    Look for the line moving a register (like `rcx` or `rdx`) into a base pointer.
+  </Step>
+  <Step num="3" title="Compare Registers">
+    If the game updated, the register might have changed from `rcx` to `rax`. Update the script to match the new register used by the game's code.
+  </Step>
+  <Step num="4" title="Re-save and Test">
+    Save the script and attempt to toggle it. If it stays checked, the update was successful.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Memory Viewer Tip">
+Use the "Memory View" function in Cheat Engine to see the surrounding code. Often, the game developers only move the function's location, and the actual logic remains identical, making it easy to fix with a simple copy-paste of the new address.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Usage Checklist and Best Practices">
+
+To ensure a stable experience while using the **urban strife cheat engine**, follow this checklist before every session. Survival games are prone to save file corruption if memory is edited incorrectly.
+
+<Checklist
+  id="ce-safety-checklist"
+  title="Safe Cheating Steps:"
+  items={[
+    "Backup your save files located in the AppData folder.",
+    "Launch the game and load your save before opening Cheat Engine.",
+    "Attach Cheat Engine to the 'USG-Win64-Shipping.exe' process.",
+    "Activate the Master Script only after the game world has fully loaded.",
+    "Avoid freezing 'Health' values as they may unintentionally affect enemies."
+  ]}
+/>
+
+<Callout type="info">
+Remember that Urban Strife uses a "Character Tag" system to distinguish between players and NPCs. Always verify you are editing the correct tag to avoid making the zombies or enemy raiders invincible.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why do my character stats reset to 55?",
+    answer: "The value 55 is a default placeholder for many NPCs. The pointer updates based on movement. Move your character to ensure the table is reading your specific unit's data before making edits."
+  },
+  {
+    question: "Can I use this to get infinite Action Points (AP)?",
+    answer: "Yes, the inventory pointer allows you to set item weight to zero, which significantly increases AP. Some tables also include a direct AP pointer that can be frozen during your turn."
+  },
+  {
+    question: "Will this work with the Steam version of Urban Strife?",
+    answer: "Most tables are designed for the IGG or Early Access versions. If you have the Steam version, you may need to manually update the offsets as described in the technical section of this guide."
+  },
+  {
+    question: "How do I remove the 'Dizzy' or infection status?",
+    answer: "Under the Character Pointer section, look for the 'Is Infected' or 'Dizzy' boolean. Change the value to 'No' and move your character to clear the status effect immediately."
+  }
+]} />
+
+</Section>

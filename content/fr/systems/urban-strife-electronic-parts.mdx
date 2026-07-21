@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pièces électroniques d'Urban Strife : Guide de récupération et de fabrication",
+  description: "Maîtrisez l'art de trouver et d'utiliser les pièces électroniques d'Urban Strife pour améliorer votre base et survivre à l'apocalypse zombie en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Urban+Strife+Crafting",
+  date: "2026-07-21",
+  author: "Équipe du Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **pièces électroniques d'Urban Strife** sont essentielles pour les améliorations de base avancées et les réparations d'équipements.
+- La **fouille des zones à forte fréquentation** comme les villas de banlieue et les zones commerciales offre les meilleurs taux d'apparition de matériaux.
+- Une **gestion efficace de l'inventaire** est requise pour donner la priorité à l'électronique par rapport aux objets encombrants et de faible valeur.
+- Les **stations de fabrication** de votre base vous permettent de convertir de la ferraille et des fils bruts en composants électroniques fonctionnels.
+</Callout>
+
+<Section icon={Map} title="Localiser les pièces électroniques">
+
+Dans *Urban Strife*, la survie dépend de votre capacité à fouiller efficacement. Les pièces électroniques sont classées comme du butin de haut niveau, souvent trouvées dans des maisons de banlieue abandonnées, des immeubles de bureaux et des unités de stockage industrielles. Contrairement à la nourriture ou aux magazines ordinaires, ces composants nécessitent des recherches ciblées dans des environnements riches en technologie.
+
+**Points clés de la vidéo :**
+- Stratégies de déplacement tactique et de pillage furtif.
+- Identification des conteneurs à haute valeur pour la ferraille électronique.
+- Gestion de l'encombrement lors des expéditions de fouille à longue distance.
+
+<YouTubeEmbed videoId="LiWPNwzvlBY" title="Urban Strife - Gameplay de la sortie officielle du jeu de survie zombie au tour par tour" />
+
+Lors de vos explorations, vérifiez toujours les arrière-boutiques des bâtiments commerciaux. Ces zones contiennent souvent des boîtes à outils spécialisées qui ont une plus grande probabilité de générer des circuits, des fils et des pièces électroniques complexes nécessaires pour le générateur et les réseaux de communication de votre base.
+
+<Callout type="tip" title="Conseil de pro">
+Donnez toujours la priorité au pillage de **fils** et de **ferraille** aux côtés des pièces électroniques. Vous aurez fréquemment besoin de ces matériaux combinés pour réaliser des recettes de fabrication complexes dans votre base.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tableau d'efficacité de la fouille">
+
+Pour maximiser votre temps sur le terrain, reportez-vous à ce tableau pour comprendre où concentrer vos efforts de recherche lors de vos sorties quotidiennes.
+
+| Type de lieu | Taux d'apparition d'électronique | Butin principal et secondaire | Niveau de risque |
+| :--- | :--- | :--- | :--- |
+| Villa de banlieue | Modéré | Nourriture, Médicaments | Faible |
+| Zone industrielle | Élevé | Ferraille, Outils | Élevé |
+| Bureau du shérif | Faible | Armes, Munitions | Moyen |
+| Magasin abandonné | Élevé | Produits chimiques, Fils | Moyen |
+
+</Section>
+
+<Section icon={Swords} title="Gérer vos besoins de fabrication">
+
+Une fois vos pièces sécurisées, le défi suivant consiste à les gérer au sein de votre base. La fabrication dans *Urban Strife* n'est pas instantanée ; elle nécessite d'équilibrer vos matériaux disponibles avec les besoins de survie de vos survivants.
+
+<CardGrid cols={3}>
+  <Card title="Stockage des ressources">
+    - Conservez les composants électroniques dans la réserve principale.
+    - Évitez de les garder dans les inventaires individuels des personnages.
+    - Catégorisez par type pour un accès plus rapide lors de la fabrication.
+  </Card>
+  <Card title="Priorité de réparation">
+    - Premier : Radio de communication.
+    - Deuxième : Générateur d'énergie.
+    - Troisième : Pièges défensifs.
+  </Card>
+  <Card title="Stratégie d'échange">
+    - Échangez l'excédent de nourriture contre des pièces électroniques rares.
+    - Ne vendez jamais votre dernier ensemble de circuits.
+    - Utilisez de l'alcool pour augmenter l'affinité avec les marchands.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avertissement concernant la gestion de l'inventaire">
+Ne surchargez pas vos survivants avec des pièces électroniques si vous vous trouvez dans une zone de combat intense. Abandonner une pile de pièces pour sauver la vie de votre personnage est toujours préférable à leur perte définitive lors d'un raid raté.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Processus de fabrication étape par étape">
+
+Suivez ces étapes pour transformer votre butin récupéré en atouts fonctionnels pour votre base.
+
+<Steps>
+  <Step num="1" title="Trier l'inventaire">
+    De retour à la base, déplacez tous les composants électroniques récupérés dans la réserve partagée pour vous assurer qu'ils soient disponibles pour tous les artisans.
+  </Step>
+  <Step num="2" title="Vérifier les prérequis">
+    Accédez au menu de fabrication sur votre établi pour voir les pièces électroniques spécifiques requises pour les améliorations de haut niveau.
+  </Step>
+  <Step num="3" title="Lancer l'assemblage">
+    Affectez un survivant ayant des compétences mécaniques ou techniques élevées pour maximiser la vitesse et l'efficacité du processus de fabrication.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Tableau de comparaison des ressources">
+
+Comprendre la valeur de vos composants vous aide à prendre des décisions éclairées lors des raids.
+
+| Composant | Rareté | Utilisation principale | Valeur de recyclage |
+| :--- | :--- | :--- | :--- |
+| Circuit électronique | Rare | Générateur / Radio | Élevée |
+| Fil de cuivre | Commun | Pièges / Électronique | Faible |
+| Ferraille | Commun | Réparations de base | Faible |
+| Bloc de batterie | Rare | Éclairage / Énergie | Moyenne |
+
+</Section>
+
+<Section icon={Trophy} title="Jalons essentiels">
+
+<Checklist
+  id="crafting-goals"
+  title="Liste de progression :"
+  items={[
+    "Établir une chaîne d'approvisionnement régulière en pièces électroniques",
+    "Réparer entièrement la radio de communication de la base",
+    "Améliorer la capacité du générateur pour la sécurité nocturne",
+    "Accumuler plus de 20 composants électroniques pour les réparations d'urgence"
+  ]}
+/>
+
+<Callout type="success" title="Jalon de réussite">
+L'amélioration réussie des défenses de votre base avec des pièges électroniques réduira considérablement les dégâts subis lors des attaques de hordes de zombies.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment puis-je augmenter la limite de stockage pour les pièces électroniques ?",
+    answer: "Vous devez améliorer la capacité de stockage de votre base en utilisant le menu de construction, ce qui nécessite des quantités importantes de bois et de ferraille."
+  },
+  {
+    question: "Est-ce que les pièces électroniques réapparaissent dans les lieux déjà fouillés ?",
+    answer: "Oui, les conteneurs de butin dans Urban Strife se rechargent avec le temps, vous permettant de retourner dans les lieux clés pour obtenir des fournitures supplémentaires."
+  },
+  {
+    question: "Pourquoi ne puis-je pas fabriquer certains objets même en ayant assez de pièces électroniques ?",
+    answer: "Assurez-vous d'avoir le niveau de compétence de survivant requis et d'avoir déverrouillé les plans nécessaires en explorant le monde du jeu."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife the Quarantine Squad: Quest Walkthrough & Bug Fixes",
+  description: "Master the Urban Strife the Quarantine Squad quest with our 2026 guide. Learn how to clear the port, burn body piles, and resolve common script bugs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Urban+Strife+Quarantine+Squad+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Clear all zombies in the walled-off port areas and incinerate four specific body piles using fire-based weapons.
+- **Key Mechanic**: You must use **Molotovs** or **Aerosol Bombs** to permanently destroy the infection sources.
+- **Bug Warning**: A known script issue in **urban strife the quarantine squad** can prevent quest completion if piles are burned in the wrong order or before certain spawns.
+- **Combat Strategy**: Lure zombies into choke points near the port gates to manage the horde size effectively.
+- **Top Choice**: The **Aerosol Bomb** is the most cost-effective tool for burning piles due to its wide area of effect.
+</Callout>
+
+<Section icon={Target} title="Quest Overview and Requirements">
+
+The **urban strife the quarantine squad** mission is a pivotal early-to-mid-game quest that tests your tactical positioning and resource management. Assigned by the military faction, this quest requires your squad to enter the highly contaminated port district to neutralize a growing zombie threat. The area is divided into two main walled sections: the zone containing Ford and the adjacent shipping yard. Success depends not just on firepower, but on having the correct incendiary tools to finish the job.
+
+Before venturing into the port, ensure your team is equipped with enough fire-based utility items. Standard bullets will stop the undead, but they won't stop the infection from spreading from the body piles.
+
+| Requirement Type | Item/Action Needed | Priority |
+| :--- | :--- | :--- |
+| **Primary Tool** | Molotov Cocktails or Aerosol Bombs | **Mandatory** |
+| **Ammo Type** | Shotgun Shells (Buckshot) for CQC | High |
+| **Healing** | Advanced Medkits and Bandages | Medium |
+| **Squad Skill** | High Athletics for kiting zombies | High |
+| **Objective** | Burn 4 Body Piles | **Mandatory** |
+
+<Callout type="tip" title="Strategic Preparation">
+Don't rush into the port with a full squad of snipers. The tight corridors between shipping containers favor shotguns and melee fighters with high dodge stats.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Walkthrough">
+
+Navigating the port requires a methodical approach. The zombies in this area are sensitive to noise, meaning a single loud gunshot can pull enemies from both walled sections simultaneously. Follow these steps to complete **urban strife the quarantine squad** efficiently.
+
+<Steps>
+  <Step num="1" title="Secure the Perimeter">
+    Approach the first walled area where Ford is located. Instead of rushing in, use a suppressed weapon to pick off the stragglers near the gate. Once the immediate area is clear, move your squad inside but keep one member near the exit as a fallback point.
+  </Step>
+  <Step num="2" title="Clear the Undead Waves">
+    The body piles act as spawn points. As you approach them, waves of zombies will emerge. Focus on clearing these spawns before attempting to burn the piles. Killing the zombies first ensures your "thrower" isn't interrupted during the animation.
+  </Step>
+  <Step num="3" title="Incinerate the Body Piles">
+    Locate the four piles of corpses. Equipping a Molotov, target the center of the pile. You will see a prompt or a visual change in the pile once the fire takes hold. Ensure all four are burning simultaneously to trigger the quest update.
+  </Step>
+  <Step num="4" title="Final Area Sweep">
+    After the piles are destroyed, a final wave often spawns near the second port area. Check every corner of the walled sections, as a single remaining zombie can prevent the quest from transitioning to the "Talk to Quest Giver" phase.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Timing">
+Some players report that burning the piles *too early*—specifically before all scripted spawns have appeared—can break the quest logic. It is safer to kill all visible zombies in the immediate vicinity before throwing your first Molotov.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipment Comparison for Port Clearing">
+
+Choosing the right loadout for **urban strife the quarantine squad** can mean the difference between a clean sweep and a squad wipe. While Molotovs are the traditional choice, 2026 meta strategies suggest using Aerosol Bombs for better area denial.
+
+<CardGrid cols={3}>
+  <Card title="Molotov Cocktail">
+    - **Cheap to craft**
+    - Focused fire damage
+    - Limited splash radius
+  </Card>
+  <Card title="Aerosol Bomb">
+    - **Large explosion radius**
+    - High initial damage
+    - Excellent for multiple piles
+  </Card>
+  <Card title="Flamethrower (Late Game)">
+    - **Sustainable fire source**
+    - High weight penalty
+    - Best for clearing hordes
+  </Card>
+</CardGrid>
+
+| Tool | Crafting Cost | Effectiveness | Weight |
+| :--- | :--- | :--- | :--- |
+| **Molotov** | Low (Alcohol + Rag) | 3/5 | 0.5 kg |
+| **Aerosol Bomb** | Medium (Canister + Fuse) | 5/5 | 1.0 kg |
+| **Fire Arrow** | Low (Arrow + Fuel) | 2/5 | 0.1 kg |
+
+<Callout type="success" title="Inventory Management">
+Assign one "Grenadier" in your squad to carry all incendiaries. This frees up the rest of your team to carry heavy ammunition and medical supplies needed for the long trek back to base.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Troubleshooting the Quarantine Squad Bug">
+
+Many survivors have encountered a frustrating issue where the quest fails to complete even after all zombies are dead and piles are burned. This is often related to a script flag failing to trigger in the **urban strife the quarantine squad** mission. If your quest log still says "Burn the body piles" despite them being ash, follow these troubleshooting steps.
+
+| Issue | Potential Cause | 2026 Fix/Workaround |
+| :--- | :--- | :--- |
+| **Quest won't update** | Scripted zombie stuck in walls | Use a grenade near containers to flush them out |
+| **Piles won't burn** | Wrong damage type used | Ensure you use **Fire** damage, not Explosive |
+| **Ford won't talk** | Combat state is still active | Retreat to the world map and re-enter the zone |
+| **NPC Missing** | Quest sequence break | Reload the autosave created upon entering the Port |
+
+<Callout type="info" title="Developer Insight">
+The developers have confirmed that killing zombies for EXP *before* burning the piles is the intended way to play, but doing so too slowly can sometimes cause the script to hang. If the quest persists in its bugged state, sending your save file to the support team is the only way to fix a corrupted run.
+</Callout>
+
+</Section>
+
+<Section icon={ListChecks} title="Tactical Checklist and Objectives">
+
+To ensure you don't miss a single requirement in the port area, use this checklist during your operation. Missing even one small detail can lead to backtracking through dangerous territory.
+
+<Checklist
+  id="quarantine-squad-goals"
+  title="Mission Milestones:"
+  items={[
+    "Clear all zombies in Ford's walled section",
+    "Identify and locate all 4 body piles",
+    "Burn the pile in the north-east corner",
+    "Burn the pile near the shipping crates",
+    "Burn the two piles in the secondary port area",
+    "Confirm 'Quest Updated' notification appears",
+    "Report back to the Military Commander"
+  ]}
+/>
+
+<Callout type="tip" title="Experience Optimization">
+If you are looking to maximize skill EXP, let the piles spawn as many zombies as possible before burning them. Each zombie killed contributes to your squad's combat proficiency, though this increases the risk of being overwhelmed.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Mastering the nuances of the port district is essential for any serious Urban Strife player. Here are the most common questions regarding the **urban strife the quarantine squad** quest.
+
+<FAQ items={[
+  {
+    question: "Can I use grenades instead of Molotovs to destroy the piles?",
+    answer: "No. Standard frag grenades or pipe bombs deal explosive damage, which clears the zombies but does not satisfy the 'burn' requirement for the body piles. You must use fire-based weapons."
+  },
+  {
+    question: "What should I do if the quest won't complete after burning all piles?",
+    answer: "Check the perimeter for any 'stuck' zombies. Often, a single crawler hidden behind a crate keeps the combat script active. If the area is clear and the quest remains stuck, reload your latest autosave."
+  },
+  {
+    question: "Is it possible to complete this quest stealthily?",
+    answer: "Partially. You can sneak in and plant delayed-fuse incendiaries, but the act of burning the piles will almost always alert the remaining horde in the port."
+  },
+  {
+    question: "Which squad members are best for the Quarantine Squad mission?",
+    answer: "A mix of high-agility scouts to lure zombies and high-strength bruisers to handle the melee combat. At least one member should have high 'Throwing' skill to ensure Molotovs hit their targets accurately."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Always keep a backup save before entering the Port district. The complex scripts involved in faction missions like the Quarantine Squad can occasionally conflict with other active quests, such as those involving the Cultists or Bikers.
+</Callout>
+
+</Section>

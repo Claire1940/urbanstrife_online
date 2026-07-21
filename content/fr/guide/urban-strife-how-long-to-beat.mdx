@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durée de vie d'Urban Strife : Guide de l'Acte 1 et du gameplay",
+  description: "Découvrez la durée de vie de l'Acte 1 d'Urban Strife et nos estimations de gameplay complet. Apprenez-en plus sur les mécaniques de combat, la survie et la progression dans ce guide de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Urban+Strife+Playtime+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Histoire principale (Acte 1)** : Actuellement, il faut **moins de 10 heures** pour terminer le contenu de la version en accès anticipé.
+- **Style de jeu** : Un RPG tactique au tour par tour profond, fortement influencé par *Jagged Alliance 2* et *Dead State*.
+- **Facteur de survie** : La difficulté élevée dans la gestion des ressources peut mener à un "Game Over" en seulement **5 jours** de temps en jeu.
+- **État du contenu** : Le jeu est en accès anticipé en 2026, l'Acte 1 constituant le contenu principal jouable.
+- **Mécanique critique** : Le mouvement simultané des zombies et une balistique réaliste impactent considérablement la vitesse tactique.
+</Callout>
+
+<Section icon={Map} title="Estimations actuelles de la durée de vie d'Urban Strife">
+
+Comprendre **la durée de vie d'Urban Strife** nécessite de se pencher sur l'état actuel de son développement en accès anticipé. À la mi-2026, le jeu propose principalement l'Acte 1 de sa narration prévue. Pour la plupart des joueurs tactiques, atteindre la conclusion de la quête actuelle est une expérience relativement rapide par rapport aux RPG massifs dont il s'inspire.
+
+Cependant, le "temps pour finir" est fortement influencé par votre implication dans les éléments sandbox, comme la reconstruction de la base et les relations entre factions. Si vous vous précipitez sur les objectifs principaux, l'expérience peut sembler courte, tandis qu'une approche méthodique du pillage et de la gestion des survivants peut considérablement prolonger la durée de vie.
+
+**Points forts de la vidéo :**
+- Bref aperçu du cadre post-apocalyptique et des mécaniques de survie.
+- Démonstration du système de combat tactique simultané.
+- Aperçu de la gestion des points d'action façon "Jagged Alliance".
+- Commentaires sur le style visuel réaliste et granuleux, et sur la dégradation de l'environnement.
+
+<YouTubeEmbed videoId="Gz8xP-YEHaw" title="Urban Strife review in 60 seconds!" />
+
+<Callout type="tip" title="Avis des développeurs">
+Bien que l'Acte 1 soit actuellement au centre de l'attention, les développeurs étendent activement la carte. Attendez-vous à ce que la durée de vie totale triple à mesure que les actes suivants seront introduits tout au long de 2026.
+</Callout>
+
+| Style de jeu | Temps estimé | Zone de concentration |
+| :--- | :--- | :--- |
+| **Rush de la quête principale** | 6 - 8 heures | Objectifs primaires et chemin critique |
+| **Partie standard** | 10 - 15 heures | Construction de base et pillage secondaire |
+| **Complétiste** | 20+ heures | Moral des survivants au max et quêtes de faction |
+| **Échec de la survie** | 2 - 4 heures | Perte précoce due à une mauvaise gestion des ressources |
+
+</Section>
+
+<Section icon={Swords} title="Combat tactique et efficacité temporelle">
+
+Le système de combat dans Urban Strife est le principal "gouffre à temps" pour les joueurs. Contrairement aux jeux au tour par tour traditionnels où chaque unité se déplace individuellement, ce jeu utilise un système de mouvement simultané pour les zombies. Cela signifie que pendant que vous planifiez soigneusement les déplacements de vos survivants avec des Points d'Action (PA), les hordes de morts-vivants se déplacent collectivement, ce qui maintient un rythme soutenu et évite la lourdeur souvent trouvée dans les rencontres tactiques massives.
+
+Le réalisme de la balistique joue également un rôle sur la durée des affrontements. Les munitions de gros calibre peuvent traverser les couvertures, ce qui signifie qu'un tir bien placé peut mettre fin à un combat instantanément, tandis qu'une mauvaise planification peut mener à une fusillade prolongée où votre équipe est clouée au sol.
+
+<CardGrid cols={2}>
+  <Card title="Combat humain">
+    - **Tactiques basées sur la couverture** : Utiliser les murs et les débris est essentiel pour survivre.
+    - **Simulation balistique** : Les projectiles sont bloqués par les objets physiques selon la densité du matériau.
+    - **Létalité élevée** : Les tirs à la tête sont souvent fatals, nécessitant un positionnement précis.
+  </Card>
+  <Card title="Hordes de zombies">
+    - **Mouvement simultané** : Tous les zombies bougent en même temps pour accélérer les tours.
+    - **Mécaniques d'essaim** : Les zombies tentent d'encercler et de submerger les survivants individuels.
+    - **Overwatch au corps à corps** : Gérer efficacement les unités de mêlée peut nettoyer des groupes sans gaspiller de munitions.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Risque tactique">
+Les personnages ne disposent pas actuellement de position "couchée". Cela signifie que se tenir derrière une couverture basse laisse encore des parties de la hitbox exposées aux tirs ennemis, ce qui peut mener à des morts inattendues et à des rechargements de sauvegarde forcés.
+</Callout>
+
+| Fonctionnalité | Détail de la mécanique | Impact sur la durée de vie |
+| :--- | :--- | :--- |
+| **Points d'Action** | Mouvement traditionnel sur grille | Élevé (nécessite une planification minutieuse) |
+| **Ligne de vue** | Cônes de vision 3D réels | Modéré (affecte le temps de reconnaissance) |
+| **Dégradation des armes** | Durabilité et chances d'enrayage | Faible (ajoute au temps de préparation) |
+| **Physique Ragdoll** | Animations de mort réalistes | Aucun (amélioration visuelle) |
+
+</Section>
+
+<Section icon={Shield} title="Mécaniques de survie et gestion de la base">
+
+La partie non-combative du jeu implique la gestion d'un groupe disparate de survivants. C'est ici que beaucoup de joueurs peinent, car le taux de consommation des ressources est notoirement élevé. Si vous ne fouillez pas chaque recoin de la carte pour trouver de la nourriture, des médicaments et des objets améliorant le moral, votre camp peut rapidement sombrer dans l'anarchie.
+
+La gestion de la base n'est pas qu'une activité secondaire ; c'est une horloge qui tourne. Si le moral baisse trop, les survivants peuvent se retourner les uns contre les autres, menant à une fin prématurée de votre campagne. Cela ajoute une couche de "pression" à la métrique de **durée de vie d'Urban Strife**, car vous ne pouvez pas simplement attendre la fin de l'apocalypse — vous devez constamment être en mouvement.
+
+<Callout type="success" title="Conseil sur le moral">
+Gardez un œil sur les objets de "luxe" comme les magazines ou les collations. Ce sont souvent les seuls éléments empêchant votre camp de sombrer dans le cannibalisme durant les premiers stades de l'Acte 1.
+</Callout>
+
+| Ressource | Importance | Méthode d'acquisition |
+| :--- | :--- | :--- |
+| **Nourriture** | Vitale pour la survie quotidienne | Fouiller les maisons et épiceries |
+| **Munitions** | Essentielles pour les rencontres humaines | Artisanat ou pillage de caches militaires |
+| **Médecine** | Soigne les blessures et infections | Pharmacies et ruines d'hôpitaux |
+| **Objets de moral** | Prévient l'anarchie du camp | Fouiller les tables de chevet/étagères résidentielles |
+| **Matériaux** | Utilisés pour améliorer la base | Démanteler des meubles et piles de ferraille |
+
+</Section>
+
+<Section icon={Target} title="Étapes pour terminer efficacement l'Acte 1">
+
+Pour les joueurs cherchant à voir tout ce que l'Acte 1 a à offrir sans tomber dans le "piège des ressources", suivre un chemin de progression spécifique est recommandé. Le début de partie est la période la plus dangereuse, et perdre du temps peut être fatal.
+
+<Steps>
+  <Step num="1" title="Sécuriser un périmètre">
+    Concentrez-vous immédiatement sur le nettoyage de la zone autour de votre abri de départ. Établissez une "zone de mort" pour les zombies errants afin de garantir que vos pillards aient une route de sortie sûre.
+  </Step>
+  <Step num="2" title="Prioriser le pillage">
+    Ne vous concentrez pas tout de suite sur l'histoire principale. Passez les deux premiers jours en jeu à rassembler autant de nourriture et d'eau que possible. Le taux de consommation est élevé, et vous avez besoin d'une réserve.
+  </Step>
+  <Step num="3" title="Recruter des spécialistes">
+    Cherchez des PNJ avec des compétences spécifiques comme "Bubba" pour le combat au corps à corps ou des personnages avec de hautes compétences médicales. Une équipe équilibrée réduit le temps passé à se soigner après les escarmouches.
+  </Step>
+  <Step num="4" title="Gérer les relations de faction">
+    Interagissez avec les cultistes et survivants locaux. Vous pouvez choisir de combattre ou de négocier, mais rappelez-vous que combattre chaque faction augmentera considérablement la difficulté et le temps nécessaire pour progresser.
+  </Step>
+  <Step num="5" title="Le dernier effort">
+    Une fois que votre base dispose d'un approvisionnement constant en ressources, concentrez-vous sur les objectifs de quête linéaires pour déclencher la conclusion de l'Acte 1.
+  </Step>
+</Steps>
+
+<Callout type="info">
+La progression narrative est actuellement assez linéaire. Vous passerez d'un lieu à l'autre en accomplissant des objectifs spécifiques plutôt que d'avoir une expérience sandbox totalement ouverte.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visuels et impact sur les performances">
+
+Urban Strife se distingue dans le paysage vidéoludique de 2026 en évitant l'esthétique "cartoon" commune à de nombreux titres indépendants modernes. Il opte pour un look ancré, granuleux et réaliste qui renforce l'atmosphère post-apocalyptique. Bien que les graphismes soient impressionnants, ils peuvent impacter les performances sur les systèmes plus anciens, menant potentiellement à des temps de chargement plus longs entre les secteurs.
+
+| Élément graphique | Niveau de qualité | Impact sur la performance |
+| :--- | :--- | :--- |
+| **Détail de l'environnement** | Élevé (Granuleux/Sale) | Modéré |
+| **Modèles de personnages** | Échelle réaliste | Faible |
+| **Éclairage/Ombres** | Jour/Nuit dynamique | Élevé |
+| **Animations** | Fluides/Pas chassés | Faible |
+
+<Callout type="tip" title="Optimisation">
+Si vous trouvez que le jeu ralentit lors de grandes rencontres avec des zombies, essayez de réduire la qualité des ombres. Le système de mouvement simultané est gourmand en CPU, donc chaque économie de ressources GPU est utile.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de progression">
+
+Pour vous assurer que vous êtes sur la bonne voie pour terminer avec succès le contenu actuel, utilisez cette liste de contrôle pour suivre vos progrès.
+
+<Checklist
+  id="urban-strife-milestones"
+  title="Liste de contrôle de maîtrise de l'Acte 1 :"
+  items={[
+    "Établir un approvisionnement alimentaire stable pour au moins 3 jours",
+    "Recruter une escouade complète de 4 à 6 survivants spécialisés",
+    "Nettoyer le quartier local de l'essaim de zombies initial",
+    "Terminer la première négociation ou bataille majeure de faction",
+    "Améliorer l'installation médicale de la base au niveau 1",
+    "Atteindre la fin de l'arc narratif de l'Acte 1"
+  ]}
+/>
+
+<Callout type="warning" title="Avertissement d'accès anticipé">
+Parce que le jeu est en "accès anticipé très précoce", vous pouvez rencontrer des bugs ou des éléments d'interface maladroits qui peuvent artificiellement étendre votre durée de jeu. Gardez toujours plusieurs fichiers de sauvegarde.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Questions fréquemment posées">
+
+<FAQ items={[
+  {
+    question: "Quelle est la durée de vie d'Urban Strife dans son état actuel ?",
+    answer: "Actuellement, l'Acte 1 prend entre 6 et 10 heures à la plupart des joueurs. Cela varie en fonction du temps passé à piller et à gérer le moral de votre base."
+  },
+  {
+    question: "Existe-t-il un mode sandbox pour jouer indéfiniment ?",
+    answer: "Bien que le jeu comporte des éléments sandbox comme les guerres de factions et la construction de base, la progression narrative est actuellement linéaire. Une fois l'Acte 1 terminé, les objectifs principaux s'arrêtent."
+  },
+  {
+    question: "Le jeu devient-il plus difficile à mesure que je joue ?",
+    answer: "Oui. La rareté des ressources augmente et le moral du groupe devient plus difficile à maintenir avec le temps. Si vous progressez trop lentement, votre camp peut sombrer dans l'anarchie."
+  },
+  {
+    question: "Puis-je personnaliser mon personnage principal ?",
+    answer: "Vous pouvez créer votre propre personnage, mais les dialogues sont souvent pré-écrits d'une manière qui donne l'impression qu'il fait partie intégrante de l'histoire plutôt que d'être un avatar unique."
+  }
+]} />
+
+</Section>

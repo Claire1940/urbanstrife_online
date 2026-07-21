@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cheat Engine Urban Strife : Guide d'installation et aperçu des fonctionnalités",
+  description: "Maîtrisez la table Cheat Engine d'Urban Strife pour modifier les ressources de base, les attributs des personnages et la durabilité des équipements pour une expérience de survie ultime.",
+  category: "Tutoriel",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Cheat+Engine+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Cheat Engine pour Urban Strife** permet aux joueurs de modifier les mécaniques de survie de base, y compris les fournitures du camp et les statistiques des personnages.
+- Le **Contrôle de la Base** est essentiel pour gérer les matériaux, le moral, la nourriture et l'essence sans avoir à farmer.
+- Les **Pointeurs de Personnage** nécessitent un déplacement pour s'actualiser ; si vous voyez des valeurs par défaut comme 55, déplacez votre unité pour rafraîchir le pointeur.
+- La **Modification d'Équipement** se concentre sur les munitions infinies et la prévention de la casse des objets en gelant les valeurs de durabilité.
+- La **Compatibilité des Versions** peut être maintenue manuellement en mettant à jour les décalages (offsets) de script dans l'éditeur de mémoire de Cheat Engine.
+</Callout>
+
+<Section icon={Target} title="Premiers pas avec le Cheat Engine d'Urban Strife">
+
+La table **Cheat Engine pour Urban Strife** est un outil créé par la communauté pour alléger la gestion difficile des ressources et la difficulté tactique de ce RPG post-apocalyptique. En utilisant un script basé sur Unreal Engine, les joueurs peuvent accéder aux adresses mémoire profondes pour modifier leur expérience de jeu. Que vous ayez du mal avec la rareté des matériaux ou que vous cherchiez à créer un super-soldat, la table Cheat Engine (CE) fournit les pointeurs nécessaires pour contourner les limites standard du jeu.
+
+**Points forts de la vidéo :**
+- Aperçu du Script Maître et de ses principales sous-options.
+- Démonstration du système de Contrôle de la Base et de la modification des ressources.
+- Explication du système de Pointeurs de Personnage et du déclencheur de mouvement requis.
+- Tutoriel sur la mise à jour manuelle de la table pour les nouveaux correctifs du jeu.
+
+<YouTubeEmbed videoId="ZJ3982u_PPU" title="Débloquez la puissance ultime dans Urban Strife - Table Cheat Engine" />
+
+<Callout type="warning" title="Sensibilisation anti-triche">
+Urban Strife est principalement une expérience solo, mais assurez-vous toujours de lancer le jeu en mode hors ligne si des fonctionnalités multijoueurs sont ajoutées à l'avenir. L'utilisation de Cheat Engine tout en étant connecté à des classements actifs ou à des serveurs multijoueurs peut entraîner le signalement de votre compte.
+</Callout>
+
+### Composants principaux de la table
+La table est généralement organisée en trois catégories principales. Il est essentiel de les comprendre pour modifier efficacement le jeu :
+
+| Catégorie | Fonction principale | Complexité |
+| :--- | :--- | :--- |
+| **Contrôle de la Base** | Modifie les matériaux, le moral, la nourriture et l'essence | Faible |
+| **Contrôle de l'Équipement** | Modifie le nombre de munitions et la durabilité des objets | Moyenne |
+| **Pointeur de Personnage** | Modifie la force, l'agilité et la santé | Élevée |
+
+</Section>
+
+<Section icon={Shield} title="Gestion des ressources de base et des fournitures">
+
+La gestion des ressources est le pilier de la survie dans Urban Strife. La table **Cheat Engine d'Urban Strife** comprend un script de Contrôle de la Base qui se connecte aux variables globales de fournitures. Une fois activé, les joueurs peuvent voir les mises à jour en temps réel de l'inventaire de leur base. C'est particulièrement utile pour les joueurs qui souhaitent se concentrer sur le combat tactique plutôt que sur la recherche constante de carburant ou de nourriture.
+
+| Type de ressource | Description | Action recommandée |
+| :--- | :--- | :--- |
+| **Matériaux** | Utilisés pour la construction et les réparations | Régler sur 9999 pour des améliorations instantanées |
+| **Moral** | Affecte les performances des colons | Maintenir au-dessus de 80 pour éviter les désertions |
+| **Nourriture** | Consommation quotidienne requise | Bloquer à 500 pour ignorer la faim |
+| **Essence** | Requise pour les véhicules et l'énergie | Geler à des valeurs élevées pour les déplacements |
+
+<Callout type="tip" title="Gestion du moral">
+Si votre moral baisse trop à cause d'événements de l'histoire, utilisez le script de Contrôle de la Base pour le réinitialiser instantanément. Cela évite les effets de statut négatifs qui peuvent paralyser votre efficacité au combat lors des raids de début de partie.
+</Callout>
+
+Le script fonctionne en lisant les valeurs de la base de données stockées dans la mémoire du jeu. Bien que l'interface utilisateur puisse afficher les taux de production et de consommation, modifier directement le nombre brut de matériaux est le moyen le plus direct d'influencer la survie de votre base. Notez que certaines valeurs sont purement visuelles dans la base de données et peuvent ne pas affecter le jeu à moins que la fonction de consommation principale ne soit contournée.
+
+</Section>
+
+<Section icon={Swords} title="Modification du combat et de l'équipement">
+
+Le combat dans Urban Strife est impitoyable. Les armes se dégradent et les munitions sont souvent rares. La table **Cheat Engine d'Urban Strife** fournit des contrôles spécifiques pour les objets actuellement équipés. Ce script est sensible au contexte, ce qui signifie qu'il cible l'objet actuellement tenu ou mis en surbrillance par le personnage.
+
+<CardGrid cols={2}>
+  <Card title="Contrôle des armes à feu">
+    - **Nombre de munitions** : Changez votre chargeur actuel pour 999 ou plus.
+    - **Contournement du rechargement** : Évitez d'avoir à recharger fréquemment pendant les combats au tour par tour.
+    - **Réduction du poids** : Réglez le poids de l'arme sur zéro pour augmenter les points d'action (PA).
+  </Card>
+  <Card title="Armes de mêlée et durabilité">
+    - **Verrouillage de la durabilité** : Réglez la valeur d'utilisation sur 1 et gelez-la pour éviter la casse.
+    - **Utilisation infinie** : Empêchez les objets de disparaître après leur dernière utilisation.
+    - **Gestion du poids** : Portez des armes de mêlée lourdes sans pénalités d'encombrement.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Exploit du poids nul">
+En réglant le poids de tous les objets équipés sur 0 via le pointeur d'inventaire, votre personnage bénéficie d'un boost significatif de mobilité et de PA totaux par tour, permettant plus d'actions en mode tactique.
+</Callout>
+
+### Tableau des attributs d'équipement
+
+| Attribut | Effet de la modification | Stabilité |
+| :--- | :--- | :--- |
+| **Munitions actuelles** | Tir infini sans rechargement | Élevée |
+| **Munitions max** | Augmente la capacité du chargeur de façon permanente | Moyenne |
+| **Durabilité** | Empêche la dégradation des armes et des armures | Élevée |
+| **Poids** | Augmente la portée de déplacement du personnage | Élevée |
+
+</Section>
+
+<Section icon={Activity} title="Édition avancée des statistiques de personnage">
+
+Le Pointeur de Personnage est la partie la plus puissante mais aussi la plus sensible de la table **Cheat Engine d'Urban Strife**. Il permet de modifier des attributs de base tels que la force, l'agilité et la précision de tir. Cependant, comme le jeu utilise un système de pointeur dynamique, les valeurs peuvent ne pas apparaître immédiatement après l'activation du script.
+
+| Attribut | Impact au combat | Valeur max recommandée |
+| :--- | :--- | :--- |
+| **Force** | Capacité de transport et dégâts de mêlée | 100 |
+| **Agilité** | Points d'action (PA) totaux et esquive | 100 |
+| **Précision de tir** | Précision avec les armes à feu | 100 |
+| **Intelligence** | Gain d'expérience et tests de compétences | 100 |
+| **Santé** | PV totaux avant la mort | 999 |
+
+<Steps>
+  <Step num="1" title="Activer le script de personnage">
+    Activez l'option "Character Pointer" (Pointeur de Personnage) dans la liste de Cheat Engine.
+  </Step>
+  <Step num="2" title="Déclencher la mise à jour">
+    Déplacez votre personnage d'une case dans le monde du jeu. Cela force le jeu à mettre à jour l'adresse mémoire recherchée par le script.
+  </Step>
+  <Step num="3" title="Vérifier le tag du personnage">
+    Vérifiez le 'Character Tag' dans la liste CE. S'il est de 1, 2, 3 ou 4, vous modifiez probablement votre équipe principale. S'il affiche d'autres valeurs, vous regardez peut-être un PNJ ou un zombie.
+  </Step>
+  <Step num="4" title="Appliquer les modifications">
+    Modifiez les valeurs des attributs souhaités et gelez-les si nécessaire.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Le bug de la valeur 55">
+Si vous voyez toutes les statistiques s'afficher à "55", c'est que le pointeur cible actuellement un PNJ générique ou ne s'est pas encore connecté à votre personnage spécifique. Ne modifiez pas ces valeurs avant d'avoir déplacé votre personnage et de voir vos statistiques réelles reflétées dans la table.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Comment mettre à jour la table manuellement">
+
+Comme Urban Strife est en cours de développement actif, les mises à jour du jeu brisent souvent les tables Cheat Engine en modifiant les décalages (offsets) de mémoire. La table **Cheat Engine d'Urban Strife** peut être mise à jour manuellement si vous comprenez la logique de base du code assembleur. Le tutoriel vidéo de Big Bear souligne que la plupart des mises à jour d'Unreal Engine ne modifient que le "pointeur de base" plutôt que toute la logique du script.
+
+### Dépannage et mises à jour
+
+| Problème | Cause | Solution |
+| :--- | :--- | :--- |
+| **Le script ne s'active pas** | AOB (Array of Bytes) modifié | Effectuez un nouveau scan AOB pour la fonction |
+| **Les valeurs affichent ??** | Incompatibilité de version du jeu | Mettez à jour le pointeur de base dans le script |
+| **Le jeu plante** | Corruption de l'adresse mémoire | Désactivez le gel ("Freeze") sur les valeurs de santé ou de PA |
+
+<Steps>
+  <Step num="1" title="Identifier le script">
+    Faites un clic droit sur le script défaillant (ex. Base Control) et sélectionnez "Change Script" (Modifier le script).
+  </Step>
+  <Step num="2" title="Trouver le point d'injection">
+    Cherchez la ligne qui déplace un registre (comme `rcx` ou `rdx`) dans un pointeur de base.
+  </Step>
+  <Step num="3" title="Comparer les registres">
+    Si le jeu a été mis à jour, le registre a peut-être changé de `rcx` à `rax`. Mettez à jour le script pour correspondre au nouveau registre utilisé par le code du jeu.
+  </Step>
+  <Step num="4" title="Sauvegarder et tester">
+    Sauvegardez le script et essayez de l'activer. S'il reste coché, la mise à jour a réussi.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Astuce de l'éditeur de mémoire">
+Utilisez la fonction "Memory View" de Cheat Engine pour voir le code environnant. Souvent, les développeurs du jeu ne font que déplacer l'emplacement de la fonction, et la logique réelle reste identique, ce qui facilite la correction par un simple copier-coller de la nouvelle adresse.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle d'utilisation et bonnes pratiques">
+
+Pour garantir une expérience stable lors de l'utilisation de la table **Cheat Engine d'Urban Strife**, suivez cette liste de contrôle avant chaque session. Les jeux de survie sont sujets à la corruption des fichiers de sauvegarde si la mémoire est modifiée de manière incorrecte.
+
+<Checklist
+  id="ce-safety-checklist"
+  title="Étapes pour tricher en toute sécurité :"
+  items={[
+    "Sauvegardez vos fichiers de sauvegarde situés dans le dossier AppData.",
+    "Lancez le jeu et chargez votre partie avant d'ouvrir Cheat Engine.",
+    "Associez Cheat Engine au processus 'USG-Win64-Shipping.exe'.",
+    "Activez le Script Maître uniquement après le chargement complet du monde du jeu.",
+    "Évitez de geler les valeurs de 'Santé', car cela peut involontairement affecter les ennemis."
+  ]}
+/>
+
+<Callout type="info">
+Rappelez-vous qu'Urban Strife utilise un système de "Tag de Personnage" pour distinguer les joueurs des PNJ. Vérifiez toujours que vous modifiez le bon tag pour éviter de rendre les zombies ou les pillards ennemis invincibles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Pourquoi les statistiques de mon personnage reviennent-elles à 55 ?",
+    answer: "La valeur 55 est une valeur par défaut pour de nombreux PNJ. Le pointeur se met à jour en fonction des mouvements. Déplacez votre personnage pour vous assurer que la table lit les données de votre unité spécifique avant de faire des modifications."
+  },
+  {
+    question: "Puis-je utiliser cela pour obtenir des Points d'Action (PA) infinis ?",
+    answer: "Oui, le pointeur d'inventaire vous permet de régler le poids des objets sur zéro, ce qui augmente considérablement les PA. Certaines tables incluent également un pointeur de PA direct qui peut être gelé pendant votre tour."
+  },
+  {
+    question: "Cela fonctionnera-t-il avec la version Steam d'Urban Strife ?",
+    answer: "La plupart des tables sont conçues pour les versions IGG ou Early Access. Si vous possédez la version Steam, vous devrez peut-être mettre à jour manuellement les décalages (offsets) comme décrit dans la section technique de ce guide."
+  },
+  {
+    question: "Comment supprimer l'état 'Étourdi' ou d'infection ?",
+    answer: "Dans la section Pointeur de Personnage, recherchez le booléen 'Is Infected' (Est infecté) ou 'Dizzy' (Étourdi). Changez la valeur sur 'No' (Non) et déplacez votre personnage pour effacer immédiatement l'effet de statut."
+  }
+]} />
+
+</Section>

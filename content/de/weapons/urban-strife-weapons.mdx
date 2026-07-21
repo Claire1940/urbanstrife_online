@@ -1,0 +1,190 @@
+import { Swords, Settings, ShoppingBag, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Waffen: 2026 Tier List & Loadout-Guide",
+  description: "Meistern Sie die Ballistik, die Arsenale der Fraktionen und die individuellen Handwerksrezepte für Urban Strife Waffen. Optimieren Sie die Ausrüstung Ihres Trupps für das ultimative Überleben.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/334155/fff?text=Urban+Strife+Weapons+Guide",
+  date: "2026-07-21",
+  author: "Urban Strife Wiki-Team",
+  keywords: "Urban Strife, Waffen, Guide, Ballistik, Handwerk, Fraktionen, Loadout"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Ballistik ist entscheidend**: Jede Kugel und jedes Schrotkorn verfügt über individuelle Flugbahnberechnungen und Materialdurchdringung basierend auf dem Kaliber.
+- **Stealth vs. Lautstärke**: Lautlose Nahkampfwerkzeuge und Armbrüste verhindern Horden-Alarme, während großkalibrige Gewehre und Schrotflinten massive Gruppen sofort ausschalten.
+- **Arsenale der Fraktionen**: Schließen Sie sich der Garnison der abtrünnigen Armee für Militärausrüstung oder den Shady Lady Bikers für Feuerkraft vom Schwarzmarkt an.
+- **Waffenmodifikation**: Nutzen Sie die Werkstatt im Unterschlupf, um individuelle Aufsätze, Schalldämpfer und Spezialmunition herzustellen.
+- **Aktionspunkte-Management**: Balancieren Sie Waffengewicht und Kaliber aus, um eine hohe AP-Effizienz beizubehalten und mächtige Unterbrechungsaktionen auszuführen.
+</Callout>
+
+<Section icon={Swords} title="Waffenkategorien & Ballistik-Übersicht">
+
+Das Überleben der Zombie-Pandemie im fiktiven Bezirk Urban erfordert mehr als nur reinen Mut. Das Verständnis der komplexen Mechanik der **Urban Strife Waffen** ist entscheidend, um Ihren provisorischen Trupp von Rangern am Leben zu erhalten. Im Gegensatz zu traditionellen rundenbasierten Rollenspielen, die sich bei Trefferberechnungen ausschließlich auf einfache Zufallszahlengeneratoren verlassen, nutzt der Kampf in diesem taktischen Überlebens-RPG eine robuste Echtzeit-Ballistik-Engine.
+
+Jedes einzelne Projektil – ob es sich um eine einzelne Hochgeschwindigkeits-Gewehrpatrone oder eine Garbe Schrotkugeln handelt – hat seine eigene Flugbahnberechnung. Die kaliberspezifische Materialdurchdringung bestimmt, ob eine Kugel Holzzäune durchschlägt, Ziegelwände zertrümmert oder mehrere hintereinander stehende Ziele durchdringt. Diese Detailtiefe führt zu einer immensen taktischen Flexibilität, die es den Spielern ermöglicht, feindliche Deckung zu zerstören, Flankierungsmanöver durchzuführen, durch Fenster einzusteigen und Kämpfe von Hausdächern auszuführen.
+
+Die Wahl der richtigen Waffenklasse hängt stark von der Bedrohungsstufe der Umgebung, der Zusammensetzung der feindlichen Kräfte und dem gesamten Aktionspunkte-Pool (AP) Ihres Trupps ab.
+
+<CardGrid cols={3}>
+  <Card title="Stealth & Nahkampf">
+    - **Null Geräuschentwicklung**
+    - Hohe AP-Effizienz für den Nahkampf
+    - Ideal zum lautlosen Ausschalten isolierter Ziele
+  </Card>
+  <Card title="Massenkontrolle">
+    - **Breite Streuung**
+    - Verheerender Schaden gegen dichte Zombiehorden
+    - Hohes Potenzial zur Zerstörung von Deckung
+  </Card>
+  <Card title="Präzision & Schwer">
+    - **Extreme Rüstungsdurchdringung**
+    - Außergewöhnliche Reichweite und hoher Basisschaden
+    - Verbraucht signifikante AP pro Schuss
+  </Card>
+</CardGrid>
+
+Um einen effektiven Trupp aufzubauen, müssen Ranger ihre Ausrüstung über verschiedene Waffenkategorien hinweg ausbalancieren. Der Einsatz lauter Schusswaffen ohne Plan wird schnell die einzigartige Horden-KI alarmieren, was dazu führt, dass massive Mengen von Untoten Ihre Position in einer einzigen Runde überrennen.
+
+| Waffenkategorie | Primäre Munition | AP-Kosten | Durchschlagskraft | Geräuschpegel | Primäre taktische Rolle |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Nahkampfwaffen | Keine | Sehr niedrig | Keine | Lautlos | Lautlose Takedowns und Fangschüsse |
+| Pistolen | 9mm / .45 ACP | Niedrig | Niedrig | Mittel | Zuverlässige Seitenwaffe und Backup |
+| Schrotflinten | 12-Gauge | Mittel | Niedrig | Extrem hoch | Räumen dichter Zombie-Cluster |
+| Sturmgewehre | 5.56mm / 7.62mm | Mittel-Hoch | Mittel-Hoch | Hoch | Vielseitigkeit auf mittlere Distanz |
+| Scharfschützengewehre | 7.62mm / .308 | Hoch | Hoch | Hoch | Fernausschaltung und Aufklärung |
+| Schwere Waffen | .50 BMG | Extrem hoch | Extrem hoch | Ohrenbetäubend | Deckungszerstörung und gepanzerte Ziele |
+
+<Callout type="warning" title="Horden-Alarmsystem">
+Laute Schusswaffen wie Schrotflinten und ungedämpfte Gewehre erzeugen Geräuschfallen, die nahegelegene Zombies anlocken. Räumen Sie unmittelbare Pfade immer mit lautlosen Waffen, bevor Sie das Feuer mit schwerkalibrigen Maschinen eröffnen.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Leitfaden für Waffenanpassung & Handwerk">
+
+Das Überleben in der Postapokalypse ist ein ständiger Kampf gegen Ressourcenknappheit. Die Waffen, die Sie aus den Ruinen von Urban bergen, können durch Basis-Upgrades und detaillierte Handwerkssysteme erheblich verbessert werden. Durch das Reparieren und Umrüsten der lokalen Werkstatt in Ihrem befestigten Unterschlupf schalten Sie die Fähigkeit frei, fortschrittliche Aufsätze herzustellen, Ihre Feuerwaffen anzupassen und spezialisierte Munition zu mischen.
+
+Die Anpassung Ihrer Waffen ermöglicht es Ihnen, die Leistung Ihres Trupps auf Ihren spezifischen Spielstil zuzuschneiden. Das Hinzufügen von Schalldämpfern zu Handfeuerwaffen oder Maschinenpistolen schafft effektive Stealth-Werkzeuge, während die Montage optischer Zielfernrohre auf Jagdgewehre einfache Waffen in tödliche Präzisionsplattformen verwandelt. Darüber hinaus können Spieler spezialisierte Munitionstypen herstellen, wie zum Beispiel maßgeschneiderte Dum-Dum-Geschosse, die sich beim Aufprall ausdehnen, um massive Mannstoppwirkung zu erzielen und schwere Blutungseffekte bei weichen Zielen zu verursachen.
+
+| Aufsatztyp | Benötigte Materialien | Primärer Stat-Bonus | Ideale Waffen-Synergie |
+| :--- | :--- | :--- | :--- |
+| Schalldämpfer | Altmetall, Federn, Ölfilter | Reduziert Geräuschentwicklung um 80% | Pistolen, Maschinenpistolen |
+| Optisches Visier | Glaslinsen, Präzisionsteile | Erhöht effektive Reichweite und Präzision | Sturmgewehre, Scharfschützengewehre |
+| Laserpointer | Elektronikkomponenten, Batterie | Verbessert Präzision aus der Hüfte | Schrotflinten, Pistolen |
+| Erweitertes Magazin | Blech, Federn | Erhöht Munitionskapazität um 50% | Maschinenpistolen, Sturmgewehre |
+| Ergonomischer Griff | Stoff, geschnitztes Holz, Klebstoff | Verringert Aktionspunkt-Kosten pro Angriff | Nahkampfwaffen, schwere Gewehre |
+
+Um Ihr Arsenal anzupassen und Ihre Kampffähigkeiten zu verbessern, folgen Sie diesem strukturierten Fortschrittssystem in Ihrer Heimatbasis.
+
+<Steps>
+  <Step num="1" title="Materialien sammeln">
+    Erkunden Sie verlassene Wohngebiete, Autowerkstätten und Militärstützpunkte, um Metallteile, Federn, elektronische Komponenten und seltene Waffenschemata zu sammeln.
+  </Step>
+  <Step num="2" title="Werkstatt aufrüsten">
+    Weisen Sie Überlebensressourcen zu, um die Basiswerkstatt Ihres Unterschlupfs zu reparieren und umzurüsten, wodurch fortschrittliche Handwerksstufen und spezialisierte Modifikationsrezepte freigeschaltet werden.
+  </Step>
+  <Step num="3" title="Aufsätze fertigen">
+    Verwenden Sie gesammelte Blaupausen und Rohmaterialien, um Schalldämpfer, taktische Zielfernrohre, erweiterte Magazine oder Spezialmunition wie Dum-Dum-Geschosse mit hoher Stoppwirkung herzustellen.
+  </Step>
+  <Step num="4" title="Arsenal modifizieren">
+    Greifen Sie auf das Waffenmodifikations-Interface in Ihrer Werkstatt zu, kombinieren Sie Ihre Basiswaffen mit den neu gefertigten Kits und schicken Sie Ihren verbesserten Trupp ins Feld.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Versteckte Rezepte">
+Halten Sie Ausschau nach versteckten Bereichen und freunden Sie sich mit schrulligen NPCs im ganzen Bezirk an. Viele fortschrittliche Handwerksrezepte und einzigartige Waffenblaupausen sind nur zugänglich, wenn man das Vertrauen lokaler Überlebender gewinnt.
+</Callout>
+
+</Section>
+
+<Section icon={ShoppingBag} title="Fraktionswaffen & Schwarzmarkthandel">
+
+Da die menschliche Bevölkerung schrumpft, haben sich die verbliebenen Überlebenden in verschiedene Fraktionen aufgeteilt, die um die Überreste der Zivilisation kämpfen. Jede Fraktion kontrolliert einzigartige Lieferketten, spezialisierte Werkstätten und wertvolle Vorräte an militärischer oder industrieller Ausrüstung. Der Zugang zu diesen exklusiven Inventaren erfordert das Navigieren durch komplexe politische Beziehungen und den Aufbau eines starken Rufs im gesamten Bezirk.
+
+Ihre Entscheidungen in Dialogen, beim Abschluss von Missionen und bei der Ressourcenverteilung wirken sich direkt darauf aus, welche Fraktionshändler mit Ihnen handeln und welche hochwertige Hardware sie auf den Markt bringen.
+
+| Fraktion | Kampfphilosophie | Signatur-Waffenklasse | Wichtigstes Schwarzmarkt-Inventar |
+| :--- | :--- | :--- | :--- |
+| Garnison der abtrünnigen Armee | Elite-Militär, Hochleistungstaktik | Sturmgewehre & Sniper | .50 BMG Anti-Materiel Rifle, Militärrüstung |
+| Shady Lady Bikers | Aggressive Nahkämpfer | Schrotflinten & MPs | Custom Schrotflinten-Trommelmagazine, automatische MPs |
+| Kult der zweiten Chance | Lautlose, gewaltfreie Philosophie | Armbrüste & schwerer Nahkampf | Fortschrittliche Compound-Armbrüste, lautlose Bolzen |
+| Unabhängige Überlebende | Basis-Überleben, Low-Tier-Verteidigung | Pistolen & Jagdgewehre | Standard 9mm Pistolen, Jagdgewehr-Visierte |
+
+Die Garnison der abtrünnigen Armee sitzt auf einem unschätzbaren Lager an Militärvorräten. Wenn Sie deren Schutzgebühren zahlen und sich ihrer harten Weltanschauung anpassen, werden sie Ihre Ranger mit erstklassiger Militärhardware versorgen. Umgekehrt betreiben die Shady Lady Bikers einen hochprofitablen Schwarzmarkt in ihrem rund um die Uhr geöffneten Etablissement und bieten automatische Waffen, Fahrzeugteile und spezialisierte Kampfdrogen an. Für Spieler, die einen heimlicheren Ansatz suchen, bietet der Kult der zweiten Chance lautlose Werkzeuge an, die in der Lage sind, Bedrohungen zu neutralisieren, ohne nahegelegene Horden zu alarmieren.
+
+<Callout type="success" title="Ruf-Belohnungen">
+Das Erreichen des maximalen Rufs bei einer Fraktion schaltet nicht nur deren höchste Waffenstufe frei, sondern gewährt auch Zugang zu einzigartigen, rekrutierbaren Spezialisten-NPCs, die bereits mit Elite-Ausrüstung ausgestattet sind.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beste Loadouts für frühes, mittleres und spätes Spiel">
+
+Die Optimierung der Ausrüstung Ihres Trupps ist essenziell, da die Bedrohungen in Urban zunehmend feindseliger werden. In den ersten Tagen Ihrer Kampagne liegt Ihr Hauptaugenmerk auf der Ressourcenschonung und dem grundlegenden Überleben. Sobald Sie Ihre Basis etabliert und Allianzen geschmiedet haben, sollte Ihr Arsenal in spezialisierte taktische Rollen übergehen.
+
+In der folgenden Tabelle finden Sie hocheffektive Loadout-Konfigurationen, die auf jede Phase des Spiels zugeschnitten sind.
+
+| Kampagnenphase | Ranger-Rolle | Empfohlene Primärwaffe | Empfohlene Sekundärwaffe | Taktischer Fokus |
+| :--- | :--- | :--- | :--- | :--- |
+| Frühes Spiel | Späher | Armbrust | Baseballschläger | Lautlose Erkundung und Einzelziel-Ausschaltung |
+| Frühes Spiel | Frontkämpfer | Pump-Action Schrotflinte | 9mm Pistole | Massenkontrolle und Notfallverteidigung im Nahkampf |
+| Mittleres Spiel | Präzisionsschütze | Repetiergewehr | Schallgedämpfte Pistole | Fernpräzision und leise Backup-Optionen |
+| Mittleres Spiel | Kommando | 5.56mm Karabiner | Machete | Vielseitige Kämpfe auf mittlere Distanz und Flankierung |
+| Spätes Spiel | Scharfschütze | .50 BMG Gewehr | Schallgedämpfte MP | Schwere Durchdringung, Wandzerstörung und Nahverteidigung |
+| Spätes Spiel | Schwerer Schütze | Leichtes Maschinengewehr | Auto-Schrotflinte | Absolute Massenunterdrückung und Räumen riesiger Horden |
+
+Bevor Sie in Gebiete mit hoher Bedrohung aufbrechen, wie die dunklen U-Bahn-Tunnel oder befestigte Fraktionsstützpunkte, stellen Sie sicher, dass Ihr Trupp gründlich vorbereitet ist.
+
+<Checklist
+  id="squad-preparation"
+  title="Vorbereitungs-Checkliste vor der Mission:"
+  items={[
+    "Sicherstellen, dass mindestens zwei Truppmitglieder für Stealth-Phasen mit lautlosen Waffen ausgestattet sind",
+    "Genügend maßgeschneiderte Dum-Dum-Munition für die primären Ranger zur Massenkontrolle einpacken",
+    "Überprüfen, ob der primäre Präzisionsschütze freie Sichtlinie und Zugang zu erhöhten Positionen hat",
+    "Haltbarkeit aller primären Schusswaffen prüfen und Reparaturen in der Basiswerkstatt durchführen",
+    "Schwere Rüstung und Waffen mit hoher Durchschlagskraft ausrüsten, wenn menschliche Fraktionsstützpunkte angegriffen werden"
+  ]}
+/>
+
+<Callout type="tip" title="AP-Effizienz">
+Überprüfen Sie immer das Gewicht Ihrer Waffen und Rüstungen. Schwere Ausrüstung reduziert Ihre maximalen Aktionspunkte, was Ihre Fähigkeit einschränken kann, defensive Unterbrechungsaktionen während des gegnerischen Zuges auszulösen.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Urban Strife Waffen FAQ">
+
+Um sicherzustellen, dass Ihr Trupp mit höchster taktischer Effizienz arbeitet, lesen Sie diese häufig gestellten Fragen zu Kampfmechanik, Waffenerwerb und Munitionsmanagement.
+
+<FAQ items={[
+  {
+    question: "Wo finde ich die besten Urban Strife Waffen im Spiel?",
+    answer: "Die hochwertigsten Militärwaffen erhält man durch den Aufbau eines hohen Rufs bei der Garnison der abtrünnigen Armee, während Elite-Nahkampfwaffen und automatische Feuerwaffen auf dem Schwarzmarkt der Shady Lady Bikers erworben werden können."
+  },
+  {
+    question: "Wie funktioniert die Materialdurchdringung bei verschiedenen Kalibern?",
+    answer: "Jedes Kaliber hat einen spezifischen Durchschlagswert. Leistungsstarke Patronen wie .308 oder .50 BMG können problemlos Holzwände, Türen und mehrere Feinde durchschlagen, während kleinkalibrige Geschosse wie 9mm oder Schrotkugeln von solider Deckung blockiert werden."
+  },
+  {
+    question: "Was ist der Vorteil der Herstellung von individueller Dum-Dum-Munition?",
+    answer: "Dum-Dum-Munition ist so konzipiert, dass sie sich beim Aufprall ausdehnt. Sie verursacht massiven Fleischschaden und schwere Blutungseffekte, was sie hocheffektiv macht, um sich schnell bewegende Zombiehorden zu stoppen, bevor sie Ihre Verteidigungslinie erreichen."
+  },
+  {
+    question: "Kann ich Missionen ausschließlich mit lautlosen Waffen abschließen?",
+    answer: "Ja. Die Kombination aus Armbrüsten, schallgedämpften Pistolen und Nahkampfwaffen wie Baseballschlägern ermöglicht es Ihnen, Karten völlig lautlos zu durchqueren und Ziele nacheinander auszuschalten, ohne das Horden-Alarmsystem auszulösen."
+  }
+]} />
+
+<Callout type="tip" title="Letzter Überlebenstipp">
+Verlassen Sie sich nicht auf eine einzige Waffenklasse. Ein ausgewogener Trupp, bestehend aus einem lautlosen Späher, einem großkalibrigen Präzisionsschützen und einem schwer bewaffneten Spezialisten für Massenkontrolle, ist auf jede Bedrohung vorbereitet, die der Bezirk Urban für Sie bereithält.
+</Callout>
+
+</Section>

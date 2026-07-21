@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Package, Factory, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Materials: 2026 Guide to Crafting & Shelter Upgrades",
+  description: "Master Urban Strife materials with our 2026 guide. Learn about resource scavenging, shelter upgrades, weapon repairs, and crafting recipes for survival.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Urban+Strife+Materials+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban Strife materials** are the backbone of your survival, categorized into construction, medical, food, and military supplies.
+- **Shelter Upgrades** should prioritize the Radio and Hospital first to unlock core campaign functions and recovery.
+- **Weapon Repair** is a new system in Version 1.0, requiring salvaged parts and Owen's specialist operations.
+- **Resource Management** is critical; the final Atlanta Horde siege evaluates your stockpiles and fortifications.
+- **Faction Alliances** unlock unique blueprints and high-tier materials unavailable through standard scavenging.
+</Callout>
+
+<Section icon={Package} title="Essential Urban Strife Materials and Resource Types">
+
+In the post-apocalyptic world of Urban County, managing your **urban strife materials** effectively is the difference between a thriving militia and a starving camp. Following the Version 1.0 release on July 14, 2026, the economy has been refined to emphasize scavenging, recycling, and sustainable production. Resources are no longer just numbers in a menu; they represent the physical health of your survivors and the structural integrity of your walls.
+
+Understanding the hierarchy of needs is the first step for any leader. While ammunition might win a single skirmish, construction materials and food security win the campaign. You must balance the immediate needs of your away team with the long-term requirements of the Urban Shelter.
+
+| Material Category | Primary Use | Scavenging Source | Priority |
+| :--- | :--- | :--- | :--- |
+| **Construction** | Facility repairs and upgrades | Construction sites, warehouses | **High** |
+| **Medical Supplies** | Healing wounds and treating infections | Pharmacies, hospitals, clinics | **High** |
+| **Food & Water** | Maintaining survivor health and morale | Grocery stores, kitchens, farms | **Critical** |
+| **Fuel & Power** | Running facilities and vehicle travel | Gas stations, industrial sectors | **Medium** |
+| **Chemicals** | Crafting explosives and ammunition | Laboratories, hardware stores | **Low-Mid** |
+| **Components** | Advanced electronics and repairs | Electronic stores, junked cars | **Mid-High** |
+
+<Callout type="tip" title="Scavenging Tip">
+Always carry a character with high Strength or the "Pack Mule" trait on scavenging runs. Being encumbered reduces your Action Points in combat, but returning with a full inventory of construction materials is essential for early-game progression.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Shelter Upgrade Progression and Facility Priorities">
+
+The Urban Shelter serves as your base of operations and the final line of defense against the Atlanta Horde. Rebuilding it requires a massive investment of **urban strife materials**. Version 1.0 introduces a layered progression system where basic survival must be stabilized before advanced military tech can be researched.
+
+Your first objective upon reaching the Shelter is to restore basic services. Without a working radio, you cannot coordinate with other survivor groups, and without a hospital, even minor injuries can become permanent disabilities or lead to death.
+
+<Steps>
+  <Step num="1" title="Stabilize Daily Survival">
+    Focus on food and water security. Build the basic storage bins and establish a donation flow. Ensure you have enough fuel to keep the lights on, as dark facilities operate at reduced efficiency and lower morale.
+  </Step>
+  <Step num="2" title="Restore Essential Services">
+    Prioritize the City Radio to unlock the County map and the Hospital for recovery. The Auto Shop is also vital for early vehicle access, which allows you to haul more loot from distant sectors.
+  </Step>
+  <Step num="3" title="Establish Survival Industries">
+    Stop relying solely on scavenging. Build Gardens, Rat Farms, and Frog Ponds. These facilities provide a steady stream of food and materials, allowing your away teams to focus on finding rare blueprints and military gear.
+  </Step>
+  <Step num="4" title="Military and Defense Prep">
+    As the campaign moves toward Day 20, shift resources to fortifications. Powered defenses, reinforced walls, and the Weapon Workshop become the top priority to prepare for the final siege.
+  </Step>
+</Steps>
+
+| Facility | Required Materials | Unlock Benefit |
+| :--- | :--- | :--- |
+| **City Radio** | Components, Metal, Wire | Unlocks County map and faction quests |
+| **Hospital** | Med-supplies, Clean Water, Power | Faster recovery and injury treatment |
+| **Workshop** | Tools, Metal, Components | Unlocks crafting and equipment repair |
+| **Gardens** | Fertilizer, Seeds, Water | Sustainable food production |
+| **Barracks** | Bedding, Wood, Morale items | Increases population and recruit slots |
+
+<Callout type="warning" title="Maintenance Warning">
+Facilities consume power and resources daily. Do not over-expand your Shelter until your production (Gardens/Power Gen) can offset the daily consumption, or you will find your stockpiles empty when you need them most.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Crafting, Repairs, and Specialist Systems">
+
+The Version 1.0 update significantly overhauled the crafting and repair systems. No longer can you simply click a button to "fix" a gun; you now need specific **urban strife materials** and the right specialist. Owen, the Shelter’s mechanic, is central to this process. He can restore the durability of weapons and body armor using salvaged parts.
+
+Crafting in *Urban Strife* is divided between field crafting (basic items) and workbench crafting (advanced ammunition and gear). You can draw materials directly from your Shelter stash while at the base, which removes the need for tedious inventory shuffling.
+
+<CardGrid cols={3}>
+  <Card title="Weapon Workshop">
+    - **Repair Gear**: Use salvaged parts to fix firearms.
+    - **Modify Weapons**: Add silencers and scopes.
+    - **Scrap Items**: Turn junk into useful components.
+  </Card>
+  <Card title="Gunsmith Station">
+    - **Ammo Pressing**: Create custom calibers.
+    - **Explosives**: Craft grenades and Molotovs.
+    - **Armor Plating**: Fabricate ballistic inserts.
+  </Card>
+  <Card title="Medical Lab">
+    - **Refine Meds**: Turn herbs into bandages.
+    - **Antiseptics**: Craft infection-fighting kits.
+    - **Stamina Boosts**: Produce energy drinks.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Efficient Recycling">
+Before selling duplicate or low-quality weapons to traders, check if you need "Salvaged Parts." Breaking down a 10% durability pistol often provides more value in repair materials than the few coins a trader would offer.
+</Callout>
+
+| Crafting Item | Ingredients | Required Facility |
+| :--- | :--- | :--- |
+| **Molotov Cocktail** | Fuel, Cloth, Glass Bottle | Basic Workshop |
+| **9mm Ammunition** | Lead, Powder, Brass Shells | Gunsmith Station |
+| **Ballistic Plate** | Steel, Ceramic, Components | Advanced Workshop |
+| **Suppressed Barrel** | Metal, Tools, Oil Filter | Specialist Owen |
+| **First Aid Kit** | Bandages, Alcohol, Splint | Medical Lab |
+
+</Section>
+
+<Section icon={Target} title="Faction Rewards and Material Farming Routes">
+
+Your reputation with the three major blocs—the National Guard, the Church of Second Chance, and the Shady Lady Bikers—directly impacts your access to high-end **urban strife materials**. Each faction controls specific resource nodes and offers unique blueprints as rewards for your loyalty.
+
+Farming materials requires a tactical approach to the world map. Sectors are marked by their difficulty and the faction that controls them. Early in the game, focus on neutral suburban areas to gather basic construction supplies before venturing into faction-heavy industrial zones.
+
+| Faction | Resource Specialty | Unique Material/Reward |
+| :--- | :--- | :--- |
+| **National Guard** | Military hardware, Armor | .50 BMG ammo, Army HMMWV parts |
+| **Church of Second Chance** | Herbs, Chemicals, Food | Specialist blueprints, unique toxins |
+| **Shady Lady Bikers** | Fuel, Vehicle parts, Scrap | Black-market weapons, Turbo engines |
+| **Independent Barons** | General supplies, Tools | Local trade discounts, rare recruits |
+
+<Callout type="info" title="Reputation Logic">
+Helping a faction doesn't just give you items; it changes the map. A friendly faction may clear roaming hordes in their territory, making your scavenging routes much safer and reducing the fuel cost of travel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Siege Readiness and Final Checklist">
+
+The climax of the campaign is the Atlanta Horde siege. The game tracks your "Siege Readiness" through the Defense Tracker. This system looks at your total **urban strife materials**, the level of your fortifications, and the strength of your allies. If your stockpiles are low, you may be forced to make difficult sacrifices during the final battle.
+
+As you approach Day 20, you should stop all non-essential expansion and focus entirely on combat readiness. Ensure every defender has a repaired weapon, a full set of armor, and at least three reloads of ammunition.
+
+<Checklist
+  id="siege-prep"
+  title="Final Siege Readiness Checklist:"
+  items={[
+    "Repair all primary weapons and body armor to 100% durability.",
+    "Stockpile at least 50 units of Food and Water in the Shelter stash.",
+    "Ensure the Electric Fence and Powered Gates have a 24-hour fuel reserve.",
+    "Distribute grenades and Molotovs to all frontline defenders.",
+    "Complete the final alliance quest to secure faction reinforcements."
+  ]}
+/>
+
+<Callout type="warning" title="The Point of No Return">
+Once the radio warning for the Atlanta Horde triggers (usually 24 hours before the assault), you can no longer leave the Shelter for long scavenging runs. Use this final window to salvage every non-essential item in your stash for repair parts.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Urban Strife Materials FAQ">
+
+<FAQ items={[
+  {
+    question: "Where is the best place to find construction materials?",
+    answer: "The industrial sectors and warehouses in the northern part of Urban County are the richest sources. Look for crates labeled 'Construction Supplies' or 'Hardware'."
+  },
+  {
+    question: "How do I repair weapons in Urban Strife 1.0?",
+    answer: "You must first rescue Owen and restore the Workshop. Repairs require 'Salvaged Parts,' which are obtained by dismantling unwanted weapons and armor."
+  },
+  {
+    question: "Can I craft ammunition without a specialist?",
+    answer: "Basic ammo can be crafted if you have the Gunsmith Station, but advanced calibers and armor-piercing rounds require specific blueprints found through faction quests."
+  },
+  {
+    question: "What happens if I run out of fuel during a trip?",
+    answer: "Your vehicle will stop, and your team will have to travel on foot. This significantly increases the chance of being ambushed by roaming hordes and increases fatigue."
+  }
+]} />
+
+</Section>

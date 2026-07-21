@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Layout, BarChart, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fin d'Urban Strife : État actuel du contenu et étapes de l'histoire",
+  description: "Découvrez l'état actuel de la fin d'Urban Strife, y compris les cartes en cours de développement, les alliances de factions et comment déclencher les événements de fin de partie en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Ending+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Statut de la fin d'Urban Strife** : L'événement de la horde finale et les alliances de fin de partie sont actuellement bloqués au niveau du code pendant que les développeurs équilibrent les mécaniques de fin de partie.
+- **Progression des factions** : L'accès aux bases alliées majeures comme la base de la Garde nationale ou le Shady Lady est restreint tant que vous ne vous engagez pas envers une faction spécifique.
+- **Lieux en cours de développement (WIP)** : Plusieurs cartes de niveau 2, y compris le cimetière et l'armurerie, sont actuellement des aperçus pour le butin et le combat plutôt que des conclusions de l'histoire.
+- **Quêtes non linéaires** : Aucune quête ne bloque la progression de l'histoire principale ; le jeu utilise une structure épisodique où les choix du joueur dictent le déroulement.
+- **Stratégie de préparation** : Concentrez-vous sur l'accumulation de munitions de haut niveau et l'amélioration du système hydro de votre base avant les dernières mises à jour de contenu de 2026.
+</Callout>
+
+<Section icon={Layout} title="L'état actuel de la fin d'Urban Strife">
+
+Comprendre la **fin d'Urban Strife** nécessite de jeter un coup d'œil clair sur la feuille de route de développement actuelle du jeu. En juillet 2026, le jeu est structuré autour d'épisodes distincts qui font progresser le récit. Bien que les joueurs puissent terminer la majeure partie du chapitre 1 et certaines parties du chapitre 2, la cinématique « finale » définitive ou l'événement de la horde est intentionnellement verrouillé.
+
+Les développeurs ont confirmé que l'événement de la horde — un défi de survie massif qui sert de point culminant — est actuellement désactivé. Cela permet de s'assurer que lorsque la version complète sera lancée, l'équilibre entre vos alliances et les envahisseurs morts-vivants sera parfaitement ajusté.
+
+| Type de contenu | Statut actuel | Impact sur la fin |
+| :--- | :--- | :--- |
+| **Quêtes de l'histoire principale** | Disponible jusqu'au chapitre 2 | Essentiel pour les relations de faction |
+| **Invasion de la horde** | Bloqué au niveau du code | Prévu comme le défi final |
+| **Alliances de factions** | Partiellement implémenté | Le choix détermine l'accès final à la base |
+| **Cartes de niveau 2** | Mode aperçu | Fournit du butin et des combats de fin de partie |
+
+<Callout type="warning" title="Note de développement">
+Le jeu ne dispose pas actuellement d'un écran « Game Over » pour la fin de l'histoire. Une fois que vous aurez terminé les quêtes disponibles, vous entrerez dans un état de jeu libre où vous pourrez continuer à récupérer des ressources et à faire du commerce.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Bases de factions et alliances de fin de partie">
+
+Votre voyage vers la **fin d'Urban Strife** est fortement influencé par la faction que vous choisissez de soutenir. Chaque chef « Top Dog » réside dans une base de haute sécurité qui reste inaccessible au début et au milieu du jeu. Ces lieux sont conçus pour être les zones de préparation de la défense finale contre la horde.
+
+<CardGrid cols={3}>
+  <Card title="Base de la Garde nationale">
+    - **Chef** : Gouverneur Moore
+    - **Spécialité** : Discipline militaire et armes à feu de haut niveau
+    - **Rôle de fin de partie** : Défense stratégique et soutien d'artillerie lourde
+  </Card>
+  <Card title="The Shady Lady">
+    - **Chef** : Propre à la faction
+    - **Spécialité** : Gestion des ressources et survie urbaine
+    - **Rôle de fin de partie** : Collecte de renseignements et opérations furtives
+  </Card>
+  <Card title="Camp de la seconde chance">
+    - **Chef** : Dirigeants civils
+    - **Spécialité** : Reconstruction de la communauté et durabilité
+    - **Rôle de fin de partie** : Protection de la population et soutien médical
+  </Card>
+</CardGrid>
+
+Choisir un allié est le principal déclencheur de la séquence finale de cartes. Une fois l'engagement pris, le jeu intègre ces bases alliées dans la boucle de gameplay principale, vous fournissant des technologies avancées comme le système hydro.
+
+<Callout type="tip" title="Choix stratégique">
+Avant de vous engager auprès d'une faction, assurez-vous d'avoir terminé toutes les quêtes secondaires des autres groupes afin de maximiser votre expérience et vos gains de butin.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Accomplir les quêtes narratives clés">
+
+Bien que la fin définitive soit en attente, certaines quêtes sont vitales pour atteindre la « limite souple » actuelle de l'histoire. L'une des plus discutées est la **quête du tire-bouchon** (Corkscrew Quest), qui implique la sœur cultiste. De nombreux joueurs pensent à tort que cette quête est buggée, mais elle nécessite simplement une approche spécifique de la faction des cultistes.
+
+<Steps>
+  <Step num="1" title="Localiser les cultistes">
+    Trouvez la faction des cultistes dans leur secteur désigné. N'engagez pas d'hostilités immédiates si vous souhaitez faire du commerce.
+  </Step>
+  <Step num="2" title="Se lier d'amitié avec la Sœur">
+    La Sœur agit comme un marchand unique. Vous devez acquérir suffisamment de réputation auprès des cultistes pour qu'elle ouvre son inventaire.
+  </Step>
+  <Step num="3" title="Acquérir le vin">
+    Achetez la bouteille de vin spécifique requise pour la quête. Si vous avez déjà rendu la faction hostile, vous devez tuer la Sœur pour piller l'objet.
+  </Step>
+  <Step num="4" title="Remettre la quête">
+    Rapportez l'objet au donneur de quête pour effacer cette étape de votre journal.
+  </Step>
+</Steps>
+
+| Nom de la quête | PNJ clé | Action requise | Récompense |
+| :--- | :--- | :--- | :--- |
+| **Tire-bouchon** | Sœur cultiste | Échange ou Butin | Vin rare / XP |
+| **Armurerie** | Shérif | Nettoyage par le combat | Armes à feu de haut niveau |
+| **Cimetière (WIP)** | N/A | Exploration | Aperçu du butin |
+
+<Callout type="success" title="Pas de blocage">
+Les développeurs ont conçu le jeu de manière à ce qu'aucun résultat de quête — que vous échouiez, passiez ou réussissiez — ne bloque la progression globale de l'histoire principale.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cartes WIP et contenu futur">
+
+Plusieurs lieux sur la carte servent actuellement d'aperçus pour la future extension de la **fin d'Urban Strife**. Ces cartes sont accessibles mais manquent de la profondeur de scénarisation RPG qui sera présente dans la version finale. Entrer dans ces zones maintenant est principalement destiné aux joueurs qui souhaitent tester leurs configurations de combat et sécuriser des équipements de fin de partie.
+
+**Lieux WIP actuels :**
+- **Quincaillerie de Mason** (Mason's Hardware Store) : Prévue comme un pôle de ressources majeur pour le milieu de la campagne.
+- **Lycée urbain du Père King** (Father King's Urban Highschool) : Un bastion spécifique à une faction avec une verticalité complexe.
+- **Hôpital FEMA du gouverneur Moore** (Governor Moore's FEMA Hospital) : Le site principal pour les avancées médicales et les objets de soin de fin de partie.
+
+<Checklist
+  id="ending-prep"
+  title="Liste de préparation pour la fin de partie :"
+  items={[
+    "Atteindre la réputation maximale avec la faction de votre choix",
+    "Sécuriser le système hydro de haut niveau pour votre base",
+    "Stocker au moins 500 munitions spécialisées",
+    "Nettoyer les cartes de l'armurerie et du cimetière pour obtenir du butin d'élite",
+    "Créer une sauvegarde de base avant le choix d'alliance du « point de non-retour »"
+  ]}
+/>
+
+<Callout type="info" title="Conseil d'expert">
+Si vous vous retrouvez sans quête active, concentrez-vous sur le test de style « Murderhobo » — nettoyez les camps hostiles pour voir quels objets uniques ils laissent tomber, car de nombreux PNJ uniques transportent des armes dorées ou de l'équipement rare.
+</Callout>
+
+</Section>
+
+<Section icon={BarChart} title="Gestion des ressources pour l'effort final">
+
+À l'approche des limites actuelles de la **fin d'Urban Strife**, votre attention devrait passer de la survie à l'optimisation. La horde finale nécessitera d'importantes quantités de consommables et d'équipements de haute durabilité.
+
+| Ressource | Importance | Meilleure méthode d'obtention |
+| :--- | :--- | :--- |
+| **Balles spéciales** | ★★★★★ | Fabrication via des établis spécialisés |
+| **Fournitures médicales** | ★★★★☆ | Pillage de l'hôpital FEMA (WIP) |
+| **Ferraille** | ★★★☆☆ | Recyclage des armes à feu redondantes |
+| **Butin de haut niveau** | ★★★★★ | Nettoyage des cartes d'aperçu de niveau 2 |
+
+<Callout type="warning" title="Avertissement sur le butin">
+Soyez prudent lorsque vous tuez des marchands uniques (comme la marchande en bikini). Bien qu'ils puissent laisser tomber des « armes dorées », vous perdez un partenaire commercial permanent pour le reste de votre partie.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Puis-je déclencher l'événement de la horde finale dès maintenant ?",
+    answer: "Non. L'événement de la horde est actuellement bloqué au niveau du code par les développeurs jusqu'à ce que l'équilibre de fin de partie et les cartes finales soient entièrement intégrés."
+  },
+  {
+    question: "La quête du tire-bouchon est-elle requise pour la fin d'Urban Strife ?",
+    answer: "Non. Bien qu'elle fournisse des récompenses utiles et des éléments de l'histoire, il s'agit d'une quête secondaire qui ne bloque pas la progression de l'histoire principale."
+  },
+  {
+    question: "Comment accéder à la base de la Garde nationale ?",
+    answer: "Cette base est une « base alliée ». Vous devez progresser dans l'histoire jusqu'à ce que l'option de choisir une alliance vous soit proposée, moment auquel la base de l'allié choisi deviendra accessible."
+  },
+  {
+    question: "Pourquoi certaines cartes comme l'armurerie semblent-elles inachevées ?",
+    answer: "Les cartes comme l'armurerie et le cimetière sont actuellement des aperçus de niveau 2. Elles sont incluses pour que les joueurs puissent profiter des combats et trouver du butin pendant que les développeurs terminent la scénarisation RPG de ces zones."
+  }
+]} />
+
+</Section>

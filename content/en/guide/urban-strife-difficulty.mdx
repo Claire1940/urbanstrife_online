@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Difficulty: 3 Setting Modes & Hardcore Survival Tips",
+  description: "Master Urban Strife difficulty levels with our guide on Hardcore mode, resource management, and combat strategies for the ultimate zombie survival experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Difficulty+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban strife difficulty** features three distinct settings: Easy, Normal, and Hardcore, each significantly altering resource scarcity and combat lethality.
+- **Hardcore mode** is designed for veterans, removing many UI indicators and increasing the risk of friendly fire and permanent character loss.
+- **Resource management** is a critical pillar of difficulty, where lack of food, medicine, or morale can trigger an immediate game over.
+- **Stealth and positioning** are mandatory on higher difficulties to avoid being overwhelmed by zombie hordes or hostile human scavengers.
+- **Headshots** remain the most effective way to neutralize threats, though hit chances are significantly lower on Hardcore settings.
+</Callout>
+
+<Section icon={Map} title="Understanding the Urban Strife Difficulty Settings">
+
+Choosing the right **urban strife difficulty** is the first major decision you will face. The game is built as a spiritual successor to classic survival RPGs like Dead State, meaning that even on standard settings, the world is unforgiving. Developers have confirmed that there are currently three primary difficulty levels to choose from, each scaling the intensity of the survival mechanics, enemy AI behavior, and the availability of crucial supplies like ammunition and antibiotics.
+
+**Video Highlights:**
+- **Hardcore Mechanics**: A deep dive into why Hardcore mode is considered "really really hard" by veteran players.
+- **Combat Nuances**: Demonstration of stealth, melee weapon utility (like the crowbar), and firearm hit chances.
+- **Base Management**: Insights into how the shelter operates and the consequences of resource depletion.
+- **Environmental Interaction**: How smashing windows and looting cars impacts your survival loop.
+
+<YouTubeEmbed videoId="IHmwSBzIgq4" title="Urban Strife Gameplay - Hardcore Difficulty Walkthrough" />
+
+The jump from Normal to Hardcore is substantial. On lower settings, you might find enough medicine to sustain a wounded squad, but on higher settings, a single botched encounter can lead to a "starving" or "sick" status that quickly spirals out of control.
+
+| Difficulty Level | Combat Lethality | Resource Abundance | UI Assistance | Recommended For |
+| :--- | :--- | :--- | :--- | :--- |
+| **Easy** | Low | High | Full HUD | Narrative-focused players |
+| **Normal** | Moderate | Balanced | Standard HUD | Standard RPG experience |
+| **Hardcore** | **Extreme** | **Very Low** | Minimal | Survival enthusiasts |
+
+<Callout type="tip" title="Pro Tip">
+If you are new to the genre, start on Normal. The **urban strife difficulty** curve is steep, and Hardcore removes many of the "quality of life" indicators that help you understand line-of-sight and noise mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Scaling and Survival Lethality">
+
+In Urban Strife, combat is turn-based and highly tactical. On higher **urban strife difficulty** settings, the "heat chance" or hit probability for ranged weapons is less forgiving. You must account for cover, elevation, and the specific body parts you are targeting. Headshots deal massive damage but have a lower success rate, making them a high-risk, high-reward strategy that is often necessary when facing "tanky" zombies or armored human foes.
+
+<CardGrid cols={3}>
+  <Card title="Melee Dominance">
+    - **Quiet kills** prevent attracting hordes
+    - Crowbars provide utility and damage
+    - Conserves precious ammunition
+  </Card>
+  <Card title="Firearm Risks">
+    - **Loud noise** draws nearby enemies
+    - Ammo is extremely scarce on Hardcore
+    - High risk of **Friendly Fire**
+  </Card>
+  <Card title="Stealth Tactics">
+    - Use 'Shift' to aim carefully
+    - Bypass encounters to save resources
+    - Critical for scavenger missions
+  </Card>
+</CardGrid>
+
+Friendly fire is a major factor that scales with difficulty. In Hardcore mode, positioning your squad in a line is a recipe for disaster, as your own survivors can accidentally shoot each other for significant damage. This forces a more spread-out, tactical approach to every encounter.
+
+| Action | Noise Level | Ammo Cost | Risk Level | Efficiency |
+| :--- | :--- | :--- | :--- | :--- |
+| **Crowbar Swing** | Low | None | Medium | ★★★★☆ |
+| **Pistol Shot** | Medium | 1 Bullet | High | ★★★☆☆ |
+| **Rifle Burst** | High | 3+ Bullets | **Extreme** | ★★★★★ |
+| **Stealth Takedown** | **Silent** | None | Low | ★★★★★ |
+
+<Callout type="warning" title="Critical Warning">
+Zombies in Urban Strife can occasionally "tank" headshots even on lower difficulties. Never assume a single shot will end a fight; always have a backup plan or enough Action Points (AP) to retreat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Base Management and Game Over Conditions">
+
+The difficulty isn't just about the zombies you fight; it is about the community you keep. Your base (the Shelter) requires constant upkeep. On Hardcore **urban strife difficulty**, the daily consumption of food and medicine is increased, making every scavenging run a race against time. The game features several "zero-thing" game over conditions that can end your playthrough abruptly.
+
+| Resource | Daily Drain | Consequence of Depletion | Recovery Method |
+| :--- | :--- | :--- | :--- |
+| **Food** | High | Starvation / HP Loss | Scavenging / Farming |
+| **Medicine** | Moderate | Disease / Permanent Death | Hospital Raids / Crafting |
+| **Morale** | Variable | Desertion / Base Mutiny | Luxury Items / Success |
+| **Chemicals** | Low | Crafting Stalls | Industrial Looting |
+
+Managing the "residents" of your base is a full-time job. You will have a mix of active combatants and idle survivors. Balancing their needs while sending out teams to find supplies is the core loop of the mid-game. If your morale drops too low, or if you run out of medicine for a critical character, the game does not offer many "second chances."
+
+<Callout type="info" title="Management Insight">
+The UI for base management is intentionally plain to mimic a realistic spreadsheet of resources. Pay close attention to the "Starving" and "Sick" indicators in your notebook, as these are the earliest signs of a failing playthrough.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: Surviving Your First Week on Hardcore">
+
+If you choose to tackle the highest **urban strife difficulty**, you need a specific plan for the first few days. The early game is about minimizing risk and maximizing loot efficiency.
+
+<Steps>
+  <Step num="1" title="Initial Scavenging">
+    Focus on the immediate area around your starting car. Check every trunk and smash windows only when necessary, as the noise can alert nearby scavengers.
+  </Step>
+  <Step num="2" title="Weapon Prioritization">
+    Find a crowbar or a spiked roller immediately. Do not rely on firearms until you have a steady supply of at least 50+ rounds of ammunition.
+  </Step>
+  <Step num="3" title="Recruit Lucy & Lee">
+    Early characters like Lucy (the sniper) and Lee are essential. Ensure Lucy is positioned on high ground or behind cover to utilize her rifle effectively.
+  </Step>
+  <Step num="4" title="Establish Food Security">
+    Your base will consume roughly 20-30 units of food per day. Prioritize grocery stores and kitchens in residential houses during your first three missions.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategy Success">
+Using a single character for scouting is often safer than moving the whole squad. A lone scout can sneak into houses, identify loot, and retreat without triggering a massive firefight.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hardcore Milestones and Checklist">
+
+To gauge your progress against the **urban strife difficulty** curve, use the following checklist. If you can check off these items by the end of the first in-game week, you are well on your way to surviving the apocalypse.
+
+<Checklist
+  id="hardcore-survival"
+  title="Survival Benchmarks:"
+  items={[
+    "Secure a 3-day reserve of food for all residents",
+    "Acquire at least one long-range rifle with scope",
+    "Successfully clear a hostile human scavenger camp",
+    "Reach 50+ Morale in the Shelter reserves",
+    "Craft at least two upgraded melee weapons"
+  ]}
+/>
+
+| Milestone | Difficulty Rank | Reward |
+| :--- | :--- | :--- |
+| **First Headshot** | Easy | Confidence boost |
+| **First Silent Clear** | Medium | Conserved Ammunition |
+| **Base Self-Sufficiency** | **Hard** | Long-term survival |
+| **Defeating a Horde** | **Extreme** | Legendary Loot / Area Control |
+
+<Callout type="info" title="Developer Note">
+The game is currently in active development, with approximately 50% of the mission content complete as of 2026. Expect difficulty spikes as new sectors and enemy types are introduced.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Urban Strife Difficulty FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I change the urban strife difficulty mid-game?",
+    answer: "Currently, difficulty settings are locked once you start a new campaign. You must choose between Easy, Normal, and Hardcore at the character creation screen."
+  },
+  {
+    question: "Is there a 'Permadeath' option in Urban Strife?",
+    answer: "Hardcore mode acts as a semi-permadeath mode where losing key characters can lead to a game-over state due to the loss of their specific skills and combat power."
+  },
+  {
+    question: "What is the biggest difference between Normal and Hardcore?",
+    answer: "The biggest differences are the lack of hit-chance indicators for certain weapons, significantly increased friendly fire damage, and much harsher resource depletion rates at the base."
+  },
+  {
+    question: "Does the difficulty affect the ending of the game?",
+    answer: "While the core story remains the same, surviving on Hardcore provides a more 'complete' experience of the struggle intended by the developers, though the game is currently about 50% content-complete."
+  }
+]} />
+
+</Section>

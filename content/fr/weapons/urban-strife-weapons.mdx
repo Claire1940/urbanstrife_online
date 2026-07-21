@@ -1,0 +1,190 @@
+import { Swords, Settings, ShoppingBag, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armes d'Urban Strife : Tier List 2026 et Guide d'Équipement",
+  description: "Maîtrisez la balistique, les arsenaux de factions et les recettes d'artisanat pour les armes d'Urban Strife. Optimisez l'équipement de votre escouade pour une survie ultime.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/334155/fff?text=Urban+Strife+Weapons+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Urban Strife",
+  keywords: "armes urban strife, guide de combat, balistique, artisanat d'armes, tactique de survie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **La balistique compte** : Chaque balle et chaque plomb de fusil à pompe bénéficie de calculs de trajectoire individuels et d'une pénétration des matériaux basée sur le calibre.
+- **Discrétion vs Bruit** : Les outils de mêlée silencieux et les arbalètes évitent d'alerter la horde, tandis que les fusils de gros calibre et les fusils à pompe éliminent instantanément des groupes massifs.
+- **Arsenaux de factions** : Ralliez-vous à la Garnison de l'Armée Rebelle pour du matériel militaire ou aux Bikers de la Shady Lady pour de la puissance de feu du marché noir.
+- **Modification d'armes** : Utilisez l'atelier de l'abri pour fabriquer des accessoires personnalisés, des silencieux et des munitions spécialisées.
+- **Gestion des Points d'Action** : Équilibrez le poids de l'arme et son calibre pour maintenir une efficacité élevée en PA et exécuter de puissantes actions d'interruption.
+</Callout>
+
+<Section icon={Swords} title="Catégories d'Armes et Aperçu de la Balistique">
+
+Survivre à la pandémie de zombies dans le comté fictif d'Urban exige plus que du simple courage. Comprendre les mécaniques complexes des **armes d'Urban Strife** est crucial pour maintenir votre escouade de rangers de fortune en vie. Contrairement aux jeux de rôle au tour par tour traditionnels qui reposent entièrement sur des générateurs de nombres aléatoires pour les calculs de toucher, le combat dans ce RPG de survie tactique utilise un moteur balistique robuste en temps réel.
+
+Chaque projectile — qu'il s'agisse d'une seule balle de fusil à haute vélocité ou d'une gerbe de plombs de fusil à pompe — a son propre calcul de trajectoire. La pénétration des matériaux spécifique au calibre détermine si une balle traversera des clôtures en bois, brisera des murs de briques ou traversera plusieurs cibles alignées. Ce niveau de détail introduit une immense flexibilité tactique, permettant aux joueurs de détruire la couverture ennemie, d'utiliser des manœuvres de flanc, d'effectuer des entrées par les fenêtres et de s'engager dans des combats sur les toits.
+
+Le choix de la bonne classe d'arme dépend fortement du niveau de menace de l'environnement, de la composition des forces ennemies et de la réserve globale de Points d'Action (PA) de votre escouade.
+
+<CardGrid cols={3}>
+  <Card title="Discrétion et Mêlée">
+    - **Génération de bruit nulle**
+    - Haute efficacité en PA pour le combat rapproché
+    - Idéal pour éliminer silencieusement des cibles isolées
+  </Card>
+  <Card title="Contrôle de Foule">
+    - **Large dispersion des plombs**
+    - Dégâts dévastateurs contre les hordes de zombies denses
+    - Fort potentiel de destruction de couverture
+  </Card>
+  <Card title="Précision et Lourd">
+    - **Pénétration d'armure extrême**
+    - Portée exceptionnelle et dégâts de base élevés
+    - Consomme des PA importants par tir
+  </Card>
+</CardGrid>
+
+Pour constituer une escouade efficace, les rangers doivent équilibrer leurs équipements entre les différentes catégories d'armes. Utiliser des armes à feu bruyantes sans plan alertera rapidement l'IA unique de la horde, provoquant l'arrivée massive de morts-vivants sur votre position en un seul tour.
+
+| Catégorie d'arme | Munitions principales | Coût en PA | Pouvoir de pénétration | Niveau de bruit | Rôle tactique principal |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Armes de mêlée | Aucune | Très bas | Aucun | Silencieux | Éliminations silencieuses et coups de grâce |
+| Pistolets | 9mm / .45 ACP | Bas | Bas | Moyen | Arme de poing fiable et soutien rapproché |
+| Fusils à pompe | Calibre 12 | Moyen | Bas | Extrêmement élevé | Nettoyage de groupes denses de zombies |
+| Fusils d'assaut | 5.56mm / 7.62mm | Moyen-Haut | Moyen-Haut | Haut | Polyvalence à mi-distance contre les humains |
+| Fusils de précision | 7.62mm / .308 | Haut | Haut | Haut | Élimination à longue distance et reconnaissance |
+| Armes lourdes | .50 BMG | Extrêmement haut | Extrêmement haut | Assourdissant | Destruction de couverture et cibles blindées |
+
+<Callout type="warning" title="Système d'Alerte de la Horde">
+Les armes à feu bruyantes comme les fusils à pompe et les fusils sans silencieux génèrent des pièges sonores qui attirent les zombies proches. Nettoyez toujours les chemins immédiats avec des armes silencieuses avant d'ouvrir le feu avec du matériel de gros calibre.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Guide de Personnalisation et d'Artisanat d'Armes">
+
+La survie dans l'apocalypse est une bataille permanente contre la rareté des ressources. Les armes que vous récupérez dans les ruines d'Urban peuvent être considérablement améliorées grâce aux améliorations de base et aux systèmes d'artisanat détaillés. En réparant et en réoutillant l'atelier local de votre abri fortifié, vous débloquez la capacité de fabriquer des accessoires avancés, de personnaliser vos armes à feu et de préparer des munitions spécialisées.
+
+La personnalisation de vos armes vous permet d'adapter les performances de votre escouade à votre style de jeu spécifique. L'ajout de silencieux aux pistolets ou aux pistolets-mitrailleurs crée des outils de discrétion efficaces, tandis que le montage de lunettes optiques sur des fusils de chasse transforme des armes de base en plateformes de tir de précision redoutables. De plus, les joueurs peuvent fabriquer des types de munitions spécialisées, comme les balles dum-dum personnalisées, qui s'expansent à l'impact pour offrir un pouvoir d'arrêt massif et causer de graves effets de saignement sur les cibles molles.
+
+| Type d'accessoire | Matériaux requis | Bonus de stat principal | Synergie d'arme idéale |
+| :--- | :--- | :--- | :--- |
+| Silencieux | Ferraille, Ressorts, Filtre à huile | Réduit le bruit de 80% | Pistolets, Pistolets-mitrailleurs |
+| Lunette optique | Lentilles en verre, Pièces de précision | Augmente la portée efficace et la précision | Fusils d'assaut, Fusils de précision |
+| Viseur laser | Composants électroniques, Batterie | Améliore le tir au jugé et la précision rapprochée | Fusils à pompe, Pistolets |
+| Chargeur étendu | Tôle, Ressorts | Augmente la capacité en munitions de 50% | Pistolets-mitrailleurs, Fusils d'assaut |
+| Poignée ergonomique | Tissu, Bois sculpté, Adhésif | Diminue le coût en Points d'Action par attaque | Armes de mêlée, Fusils lourds |
+
+Pour personnaliser votre arsenal et améliorer vos capacités de combat, suivez ce système de progression structuré dans votre base.
+
+<Steps>
+  <Step num="1" title="Récupérer des matériaux">
+    Explorez les zones résidentielles abandonnées, les ateliers automobiles et les avant-postes militaires pour collecter des pièces métalliques, des ressorts, des composants électroniques et des schémas d'armes rares.
+  </Step>
+  <Step num="2" title="Améliorer l'atelier">
+    Allouez des ressources de survie pour réparer et réoutiller l'atelier de votre abri, débloquant des niveaux d'artisanat avancés et des recettes de modification spécialisées.
+  </Step>
+  <Step num="3" title="Fabriquer des accessoires">
+    Utilisez les plans collectés et les matières premières pour fabriquer des silencieux, des lunettes tactiques, des chargeurs étendus ou des munitions spécialisées comme les balles dum-dum à haut pouvoir d'arrêt.
+  </Step>
+  <Step num="4" title="Modifier votre arsenal">
+    Accédez à l'interface de modification d'armes dans votre atelier, combinez vos armes de base avec les nouveaux kits fabriqués et déployez votre escouade améliorée sur le terrain.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Recettes Cachées">
+Gardez un œil sur les zones cachées et liez-vous d'amitié avec des PNJ originaux à travers le comté. De nombreuses recettes d'artisanat avancées et des plans d'armes uniques ne sont accessibles qu'en gagnant la confiance des survivants locaux.
+</Callout>
+
+</Section>
+
+<Section icon={ShoppingBag} title="Armes de Factions et Marché Noir">
+
+Alors que la population humaine diminue, les survivants restants se sont divisés en factions distinctes se battant pour les restes de la civilisation. Chaque faction contrôle des chaînes d'approvisionnement uniques, des ateliers spécialisés et des stocks précieux de matériel militaire ou industriel. Accéder à ces inventaires exclusifs nécessite de naviguer dans des relations politiques complexes et de bâtir une solide réputation à travers le comté.
+
+Vos choix dans les dialogues, l'accomplissement des missions et la distribution des ressources auront un impact direct sur les marchands de factions qui accepteront de traiter avec vous et sur le matériel de haute qualité qu'ils seront prêts à mettre sur le marché.
+
+| Faction | Philosophie de combat | Classe d'arme emblématique | Inventaire clé du marché noir |
+| :--- | :--- | :--- | :--- |
+| Garnison de l'Armée Rebelle | Force militaire d'élite, tactiques puissantes | Fusils d'assaut et Snipers | Fusil anti-matériel .50 BMG, Armure militaire |
+| Bikers de la Shady Lady | Escrimeurs agressifs de combat rapproché | Fusils à pompe et Pistolets-mitrailleurs | Chargeurs tambours personnalisés, PM automatiques |
+| Culte de la Seconde Chance | Philosophie silencieuse et non-violente | Arbalètes et Mêlée lourde | Arbalètes à poulies avancées, Carreaux silencieux |
+| Survivants Indépendants | Survie de base, défense de bas niveau | Pistolets et Fusils de chasse | Pistolets 9mm standard, Lunettes de fusil de chasse |
+
+La Garnison de l'Armée Rebelle dispose d'une réserve inestimable de fournitures militaires. Si vous payez leurs frais de protection et vous alignez sur leur vision du monde rigoureuse, ils fourniront à vos rangers du matériel militaire de premier ordre. À l'inverse, les Bikers de la Shady Lady gèrent un marché noir très rentable dans leur établissement ouvert 24h/24, proposant des armes automatiques, des pièces de véhicules et des drogues de combat spécialisées. Pour les joueurs recherchant une approche plus discrète, le Culte de la Seconde Chance propose des outils silencieux capables de neutraliser les menaces sans alerter les hordes voisines.
+
+<Callout type="success" title="Récompenses de Réputation">
+Atteindre la réputation maximale avec une faction débloque non seulement leur plus haut niveau d'armes, mais donne également accès à des PNJ spécialistes uniques et recrutables, équipés de matériel d'élite.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Meilleurs Équipements pour le Début, le Milieu et la Fin de Jeu">
+
+Optimiser la progression de l'équipement de votre escouade est essentiel à mesure que les menaces dans Urban deviennent de plus en plus hostiles. Au début de votre campagne, votre priorité sera la conservation des ressources et la survie de base. À mesure que vous établissez votre base et concluez des alliances, votre arsenal doit évoluer vers des rôles tactiques spécialisés.
+
+Consultez le tableau ci-dessous pour des configurations d'équipement très efficaces adaptées à chaque étape du jeu.
+
+| Étape de la campagne | Rôle du Ranger | Arme principale recommandée | Arme secondaire recommandée | Focus tactique |
+| :--- | :--- | :--- | :--- | :--- |
+| Début de partie | Éclaireur | Arbalète | Batte de baseball | Exploration silencieuse et élimination de cible unique |
+| Début de partie | Combattant de front | Fusil à pompe à pompe | Pistolet 9mm | Contrôle de foule et défense d'urgence rapprochée |
+| Milieu de partie | Tireur d'élite | Fusil à verrou | Pistolet avec silencieux | Précision à longue portée et options de secours discrètes |
+| Milieu de partie | Commando | Carabine 5.56mm | Machette | Engagements polyvalents à mi-distance et contournement |
+| Fin de partie | Sniper | Fusil .50 BMG | PM avec silencieux | Forte pénétration, destruction de murs et défense rapprochée |
+| Fin de partie | Artilleur lourd | Mitrailleuse légère | Fusil à pompe automatique | Suppression absolue de foule et nettoyage de hordes massives |
+
+Avant de partir vers des zones à haut risque comme les tunnels sombres du métro ou les avant-postes fortifiés des factions, assurez-vous que votre escouade est parfaitement préparée.
+
+<Checklist
+  id="squad-preparation"
+  title="Liste de préparation avant mission :"
+  items={[
+    "Assurez-vous qu'au moins deux membres de l'escouade sont équipés d'armes silencieuses pour les phases de discrétion",
+    "Prévoyez suffisamment de munitions dum-dum personnalisées pour vos rangers de contrôle de foule",
+    "Vérifiez que votre tireur d'élite principal a une ligne de vue dégagée et un accès aux points hauts",
+    "Vérifiez la durabilité de toutes les armes à feu principales et effectuez les réparations à l'atelier de la base",
+    "Équipez-vous d'armures lourdes et d'armes à forte pénétration si vous affrontez des avant-postes de factions humaines"
+  ]}
+/>
+
+<Callout type="tip" title="Efficacité en PA">
+Vérifiez toujours le poids de vos armes et de votre armure. Un équipement lourd réduit vos Points d'Action maximum, ce qui peut limiter votre capacité à déclencher des actions d'interruption défensives pendant le tour de l'ennemi.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="FAQ sur les Armes d'Urban Strife">
+
+Pour garantir que votre escouade opère avec une efficacité tactique maximale, passez en revue ces questions courantes concernant les mécaniques de combat, l'acquisition d'armes et la gestion des munitions.
+
+<FAQ items={[
+  {
+    question: "Où puis-je trouver les meilleures armes d'Urban Strife dans le jeu ?",
+    answer: "Les armes militaires du plus haut niveau s'obtiennent en bâtissant une solide réputation auprès de la Garnison de l'Armée Rebelle, tandis que les armes d'élite pour le combat rapproché et les armes automatiques peuvent être achetées au marché noir des Bikers de la Shady Lady."
+  },
+  {
+    question: "Comment fonctionne la pénétration des matériaux avec les différents calibres ?",
+    answer: "Chaque calibre possède une valeur de pénétration spécifique. Les munitions de haute puissance comme le .308 ou le .50 BMG peuvent facilement traverser les murs en bois, les portes et plusieurs ennemis, tandis que les calibres inférieurs comme le 9mm ou les plombs de fusil à pompe sont bloqués par les couvertures solides."
+  },
+  {
+    question: "Quel est l'avantage de fabriquer des munitions dum-dum personnalisées ?",
+    answer: "Les munitions dum-dum sont conçues pour s'expanser à l'impact. Elles infligent d'énormes dégâts à la chair et provoquent des saignements sévères, ce qui les rend très efficaces pour stopper les hordes de zombies rapides avant qu'elles n'atteignent votre ligne de défense."
+  },
+  {
+    question: "Puis-je terminer les missions en utilisant uniquement des armes silencieuses ?",
+    answer: "Oui. L'utilisation d'une combinaison d'arbalètes, de pistolets avec silencieux et d'armes de mêlée comme les battes de baseball vous permet de naviguer sur les cartes en toute discrétion, en éliminant les cibles une par une sans déclencher le système d'alerte de la horde."
+  }
+]} />
+
+<Callout type="tip" title="Dernier Conseil de Survie">
+Ne vous fiez pas à une seule classe d'arme. Une escouade équilibrée contenant un éclaireur silencieux, un tireur d'élite de gros calibre et un spécialiste du contrôle de foule lourdement armé sera prête à faire face à n'importe quelle menace que le comté d'Urban vous réserve.
+</Callout>
+
+</Section>

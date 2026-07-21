@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife the Quarantine Squad : Guide de quête et corrections de bugs",
+  description: "Maîtrisez la quête Quarantine Squad d'Urban Strife avec notre guide 2026. Apprenez à nettoyer le port, à brûler les tas de cadavres et à résoudre les bugs de script courants.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Urban+Strife+Quarantine+Squad+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "Urban Strife, Quarantine Squad, guide de quête, correction de bug, port, tas de cadavres"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal** : Éliminer tous les zombies dans les zones fortifiées du port et incinérer quatre tas de cadavres spécifiques à l'aide d'armes incendiaires.
+- **Mécanique clé** : Vous devez utiliser des **cocktails Molotov** ou des **bombes aérosol** pour détruire définitivement les sources d'infection.
+- **Avertissement de bug** : Un problème de script connu dans **Urban Strife the Quarantine Squad** peut empêcher l'achèvement de la quête si les tas sont brûlés dans le mauvais ordre ou avant certaines apparitions d'ennemis.
+- **Stratégie de combat** : Attirez les zombies dans des points de passage étroits près des portes du port pour gérer efficacement la taille de la horde.
+- **Meilleur choix** : La **bombe aérosol** est l'outil le plus rentable pour brûler les tas en raison de sa large zone d'effet.
+</Callout>
+
+<Section icon={Target} title="Aperçu de la quête et prérequis">
+
+La mission **Urban Strife the Quarantine Squad** est une quête pivot du début à la moitié du jeu qui met à l'épreuve votre positionnement tactique et votre gestion des ressources. Assignée par la faction militaire, cette quête nécessite que votre escouade pénètre dans le district portuaire hautement contaminé pour neutraliser une menace zombie croissante. La zone est divisée en deux sections fortifiées principales : la zone contenant Ford et le chantier naval adjacent. Le succès dépend non seulement de la puissance de feu, mais aussi de la possession des outils incendiaires appropriés pour terminer le travail.
+
+Avant de vous aventurer dans le port, assurez-vous que votre équipe est équipée de suffisamment d'objets utilitaires à base de feu. Les balles standard arrêteront les morts-vivants, mais elles n'empêcheront pas l'infection de se propager à partir des tas de cadavres.
+
+| Type de condition | Objet/Action requis | Priorité |
+| :--- | :--- | :--- |
+| **Outil principal** | Cocktails Molotov ou Bombes aérosol | **Obligatoire** |
+| **Type de munitions** | Cartouches de fusil à pompe (chevrotine) pour le CQC | Haute |
+| **Soins** | Kits de secours avancés et bandages | Moyenne |
+| **Compétence d'escouade** | Athlétisme élevé pour distancer les zombies | Haute |
+| **Objectif** | Brûler 4 tas de cadavres | **Obligatoire** |
+
+<Callout type="tip" title="Préparation Stratégique">
+Ne vous précipitez pas dans le port avec une escouade complète de tireurs d'élite. Les couloirs étroits entre les conteneurs d'expédition favorisent les fusils à pompe et les combattants de mêlée avec des statistiques d'esquive élevées.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide étape par étape">
+
+Naviguer dans le port nécessite une approche méthodique. Les zombies de cette zone sont sensibles au bruit, ce qui signifie qu'un seul coup de feu bruyant peut attirer des ennemis des deux sections fortifiées simultanément. Suivez ces étapes pour terminer **Urban Strife the Quarantine Squad** efficacement.
+
+<Steps>
+  <Step num="1" title="Sécuriser le périmètre">
+    Approchez-vous de la première zone fortifiée où se trouve Ford. Au lieu de foncer, utilisez une arme avec silencieux pour éliminer les traînards près de la porte. Une fois la zone immédiate dégagée, déplacez votre escouade à l'intérieur mais gardez un membre près de la sortie comme point de repli.
+  </Step>
+  <Step num="2" title="Éliminer les vagues de morts-vivants">
+    Les tas de cadavres servent de points d'apparition. À mesure que vous vous en approchez, des vagues de zombies émergeront. Concentrez-vous sur l'élimination de ces apparitions avant de tenter de brûler les tas. Tuer les zombies en premier garantit que votre « lanceur » n'est pas interrompu pendant l'animation.
+  </Step>
+  <Step num="3" title="Incinérer les tas de cadavres">
+    Localisez les quatre tas de cadavres. En équipant un Molotov, ciblez le centre du tas. Vous verrez une invite ou un changement visuel dans le tas une fois que le feu aura pris. Assurez-vous que les quatre brûlent simultanément pour déclencher la mise à jour de la quête.
+  </Step>
+  <Step num="4" title="Ratissage final de la zone">
+    Une fois les tas détruits, une dernière vague apparaît souvent près de la deuxième zone du port. Vérifiez chaque recoin des sections fortifiées, car un seul zombie restant peut empêcher la quête de passer à la phase « Parler au donneur de quête ».
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Timing Critique">
+Certains joueurs rapportent que brûler les tas *trop tôt* — spécifiquement avant que toutes les apparitions scriptées ne soient apparues — peut casser la logique de la quête. Il est plus sûr de tuer tous les zombies visibles dans le voisinage immédiat avant de lancer votre premier Molotov.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparaison de l'équipement pour le nettoyage du port">
+
+Choisir le bon équipement pour **Urban Strife the Quarantine Squad** peut faire la différence entre un succès total et l'élimination de votre escouade. Bien que les Molotovs soient le choix traditionnel, les stratégies méta de 2026 suggèrent d'utiliser des bombes aérosol pour un meilleur contrôle de zone.
+
+<CardGrid cols={3}>
+  <Card title="Cocktail Molotov">
+    - **Peu coûteux à fabriquer**
+    - Dégâts de feu ciblés
+    - Rayon d'éclaboussure limité
+  </Card>
+  <Card title="Bombe aérosol">
+    - **Large rayon d'explosion**
+    - Dégâts initiaux élevés
+    - Excellent pour plusieurs tas
+  </Card>
+  <Card title="Lance-flammes (Fin de jeu)">
+    - **Source de feu durable**
+    - Pénalité de poids élevée
+    - Idéal pour éliminer les hordes
+  </Card>
+</CardGrid>
+
+| Outil | Coût de fabrication | Efficacité | Poids |
+| :--- | :--- | :--- | :--- |
+| **Molotov** | Bas (Alcool + Chiffon) | 3/5 | 0.5 kg |
+| **Bombe aérosol** | Moyen (Bidon + Mèche) | 5/5 | 1.0 kg |
+| **Flèche de feu** | Bas (Flèche + Carburant) | 2/5 | 0.1 kg |
+
+<Callout type="success" title="Gestion de l'inventaire">
+Assignez un « Grenadier » dans votre escouade pour transporter tous les engins incendiaires. Cela libère le reste de votre équipe pour transporter les munitions lourdes et les fournitures médicales nécessaires pour le long trajet de retour à la base.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Dépannage du bug de la Quarantine Squad">
+
+De nombreux survivants ont rencontré un problème frustrant où la quête ne se termine pas même après que tous les zombies sont morts et que les tas sont brûlés. Cela est souvent lié à un marqueur de script qui ne se déclenche pas dans la mission **Urban Strife the Quarantine Squad**. Si votre journal de quête indique toujours « Brûler les tas de cadavres » alors qu'ils sont en cendres, suivez ces étapes de dépannage.
+
+| Problème | Cause potentielle | Correction/Solution 2026 |
+| :--- | :--- | :--- |
+| **La quête ne se met pas à jour** | Zombie scripté coincé dans les murs | Utilisez une grenade près des conteneurs pour les déloger |
+| **Les tas ne brûlent pas** | Mauvais type de dégâts utilisé | Assurez-vous d'utiliser des dégâts de **Feu**, pas Explosifs |
+| **Ford ne veut pas parler** | L'état de combat est toujours actif | Retirez-vous sur la carte du monde et revenez dans la zone |
+| **PNJ manquant** | Rupture de la séquence de quête | Rechargez la sauvegarde automatique créée lors de l'entrée dans le port |
+
+<Callout type="info" title="Avis des développeurs">
+Les développeurs ont confirmé que tuer les zombies pour l'EXP *avant* de brûler les tas est la façon de jouer prévue, mais le faire trop lentement peut parfois bloquer le script. Si la quête persiste dans son état buggé, l'envoi de votre fichier de sauvegarde à l'équipe d'assistance est le seul moyen de corriger une partie corrompue.
+</Callout>
+
+</Section>
+
+<Section icon={ListChecks} title="Liste de contrôle tactique et objectifs">
+
+Pour vous assurer de ne manquer aucun prérequis dans la zone portuaire, utilisez cette liste de contrôle pendant votre opération. Manquer ne serait-ce qu'un petit détail peut vous obliger à revenir en arrière dans un territoire dangereux.
+
+<Checklist
+  id="quarantine-squad-goals"
+  title="Jalons de la mission :"
+  items={[
+    "Éliminer tous les zombies dans la section fortifiée de Ford",
+    "Identifier et localiser les 4 tas de cadavres",
+    "Brûler le tas dans le coin nord-est",
+    "Brûler le tas près des caisses d'expédition",
+    "Brûler les deux tas dans la zone portuaire secondaire",
+    "Confirmer l'apparition de la notification 'Quête mise à jour'",
+    "Faire un rapport au commandant militaire"
+  ]}
+/>
+
+<Callout type="tip" title="Optimisation de l'expérience">
+Si vous cherchez à maximiser l'EXP de compétence, laissez les tas engendrer autant de zombies que possible avant de les brûler. Chaque zombie tué contribue à la maîtrise du combat de votre escouade, bien que cela augmente le risque d'être submergé.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+Maîtriser les nuances du quartier portuaire est essentiel pour tout joueur sérieux d'Urban Strife. Voici les questions les plus courantes concernant la quête **Urban Strife the Quarantine Squad**.
+
+<FAQ items={[
+  {
+    question: "Puis-je utiliser des grenades au lieu de Molotovs pour détruire les tas ?",
+    answer: "Non. Les grenades à fragmentation standard ou les bombes artisanales infligent des dégâts explosifs, ce qui élimine les zombies mais ne satisfait pas à la condition de « brûler » les tas de cadavres. Vous devez utiliser des armes à base de feu."
+  },
+  {
+    question: "Que dois-je faire si la quête ne se termine pas après avoir brûlé tous les tas ?",
+    answer: "Vérifiez le périmètre pour tout zombie « coincé ». Souvent, un seul zombie rampant caché derrière une caisse maintient le script de combat actif. Si la zone est dégagée et que la quête reste bloquée, rechargez votre dernière sauvegarde automatique."
+  },
+  {
+    question: "Est-il possible de terminer cette quête furtivement ?",
+    answer: "Partiellement. Vous pouvez vous faufiler et placer des engins incendiaires à retardement, mais l'acte de brûler les tas alertera presque toujours la horde restante dans le port."
+  },
+  {
+    question: "Quels membres d'escouade sont les meilleurs pour la mission Quarantine Squad ?",
+    answer: "Un mélange d'éclaireurs à haute agilité pour attirer les zombies et de brutes à haute force pour gérer le combat au corps à corps. Au moins un membre doit avoir une compétence de « Lancer » élevée pour s'assurer que les Molotovs atteignent leurs cibles avec précision."
+  }
+]} />
+
+<Callout type="info" title="Note finale">
+Gardez toujours une sauvegarde de secours avant d'entrer dans le quartier du Port. Les scripts complexes impliqués dans les missions de faction comme la Quarantine Squad peuvent occasionnellement entrer en conflit avec d'autres quêtes actives, comme celles impliquant les Cultistes ou les Bikers.
+</Callout>
+
+</Section>

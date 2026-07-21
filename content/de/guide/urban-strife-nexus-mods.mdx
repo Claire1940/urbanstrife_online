@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Nexus Mods: Installations- & Setup-Leitfaden 2026",
+  description: "Verbessern Sie Ihr Urban Strife-Erlebnis mit den besten Nexus-Mods. Erfahren Sie, wie Sie Community-Inhalte installieren, Kämpfe anpassen und das Zufluchtsmanagement optimieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Nexus+Mods+Guide",
+  date: "2026-07-21",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Status der Nexus-Mods**: Seit 2026 wächst die Modding-Community nach der vollständigen Veröffentlichung des Spiels rasant.
+- **Engine-Kompatibilität**: Urban Strife läuft auf der **Unreal Engine 4**, was den Austausch von Assets und Skript-Anpassungen sehr einfach macht.
+- **Installationsmethode**: Die meisten Mods müssen manuell im **Paks-Ordner** abgelegt oder über einen dedizierten Mod-Manager verwaltet werden.
+- **Priorisierte Anpassungen**: Konzentrieren Sie sich auf die **Kampfbalance**, das **Inventarmanagement** und **grafische Überarbeitungen** für das beste Spielerlebnis.
+- **Backup-Erinnerung**: Sichern Sie immer Ihre **Spielstände** und die originalen **Spieldateien**, bevor Sie Community-Patches anwenden.
+</Callout>
+
+<Section icon={Settings} title="Der Zustand von Urban Strife Nexus Mods im Jahr 2026">
+
+Urban Strife hat sich seit seinen Early-Access-Tagen erheblich weiterentwickelt. Mit den Updates im Jahr 2026 hat sich die Community Nexus Mods zugewandt, um die Lücke zwischen knallhartem Überleben und zugänglichen RPG-Mechaniken zu schließen. Egal, ob Sie den unbarmherzigen Schwierigkeitsgrad von Little Italy anpassen oder die Quests zur Radioreparatur in der Zuflucht rationalisieren möchten – die Modding-Szene bietet eine Vielzahl von Lösungen. Die auf der Unreal Engine 4 basierende Struktur des Spiels ermöglicht es Entwicklern, alles von Charakterwerten bis hin zur Umgebungsbeleuchtung zu modifizieren.
+
+**Video-Highlights:**
+- Übersicht über das **Update 1.03** und dessen Auswirkungen auf die Entwicklung der Story.
+- Kampfdemonstrationen in **Little Italy**, die die Schadensskalierung zeigen.
+- Einblick in die Questreihe des **Zuflucht-Radios** und die Interaktionen mit NPCs.
+- Erkundung der erweiterten Weltkarte und neuer Beuteorte.
+
+<YouTubeEmbed videoId="f3-H_tXi310" title="Urban Strife: Mission 3 - Schwerer Schaden in Little Italy" />
+
+<Callout type="tip" title="Entwickler-Einblick">
+Die Entwickler bei MicroProse haben die Modding-Community von jeher unterstützt. Während die offizielle Integration des Steam Workshops das ultimative Ziel bleibt, ist Nexus Mods auch im Jahr 2026 die primäre Anlaufstelle für experimentelle Projekte und Total Conversions.
+</Callout>
+
+| Mod-Kategorie | Auswirkungsgrad | Hauptfokus |
+| :--- | :--- | :--- |
+| **Overhauls** | Hoch | Komplette Neugewichtung der Kampf- und Überlebensmechaniken |
+| **UI/HUD** | Mittel | Übersichtlichere Inventarbildschirme und bessere Kartenmarkierungen |
+| **Utility** | Niedrig | Schnellere Bewegungsgeschwindigkeit und Anpassungen des Tragegewichts |
+| **Visuals** | Mittel | Re-Shades und hochauflösende Texturersetzungen |
+
+</Section>
+
+<Section icon={Wrench} title="Technische Anforderungen & Mod-Installation">
+
+Bevor Sie in den Nexus eintauchen, ist es wichtig zu verstehen, wie Urban Strife mit externen Dateien umgeht. Da das Spiel die Unreal Engine verwendet, werden die meisten Mods als `.pak`-Dateien verteilt. Diese Dateien enthalten die modifizierten Assets oder Logiken, die die Spieldaten des Basisspiels überschreiben. Das Befolgen eines standardisierten Installationsprozesses stellt sicher, dass Ihr Spiel auch dann stabil bleibt, wenn mehrere aktive Mods ausgeführt werden.
+
+<Steps>
+  <Step num="1" title="Spielverzeichnis finden">
+    Navigieren Sie zu Ihrem Installationsordner von Urban Strife. Dieser befindet sich normalerweise unter `SteamLibrary/steamapps/common/Urban Strife`.
+  </Step>
+  <Step num="2" title="Den Paks-Ordner identifizieren">
+    Öffnen Sie den Ordner `UrbanStrife` folder, gehen Sie dann zu `Content` und schließlich zu `Paks`. Hier befinden sich die Kerndaten des Spiels.
+  </Step>
+  <Step num="3" title="Einen ~mods-Unterordner erstellen">
+    Erstellen Sie im Verzeichnis `Paks` einen neuen Ordner mit dem Namen `~mods` (die Tilde ist zwingend erforderlich). Dies weist die Unreal Engine an, diese Dateien mit höherer Priorität zu laden.
+  </Step>
+  <Step num="4" title="Mod-Dateien platzieren">
+    Laden Sie die gewünschte Mod von Nexus herunter. Entpacken Sie die `.pak`-Datei und verschieben Sie sie direkt in den soeben erstellten Ordner `~mods`.
+  </Step>
+  <Step num="5" title="Installation überprüfen">
+    Starten Sie das Spiel. Überprüfen Sie die Versionsnummer oder bestimmte modifizierte Funktionen (wie ein erhöhtes Tragegewicht), um sicherzustellen, dass die Mod aktiv ist.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Versionskonflikt">
+Prüfen Sie immer, ob eine Mod mit der Version **1.03 oder höher** kompatibel ist. Ältere Mods, die für Early-Access-Builds entwickelt wurden, können beim Übergang nach Little Italy oder Old Port zu Spielabstürzen führen.
+</Callout>
+
+| Mod-Werkzeug | Funktion | Kompatibilität 2026 |
+| :--- | :--- | :--- |
+| **UE4SS** | Scripting-Framework für fortgeschrittene Mods | Vollständig unterstützt |
+| **Nexus Vortex** | Automatische Installation und Ladereihenfolge | Empfohlen |
+| **Pak Unpacker** | Für Benutzer, die eigene Mods erstellen möchten | Nur für fortgeschrittene Benutzer |
+
+</Section>
+
+<Section icon={Swords} title="Optimierung der Kampf- und Überlebensmechaniken">
+
+Der Kampf in Urban Strife ist bekanntermaßen taktisch und oft unbarmherzig. Wie im aktuellen Gameplay zu sehen ist, kommt es häufig vor, dass man „schweren Schaden“ erleidet, wenn man sich mit Fraktionen wie Joes Shine Runners anlegt. Durch das Modifizieren dieser Variablen können Sie das Spielerlebnis an Ihren bevorzugten Realismusgrad anpassen. Beispielsweise bevorzugen es viele Spieler, die Kosten für **Aktionspunkte (AP)** für das Nachladen oder die Verwendung von Verbandskästen anzupassen.
+
+<CardGrid cols={3}>
+  <Card title="AP-Neugewichtung">
+    - **Reduzierte Nachladekosten**
+    - Balancierte Bewegungs-AP
+    - Schnellerer Waffenwechsel
+  </Card>
+  <Card title="Schadensskalierung">
+    - **Realistische Ballistik**
+    - Nahkampf mit hohem Risiko
+    - Anpassung der Rüstungsdurchdringung
+  </Card>
+  <Card title="Überlebens-Anpassungen">
+    - **Langsamerer Hunger/Durst**
+    - Erhöhte Beute-Dropraten
+    - Bessere Effizienz von Verbandskästen
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Kampf-Tipp">
+Wenn Sie die Brandmechanik (wie Molotowcocktails) als zu hart empfinden, suchen Sie auf Nexus nach der Mod „Environmental Hazard Tweak“. Sie reduziert die Panikdauer und die Geschwindigkeit der Brandausbreitung, was Ihrem Trupp bessere Chancen gibt, Hinterhalte zu überleben.
+</Callout>
+
+| Variable | Basiswert (1.03) | Mod-Empfehlung |
+| :--- | :--- | :--- |
+| **Max. Tragegewicht** | Stärkebasiert | +25% Basispuffer |
+| **Nachlade-AP** | 4-6 Punkte | 2-4 Punkte |
+| **Lebensregeneration** | Nur in der Zuflucht | Langsame Regeneration im Feld |
+| **Beutequalität** | Zufällig | Skaliert nach Level |
+
+</Section>
+
+<Section icon={Map} title="Modding von Fraktionen und Weltfortschritt">
+
+Die Welt von Urban Strife ist von verschiedenen Gruppen bevölkert, von den Militärüberresten im Old Port bis hin zu den drogendealenden Bikern in Little Italy. Das Modifizieren der Fraktionsbeziehungen kann den Verlauf Ihrer Kampagne drastisch verändern. Anstelle eines linearen Fortschritts können von der Community erstellte Mods die gesamte karte vorzeitig freischalten, sodass Sie Ihre Fähigkeiten von Anfang an gegen hochstufige „Nells“ und Bösewichte testen können.
+
+**Wichtige Möglichkeiten für Fraktions-Modding:**
+- **Joe Hicks & die Shine Runners**: Ändern Sie deren Feindseligkeitsschwelle oder die Handelspreise.
+- **Die Zuflucht**: Beschleunigen Sie den Bau der Radiostation oder des Minenfelds.
+- **Zombiehorden**: Erhöhen Sie die Häufigkeit und Größe von Hordenangriffen für eine echte Überlebensherausforderung.
+
+<Callout type="info" title="Quest-Anpassung">
+Einige Nexus-Mods ermöglichen es Ihnen, die mühsame Phase der Teilesuche für die Radiostation-Quest zu überspringen, was ideal für Spieler im zweiten oder dritten Spieldurchgang ist, die sich rein auf den taktischen Kampf konzentrieren möchten.
+</Callout>
+
+| Ort | Fraktion | Modding-Potenzial |
+| :--- | :--- | :--- |
+| **Little Italy** | Joes Shine Runners | Handelsinventar, Biker-Werte |
+| **Old Port** | Militär/Quarantäne | Seltene Waffen-Drops, KI-Verhalten |
+| **Adams Villa** | Gruppe des Bürgermeisters | Belohnungsskalierung, Quest-Trigger |
+| **Zuflucht** | Spielermiliz | Bauzeiten, Ressourcenkosten |
+
+</Section>
+
+<Section icon={Shield} title="Stabilität und Konfliktmanagement">
+
+Das Ausführen mehrerer Mods in Urban Strife erfordert einen sorgfältigen Umgang mit der Dateiverwaltung. Da die meisten Mods dieselben Kerntabellen (wie `GlobalSettings.uasset`) ändern, sind Konflikte vorprogrammiert. Wenn zwei Mods versuchen, den Schaden derselben Waffe zu ändern, hat diejenige, die zuletzt (alphabetisch) im Ordner `~mods` geladen wird, in der Regel Vorrang.
+
+**Best Practices für ein stabiles Spiel:**
+1. **Ladereihenfolge**: Benennen Sie Ihre Lieblingsmods mit einem Präfix wie `z_` um, um sicherzustellen, dass sie zuletzt geladen werden und andere überschreiben.
+2. **Schritt für Schritt**: Installieren Sie Mods nacheinander und testen Sie das Spiel nach jeder Installation, um festzustellen, welche Mod Probleme verursacht.
+3. **Protokolle prüfen**: Wenn das Spiel abstürzt, suchen Sie im Ordner `UrbanStrife/Saved/Logs` nach Hinweisen darauf, welches Asset nicht geladen werden konnte.
+
+<Callout type="warning" title="Integrität der Speicherstände">
+Mods, die die Inventarstruktur ändern oder neue Gegenstands-IDs hinzufügen, bergen ein hohes Risiko. Wenn Sie eine solche Mod deinstallieren, kann Ihr Spielstand beschädigt werden, falls Ihre Charaktere gerade modifizierte Gegenstände tragen.
+</Callout>
+
+| Problem | Mögliche Ursache | Lösung |
+| :--- | :--- | :--- |
+| **Unendlicher Ladebildschirm** | Konflikt in Kartenskripten | Kürzlich hinzugefügte Karten-Mods entfernen |
+| **Unsichtbare Gegenstände** | Fehlende Textur-Assets | Basisdateien der Mod neu installieren |
+| **Absturz im Kampf** | AP- oder KI-Logikfehler | UE4SS-Skriptkonsole überprüfen |
+
+</Section>
+
+<Section icon={Trophy} title="Modding-Checkliste & Ziele für 2026">
+
+Um das Beste aus Ihrem modifizierten Urban Strife-Erlebnis herauszuholen, folgen Sie dieser Checkliste, um sicherzustellen, dass Sie alle wesentlichen Verbesserungen abgedeckt haben.
+
+<Checklist
+  id="modding-checklist"
+  title="Wesentliche Meilensteine des Moddings:"
+  items={[
+    "Installieren Sie das UE4SS-Scripting-Framework",
+    "Wenden Sie eine Mod zur UI-Skalierung für 4K-Auflösungen an",
+    "Spielen Sie einen Patch für ein 'realistisches Tragegewicht' auf",
+    "Aktivieren Sie das Kampf-Overhaul 'Verbesserte KI'",
+    "Sichern Sie die Spielstände Ihrer Kampagne von 2026"
+  ]}
+/>
+
+<Callout type="tip" title="Letzte Empfehlung">
+Übersehen Sie nicht die „Prepper-Radio“-Mods. Sie fügen dem Radiosender der Zuflucht eigene Musik und Sprachzeilen hinzu, was die Segmente des Basisbaus viel atmosphärischer macht, während Sie darauf warten, dass die Zombiehorde zurückkehrt.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Funktionieren Nexus-Mods mit den Early-Access-Builds von Urban Strife?",
+    answer: "Einige funktionieren möglicherweise, aber es wird dringend empfohlen, Mods zu verwenden, die speziell für die Version 1.03 von 2026 aktualisiert wurden, um schwerwiegende Fehler zu vermeiden."
+  },
+  {
+    question: "Wie deinstalliere ich eine Mod aus Urban Strife?",
+    answer: "Navigieren Sie einfach zum Ordner Paks/~mods und löschen Sie die spezifische .pak-Datei, die mit der Mod verknüpft ist."
+  },
+  {
+    question: "Kann ich Nexus-Mods im Mehrspielermodus oder Koop-Modus verwenden?",
+    answer: "Urban Strife ist in erster Linie ein Einzelspielererlebnis. Wenn Sie Mods im gemeinsamen Spiel verwenden, müssen alle Spieler identische Mod-Listen und Ladereihenfolgen haben."
+  },
+  {
+    question: "Deaktiviert das Installieren von Mods die Steam-Errungenschaften?",
+    answer: "Im Allgemeinen nein. Die meisten Mods für die Unreal Engine 4 beeinträchtigen das System zur Erfassung von Errungenschaften in Urban Strife nicht."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife System Requirements: PC Setup & Performance Guide",
+  description: "Check the minimum and recommended system requirements for Urban Strife. Optimize your PC settings for smooth turn-based zombie survival gameplay.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=System+Requirements+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban strife system requirements** demand at least a 2.4 GHz Quad Core CPU, 8 GB RAM, and a GTX 760 to run on minimum settings.
+- **Recommended hardware** upgrades your setup to a 3.0 GHz Quad Core processor, 16 GB RAM, and a GTX 970 or RX 580 GPU.
+- **Storage space** of 20 GB on an SSD is highly recommended to minimize loading times between tactical combat and base management.
+- **Tactical gameplay** features a complex 30-40 Action Point (AP) system, requiring frequent manual saves due to the lack of an undo button.
+</Callout>
+
+<Section icon={Shield} title="PC System Requirements Deep Dive">
+
+Before diving into the zombie-infested tactical world of Urban Strife, ensuring your PC hardware is up to the task is essential. The game combines real-time exploration with turn-based combat, meaning performance stutters can severely disrupt your tactical planning. Below, we break down the official minimum and recommended system configurations.
+
+**Video Highlights:**
+- **Genre & Style**: A zombie-based, turn-based survival game drawing heavy inspiration from Dead State, XCOM, and Phoenix Point.
+- **Base Management**: Players manage a mansion base, dealing with static story elements, resource allocation, and manual department donations.
+- **Combat Mechanics**: Features a highly granular Action Point (AP) system where characters have 30-40 AP to spend per turn.
+- **Early Access State**: Currently features Act 1, with a high difficulty curve that encourages frequent saving due to the lack of an undo action.
+
+<YouTubeEmbed videoId="KXxdfiSrlEo" title="Dad on a Budget: Urban Strife Review (Early Access)" />
+
+### System Requirements Comparison
+
+To help you quickly determine if your rig can handle the apocalypse, compare your current specifications against the official hardware tiers below:
+
+| Specification | Minimum Requirement | Recommended Requirement |
+| :--- | :--- | :--- |
+| **OS** | Windows 7 (64-bit) | Windows 7 / 8.1 / 10 (64-bit) |
+| **Processor** | 2.4 GHz Quad Core | 3.0 GHz Quad Core |
+| **Memory** | 8 GB RAM | 16 GB RAM |
+| **Graphics** | NVIDIA GTX 760 / AMD HD 7870 | NVIDIA GTX 970 / AMD RX 580 |
+| **VRAM** | 2 GB (2048 MB) | 4 GB (4096 MB) |
+| **Storage** | 20 GB free space | 20 GB free space |
+| **DirectX** | DirectX Compatible | DirectX Compatible |
+
+### Hardware Component Analysis
+
+Understanding how each hardware component impacts your gameplay will help you identify potential bottlenecks:
+
+| Component | Role in Urban Strife | Impact on Performance |
+| :--- | :--- | :--- |
+| **CPU** | Handles turn-based AI pathfinding and physics calculations. | High impact during large zombie horde turns. |
+| **GPU** | Renders 3D environments, dynamic lighting, and particle effects. | Moderate impact; lowering shadow quality boosts FPS. |
+| **RAM** | Stores active map data, textures, and combat states. | Low RAM causes hitching when moving between sectors. |
+| **Storage** | Dictates map loading speeds and save game file operations. | SSD usage dramatically reduces sector transition times. |
+
+<Callout type="info" title="Hardware Note">
+While the minimum requirements support older operating systems like Windows 7, running the game on Windows 10 or 11 with updated graphics drivers is highly recommended for modern system stability and optimal API performance.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Graphical Settings & Performance Optimization">
+
+Achieving a stable 60 frames per second (FPS) in Urban Strife ensures that your tactical camera pans smoothly and combat animations resolve without stuttering. If your system sits closer to the minimum requirements, adjusting specific graphical parameters can yield massive performance gains without sacrificing too much visual fidelity.
+
+### Graphics Preset Performance Guide
+
+Adjusting your settings based on targeted performance presets can help stabilize your framerate during chaotic combat encounters:
+
+| Preset Quality | Target Resolution | Recommended GPU | Expected Performance |
+| :--- | :--- | :--- | :--- |
+| **Low** | 1080p | GTX 760 / HD 7870 | 30-45 FPS (Base Gameplay) |
+| **Medium** | 1080p | GTX 1050 Ti / RX 560 | 50-60 FPS (Balanced Visuals) |
+| **High** | 1080p / 1440p | GTX 970 / RX 580 | 60+ FPS (Smooth Tactical Play) |
+| **Ultra** | 1440p / 4K | RTX 2060 / RX 5700 XT | 90+ FPS (Maximum Fidelity) |
+
+<CardGrid cols={3}>
+  <Card title="Low-End Systems">
+    - **Resolution**: 1080p (Scale down if needed)
+    - **Shadows**: Low or Disabled
+    - **Anti-Aliasing**: FXAA or Off
+    - **Focus**: Maximizing turn transition speeds
+  </Card>
+  <Card title="Mid-Range Systems">
+    - **Resolution**: 1080p Native
+    - **Shadows**: Medium
+    - **Anti-Aliasing**: SMAA
+    - **Focus**: Balanced visual clarity and stable 60 FPS
+  </Card>
+  <Card title="High-End Systems">
+    - **Resolution**: 1440p / 4K
+    - **Shadows**: High / Ultra
+    - **Anti-Aliasing**: TAA / MSAA
+    - **Focus**: Crisp model details and fluid camera panning
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimization Tip">
+Turn-based calculations are heavily CPU-bound. If you experience lag during the enemy turn phase, lowering your graphic settings won't help much. Instead, ensure no heavy background applications are running on your PC to free up CPU cycles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Combat & Action Point Mechanics">
+
+Once your performance is optimized, mastering the tactical combat engine is your next step. Urban Strife utilizes a highly detailed Action Point (AP) system reminiscent of classic tactical RPGs like Phoenix Point. Unlike modern XCOM games which limit you to two simple moves, characters here possess a deep pool of 30 to 40 AP to allocate dynamically.
+
+### Combat Actions and AP Costs
+
+Every physical movement, weapon interaction, and tactical maneuver consumes a portion of your turn's AP pool. Planning your actions efficiently is the difference between survival and a swift wipe:
+
+| Tactical Action | Typical AP Cost | Strategic Value |
+| :--- | :--- | :--- |
+| **Basic Movement** | 1-2 AP per tile | Repositioning behind cover or flanking enemies. |
+| **Crouch / Stand** | 3-5 AP | Increases accuracy and defense; limits mobility. |
+| **Swap Weapon** | 5 AP | Adapting to range changes (e.g., switching to melee). |
+| **Quick Shot** | 10-15 AP | Low-accuracy attack; useful for finishing weak targets. |
+| **Aimed Shot** | 20-25 AP | High accuracy; allows targeting specific body parts. |
+| **Reload Weapon** | 8-12 AP | Essential upkeep; always reload before initiating combat. |
+
+Combat transitions seamlessly from real-time exploration to turn-based tactical grids once an enemy spots your squad. During combat, players can hold **Shift and Left-Click** on an enemy to target individual body parts (such as the head, torso, or limbs). 
+
+However, the UI does not display a simple percentage-to-hit indicator. Instead, it relies on range feedback (such as "Optimal" or "Far"). Green, blue, and gray health bars represent health and stamina metrics, which require careful observation.
+
+<Callout type="warning" title="Tactical Warning">
+Urban Strife does not feature an "Undo" button. A single misclick can cause your character to run directly into the open, leaving them completely exposed to enemy gunfire. Because the game is unforgiving even on lower difficulties, save your progress manually before every major skirmish.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Base Management & Act 1 Progression">
+
+Outside of combat, your primary loop involves managing your base of operations: a sprawling mansion housing survivors. This base management system functions similarly to State of Decay, requiring you to monitor daily consumption rates for vital resources like food, fuel, materials, and overall morale.
+
+### Base Resource Management
+
+Keeping your shelter running smoothly requires constant scouting and efficient inventory management:
+
+| Resource Type | Daily Consumption | Primary Source | Consequences of Depletion |
+| :--- | :--- | :--- | :--- |
+| **Food** | High | Kitchen, scavenging | Severe morale drop, starvation injuries. |
+| **Fuel** | Medium | Gas stations, industrial zones | Power outages, disabled base upgrades. |
+| **Meds** | Low (unless injured) | Pharmacies, hospitals | Untreated infections, permanent death of survivors. |
+| **Materials** | Dynamic (construction) | Hardware stores, debris | Inability to build defenses or repair gear. |
+
+<Steps>
+  <Step num="1" title="Secure the Mansion Perimeter">
+    Establish basic defenses around your mansion. Clear out any immediate threats in the surrounding sectors to secure your home turf.
+  </Step>
+  <Step num="2" title="Appoint Department Heads">
+    Locate and speak with the static NPCs in your base. Assign them to head the medical, cooking, and engineering departments to unlock base upgrades.
+  </Step>
+  <Step num="3" title="Initiate Looting Runs">
+    Deploy a squad of four survivors to scout nearby locations. Focus on gathering fuel and construction materials during your initial excursions.
+  </Step>
+  <Step num="4" title="Manual Resource Donation">
+    Return to base and individually speak with each department head to donate your scavenged supplies. Manage inventory carefully to avoid cluttering your general stash.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Inventory Tip">
+Because the early access build features highly manual inventory management, try to organize your loot before returning to the mansion. Use the "transfer all" button where available in basic storage menus to save time and reduce tedious clicking.
+</Callout>
+
+### Act 1 Progression Milestones
+
+Use this checklist to track your progress and ensure your squad is adequately prepared to face the escalating threats in Act 1:
+
+<Checklist
+  id="urban-strife-act1"
+  title="Act 1 Essential Goals:"
+  items={[
+    "Fully upgrade the mansion kitchen to stabilize daily food production.",
+    "Recruit at least four combat-ready survivors for your away team.",
+    "Secure a reliable source of gasoline to keep the base generator running.",
+    "Equip your primary scout with a high-durability melee weapon for silent takedowns.",
+    "Keep the horde meter low by clearing out local zombie nests regularly."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<Callout type="info" title="FAQ Overview">
+Find quick answers to the most common questions regarding hardware performance, gameplay mechanics, and system settings.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What are the minimum urban strife system requirements to run the game?",
+    answer: "To run the game, you need at least a 64-bit Windows 7 operating system, a 2.4 GHz Quad Core processor, 8 GB of RAM, a 2 GB graphics card (NVIDIA GTX 760 or AMD HD 7870), and 20 GB of free storage space."
+  },
+  {
+    question: "Does Urban Strife support controller input on PC?",
+    answer: "Currently, the game is optimized for keyboard and mouse controls. Given the complex nature of the inventory management and precise grid-based tactical targeting, playing with a mouse is highly recommended."
+  },
+  {
+    question: "Is an SSD required to play the game?",
+    answer: "An SSD is not strictly required, but it is highly recommended. Installing the game on an SSD significantly reduces loading times when transitioning between the mansion base and tactical combat maps."
+  },
+  {
+    question: "How does the saving system work in the game?",
+    answer: "The game features an auto-save system, but manual saving is highly encouraged. Because there is no undo button in combat and the difficulty curve is steep, saving your game before major decisions is the best strategy."
+  }
+]} />
+
+</Section>

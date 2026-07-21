@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Electronic Parts: Scavenging & Crafting Guide",
+  description: "Master the art of finding and utilizing urban strife electronic parts to upgrade your base and survive the zombie apocalypse in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Urban+Strife+Crafting",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban Strife electronic parts** are essential for advanced base upgrades and utility repairs.
+- **Scavenging high-traffic zones** like suburban villas and commercial areas yields the best material drop rates.
+- **Efficient inventory management** is required to prioritize electronics over bulky, low-value items.
+- **Crafting stations** at your base allow you to convert raw scrap metal and wires into functional electronic components.
+</Callout>
+
+<Section icon={Map} title="Locating Electronic Parts">
+
+In *Urban Strife*, survival hinges on your ability to scavenge effectively. Electronic parts are categorized as high-tier loot, often found in derelict suburban homes, office buildings, and industrial storage units. Unlike common food or magazines, these components require focused searching in tech-heavy environments.
+
+**Video Highlights:**
+- Tactical movement and stealth-based looting strategies.
+- Identifying high-value containers for electronic scrap.
+- Managing encumbrance during long-range scavenging runs.
+
+<YouTubeEmbed videoId="LiWPNwzvlBY" title="Urban Strife - Turn Based Zombie Survival Full Release Gameplay" />
+
+When exploring, always check the backrooms of commercial buildings. These areas often contain specialized toolboxes that have a higher probability of spawning circuits, wires, and complex electronic parts needed for your base generator and communication arrays.
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize looting **wire** and **metal scraps** alongside electronic parts. You will frequently need these combined materials to complete complex crafting recipes at your home base.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Scavenging Efficiency Table">
+
+To maximize your time in the field, refer to this table to understand where to focus your search efforts during your daily sorties.
+
+| Location Type | Electronic Drop Rate | Primary Secondary Loot | Risk Level |
+| :--- | :--- | :--- | :--- |
+| Suburban Villa | Moderate | Food, Medicine | Low |
+| Industrial Zone | High | Metal Scraps, Tools | High |
+| Sheriff Office | Low | Weapons, Ammo | Medium |
+| Abandoned Shop | High | Chemicals, Wires | Medium |
+
+</Section>
+
+<Section icon={Swords} title="Managing Your Crafting Needs">
+
+Once you have secured your parts, the next challenge is managing them within your base. Crafting in *Urban Strife* is not instantaneous; it requires balancing your available materials with the survival needs of your survivors.
+
+<CardGrid cols={3}>
+  <Card title="Resource Storage">
+    - Keep electronic components in the main stash.
+    - Avoid keeping them in individual character inventories.
+    - Categorize by type for faster crafting access.
+  </Card>
+  <Card title="Repair Priority">
+    - First: Communication Radio.
+    - Second: Power Generator.
+    - Third: Defensive Traps.
+  </Card>
+  <Card title="Trading Strategy">
+    - Trade excess food for rare electronic parts.
+    - Never trade away your last set of circuits.
+    - Use liquor to boost trader affinity.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Inventory Management Warning">
+Do not over-encumber your survivors with electronic parts if you are in a combat-heavy zone. Dropping a stack of parts to save your character’s life is always better than losing them permanently in a failed raid.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Step-by-Step Crafting Process">
+
+Follow these steps to turn your scavenged loot into functional base assets.
+
+<Steps>
+  <Step num="1" title="Sort Inventory">
+    Upon returning to base, move all scavenged electronics to the shared stash to ensure they are available for all crafters.
+  </Step>
+  <Step num="2" title="Check Requirements">
+    Access the crafting menu at your workbench to view the specific electronic parts needed for high-tier upgrades.
+  </Step>
+  <Step num="3" title="Initiate Assembly">
+    Assign a survivor with high mechanical or technical skills to maximize the speed and efficiency of the crafting process.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Resource Comparison Table">
+
+Understanding the value of your components helps in making informed decisions during raids.
+
+| Component | Rarity | Primary Use | Salvage Value |
+| :--- | :--- | :--- | :--- |
+| Electronic Circuit | Rare | Generator / Radio | High |
+| Copper Wire | Common | Traps / Electronics | Low |
+| Metal Scrap | Common | Base Repairs | Low |
+| Battery Pack | Rare | Lighting / Power | Medium |
+
+</Section>
+
+<Section icon={Trophy} title="Essential Milestones">
+
+<Checklist
+  id="crafting-goals"
+  title="Progression Checklist:"
+  items={[
+    "Establish a consistent supply chain of electronic parts",
+    "Fully repair the base communication radio",
+    "Upgrade generator capacity for nighttime safety",
+    "Stockpile 20+ electronic components for emergency repairs"
+  ]}
+/>
+
+<Callout type="success" title="Success Milestone">
+Successfully upgrading your base defenses with electronic traps will significantly reduce the damage taken during zombie horde events.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I increase the storage limit for electronic parts?",
+    answer: "You must upgrade your base storage capacity by utilizing the building menu, which requires significant amounts of wood and metal scraps."
+  },
+  {
+    question: "Do electronic parts respawn in scavenged locations?",
+    answer: "Yes, loot containers in Urban Strife refresh over time, allowing you to revisit key locations for additional supplies."
+  },
+  {
+    question: "Why can't I craft certain items even with enough electronic parts?",
+    answer: "Ensure you have the required survivor skill level and have unlocked the necessary blueprints by exploring the game world."
+  }
+]} />
+
+</Section>

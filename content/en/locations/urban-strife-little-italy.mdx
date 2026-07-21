@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "urban strife little italy: Best Loot & Combat Strategy Guide",
+  description: "Master the urban strife little italy sector with our guide on tactical combat, building clearing, and high-value loot locations in the 2026 v1.0 release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Little+Italy+Tactical+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **urban strife little italy**: A high-density urban sector requiring advanced stealth and tactical positioning to survive large zombie hordes.
+- **Combat Focus**: Use **Action Point (AP) management** to clear buildings floor-by-floor while minimizing noise to avoid attracting nearby spawners.
+- **Loot Priority**: Focus on **Construction Materials** and **Medical Supplies** to stabilize the Urban Shelter during the early-to-mid game.
+- **Stealth Strategy**: Utilize suppressed firearms or crossbows to eliminate isolated guards without alerting the entire neighborhood.
+- **Faction Impact**: Decisions made here influence your reputation with the **Shady Lady Bikers** and the **National Guard**.
+</Callout>
+
+<Section icon={Map} title="Navigating urban strife little italy">
+
+The **urban strife little italy** sector represents one of the first major tactical hurdles for survivors leaving the immediate vicinity of the Urban Shelter. Following the Version 1.0 launch on July 14, 2026, this area has been populated with denser zombie clusters and more complex building layouts. Navigating these narrow streets requires a deep understanding of cover mechanics and line-of-sight. Unlike the open fields of the prologue, Little Italy forces you into close-quarters engagements where every corner could hide a dormant threat or a valuable cache of supplies.
+
+<CardGrid cols={3}>
+  <Card title="Residential Blocks">
+    - **High Loot Density**: Search kitchens and bedrooms for food and medicine.
+    - **Tight Corridors**: Ideal for melee fighters with high **Agility**.
+    - **Ambush Risks**: Zombies often hide behind doors or under furniture.
+  </Card>
+  <Card title="Commercial Strips">
+    - **Resource Focus**: Hardware stores provide essential **Construction Materials**.
+    - **Open Glass**: Shop windows offer visibility but provide zero protection from bullets.
+    - **Multi-Level**: Use rooftops for high-ground accuracy bonuses.
+  </Card>
+  <Card title="Back Alleys">
+    - **Stealth Routes**: Use these to bypass large hordes on the main street.
+    - **Flanking Opportunities**: Position snipers at alley entrances to cover the squad.
+    - **Trap Danger**: Watch for environmental hazards and narrow chokepoints.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sector Scouting">
+Before entering a building in Little Italy, use a survivor with high **Intelligence** to scout the perimeter. Identifying the number of exits and potential zombie spawners can prevent your squad from being trapped in a dead-end room.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Combat and Building Clearing">
+
+Combat in **urban strife little italy** is defined by the game's realistic ballistics and material penetration systems. In this urban environment, the type of cover you choose determines whether you survive an encounter with human scavengers or the undead. A wooden door might stop a stray pellet from a shotgun, but it offers no protection against a hunting rifle. You must manage your **Action Points (AP)** carefully, ensuring that every survivor ends their turn behind substantial cover like brick walls or car engine blocks.
+
+<Steps>
+  <Step num="1" title="Breach and Clear">
+    Approach the entrance while crouched to maintain stealth. Use a **Melee Fighter** or a survivor with a suppressed sidearm to open the door and check the immediate interior for "sleepers."
+  </Step>
+  <Step num="2" title="Establish Overwatch">
+    Once inside, position a **Ranged Shooter** near a window or doorway using the **Overwatch (Y)** command. This creates a kill zone for any enemies attracted by the noise of your entry.
+  </Step>
+  <Step num="3" title="Systematic Room Sweeps">
+    Move the squad in a "buddy system" through the building. Never send a single survivor into an unmapped room. Use **Dexterity-based** survivors to interact with containers while others hold defensive angles.
+  </Step>
+  <Step num="4" title="Secure the Exit">
+    Before looting, ensure all zombie spawners within the building are destroyed. This stops the infinite flow of undead and allows you to salvage materials without the pressure of an ongoing clock.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Noise Management">
+Unsuppressed gunfire in the streets of Little Italy acts as a dinner bell for the Atlanta Horde remnants. Always prioritize melee takedowns or crossbows unless you are prepared for a prolonged siege.
+</Callout>
+
+| Cover Type | Protection Level | Penetration Risk | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **Brick Wall** | **Excellent** | Low | Long-term firefights against rifles |
+| **Car Engine** | **High** | Moderate | Street-level skirmishes |
+| **Wooden Fence** | **Poor** | **High** | Temporary concealment only |
+| **Interior Door** | **Minimal** | **Very High** | Breaking line-of-sight for stealth |
+| **Concrete Barrier** | **Excellent** | Low | Defending against heavy calibers |
+
+</Section>
+
+<Section icon={Target} title="High-Value Loot and Resource Priority">
+
+Looting in **urban strife little italy** is not just about grabbing everything you see; it is about inventory management and Shelter sustainability. Version 1.0 introduced a more robust repair system, meaning you should look for "junk" weapons and armor that can be salvaged into **Repair Parts**. These parts are essential for maintaining your Tier 2 and Tier 3 gear as you progress toward the final Atlanta Horde siege.
+
+| Resource Category | Primary Location | Shelter Utility | Priority |
+| :--- | :--- | :--- | :--- |
+| **Construction Materials** | Hardware Stores, Alleys | Upgrading Workshop & Barracks | **High** |
+| **Medical Supplies** | Pharmacies, Bathrooms | Treating bleeding & infections | **High** |
+| **Food & Water** | Kitchens, Grocers | Maintaining population morale | Moderate |
+| **Chemicals** | Basements, Labs | Crafting explosives & Molotovs | Moderate |
+| **Electronic Parts** | Office Buildings | Powering advanced fortifications | Low (Early) |
+
+<Callout type="success" title="Owen's Repair Tip">
+Once you unlock Owen's repair operation at the Shelter, prioritize looting damaged high-tier armor in Little Italy. Even if the durability is zero, the base plates can often be salvaged or restored, providing better protection than improvised gear.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Squad Setup for Urban Exploration">
+
+To conquer **urban strife little italy**, your away team needs a balance of stealth, utility, and raw firepower. The learn-by-doing growth system in Urban Strife means you should bring survivors who need to level up their **Marksmanship** or **Dexterity** in controlled environments. For this sector, a four-person team is usually optimal to balance carrying capacity with tactical flexibility.
+
+<CardGrid cols={2}>
+  <Card title="The Point Man (Stealth/Melee)">
+    - **Key Attributes**: Agility, Strength.
+    - **Role**: Quietly eliminates isolated zombies and scouts rooms.
+    - **Gear**: Machete, Suppressed Pistol, Light Armor.
+  </Card>
+  <Card title="The Support (Medic/Utility)">
+    - **Key Attributes**: Intelligence, Dexterity.
+    - **Role**: Heals injuries and handles complex lockpicking or repairs.
+    - **Gear**: Medical Kit, Toolset, Shotgun (for emergencies).
+  </Card>
+  <Card title="The Marksman (Ranged)">
+    - **Key Attributes**: Marksmanship, Perception.
+    - **Role**: Provides long-range cover and eliminates human snipers.
+    - **Gear**: Hunting Rifle, Scoped Attachments, High-Ground focus.
+  </Card>
+  <Card title="The Mule (Heavy/Tank)">
+    - **Key Attributes**: Strength, Endurance.
+    - **Role**: Carries the bulk of the loot and provides heavy suppression.
+    - **Gear**: Assault Rifle or LMG, Heavy Body Armor, Backpack.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Attribute Growth">
+Remember that repeated actions improve your survivors. If a character is weak in **Endurance**, have them carry a slightly heavier load while exploring Little Italy to naturally build their physical stats over time.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Little Italy Completion Checklist">
+
+Before you consider the **urban strife little italy** sector "cleared," ensure you have met these milestones. This will maximize your rewards and ensure the safety of the Urban Shelter.
+
+<Checklist
+  id="little-italy-goals"
+  title="Sector Completion Milestones:"
+  items={[
+    "Destroy all active zombie spawners in the central plaza.",
+    "Locate and loot the hidden safe in the Italian Restaurant basement.",
+    "Secure a cache of Construction Materials from the hardware store.",
+    "Establish a positive or neutral reputation with local Biker scouts.",
+    "Map all underground subway entrances for future fast-travel.",
+    "Collect at least 50 Repair Parts through salvaging discarded gear."
+  ]}
+/>
+
+<Callout type="tip" title="Final Check">
+Always check the **Defense Tracker** at the Shelter after returning from Little Italy. The resources you bring back directly contribute to your readiness for the Day 20 siege.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+Mastering the nuances of urban exploration is key to long-term survival in Urban Strife. Here are the most common questions regarding the Little Italy sector and its challenges.
+
+<FAQ items={[
+  {
+    question: "Is it better to use stealth or loud weapons in Little Italy?",
+    answer: "Stealth is almost always better. The high density of buildings creates echoes that attract zombies from multiple blocks. Use loud weapons only when cornered or when clearing a final boss in a contained area."
+  },
+  {
+    question: "How do I deal with armored human enemies in this sector?",
+    answer: "Use high-penetration ammunition like 7.62mm rounds or aim for unarmored limbs to cripple their movement. Explosives like Molotov cocktails are also effective for bypassing body armor entirely."
+  },
+  {
+    question: "Where is the best place to find medicine in urban strife little italy?",
+    answer: "Focus on the residential apartments above the shops. Most bathrooms contain a first-aid cabinet with bandages or antibiotics, which are vital for treating the infections common in this sector."
+  },
+  {
+    question: "Can I use vehicles in the narrow streets of Little Italy?",
+    answer: "While vehicles provide excellent mobile storage, the narrow streets are often blocked by debris. It is safer to park on the outskirts and move into the heart of the sector on foot."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+The 2026 Version 1.0 update has made Little Italy more dynamic. Expect roaming patrols from the **National Guard** if your reputation with them is low, adding a layer of human-vs-human tension to your scavenging runs.
+</Callout>
+
+</Section>

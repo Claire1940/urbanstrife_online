@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "urban strife horde: Strategic Defense & Event Management Guide",
+  description: "Master the urban strife horde mechanics. Learn how to intercept world map events, manage the Courthouse siege, and optimize tactical combat in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Horde+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **urban strife horde mechanics** utilize a unique simultaneous AI system to speed up turn-based zombie combat.
+- **World Map Interception** is the only way to prevent settlements like the Courthouse from falling to permanent infection.
+- **Ballistic Trajectories** are calculated in real-time, allowing players to shoot through cover to hit multiple targets.
+- **Resource Management** at the Urban Shelter base is critical for crafting specialized ammunition needed for large-scale sieges.
+- **Faction Choices** determine which unique resources and tactical upgrades you can access during the late-game apocalypse.
+</Callout>
+
+<Section icon={Swords} title="Understanding the urban strife horde Combat System">
+
+The core of the **urban strife horde** experience lies in its innovative approach to turn-based tactical combat. Unlike traditional RPGs where every individual enemy takes a separate turn, this game implements a dynamic AI system that allows zombies to move simultaneously. This design choice significantly reduces downtime during large-scale encounters, maintaining a high level of tension without the frustration of waiting for dozens of individual units to complete their actions.
+
+**Video Highlights:**
+- Detailed analysis of the simultaneous zombie AI movement system.
+- Demonstration of the real-time ballistic trajectory and material penetration mechanics.
+- Overview of base building and its impact on survival and defense.
+- Insights into faction interactions and moral decision-making.
+
+<YouTubeEmbed videoId="_KHkn77UddE" title="Urban Strife Review - Is It Worth Playing for Zombie Survival Fans?" />
+
+The combat depth is further enhanced by a sophisticated ballistic system. Every projectile fired follows a calculated trajectory that accounts for weapon statistics and the physical properties of the environment. This means that tactical positioning is not just about finding cover, but also about understanding what that cover is made of. High-caliber rounds can penetrate thin wooden walls or line up multiple zombies for a single, devastating shot.
+
+| Combat Feature | Mechanic Description | Tactical Impact |
+| :--- | :--- | :--- |
+| **Simultaneous AI** | All zombies in a horde move and act at the same time. | Increases game pace and prevents turn-based fatigue. |
+| **Real-time Ballistics** | Trajectories calculate material density and penetration. | Allows for multi-target hits and shooting through cover. |
+| **Destructible Cover** | Environmental objects can be destroyed by gunfire or melee. | Prevents camping and forces constant repositioning. |
+| **Action Point System** | AP manages movement, attacks, and environmental interaction. | Requires careful planning of offensive and defensive moves. |
+
+<Callout type="tip" title="Tactical Advantage">
+When facing a massive **urban strife horde**, always look for "choke points" in the environment. Because the ballistics system allows for penetration, lining up zombies in a narrow hallway can let you kill three or four enemies with a single shotgun blast or high-power rifle round.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="World Map Events: The Horde on the Move">
+
+Managing the **urban strife horde** on the world map is just as important as the tactical combat itself. Players will frequently encounter "Horde on the Move" events, represented by red icons with crossed swords. These icons indicate a migrating mass of undead heading toward a specific settlement or point of interest. Ignoring these movements can lead to the permanent loss of vital trading hubs and quest locations.
+
+The world map operates on a real-time clock. When a horde icon reaches a location like the Courthouse, a hidden timer begins. If the player does not intervene within this window, the settlement "falls," turning into a permanent spawning ground for the undead. Once a location is lost, all NPCs within are converted into zombies, and the unique resources or quests associated with that area are gone forever.
+
+| Event Type | Map Icon | Primary Objective | Risk Level |
+| :--- | :--- | :--- | :--- |
+| **Migrating Horde** | Moving Red Swords | Intercept on the highway before it reaches a camp. | High |
+| **Static Siege** | Pulsing Red Icon | Break the perimeter to save trapped survivors. | Extreme |
+| **Scavenger Party** | Yellow Search Icon | Defend your scavengers from roaming undead. | Medium |
+| **Faction Skirmish** | Blue/Red Swords | Decide whether to intervene or let factions fight. | Variable |
+
+<Callout type="warning" title="Infection Timers">
+Simply being present on the map is not enough to stop an infection. If a horde has already reached a settlement, you must actively hunt down every "spawner" and "dead pile" to clear the area. If the event timer expires while you are still inside the map but haven't cleared the enemies, the settlement will still fall.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Case Study: Defending the Courthouse Settlement">
+
+The Courthouse serves as a critical early-game test for handling an **urban strife horde**. Many players struggle with the specific triggers required to "save" this location. As discussed in community circles and confirmed by developers, the Courthouse defense relies on a successful interception on the world map. If the horde reaches the gates, the situation becomes significantly more dire.
+
+To successfully defend the Courthouse, you should follow a specific sequence of actions. Intercepting the horde on the highway is the most efficient method, as it prevents the "siege" state from ever occurring. However, if you are forced to fight within the Courthouse grounds, you must ensure no "dormant spawners" are left behind. A single missed zombie or spawner can trigger a script error that leads to the settlement's destruction despite your best efforts.
+
+<Steps>
+  <Step num="1" title="Monitor World Map">
+    Watch the highway routes leading to the Courthouse for any red "Horde on the Move" icons.
+  </Step>
+  <Step num="2" title="Intercept Early">
+    Move your squad to the highway sector and initiate combat before the horde reaches the Courthouse sector.
+  </Step>
+  <Step num="3" title="Clear the Sector">
+    During combat, ensure every single zombie is eliminated. Check corners and dark rooms for dormant enemies.
+  </Step>
+  <Step num="4" title="Verify Status">
+    After combat, exit to the world map and check if the red icon has disappeared. If the icon remains, re-enter and search for missed spawners.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Developer Insight">
+In 2026, patches have addressed rare bugs where dormant spawners wouldn't trigger the "combat end" sequence. If you find yourself stuck, always check the "SaveGames" folder in your AppData to provide logs for the dev team, as they are actively refining the horde/siege mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Base Management & Horde Preparation">
+
+Survival against an **urban strife horde** is not just about the soldiers you lead, but the base you build. The Urban Shelter serves as your hub for crafting, upgrading, and planning. Without a steady supply of ammunition and medical supplies, your squad will eventually be overwhelmed by the sheer numbers of the Atlanta horde.
+
+Facilities within your base provide passive and active bonuses that are essential for long-term survival. For instance, the Workshop allows for the creation of specialized ammunition types, such as hollow-point rounds for unarmored zombies or armor-piercing rounds for dealing with rogue military factions.
+
+<CardGrid cols={3}>
+  <Card title="The Workshop">
+    - **Custom Ammunition**: Craft specialized rounds for different enemy types.
+    - **Weapon Attachments**: Improve accuracy and reload speeds.
+    - **Repair Station**: Maintain gear durability after heavy combat.
+  </Card>
+  <Card title="The Gardens">
+    - **Sustainability**: Produce food to keep group morale high.
+    - **Medical Herbs**: Craft basic bandages and infection suppressants.
+    - **Morale Boost**: High-quality food prevents desertion.
+  </Card>
+  <Card title="The Barracks">
+    - **Recruitment**: Increase the number of active survivors in your squad.
+    - **Training**: Improve specific skills like Stealth or Ballistics.
+    - **Defense**: Provides a bonus to base defense during direct attacks.
+  </Card>
+</CardGrid>
+
+| Facility Upgrade | Resource Cost | Benefit to Horde Defense |
+| :--- | :--- | :--- |
+| **Fortified Walls** | Wood, Metal Scrap | Increases the time before a horde breaks into the base. |
+| **Watchtower** | Metal, Electronics | Allows for long-range sniping during base sieges. |
+| **Ammo Press** | Machined Parts | Reduces the cost of crafting high-caliber bullets. |
+| **Infirmary** | Meds, Clean Water | Speeds up recovery time for injured squad members. |
+
+<Callout type="info" title="Resource Scarcity">
+Always prioritize the Ammo Press. In Urban Strife, you will often face 30+ zombies in a single encounter. Without efficient ammo production, you will find yourself forced into melee combat, which is significantly more dangerous against large groups.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Strategic Alliances and Moral Dilemmas">
+
+The **urban strife horde** is not the only threat in the wasteland. Other survivor factions, such as the Cult of Second Chance, the Shady Lady bikers, and the Rogue Army Garrison, all have their own agendas. Your interactions with these groups will determine your access to unique tech and safe zones.
+
+Choosing to side with one faction often antagonizes another. This creates a branching narrative where your decisions carry significant weight. For example, helping the Rogue Army might give you access to military-grade explosives—perfect for clearing massive hordes—but it might cost you the trust of the local civilians who provide food and medical supplies.
+
+<Checklist
+  id="faction-goals"
+  title="Faction Interaction Checklist:"
+  items={[
+    "Identify the primary resource offered by each faction (e.g., Ammo from Army, Food from Civilians).",
+    "Complete initial 'Trust' quests to unlock basic trading rights.",
+    "Evaluate the long-term impact of siding with a faction on your base defense capabilities.",
+    "Monitor faction tension levels to avoid being caught in a crossfire.",
+    "Secure at least one 'Neutral' trade route to ensure emergency supplies."
+  ]}
+/>
+
+| Faction | Primary Resource | Tactical Benefit |
+| :--- | :--- | :--- |
+| **Urban Shelter** | General Supplies | Balanced progression and high community morale. |
+| **Rogue Army** | Military Gear | Access to explosives and high-tier firearms. |
+| **Biker Gang** | Fuel & SUV Parts | Improved world map mobility and SUV upgrades. |
+| **The Cult** | Unknown/Stealth | Unique psychological tactics and stealth gear. |
+
+<Callout type="tip" title="Alliance Strategy">
+If your playstyle focuses on clearing the **urban strife horde** through brute force, prioritize an alliance with the Rogue Army. Their access to grenades and heavy weaponry makes large-scale encounters much more manageable, even if their moral stance is questionable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Tactical Tips for Large Encounters">
+
+To truly master the **urban strife horde**, you must look beyond basic shooting. Stealth, environmental manipulation, and the SUV travel system all play roles in your success. The SUV, in particular, acts as a mobile base that allows for expanded travel and extra storage for the massive amounts of loot you'll find in urban ruins.
+
+Material penetration is the most underutilized mechanic by new players. In urban environments, you can often spot a zombie's silhouette through a thin partition. Using a high-caliber rifle, you can take out high-priority targets (like "Screamers" who call more hordes) without ever entering their line of sight.
+
+| Weapon Type | Penetration Power | Ideal Use Case |
+| :--- | :--- | :--- |
+| **Shotguns** | Low | Close-range crowd control and clearing rooms. |
+| **Assault Rifles** | Medium | Versatile combat and mid-range penetration. |
+| **Sniper Rifles** | High | Taking out leaders through walls and cover. |
+| **Melee Weapons** | None | Silent kills on isolated stragglers to save ammo. |
+
+<Callout type="info" title="Final Advice">
+Always keep a "Bug-Out Bag" in your SUV. If a **urban strife horde** encounter goes south, having a secondary stash of fuel and medicine in your vehicle can be the difference between a narrow escape and a total party wipe.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I stop a horde from taking over the Courthouse?",
+    answer: "The most effective way is to intercept the red 'Horde on the Move' icon on the world map highway before it reaches the Courthouse sector. If it reaches the gates, you must clear all zombies and spawners inside the map before the timer expires."
+  },
+  {
+    question: "What makes the urban strife horde AI different from other games?",
+    answer: "It uses a simultaneous movement system where all zombies act at once during their turn. This speeds up combat significantly while maintaining the tactical depth of a turn-based RPG."
+  },
+  {
+    question: "Can I shoot through walls in Urban Strife?",
+    answer: "Yes, the game features a real-time ballistic system where projectiles can penetrate materials based on their density and the weapon's stats. Higher caliber rounds can hit enemies behind wooden or thin metal cover."
+  },
+  {
+    question: "What happens if a settlement falls to a horde?",
+    answer: "The location becomes a permanent undead spawning ground, all NPCs are turned into zombies, and any quests or trade opportunities associated with that location are lost for that playthrough."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,118 @@
+import { Map, Shield, Target, AlertTriangle, CheckCircle, Info, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife: Infection Management & Survival Guide 2026",
+  description: "Learn how to manage urban strife infected team members, understand antiviral mechanics, and optimize your survival strategy in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Survival+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban Strife infected** mechanics require consistent medical care to prevent character loss.
+- **Antiviral treatment** is automated at the base when visiting Dr. Henderson every 24 hours.
+- **Squad management** allows swapping infected members into reserve to avoid total roster loss.
+- **Bug awareness** is critical; some players may experience issues with the 24-hour clock update.
+- **Campaign progression** may be affected by infection, so prioritize keeping your core medic healthy.
+</Callout>
+
+<Section icon={Shield} title="Understanding Infection Mechanics">
+
+Managing the health of your survivors is the highest priority in Urban Strife. When a team member becomes infected, their survival depends on your ability to secure consistent medical intervention. Currently, the infection cannot be "cured" instantly with a single item; instead, it relies on a recurring maintenance cycle at your base.
+
+**Essential Survival Data:**
+
+| Status | Effect | Requirement |
+| :--- | :--- | :--- |
+| Infected | Time-limited health | 24h base visit |
+| Healthy | Full combat capability | Regular maintenance |
+| Reserve | Paused infection progression | Swap at base |
+
+<Callout type="tip" title="Pro Tip">
+If you notice an infection timer running low on a critical character, immediately swap them into your reserve roster. This prevents them from turning while you focus on other mission objectives.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Managing Infected Team Members">
+
+To keep your team alive, you must understand the interaction between the infection and your base facilities. Dr. Henderson serves as the primary medical authority for managing these conditions.
+
+<Steps>
+  <Step num="1" title="Monitor Health Status">
+    Regularly check your team's vitals after combat encounters to identify early signs of infection.
+  </Step>
+  <Step num="2" title="Return to Base">
+    Visit the shelter every 24 hours to trigger the automatic antiviral administration process.
+  </Step>
+  <Step num="3" title="Validate Recovery">
+    Ensure the 24-hour clock updates correctly; if no interaction occurs, verify the character's injury status.
+  </Step>
+  <Step num="4" title="Utilize Reserves">
+    If the treatment fails or you need to prioritize other tasks, move the infected member to the reserve list.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Developer Note">
+The development team has acknowledged that some players may encounter bugs where the 24-hour clock fails to reset. If your character is not receiving treatment, ensure you are not saving and swapping immediately, as this can cause roster errors.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Strategic Comparison: Treatment vs. Reserve">
+
+Choosing how to handle an infected survivor depends on your current resources and the importance of the unit. Use the following table to decide your best course of action.
+
+| Strategy | Benefit | Risk |
+| :--- | :--- | :--- |
+| Active Treatment | Maintains unit readiness | Requires constant base visits |
+| Reserve Swap | Prevents character loss | Reduces active combat power |
+| Early Extraction | Minimizes exposure | High risk of mission failure |
+
+<CardGrid cols={2}>
+  <Card title="Active Treatment">
+    - Best for core combat units
+    - Keeps the squad together
+    - High management cost
+  </Card>
+  <Card title="Reserve Strategy">
+    - Safe for non-essential units
+    - Allows for team rotation
+    - Requires character downtime
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Maintenance Checklist">
+- [ ] Check survivor status after every mission
+- [ ] Maintain a 24-hour visit schedule
+- [ ] Keep a healthy backup medic in reserve
+- [ ] Report any persistent bugs to the [Steam Community forums](https://steamcommunity.com/app/710230/discussions/)
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I fully cure an urban strife infected character?",
+    answer: "Currently, there is no permanent cure. You must manage the infection through regular antiviral treatments administered at the base every 24 hours."
+  },
+  {
+    question: "What happens if I swap an infected character while at the base?",
+    answer: "Currently, there is a known issue where swapping an infected character at the base may cause them to disappear from your roster. It is recommended to avoid swapping until a fix is verified."
+  },
+  {
+    question: "Why isn't the doctor treating my infected team member?",
+    answer: "The 24-hour cycle requires the character to be present at the base. If the clock isn't updating, ensure the character has an active infection status and that your save file is not affected by current known bugs."
+  }
+]} />
+
+</Section>

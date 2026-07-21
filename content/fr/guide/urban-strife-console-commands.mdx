@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Commandes de console Urban Strife : Guide de modding et de triche 2026",
+  description: "Explorez l'état actuel des commandes de console Urban Strife, les risques liés à l'utilisation de Cheat Engine et comment modifier votre expérience de survie en toute sécurité.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Console+Commands+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "Urban Strife, commandes de console, triche, modding, Cheat Engine, guide de survie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **État actuel** : Il n'y a pas de **commandes de console Urban Strife** officielles activées pour la version publique afin d'éviter les bugs critiques.
+- **Avertissement sur les risques** : L'utilisation d'outils externes comme Cheat Engine peut **corrompre vos exécutables** et faire gonfler considérablement les fichiers de sauvegarde.
+- **Impact sur les performances** : L'ajout d'objets excessifs (comme 100 000 munitions) provoquera un lag massif car les munitions sont des **objets matériels** dans le moteur de jeu.
+- **Pratique sûre** : Effectuez toujours une **sauvegarde de vos fichiers .sav** et de l'exe du jeu avant de tenter toute édition hexadécimale ou modification de la mémoire.
+- **Position des développeurs** : L'équipe cherche activement des moyens officiels de proposer une **expérience de jeu personnalisable** dans les futures mises à jour.
+</Callout>
+
+<Section icon={Map} title="L'état des commandes de console Urban Strife">
+
+Dans le monde des RPG tactiques, les joueurs recherchent souvent des **commandes de console Urban Strife** pour contourner des obstacles de survie difficiles ou tester des mécaniques spécifiques. En 2026, l'équipe de développement a choisi de restreindre l'accès à la console de développement. Cette décision découle de la manière complexe dont le jeu gère les objets physiques, les données d'inventaire et l'intégrité des fichiers de sauvegarde.
+
+Alors que de nombreux joueurs s'attendent à une console standard via la touche "~" pour ajuster le poids de transport ou la santé infinie, Urban Strife utilise une simulation profonde où chaque munition et objet a une présence physique. Forcer manuellement des valeurs via des commandes non optimisées peut entraîner une instabilité immédiate.
+
+| Fonctionnalité | Support officiel | Méthode alternative | Niveau de risque |
+| :--- | :--- | :--- | :--- |
+| **Apparition de ressources** | Non | Édition Hexadécimale / CE | **Élevé** |
+| **Mode Dieu** | Non | Pointeurs de mémoire | **Moyen** |
+| **Ajustement des stats** | Non | Édition du fichier de sauvegarde | **Élevé** |
+| **Speedhack** | Non | Cheat Engine | **Faible** |
+
+<Callout type="warning" title="Avertissement des Développeurs">
+Les développeurs ont explicitement déclaré que l'édition aveugle de valeurs hexadécimales peut endommager votre exécutable, le rendant inutilisable. Si cela se produit, une réinstallation complète est souvent la seule solution.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Risques des outils de modification externes">
+
+Puisque les **commandes de console Urban Strife** traditionnelles sont indisponibles, beaucoup se tournent vers Cheat Engine (CE) ou les éditeurs hexadécimaux. Cependant, l'architecture du jeu rend cette pratique particulièrement dangereuse par rapport à d'autres RPG. La façon dont Urban Strife calcule la physique et l'inventaire entraîne deux problèmes majeurs lorsque les valeurs sont modifiées de l'extérieur.
+
+<CardGrid cols={3}>
+  <Card title="Gonflement de la sauvegarde">
+    La modification du nombre d'objets peut faire passer les fichiers de sauvegarde de **15 Mo à plus de 70 Mo**, entraînant des temps de chargement interminables et une corruption finale.
+  </Card>
+  <Card title="Lag du moteur">
+    Les munitions sont des objets matériels. Faire apparaître **100 000 munitions** dans une arme force le moteur à suivre chaque entité, provoquant le plantage du jeu.
+  </Card>
+  <Card title="Corruption de l'exécutable">
+    Modifier la mauvaise adresse hexadécimale peut briser la logique du jeu, nécessitant une vérification complète sur Steam ou une **réinstallation**.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de Pro">
+Si vous utilisez Cheat Engine pour un speedhack afin de vous déplacer plus rapidement sur la carte, c'est généralement plus sûr que de modifier les quantités d'inventaire ou les valeurs de durabilité des armes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cibles courantes de modification et impacts">
+
+Les joueurs cherchant des **commandes de console Urban Strife** veulent généralement atténuer les "processus négatifs accentués" du genre survie. Le jeu présente plusieurs mécaniques agressives qui peuvent être frustrantes pour les débutants. Comprendre ce que font ces variables est essentiel avant de tenter de les modifier.
+
+| Variable | Impact sur le gameplay | Résultat de la modification |
+| :--- | :--- | :--- |
+| **Durabilité des armes** | Force la réparation/récupération fréquente | Empêche la casse de l'arme pendant les longs combats |
+| **Taux de pourrissement** | Limite le temps de stockage de la nourriture | Permet le stockage de survie à long terme |
+| **Matérialité des munitions** | Contrôle le poids et la charge du moteur | Un excès de munitions entraîne une défaillance du moteur physique |
+| **UProperty/UObjects** | Structures de base du moteur | Risque élevé de casser la logique/les scripts du jeu |
+
+<Callout type="success" title="Alternatives Sûres">
+Au lieu d'utiliser des **commandes de console Urban Strife** risquées, concentrez-vous sur la maîtrise des fonctions de rechargement et de la gestion de l'inventaire. Les joueurs avancés tracent souvent les fonctions pour les opcodes de rechargement afin de définir "ignorer le stock de munitions de l'inventaire" plutôt que de modifier les valeurs de quantité réelles.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comment se préparer au modding en toute sécurité">
+
+Si vous choisissez d'ignorer les avertissements et de procéder à des modifications manuelles en l'absence de **commandes de console Urban Strife**, vous devez suivre un protocole strict pour protéger votre progression. La communauté a constaté que l'édition "à l'aveugle" est la cause numéro un de la perte de données de sauvegarde.
+
+<Steps>
+  <Step num="1" title="Sauvegardez vos fichiers de sauvegarde">
+    Accédez à votre dossier AppData local ou au répertoire du jeu. Copiez tous les fichiers `.sav` dans un dossier externe sécurisé avant d'ouvrir tout éditeur de mémoire.
+  </Step>
+  <Step num="2" title="Vérifiez l'exécutable du jeu">
+    Assurez-vous d'avoir une installation propre. Si vous avez précédemment modifié le fichier `.exe`, utilisez l'option "Vérifier l'intégrité des fichiers du jeu" de Steam pour le réinitialiser.
+  </Step>
+  <Step num="3" title="Ciblez des pointeurs spécifiques">
+    Évitez de rechercher de simples valeurs de 4 octets pour les munitions. Cherchez plutôt des structures UProperty ou FName si vous avez les connaissances techniques pour dumper la mémoire du processus en temps réel.
+  </Step>
+  <Step num="4" title="Changements progressifs">
+    Ne passez jamais de 10 à 1 000 000. Modifiez les valeurs par petits incréments pour voir comment la taille du fichier de sauvegarde et les performances du moteur réagissent.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Aperçu technique">
+Les moddeurs expérimentés suggèrent que de simples SUB (soustractions) pour les armes à feu ou des DEC (décréments) pour les arcs sont les points les plus stables à intercepter si vous essayez de créer un "pseudo-cheat" sans console.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle pour la modification communautaire">
+
+Avant de chercher des **commandes de console Urban Strife** ou des trainers tiers, passez en revue cette liste pour vous assurer de ne pas mettre en péril votre sauvegarde de 50 heures.
+
+<Checklist
+  id="modding-safety"
+  title="Liste de contrôle pour une modification sûre :"
+  items={[
+    "Les sauvegardes cloud sont désactivées pour éviter la synchronisation de données corrompues",
+    "Une sauvegarde de l'original 'Urban Strife.exe' est stockée ailleurs",
+    "Vous avez testé la modification sur un profil 'Nouvelle Partie' en premier",
+    "Vous ne dépassez pas 10 000 unités pour tout objet matériel empilable",
+    "La version actuelle du jeu correspond à l'outil ou à la liste d'offsets que vous utilisez"
+  ]}
+/>
+
+<Callout type="warning" title="Avertissement sur la matérialité">
+Rappelez-vous : chaque objet que vous faites 'apparaître' via des triches est un objet que le jeu doit prendre en compte dans sa physique et sa structure de sauvegarde. Urban Strife n'est pas un RPG typique basé uniquement sur des valeurs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Existe-t-il une console de développement cachée dans Urban Strife ?",
+    answer: "Bien que de nombreux jeux Unreal Engine disposent d'une console, les développeurs d'Urban Strife en ont restreint l'accès pour empêcher les utilisateurs de corrompre accidentellement le système d'inventaire complexe basé sur les matériaux."
+  },
+  {
+    question: "Pourquoi mon jeu lag-t-il après avoir utilisé Cheat Engine pour ajouter des munitions ?",
+    answer: "Les munitions dans Urban Strife sont des objets matériels. Si vous en ajoutez trop (ex: 100k), le moteur de jeu peine à suivre toutes les entités physiques, ce qui entraîne des ralentissements massifs et des plantages."
+  },
+  {
+    question: "Puis-je utiliser les commandes de console Urban Strife pour réparer une quête buggée ?",
+    answer: "Actuellement, non. Il n'y a pas de commandes publiques pour les drapeaux de quête. La meilleure façon de corriger une quête buggée est de charger une sauvegarde antérieure ou d'attendre un correctif officiel."
+  },
+  {
+    question: "Les développeurs ajouteront-ils un jour un support officiel pour les mods ?",
+    answer: "Oui, les développeurs ont déclaré qu'ils cherchaient des solutions pour offrir une expérience de jeu plus personnalisable à l'avenir, ce qui pourrait inclure des outils officiels plus sûrs que les méthodes actuelles d'édition hexadécimale."
+  }
+]} />
+
+</Section>

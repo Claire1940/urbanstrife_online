@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "urban strife little italy : Guide du meilleur butin et des stratégies de combat",
+  description: "Maîtrisez le secteur little italy d'urban strife avec notre guide sur le combat tactique, le nettoyage de bâtiments et les emplacements de butin de grande valeur dans la version 1.0 de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Little+Italy+Tactical+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki d'urban strife",
+  keywords: "urban strife, little italy, guide de combat, localisation du butin, survie urbaine"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **urban strife little italy** : Un secteur urbain à haute densité nécessitant une discrétion avancée et un positionnement tactique pour survivre aux grandes hordes de zombies.
+- **Focus sur le combat** : Utilisez la **gestion des Points d'Action (PA)** pour nettoyer les bâtiments étage par étage tout en minimisant le bruit pour éviter d'attirer les générateurs de zombies à proximité.
+- **Priorité au butin** : Concentrez-vous sur les **Matériaux de construction** et les **Fournitures médicales** pour stabiliser l'Abri Urbain pendant le début et le milieu de partie.
+- **Stratégie de discrétion** : Utilisez des armes à feu avec silencieux ou des arbalètes pour éliminer les gardes isolés sans alerter tout le quartier.
+- **Impact des factions** : Les décisions prises ici influencent votre réputation auprès des **Shady Lady Bikers** et de la **Garde Nationale**.
+</Callout>
+
+<Section icon={Map} title="Naviguer dans urban strife little italy">
+
+Le secteur **urban strife little italy** représente l'un des premiers obstacles tactiques majeurs pour les survivants quittant les environs immédiats de l'Abri Urbain. Suite au lancement de la version 1.0 le 14 juillet 2026, cette zone a été peuplée de grappes de zombies plus denses et de configurations de bâtiments plus complexes. Naviguer dans ces rues étroites nécessite une compréhension approfondie de la mécanique de couverture et de la ligne de mire. Contrairement aux champs ouverts du prologue, Little Italy vous force à des engagements rapprochés où chaque coin pourrait cacher une menace dormante ou une cache de fournitures précieuse.
+
+<CardGrid cols={3}>
+  <Card title="Blocs résidentiels">
+    - **Forte densité de butin** : Fouillez les cuisines et les chambres pour trouver de la nourriture et des médicaments.
+    - **Couloirs étroits** : Idéal pour les combattants de mêlée ayant une **Agilité** élevée.
+    - **Risques d'embuscade** : Les zombies se cachent souvent derrière les portes ou sous les meubles.
+  </Card>
+  <Card title="Zones commerciales">
+    - **Focus sur les ressources** : Les quincailleries fournissent des **Matériaux de construction** essentiels.
+    - **Vitrines ouvertes** : Les fenêtres offrent de la visibilité mais aucune protection contre les balles.
+    - **Multi-niveaux** : Utilisez les toits pour bénéficier de bonus de précision en hauteur.
+  </Card>
+  <Card title="Ruelles">
+    - **Routes furtives** : Utilisez-les pour contourner les grandes hordes sur la rue principale.
+    - **Opportunités de flanc** : Positionnez des tireurs d'élite aux entrées des ruelles pour couvrir l'escouade.
+    - **Danger de pièges** : Surveillez les dangers environnementaux et les goulots d'étranglement étroits.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Reconnaissance du secteur">
+Avant d'entrer dans un bâtiment de Little Italy, utilisez un survivant doté d'une **Intelligence** élevée pour effectuer une reconnaissance du périmètre. L'identification du nombre de sorties et des générateurs de zombies potentiels peut empêcher votre escouade d'être piégée dans une pièce sans issue.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat tactique et nettoyage de bâtiments">
+
+Le combat dans **urban strife little italy** est défini par les systèmes réalistes de balistique et de pénétration des matériaux du jeu. Dans cet environnement urbain, le type de couverture que vous choisissez détermine si vous survivez à une rencontre avec des pillards humains ou des morts-vivants. Une porte en bois peut arrêter un plomb perdu d'un fusil à pompe, mais elle n'offre aucune protection contre un fusil de chasse. Vous devez gérer vos **Points d'Action (PA)** avec soin, en vous assurant que chaque survivant termine son tour derrière une couverture substantielle comme des murs de briques ou des blocs moteurs de voitures.
+
+<Steps>
+  <Step num="1" title="Brèche et nettoyage">
+    Approchez de l'entrée en étant accroupi pour rester discret. Utilisez un **Combattant de mêlée** ou un survivant avec une arme de poing silencieuse pour ouvrir la porte et vérifier l'intérieur immédiat pour d'éventuels "dormeurs".
+  </Step>
+  <Step num="2" title="Établir une surveillance">
+    Une fois à l'intérieur, positionnez un **Tireur à distance** près d'une fenêtre ou d'une porte en utilisant la commande **Surveillance (Y)**. Cela crée une zone de mort pour tous les ennemis attirés par le bruit de votre entrée.
+  </Step>
+  <Step num="3" title="Balayage systématique des pièces">
+    Déplacez l'escouade en binômes à travers le bâtiment. N'envoyez jamais un survivant seul dans une pièce non cartographiée. Utilisez des survivants basés sur la **Dextérité** pour interagir avec les conteneurs pendant que d'autres tiennent des angles défensifs.
+  </Step>
+  <Step num="4" title="Sécuriser la sortie">
+    Avant de piller, assurez-vous que tous les générateurs de zombies à l'intérieur du bâtiment sont détruits. Cela arrête le flux infini de morts-vivants et vous permet de récupérer des matériaux sans la pression d'un compte à rebours.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestion du bruit">
+Les coups de feu non silencieux dans les rues de Little Italy agissent comme une cloche d'appel pour les restes de la Horde d'Atlanta. Donnez toujours la priorité aux neutralisations en mêlée ou aux arbalètes, à moins d'être prêt pour un siège prolongé.
+</Callout>
+
+| Type de couverture | Niveau de protection | Risque de pénétration | Meilleur cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Mur de briques** | **Excellent** | Faible | Fusillades de longue durée contre des fusils |
+| **Moteur de voiture** | **Élevé** | Modéré | Escarmouches au niveau de la rue |
+| **Clôture en bois** | **Médiocre** | **Élevé** | Dissimulation temporaire uniquement |
+| **Porte intérieure** | **Minimal** | **Très élevé** | Briser la ligne de mire pour la discrétion |
+| **Barrière en béton** | **Excellent** | Faible | Défense contre les gros calibres |
+
+</Section>
+
+<Section icon={Target} title="Butin de haute valeur et priorité des ressources">
+
+Piller dans **urban strife little italy** ne consiste pas seulement à ramasser tout ce que vous voyez ; c'est une question de gestion d'inventaire et de durabilité de l'Abri. La version 1.0 a introduit un système de réparation plus robuste, ce qui signifie que vous devriez chercher des armes et armures "de rebut" qui peuvent être récupérées pour obtenir des **Pièces de réparation**. Ces pièces sont essentielles pour entretenir votre équipement de Tier 2 et Tier 3 alors que vous progressez vers le siège final de la Horde d'Atlanta.
+
+| Catégorie de ressource | Emplacement principal | Utilité pour l'Abri | Priorité |
+| :--- | :--- | :--- | :--- |
+| **Matériaux de construction** | Quincailleries, Ruelles | Amélioration de l'atelier et de la caserne | **Haute** |
+| **Fournitures médicales** | Pharmacies, Salles de bain | Traitement des saignements et infections | **Haute** |
+| **Nourriture et eau** | Cuisines, Épiceries | Maintien du moral de la population | Modérée |
+| **Produits chimiques** | Sous-sols, Laboratoires | Fabrication d'explosifs et de Molotovs | Modérée |
+| **Pièces électroniques** | Bureaux | Alimentation des fortifications avancées | Basse (Début) |
+
+<Callout type="success" title="Conseil de réparation d'Owen">
+Une fois que vous avez débloqué l'opération de réparation d'Owen à l'Abri, donnez la priorité au pillage d'armures de haut niveau endommagées dans Little Italy. Même si la durabilité est nulle, les plaques de base peuvent souvent être récupérées ou restaurées, offrant une meilleure protection que l'équipement improvisé.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuration de l'escouade pour l'exploration urbaine">
+
+Pour conquérir **urban strife little italy**, votre équipe d'expédition a besoin d'un équilibre entre discrétion, utilité et puissance de feu brute. Le système de progression par la pratique dans Urban Strife signifie que vous devriez amener des survivants qui ont besoin d'augmenter leur **Précision** ou leur **Dextérité** dans des environnements contrôlés. Pour ce secteur, une équipe de quatre personnes est généralement optimale pour équilibrer la capacité de transport et la flexibilité tactique.
+
+<CardGrid cols={2}>
+  <Card title="L'éclaireur (Discrétion/Mêlée)">
+    - **Attributs clés** : Agilité, Force.
+    - **Rôle** : Élimine discrètement les zombies isolés et explore les pièces.
+    - **Équipement** : Machette, Pistolet silencieux, Armure légère.
+  </Card>
+  <Card title="Le soutien (Médecin/Utilité)">
+    - **Attributs clés** : Intelligence, Dextérité.
+    - **Rôle** : Soigne les blessures et gère le crochetage complexe ou les réparations.
+    - **Équipement** : Kit médical, Boîte à outils, Fusil à pompe (urgences).
+  </Card>
+  <Card title="Le tireur d'élite (Distance)">
+    - **Attributs clés** : Précision, Perception.
+    - **Rôle** : Fournit une couverture à longue portée et élimine les snipers humains.
+    - **Équipement** : Fusil de chasse, Lunettes, Focus sur les hauteurs.
+  </Card>
+  <Card title="Le porteur (Lourd/Tank)">
+    - **Attributs clés** : Force, Endurance.
+    - **Rôle** : Transporte le butin et fournit une suppression lourde.
+    - **Équipement** : Fusil d'assaut ou mitrailleuse, Armure lourde, Sac à dos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Croissance des attributs">
+N'oubliez pas que les actions répétées améliorent vos survivants. Si un personnage est faible en **Endurance**, faites-lui porter une charge légèrement plus lourde pendant l'exploration de Little Italy pour développer naturellement ses statistiques physiques au fil du temps.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de complétion de Little Italy">
+
+Avant de considérer le secteur **urban strife little italy** comme "nettoyé", assurez-vous d'avoir atteint ces objectifs. Cela maximisera vos récompenses et assurera la sécurité de l'Abri Urbain.
+
+<Checklist
+  id="little-italy-goals"
+  title="Jalons de complétion du secteur :"
+  items={[
+    "Détruire tous les générateurs de zombies actifs sur la place centrale.",
+    "Localiser et piller le coffre-fort caché au sous-sol du restaurant italien.",
+    "Sécuriser une cache de matériaux de construction dans la quincaillerie.",
+    "Établir une réputation positive ou neutre auprès des éclaireurs Bikers locaux.",
+    "Cartographier toutes les entrées de métro souterraines pour le voyage rapide futur.",
+    "Collecter au moins 50 pièces de réparation en récupérant du matériel abandonné."
+  ]}
+/>
+
+<Callout type="tip" title="Vérification finale">
+Vérifiez toujours le **Traqueur de défense** à l'Abri après être revenu de Little Italy. Les ressources que vous rapportez contribuent directement à votre préparation pour le siège du 20e jour.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire Aux Questions">
+
+Maîtriser les nuances de l'exploration urbaine est la clé de la survie à long terme dans Urban Strife. Voici les questions les plus courantes concernant le secteur Little Italy et ses défis.
+
+<FAQ items={[
+  {
+    question: "Est-il préférable d'utiliser la discrétion ou des armes bruyantes dans Little Italy ?",
+    answer: "La discrétion est presque toujours préférable. La haute densité des bâtiments crée des échos qui attirent les zombies de plusieurs pâtés de maisons. N'utilisez des armes bruyantes qu'en cas de nécessité absolue ou pour éliminer un boss final dans une zone confinée."
+  },
+  {
+    question: "Comment gérer les ennemis humains blindés dans ce secteur ?",
+    answer: "Utilisez des munitions à haute pénétration comme le 7,62 mm ou visez les membres non protégés pour paralyser leurs mouvements. Les explosifs comme les cocktails Molotov sont également efficaces pour contourner entièrement les armures corporelles."
+  },
+  {
+    question: "Où est le meilleur endroit pour trouver des médicaments dans urban strife little italy ?",
+    answer: "Concentrez-vous sur les appartements résidentiels au-dessus des magasins. La plupart des salles de bain contiennent une armoire à pharmacie avec des bandages ou des antibiotiques, vitaux pour traiter les infections courantes dans ce secteur."
+  },
+  {
+    question: "Puis-je utiliser des véhicules dans les rues étroites de Little Italy ?",
+    answer: "Bien que les véhicules offrent un excellent stockage mobile, les rues étroites sont souvent bloquées par des débris. Il est plus sûr de se garer à la périphérie et de s'aventurer au cœur du secteur à pied."
+  }
+]} />
+
+<Callout type="info" title="Note finale">
+La mise à jour Version 1.0 de 2026 a rendu Little Italy plus dynamique. Attendez-vous à des patrouilles itinérantes de la **Garde Nationale** si votre réputation auprès d'eux est basse, ajoutant une couche de tension humain contre humain à vos expéditions de pillage.
+</Callout>
+
+</Section>

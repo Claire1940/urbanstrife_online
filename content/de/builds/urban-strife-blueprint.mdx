@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Blaupausen: Zuflucht-Upgrades & NPC-Abgabe-Leitfaden",
+  description: "Meistere das Blaupausen-System in Urban Strife, um deine Zuflucht zu verbessern. Erfahre, wo du Blaupausen findest, mit welchen NPCs du sprechen musst und wie du bekannte Inventar-Bugs vermeidest.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Shelter+Blueprint+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Urban Strife Blaupausen**-Gegenstände sind unerlässlich, um dein Flüchtlingslager zu verbessern und fortschrittliche Handwerksrezepte freizuschalten.
+- **Abgabe-NPCs** sind spezialisiert: Martin kümmert sich um die Verteidigung, Ellen um die Moral und der Koch/Sanitäter um das Überleben.
+- **Voraussetzungen sind wichtig**, da viele fortschrittliche Gebäude wie das Gewächshaus zuerst einen einfachen Gemüsegarten erfordern.
+- **Inventarverwaltung** ist entscheidend; stelle sicher, dass dein Rucksack Platz hat, wenn du Blaupausen erhältst, um zu verhindern, dass Gegenstände verschwinden.
+- **Fraktionsspezifische Blaupausen** existieren, um Spieler dafür zu belohnen, dass sie sich der Armee, den Bikern oder den Kultisten anschließen.
+</Callout>
+
+<Section icon={Hammer} title="Das Blaupausen-System in Urban Strife verstehen">
+
+In der brutalen Welt von Urban Strife ist deine Zuflucht dein einziger Zufluchtsort. Das **Urban Strife Blaupausen**-System bestimmt, wie sich deine Basis von einem baufälligen Flüchtlingslager in eine befestigte Bastion verwandelt. Im Gegensatz zu traditionellen RPGs, in denen du einfach auf eine Schaltfläche „Bauen“ klickst, musst du in diesem Spiel Pläne physisch ausfindig machen und sie dem entsprechenden Spezialisten in deinem Lager übergeben.
+
+Blaupausen fungieren als technologische Torwächter deines Fortschritts. Ohne sie fehlen deinen Überlebenden die notwendigen Werkzeuge für langfristige Gesundheit, Moral und Verteidigung. Diese Gegenstände sind in der Regel als Beute in hochstufigen Zonen zu finden, werden als Belohnung für den Abschluss fraktionsspezifischer Missionen vergeben oder können bei spezialisierten Händlern erworben werden.
+
+<CardGrid cols={3}>
+  <Card title="Beschaffung">
+    - **Missionsbelohnungen**: Hauptquelle für fraktionsspezifische Technologie.
+    - **Beute in der Welt**: Zu finden in Schreibtischen, Tresoren und Industriekisten.
+    - **NPC-Handel**: Einige Blaupausen werden von wandernden Händlern verkauft.
+  </Card>
+  <Card title="Lagerung">
+    - **Rucksack**: Erforderlich für den ersten Abgabeprozess.
+    - **Lager**: Kann zum Bauen verwendet werden, sobald der NPC die Blaupause gelernt hat.
+    - **Gewicht**: Blaupausen sind leicht, belegen aber wertvolle Inventarplätze.
+  </Card>
+  <Card title="Nutzung">
+    - **Freischalten**: Übergib den Gegenstand dem richtigen Lagerspezialisten.
+    - **Bauen**: Sammle Materialien (Mats) und Benzin für den Bau.
+    - **Upgrade**: Gestufter Fortschritt von einfachen zu fortschrittlichen Strukturen.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warnung vor Inventar-Bug">
+Seit den neuesten Updates im Jahr 2026 gibt es ein bekanntes Problem, bei dem die Auswahl einer Blaupause als Questbelohnung bei vollem Inventar dazu führt, dass der Gegenstand verschwindet. Stelle immer sicher, dass du mindestens einen freien Platz hast, bevor du wichtige Meilensteine der Geschichte oder Fraktionsmissionen abschließt.
+</Callout>
+
+| Blaupausen-Status | Bedeutung | Erforderliche Aktion |
+| :--- | :--- | :--- |
+| **Weißes Symbol** | Noch nicht gelernt | Bringe es zum entsprechenden NPC-Spezialisten |
+| **Rotes Symbol** | Gelernt, aber es fehlen Materialien | Sammle Schrott, Holz oder Elektronikteile |
+| **Ausgegraut** | Voraussetzung fehlt | Baue die Stufe-1-Version der Struktur |
+| **Fraktionsgesperrt** | Erfordert Ruf | Schließe Aufgaben für die spezifische Fraktion ab |
+
+</Section>
+
+<Section icon={Users} title="NPC-Spezialisten und Abgabeorte">
+
+Sobald du dir eine **Urban Strife Blaupause** gesichert hast, kannst du sie nicht einfach aus deinem Inventar heraus verwenden. Du musst herausfinden, welcher Anführer im Flüchtlingslager diesen spezifischen Überlebensbereich verwaltet. Die Übergabe einer Blaupause an die falsche Person ist zwar unmöglich, aber den Richtigen zu finden, kann für neue Spieler verwirrend sein.
+
+Das Lager ist in funktionale Zonen unterteilt: Nahrung/Gesundheit, Moral/Freizeit und Verteidigung/Versorgung. Jede Zone wird von einem NPC beaufsichtigt, der als dein Architekt für diese spezifischen Upgrades fungiert.
+
+| NPC-Name | Kategorie | Primäre Gebäude |
+| :--- | :--- | :--- |
+| **Martin Fulton-Vine** | Verteidigung & Versorgung | Metallpalisaden, Fitnessstudio, Schießstand, Recycling |
+| **Ellen Wells-Carter** | Moral & Freizeit | Leseraum, Gefängnis, Biker-Bar, Gebetsraum |
+| **Der Koch** | Nahrung & Landwirtschaft | Gemüsegarten, Küchen-Upgrades, Gewürzkräuter |
+| **Der Sanitäter** | Gesundheit & Erholung | Krankenstation, Medizinisches Labor, Fortgeschrittene Chirurgie |
+
+<Callout type="tip" title="Profi-Tipp: Das Multi-NPC-Interface">
+Wenn du mit einem der Hauptlageranführer sprichst, achte auf die Symbole für die blauen Bereiche am oberen Rand der Benutzeroberfläche. Du kannst zwischen verschiedenen NPCs und ihren jeweiligen Upgrade-Menüs wechseln, ohne das Gespräch zu beenden. Das erleichtert die Verwaltung mehrerer Blaupausen auf einmal.
+</Callout>
+
+### Verteidigung und Recycling
+Martin ist dein Ansprechpartner für alles, was mit der physischen Sicherheit des Lagers zu tun hat. Er kümmelt sich um die „Free For All“ (FFA)-Blaupausen, die keine Fraktionszugehörigkeit erfordern, wie die einfachen Metallpalisaden und das Outdoor-Fitnessstudio. Wenn du eine Blaupause für Soldaten-Wachen oder Wachtürme findest, ist Martin der Einzige, der sie umsetzen kann.
+
+### Moral und soziale Upgrades
+Ellen verwaltet das psychische Wohlbefinden deiner Überlebenden. Während sie das einfache Gefängnis und den Leseraum mit FFA-Materialien bauen kann, erfordern fortschrittliche soziale Strukturen wie die Biker-Bar oder die Radioshow fraktionsspezifische Blaupausen. Diese erhältst du normalerweise, wenn du dich auf die Seite der Biker bzw. der Armee schlägst.
+
+</Section>
+
+<Section icon={Target} title="Blaupausen-Fortschritt und Voraussetzungen">
+
+Das Bauen in Urban Strife ist ein linearer Prozess. Du kannst nicht direkt zu einem gepanzerten Bustor springen, ohne vorher die grundlegende Absperrung errichtet zu haben. Das Verständnis des „Technologiebaums“ deiner **Urban Strife Blaupausen**-Sammlung bewahrt dich davor, Ressourcen für Upgrades mit niedriger Priorität zu verschwenden.
+
+<Steps>
+  <Step num="1" title="Sichere die Blaupause">
+    Finde den physischen Gegenstand in der Welt oder erhalte ihn als Missionsbelohnung. Stelle sicher, dass er sich im Rucksack deines Hauptcharakters befindet.
+  </Step>
+  <Step num="2" title="Identifiziere den Spezialisten">
+    Ordne den Blaupausentyp (z. B. Landwirtschaft) dem richtigen NPC zu (z. B. dem Koch).
+  </Step>
+  <Step num="3" title="Einreichen und Lernen">
+    Interagiere mit dem NPC und wähle die Option, die Blaupause zu spenden oder abzugeben. Das Gebäude erscheint nun im Baumenü.
+  </Step>
+  <Step num="4" title="Voraussetzungen prüfen">
+    Öffne das Baumenü. Wenn das Gebäude ausgegraut ist, bewege den Mauszeiger darüber, um zu sehen, welche Stufe-1-Struktur zuerst benötigt wird.
+  </Step>
+  <Step num="5" title="Ressourcen zuweisen">
+    Stelle das erforderliche Altmetall, Holz und Benzin bereit. Der Bau beginnt sofort nach der Ressourcenzuweisung.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ressourcenverwaltung">
+Materialien für den Bau können direkt aus deinem Lagerbestand gezogen werden. Du musst keine 500 Einheiten Schrott in deinem Rucksack tragen, um ein Bauprojekt zu starten, sobald die Blaupause vom NPC gelernt wurde.
+</Callout>
+
+| Strukturstufe | Gebäudebeispiel | Erforderliche Voraussetzung |
+| :--- | :--- | :--- |
+| **Stufe 1 (Einfach)** | Gemüsegarten | Keine (FFA) |
+| **Stufe 2 (Fortgeschritten)** | Gewächshaus | Gemüsegarten |
+| **Stufe 3 (Spezialist)** | Gewürzkräuter | Gemüsegarten + Biker-Blaupause |
+| **Verteidigung Stufe 1** | Elektrischer Zaun | Keine (Vorgebaut/FFA) |
+| **Verteidigung Stufe 2** | Metallpalisaden | Elektrischer Zaun |
+| **Verteidigung Stufe 3** | Gepanzertes Bustor | Metallpalisaden + Biker-Blaupause |
+
+</Section>
+
+<Section icon={Shield} title="Fraktionsspezifische Blaupausen und Wiederspielwert">
+
+Eine der Kernmechaniken des **Urban Strife Blaupausen**-Systems ist die Fraktionsexklusivität. Nicht jede Blaupause kann in einem einzigen Spieldurchgang erhalten werden. Deine Entscheidungen während des zweiten Akts des Spiels bestimmen, auf welche High-End-Technologie du zugreifen kannst.
+
+Die Entwickler haben bestätigt, dass die Begrenzung der Blaupausenauswahl eine bewusste Designentscheidung ist, um verschiedene Spielstile zu fördern. Beispielsweise bietet die Armee überlegene Verteidigungsstrukturen und Trainingseinrichtungen, während die Biker bessere moralsteigernde soziale Treffpunkte und modifizierte Fahrzeuge anbieten.
+
+<CardGrid cols={2}>
+  <Card title="Armee (Der professionelle Weg)">
+    - **Wachturm**: Überlegene Sichtlinien für Lagerwachen.
+    - **Radioshow**: Hocheffiziente Moralsteigerung für disziplinierte Überlebende.
+    - **Fortgeschrittene Waffenkammer**: Schaltet die Herstellung von hochstufiger Militärausrüstung frei.
+  </Card>
+  <Card title="Biker (Der Chaos-Weg)">
+    - **Biker-Bar**: Hoher Moralschub, erfordert jedoch Alkoholressourcen.
+    - **Gepanzertes Bustor**: Hochleistungsverteidigung für den Haupteingang.
+    - **Gewürzkräuter**: Erhöht die Nahrungsqualität und den Handelswert.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Allgemeine (FFA) Blaupausen">
+Gebäude wie das Outdoor-Fitnessstudio, der Schießstand und das einfache Recycling-Center sind „Free For All“. Sie sind an keine Fraktion gebunden und können von jedem Spieler freigeschaltet werden, solange er die Blaupause findet und Martin mit mindestens 50 Materialien versorgt.
+</Callout>
+
+| Upgrade-Typ | Fraktion | Vorteil |
+| :--- | :--- | :--- |
+| **Wachturm** | Armee | Erhöhte Verteidigungsreichweite |
+| **Biker-Bar** | Biker | Massiver Moralschub pro Getränk |
+| **Gebetsraum** | Kultisten | Kostengünstiger Moralschub |
+| **Gewächshaus** | Armee | Ganzjährige Nahrungsmittelproduktion |
+| **Kompostbeete** | Kultisten | Schnellere Wachstumszyklen der Pflanzen |
+
+</Section>
+
+<Section icon={Sparkles} title="Checkliste zur Optimierung der Zuflucht">
+
+Um sicherzustellen, dass dein Lager mit maximaler Effizienz läuft, befolge diese Checkliste zur Verwaltung deiner **Urban Strife Blaupausen**-Sammlung und deiner Bauprojekte.
+
+<Checklist
+  id="blueprint-goals-2026"
+  title="Wesentliche Meilensteine der Zuflucht:"
+  items={[
+    "Leere dein Inventar, bevor du Questbelohnungen annimmst, um den Verlust von Blaupausen zu vermeiden.",
+    "Übergib die Blaupause für das Outdoor-Fitnessstudio frühzeitig an Martin für das Attributstraining.",
+    "Baue den Gemüsegarten sofort, um den Nahrungs-Technologiebaum freizuschalten.",
+    "Bringe die Blaupause für den Leseraum zu Ellen, um den Stress im frühen Spiel zu bewältigen.",
+    "Identifiziere, welche Fraktionsblaupausen zu deinem bevorzugten Spielstil passen.",
+    "Überprüfe das Lager regelmäßig, um sicherzustellen, dass du genug Schrott für Verteidigungs-Upgrades hast."
+  ]}
+/>
+
+<Callout type="tip" title="Attributstraining">
+Gebäude wie das Fitnessstudio und der Schießstand sind nicht nur zur Zierde da. Sobald sie über ihre jeweiligen Blaupausen gebaut wurden, ermöglichen sie es deinen Überlebenden, in ihrer Freizeit Stärke und Treffsicherheit zu trainieren, was für Kämpfe im späten Spielverlauf überlebenswichtig ist.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Urban Strife Blueprint FAQ">
+
+<FAQ items={[
+  {
+    question: "Warum kann ich das Gewächshaus nicht bauen, obwohl ich die Blaupause habe?",
+    answer: "Das Gewächshaus erfordert einen Gemüsegarten als Voraussetzung. Du musst zuerst den einfachen Garten bauen, bevor der NPC dir erlaubt, ihn zu einem Gewächshaus aufzuwerten."
+  },
+  {
+    question: "Ich habe Martin eine Blaupause gegeben, aber ich sehe sie nicht im Baumenü. Was ist passiert?",
+    answer: "Überprüfe den oberen Rand der Benutzeroberfläche. Möglicherweise siehst du dir die Registerkarten „Recycling“ oder „Benzin“ an. Klicke auf die verschiedenen Bereichssymbole, um die spezifische Kategorie für die gerade abgegebene Blaupause zu finden."
+  },
+  {
+    question: "Kann ich in einem einzigen Spiel jede einzelne Blaupause freischalten?",
+    answer: "Nein. Einige Blaupausen sind fraktionsspezifisch (Armee, Biker oder Kultisten). Du musst das Spiel mehrmals durchspielen und unterschiedliche Entscheidungen treffen, um alle Upgrades der Zuflucht zu erleben."
+  },
+  {
+    question: "Was soll ich tun, wenn meine Blaupause aufgrund eines vollen Inventars verschwindet?",
+    answer: "Derzeit ist dies ein bekannter Fehler. Möglicherweise musst du einen älteren Spielstand laden oder überprüfen, ob der Gegenstand auf den Boden gefallen ist. Die Entwickler arbeiten an einem Patch, um überschüssige Belohnungen direkt in das Lager zu schicken."
+  }
+]} />
+
+</Section>

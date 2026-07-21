@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Systemvoraussetzungen: PC-Setup & Performance-Guide",
+  description: "Überprüfen Sie die minimalen und empfohlenen Systemanforderungen für Urban Strife. Optimieren Sie Ihre PC-Einstellungen für flüssiges rundenbasiertes Zombie-Survival-Gameplay.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=System+Requirements+Guide",
+  date: "2026-07-21",
+  author: "Urban Strife Wiki-Team",
+  keywords: "Urban Strife, Systemvoraussetzungen, PC-Anforderungen, Performance-Guide, Zombie-Survival"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Urban Strife Systemvoraussetzungen** erfordern mindestens eine 2,4 GHz Quad-Core-CPU, 8 GB RAM und eine GTX 760 für minimale Einstellungen.
+- **Empfohlene Hardware** verbessert Ihr Setup auf einen 3,0 GHz Quad-Core-Prozessor, 16 GB RAM und eine GTX 970 oder RX 580 GPU.
+- **Speicherplatz** von 20 GB auf einer SSD wird dringend empfohlen, um die Ladezeiten zwischen taktischen Kämpfen und Basis-Management zu minimieren.
+- **Taktisches Gameplay** bietet ein komplexes System mit 30-40 Aktionspunkten (AP), was aufgrund des Fehlens einer Rückgängig-Funktion häufiges manuelles Speichern erfordert.
+</Callout>
+
+<Section icon={Shield} title="PC-Systemvoraussetzungen im Detail">
+
+Bevor Sie in die von Zombies verseuchte taktische Welt von Urban Strife eintauchen, ist es wichtig sicherzustellen, dass Ihre PC-Hardware der Aufgabe gewachsen ist. Das Spiel kombiniert Echtzeit-Erkundung mit rundenbasierten Kämpfen, was bedeutet, dass Performance-Ruckler Ihre taktische Planung erheblich stören können. Im Folgenden schlüsseln wir die offiziellen minimalen und empfohlenen Systemkonfigurationen auf.
+
+**Video-Highlights:**
+- **Genre & Stil**: Ein rundenbasiertes Zombie-Survival-Spiel, das stark von Dead State, XCOM und Phoenix Point inspiriert ist.
+- **Basis-Management**: Spieler verwalten eine Villa als Basis, befassen sich mit statischen Story-Elementen, Ressourcenallokation und manuellen Spenden an Abteilungen.
+- **Kampfmechanik**: Verfügt über ein hochgradig detailliertes Aktionspunkt-System (AP), bei dem Charaktere 30-40 AP pro Runde ausgeben können.
+- **Early-Access-Status**: Enthält derzeit Akt 1 mit einer hohen Schwierigkeitskurve, die zum häufigen Speichern anregt, da es keine Rückgängig-Funktion gibt.
+
+<YouTubeEmbed videoId="KXxdfiSrlEo" title="Dad on a Budget: Urban Strife Review (Early Access)" />
+
+### Vergleich der Systemvoraussetzungen
+
+Um schnell festzustellen, ob Ihr Rechner die Apokalypse bewältigen kann, vergleichen Sie Ihre aktuellen Spezifikationen mit den offiziellen Hardware-Stufen unten:
+
+| Spezifikation | Minimale Anforderung | Empfohlene Anforderung |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 7 (64-bit) | Windows 7 / 8.1 / 10 (64-bit) |
+| **Prozessor** | 2,4 GHz Quad Core | 3,0 GHz Quad Core |
+| **Arbeitsspeicher** | 8 GB RAM | 16 GB RAM |
+| **Grafikkarte** | NVIDIA GTX 760 / AMD HD 7870 | NVIDIA GTX 970 / AMD RX 580 |
+| **VRAM** | 2 GB (2048 MB) | 4 GB (4096 MB) |
+| **Speicherplatz** | 20 GB freier Platz | 20 GB freier Platz |
+| **DirectX** | DirectX kompatibel | DirectX kompatibel |
+
+### Analyse der Hardware-Komponenten
+
+Das Verständnis darüber, wie jede Hardware-Komponente Ihr Gameplay beeinflusst, hilft Ihnen, potenzielle Engpässe zu identifizieren:
+
+| Komponente | Rolle in Urban Strife | Auswirkung auf die Performance |
+| :--- | :--- | :--- |
+| **CPU** | Verarbeitet rundenbasierte KI-Pfadfindung und Physikberechnungen. | Hohe Auswirkung bei Zügen großer Zombiehorden. |
+| **GPU** | Rendert 3D-Umgebungen, dynamische Beleuchtung und Partikeleffekte. | Moderate Auswirkung; Senkung der Schattenqualität erhöht die FPS. |
+| **RAM** | Speichert aktive Kartendaten, Texturen und Kampfzustände. | Zu wenig RAM verursacht Ruckler beim Wechsel zwischen Sektoren. |
+| **Speicher** | Bestimmt die Ladegeschwindigkeit der Karten und Speichervorgänge. | SSD-Nutzung reduziert die Übergangszeiten zwischen Sektoren drastisch. |
+
+<Callout type="info" title="Hardware-Hinweis">
+Obwohl die Mindestanforderungen ältere Betriebssysteme wie Windows 7 unterstützen, wird die Ausführung des Spiels auf Windows 10 oder 11 mit aktualisierten Grafiktreibern für moderne Systemstabilität und optimale API-Leistung dringend empfohlen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Grafikeinstellungen & Performance-Optimierung">
+
+Das Erreichen stabiler 60 Bilder pro Sekunde (FPS) in Urban Strife stellt sicher, dass Ihre taktische Kamera flüssig schwenkt und Kampf-Animationen ohne Stottern ablaufen. Wenn Ihr System näher an den Mindestanforderungen liegt, kann das Anpassen spezifischer Grafikparameter massive Performance-Gewinne bringen, ohne zu viel visuelle Qualität zu opfern.
+
+### Leitfaden zur Performance der Grafik-Voreinstellungen
+
+Das Anpassen Ihrer Einstellungen basierend auf Ziel-Performance-Presets kann helfen, Ihre Bildrate während chaotischer Kampfbegegnungen zu stabilisieren:
+
+| Qualität | Zielauflösung | Empfohlene GPU | Erwartete Performance |
+| :--- | :--- | :--- | :--- |
+| **Niedrig** | 1080p | GTX 760 / HD 7870 | 30-45 FPS (Basis-Gameplay) |
+| **Mittel** | 1080p | GTX 1050 Ti / RX 560 | 50-60 FPS (Ausgewogene Optik) |
+| **Hoch** | 1080p / 1440p | GTX 970 / RX 580 | 60+ FPS (Flüssiges taktisches Spiel) |
+| **Ultra** | 1440p / 4K | RTX 2060 / RX 5700 XT | 90+ FPS (Maximale Treue) |
+
+<CardGrid cols={3}>
+  <Card title="Low-End-Systeme">
+    - **Auflösung**: 1080p (bei Bedarf herunterskalieren)
+    - **Schatten**: Niedrig oder Deaktiviert
+    - **Anti-Aliasing**: FXAA oder Aus
+    - **Fokus**: Maximierung der Zug-Übergangsgeschwindigkeiten
+  </Card>
+  <Card title="Mittelklasse-Systeme">
+    - **Auflösung**: 1080p Nativ
+    - **Schatten**: Mittel
+    - **Anti-Aliasing**: SMAA
+    - **Fokus**: Ausgewogene visuelle Klarheit und stabile 60 FPS
+  </Card>
+  <Card title="High-End-Systeme">
+    - **Auflösung**: 1440p / 4K
+    - **Schatten**: Hoch / Ultra
+    - **Anti-Aliasing**: TAA / MSAA
+    - **Fokus**: Gestochen scharfe Modelldetails und flüssige Kamerabewegungen
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimierungstipp">
+Rundenbasierte Berechnungen sind stark CPU-abhängig. Wenn Sie während der gegnerischen Zugphase Verzögerungen feststellen, hilft das Senken der Grafikeinstellungen kaum. Stellen Sie stattdessen sicher, dass keine rechenintensiven Hintergrundanwendungen auf Ihrem PC laufen, um CPU-Zyklen freizugeben.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Taktischer Kampf & Aktionspunkt-Mechanik">
+
+Sobald Ihre Performance optimiert ist, besteht der nächste Schritt darin, das taktische Kampfsystem zu meistern. Urban Strife nutzt ein hochdetailliertes Aktionspunkt-System (AP), das an klassische taktische RPGs wie Phoenix Point erinnert. Im Gegensatz zu modernen XCOM-Spielen, die Sie auf zwei einfache Züge beschränken, verfügen die Charaktere hier über einen tiefen Pool von 30 bis 40 AP, die dynamisch zugewiesen werden können.
+
+### Kampfaktionen und AP-Kosten
+
+Jede physische Bewegung, Waffeninteraktion und jedes taktische Manöver verbraucht einen Teil Ihres AP-Pools in dieser Runde. Die effiziente Planung Ihrer Aktionen entscheidet über Überleben oder eine schnelle Niederlage:
+
+| Taktische Aktion | Typische AP-Kosten | Strategischer Wert |
+| :--- | :--- | :--- |
+| **Grundbewegung** | 1-2 AP pro Feld | Neupositionierung hinter Deckung oder Flankieren von Gegnern. |
+| **Ducken / Aufstehen** | 3-5 AP | Erhöht Genauigkeit und Verteidigung; schränkt Mobilität ein. |
+| **Waffenwechsel** | 5 AP | Anpassung an Entfernungsänderungen (z.B. Wechsel in den Nahkampf). |
+| **Schnellschuss** | 10-15 AP | Angriff mit geringer Genauigkeit; nützlich für schwache Ziele. |
+| **Gezielter Schuss** | 20-25 AP | Hohe Genauigkeit; ermöglicht das Anvisieren bestimmter Körperteile. |
+| **Waffe nachladen** | 8-12 AP | Essenzielle Wartung; immer vor Kampfbeginn nachladen. |
+
+Der Kampf geht nahtlos von der Echtzeit-Erkundung in taktische Raster über, sobald ein Feind Ihren Trupp entdeckt. Während des Kampfes können Spieler **Umschalt + Linksklick** auf einen Feind halten, um einzelne Körperteile (wie Kopf, Torso oder Gliedmaßen) anzuvisieren.
+
+Die Benutzeroberfläche zeigt jedoch keine einfache Trefferwahrscheinlichkeit in Prozent an. Stattdessen verlässt sie sich auf Entfernungs-Feedback (wie "Optimal" oder "Weit"). Grüne, blaue und graue Balken repräsentieren Gesundheits- und Ausdauermetriken, die sorgfältige Beobachtung erfordern.
+
+<Callout type="warning" title="Taktische Warnung">
+Urban Strife verfügt über keinen "Rückgängig"-Button. Ein einziger Fehlklick kann dazu führen, dass Ihr Charakter direkt ins offene Feld rennt und dem feindlichen Feuer schutzlos ausgeliefert ist. Da das Spiel selbst auf niedrigeren Schwierigkeitsgraden unerbittlich ist, speichern Sie Ihren Fortschritt vor jedem größeren Gefecht manuell.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Basis-Management & Fortschritt in Akt 1">
+
+Außerhalb des Kampfes besteht Ihre Hauptaufgabe darin, Ihre Operationsbasis zu verwalten: eine weitläufige Villa, in der Überlebende untergebracht sind. Dieses Basis-Management-System funktioniert ähnlich wie in State of Decay und erfordert die Überwachung der täglichen Verbrauchsraten für lebenswichtige Ressourcen wie Nahrung, Treibstoff, Materialien und die allgemeine Moral.
+
+### Ressourcenmanagement der Basis
+
+Um Ihren Unterschlupf am Laufen zu halten, sind ständiges Auskundschaften und effizientes Inventarmanagement erforderlich:
+
+| Ressourcentyp | Täglicher Verbrauch | Primäre Quelle | Folgen bei Erschöpfung |
+| :--- | :--- | :--- | :--- |
+| **Nahrung** | Hoch | Küche, Plündern | Starker Moralabfall, Hunger-Verletzungen. |
+| **Kraftstoff** | Mittel | Tankstellen, Industriegebiete | Stromausfälle, deaktivierte Basis-Upgrades. |
+| **Medikamente** | Niedrig (außer bei Verletzung) | Apotheken, Krankenhäuser | Unbehandelte Infektionen, permanenter Tod von Überlebenden. |
+| **Materialien** | Dynamisch (Bau) | Baumärkte, Trümmer | Unfähigkeit, Verteidigungsanlagen zu bauen oder Ausrüstung zu reparieren. |
+
+<Steps>
+  <Step num="1" title="Sichern Sie den Perimeter der Villa">
+    Errichten Sie grundlegende Verteidigungsanlagen um Ihre Villa. Räumen Sie alle unmittelbaren Bedrohungen in den umliegenden Sektoren aus, um Ihr Heimrevier zu sichern.
+  </Step>
+  <Step num="2" title="Ernennen Sie Abteilungsleiter">
+    Suchen und sprechen Sie mit den statischen NPCs in Ihrer Basis. Weisen Sie ihnen die Leitung der medizinischen, kulinarischen und technischen Abteilungen zu, um Basis-Upgrades freizuschalten.
+  </Step>
+  <Step num="3" title="Starten Sie Plünderungstouren">
+    Senden Sie einen Trupp von vier Überlebenden aus, um nahegelegene Orte zu erkunden. Konzentrieren Sie sich bei Ihren ersten Exkursionen auf das Sammeln von Treibstoff und Baumaterialien.
+  </Step>
+  <Step num="4" title="Manuelle Ressourcenspende">
+    Kehren Sie zur Basis zurück und sprechen Sie einzeln mit jedem Abteilungsleiter, um Ihre erbeuteten Vorräte zu spenden. Verwalten Sie das Inventar sorgfältig, um Unordnung in Ihrem allgemeinen Lager zu vermeiden.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Inventar-Tipp">
+Da der Early-Access-Build ein sehr manuelles Inventarmanagement erfordert, versuchen Sie, Ihre Beute zu organisieren, bevor Sie zur Villa zurückkehren. Nutzen Sie die Schaltfläche "Alle übertragen", wo sie in einfachen Lager-Menüs verfügbar ist, um Zeit zu sparen.
+</Callout>
+
+### Meilensteine des Fortschritts in Akt 1
+
+Nutzen Sie diese Checkliste, um Ihren Fortschritt zu verfolgen und sicherzustellen, dass Ihr Trupp angemessen auf die eskalierenden Bedrohungen in Akt 1 vorbereitet ist:
+
+<Checklist
+  id="urban-strife-act1"
+  title="Wichtige Ziele in Akt 1:"
+  items={[
+    "Rüsten Sie die Villenküche vollständig auf, um die tägliche Nahrungsproduktion zu stabilisieren.",
+    "Rekrutieren Sie mindestens vier kampfbereite Überlebende für Ihr Außenteam.",
+    "Sichern Sie eine zuverlässige Benzinquelle, um den Basisgenerator am Laufen zu halten.",
+    "Statten Sie Ihren primären Scout mit einer langlebigen Nahkampfwaffe für lautlose Takedowns aus.",
+    "Halten Sie die Horden-Anzeige niedrig, indem Sie regelmäßig lokale Zombienester ausräumen."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<Callout type="info" title="FAQ-Übersicht">
+Hier finden Sie schnelle Antworten auf die häufigsten Fragen zu Hardware-Performance, Gameplay-Mechaniken und Systemeinstellungen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was sind die minimalen Systemvoraussetzungen für Urban Strife?",
+    answer: "Um das Spiel auszuführen, benötigen Sie mindestens ein 64-Bit Windows 7 Betriebssystem, einen 2,4 GHz Quad-Core-Prozessor, 8 GB RAM, eine 2 GB Grafikkarte (NVIDIA GTX 760 oder AMD HD 7870) und 20 GB freien Speicherplatz."
+  },
+  {
+    question: "Unterstützt Urban Strife die Controller-Eingabe auf dem PC?",
+    answer: "Derzeit ist das Spiel für Tastatur- und Maussteuerung optimiert. Aufgrund der komplexen Natur des Inventarmanagements und des präzisen rasterbasierten taktischen Zielens wird das Spielen mit einer Maus dringend empfohlen."
+  },
+  {
+    question: "Ist eine SSD zum Spielen erforderlich?",
+    answer: "Eine SSD ist nicht zwingend erforderlich, wird aber dringend empfohlen. Die Installation des Spiels auf einer SSD reduziert die Ladezeiten beim Wechsel zwischen der Villenbasis und den taktischen Kampf-Karten erheblich."
+  },
+  {
+    question: "Wie funktioniert das Speichersystem im Spiel?",
+    answer: "Das Spiel verfügt über ein automatisches Speichersystem, aber manuelles Speichern wird dringend empfohlen. Da es im Kampf keine Rückgängig-Funktion gibt und die Schwierigkeitskurve steil ist, ist das Speichern vor wichtigen Entscheidungen die beste Strategie."
+  }
+]} />
+
+</Section>

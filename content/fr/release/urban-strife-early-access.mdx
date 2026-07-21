@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap, Users, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Accès anticipé d'Urban Strife : Guide de survie tactique et de construction de base",
+  description: "Maîtrisez les mécaniques de l'accès anticipé d'Urban Strife, de la balistique réaliste aux alliances de factions. Apprenez à survivre à l'apocalypse zombie dans ce guide 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Urban+Strife+Survival+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **L'accès anticipé d'Urban Strife** est officiellement passé à la version 1.0 le 14 juillet 2026, introduisant des optimisations majeures pour la discrétion et l'IA.
+- **La balistique réaliste** calcule la trajectoire et les fragments de chaque balle, ce qui signifie que le matériau et l'épaisseur de la couverture sont essentiels pour survivre.
+- **Les alliances de factions** avec la Garde nationale, l'Église de la seconde chance ou les bikers de Shady Lady dictent le déroulement de votre histoire et les améliorations de votre abri.
+- **Les tours simultanés des zombies** permettent à de grandes hordes de se déplacer en même temps, maintenant un rythme tactique rapide même lors d'affrontements massifs avec les morts-vivants.
+- **La gestion de l'abri** est la boucle principale ; vous devez récupérer des ressources, réparer les installations et recruter des spécialistes pour survivre à l'éventuel siège de la ville.
+</Callout>
+
+<Section icon={Map} title="L'évolution de l'accès anticipé d'Urban Strife">
+
+Urban Strife a subi une transformation massive depuis ses débuts en **accès anticipé d'Urban Strife** fin 2024. Développé par White Pond Games et édité par MicroProse, le jeu mélange des tactiques au tour par tour (TBS) à l'ancienne avec des éléments de RPG de survie modernes. Deux ans après le début d'une pandémie de zombies, le monde a régressé vers le tribalisme, où votre rôle est de préserver une lueur de civilisation au sein de l'Abri Urbain.
+
+La transition vers la version 1.0 en juillet 2026 a apporté un système de discrétion repensé, une meilleure perception des ennemis et une optimisation accrue de la mécanique du Timeline Play. Les joueurs commencent en tant que patient mystérieux évacué d'Atlanta, sauvé par la communauté fragile de l'Abri Urbain. Survivre ici ne dépend pas seulement de votre barre de santé ; il s'agit de la stabilité collective de votre base et des choix moraux difficiles que vous faites face aux gangs et sectes locaux.
+
+<Callout type="warning" title="Mise à jour de la version 1.0.3">
+Le dernier correctif (1.0.3) publié le 20 juillet 2026 concerne spécifiquement les mécaniques de discrétion. Les ennemis disposent désormais de cônes de détection révisés, et la fonctionnalité « Distorsion temporelle » (Time Warp) sur les cartes très peuplées a été optimisée pour des performances sans décalage.
+</Callout>
+
+| Fonctionnalité | Accès anticipé (2024) | Version finale (2026) |
+| :--- | :--- | :--- |
+| **Système de discrétion** | Vérifications basiques de ligne de mire | Mécaniques de perception et de son révisées |
+| **Profondeur des factions** | Quêtes limitées | Trois blocs majeurs avec des fins uniques |
+| **Performances** | Latence occasionnelle lors des tours | Ligne temporelle optimisée pour les hordes |
+| **Construction de base** | Installations de base | Production avancée et améliorations de faction |
+| **Balistique** | Générateur de nombres aléatoires standard | Simulation physique complète |
+
+</Section>
+
+<Section icon={Swords} title="Combat tactique et balistique réaliste">
+
+Le combat dans Urban Strife est régi par un système classique de points d'action (PA), mais il se distingue par un moteur de balistique avancé. Contrairement à de nombreux RPG qui reposent sur des jets de dés abstraits pour toucher, ce jeu calcule la trajectoire de chaque projectile individuel. Cela inclut les plombs de fusil de chasse et les fragments de grenade, rendant le positionnement et les choix de couverture bien plus déterminants que de simples bonus de pourcentage.
+
+<CardGrid cols={3}>
+  <Card title="Précision à distance">
+    - **Ciblage des parties du corps** : Estropiez les membres ou tentez des tirs à la tête risqués.
+    - **Pénétration des balles** : Les munitions de gros calibre peuvent traverser les murs fins.
+    - **Synergie des accessoires** : Utilisez des lunettes et des compensateurs pour compenser le recul.
+  </Card>
+  <Card title="Corps à corps et discrétion">
+    - **Éliminations silencieuses** : Neutralisez les ennemis sans alerter la carte.
+    - **Armes improvisées** : Utilisez n'importe quoi, des poêles à frire aux battes cloutées.
+    - **Gestion de l'endurance** : Le corps à corps nécessite un équilibre minutieux des PA et de l'énergie.
+  </Card>
+  <Card title="Tactiques de horde">
+    - **Embuscades en vigilance** : Configurez des zones de tir mortelles pour les morts-vivants qui approchent.
+    - **Tours simultanés** : Regardez toute la horde se déplacer en une seule phase.
+    - **Éliminations environnementales** : Utilisez des barils explosifs ou des structures qui s'effondrent.
+  </Card>
+</CardGrid>
+
+La simulation balistique signifie que le matériau de votre couverture est important. Une barrière en bois peut arrêter une balle de pistolet mais sera déchiquetée par un fusil de chasse. De même, se cacher derrière le bloc moteur d'une voiture offre une protection nettement supérieure à celle d'une simple portière.
+
+<Callout type="tip" title="Stratégie de combat">
+Vérifiez toujours le calculateur de « Chances de toucher » avant de tirer. Il ne se contente pas d'afficher un pourcentage ; il estime les dégâts potentiels en fonction de l'atténuation de la balle et de la partie spécifique du corps ciblée.
+</Callout>
+
+| Classe d'arme | Portée optimale | Rôle tactique | Avantage clé |
+| :--- | :--- | :--- | :--- |
+| **Pistolets** | Courte | Utilitaire à faible coût en PA | Réactions rapides, faible bruit |
+| **Fusils de chasse** | Courte | Contrôle des foules | Dégâts de dispersion par plombs |
+| **Fusils** | Longue | Élimination de précision | Forte pénétration, dégâts élevés |
+| **Pistolets-mitrailleurs** | Moyenne | Suppression | Dégâts cumulatifs en tir en rafale |
+| **Corps à corps** | Contact | Discrétion / Économie de ressources | Aucun bruit, aucune munition requise |
+
+</Section>
+
+<Section icon={Users} title="Alliances de factions et conséquences morales">
+
+La ville est divisée en trois factions principales, chacune ayant son propre programme et sa propre moralité. Durant votre voyage en **accès anticipé d'Urban Strife**, vos interactions avec ces groupes détermineront les améliorations que vous débloquerez pour votre abri et les voies de l'histoire qui resteront ouvertes. Il n'y a pas d'alliances « faciles » ; chaque choix comporte un prix lourd pour les habitants de l'Abri Urbain.
+
+<Steps>
+  <Step num="1" title="Premier contact">
+    Rencontrez des survivants de la Garde nationale, de l'Église de la seconde chance et des bikers de Shady Lady. Accomplissez des tâches mineures pour évaluer leurs intentions.
+  </Step>
+  <Step num="2" title="Négociation et confiance">
+    Échangez des ressources et des informations. Votre réputation augmentera auprès d'une faction tout en vous aliénant potentiellement les autres.
+  </Step>
+  <Step num="3" title="Alignement de faction">
+    Engagez-vous envers un bloc principal. Cela débloque des installations d'abri spécifiques à la faction, telles que des armureries spécialisées ou des laboratoires médicaux.
+  </Step>
+  <Step num="4" title="Confrontation finale">
+    Préparez-vous à affronter la horde finale. Vos alliés vous fourniront un soutien de milice ou des ressources en fonction de votre réputation.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Aperçu des factions">
+La **Garde nationale** se concentre sur l'ordre et la puissance de feu, l'**Église de la seconde chance** propose une approche spirituelle (voire sectaire) de l'apocalypse, et les motardes de **Shady Lady** privilégient la survie du plus fort et le commerce.
+</Callout>
+
+| Faction | Objectif principal | Avantage pour le joueur | Moralité |
+| :--- | :--- | :--- | :--- |
+| **Garde nationale** | Restaurer l'ordre militaire | Armes à feu et armures de haut niveau | Autoritaire |
+| **Église de la seconde chance** | Salut spirituel | Soins médicaux avancés et moral | Fanatique |
+| **Shady Lady** | Survie et profit | Réseaux commerciaux et modifications | Impitoyable |
+
+</Section>
+
+<Section icon={Shield} title="Gestion de l'abri et mécaniques de survie">
+
+L'Abri est le cœur de vos opérations. À votre arrivée, c'est une ruine délabrée et surpeuplée de réfugiés fragiles. Votre succès dépend de votre capacité à récupérer des matériaux et à doter la base de spécialistes tels que des ingénieurs, des cuisiniers et des pharmaciens.
+
+La recherche de ressources est une boucle à haut risque. Vous devez équilibrer le besoin de nourriture et de médicaments avec le risque d'attirer une horde de zombies ou un gang rival. Une fois qu'un siège commence, toute recherche de ressources s'arrête, et vous devez survivre uniquement grâce aux provisions que vous avez accumulées et aux défenses que vous avez construites.
+
+<Checklist
+  id="shelter-priorities"
+  title="Tâches essentielles de l'abri :"
+  items={[
+    "Réparer l'infirmerie pour soigner les membres blessés de la milice",
+    "Établir une source de nourriture durable (brasserie ou potager)",
+    "Améliorer l'atelier pour produire des balles explosives et des kits",
+    "Sécuriser du carburant pour le générateur afin de maintenir l'énergie et le moral",
+    "Recruter des spécialistes locaux pour débloquer des niveaux d'installations avancés"
+  ]}
+/>
+
+<Callout type="success" title="Conseil de durabilité">
+Donnez la priorité à l'atelier dès le début. Être capable de fabriquer vos propres chargeurs de grande capacité et vos kits d'armes tactiques vous fera économiser des milliers de crédits en valeur d'échange au milieu de la partie.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Configuration requise et optimisation technique">
+
+Pour profiter de la physique réaliste et des affrontements de zombies à grande échelle dans l'**accès anticipé d'Urban Strife**, votre matériel doit répondre à des critères spécifiques. Le jeu est particulièrement gourmand en mémoire en raison des calculs complexes d'IA et de physique qui s'effectuent à chaque tour.
+
+<CardGrid cols={2}>
+  <Card title="Configuration minimale">
+    - **Système d'exploitation** : Windows 10 64 bits
+    - **Processeur** : Intel i5 4690 / AMD FX 8350
+    - **Mémoire vive** : 16 Go de RAM
+    - **Carte graphique** : Nvidia GTX 970 / RX 480
+    - **Espace de stockage** : 20 Go sur disque dur
+  </Card>
+  <Card title="Configuration recommandée">
+    - **Système d'exploitation** : Windows 10 64 bits
+    - **Processeur** : Intel i7 8700K / AMD r5 3600
+    - **Mémoire vive** : 16 Go de RAM
+    - **Carte graphique** : Nvidia RTX 2060 Super / RX 5700 XT
+    - **Espace de stockage** : 20 Go sur SSD (fortement recommandé)
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Note sur les performances">
+L'utilisation d'un SSD est fortement recommandée pour Urban Strife. Le jeu charge fréquemment des textures haute résolution et des données de carte complexes pendant la phase de tour de zombies simultané, ce qui peut provoquer des saccades sur les disques durs traditionnels.
+</Callout>
+
+| Composant | Minimum | Recommandé |
+| :--- | :--- | :--- |
+| **VRAM** | 4 Go+ | 8 Go+ |
+| **DirectX** | Version 11 | Version 11 |
+| **Son** | Compatible DX | Compatible DX |
+| **Mémoire** | 16 Go de RAM | 16 Go de RAM |
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "L'accès anticipé d'Urban Strife est-il toujours disponible ?",
+    answer: "Urban Strife est officiellement sorti de sa phase d'accès anticipé pour passer à la version 1.0 le 14 juillet 2026. La version actuelle comprend tout le contenu des factions, l'histoire complète et des mécaniques de combat optimisées."
+  },
+  {
+    question: "Peut-on tirer à travers les murs dans ce jeu ?",
+    answer: "Oui. Grâce au système de balistique réaliste, les balles de gros calibre peuvent pénétrer les matériaux fins comme le bois, le plâtre ou le verre. L'épaisseur et le matériau de l'objet déterminent la réduction des dégâts."
+  },
+  {
+    question: "Comment fonctionnent les tours des zombies par rapport aux tours des humains ?",
+    answer: "Les tours des humains et des PNJ utilisent un système de points d'action classique. Cependant, les hordes de zombies agissent dans une phase simultanée dédiée où tous les morts-vivants se déplacent en même temps, ce qui rend les combats contre de grands nombres beaucoup plus rapides et intenses."
+  },
+  {
+    question: "Que se passe-t-il si mon abri vient à manquer de nourriture ?",
+    answer: "Le manque de nourriture entraîne une baisse du moral et de la santé de vos survivants. Si le moral tombe à zéro, les réfugiés peuvent partir ou mourir, et l'efficacité au combat de votre milice sera considérablement réduite lors des sièges."
+  }
+]} />
+
+</Section>

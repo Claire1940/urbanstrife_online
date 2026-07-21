@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap, Users, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Early Access: Tactical Survival & Base Building Guide",
+  description: "Master Urban Strife early access mechanics, from realistic ballistics to faction alliances. Learn how to survive the zombie apocalypse in this 2026 guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Urban+Strife+Survival+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban Strife Early Access** officially transitioned to Version 1.0 on July 14, 2026, introducing significant stealth and AI optimizations.
+- **Realistic Ballistics** calculate every bullet trajectory and fragment, meaning cover material and thickness are critical for survival.
+- **Faction Alliances** with the National Guard, Church of Second Chance, or Shady Lady Bikers dictate your story path and shelter upgrades.
+- **Simultaneous Zombie Turns** allow large hordes to move at once, keeping the tactical pace fast even during massive undead encounters.
+- **Shelter Management** is the core loop; you must scavenge, repair facilities, and recruit specialists to survive the eventual city-wide siege.
+</Callout>
+
+<Section icon={Map} title="The Evolution of Urban Strife Early Access">
+
+Urban Strife has undergone a massive transformation since its initial **Urban Strife early access** debut in late 2024. Developed by White Pond Games and published by MicroProse, the game blends old-school turn-based tactics (TBS) with modern survival RPG elements. Set two years into a zombie pandemic, the world has regressed to tribalism, where your role is to preserve a small glimpse of civilization within the Urban Shelter.
+
+The transition to the 1.0 release in July 2026 brought a revamped stealth system, improved enemy awareness, and better optimization for the Timeline Play mechanic. Players start as a mysterious patient evacuated from Atlanta, rescued by the fragile community of the Urban Shelter. Survival here isn't just about your health bar; it is about the collective stability of your base and the difficult moral choices you make when dealing with local gangs and cults.
+
+<Callout type="warning" title="Version 1.0.3 Update">
+The latest patch (1.0.3) released on July 20, 2026, specifically addresses stealth mechanics. Enemies now have revised awareness cones, and the "Time Warp" feature on crowded maps has been optimized for lag-free performance.
+</Callout>
+
+| Feature | Early Access (2024) | Full Release (2026) |
+| :--- | :--- | :--- |
+| **Stealth System** | Basic LOS checks | Revised awareness & sound mechanics |
+| **Faction Depth** | Limited questlines | Three major blocs with unique endings |
+| **Performance** | Occasional turn lag | Optimized Timeline Play for hordes |
+| **Base Building** | Core facilities | Advanced production & faction upgrades |
+| **Ballistics** | Standard RNG | Full physics-based simulation |
+
+</Section>
+
+<Section icon={Swords} title="Tactical Combat and Realistic Ballistics">
+
+Combat in Urban Strife is governed by a classic Action Point (AP) system, but it distinguishes itself through an advanced ballistics engine. Unlike many RPGs that rely on abstract hit rolls, this game calculates the trajectory of every individual projectile. This includes shotgun pellets and grenade fragments, making positioning and cover choices far more impactful than simple percentage buffs.
+
+<CardGrid cols={3}>
+  <Card title="Ranged Precision">
+    - **Body Part Targeting**: Cripple limbs or go for risky headshots.
+    - **Bullet Penetration**: High-caliber rounds can shoot through thin walls.
+    - **Attachment Synergy**: Use scopes and compensators to offset recoil.
+  </Card>
+  <Card title="Melee & Stealth">
+    - **Silent Takedowns**: Neutralize enemies without alerting the map.
+    - **Improvised Weapons**: Use anything from frying pans to spiked bats.
+    - **Stamina Management**: Melee requires careful AP and energy balance.
+  </Card>
+  <Card title="Horde Tactics">
+    - **Overwatch Ambushes**: Set up kill zones for approaching undead.
+    - **Simultaneous Turns**: Watch the entire horde move in one phase.
+    - **Environmental Kills**: Use explosive barrels or collapsing structures.
+  </Card>
+</CardGrid>
+
+The ballistics simulation means that the material of your cover matters. A wooden fence might stop a pistol round but will be shredded by a hunting rifle. Similarly, hiding behind a car engine block provides significantly more protection than hiding behind the car door.
+
+<Callout type="tip" title="Combat Strategy">
+Always check the "Chance-to-Hit" calculator before firing. It doesn't just show a percentage; it estimates potential damage based on bullet attenuation and the specific body part targeted.
+</Callout>
+
+| Weapon Class | Optimal Range | Tactical Role | Key Benefit |
+| :--- | :--- | :--- | :--- |
+| **Pistols** | Short | Low-AP utility | Fast reactions, low noise |
+| **Shotguns** | Short | Crowd control | Pellet-based spread damage |
+| **Rifles** | Long | Precision killing | High penetration, high damage |
+| **SMGs** | Medium | Suppression | Burst fire cumulative damage |
+| **Melee** | Contact | Stealth/Resource saving | Zero noise, no ammo needed |
+
+</Section>
+
+<Section icon={Users} title="Faction Alliances and Moral Consequences">
+
+The city is divided among three primary factions, each with its own agenda and morality. During your **Urban Strife early access** journey, your interactions with these groups will determine which upgrades you unlock for your shelter and which story paths remain open. There are no "clean" alliances; every choice carries a heavy price for the people of the Urban Shelter.
+
+<Steps>
+  <Step num="1" title="Initial Contact">
+    Meet survivors from the National Guard, the Church of Second Chance, and the Shady Lady bikers. Complete minor tasks to gauge their intentions.
+  </Step>
+  <Step num="2" title="Bargaining and Trust">
+    Trade resources and information. Your reputation will grow with one faction while potentially alienating others.
+  </Step>
+  <Step num="3" title="Faction Alignment">
+    Commit to a primary bloc. This unlocks faction-specific shelter facilities, such as specialized armories or medical labs.
+  </Step>
+  <Step num="4" title="Final Confrontation">
+    Prepare for the endgame horde. Your allies will provide militia support or resources based on your standing.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Faction Overview">
+The **National Guard** focuses on order and firepower, the **Church of Second Chance** offers a spiritual (if cult-like) approach to the apocalypse, and the **Shady Lady** bikers prioritize survival of the fittest and trade.
+</Callout>
+
+| Faction | Primary Goal | Player Benefit | Morality |
+| :--- | :--- | :--- | :--- |
+| **National Guard** | Restore military order | High-tier firearms & armor | Authoritarian |
+| **Church of Second Chance** | Spiritual salvation | Advanced medical & morale | Fanatical |
+| **Shady Lady** | Survival & Profit | Trade networks & modifications | Ruthless |
+
+</Section>
+
+<Section icon={Shield} title="Shelter Management and Survival Mechanics">
+
+The Shelter is the heart of your operations. When you first arrive, it is a crumbling ruin overcrowded with frail refugees. Your success depends on your ability to scavenge materials and staff the base with specialists like engineers, chefs, and pharmacists.
+
+Scavenging is a high-stakes loop. You must balance the need for food and medicine with the risk of attracting a zombie horde or a rival gang. Once a siege begins, all scavenging stops, and you must survive solely on the supplies you have stockpiled and the defenses you have built.
+
+<Checklist
+  id="shelter-priorities"
+  title="Essential Shelter Tasks:"
+  items={[
+    "Repair the medical bay to treat wounded militia members",
+    "Establish a sustainable food source (brewery or garden)",
+    "Upgrade the workshop to produce explosive bullets and kits",
+    "Secure fuel for the generator to maintain power and morale",
+    "Recruit local specialists to unlock advanced facility tiers"
+  ]}
+/>
+
+<Callout type="success" title="Sustainability Tip">
+Prioritize the Workshop early. Being able to craft your own high-capacity magazines and tactical weapon kits will save you thousands in trade value during the mid-game.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="System Requirements and Technical Optimization">
+
+To enjoy the realistic physics and large-scale zombie encounters in **Urban Strife early access**, your hardware needs to meet specific benchmarks. The game is particularly memory-intensive due to the complex AI and physics calculations occurring every turn.
+
+<CardGrid cols={2}>
+  <Card title="Minimum Requirements">
+    - **OS**: Windows 10 64-bit
+    - **CPU**: Intel i5 4690 / AMD FX 8350
+    - **RAM**: 16 GB
+    - **GPU**: Nvidia GTX 970 / RX 480
+    - **Storage**: 20 GB HDD
+  </Card>
+  <Card title="Recommended Specs">
+    - **OS**: Windows 10 64-bit
+    - **CPU**: Intel i7 8700K / AMD r5 3600
+    - **RAM**: 16 GB
+    - **GPU**: Nvidia RTX 2060 Super / RX 5700 XT
+    - **Storage**: 20 GB SSD (Highly Recommended)
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Performance Note">
+Using an SSD is strongly recommended for Urban Strife. The game frequently loads high-resolution textures and complex map data during the simultaneous zombie turn phase, which can stutter on traditional hard drives.
+</Callout>
+
+| Component | Minimum | Recommended |
+| :--- | :--- | :--- |
+| **VRAM** | 4 GB+ | 8 GB+ |
+| **DirectX** | Version 11 | Version 11 |
+| **Sound** | DX Compatible | DX Compatible |
+| **Memory** | 16 GB RAM | 16 GB RAM |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Urban Strife early access still available?",
+    answer: "Urban Strife officially launched out of early access into Version 1.0 on July 14, 2026. The current version includes all faction content, the complete storyline, and optimized combat mechanics."
+  },
+  {
+    question: "Can I shoot through walls in this game?",
+    answer: "Yes. Thanks to the realistic ballistics system, high-caliber rounds can penetrate thin materials like wood, plaster, or glass. The thickness and material of the object determine how much damage is mitigated."
+  },
+  {
+    question: "How do zombie turns work compared to human turns?",
+    answer: "Human and NPC turns use a standard Action Point system. However, zombie hordes act in a dedicated simultaneous phase where all undead move at once, making combat against large numbers much faster and more intense."
+  },
+  {
+    question: "What happens if my shelter runs out of food?",
+    answer: "Low food leads to a drop in morale and health for your survivors. If morale hits zero, refugees may leave or perish, and your militia's combat effectiveness will be significantly reduced during sieges."
+  }
+]} />
+
+</Section>

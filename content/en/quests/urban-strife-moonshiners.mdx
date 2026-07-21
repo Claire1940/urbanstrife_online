@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Moonshiners: Sabotage Mission Walkthrough",
+  description: "Master the urban strife moonshiners sabotage mission in 2026. Learn stealth mechanics, combat distraction setups, and looting strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Moonshiners+Sabotage+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Safely sabotage the moonshine truck to complete the quest.
+- **Key Mechanic**: The sabotaged truck takes 4-5 turns to explode after catching fire.
+- **Best Strategy**: Utilize the cover of darkness and noise distractions for a bloodless escape.
+- **Critical Warning**: Standing too close to the truck when it explodes will instantly knock out or kill your squad.
+- **Loot Consideration**: Eliminating the moonshiners yields more physical loot, but peaceful sabotage avoids early-game injuries.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Moonshiners: Mission Overview">
+
+In the tactical, turn-based survival landscape of Urban Strife, dealing with local factions requires careful planning, resource management, and strategic positioning. One of the earliest tactical hurdles you will encounter involves the **urban strife moonshiners** and their highly guarded moonshine truck. Tasked with neutralizing this operation, players are presented with a classic tactical dilemma: do you sneak in under the cover of darkness, orchestrate a highly coordinated combat distraction, or simply wipe out the entire compound to claim the spoils? 
+
+Understanding the layout of the moonshiners' house and the mechanics of the sabotage is crucial before deploying your squad. The central objective of this mission is to set the moonshine truck on fire using a Molotov cocktail. However, the developer has confirmed a key mechanical detail that catches many players off guard: once the truck is set ablaze, it does not detonate immediately. Instead, it takes 4 to 5 turns of active combat or turn-skipping for the vehicle to explode. This delay means you must have an exit strategy prepared the moment the fire starts.
+
+| Option | Approach | Risk Level | Resource Cost | Loot Yield |
+| :--- | :--- | :--- | :--- | :--- |
+| **Stealth Sabotage** | Sneak in at night, throw Molotov, hide, and escape | Low | Low (1 Molotov, 1 Firecracker) | Low (Saves ammo/meds) |
+| **Combat Distraction** | Engage from south, send infiltrator to burn the truck | Medium | Medium (Ammo, Bandages) | Medium (Some corpse loot) |
+| **Total Elimination** | Kill all moonshiners and secure the entire compound | High | High (Heavy ammo, Medkits) | High (All booze and gear) |
+
+<Callout type="warning" title="Explosion Delay Warning">
+The moonshine truck does not blow up instantly upon being hit by a Molotov. You must survive 4-5 turns after ignition. Ensure your saboteur has a clear path of retreat and does not get pinned down near the blast radius.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Silent Saboteur: Night & Stealth Walkthrough">
+
+For players who prefer a surgical, non-lethal approach, executing the mission under the cover of darkness is highly viable. In Urban Strife, the day and night cycle is not merely cosmetic. Darkness makes a major difference in enemy sightlines, cutting down their visual range significantly and allowing stealth-focused characters to slip through gaps that would be impassable during daytime. 
+
+To pull off a successful night sabotage, you must exploit the game's noise and distraction systems. Sound travels realistically, and enemies will break their patrol routes to investigate unusual noises. By using throwables like firecrackers, you can manipulate the guards' positioning, clearing a path directly to the metal entrance near the truck.
+
+<Steps>
+  <Step num="1" title="Wait for Nightfall">
+    Do not attempt a stealth run during the day. Wait for the night cycle to begin so that the visual cones of the guards on the front porch are heavily restricted.
+  </Step>
+  <Step num="2" title="Infiltrate the Perimeter">
+    Approach the compound quietly. Move your primary saboteur past the guards on the front porch and seek cover in the dark corner near the metal entrance.
+  </Step>
+  <Step num="3" title="Deploy Distractions">
+    Use a secondary character positioned further back to throw firecrackers or fire a decoy shot away from the truck. This forces the porch and backyard guards to investigate the noise.
+  </Step>
+  <Step num="4" title="Ignite the Truck">
+    Once the path is clear, have your saboteur throw a Molotov cocktail directly at the moonshine truck to initiate the ignition phase.
+  </Step>
+  <Step num="5" title="Hide and Evacuate">
+    Immediately retreat your saboteur to the dark corner or behind the nearby house. Skip turns to let the guards calm down, wait for the 4-5 turn timer to detonate the truck, and slip away.
+  </Step>
+</Steps>
+
+| Distraction Tool | Noise Level | Effective Radius | Primary Use Case |
+| :--- | :--- | :--- | :--- |
+| **Firecracker** | Medium | Moderate | Luring single guards away from choke points |
+| **Decoy Shot** | High | Large | Drawing multiple enemies to a distant corner |
+| **Throwing Rock** | Low | Small | Minor adjustments to guard facing directions |
+
+<Callout type="tip" title="Stealth Tip">
+If guards begin wandering toward the truck after you throw the Molotov, they might spot your hidden saboteur. Always throw a distraction to the opposite side of the compound right after igniting the vehicle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The Combat Distraction Strategy">
+
+If pure stealth feels too passive or risky, you can employ a hybrid combat distraction strategy. This method involves splitting your squad into two distinct tactical elements: an Engager Squad to draw the moonshiners' attention and muzzle fire, and a solo Infiltrator to execute the sabotage while the enemy is distracted.
+
+This strategy relies on keeping the moonshiners occupied at long range. By positioning your shooters behind sturdy cover in the southern structures, you can bait the defenders into a prolonged firefight. Because the AI prioritizes active threats that are shooting at them, your Infiltrator will have a completely clear run to the truck from the opposite flank.
+
+<CardGrid cols={3}>
+  <Card title="The Infiltrator">
+    - **High Mobility**: Outfitted with lightweight gear to maximize Action Points (AP).
+    - **Sabotage Duty**: Carries the Molotov and initiates the burn.
+    - **Position**: Starts hidden behind the front house across the street.
+  </Card>
+  <Card title="The Engager Squad">
+    - **High Cover**: Positioned in the southern house adjacent to the moonshiners.
+    - **Aggro Generation**: Shoots once to initiate combat, then ducks behind windows.
+    - **Position**: Windows, backyard fence, and front yard structures.
+  </Card>
+  <Card title="The Support Medic">
+    - **Utility Focus**: Equipped with multiple bandages and medical splints.
+    - **Bleed Management**: Remains in deep cover to patch up wounded engagers.
+    - **Position**: Safely tucked behind the primary engagement team.
+  </Card>
+</CardGrid>
+
+| Character Role | Recommended Weapon | Primary Cover Type | Target Priority |
+| :--- | :--- | :--- | :--- |
+| **Infiltrator** | Pistol / Molotov | Full Wall Cover | None (Avoid firing to maintain low profile) |
+| **Engager (Window)** | Rifle | Half Window Cover | Front porch defenders |
+| **Engager (Yard)** | Shotgun | Fence / Low Wall | Flanking enemies |
+
+To execute this plan smoothly, keep your Engager Squad behind full or half cover. Do not attempt to push forward or hop fences; simply trade sporadic shots to keep the moonshiners pinned. Once the Infiltrator reaches the vehicle and throws the Molotov, immediately begin pulling your Engager Squad back toward your starting spawn zone. Ensure all squad members are fully conscious and patched up before initiating the final retreat, as leaving a downed teammate behind can result in permanent loss.
+
+<Callout type="success" title="Tactical Success">
+Once the truck is set on fire, you do not need to win the fight. Run back to the map's spawn boundaries. When the truck explodes after the turn timer, the mission completes and the combat encounter ends automatically.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="The Lethal Route: Wiping Out the Moonshiners">
+
+While the peaceful and distraction methods are highly satisfying tactical puzzles, many players eventually choose the lethal route. Eliminating the **urban strife moonshiners** entirely is a highly lucrative option for squads capable of handling a chaotic, close-quarters firefight. 
+
+Wiping them out grants you unhindered access to the entire compound, allowing you to strip the house of valuable resources, weapons, ammunition, and highly sought-after alcohol stashes. Furthermore, completing the mission peacefully does not immediately cause the moonshiners to vacate the area; dialogue with NPC Joe Hicks implies he will deal with them later anyway. For players who refuse to leave valuable loot behind, a full assault is the ultimate solution.
+
+<Checklist
+  id="lethal-raid"
+  title="Lethal Sweep Objectives:"
+  items={[
+    "Clear the angry drunk patrols outside the perimeter first",
+    "Establish crossfire positions around the southern and front entrances",
+    "Use firecrackers to pull nearby zombies into the fight to soften up the defenders",
+    "Systematically eliminate the guards on the front porch and backyard",
+    "Loot the entire moonshine house, securing all alcohol and supply crates"
+  ]}
+/>
+
+| Loot Type | Tactical Value | Common Locations | Recommended Action |
+| :--- | :--- | :--- | :--- |
+| **Alcohol / Booze** | High barter value, crafting resource | Inside main house crates | Gather all; do not leave behind |
+| **Ammunition** | Crucial combat resource | Guard corpses, lockers | Prioritize pistol and rifle calibers |
+| **Medical Supplies** | Keeps squad combat-ready | Bathroom cabinets, medic bags | Restock bandages and painkillers |
+
+If you choose this route, consider using the environment to your advantage. The surrounding area is often populated by zombies. By throwing firecrackers near the moonshiners' guard posts, you can lure hordes of undead directly into their defensive lines. This creates a chaotic three-way battle, allowing your squad to sit back, conserve ammunition, and clean up the surviving, weakened human defenders.
+
+<Callout type="info" title="Loot Economy Tip">
+Alcohol is one of the premier trading commodities in Urban Strife. Wiping out the moonshiners and hoarding their stash will give you immense purchasing power when visiting local traders and faction hubs in the early game.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I complete the urban strife moonshiners quest without killing anyone?",
+    answer: "Yes. You can complete the mission peacefully by sneaking in at night, throwing a Molotov at the truck, hiding until it explodes after 4-5 turns, and slipping away without engaging the guards in direct combat."
+  },
+  {
+    question: "Why doesn't the moonshine truck explode immediately after throwing the Molotov?",
+    answer: "The game mechanics require the fire to burn for 4 to 5 turns before the truck detonates. You must survive and stay out of the blast radius during this countdown period."
+  },
+  {
+    question: "Does the day and night cycle actually affect enemy detection during this mission?",
+    answer: "Absolutely. Darkness significantly reduces the visual detection range of the moonshiners, making it much easier to sneak past the front porch guards compared to a daytime attempt."
+  },
+  {
+    question: "What happens to the moonshiners if I choose the peaceful sabotage route?",
+    answer: "If you complete the mission peacefully, the moonshiners will remain in the area temporarily. Dialogue with Joe Hicks suggests they will be dealt with later, which prompts many players to return and eliminate them for their valuable loot."
+  }
+]} />
+
+<Callout type="tip" title="Final Verdict">
+Whether you choose the silent path of the saboteur or the loud path of the conqueror, proper spacing and turn management are your greatest assets. Always keep your squad members equipped with bandages to handle unexpected bleeding wounds.
+</Callout>
+
+</Section>

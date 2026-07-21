@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife das Quarantäne-Team: Quest-Walkthrough & Bugfixes",
+  description: "Meistern Sie die Quest 'Das Quarantäne-Team' in Urban Strife mit unserem Leitfaden für 2026. Erfahren Sie, wie Sie den Hafen säubern, Leichenhaufen verbrennen und häufige Skript-Bugs beheben.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Urban+Strife+Quarantine+Squad+Guide",
+  date: "2026-07-21",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptziel**: Säubern Sie alle Zombies in den abgeriegelten Hafenbereichen und verbrennen Sie vier bestimmte Leichenhaufen mit brandbasierten Waffen.
+- **Schlüsselmechanik**: Sie müssen **Molotowcocktails** oder **Aerosolbomben** verwenden, um die Infektionsquellen dauerhaft zu vernichten.
+- **Bug-Warnung**: Ein bekanntes Skriptproblem in **Urban Strife das Quarantäne-Team** kann den Abschluss der Quest verhindern, wenn die Haufen in der falschen Reihenfolge oder vor bestimmten Spawns verbrannt werden.
+- **Kampfstrategie**: Locken Sie Zombies in Nadelöhre in der Nähe der Hafentore, um die Größe der Horde effektiv zu kontrollieren.
+- **Beste Wahl**: Die **Aerosolbombe** ist aufgrund ihres großen Wirkungsbereichs das kostengünstigste Werkzeug zum Verbrennen der Haufen.
+</Callout>
+
+<Section icon={Target} title="Quest-Übersicht und Anforderungen">
+
+Die Mission **Urban Strife das Quarantäne-Team** ist eine entscheidende Quest im frühen bis mittleren Spielverlauf, die Ihre taktische Positionierung und Ihr Ressourcenmanagement auf die Probe stellt. Diese von der Militärfraktion zugewiesene Quest erfordert, dass Ihr Team in das stark kontaminierte Hafenviertel eindringt, um eine wachsende Zombie-Bedrohung zu neutralisieren. Das Gebiet ist in zwei umzäunte Hauptbereiche unterteilt: die Zone mit Ford und den angrenzenden Containerhafen. Der Erfolg hängt nicht nur von der Feuerkraft ab, sondern auch davon, die richtigen Brandwerkzeuge zu haben, um die Aufgabe zu erfüllen.
+
+Bevor Sie sich in den Hafen wagen, stellen Sie sicher, dass Ihr Team mit genügend brandbasierten Hilfsgegenständen ausgestattet ist. Standardkugeln halten die Untoten auf, verhindern jedoch nicht, dass sich die Infektion von den Leichenhaufen aus weiter ausbreitet.
+
+| Anforderungstyp | Benötigter Gegenstand/Aktion | Priorität |
+| :--- | :--- | :--- |
+| **Hauptwerkzeug** | Molotowcocktails oder Aerosolbomben | **Erforderlich** |
+| **Munitionstyp** | Schrotpatronen (Schrotladung) für den Nahkampf | Hoch |
+| **Heilung** | Fortschrittliche Medizinkits und Bandagen | Mittel |
+| **Team-Fähigkeit** | Hohe Athletik zum Kiten von Zombies | Hoch |
+| **Ziel** | 4 Leichenhaufen verbrennen | **Erforderlich** |
+
+<Callout type="tip" title="Strategische Vorbereitung">
+Stürmen Sie den Hafen nicht mit einem Team aus reinen Scharfschützen. Die engen Korridore zwischen den Schiffscontainern bevorzugen Schrotflinten und Nahkämpfer mit hohen Ausweichwerten.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt-Anleitung">
+
+Das Navigieren im Hafen erfordert ein methodisches Vorgehen. Die Zombies in diesem Bereich reagieren empfindlich auf Geräusche, was bedeutet, dass ein einziger lauter Schuss gleichzeitig Feinde aus beiden umzäunten Bereichen anlocken kann. Befolgen Sie diese Schritte, um **Urban Strife das Quarantäne-Team** effizient abzuschließen.
+
+<Steps>
+  <Step num="1" title="Sichern Sie den Perimeter">
+    Nähern Sie sich dem ersten umzäunten Bereich, in dem sich Ford befindet. Anstatt hineinzustürmen, verwenden Sie eine schallgedämpfte Waffe, um die Nachzügler in der Nähe des Tors auszuschalten. Sobald der unmittelbare Bereich frei ist, bewegen Sie Ihr Team hinein, halten aber ein Mitglied als Rückzugspunkt in der Nähe des Ausgangs.
+  </Step>
+  <Step num="2" title="Säubern Sie die Wellen der Untoten">
+    Die Leichenhaufen fungieren als Spawnpunkte. Wenn Sie sich ihnen nähern, tauchen Wellen von Zombies auf. Konzentrieren Sie sich darauf, diese Spawns zu beseitigen, bevor Sie versuchen, die Haufen zu verbrennen. Wenn Sie die Zombies zuerst töten, stellen Sie sicher, dass Ihr „Werfer“ während der Animation nicht unterbrochen wird.
+  </Step>
+  <Step num="3" title="Leichenhaufen einäschern">
+    Lokalisieren Sie die vier Leichenhaufen. Richten Sie Ihren Molotowcocktail auf die Mitte des Haufens. Sie sehen eine Aufforderung oder eine visuelle Veränderung des Haufens, sobald das Feuer greift. Stellen Sie sicher, dass alle vier gleichzeitig brennen, um das Quest-Update auszulösen.
+  </Step>
+  <Step num="4" title="Letzte Bereichssäuberung">
+    Nachdem die Haufen zerstört wurden, spawnt oft eine letzte Welle in der Nähe des zweiten Hafenbereichs. Überprüfen Sie jeden Winkel der umzäunten Abschnitte, da ein einziger verbleibender Zombie verhindern kann, dass die Quest in die Phase „Sprich mit dem Questgeber“ übergeht.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kritisches Timing">
+Einige Spieler berichten, dass das *zu frühe* Verbrennen der Haufen – insbesondere bevor alle geskripteten Spawns erschienen sind – die Quest-Logik stören kann. Es ist sicherer, alle sichtbaren Zombies in der unmittelbaren Umgebung zu töten, bevor Sie Ihren ersten Molotowcocktail werfen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstungsvergleich für die Hafensäuberung">
+
+Die Wahl der richtigen Ausrüstung für **Urban Strife das Quarantäne-Team** kann den Unterschied zwischen einer sauberen Säuberung und der Vernichtung Ihres gesamten Teams ausmachen. Während Molotowcocktails die traditionelle Wahl sind, empfehlen die Meta-Strategien für 2026 die Verwendung von Aerosolbomben für eine bessere Gebietsabriegelung.
+
+<CardGrid cols={3}>
+  <Card title="Molotowcocktail">
+    - **Günstig herzustellen**
+    - Gezielter Brandschaden
+    - Begrenzter Explosionsradius
+  </Card>
+  <Card title="Aerosolbombe">
+    - **Großer Explosionsradius**
+    - Hoher Anfangsschaden
+    - Hervorragend für mehrere Haufen
+  </Card>
+  <Card title="Flammenwerfer (Spätspiel)">
+    - **Nachhaltige Feuerquelle**
+    - Hoher Gewichtsnachteil
+    - Am besten zum Säubern von Horden geeignet
+  </Card>
+</CardGrid>
+
+| Werkzeug | Herstellungskosten | Effektivität | Gewicht |
+| :--- | :--- | :--- | :--- |
+| **Molotow** | Niedrig (Alkohol + Lappen) | 3/5 | 0,5 kg |
+| **Aerosolbombe** | Mittel (Kanister + Zünder) | 5/5 | 1,0 kg |
+| **Feuerpfeil** | Niedrig (Pfeil + Treibstoff) | 2/5 | 0,1 kg |
+
+<Callout type="success" title="Inventarverwaltung">
+Weisen Sie einem „Grenadier“ in Ihrem Team alle Brandwaffen zu. Dies hält den Rest Ihres Teams frei, um schwere Munition und medizinische Vorräte zu tragen, die für den langen Rückweg zur Basis benötigt werden.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Fehlerbehebung für den Quarantäne-Team-Bug">
+
+Viele Überlebende sind auf ein frustrierendes Problem gestoßen, bei dem die Quest nicht abgeschlossen wird, selbst nachdem alle Zombies tot und die Haufen verbrannt sind. Dies hängt oft damit zusammen, dass ein Skript-Flag in der Mission **Urban Strife das Quarantäne-Team** nicht ausgelöst wird. Wenn in Ihrem Quest-Log immer noch „Verbrenne die Leichenhaufen“ steht, obwohl sie bereits Asche sind, befolgen Sie diese Schritte zur Fehlerbehebung.
+
+| Problem | Mögliche Ursache | 2026 Fix/Workaround |
+| :--- | :--- | :--- |
+| **Quest aktualisiert sich nicht** | Geskripteter Zombie steckt in Wänden fest | Verwenden Sie eine Granate in der Nähe von Containern, um ihn herauszulocken |
+| **Haufen brennen nicht** | Falscher Schadenstyp verwendet | Stellen Sie sicher, dass Sie **Brandschaden** und keinen Explosionsschaden verwenden |
+| **Ford spricht nicht** | Kampfmodus ist noch aktiv | Ziehen Sie sich auf die Weltkarte zurück und betreten Sie die Zone erneut |
+| **NPC fehlt** | Quest-Sequenz unterbrochen | Laden Sie den automatischen Speicherstand, der beim Betreten des Hafens erstellt wurde |
+
+<Callout type="info" title="Einblick der Entwickler">
+Die Entwickler haben bestätigt, dass das Töten von Zombies für EP *vor* dem Verbrennen der Haufen die beabsichtigte Spielweise ist. Wenn dies jedoch zu langsam geschieht, kann das Skript manchmal hängen bleiben. Wenn die Quest weiterhin fehlerhaft bleibt, ist das Senden Ihrer Speicherdatei an das Support-Team die einzige Möglichkeit, einen beschädigten Spieldurchgang zu reparieren.
+</Callout>
+
+</Section>
+
+<Section icon={ListChecks} title="Taktische Checkliste und Ziele">
+
+Um sicherzustellen, dass Sie keine einzige Anforderung im Hafenbereich verpassen, nutzen Sie diese Checkliste während Ihres Einsatzes. Das Übersehen selbst eines kleinen Details kann dazu führen, dass Sie durch gefährliches Gebiet zurückgehen müssen.
+
+<Checklist
+  id="quarantine-squad-goals"
+  title="Missionsmeilensteine:"
+  items={[
+    "Säubern Sie alle Zombies in Fords umzäuntem Bereich",
+    "Identifizieren und lokalisieren Sie alle 4 Leichenhaufen",
+    "Verbrennen Sie den Haufen in der nordöstlichen Ecke",
+    "Verbrennen Sie den Haufen in der Nähe der Frachtkisten",
+    "Verbrennen Sie die zwei Haufen im sekundären Hafenbereich",
+    "Bestätigen Sie, dass die Benachrichtigung 'Quest aktualisiert' erscheint",
+    "Melden Sie sich beim Militärkommandanten zurück"
+  ]}
+/>
+
+<Callout type="tip" title="Optimierung der Erfahrungspunkte">
+Wenn Sie die Fertigkeiten-EP maximieren möchten, lassen Sie die Haufen so viele Zombies wie möglich spawnen, bevor Sie sie verbrennen. Jeder getötete Zombie trägt zur Kampferfahrung Ihres Teams bei, erhöht jedoch auch das Risiko, überwältigt zu werden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+Das Meistern der Details des Hafenviertels ist für jeden ernsthaften Spieler von Urban Strife unerlässlich. Hier sind die am häufigsten gestellten Fragen zur Quest **Urban Strife das Quarantäne-Team**.
+
+<FAQ items={[
+  {
+    question: "Kann ich anstelle von Molotowcocktails Granaten verwenden, um die Haufen zu zerstören?",
+    answer: "Nein. Standard-Splittergranaten oder Rohrbomben verursachen Explosionsschaden, was zwar die Zombies beseitigt, aber nicht die Anforderung des 'Verbrennens' für die Leichenhaufen erfüllt. Sie müssen brandbasierte Waffen verwenden."
+  },
+  {
+    question: "Was soll ich tun, wenn die Quest nach dem Verbrennen aller Haufen nicht abgeschlossen wird?",
+    answer: "Suchen Sie die Umgebung nach 'feststeckenden' Zombies ab. Oft hält ein einzelner Kriecher, der sich hinter einer Kiste versteckt, das Skript für den Kampf aktiv. Wenn das Gebiet frei ist und die Quest weiterhin hängt, laden Sie Ihren letzten automatischen Speicherstand."
+  },
+  {
+    question: "Ist es möglich, diese Quest heimlich abzuschließen?",
+    answer: "Teilweise. Sie können sich hineinschleichen und Brandsätze mit Zeitzünder platzieren, aber das Verbrennen der Haufen wird fast immer die verbleibende Horde im Hafen alarmieren."
+  },
+  {
+    question: "Welche Teammitglieder eignen sich am besten für die Quarantäne-Team-Mission?",
+    answer: "Eine Mischung aus Spähern mit hoher Beweglichkeit, um Zombies anzulocken, und Nahkämpfern mit hoher Stärke, um den Nahkampf zu bewältigen. Mindestens ein Mitglied sollte über eine hohe 'Wurf'-Fertigkeit verfügen, um sicherzustellen, dass Molotowcocktails ihre Ziele präzise treffen."
+  }
+]} />
+
+<Callout type="info" title="Schlussbemerkung">
+Erstellen Sie immer einen Backup-Speicherstand, bevor Sie das Hafenviertel betreten. Die komplexen Skripte, die an Fraktionsmissionen wie dem Quarantäne-Team beteiligt sind, können gelegentlich mit anderen aktiven Quests in Konflikt geraten, z. B. mit denen der Kultisten oder Biker.
+</Callout>
+
+</Section>

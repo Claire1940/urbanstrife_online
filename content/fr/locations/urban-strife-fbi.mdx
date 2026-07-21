@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "urban strife fbi : Guide du vol de coffre-fort et astuces de discrétion",
+  description: "Maîtrisez la quête urban strife fbi avec notre guide étape par étape. Apprenez à voler le coffre-fort de la Firme sans déclencher de combat.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=FBI+Safe+Stealth+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki d'urban strife",
+  keywords: "urban strife fbi, guide, discrétion, coffre-fort, la firme"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal** : Récupérer le coffre-fort sécurisé de la Firme lors de la suite de quêtes **urban strife fbi**.
+- **Lieu de la quête** : L'arrière-boutique du magasin de vélos situé sur la carte du bureau du FBI.
+- **Stratégie de discrétion** : Exécutez le casse après minuit pour minimiser les cônes de vision ennemis et la densité des gardes.
+- **Avertissement critique** : Ne brisez pas de fenêtres pour entrer, car cette action déclenche une hostilité immédiate de la faction.
+- **Voie alternative** : Le combat reste une option viable si la discrétion s'avère trop fastidieuse ou chronophage.
+</Callout>
+
+<Section icon={Target} title="Aperçu de la mission et configuration de la quête">
+
+La quête **urban strife fbi** est l'un des puzzles tactiques les plus délicats du début à la mi-jeu. En arrivant sur la carte du bureau du FBI, votre escouade est chargée de récupérer un coffre-fort hautement sécurisé détenu par une faction connue sous le nom de la Firme (the Firm). Le coffre est conservé au fond d'un magasin de vélos local, qui sert de quartier général au soi-disant "Directeur", un chef de motards important dans la région.
+
+Parce que le magasin de vélos est lourdement gardé, naviguer dans cette quête nécessite soit une planification tactique précise, soit une approche de combat par la force brute. La zone entourant le coffre-fort est désignée comme une zone protégée. Cela signifie que toute interaction non autorisée avec le coffre, ou même le fait d'être repéré à proximité immédiate, est traité comme un vol direct, rendant instantanément hostile toute la faction de la Firme.
+
+| Détail de la quête | Résumé des informations |
+|---|---|
+| Emplacement sur la carte | Carte du bureau du FBI |
+| Bâtiment cible | Magasin de vélos des motards |
+| Faction au contrôle | La Firme |
+| PNJ cible clé | Le Directeur |
+| Objet de l'objectif | Coffre-fort sécurisé |
+| Défi principal | Haute densité de cônes de vision des gardes |
+
+<Callout type="info" title="Relations avec les factions">
+Maintenir des relations neutres avec la Firme peut ouvrir des opportunités de commerce uniques et des voies narratives plus tard dans la campagne. Réfléchissez bien avant de choisir de les éliminer.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mécaniques de discrétion et facteurs environnementaux">
+
+La discrétion dans Urban Strife repose fortement sur les cônes de vision dynamiques, représentés par des carrés rouges sur la grille tactique. Lorsque les membres de votre escouade pénètrent dans ces carrés rouges, la suspicion de l'ennemi augmente. Si la jauge de suspicion se remplit complètement, le combat est initié. Pour réussir un casse sans tirer un seul coup de feu, vous devez comprendre comment les facteurs environnementaux affectent ces cônes de vision.
+
+L'heure de la journée joue un rôle massif dans la vigilance des gardes. Tenter ce casse pendant les heures de jour est exceptionnellement difficile en raison des patrouilles de gardes qui se chevauchent et d'une portée visuelle maximale. Cependant, attendre après minuit modifie le paysage tactique. Sous le couvert de l'obscurité, la portée de vision des gardes diminue, les itinéraires de patrouille deviennent plus prévisibles et plusieurs gardes s'installent dans des positions statiques et moins observatrices.
+
+| Facteur environnemental | Conditions de jour | Conditions de nuit (Après minuit) |
+|---|---|---|
+| Portée du cône de vision | Distance maximale | Portée considérablement réduite |
+| Densité des gardes | Patrouilles actives nombreuses | Sentinelles statiques, moins d'yeux actifs |
+| Vitesse de détection | Détection rapide | Accumulation de suspicion plus lente |
+| Approche du coffre | Extrêmement difficile | Très gérable avec de la patience |
+
+<CardGrid cols={3}>
+  <Card title="La patience est la clé">
+    - **Observez les itinéraires de patrouille**
+    - Identifiez les angles morts
+    - Attendez que les gardes se détournent
+  </Card>
+  <Card title="Utilisez le temps de recharge">
+    - **Retirez-vous en cas de suspicion**
+    - Attendez une minute en temps réel
+    - Laissez les niveaux d'alerte des gardes se réinitialiser
+  </Card>
+  <Card title="Évitez les dommages structurels">
+    - **Gardez les fenêtres intactes**
+    - Crochetez les serrures silencieusement
+    - Évitez de faire des bruits forts
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Avis des développeurs">
+Les développeurs ont noté que le système de discrétion et l'interface utilisateur qui l'accompagne sont continuellement affinés. L'utilisation de sauvegardes manuelles avant d'entrer dans le magasin de vélos est fortement recommandée pour atténuer tout comportement de recherche de chemin imprévisible.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide d'infiltration étape par étape">
+
+Pour exécuter un casse silencieux impeccable et sécuriser le coffre-fort sans alerter le Directeur ou ses sbires, suivez cette séquence d'actions précise. Assurez-vous que votre escouade est composée de personnages ayant des attributs d'agilité et de discrétion élevés pour faciliter l'infiltration.
+
+<Steps>
+  <Step num="1" title="Localiser le magasin de vélos">
+    Rendez-vous sur la carte du bureau du FBI et localisez le magasin de vélos où réside le Directeur. N'initiez aucune action hostile à l'entrée ; gardez vos armes au fourreau pour maintenir un statut neutre pendant que vous explorez l'extérieur.
+  </Step>
+  <Step num="2" title="Passer le temps jusqu'à minuit">
+    Utilisez la transition de carte ou attendez à proximité jusqu'à ce que l'horloge du jeu dépasse minuit. Vous remarquerez que les positions des gardes changent et que la densité des carrés de vision rouges au sol diminuera considérablement.
+  </Step>
+  <Step num="3" title="Infiltrer l'arrière-boutique">
+    Identifiez l'entrée latérale du magasin de vélos. Évitez de briser des fenêtres, car les dommages structurels déclenchent une agressivité immédiate. Utilisez plutôt un crocheteur qualifié pour ouvrir la porte latérale silencieusement lorsqu'une patrouille de garde proche s'éloigne.
+  </Step>
+  <Step num="4" title="Sécuriser le coffre et évacuer">
+    Glissez-vous dans l'arrière-boutique en restant accroupi. Attendez que toute suspicion restante des gardes se refroidisse complètement. Interagissez avec le coffre-fort pour le sécuriser, puis revenez prudemment sur vos pas pour sortir du bâtiment et quitter le secteur.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Déclencheur d'agressivité">
+Si un garde vous aperçoit près du coffre-fort, retirez-vous immédiatement de sa ligne de mire. N'essayez pas de saisir le coffre tant que la jauge de suspicion est jaune, sinon vous déclencherez une alarme sur toute la carte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="L'alternative du combat">
+
+Bien qu'une approche furtive soit très gratifiante, ce n'est pas la seule façon de résoudre la quête **urban strife fbi**. De nombreux joueurs préfèrent une confrontation tactique directe. Si votre escouade est équipée pour des fusillades à haute intensité et que cela ne vous dérange pas de rendre la Firme définitivement hostile, nettoyer le magasin de vélos est une alternative simple.
+
+Prendre la voie du combat vous permet de contourner le timing méticuleux requis pour la discrétion. Cependant, vous devez vous préparer à un combat difficile, car les sbires de la Firme sont bien armés et disposent d'excellentes positions défensives dans les couloirs étroits du magasin de vélos. Les fusils à pompe et les armes de mêlée à gros dégâts s'en sortent exceptionnellement bien dans ces escarmouches en combat rapproché.
+
+| Indicateur | Approche furtive | Approche de combat |
+|---|---|---|
+| Coût en ressources | Minimal (crochets uniquement) | Élevé (munitions, fournitures médicales) |
+| Investissement temps | Grande patience requise | Résolution rapide et directe |
+| Relations faction | Reste neutre | Définitivement hostile |
+| Butin bonus | Récompenses de quête uniquement | Équipement des gardes et butins d'armes |
+| Facteur de risque | Faible (compte sur les sauvegardes rapides) | Élevé (blessure ou mort de l'escouade) |
+
+<Callout type="success" title="Avantage au combat">
+Si vous choisissez le combat, bloquez les motards aux entrées du magasin. Utilisez des points de passage étroits pour les empêcher de flanquer votre escouade, et utilisez des grenades pour nettoyer rapidement les pièces exigües.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de préparation">
+
+Avant de vous rendre sur la carte du bureau du FBI pour vous attaquer à cet objectif, assurez-vous que votre escouade est parfaitement préparée pour l'une ou l'autre issue. Utilisez cette liste pour vérifier votre état de préparation.
+
+<Checklist
+  id="fbi-quest-prep"
+  title="Liste de contrôle avant la mission :"
+  items={[
+    "Recrutez au moins un membre d'escouade ayant des compétences élevées en crochetage",
+    "Équipez du matériel améliorant la discrétion ou une armure légère pour réduire le bruit",
+    "Apportez suffisamment de munitions et de kits médicaux au cas où la discrétion échouerait",
+    "Créez un fichier de sauvegarde manuel propre avant d'entrer dans le secteur du bureau du FBI",
+    "Assurez-vous que l'heure du jeu est réglée après minuit pour des conditions de discrétion optimales"
+  ]}
+/>
+
+<Callout type="info" title="Progression en discrétion">
+Réussir cette mission sans alerter la Firme est considéré comme un accomplissement majeur pour les styles de jeu orientés discrétion, démontrant une compréhension profonde des mécanismes tactiques de ligne de mire du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Où se trouve exactement le coffre-fort dans la quête urban strife fbi ?",
+    answer: "Le coffre-fort est situé dans une arrière-boutique protégée à l'intérieur du magasin de vélos où se trouve le chef des motards, connu sous le nom de Directeur, sur la carte du bureau du FBI."
+  },
+  {
+    question: "Pourquoi les gardes m'attaquent-ils dès que je brise la fenêtre ?",
+    answer: "Briser des fenêtres provoque un bruit structurel et des dommages, ce qui alerte automatiquement tous les membres de la Firme à proximité et déclenche une agressivité hostile immédiate."
+  },
+  {
+    question: "Combien de temps faut-il aux gardes pour oublier qu'ils m'ont suspecté ?",
+    answer: "Si vous déclenchez un avertissement de suspicion mineur, retirez-vous hors de leur vue. Il faut environ une minute en temps réel pour que les gardes reviennent à leur état passif."
+  },
+  {
+    question: "Est-il préférable de tuer la Firme ou de voler le coffre discrètement ?",
+    answer: "Voler le coffre discrètement préserve votre statut neutre avec la Firme, permettant de futures interactions. Le combat est plus rapide mais rend la faction définitivement hostile."
+  }
+]} />
+
+<Callout type="tip" title="Verdict Final">
+Pour l'expérience narrative la plus riche, tentez d'abord la voie de la discrétion. Si les schémas de patrouille serrés s'avèrent trop frustrants, vous pouvez toujours compter sur vos armes à feu pour nettoyer le bâtiment et récupérer le coffre-fort par la force.
+</Callout>
+
+</Section>

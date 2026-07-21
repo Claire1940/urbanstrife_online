@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Horde Urban Strife : Guide de défense stratégique et de gestion d'événements",
+  description: "Maîtrisez les mécaniques de la horde dans Urban Strife. Apprenez à intercepter les événements sur la carte du monde, gérer le siège du tribunal et optimiser le combat tactique en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Horde+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Les mécaniques de la horde dans Urban Strife** utilisent un système d'IA simultanée unique pour accélérer les combats de zombies au tour par tour.
+- **L'interception sur la carte du monde** est le seul moyen d'empêcher des colonies comme le tribunal de tomber sous une infection permanente.
+- **Les trajectoires balistiques** sont calculées en temps réel, permettant aux joueurs de tirer à travers les couverts pour toucher plusieurs cibles.
+- **La gestion des ressources** à la base (Urban Shelter) est cruciale pour fabriquer les munitions spécialisées nécessaires aux sièges à grande échelle.
+- **Les choix de factions** déterminent les ressources uniques et les améliorations tactiques auxquelles vous aurez accès pendant l'apocalypse.
+</Callout>
+
+<Section icon={Swords} title="Comprendre le système de combat de la horde dans Urban Strife">
+
+Le cœur de l'expérience de la **horde dans Urban Strife** réside dans son approche innovante du combat tactique au tour par tour. Contrairement aux RPG traditionnels où chaque ennemi joue son tour individuellement, ce jeu implémente un système d'IA dynamique permettant aux zombies de se déplacer simultanément. Ce choix de conception réduit considérablement les temps d'attente lors des rencontres à grande échelle, maintenant une tension élevée sans la frustration de devoir attendre que des dizaines d'unités terminent leurs actions.
+
+**Points forts de la vidéo :**
+- Analyse détaillée du système de mouvement simultané de l'IA des zombies.
+- Démonstration de la trajectoire balistique en temps réel et des mécaniques de pénétration des matériaux.
+- Aperçu de la construction de base et de son impact sur la survie et la défense.
+- Perspectives sur les interactions entre factions et les décisions morales.
+
+<YouTubeEmbed videoId="_KHkn77UddE" title="Urban Strife Review - Is It Worth Playing for Zombie Survival Fans?" />
+
+La profondeur du combat est renforcée par un système balistique sophistiqué. Chaque projectile suit une trajectoire calculée qui prend en compte les statistiques de l'arme et les propriétés physiques de l'environnement. Cela signifie que le positionnement tactique ne consiste pas seulement à trouver un abri, mais aussi à comprendre la composition de ce dernier. Les munitions de gros calibre peuvent pénétrer les murs en bois fins ou aligner plusieurs zombies pour un tir dévastateur unique.
+
+| Fonctionnalité de combat | Description de la mécanique | Impact tactique |
+| :--- | :--- | :--- |
+| **IA simultanée** | Tous les zombies d'une horde agissent en même temps. | Accélère le rythme et évite la fatigue du tour par tour. |
+| **Balistique temps réel** | Les trajectoires calculent la densité et la pénétration. | Permet des tirs multi-cibles et à travers les couverts. |
+| **Couvert destructible** | Les objets peuvent être détruits par les tirs ou le corps à corps. | Empêche le camping et force le repositionnement. |
+| **Système de PA** | Les PA gèrent les déplacements, attaques et interactions. | Nécessite une planification minutieuse des actions. |
+
+<Callout type="tip" title="Avantage tactique">
+Face à une **horde dans Urban Strife**, cherchez toujours les « points d'étranglement » dans l'environnement. Grâce à la pénétration balistique, aligner des zombies dans un couloir étroit vous permet d'en éliminer trois ou quatre avec un seul coup de fusil à pompe ou de fusil puissant.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Événements de la carte du monde : La horde en mouvement">
+
+Gérer la **horde dans Urban Strife** sur la carte du monde est tout aussi important que le combat tactique. Les joueurs rencontreront fréquemment des événements « Horde en mouvement », représentés par des icônes rouges avec des épées croisées. Ces icônes indiquent une masse migratrice de morts-vivants se dirigeant vers une colonie ou un point d'intérêt. Ignorer ces mouvements peut entraîner la perte permanente de centres commerciaux vitaux et de lieux de quêtes.
+
+La carte du monde fonctionne avec une horloge en temps réel. Lorsqu'une icône de horde atteint un lieu comme le tribunal, un minuteur caché démarre. Si le joueur n'intervient pas, la colonie « tombe », devenant un lieu de réapparition permanent pour les morts-vivants. Une fois le lieu perdu, tous les PNJ sont convertis en zombies, et les ressources ou quêtes associées disparaissent à jamais.
+
+| Type d'événement | Icône sur la carte | Objectif principal | Niveau de risque |
+| :--- | :--- | :--- | :--- |
+| **Horde migrante** | Épées rouges mobiles | Intercepter sur la route avant le camp. | Élevé |
+| **Siège statique** | Icône rouge pulsée | Briser le périmètre pour sauver les survivants. | Extrême |
+| **Partie de pillage** | Icône jaune de recherche | Défendre vos pillards contre les morts-vivants. | Moyen |
+| **Escarmouche de faction** | Épées bleu/rouge | Décider d'intervenir ou laisser les factions se battre. | Variable |
+
+<Callout type="warning" title="Minuteurs d'infection">
+Être simplement présent sur la carte ne suffit pas à stopper une infection. Si une horde a atteint une colonie, vous devez traquer activement chaque « générateur » et « tas de cadavres » pour nettoyer la zone. Si le minuteur expire alors que vous êtes sur la carte sans avoir éliminé les ennemis, la colonie tombera.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Étude de cas : Défendre la colonie du tribunal">
+
+Le tribunal sert de test crucial en début de jeu pour gérer une **horde dans Urban Strife**. Beaucoup de joueurs peinent avec les déclencheurs spécifiques nécessaires pour « sauver » ce lieu. Comme discuté par la communauté et confirmé par les développeurs, la défense du tribunal repose sur une interception réussie sur la carte du monde. Si la horde atteint les portes, la situation devient bien plus critique.
+
+Pour défendre le tribunal avec succès, suivez cette séquence. Intercepter la horde sur la route est la méthode la plus efficace, car cela empêche l'état de « siège » de se produire. Cependant, si vous êtes forcé de combattre dans l'enceinte du tribunal, assurez-vous qu'aucun « générateur dormant » n'est laissé derrière. Un seul zombie ou générateur oublié peut déclencher une erreur de script entraînant la destruction de la colonie.
+
+<Steps>
+  <Step num="1" title="Surveiller la carte du monde">
+    Surveillez les routes menant au tribunal pour détecter toute icône rouge « Horde en mouvement ».
+  </Step>
+  <Step num="2" title="Intercepter tôt">
+    Déplacez votre escouade vers le secteur de la route et engagez le combat avant que la horde n'atteigne le tribunal.
+  </Step>
+  <Step num="3" title="Nettoyer le secteur">
+    Pendant le combat, assurez-vous que chaque zombie est éliminé. Vérifiez les coins et les pièces sombres pour les ennemis dormants.
+  </Step>
+  <Step num="4" title="Vérifier le statut">
+    Après le combat, retournez sur la carte du monde et vérifiez si l'icône rouge a disparu. Si elle est toujours là, rentrez et cherchez les générateurs manquants.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Avis du développeur">
+En 2026, des correctifs ont résolu des bugs rares où les générateurs dormants ne déclenchaient pas la séquence de « fin de combat ». Si vous êtes bloqué, vérifiez toujours le dossier « SaveGames » dans votre AppData pour fournir des journaux à l'équipe de développement, car ils peaufinent activement les mécaniques de horde/siège.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestion de base et préparation à la horde">
+
+La survie face à une **horde dans Urban Strife** ne dépend pas seulement des soldats, mais de la base que vous construisez. L'Urban Shelter sert de hub pour le craft, les améliorations et la planification. Sans un approvisionnement constant en munitions et fournitures médicales, votre escouade sera submergée par le nombre écrasant de zombies.
+
+Les installations de votre base fournissent des bonus passifs et actifs essentiels. Par exemple, l'Atelier permet de créer des munitions spécialisées, comme des balles à pointe creuse pour les zombies non blindés ou des balles perforantes pour les factions militaires renégates.
+
+<CardGrid cols={3}>
+  <Card title="L'Atelier">
+    - **Munitions personnalisées** : Créez des munitions pour différents types d'ennemis.
+    - **Accessoires d'armes** : Améliorez la précision et la vitesse de rechargement.
+    - **Station de réparation** : Maintenez la durabilité de votre équipement.
+  </Card>
+  <Card title="Les Jardins">
+    - **Durabilité** : Produisez de la nourriture pour maintenir le moral.
+    - **Herbes médicinales** : Fabriquez des bandages et des suppresseurs d'infection.
+    - **Boost de moral** : Une nourriture de qualité empêche la désertion.
+  </Card>
+  <Card title="La Caserne">
+    - **Recrutement** : Augmentez le nombre de survivants actifs.
+    - **Entraînement** : Améliorez des compétences comme la discrétion ou la balistique.
+    - **Défense** : Bonus à la défense de la base lors d'attaques directes.
+  </Card>
+</CardGrid>
+
+| Amélioration d'installation | Coût en ressources | Avantage pour la défense |
+| :--- | :--- | :--- |
+| **Murs fortifiés** | Bois, Ferraille | Augmente le temps avant qu'une horde ne pénètre. |
+| **Tour de guet** | Métal, Électronique | Permet le tir de précision longue distance. |
+| **Presse à munitions** | Pièces usinées | Réduit le coût de fabrication des balles de gros calibre. |
+| **Infirmerie** | Médicaments, Eau propre | Accélère la récupération des membres blessés. |
+
+<Callout type="info" title="Pénurie de ressources">
+Priorisez toujours la Presse à munitions. Dans Urban Strife, vous affronterez souvent 30+ zombies à la fois. Sans une production efficace, vous serez forcé au combat au corps à corps, bien plus dangereux contre les grands groupes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Alliances stratégiques et dilemmes moraux">
+
+La **horde dans Urban Strife** n'est pas la seule menace. D'autres factions, comme le Culte de la Seconde Chance, les motards Shady Lady et la Garnison de l'Armée Renégate, ont leurs propres agendas. Vos interactions détermineront votre accès aux technologies uniques et aux zones sûres.
+
+Choisir une faction en indispose souvent une autre. Cela crée une narration ramifiée où vos décisions ont un poids réel. Par exemple, aider l'Armée Renégate peut vous donner accès à des explosifs de qualité militaire — parfaits pour nettoyer des hordes massives — mais cela pourrait vous coûter la confiance des civils locaux qui fournissent nourriture et soins.
+
+<Checklist
+  id="faction-goals"
+  title="Liste de vérification des interactions de faction :"
+  items={[
+    "Identifiez la ressource principale offerte par chaque faction.",
+    "Terminez les quêtes de 'Confiance' initiales pour débloquer les droits de commerce.",
+    "Évaluez l'impact à long terme sur vos capacités de défense de base.",
+    "Surveillez les niveaux de tension des factions pour éviter les tirs croisés.",
+    "Sécurisez au moins une route commerciale 'Neutre' pour les fournitures d'urgence."
+  ]}
+/>
+
+| Faction | Ressource principale | Avantage tactique |
+| :--- | :--- | :--- |
+| **Urban Shelter** | Fournitures générales | Progression équilibrée et moral élevé. |
+| **Armée Renégate** | Équipement militaire | Accès aux explosifs et armes à feu de haut niveau. |
+| **Gang de motards** | Carburant & Pièces SUV | Mobilité accrue sur la carte et améliorations SUV. |
+| **Le Culte** | Inconnu/Discrétion | Tactiques psychologiques uniques et équipement furtif. |
+
+<Callout type="tip" title="Stratégie d'alliance">
+Si votre style de jeu se concentre sur l'élimination de la **horde dans Urban Strife** par la force brute, privilégiez une alliance avec l'Armée Renégate. Leur accès aux grenades et à l'armement lourd rend les rencontres à grande échelle beaucoup plus gérables, même si leur position morale est discutable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Conseils tactiques avancés pour les grandes rencontres">
+
+Pour vraiment maîtriser la **horde dans Urban Strife**, vous devez aller au-delà du simple tir. La discrétion, la manipulation de l'environnement et le système de voyage en SUV jouent tous un rôle. Le SUV, en particulier, agit comme une base mobile permettant des voyages étendus et un stockage supplémentaire pour le butin massif trouvé dans les ruines urbaines.
+
+La pénétration des matériaux est la mécanique la plus sous-utilisée par les nouveaux joueurs. Dans les environnements urbains, vous pouvez souvent repérer la silhouette d'un zombie à travers une cloison fine. Avec un fusil de gros calibre, vous pouvez éliminer des cibles prioritaires (comme les « Hurleurs » qui appellent d'autres hordes) sans jamais entrer dans leur champ de vision.
+
+| Type d'arme | Puissance de pénétration | Cas d'utilisation idéal |
+| :--- | :--- | :--- |
+| **Fusils à pompe** | Faible | Contrôle de foule à courte portée et nettoyage de pièces. |
+| **Fusils d'assaut** | Moyenne | Combat polyvalent et pénétration à moyenne portée. |
+| **Fusils de sniper** | Élevée | Éliminer les leaders à travers les murs et couverts. |
+| **Armes de mêlée** | Aucune | Éliminations silencieuses pour économiser les munitions. |
+
+<Callout type="info" title="Dernier conseil">
+Gardez toujours un « sac de survie » dans votre SUV. Si une rencontre avec la **horde dans Urban Strife** tourne mal, avoir une réserve secondaire de carburant et de médicaments dans votre véhicule peut faire la différence entre une fuite étroite et une élimination totale de l'équipe.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment empêcher une horde de s'emparer du tribunal ?",
+    answer: "La méthode la plus efficace est d'intercepter l'icône rouge « Horde en mouvement » sur la route avant qu'elle n'atteigne le secteur du tribunal. Si elle atteint les portes, vous devez éliminer tous les zombies et générateurs sur la carte avant la fin du minuteur."
+  },
+  {
+    question: "Qu'est-ce qui rend l'IA de la horde dans Urban Strife différente des autres jeux ?",
+    answer: "Elle utilise un système de mouvement simultané où tous les zombies agissent en même temps. Cela accélère considérablement le combat tout en conservant la profondeur tactique d'un RPG au tour par tour."
+  },
+  {
+    question: "Peut-on tirer à travers les murs dans Urban Strife ?",
+    answer: "Oui, le jeu propose un système balistique en temps réel où les projectiles peuvent pénétrer les matériaux en fonction de leur densité et des statistiques de l'arme. Les calibres élevés peuvent toucher des ennemis derrière des couverts en bois ou en métal fin."
+  },
+  {
+    question: "Que se passe-t-il si une colonie tombe face à une horde ?",
+    answer: "Le lieu devient un terrain de réapparition permanent pour les morts-vivants, tous les PNJ sont transformés en zombies, et toutes les quêtes ou opportunités commerciales associées sont perdues pour cette partie."
+  }
+]} />
+
+</Section>

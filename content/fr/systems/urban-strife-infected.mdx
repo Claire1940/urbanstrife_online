@@ -1,0 +1,118 @@
+import { Map, Shield, Target, AlertTriangle, CheckCircle, Info, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife : Guide de survie et de gestion de l'infection 2026",
+  description: "Apprenez à gérer les membres de l'équipe infectés dans Urban Strife, comprenez les mécanismes antiviraux et optimisez votre stratégie de survie en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Survival+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les mécaniques des **infectés d'Urban Strife** nécessitent des soins médicaux constants pour éviter la perte de personnages.
+- Le **traitement antiviral** est automatisé à la base lors de la visite chez le Dr Henderson toutes les 24 heures.
+- La **gestion d'escouade** permet de transférer les membres infectés dans la réserve pour éviter de perdre tout votre effectif.
+- La **vigilance face aux bugs** est essentielle ; certains joueurs peuvent rencontrer des problèmes avec la mise à jour de l'horloge des 24 heures.
+- La **progression de la campagne** peut être affectée par l'infection, alors donnez la priorité à la santé de votre médecin principal.
+</Callout>
+
+<Section icon={Shield} title="Comprendre les mécanismes de l'infection">
+
+Gérer la santé de vos survivants est la priorité absolue dans Urban Strife. Lorsqu'un membre de l'équipe est infecté, sa survie dépend de votre capacité à lui assurer une intervention médicale constante. Actuellement, l'infection ne peut pas être « guérie » instantanément avec un seul objet ; elle repose plutôt sur un cycle de maintenance récurrent à votre base.
+
+**Données de survie essentielles :**
+
+| Statut | Effet | Exigence |
+| :--- | :--- | :--- |
+| Infecté | Santé limitée dans le temps | Visite à la base toutes les 24h |
+| Sain | Pleine capacité de combat | Maintenance régulière |
+| Réserve | Progression de l'infection en pause | Échange à la base |
+
+<Callout type="tip" title="Conseil de pro">
+Si vous remarquez que le compte à rebours d'infection d'un personnage crucial est bas, transférez-le immédiatement dans votre effectif de réserve. Cela l'empêche de se transformer pendant que vous vous concentrez sur d'autres objectifs de mission.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gérer les membres de l'équipe infectés">
+
+Pour garder votre équipe en vie, vous devez comprendre l'interaction entre l'infection et les installations de votre base. Le Dr Henderson est la principale autorité médicale pour gérer ces états.
+
+<Steps>
+  <Step num="1" title="Surveiller l'état de santé">
+    Vérifiez régulièrement les constantes de votre équipe après les combats pour identifier les premiers signes d'infection.
+  </Step>
+  <Step num="2" title="Retourner à la base">
+    Visitez le refuge toutes les 24 heures pour déclencher le processus d'administration automatique des antiviraux.
+  </Step>
+  <Step num="3" title="Valider la récupération">
+    Assurez-vous que l'horloge des 24 heures se met à jour correctement ; si aucune interaction ne se produit, vérifiez l'état des blessures du personnage.
+  </Step>
+  <Step num="4" title="Utiliser les réserves">
+    Si le traitement échoue ou si vous devez donner la priorité à d'autres tâches, déplacez le membre infecté vers la liste de réserve.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Note des développeurs">
+L'équipe de développement a reconnu que certains joueurs peuvent rencontrer des bugs où l'horloge des 24 heures ne se réinitialise pas. Si votre personnage ne reçoit pas de traitement, assurez-vous de ne pas sauvegarder et effectuer un échange immédiatement, car cela peut provoquer des erreurs d'effectif.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Comparaison stratégique : Traitement vs Réserve">
+
+Le choix de la méthode de gestion d'un survivant infecté dépend de vos ressources actuelles et de l'importance de l'unité. Utilisez le tableau suivant pour décider de la meilleure marche à suivre.
+
+| Stratégie | Avantage | Risque |
+| :--- | :--- | :--- |
+| Traitement actif | Maintient l'unité opérationnelle | Nécessite des visites constantes à la base |
+| Échange en réserve | Prévient la perte de personnage | Réduit la puissance de combat active |
+| Extraction précoce | Minimise l'exposition | Risque élevé d'échec de la mission |
+
+<CardGrid cols={2}>
+  <Card title="Traitement actif">
+    - Idéal pour les unités de combat principales
+    - Maintient l'escouade unie
+    - Coût de gestion élevé
+  </Card>
+  <Card title="Stratégie de réserve">
+    - Sûr pour les unités non essentielles
+    - Permet la rotation de l'équipe
+    - Nécessite un temps d'inactivité pour le personnage
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Liste de contrôle de maintenance">
+- [ ] Vérifier le statut des survivants après chaque mission
+- [ ] Maintenir un calendrier de visites toutes les 24 heures
+- [ ] Garder un médecin de secours en bonne santé dans la réserve
+- [ ] Signaler tout bug persistant sur les [forums de la communauté Steam](https://steamcommunity.com/app/710230/discussions/)
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je guérir complètement un personnage infecté dans Urban Strife ?",
+    answer: "Actuellement, il n'existe pas de remède permanent. Vous devez gérer l'infection par des traitements antiviraux réguliers administrés à la base toutes les 24 heures."
+  },
+  {
+    question: "Que se passe-t-il si j'échange un personnage infecté pendant que je suis à la base ?",
+    answer: "Actuellement, il existe un problème connu où l'échange d'un personnage infecté à la base peut le faire disparaître de votre effectif. Il est recommandé d'éviter les échanges jusqu'à ce qu'un correctif soit vérifié."
+  },
+  {
+    question: "Pourquoi le médecin ne traite-t-il pas le membre infecté de mon équipe ?",
+    answer: "Le cycle de 24 heures nécessite que le personnage soit présent à la base. Si l'horloge ne se met pas à jour, assurez-vous que le personnage a un statut d'infection actif et que votre fichier de sauvegarde n'est pas affecté par les bugs connus actuels."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Date de sortie officielle d'Urban Strife : Lancement de la version 1.0 & Guide de survie",
+  description: "Découvrez la date de sortie officielle d'Urban Strife, les nouvelles fonctionnalités de la version 1.0, les mécaniques de combat tactique et les stratégies de survie essentielles pour l'après-apocalypse.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Launch+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki d'Urban Strife",
+  keywords: "urban strife, date de sortie, guide de survie, combat tactique, version 1.0"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Date de sortie** : La **date de sortie officielle d'Urban Strife** a été confirmée pour le **14 juillet 2026**, suite à une phase d'accès anticipé réussie.
+- **Gameplay de base** : Un mélange sophistiqué de tactiques au tour par tour à l'ancienne, de balistique réaliste et d'éléments de survie et de construction de base.
+- **Profondeur tactique** : Dispose d'un système unique de tours simultanés pour les hordes de zombies afin de maintenir un rythme de combat rapide et intense.
+- **Système de factions** : Les joueurs doivent naviguer à travers des relations complexes entre la Garde nationale, l'Église de la Seconde Chance et les motards de Shady Lady.
+- **Gestion de la base** : La reconstruction de l'Abri urbain est essentielle pour la survie à long terme, nécessitant une allocation minutieuse des ressources et le recrutement de PNJ.
+</Callout>
+
+<Section icon={Activity} title="Lancement officiel et calendrier de développement">
+
+L'attente de la **date de sortie officielle d'Urban Strife** a été une étape majeure pour les fans de RPG tactiques. Développé par White Pond Games et édité par MicroProse Software, le jeu est passé de sa phase d'accès anticipé à un lancement complet en version 1.0 le **14 juillet 2026**. Cette transition a apporté une multitude de nouveaux contenus, notamment les derniers chapitres de l'histoire, des performances optimisées et des mécaniques d'infiltration affinées.
+
+Les développeurs ont mis à profit la période d'accès anticipé, qui a débuté le 10 décembre 2024, pour recueillir les retours de la communauté et peaufiner les simulations balistiques complexes qui caractérisent le jeu. La version 1.0 représente la vision complète d'un Atlanta post-apocalyptique, où chaque trajectoire de balle est calculée et chaque choix a un poids considérable.
+
+| Étape | Date | Caractéristiques clés |
+| --- | --- | --- |
+| Lancement de l'accès anticipé | 10 déc. 2024 | Mécaniques initiales, premier acte de l'histoire, systèmes de base |
+| Mise à jour majeure de l'infiltration | 20 oct. 2025 | Révision de la vigilance ennemie, éliminations silencieuses, IA de déplacement |
+| **Version finale (1.0)** | **14 juil. 2026** | Derniers actes de l'histoire, horde de fin de partie, optimisation complète |
+| Patch 1.0.3 | 20 juil. 2026 | Optimisation du Timeline Play, corrections de bugs, ajustements de l'infiltration |
+
+<Callout type="success" title="Promotion de lancement">
+À l'heure actuelle, en juillet 2026, Urban Strife est disponible avec une offre d'introduction sur Steam, offrant une réduction de 30 % pour les nouveaux survivants désireux de s'aventurer dans les Terres dévastées.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat tactique et balistique avancée">
+
+Le combat dans Urban Strife repose sur des bases de réalisme qui le distinguent des autres jeux de stratégie au tour par tour. La version finale de la **date de sortie d'Urban Strife** propose une simulation balistique affinée où chaque projectile est traité comme un objet physique. Cela signifie que la couverture n'est pas un simple modificateur statistique de chance de toucher ; c'est une barrière physique qui peut être transpercée selon son matériau et le calibre de l'arme utilisée.
+
+Le jeu utilise un système classique de Points d'Action (PA), permettant un contrôle précis des déplacements, de la visée et de l'utilisation des objets. Les joueurs peuvent cibler des parties spécifiques du corps pour obtenir des avantages tactiques, comme paralyser les jambes d'un ennemi pour l'empêcher de s'approcher, ou viser la tête pour une élimination risquée mais très payante.
+
+<CardGrid cols={3}>
+  <Card title="Pistolets & PM">
+    - **Faible coût en PA**
+    - Excellent pour le combat rapproché
+    - Options de mobilité élevée
+  </Card>
+  <Card title="Fusils & Snipers">
+    - **Haute pénétration**
+    - Supériorité à longue portée
+    - Investissement élevé en PA requis
+  </Card>
+  <Card title="Fusils à pompe & Mêlée">
+    - **Dégâts de zone dévastateurs**
+    - Simulation basée sur les plombs
+    - Potentiel d'élimination silencieuse
+  </Card>
+</CardGrid>
+
+| Partie du corps | Effet tactique | Modificateur de dégâts |
+| --- | --- | --- |
+| **Tête** | Forte chance de mort instantanée | Dégâts x2,5 |
+| **Torse** | Chance de toucher fiable | Dégâts x1,0 |
+| **Bras** | Réduit la précision/PA de l'ennemi | Dégâts x0,7 |
+| **Jambes** | Réduit la distance de déplacement | Dégâts x0,7 |
+
+<Callout type="tip" title="Physique des matériaux">
+Vérifiez toujours le matériau de votre couverture. Une clôture en bois peut arrêter une balle de 9 mm, mais n'offrira aucune protection contre un fusil de chasse de gros calibre. Utilisez des armes de gros calibre pour débusquer les ennemis cachés derrière des murs fins.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survie et gestion de l'abri">
+
+La survie dans Urban Strife s'étend bien au-delà du champ de bataille. Votre base, appelée l'Abri urbain, est le cœur de vos opérations. Depuis la **date de sortie officielle d'Urban Strife**, la gestion de la base est devenue encore plus centrale dans la boucle de gameplay. Vous êtes responsable du bien-être d'un groupe diversifié de survivants, dont beaucoup sont fragiles et dépendent de votre protection et de votre ingéniosité.
+
+L'abri est en ruines à votre arrivée. Vous devez récupérer des matériaux pour réparer les installations, distiller de l'alcool pour le commerce, et veiller à ce qu'il y ait suffisamment de nourriture et de médicaments pour maintenir le moral à un niveau élevé. Les PNJ que vous sauvez apportent des compétences uniques, agissant comme ingénieurs, pharmaciens ou cuisiniers, ce qui est essentiel pour débloquer des recettes d'artisanat avancées et des améliorations de base.
+
+<Steps>
+  <Step num="1" title="Fouille initiale">
+    Concentrez-vous sur la collecte de matériaux de construction de base et de nourriture dans la zone suburbaine immédiate autour de l'abri.
+  </Step>
+  <Step num="2" title="Réparation des installations">
+    Priorisez l'infirmerie et la cuisine pour vous assurer que votre milice reste en bonne santé et nourrie.
+  </Step>
+  <Step num="3" title="Recrutement de spécialistes">
+    Localisez et sauvez des PNJ clés qui pourront travailler dans votre atelier et votre baie médicale afin de débloquer de meilleurs équipements.
+  </Step>
+  <Step num="4" title="Préparation à la horde">
+    Fortifiez le périmètre et stockez des munitions pour l'inévitable siège massif de zombies.
+  </Step>
+</Steps>
+
+| Installation | Fonction principale | Ressource clé |
+| --- | --- | --- |
+| **Infirmerie** | Soigne les blessures et traite les infections | Fournitures médicales |
+| **Atelier** | Répare les armes et fabrique des munitions | Pièces de ferraille |
+| **Distillerie** | Produit des marchandises d'échange (Alcool) | Sucre/Grains |
+| **Jardin** | Subvient aux besoins alimentaires | Graines/Eau |
+
+<Callout type="warning" title="Pénurie de ressources">
+Les ressources ne réapparaissent pas indéfiniment. À mesure que vous nettoyez les secteurs environnants, vous devrez vous aventurer plus loin dans des territoires dangereux contrôlés par les factions pour faire vivre l'abri.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Factions et choix moraux">
+
+Le monde d'Urban Strife est peuplé de factions que ont émergé des ruines de la civilisation. Chaque groupe a sa propre idéologie, ses forces et ses sombres secrets. Naviguer dans ces relations est un élément central de l'expérience RPG. Vos décisions quant à savoir qui aider, qui exploiter et qui éliminer modifieront radicalement le paysage politique de la ville et la fin que vous obtiendrez.
+
+La version finale de la **date de sortie d'Urban Strife** comprend des suites de quêtes entièrement développées pour les trois principaux blocs de factions. Choisir une alliance n'est pas seulement une question d'histoire ; cela offre des avantages tangibles, tels que des équipements uniques, un entraînement spécialisé pour votre milice et des améliorations spécifiques pour votre abri.
+
+<CardGrid cols={2}>
+  <Card title="La Garde nationale">
+    - **Ordre et discipline**
+    - Accès à du matériel de qualité militaire
+    - Code moral strict, souvent impitoyable
+  </Card>
+  <Card title="L'Église de la Seconde Chance">
+    - **Survie spirituelle**
+    - Moral élevé et soutien communautaire
+    - Rituels mystérieux et potentiellement dangereux
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="faction-goals"
+  title="Liste de contrôle des interactions avec les factions :"
+  items={[
+    "Terminer la reconnaissance initiale pour les motards de Shady Lady",
+    "Négocier un accord commercial avec la Garde nationale",
+    "Enquêter sur les rumeurs entourant les dirigeants de l'Église",
+    "Sécuriser une zone neutre pour les marchands indépendants",
+    "Décider quelle faction vous soutiendra lors du siège final"
+  ]}
+/>
+
+<Callout type="info" title="Réputation de faction">
+La réputation est un jeu à somme nulle. Aider une faction antagonise souvent directement une autre. Équilibrez soigneusement vos alliances pour éviter de vous retrouver entouré d'ennemis de tous côtés.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Configuration requise et performances">
+
+Pour profiter pleinement de la profondeur tactique d'Urban Strife à sa **date de sortie officielle**, il est essentiel de s'assurer que votre matériel répond aux exigences requises. Le jeu propose des calculs d'IA complexes, en particulier lors des tours simultanés de la horde de zombies, ce qui peut solliciter fortement le processeur. Un disque SSD est vivement recommandé pour minimiser les temps de chargement entre la carte du monde et les secteurs de combat tactique.
+
+| Configuration requise | Spécifications minimales | Spécifications recommandées |
+| --- | --- | --- |
+| **Système d'exploitation** | Windows 10 64-bit | Windows 10 64-bit |
+| **Processeur** | Intel i5 4690 / AMD FX 8350 | Intel i7 8700K / AMD r5 3600 |
+| **Mémoire** | 16 Go de RAM | 16 Go de RAM |
+| **Carte graphique** | Nvidia GTX 970 / RX 480 (4 Go) | Nvidia 2060 Super / RX 5700 XT (8 Go) |
+| **DirectX** | Version 11 | Version 11 |
+| **Stockage** | 20 Go d'espace disponible | 20 Go (SSD recommandé) |
+
+<Callout type="tip" title="Conseil d'optimisation">
+Si vous rencontrez des ralentissements lors des affrontements avec de grandes hordes, essayez d'ajuster les paramètres de « Timeline Play » dans le menu des options. Cela optimise la façon dont le jeu gère les déplacements simultanés des morts-vivants.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quelle est la date de sortie officielle d'Urban Strife ?",
+    answer: "Le jeu a officiellement quitté l'accès anticipé pour sortir dans sa version finale 1.0 le 14 juillet 2026."
+  },
+  {
+    question: "Y a-t-il une mort permanente (permadeath) dans Urban Strife ?",
+    answer: "Oui, le combat est mortel et les membres de votre milice peuvent mourir définitivement. Cependant, le jeu vous permet de sauvegarder à tout moment pour gérer vos risques."
+  },
+  {
+    question: "Comment fonctionne le tour de la horde de zombies ?",
+    answer: "Pour maintenir un rythme de combat rapide, tous les zombies se déplacent et agissent simultanément dans une phase dédiée, plutôt que d'avoir des tours individuels comme vos survivants."
+  },
+  {
+    question: "Puis-je jouer à Urban Strife sur le Steam Deck ?",
+    answer: "Oui, le jeu comprend des fonctionnalités d'accessibilité et des commandes qui le rendent jouable sur le Steam Deck, bien qu'un SSD soit recommandé pour une expérience optimale."
+  }
+]} />
+
+<Callout type="success" title="Verdict final">
+Avec ses systèmes tactiques profonds et ses mécaniques de survie captivantes, Urban Strife est un incontournable pour les amateurs du genre. Le lancement de la version 1.0 tient avec succès toutes les promesses faites lors de son parcours en accès anticipé.
+</Callout>
+
+</Section>

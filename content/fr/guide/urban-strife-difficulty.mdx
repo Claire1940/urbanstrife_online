@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Difficulté d'Urban Strife : 3 modes de réglage et conseils de survie Hardcore",
+  description: "Maîtrisez les niveaux de difficulté d'Urban Strife avec notre guide sur le mode Hardcore, la gestion des ressources et les stratégies de combat pour l'expérience ultime de survie zombie.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Difficulty+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "urban strife, difficulté, mode hardcore, guide de survie, combat tactique, gestion de base"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **La difficulté d'Urban Strife** propose trois réglages distincts : Facile, Normal et Hardcore, chacun modifiant considérablement la rareté des ressources et la létalité des combats.
+- **Le mode Hardcore** est conçu pour les vétérans, supprimant de nombreux indicateurs d'interface et augmentant les risques de tir ami et de perte permanente de personnages.
+- **La gestion des ressources** est un pilier critique de la difficulté, où le manque de nourriture, de médicaments ou de moral peut déclencher un game over immédiat.
+- **La furtivité et le positionnement** sont obligatoires dans les difficultés plus élevées pour éviter d'être submergé par des hordes de zombies ou des pillards humains hostiles.
+- **Les tirs à la tête** restent le moyen le plus efficace de neutraliser les menaces, bien que les chances de toucher soient nettement plus faibles en mode Hardcore.
+</Callout>
+
+<Section icon={Map} title="Comprendre les paramètres de difficulté d'Urban Strife">
+
+Choisir la bonne **difficulté d'Urban Strife** est la première décision majeure que vous aurez à prendre. Le jeu est conçu comme le successeur spirituel de RPG de survie classiques comme Dead State, ce qui signifie que même dans les réglages standard, le monde est impitoyable. Les développeurs ont confirmé qu'il existe actuellement trois niveaux de difficulté principaux, chacun ajustant l'intensité des mécanismes de survie, le comportement de l'IA ennemie et la disponibilité des fournitures cruciales comme les munitions et les antibiotiques.
+
+**Points forts de la vidéo :**
+- **Mécanismes Hardcore** : Une analyse approfondie des raisons pour lesquelles le mode Hardcore est considéré comme "vraiment très difficile" par les joueurs vétérans.
+- **Nuances de combat** : Démonstration de la furtivité, de l'utilité des armes de mêlée (comme le pied-de-biche) et des chances de toucher par arme à feu.
+- **Gestion de la base** : Aperçu du fonctionnement de l'abri et des conséquences de l'épuisement des ressources.
+- **Interaction environnementale** : Comment briser des fenêtres et piller des voitures impacte votre cycle de survie.
+
+<YouTubeEmbed videoId="IHmwSBzIgq4" title="Gameplay d'Urban Strife - Guide de difficulté Hardcore" />
+
+Le passage de Normal à Hardcore est substantiel. Dans les réglages inférieurs, vous pourriez trouver assez de médicaments pour soigner une escouade blessée, mais dans les réglages supérieurs, une seule rencontre ratée peut mener à un statut "affamé" ou "malade" qui dégénère rapidement.
+
+| Niveau de difficulté | Létalité du combat | Abondance des ressources | Assistance Interface | Recommandé pour |
+| :--- | :--- | :--- | :--- | :--- |
+| **Facile** | Faible | Élevée | HUD complet | Joueurs axés sur le récit |
+| **Normal** | Modérée | Équilibrée | HUD standard | Expérience RPG standard |
+| **Hardcore** | **Extrême** | **Très faible** | Minimaliste | Passionnés de survie |
+
+<Callout type="tip" title="Conseil de Pro">
+Si vous êtes nouveau dans le genre, commencez en Normal. La courbe de **difficulté d'Urban Strife** est raide, et le mode Hardcore supprime de nombreux indicateurs de "confort" qui vous aident à comprendre la ligne de mire et les mécanismes de bruit.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mise à l'échelle du combat et létalité de la survie">
+
+Dans Urban Strife, le combat est au tour par tour et hautement tactique. Dans les réglages de **difficulté d'Urban Strife** plus élevés, la probabilité de toucher pour les armes à distance est moins indulgente. Vous devez tenir compte de la couverture, de l'élévation et des parties spécifiques du corps que vous ciblez. Les tirs à la tête infligent des dégâts massifs mais ont un taux de réussite plus faible, ce qui en fait une stratégie à haut risque et haute récompense souvent nécessaire face à des zombies robustes ou des ennemis humains blindés.
+
+<CardGrid cols={3}>
+  <Card title="Dominance de la mêlée">
+    - **Les éliminations silencieuses** évitent d'attirer les hordes
+    - Les pieds-de-biche offrent utilité et dégâts
+    - Conserve les précieuses munitions
+  </Card>
+  <Card title="Risques des armes à feu">
+    - **Le bruit fort** attire les ennemis proches
+    - Les munitions sont extrêmement rares en Hardcore
+    - Risque élevé de **Tir Ami**
+  </Card>
+  <Card title="Tactiques furtives">
+    - Utilisez 'Shift' pour viser avec précision
+    - Contournez les rencontres pour économiser les ressources
+    - Crucial pour les missions de récupération
+  </Card>
+</CardGrid>
+
+Le tir ami est un facteur majeur qui augmente avec la difficulté. En mode Hardcore, positionner votre escouade en ligne est une recette pour le désastre, car vos propres survivants peuvent accidentellement se tirer dessus, causant des dégâts importants. Cela impose une approche tactique plus dispersée lors de chaque affrontement.
+
+| Action | Niveau sonore | Coût en munitions | Niveau de risque | Efficacité |
+| :--- | :--- | :--- | :--- | :--- |
+| **Coup de pied-de-biche** | Faible | Aucun | Moyen | ★★★★☆ |
+| **Coup de pistolet** | Moyen | 1 Balle | Élevé | ★★★☆☆ |
+| **Rafale de fusil** | Élevé | 3+ Balles | **Extrême** | ★★★★★ |
+| **Élimination furtive** | **Silencieux** | Aucun | Faible | ★★★★★ |
+
+<Callout type="warning" title="Avertissement Critique">
+Les zombies dans Urban Strife peuvent parfois "encaisser" des tirs à la tête même dans les difficultés inférieures. Ne supposez jamais qu'un seul tir mettra fin au combat ; ayez toujours un plan de secours ou assez de points d'action (PA) pour battre en retraite.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion de la base et conditions de Game Over">
+
+La difficulté ne concerne pas seulement les zombies que vous combattez ; elle concerne aussi la communauté que vous maintenez. Votre base (l'Abri) nécessite un entretien constant. En **difficulté Hardcore d'Urban Strife**, la consommation quotidienne de nourriture et de médicaments est augmentée, faisant de chaque expédition de récupération une course contre la montre. Le jeu propose plusieurs conditions de "zéro ressource" qui peuvent mettre fin brusquement à votre partie.
+
+| Ressource | Consommation quotidienne | Conséquence de l'épuisement | Méthode de récupération |
+| :--- | :--- | :--- | :--- |
+| **Nourriture** | Élevée | Famine / Perte de PV | Récupération / Agriculture |
+| **Médicaments** | Modérée | Maladie / Mort permanente | Raids d'hôpitaux / Artisanat |
+| **Moral** | Variable | Désertion / Mutinerie | Objets de luxe / Succès |
+| **Produits chimiques** | Faible | Arrêt de l'artisanat | Pillage industriel |
+
+Gérer les "résidents" de votre base est un travail à plein temps. Vous aurez un mélange de combattants actifs et de survivants inactifs. Équilibrer leurs besoins tout en envoyant des équipes chercher des fournitures est la boucle centrale du milieu de jeu. Si votre moral chute trop bas, ou si vous manquez de médicaments pour un personnage critique, le jeu n'offre pas beaucoup de "deuxième chance".
+
+<Callout type="info" title="Aperçu de la gestion">
+L'interface de gestion de la base est intentionnellement sobre pour imiter un tableur réaliste de ressources. Portez une attention particulière aux indicateurs "Affamé" et "Malade" dans votre carnet, car ce sont les premiers signes d'une partie qui échoue.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : Survivre à votre première semaine en Hardcore">
+
+Si vous choisissez de vous attaquer à la plus haute **difficulté d'Urban Strife**, vous avez besoin d'un plan spécifique pour les premiers jours. Le début de partie consiste à minimiser les risques et à maximiser l'efficacité du butin.
+
+<Steps>
+  <Step num="1" title="Collecte initiale">
+    Concentrez-vous sur la zone immédiate autour de votre voiture de départ. Vérifiez chaque coffre et ne brisez les fenêtres que si nécessaire, car le bruit peut alerter les pillards à proximité.
+  </Step>
+  <Step num="2" title="Priorisation des armes">
+    Trouvez immédiatement un pied-de-biche ou un rouleau à pointes. Ne comptez pas sur les armes à feu avant d'avoir une réserve stable d'au moins 50+ cartouches.
+  </Step>
+  <Step num="3" title="Recruter Lucy & Lee">
+    Les personnages de début de partie comme Lucy (la tireuse d'élite) et Lee sont essentiels. Assurez-vous que Lucy est positionnée sur une hauteur ou derrière une couverture pour utiliser son fusil efficacement.
+  </Step>
+  <Step num="4" title="Établir la sécurité alimentaire">
+    Votre base consommera environ 20 à 30 unités de nourriture par jour. Priorisez les épiceries et les cuisines des maisons résidentielles lors de vos trois premières missions.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Succès de stratégie">
+Utiliser un seul personnage pour la reconnaissance est souvent plus sûr que de déplacer toute l'escouade. Un éclaireur solitaire peut se faufiler dans les maisons, identifier le butin et battre en retraite sans déclencher une fusillade massive.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons et liste de contrôle Hardcore">
+
+Pour évaluer vos progrès par rapport à la courbe de **difficulté d'Urban Strife**, utilisez la liste de contrôle suivante. Si vous pouvez cocher ces éléments d'ici la fin de la première semaine de jeu, vous êtes sur la bonne voie pour survivre à l'apocalypse.
+
+<Checklist
+  id="hardcore-survival"
+  title="Repères de survie :"
+  items={[
+    "Sécuriser une réserve de nourriture de 3 jours pour tous les résidents",
+    "Acquérir au moins un fusil à longue portée avec lunette",
+    "Nettoyer avec succès un camp de pillards humains hostiles",
+    "Atteindre 50+ de moral dans les réserves de l'abri",
+    "Fabriquer au moins deux armes de mêlée améliorées"
+  ]}
+/>
+
+| Jalon | Rang de difficulté | Récompense |
+| :--- | :--- | :--- |
+| **Premier tir à la tête** | Facile | Gain de confiance |
+| **Premier nettoyage silencieux** | Moyen | Munitions économisées |
+| **Autosuffisance de la base** | **Difficile** | Survie à long terme |
+| **Vaincre une horde** | **Extrême** | Butin légendaire / Contrôle de zone |
+
+<Callout type="info" title="Note du développeur">
+Le jeu est actuellement en développement actif, avec environ 50 % du contenu des missions terminé en 2026. Attendez-vous à des pics de difficulté à mesure que de nouveaux secteurs et types d'ennemis sont introduits.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur la difficulté d'Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Puis-je changer la difficulté d'Urban Strife en cours de partie ?",
+    answer: "Actuellement, les paramètres de difficulté sont verrouillés une fois que vous commencez une nouvelle campagne. Vous devez choisir entre Facile, Normal et Hardcore lors de l'écran de création de personnage."
+  },
+  {
+    question: "Existe-t-il une option 'Mort permanente' dans Urban Strife ?",
+    answer: "Le mode Hardcore agit comme un mode semi-permadeath où la perte de personnages clés peut mener à un état de game over en raison de la perte de leurs compétences spécifiques et de leur puissance de combat."
+  },
+  {
+    question: "Quelle est la plus grande différence entre Normal et Hardcore ?",
+    answer: "Les plus grandes différences sont l'absence d'indicateurs de chance de toucher pour certaines armes, l'augmentation significative des dégâts de tir ami et des taux d'épuisement des ressources beaucoup plus sévères à la base."
+  },
+  {
+    question: "La difficulté affecte-t-elle la fin du jeu ?",
+    answer: "Bien que l'histoire principale reste la même, survivre en Hardcore offre une expérience plus 'complète' de la lutte voulue par les développeurs, bien que le contenu du jeu soit actuellement achevé à environ 50 %."
+  }
+]} />
+
+</Section>

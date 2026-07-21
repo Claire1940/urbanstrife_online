@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife GOG : Guide de survie tactique et gestion de communauté",
+  description: "Maîtrisez Urban Strife GOG grâce à notre guide d'expert sur le combat tactique, la gestion de communauté et les alliances de factions dans ce RPG de survie face aux zombies de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Tactical+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Urban Strife GOG** : Un RPG tactique axé sur la direction d'une équipe de rangers de fortune pendant une pandémie de zombies.
+- **Système de combat** : Offre un mélange profond de mécaniques d'infiltration et de combats explosifs et bruyants utilisant des balistiques réalistes.
+- **Gestion de communauté** : Vous devez fortifier la colonie d'Urban, gérer les ressources et reconstruire la civilisation humaine.
+- **Diplomatie des factions** : Le succès dépend de la conclusion d'alliances et de la navigation dans la politique complexe des groupes de survivants.
+- **Avantage sans DRM** : Jouer sur GOG garantit une propriété totale et une jouabilité hors ligne pour une expérience de survie ultime.
+</Callout>
+
+<Section icon={Map} title="Introduction à la survie dans Urban Strife GOG">
+
+Urban Strife GOG apporte une profondeur tactique rafraîchissante et old-school au genre de la survie zombie. Situé dans un monde où la civilisation humaine s'est effondrée, vous êtes chargé de diriger un groupe de rangers un peu dérangés mais capables. Votre objectif principal est de maintenir en vie la petite communauté d'Urban face à deux menaces majeures : la horde incessante de zombies et les factions humaines tout aussi dangereuses qui se disputent les restes du monde.
+
+Le jeu met l'accent sur l'importance de la propriété et de la liberté du joueur, c'est pourquoi la version **urban strife gog** est très recherchée par les fans de RPG tactiques classiques comme Jagged Alliance 2. En supprimant les contraintes de DRM, les joueurs peuvent se concentrer entièrement sur la dure réalité de la gestion post-apocalyptique sans obstacles techniques.
+
+| Fonctionnalité | Description | Avantage |
+| --- | --- | --- |
+| **Tour par tour tactique** | Déplacement sur grille et gestion des points d'action | Contrôle précis des actions de chaque ranger |
+| **Centre communautaire** | Reconstruire la colonie d'Urban | Assure une progression et une sécurité à long terme |
+| **Factions dynamiques** | Interagir avec divers groupes de survivants | Narration axée sur les choix et récompenses uniques |
+| **Système de balistique** | Pénétration des balles et dégâts réalistes | Combats à enjeux élevés où chaque tir compte |
+| **Mécaniques d'infiltration** | Éliminations silencieuses et pièges sonores | Permet de nettoyer des zones sans alerter les hordes |
+
+<Callout type="tip" title="Aperçu de gestion">
+Priorisez toujours la fortification d'Urban au début de votre campagne. Une défense de base solide réduit le risque de perdre des rangers de fortune essentiels lors des raids nocturnes de zombies.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtriser le combat tactique et l'armement">
+
+Le combat dans Urban Strife GOG est une affaire brutale qui nécessite un équilibre entre discrétion et puissance de feu écrasante. Vous ne combattez pas seulement des zombies sans cervelle ; vous affrontez également des ennemis contrôlés par l'IA qui utilisent des abris, des manœuvres de flanc et des tirs de suppression. Le jeu propose un arsenal massif d'armes, allant des arbalètes primitives aux fusils anti-matériel de gros calibre.
+
+Comprendre les mécaniques de bruit est crucial. Chaque action génère du son, et dans un monde rempli de zombies, le bruit est souvent une condamnation à mort. Vous pouvez utiliser des pièges sonores pour attirer les ennemis dans des zones de tir ou utiliser des pistolets silencieux pour des frappes chirurgicales. Cependant, quand les choses tournent mal, disposer d'un fusil à pompe ou d'une mitrailleuse pour faucher des hordes entières devient une nécessité.
+
+<CardGrid cols={3}>
+  <Card title="Approche furtive">
+    - Utilisez des **arbalètes** pour des éliminations silencieuses
+    - Déployez des **pièges sonores** pour faire diversion
+    - Éliminez les cibles une par une
+  </Card>
+  <Card title="Approche d'assaut">
+    - Utilisez des **fusils à pompe** pour le contrôle des foules
+    - Déployez des **cocktails Molotov** pour le contrôle de zone
+    - Utilisez des positions à fort couvert
+  </Card>
+  <Card title="Soutien à longue portée">
+    - Utilisez des **fusils .50 BMG** pour les cibles lourdes
+    - Assurez une couverture (overwatch) pour l'équipe
+    - Brisez les murs et les portes à distance
+  </Card>
+</CardGrid>
+
+| Catégorie d'arme | Cas d'utilisation principal | Portée recommandée | Niveau de bruit |
+| --- | --- | --- | --- |
+| **Armes de mêlée** | Éliminations silencieuses, sans munitions | Corps à corps | Silencieux |
+| **Pistolets (silencieux)** | Infiltration furtive | Courte-Moyenne | Très bas |
+| **Arbalètes** | Potentiel de munitions infinies | Moyenne | Silencieux |
+| **Fusils à pompe** | Nettoyage de groupes de zombies | Courte | Très élevé |
+| **Mitrailleuses** | Guerre de factions / Suppression | Moyenne-Longue | Élevé |
+| **Anti-matériel** | Boss et dégâts structurels | Extrême | Extrême |
+
+<Callout type="warning" title="Rareté des munitions">
+Les munitions sont une ressource rare dans Urban Strife GOG. Gardez toujours une arme de mêlée fiable ou une arbalète sur vos rangers afin d'économiser les cartouches de gros calibre pour les affrontements avec les factions humaines.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion de communauté et alliances de factions">
+
+La survie ne se joue pas seulement sur le champ de bataille ; elle se joue aussi sur le front intérieur. Dans **urban strife gog**, la communauté d'Urban sert de base d'opérations. Vous devez gérer les ressources, améliorer les installations et veiller à ce que le moral de vos survivants reste élevé. Au fur et à mesure de votre expansion, vous rencontrerez diverses factions qui se sont taillé leurs propres territoires dans les terres désolées.
+
+Le système de factions est profond et interconnecté. Conclure une alliance avec un groupe peut faire de vous l'ennemi d'un autre. Ces choix ont un impact sur les ressources que vous pouvez échanger, les renforts disponibles au combat et le destin ultime de la région.
+
+| Type de faction | Attitude générale | Marchandises d'échange potentielles | Avantage de l'alliance |
+| --- | --- | --- | --- |
+| **Militariste** | Agressif / Discipliné | Armes à feu de qualité supérieure, Armures | Soutien au combat, Entraînement |
+| **Pilleurs** | Opportuniste | Matières premières, Débris | Efficacité des ressources, Cartes |
+| **Sectaires** | Imprévisible | Fournitures médicales, Herbes | Bonus uniques, Infos d'infiltration |
+| **Civils neutres** | Méfiant | Nourriture, Outils de base | Boosts de moral, Main-d'œuvre |
+
+<Steps>
+  <Step num="1" title="Premier contact">
+    Approchez les avant-postes des factions avec prudence. Envoyer un ranger doté d'un charisme élevé peut éviter des hostilités immédiates.
+  </Step>
+  <Step num="2" title="Accomplissement des tâches">
+    La plupart des factions exigent que vous prouviez votre valeur. Accomplissez des quêtes locales pour instaurer la confiance et améliorer votre réputation.
+  </Step>
+  <Step num="3" title="Négociation">
+    Une fois la confiance établie, vous pouvez négocier des routes commerciales ou des pactes de défense mutuelle. Choisissez judicieusement, car les alliances sont souvent exclusives.
+  </Step>
+  <Step num="4" title="Expansion">
+    Utilisez l'influence de votre faction pour sécuriser de plus grandes portions de la carte, réduisant ainsi la fréquence des migrations de zombies vers Urban.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil stratégique">
+Concentrez-vous rapidement sur la sécurisation d'une ligne d'approvisionnement médical. Même les meilleurs rangers finiront par tomber malades ou subir des blessures nécessitant des médicaments avancés pour guérir correctement.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stratégies de survie avancées pour 2026">
+
+À mesure que vous progressez dans l'apocalypse, les menaces évoluent. La horde de zombies grandit et les factions humaines deviennent mieux équipées. Pour survivre au milieu et à la fin de partie dans Urban Strife GOG, vous devez adopter des doctrines tactiques avancées. Cela inclut la maîtrise de l'environnement, l'utilisation efficace des explosifs et l'optimisation des compétences de votre équipe.
+
+L'interaction avec l'environnement est une fonctionnalité clé. Vous pouvez détruire les abris avec des cocktails Molotov, abattre des murs avec des fusils lourds et utiliser la verticalité des environnements urbains à votre avantage. Tirer depuis un toit est bien plus sûr que de s'engager dans une bagarre au niveau de la rue.
+
+| Stratégie | Exécution | Résultat |
+| --- | --- | --- |
+| **Leurre** | Utiliser le bruit pour attirer les zombies dans le feu | Économise l'endurance et les munitions |
+| **Fortification** | Construire des barricades pendant les missions | Ralentit la progression de l'ennemi |
+| **Couverture (Overwatch)** | Placer plusieurs rangers pour couvrir des lignes de tir | Empêche les manœuvres de flanc |
+| **Brèche** | Utiliser des explosifs sur les passages verrouillés | Surprend les ennemis à l'abri |
+
+<Checklist
+  id="survival-checklist"
+  title="Liste de contrôle de survie quotidienne :"
+  items={[
+    "Vérifier les réserves de nourriture et d'eau à Urban",
+    "Réparer les armes à feu et les armures endommagées",
+    "Assigner des rangers à la garde ou à la reconnaissance",
+    "Scanner la radio pour détecter les signaux de détresse des factions",
+    "Planifier la prochaine route de pillage en fonction des informations obtenues"
+  ]}
+/>
+
+<Callout type="info" title="Synergie des compétences">
+Assurez-vous que votre équipe dispose d'un mélange de spécialistes. Une équipe composée uniquement de snipers sera submergée par une ruée de zombies au corps à corps, tandis qu'une équipe uniquement de combattants de mêlée sera éliminée par des pillards humains.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ d'Urban Strife GOG">
+
+Les questions suivantes couvrent les demandes les plus courantes concernant l'expérience **urban strife gog** et ses mécaniques de jeu uniques.
+
+<FAQ items={[
+  {
+    question: "Est-ce qu'Urban Strife GOG est vraiment sans DRM ?",
+    answer: "Oui, comme tous les jeux sur GOG, Urban Strife est sans DRM. Vous pouvez télécharger l'installateur hors ligne et y jouer sans connexion Internet ni lanceur tiers."
+  },
+  {
+    question: "Puis-je jouer entièrement en mode furtif ?",
+    answer: "Bien que de nombreuses missions permettent une approche entièrement furtive à l'aide d'arbalètes et d'armes de mêlée, certaines rencontres liées à l'histoire et missions de défense contre de grandes hordes peuvent nécessiter des armes à feu bruyantes et des explosifs."
+  },
+  {
+    question: "Comment recruter plus de rangers pour mon équipe ?",
+    answer: "Le recrutement est lié à votre réputation auprès des factions et à la croissance de la communauté d'Urban. Aider des survivants dans les terres désolées les amène souvent à rejoindre votre cause."
+  },
+  {
+    question: "Que se passe-t-il si un ranger meurt au combat ?",
+    answer: "Urban Strife propose des conséquences permanentes. Si un ranger meurt, il disparaît définitivement, ce qui rend chaque décision tactique et choix de positionnement extrêmement risqué."
+  }
+]} />
+
+<Callout type="tip" title="Conseil final">
+N'ayez pas peur de battre en retraite. Si une mission tourne mal, replier votre équipe pour combattre un autre jour est toujours préférable à une élimination totale du groupe.
+</Callout>
+
+</Section>

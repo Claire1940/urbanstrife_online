@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Schwierigkeitsgrad: 3 Einstellungsmodi & Hardcore-Überlebenstipps",
+  description: "Meistern Sie die Urban Strife Schwierigkeitsgrade mit unserem Guide zu Hardcore-Modus, Ressourcenmanagement und Kampfstrategien für das ultimative Zombie-Überlebenserlebnis.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Difficulty+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Der **Schwierigkeitsgrad in Urban Strife** bietet drei verschiedene Einstellungen: Einfach, Normal und Hardcore, die jeweils die Ressourcenknappheit und die Tödlichkeit der Kämpfe erheblich verändern.
+- Der **Hardcore-Modus** ist für Veteranen konzipiert. Er entfernt viele UI-Anzeigen und erhöht das Risiko von Eigenbeschuss (Friendly Fire) sowie den dauerhaften Verlust von Charakteren.
+- Das **Ressourcenmanagement** ist eine entscheidende Säule des Schwierigkeitsgrads, bei der ein Mangel an Nahrung, Medizin oder Moral zu einem sofortigen Game Over führen kann.
+- **Schleichmodus und Positionierung** sind auf höheren Schwierigkeitsgraden zwingend erforderlich, um nicht von Zombiehorden oder feindlichen menschlichen Plünderern überwältigt zu werden.
+- **Kopfschüsse** bleiben die effektivste Methode, um Bedrohungen auszuschalten, obwohl die Trefferchancen im Hardcore-Modus deutlich geringer sind.
+</Callout>
+
+<Section icon={Map} title="Die Schwierigkeitsgrade in Urban Strife verstehen">
+
+Die Wahl des richtigen **Urban Strife Schwierigkeitsgrads** ist die erste große Entscheidung, vor der Sie stehen. Das Spiel versteht sich als spiritueller Nachfolger klassischer Überlebens-RPGs wie Dead State, was bedeutet, dass die Welt selbst auf Standardeinstellungen unbarmherzig ist. Die Entwickler haben bestätigt, dass es derzeit drei Hauptschwierigkeitsgrade zur Auswahl gibt, die jeweils die Intensität der Überlebensmechaniken, das Verhalten der gegnerischen KI und die Verfügbarkeit überlebenswichtiger Vorräte wie Munition und Antibiotika skalieren.
+
+**Video-Highlights:**
+- **Hardcore-Mechaniken**: Ein tiefer Einblick in die Gründe, warum der Hardcore-Modus von erfahrenen Spielern als „wirklich, wirklich schwer“ eingestuft wird.
+- **Kampfnuancen**: Demonstration von Schleichen, der Nützlichkeit von Nahkampfwaffen (wie dem Brecheisen) und den Trefferchancen von Schusswaffen.
+- **Basis-Management**: Einblicke in die Funktionsweise des Unterschlupfs und die Folgen von Ressourcenknappheit.
+- **Interaktion mit der Umwelt**: Wie das Einschlagen von Fenstern und das Plündern von Autos Ihren Überlebenskreislauf beeinflusst.
+
+<YouTubeEmbed videoId="IHmwSBzIgq4" title="Urban Strife Gameplay - Hardcore-Schwierigkeitsgrad Walkthrough" />
+
+Der Sprung von Normal zu Hardcore ist beträchtlich. Auf niedrigeren Einstellungen finden Sie vielleicht genug Medizin, um eine verwundete Truppe zu versorgen, aber auf höheren Einstellungen kann eine einzige missglückte Begegnung zu einem „hungernden“ oder „kranken“ Zustand führen, der schnell außer Kontrolle gerät.
+
+| Schwierigkeitsgrad | Kampf-Tödlichkeit | Ressourcenfülle | UI-Unterstützung | Empfohlen für |
+| :--- | :--- | :--- | :--- | :--- |
+| **Einfach** | Niedrig | Hoch | Volles HUD | Story-fokussierte Spieler |
+| **Normal** | Moderat | Ausgewogen | Standard-HUD | Standard-RPG-Erfahrung |
+| **Hardcore** | **Extrem** | **Sehr niedrig** | Minimal | Überlebens-Enthusiasten |
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn Sie neu in diesem Genre sind, beginnen Sie auf Normal. Die Lernkurve des **Urban Strife Schwierigkeitsgrads** ist steil, und Hardcore entfernt viele der Komfort-Anzeigen, die Ihnen helfen, Sichtlinien- und Geräuschmechaniken zu verstehen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfskalierung und Überlebens-Tödlichkeit">
+
+In Urban Strife ist der Kampf rundenbasiert und hochgradig taktisch. Auf höheren **Urban Strife Schwierigkeitsgraden** verzeiht die Trefferwahrscheinlichkeit von Fernkampfwaffen weniger Fehler. Sie müssen Deckung, Höhenunterschiede und die spezifischen Körperteile, auf die Sie zielen, berücksichtigen. Kopfschüsse verursachen massiven Schaden, haben aber eine geringere Erfolgsquote, was sie zu einer risikoreichen, aber lohnenden Strategie macht, die oft notwendig ist, wenn man es mit „widerstandsfähigen“ Zombies oder gepanzerten menschlichen Gegnern zu tun hat.
+
+<CardGrid cols={3}>
+  <Card title="Dominanz im Nahkampf">
+    - **Leise Kills** verhindern das Anlocken von Horden
+    - Brecheisen bieten Nutzen und Schaden
+    - Schont wertvolle Munition
+  </Card>
+  <Card title="Risiken von Schusswaffen">
+    - **Lauter Lärm** lockt nahegelegene Feinde an
+    - Munition ist auf Hardcore extrem knapp
+    - Hohes Risiko von **Eigenbeschuss**
+  </Card>
+  <Card title="Schleichtaktiken">
+    - Nutzen Sie 'Shift', um sorgfältig zu zielen
+    - Begegnungen umgehen, um Ressourcen zu sparen
+    - Entscheidend für Plünderungsmissionen
+  </Card>
+</CardGrid>
+
+Eigenbeschuss (Friendly Fire) ist ein wesentlicher Faktor, der mit dem Schwierigkeitsgrad skaliert. Im Hardcore-Modus ist die Aufstellung Ihrer Truppe in einer Reihe ein Rezept für eine Katastrophe, da sich Ihre eigenen Überlebenden versehentlich gegenseitig anschießen und erheblichen Schaden zufügen können. Dies zwingt zu einem verteilteren, taktischeren Vorgehen bei jeder Begegnung.
+
+| Aktion | Geräuschpegel | Munitionskosten | Risikostufe | Effizienz |
+| :--- | :--- | :--- | :--- | :--- |
+| **Brecheisen-Schwung** | Niedrig | Keine | Mittel | ★★★★☆ |
+| **Pistolenschuss** | Mittel | 1 Patrone | Hoch | ★★★☆☆ |
+| **Gewehrfeuerstoß** | Hoch | 3+ Patronen | **Extrem** | ★★★★★ |
+| **Lautloser Takedown** | **Lautlos** | Keine | Niedrig | ★★★★★ |
+
+<Callout type="warning" title="Kritische Warnung">
+Zombies in Urban Strife können gelegentlich selbst auf niedrigeren Schwierigkeitsgraden Kopfschüsse „wegstecken“. Gehen Sie niemals davon aus, dass ein einziger Schuss einen Kampf beendet; haben Sie immer einen Backup-Plan oder genügend Aktionspunkte (AP) für den Rückzug.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Basis-Management und Game-Over-Bedingungen">
+
+Beim Schwierigkeitsgrad geht es nicht nur um die Zombies, die Sie bekämpfen, sondern auch um die Gemeinschaft, die Sie versorgen. Ihre Basis (der Unterschlupf) erfordert ständige Pflege. Auf dem Hardcore-**Schwierigkeitsgrad von Urban Strife** ist der tägliche Verbrauch von Nahrung und Medizin erhöht, was jede Plünderungstour zu einem Wettlauf gegen die Zeit macht. Das Spiel bietet mehrere kritische Game-Over-Bedingungen, die Ihren Spieldurchgang abrupt beenden können.
+
+| Ressource | Täglicher Verbrauch | Folge bei Erschöpfung | Wiederherstellungsmethode |
+| :--- | :--- | :--- | :--- |
+| **Nahrung** | Hoch | Verhungern / LP-Verlust | Plündern / Landwirtschaft |
+| **Medizin** | Moderat | Krankheit / Permanenter Tod | Krankenhausüberfälle / Handwerk |
+| **Moral** | Variabel | Fahnenflucht / Meuterei in der Basis | Luxusgüter / Erfolge |
+| **Chemikalien** | Niedrig | Handwerksstillstand | Industrielles Plündern |
+
+Die Verwaltung der „Bewohner“ Ihrer Basis ist ein Vollzeitjob. Sie haben eine Mischung aus aktiven Kämpfern und inaktiven Überlebenden. Die Balance zwischen ihren Bedürfnissen und dem Aussenden von Teams zur Beschaffung von Vorräten ist der Kern des Spielverlaufs im Mid-Game. Wenn Ihre Moral zu tief sinkt oder Ihnen die Medizin für einen wichtigen Charakter ausgeht, bietet das Spiel nicht viele „zweite Chancen“.
+
+<Callout type="info" title="Einblick in die Verwaltung">
+Die Benutzeroberfläche für das Basis-Management ist bewusst schlicht gehalten, um eine realistische Ressourcen-Tabelle nachzuahmen. Achten Sie genau auf die Anzeigen „Hungernd“ und „Krank“ in Ihrem Notizbuch, da dies die frühesten Anzeichen für einen scheiternden Spieldurchgang sind.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt: Überleben Sie Ihre erste Woche auf Hardcore">
+
+Wenn Sie sich entscheiden, den höchsten **Urban Strife Schwierigkeitsgrad** in Angriff zu nehmen, benötigen Sie einen genauen Plan für die ersten Tage. Im frühen Spiel geht es darum, Risiken zu minimieren und die Effizienz beim Plündern zu maximieren.
+
+<Steps>
+  <Step num="1" title="Erstes Plündern">
+    Konzentrieren Sie sich auf die unmittelbare Umgebung Ihres Startfahrzeugs. Überprüfen Sie jeden Kofferraum und schlagen Sie Fenster nur ein, wenn es unbedingt notwendig ist, da der Lärm nahegelegene Plünderer anlocken kann.
+  </Step>
+  <Step num="2" title="Priorisierung von Waffen">
+    Finden Sie sofort ein Brecheisen oder eine Stachelkeule. Verlassen Sie sich nicht auf Schusswaffen, bis Sie einen stetigen Vorrat von mindestens 50+ Schuss Munition haben.
+  </Step>
+  <Step num="3" title="Lucy & Lee rekrutieren">
+    Frühe Charaktere wie Lucy (die Scharfschützin) und Lee sind überlebenswichtig. Stellen Sie sicher, dass Lucy auf einer Anhöhe oder hinter einer Deckung positioniert ist, um ihr Gewehr effektiv einzusetzen.
+  </Step>
+  <Step num="4" title="Ernährungssicherheit herstellen">
+    Ihre Basis verbraucht täglich etwa 20-30 Einheiten Nahrung. Priorisieren Sie während Ihrer ersten drei Missionen Lebensmittelgeschäfte und Küchen in Wohnhäusern.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategischer Erfolg">
+Einen einzelnen Charakter zum Auskundschaften zu nutzen, ist oft sicherer, als die gesamte Truppe zu bewegen. Ein einsamer Späher kann sich in Häuser schleichen, Beute identifizieren und sich zurückziehen, ohne ein massives Gefecht auszulösen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hardcore-Meilensteine und Checkliste">
+
+Um Ihren Fortschritt im Vergleich zur Kurve des **Urban Strife Schwierigkeitsgrads** zu messen, nutzen Sie die folgende Checkliste. Wenn Sie diese Punkte bis zum Ende der ersten Woche im Spiel abhaken können, sind Sie auf einem guten Weg, die Apokalypse zu überleben.
+
+<Checklist
+  id="hardcore-survival"
+  title="Überlebens-Benchmarks:"
+  items={[
+    "Sichern Sie eine 3-Tage-Reserve an Nahrung für alle Bewohner",
+    "Erwerben Sie mindestens ein Langstreckengewehr mit Visier",
+    "Räumen Sie erfolgreich ein feindliches Lager menschlicher Plünderer",
+    "Erreichen Sie 50+ Moral in den Reserven des Unterschlupfs",
+    "Stellen Sie mindestens zwei verbesserte Nahkampfwaffen her"
+  ]}
+/>
+
+| Meilenstein | Schwierigkeitsgrad | Belohnung |
+| :--- | :--- | :--- |
+| **Erster Kopfschuss** | Einfach | Motivationsschub |
+| **Erste lautlose Räumung** | Mittel | Gesparte Munition |
+| **Selbstversorgung der Basis** | **Schwer** | Langfristiges Überleben |
+| **Besiegen einer Horde** | **Extrem** | Legendäre Beute / Gebietskontrolle |
+
+<Callout type="info" title="Entwickler-Hinweis">
+Das Spiel befindet sich derzeit in aktiver Entwicklung, wobei bis 2026 etwa 50% der Missionsinhalte fertiggestellt sind. Rechnen Sie mit sprunghaften Anstiegen des Schwierigkeitsgrads, wenn neue Sektoren und Gegnertypen eingeführt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Urban Strife Schwierigkeitsgrad FAQ">
+
+<FAQ items={[
+  {
+    question: "Kann ich den Schwierigkeitsgrad von Urban Strife mitten im Spiel ändern?",
+    answer: "Derzeit sind die Schwierigkeitseinstellungen gesperrt, sobald Sie eine neue Kampagne starten. Sie müssen sich bei der Charaktererstellung zwischen Einfach, Normal und Hardcore entscheiden."
+  },
+  {
+    question: "Gibt es eine „Permadeath“-Option in Urban Strife?",
+    answer: "Der Hardcore-Modus fungiert als Semi-Permadeath-Modus, bei dem der Verlust wichtiger Charaktere aufgrund des Verlusts ihrer spezifischen Fähigkeiten und Kampfkraft zu einem Game Over führen kann."
+  },
+  {
+    question: "Was ist der größte Unterschied zwischen Normal und Hardcore?",
+    answer: "Die größten Unterschiede sind das Fehlen von Trefferchancen-Anzeigen für bestimmte Waffen, ein deutlich erhöhter Schaden durch Eigenbeschuss und weitaus strengere Ressourcen-Abbauraten in der Basis."
+  },
+  {
+    question: "Beeinflusst der Schwierigkeitsgrad das Ende des Spiels?",
+    answer: "Während die Kernhandlung dieselbe bleibt, bietet das Überleben auf Hardcore eine „vollständigere“ Erfahrung des von den Entwicklern beabsichtigten Überlebenskampfes, obwohl das Spiel derzeit zu etwa 50% inhaltlich fertiggestellt ist."
+  }
+]} />
+
+</Section>

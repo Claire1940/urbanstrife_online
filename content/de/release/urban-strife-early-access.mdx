@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap, Users, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Early Access: Taktik-Survival & Basisbau-Leitfaden",
+  description: "Meistern Sie die Urban Strife Early Access-Mechaniken, von realistischer Ballistik bis hin zu Fraktionsbündnissen. Lernen Sie in diesem Leitfaden für 2026, wie man die Zombie-Apokalypse überlebt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Urban+Strife+Survival+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki-Team",
+  keywords: "Urban Strife, Early Access, Survival Guide, Taktik-RPG, Basisbau, Zombie-Apokalypse, Ballistik"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Urban Strife Early Access** ist am 14. Juli 2026 offiziell in die Version 1.0 übergegangen, die bedeutende Stealth- und KI-Optimierungen eingeführt hat.
+- **Realistische Ballistik** berechnet jede Geschossbahn und jeden Splitter, was bedeutet, dass Material und Dicke der Deckung entscheidend für das Überleben sind.
+- **Fraktionsbündnisse** mit der Nationalgarde, der Kirche der Zweiten Chance oder den Shady Lady Bikern bestimmen Ihren Story-Pfad und die Upgrades für Ihren Unterschlupf.
+- **Gleichzeitige Zombie-Züge** ermöglichen es großen Horden, sich auf einmal zu bewegen, wodurch das taktische Tempo auch bei massiven Begegnungen mit Untoten hoch bleibt.
+- **Unterschlupf-Management** ist der Kern des Spiels; Sie müssen Vorräte plündern, Einrichtungen reparieren und Spezialisten rekrutieren, um die bevorstehende stadtweite Belagerung zu überstehen.
+</Callout>
+
+<Section icon={Map} title="Die Entwicklung von Urban Strife Early Access">
+
+Urban Strife hat seit seinem ursprünglichen Debüt im **Urban Strife Early Access** Ende 2024 eine massive Transformation durchlaufen. Das von White Pond Games entwickelte und von MicroProse veröffentlichte Spiel mischt klassische rundenbasierte Taktik (TBS) mit modernen Survival-RPG-Elementen. Angesiedelt zwei Jahre nach dem Ausbruch einer Zombie-Pandemie, ist die Welt in den Tribalismus zurückgefallen, und Ihre Rolle ist es, einen kleinen Funken Zivilisation innerhalb des Urban Shelter zu bewahren.
+
+Der Übergang zum 1.0-Release im Juli 2026 brachte ein überarbeitetes Stealth-System, verbessertes Bewusstsein der Gegner und eine bessere Optimierung für die Timeline-Play-Mechanik. Die Spieler starten als mysteriöser Patient, der aus Atlanta evakuiert und von der fragilen Gemeinschaft des Urban Shelter gerettet wurde. Überleben bedeutet hier nicht nur, auf den eigenen Gesundheitsbalken zu achten; es geht um die kollektive Stabilität Ihrer Basis und die schwierigen moralischen Entscheidungen im Umgang mit lokalen Gangs und Kulten.
+
+<Callout type="warning" title="Update Version 1.0.3">
+Der neueste Patch (1.0.3), der am 20. Juli 2026 veröffentlicht wurde, befasst sich speziell mit den Stealth-Mechaniken. Gegner haben nun überarbeitete Sichtkegel, und die "Time Warp"-Funktion auf überfüllten Karten wurde für eine verzögerungsfreie Performance optimiert.
+</Callout>
+
+| Feature | Early Access (2024) | Vollversion (2026) |
+| :--- | :--- | :--- |
+| **Stealth-System** | Einfache Sichtlinienprüfung | Überarbeitete Aufmerksamkeits- & Soundmechanik |
+| **Fraktionstiefe** | Begrenzte Questreihen | Drei große Blöcke mit einzigartigen Enden |
+| **Performance** | Gelegentliche Zug-Verzögerungen | Optimiertes Timeline-Play für Horden |
+| **Basisbau** | Kern-Einrichtungen | Fortgeschrittene Produktion & Fraktions-Upgrades |
+| **Ballistik** | Standard-Zufallszahlen | Vollständige physikbasierte Simulation |
+
+</Section>
+
+<Section icon={Swords} title="Taktischer Kampf und realistische Ballistik">
+
+Der Kampf in Urban Strife wird durch ein klassisches Aktionspunkte-System (AP) gesteuert, unterscheidet sich jedoch durch eine fortschrittliche Ballistik-Engine. Im Gegensatz zu vielen RPGs, die auf abstrakte Trefferwürfe setzen, berechnet dieses Spiel die Flugbahn jedes einzelnen Projektils. Dies schließt Schrotkugeln und Granatsplitter ein, wodurch Positionierung und die Wahl der Deckung weitaus wirkungsvoller sind als einfache prozentuale Boni.
+
+<CardGrid cols={3}>
+  <Card title="Präzisionsfernkampf">
+    - **Körperteil-Zielung**: Verkrüppeln Sie Gliedmaßen oder riskieren Sie Kopfschüsse.
+    - **Geschossdurchschlag**: Großkalibrige Munition kann dünne Wände durchschlagen.
+    - **Aufsatz-Synergie**: Nutzen Sie Visiere und Kompensatoren, um den Rückstoß auszugleichen.
+  </Card>
+  <Card title="Nahkampf & Stealth">
+    - **Lautlose Takedowns**: Schalten Sie Feinde aus, ohne die Karte zu alarmieren.
+    - **Improvisierte Waffen**: Nutzen Sie alles, von Bratpfannen bis hin zu nagelbesetzten Schlägern.
+    - **Ausdauermanagement**: Nahkampf erfordert eine sorgfältige AP- und Energiebalance.
+  </Card>
+  <Card title="Hordentaktiken">
+    - **Overwatch-Hinterhalte**: Errichten Sie Todeszonen für herannahende Untote.
+    - **Gleichzeitige Züge**: Beobachten Sie, wie sich die gesamte Horde in einer Phase bewegt.
+    - **Umgebung-Kills**: Nutzen Sie explosive Fässer oder einstürzende Strukturen.
+  </Card>
+</CardGrid>
+
+Die Ballistiksimulation bedeutet, dass das Material Ihrer Deckung von Bedeutung ist. Ein Holzzaun mag eine Pistolenkugel stoppen, wird aber von einem Jagdgewehr zerfetzt. Ebenso bietet das Verstecken hinter einem Automotorblock deutlich mehr Schutz als das Verstecken hinter einer Autotür.
+
+<Callout type="tip" title="Kampfstrategie">
+Prüfen Sie vor dem Schießen immer den "Trefferchance"-Rechner. Er zeigt nicht nur einen Prozentsatz an, sondern schätzt den potenziellen Schaden basierend auf der Geschossdämpfung und dem spezifisch anvisierten Körperteil.
+</Callout>
+
+| Waffenklasse | Optimale Reichweite | Taktische Rolle | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| **Pistolen** | Kurz | Low-AP-Utility | Schnelle Reaktion, geräuscharm |
+| **Schrotflinten** | Kurz | Crowd Control | Streuschaden durch Schrotkugeln |
+| **Gewehre** | Lang | Präzisionskills | Hoher Durchschlag, hoher Schaden |
+| **Maschinenpistolen** | Mittel | Unterdrückung | Kumulativer Schaden durch Feuerstöße |
+| **Nahkampf** | Kontakt | Stealth/Ressourcenschonung | Kein Lärm, keine Munition nötig |
+
+</Section>
+
+<Section icon={Users} title="Fraktionsbündnisse und moralische Konsequenzen">
+
+Die Stadt ist unter drei Hauptfraktionen aufgeteilt, von denen jede ihre eigene Agenda und Moral verfolgt. Während Ihrer Reise im **Urban Strife Early Access** bestimmen Ihre Interaktionen mit diesen Gruppen, welche Upgrades Sie für Ihren Unterschlupf freischalten und welche Story-Pfade offen bleiben. Es gibt keine "sauberen" Allianzen; jede Wahl hat einen hohen Preis für die Bewohner des Urban Shelter.
+
+<Steps>
+  <Step num="1" title="Erster Kontakt">
+    Treffen Sie Überlebende der Nationalgarde, der Kirche der Zweiten Chance und der Shady Lady Biker. Erledigen Sie kleinere Aufgaben, um ihre Absichten einzuschätzen.
+  </Step>
+  <Step num="2" title="Verhandlung und Vertrauen">
+    Tauschen Sie Ressourcen und Informationen. Ihr Ruf wird bei einer Fraktion wachsen, während Sie potenziell andere entfremden.
+  </Step>
+  <Step num="3" title="Fraktionsausrichtung">
+    Verpflichten Sie sich einem Hauptblock. Dies schaltet fraktionsspezifische Unterschlupf-Einrichtungen wie spezialisierte Waffenkammern oder medizinische Labore frei.
+  </Step>
+  <Step num="4" title="Finale Konfrontation">
+    Bereiten Sie sich auf die Endzeit-Horde vor. Ihre Verbündeten werden je nach Ihrem Ansehen Milizunterstützung oder Ressourcen bereitstellen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Fraktionsübersicht">
+Die **Nationalgarde** konzentriert sich auf Ordnung und Feuerkraft, die **Kirche der Zweiten Chance** bietet einen spirituellen (wenn auch sektenähnlichen) Ansatz für die Apokalypse, und die **Shady Lady** Biker priorisieren das Überleben des Stärkeren und den Handel.
+</Callout>
+
+| Fraktion | Primäres Ziel | Spielervorteil | Moral |
+| :--- | :--- | :--- | :--- |
+| **Nationalgarde** | Militärische Ordnung wiederherstellen | Hochwertige Waffen & Rüstungen | Autoritär |
+| **Kirche der Zweiten Chance** | Spirituelle Erlösung | Fortgeschrittene Medizin & Moral | Fanatisch |
+| **Shady Lady** | Überleben & Profit | Handelsnetzwerke & Modifikationen | Gnadenlos |
+
+</Section>
+
+<Section icon={Shield} title="Unterschlupf-Management und Survival-Mechaniken">
+
+Der Unterschlupf (Shelter) ist das Herzstück Ihrer Operationen. Wenn Sie zum ersten Mal ankommen, ist er eine zerfallende Ruine, überfüllt mit schwachen Flüchtlingen. Ihr Erfolg hängt von Ihrer Fähigkeit ab, Materialien zu sammeln und die Basis mit Spezialisten wie Ingenieuren, Köchen und Apothekern zu besetzen.
+
+Das Plündern (Scavenging) ist ein risikoreicher Kreislauf. Sie müssen den Bedarf an Nahrung und Medizin gegen das Risiko abwägen, eine Zombiehorde oder eine rivalisierende Gang anzulocken. Sobald eine Belagerung beginnt, stoppen alle Plünderungszüge, und Sie müssen allein mit den Vorräten überleben, die Sie gebunkert haben, und den Verteidigungen, die Sie errichtet haben.
+
+<Checklist
+  id="shelter-priorities"
+  title="Wichtige Aufgaben im Unterschlupf:"
+  items={[
+    "Reparieren Sie die Krankenstation, um verwundete Milizmitglieder zu behandeln",
+    "Etablieren Sie eine nachhaltige Nahrungsquelle (Brauerei oder Garten)",
+    "Rüsten Sie die Werkstatt auf, um explosive Munition und Kits herzustellen",
+    "Sichern Sie Treibstoff für den Generator, um Strom und Moral aufrechtzuerhalten",
+    "Rekrutieren Sie lokale Spezialisten, um fortgeschrittene Einrichtungsstufen freizuschalten"
+  ]}
+/>
+
+<Callout type="success" title="Nachhaltigkeits-Tipp">
+Priorisieren Sie frühzeitig die Werkstatt. Die Fähigkeit, eigene Magazine mit hoher Kapazität und taktische Waffen-Kits herzustellen, wird Ihnen im mittleren Spielverlauf Tausende an Handelswert ersparen.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Systemanforderungen und technische Optimierung">
+
+Um die realistischen Physikeffekte und großflächigen Zombie-Begegnungen in **Urban Strife Early Access** genießen zu können, muss Ihre Hardware bestimmte Benchmarks erfüllen. Das Spiel ist aufgrund der komplexen KI und der Physikberechnungen, die in jedem Zug stattfinden, besonders speicherintensiv.
+
+<CardGrid cols={2}>
+  <Card title="Mindestanforderungen">
+    - **Betriebssystem**: Windows 10 64-bit
+    - **Prozessor**: Intel i5 4690 / AMD FX 8350
+    - **Arbeitsspeicher**: 16 GB RAM
+    - **Grafikkarte**: Nvidia GTX 970 / RX 480
+    - **Speicherplatz**: 20 GB HDD
+  </Card>
+  <Card title="Empfohlene Spezifikationen">
+    - **Betriebssystem**: Windows 10 64-bit
+    - **Prozessor**: Intel i7 8700K / AMD r5 3600
+    - **Arbeitsspeicher**: 16 GB RAM
+    - **Grafikkarte**: Nvidia RTX 2060 Super / RX 5700 XT
+    - **Speicherplatz**: 20 GB SSD (Dringend empfohlen)
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Hinweis zur Performance">
+Die Verwendung einer SSD wird für Urban Strife dringend empfohlen. Das Spiel lädt häufig hochauflösende Texturen und komplexe Kartendaten während der gleichzeitigen Zombie-Zugphase, was auf herkömmlichen Festplatten zu Rucklern führen kann.
+</Callout>
+
+| Komponente | Minimum | Empfohlen |
+| :--- | :--- | :--- |
+| **VRAM** | 4 GB+ | 8 GB+ |
+| **DirectX** | Version 11 | Version 11 |
+| **Sound** | DX Kompatibel | DX Kompatibel |
+| **Arbeitsspeicher** | 16 GB RAM | 16 GB RAM |
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Ist Urban Strife Early Access noch verfügbar?",
+    answer: "Urban Strife wurde am 14. Juli 2026 offiziell aus dem Early Access in die Version 1.0 entlassen. Die aktuelle Version enthält alle Fraktionsinhalte, die komplette Handlung und optimierte Kampfmechaniken."
+  },
+  {
+    question: "Kann ich in diesem Spiel durch Wände schießen?",
+    answer: "Ja. Dank des realistischen Ballistiksystems können großkalibrige Geschosse dünne Materialien wie Holz, Gips oder Glas durchschlagen. Die Dicke und das Material des Objekts bestimmen, wie viel Schaden gemindert wird."
+  },
+  {
+    question: "Wie funktionieren Zombie-Züge im Vergleich zu menschlichen Zügen?",
+    answer: "Menschliche und NSC-Züge nutzen ein Standard-Aktionspunkte-System. Zombie-Horden agieren jedoch in einer speziellen gleichzeitigen Phase, in der sich alle Untoten auf einmal bewegen, was den Kampf gegen große Gruppen viel schneller und intensiver macht."
+  },
+  {
+    question: "Was passiert, wenn meinem Unterschlupf die Nahrung ausgeht?",
+    answer: "Nahrungsmangel führt zu einem Sinken der Moral und Gesundheit Ihrer Überlebenden. Wenn die Moral auf Null sinkt, könnten Flüchtlinge gehen oder sterben, und die Kampfkraft Ihrer Miliz wird während Belagerungen erheblich reduziert."
+  }
+]} />
+
+</Section>

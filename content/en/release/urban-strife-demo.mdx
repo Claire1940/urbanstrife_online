@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Users, Home } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "urban strife demo: 2026 Strategy Guide & Combat Analysis",
+  description: "Master the urban strife demo with our expert guide. Explore turn-based combat, base building, and faction strategies in this 2026 survival RPG analysis.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Urban+Strife+Demo+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: The **urban strife demo** offers a deep look into turn-based survival mechanics and tactical combat.
+- **Core Mechanic**: Combat utilizes a **unique ballistic system** and simultaneous zombie movement to increase tension.
+- **Survival Strategy**: Focus on **resource management** and building alliances with local factions to secure your shelter.
+- **Tactical Tip**: Use the **destructible environment** to create new paths or eliminate enemy cover during skirmishes.
+- **Demo Content**: The current version features a completely **overhauled Prologue** with updated interface elements.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Demo: Overview and Getting Started">
+
+The **urban strife demo** introduces players to a world ravaged by a viral outbreak, setting the stage two years after the initial collapse. You take on the role of a mysterious survivor rescued by the **Urban Shelter**, a small community struggling to maintain order amidst the chaos. As a leader, your primary objective is to rebuild this sanctuary, manage the morale of your survivors, and navigate the treacherous social landscape of a post-apocalyptic American South.
+
+**Video Highlights:**
+- **Dynamic AI**: Observation of how zombies move simultaneously to speed up turn-based encounters.
+- **Ballistics**: Demonstration of projectiles penetrating materials like wood and thin metal.
+- **Base Management**: A tour of the crafting workshops and sustainability facilities.
+- **Faction Interaction**: A look at the branching dialogue system with early-game groups.
+
+<YouTubeEmbed videoId="_KHkn77UddE" title="Urban Strife Review - Is It Worth Playing for Zombie Survival Fans? | Gameplay Demo Analysis" />
+
+The demo serves as a vertical slice of the full experience, showcasing the nonlinear exploration and the heavy weight of moral decisions. Players can explore urban ruins, dense forests, and underground tunnels. To facilitate travel across these large maps, a customizable SUV is provided, which also serves as expanded storage for your scavenging runs.
+
+| Feature | Demo Availability | Description |
+| :--- | :--- | :--- |
+| **Prologue Story** | Full Access | Complete introduction to the Urban Shelter narrative. |
+| **Turn-Based Combat** | Enabled | Full tactical system including ballistics and destructible cover. |
+| **Base Building** | Partial | Access to basic workshops, infirmary, and barracks. |
+| **Factions** | 3 Groups | Interactions with the Cult, Bikers, and Rogue Army. |
+| **Exploration** | Local Hubs | Exploration of the immediate county surrounding the shelter. |
+
+<Callout type="tip" title="Pro Tip">
+Before diving into combat, check the "cheat sheet" provided in the Steam news update. It contains vital shortcuts for the interface that the in-game tutorial might gloss over too quickly.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Combat and Ballistic Systems">
+
+The heart of the **urban strife demo** lies in its sophisticated combat engine. Unlike traditional turn-based games where every unit moves individually, Urban Strife employs a **Simultaneous Move AI** for the zombie swarms. This prevents the "waiting game" often found in the genre, making encounters with large groups feel fluid and dangerous. 
+
+The ballistic system is equally impressive. Every bullet fired is treated as a physical object with a calculated trajectory. Factors such as weapon statistics and material density determine whether a shot will penetrate a wall or ricochet harmlessly. This adds a layer of depth where "cover" is relative; a wooden fence might hide you, but it won't stop a high-caliber rifle round.
+
+| Action Type | AP Cost | Tactical Benefit |
+| :--- | :--- | :--- |
+| **Standard Shot** | Medium | Reliable damage based on weapon accuracy. |
+| **Overwatch** | Variable | Automatically fire at enemies moving through your line of sight. |
+| **Melee Strike** | Low | Silent takedowns; saves precious ammunition. |
+| **Interact** | Low | Open doors, climb windows, or loot containers mid-combat. |
+| **Reload** | Low/Medium | Essential maintenance; cost varies by weapon type. |
+
+<CardGrid cols={2}>
+  <Card title="Ranged Combat Focus">
+    - **Material Penetration**: Shoot through thin cover to surprise enemies.
+    - **Line-of-Sight**: Use elevation to increase your hit probability.
+    - **Ammo Management**: Craft specialized rounds in the workshop for armored foes.
+  </Card>
+  <Card title="Melee & Stealth Focus">
+    - **Stamina Management**: Melee attacks consume stamina; don't overextend.
+    - **Silent Kills**: Clear rooms without alerting the entire neighborhood.
+    - **Environment**: Use shadows and corners to set up devastating ambushes.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Combat Warning">
+The demo currently lacks a "speed-up" mode for human-vs-human battles. Plan your turns carefully, as larger skirmishes against armed factions can take significant time to resolve.
+</Callout>
+
+</Section>
+
+<Section icon={Home} title="Base Building and Resource Management">
+
+Survival in the **urban strife demo** is not just about winning fights; it is about sustaining a community. The Urban Shelter acts as your strategic hub. Here, you must allocate resources gathered during exploration to upgrade facilities that provide long-term benefits.
+
+The management layer involves keeping group morale high while balancing the needs of your people. Workshops allow for the creation of weapon attachments and medical supplies, while gardens and barracks focus on the sustainability of food and manpower.
+
+| Facility | Primary Function | Key Upgrade Benefit |
+| :--- | :--- | :--- |
+| **Workshop** | Crafting | Unlocks advanced ammunition and weapon mods. |
+| **Infirmary** | Healing | Faster recovery from wounds and infection treatment. |
+| **Garden** | Food Production | Reduces reliance on scavenged canned goods. |
+| **Barracks** | Housing | Increases the maximum number of recruitable militia. |
+| **Garage** | Vehicle Maintenance | Improves SUV fuel efficiency and storage capacity. |
+
+<Callout type="success" title="Sustainability Tip">
+Prioritize the Garden early in the demo. Scavenged food is finite, and establishing a renewable source of nutrition ensures your survivors don't suffer morale penalties from hunger.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Faction Dynamics and Moral Choices">
+
+The American South in Urban Strife is populated by various factions, each with its own agenda and moral compass. Your interactions with these groups will determine the resources you can access and the ultimate ending of your story. The **urban strife demo** highlights three primary groups that you will encounter early in the narrative.
+
+| Faction Name | General Alignment | Unique Opportunities |
+| :--- | :--- | :--- |
+| **Cult of Second Chance** | Religious/Fanatical | Access to unique psychological buffs and recruits. |
+| **Shady Lady Bikers** | Mercenary/Protective | High-quality vehicle parts and combat training. |
+| **Rogue Army Garrison** | Authoritarian/Militaristic | High-tier firearms and tactical equipment. |
+
+Navigating these relationships is a balancing act. Allying with the Bikers might provide you with the parts needed to fix your SUV, but it could simultaneously antagonize the Rogue Army Garrison, leading to raids on your shelter. The branching dialogue system ensures that every choice carries weight, making the narrative as reactive as the tactical combat.
+
+<Callout type="info" title="Faction Influence">
+Your reputation with a faction affects trade prices and the availability of specific side quests. Always check your standing before attempting to negotiate for high-value items.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Survival Guide">
+
+To make the most of your time in the **urban strife demo**, follow these essential steps to secure your shelter and prepare for the long-term survival of your group.
+
+<Steps>
+  <Step num="1" title="Secure the Perimeter">
+    Clear the immediate area around the Urban Shelter of wandering zombies. Use melee weapons whenever possible to conserve ammo for more dangerous human encounters.
+  </Step>
+  <Step num="2" title="Scavenge for Essentials">
+    Locate nearby residential buildings to find basic building materials and food. Focus on gathering wood and scrap metal for your first workshop upgrades.
+  </Step>
+  <Step num="3" title="Establish a Workshop">
+    Build the Workshop facility as soon as you have the materials. This allows you to repair damaged firearms found in the field, which is much cheaper than buying new ones.
+  </Step>
+  <Step num="4" title="Make First Contact">
+    Approach the nearest faction outpost. Listen to their requests but avoid making permanent alliances until you have scouted the other competing groups in the area.
+  </Step>
+  <Step num="5" title="Upgrade the SUV">
+    Once the Garage is functional, focus on expanding the SUV's trunk space. This significantly increases the efficiency of your scavenging runs by allowing you to bring more loot home in a single trip.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Exploration Tip">
+Don't ignore the tunnels. While they are often infested with zombies, they frequently contain high-value medical supplies that are rare on the surface.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Demo Completion Checklist">
+
+Before finishing the **urban strife demo**, ensure you have experienced all the core systems and prepared your save for potential future updates or the full release.
+
+<Checklist
+  id="demo-milestones"
+  title="Urban Strife Demo Goals:"
+  items={[
+    "Complete the 'New Prologue' storyline",
+    "Upgrade at least two base facilities to Level 2",
+    "Successfully defend the shelter from a zombie raid",
+    "Meet all three major factions and complete one quest for each",
+    "Find and repair the customizable SUV",
+    "Unlock at least three combat skills in the skill tree"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Current Limitations and Future Outlook">
+
+As an Early Access title, the **urban strife demo** is a work in progress. While the core mechanics are robust, players should be aware of certain issues. The shift to AI-generated character portraits has been a point of contention among the community, as some feel they lack the charm of the original hand-drawn art. Additionally, the lack of a speed-up toggle for combat can make larger battles feel sluggish.
+
+However, the developers at MicroProse have been active in responding to feedback. The demo is frequently updated to address bugs and refine the UI. For fans of classic turn-based strategy and deep survival RPGs, the innovation in the ballistic and AI systems makes Urban Strife a title to watch closely in 2026.
+
+| Aspect | Current Status | Future Goal |
+| :--- | :--- | :--- |
+| **Performance** | Stable on mid-range PCs | Further optimization for low-end hardware. |
+| **Art Style** | Mixed (AI Portraits) | Potential refinement or return to hand-drawn assets. |
+| **Combat Speed** | Slow in large groups | Implementation of a speed-up or skip animations toggle. |
+| **Content Depth** | High (for a demo) | Full campaign with multiple ending variations. |
+
+<Callout type="warning" title="Development Note">
+Keep in mind that save files from the demo may not always be compatible with the final release version of the game. Use the demo primarily to learn the mechanics and test different playstyles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Urban Strife Demo FAQ">
+
+<FAQ items={[
+  {
+    question: "Is the urban strife demo free to play?",
+    answer: "Yes, the urban strife demo is currently available for free on Steam, featuring a completely overhauled Prologue for players to test the mechanics."
+  },
+  {
+    question: "Can I save my progress in the demo?",
+    answer: "Yes, you can save your progress, but be aware that major updates during the Early Access period may occasionally break save file compatibility."
+  },
+  {
+    question: "Does the demo support multiplayer?",
+    answer: "Currently, the urban strife demo focuses exclusively on the single-player RPG and tactical survival experience."
+  },
+  {
+    question: "How do the ballistics work in the game?",
+    answer: "The game uses a real-time calculation for every projectile, taking into account the material of the cover, the weapon's stats, and the angle of the shot."
+  }
+]} />
+
+</Section>

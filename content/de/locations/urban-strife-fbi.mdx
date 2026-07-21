@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife FBI: Tresorklau-Walkthrough & Stealth-Tipps",
+  description: "Meistere die FBI-Quest in Urban Strife mit unserer Schritt-für-Schritt-Anleitung. Erfahre, wie du den Tresor der Firm stiehlst, ohne einen Kampf auszulösen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=FBI+Safe+Stealth+Guide",
+  date: "2026-07-21",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptziel**: Hole den gesicherten Tresor von der Firm während der **Urban Strife FBI**-Questreihe.
+- **Quest-Ort**: Das Hinterzimmer des Fahrradladens auf der FBI-Büro-Karte.
+- **Stealth-Strategie**: Führe den Raubüberfall nach Mitternacht durch, um die Sichtkegel der Feinde und die Wachdichte zu minimieren.
+- **Wichtige Warnung**: Brich keine Fenster auf, um einzudringen, da diese Aktion sofortige Feindseligkeit der Fraktion auslöst.
+- **Alternativer Pfad**: Kampf bleibt eine brauchbare Option, falls sich Stealth als zu mühsam oder zeitraubend erweist.
+</Callout>
+
+<Section icon={Target} title="Missionsübersicht und Quest-Vorbereitung">
+
+Die Quest **Urban Strife FBI** ist eines der kniffligeren taktischen Rätsel im frühen bis mittleren Spielverlauf. Nach der Ankunft auf der FBI-Büro-Karte hat dein Trupp die Aufgabe, einen streng gesicherten Tresor zu bergen, der sich im Besitz einer Fraktion namens „The Firm“ befindet. Der Tresor wird tief im Inneren eines lokalen Fahrradladens aufbewahrt, der als Hauptquartier für den selbsternannten „Director“ dient, einen einflussreichen Biker-Anführer in der Region. 
+
+Da der Fahrradladen schwer bewacht wird, erfordert diese Quest entweder präzise taktische Planung oder ein rücksichtsloses Vorgehen im Kampf. Der Bereich um den Tresor herum ist als geschützte Zone ausgewiesen. Das bedeutet, dass jede unbefugte Interaktion mit dem Tresor oder auch nur das Entdecktwerden in unmittelbarer Nähe als direkter Diebstahl gewertet wird, wodurch die gesamte Firm-Fraktion sofort feindselig wird.
+
+| Quest-Detail | Zusammenfassung der Informationen |
+|---|---|
+| Kartenstandort | FBI-Büro-Karte |
+| Zielgebäude | Biker-Fahrradladen |
+| Kontrollierende Fraktion | The Firm |
+| Wichtiger Ziel-NPC | The Director |
+| Zielobjekt | Gesicherter Tresor |
+| Hauptaufgabe | Hohe Dichte an Sichtkegeln der Wachen |
+
+<Callout type="info" title="Fraktionsbeziehungen">
+Die Aufrechterhaltung neutraler Beziehungen zur Firm kann später in der Kampagne einzigartige Handelsmöglichkeiten und erzählerische Pfade eröffnen. Überlege es dir gut, bevor du dich entscheidest, sie zu eliminieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stealth-Mechaniken und Umgebungseinflüsse">
+
+Stealth in Urban Strife basiert stark auf dynamischen Sichtkegeln, die durch rote Quadrate auf dem taktischen Raster dargestellt werden. Wenn deine Truppmitglieder diese roten Quadrate betreten, steigt der Verdacht der Feinde. Wenn sich die Verdachtsanzeige vollständig füllt, wird der Kampf eingeleitet. Um einen erfolgreichen Raubüberfall durchzuführen, ohne einen einzigen Schuss abzugeben, musst du verstehen, wie sich Umweltfaktoren auf diese Sichtkegel auswirken.
+
+Die Tageszeit spielt eine gewaltige Rolle bei der Wachsamkeit der Wachen. Der Versuch dieses Raubüberfalls am Tag ist aufgrund überschneidender Wachpatrouillen und maximaler Sichtweite äußerst schwierig. Das Warten bis nach Mitternacht verändert jedoch die taktische Ausgangslage. Im Schutz der Dunkelheit schrumpfen die Sichtweiten der Wachen, die Patrouillenwege werden vorhersehbarer und mehrere Wachen begeben sich in statische, weniger aufmerksame Positionen.
+
+| Umgebungsfaktor | Bedingungen am Tag | Bedingungen in der Nacht (nach Mitternacht) |
+|---|---|---|
+| Sichtkegel-Reichweite | Maximale Distanz | Deutlich reduzierte Reichweite |
+| Wachdichte | Viele aktive Patrouillen | Statische Wachen, weniger aktive Augen |
+| Entdeckungsgeschwindigkeit | Schnelle Entdeckung | Langsamere Verdachtsansammlung |
+| Annäherung an den Tresor | Extrem schwierig | Mit Geduld sehr gut machbar |
+
+<CardGrid cols={3}>
+  <Card title="Geduld ist der Schlüssel">
+    - **Beobachte die Patrouillenwege**
+    - Identifiziere tote Winkel
+    - Warte, bis sich die Wachen abwenden
+  </Card>
+  <Card title="Nutze die Abklingzeit">
+    - **Zieh dich zurück, wenn du verdächtigt wirst**
+    - Warte eine Minute in Echtzeit
+    - Lass die Alarmbereitschaft der Wachen zurücksetzen
+  </Card>
+  <Card title="Vermeide Gebäudeschäden">
+    - **Lass die Fenster intakt**
+    - Knacke Schlösser lautlos
+    - Vermeide laute Geräusche
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Entwickler-Einblick">
+Die Entwickler haben darauf hingewiesen, dass das Stealth-System und die dazugehörige Benutzeroberfläche kontinuierlich verfeinert werden. Es wird dringend empfohlen, manuelle Speicherstände vor dem Betreten des Fahrradladens zu nutzen, um unvorhersehbares Wegfindungsverhalten zu umgehen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt-Anleitung zur Infiltration">
+
+Um einen makellosen, lautlosen Raubüberfall durchzuführen und den Tresor zu sichern, ohne den Director oder seine Schergen zu alarmieren, befolge diese genaue Abfolge von Aktionen. Stelle sicher, dass dein Trupp aus Charakteren mit hoher Beweglichkeit und guten Stealth-Attributen besteht, um die Infiltration zu erleichtern.
+
+<Steps>
+  <Step num="1" title="Fahrradladen lokalisieren">
+    Reise zur FBI-Büro-Karte und lokalisiere den Fahrradladen, in dem sich der Director aufhält. Leite beim Betreten keine feindseligen Aktionen ein; halte deine Waffen im Halfter, um den neutralen Status beizubehalten, während du die Umgebung auskundschaftest.
+  </Step>
+  <Step num="2" title="Zeit bis Mitternacht vergehen lassen">
+    Nutze den Kartenwechsel oder warte in der Nähe, bis die Ingame-Uhr Mitternacht überschreitet. Du wirst feststellen, dass sich die Positionen der Wachen verschieben und die Dichte der roten Sichtfelder auf dem Boden deutlich abnimmt.
+  </Step>
+  <Step num="3" title="In das Hinterzimmer eindringen">
+    Finde den Seiteneingang des Fahrradladens. Vermeide es, Fenster einzuschlagen, da Sachschäden sofortige Aggro auslösen. Nutze stattdessen einen geschickten Schlossknacker, um die Seitentür lautlos zu öffnen, sobald sich die nächste Wachpatrouille entfernt.
+  </Step>
+  <Step num="4" title="Tresor sichern und evakuieren">
+    Schleiche geduckt in das Hinterzimmer. Warte, bis sich der verbleibende Verdacht der Wachen vollständig gelegt hat. Interagiere mit dem Tresor, um ihn zu sichern, und ziehe dich dann vorsichtig auf demselben Weg aus dem Gebäude zurück, um den Sektor zu verlassen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aggro-Auslöser">
+Wenn eine Wache dich in der Nähe des Tresors erblickt, ziehe dich sofort aus ihrer Sichtlinie zurück. Versuche nicht, den Tresor zu greifen, solange die Verdachtsanzeige gelb ist, sonst löst du einen kartenweiten Alarm aus.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die Kampf-Alternative">
+
+Obwohl ein Stealth-Ansatz sehr lohnend ist, ist er nicht die einzige Möglichkeit, die Quest **Urban Strife FBI** zu lösen. Viele Spieler bevorzugen eine direkte taktische Konfrontation. Wenn dein Trupp für hochintensive Gefechte ausgerüstet ist und es dir nichts ausmacht, die Firm dauerhaft feindselig zu stimmen, ist das Säubern des Fahrradladens eine unkomplizierte Alternative.
+
+Der Kampfpfad ermöglicht es dir, das akribische Timing zu umgehen, das für Stealth erforderlich ist. Du musst dich jedoch auf einen harten Kampf einstellen, da die Schergen der Firm gut bewaffnet sind und in den engen Korridoren des Fahrradladens hervorragende Verteidigungspositionen einnehmen. Schrotflinten und Nahkampfwaffen mit hohem Schaden eignen sich in diesen Nahkämpfen besonders gut.
+
+| Metrik | Stealth-Ansatz | Kampf-Ansatz |
+|---|---|---|
+| Ressourcenkosten | Minimal (nur Dietrich) | Hoch (Munition, medizinische Vorräte) |
+| Zeitaufwand | Viel Geduld erforderlich | Schnelle, direkte Lösung |
+| Fraktionsbeziehungen | Bleibt neutral | Dauerhaft feindselig |
+| Bonus-Beute | Nur Quest-Belohnungen | Wachausrüstung und Waffendrops |
+| Risikofaktor | Gering (Verlass auf Schnellspeichern) | Hoch (Verletzung oder Tod des Trupps) |
+
+<Callout type="success" title="Vorteil im Kampf">
+Wenn du dich für den Kampf entscheidest, kessle die Biker an den Eingängen des Ladens ein. Nutze Engpässe, um zu verhindern, dass sie deinen Trupp flankieren, und setze Granaten ein, um enge Räume schnell zu säubern.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vorbereitungs-Checkliste">
+
+Bevor du dich auf den Weg zur FBI-Büro-Karte machst, um dieses Ziel anzugehen, stelle sicher, dass dein Trupp gründlich auf beide Ausgänge vorbereitet ist. Nutze diese Checkliste, um deine Einsatzbereitschaft zu überprüfen.
+
+<Checklist
+  id="fbi-quest-prep"
+  title="Checkliste vor der Mission:"
+  items={[
+    "Rekrutiere mindestens ein Truppmitglied mit hohen Fähigkeiten im Schlossknacken",
+    "Rüste Stealth-verbessernde Ausrüstung oder leichte Rüstung aus, um Geräusche zu reduzieren",
+    "Bringe ausreichend Munition und Verbandskästen mit, falls Stealth fehlschlägt",
+    "Erstelle einen sauberen manuellen Speicherstand vor dem Betreten des FBI-Büro-Sektors",
+    "Stelle sicher, dass die Ingame-Zeit auf nach Mitternacht eingestellt ist, um optimale Stealth-Bedingungen zu haben"
+  ]}
+/>
+
+<Callout type="info" title="Stealth-Fortschritt">
+Das erfolgreiche Abschließen dieser Mission, ohne die Firm zu alarmieren, gilt als große Errungenschaft für Stealth-orientierte Spielstile und beweist ein tiefes Verständnis der taktischen Sichtlinienmechanik des Spiels.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo genau befindet sich der Tresor in der Quest „Urban Strife FBI“?",
+    answer: "Der Tresor befindet sich in einem geschützten Hinterzimmer im Fahrradladen, in dem der Biker-Anführer, bekannt als der Director, auf der FBI-Büro-Karte stationiert ist."
+  },
+  {
+    question: "Warum greifen mich die Wachen an, sobald ich das Fenster einschlage?",
+    answer: "Das Einschlagen von Fenstern verursacht Lärm und Gebäudeschäden, was automatisch alle nahegelegenen Firm-Mitglieder alarmiert und sofortige feindselige Aggro auslöst."
+  },
+  {
+    question: "Wie lange dauert es, bis die Wachen vergessen, dass sie mich verdächtigt haben?",
+    answer: "Wenn du eine geringfügige Verdachtswarnung auslöst, ziehe dich aus ihrer Sichtweite zurück. Es dauert etwa eine Minute in Echtzeit, bis die Wachen in ihren passiven Zustand zurückkehren."
+  },
+  {
+    question: "Ist es besser, die Firm zu töten oder den Tresor leise zu stehlen?",
+    answer: "Den Tresor leise zu stehlen, bewahrt deinen neutralen Status bei der Firm, was zukünftige Interaktionen ermöglicht. Der Kampf ist schneller, macht die Fraktion jedoch dauerhaft feindselig."
+  }
+]} />
+
+<Callout type="tip" title="Fazit">
+Für das reichhaltigste erzählerische Erlebnis solltest du zuerst die Stealth-Route versuchen. Wenn sich die engen Patrouillenmuster als zu frustrierend erweisen, kannst du jederzeit auf deine Schusswaffen zurückgreifen, um das Gebäude zu säubern und den Tresor mit Gewalt an dich zu nehmen.
+</Callout>
+
+</Section>

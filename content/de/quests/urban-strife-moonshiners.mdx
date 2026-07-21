@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Moonshiners: Walkthrough zur Sabotage-Mission",
+  description: "Meistern Sie die Urban Strife Moonshiners Sabotage-Mission im Jahr 2026. Lernen Sie Stealth-Mechaniken, Kampf-Ablenkungs-Setups und Plünderungsstrategien.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Moonshiners+Sabotage+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki-Team",
+  keywords: "Urban Strife, Moonshiners, Sabotage, Walkthrough, Stealth, Strategie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptziel**: Sabotieren Sie sicher den Moonshine-Truck, um die Quest abzuschließen.
+- **Wichtige Mechanik**: Der sabotierte Truck benötigt 4-5 Runden, um nach dem Entfachen des Feuers zu explodieren.
+- **Beste Strategie**: Nutzen Sie den Schutz der Dunkelheit und Geräuschablenkungen für eine unblutige Flucht.
+- **Kritische Warnung**: Wenn Sie zu nah am Truck stehen, während er explodiert, wird Ihr Trupp sofort ausgeknockt oder getötet.
+- **Beute-Überlegung**: Die Eliminierung der Moonshiner bringt mehr physische Beute, aber eine friedliche Sabotage vermeidet Verletzungen im frühen Spielverlauf.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Moonshiners: Missionsübersicht">
+
+In der taktischen rundenbasierten Survival-Welt von Urban Strife erfordert der Umgang mit lokalen Fraktionen sorgfältige Planung, Ressourcenmanagement und strategische Positionierung. Eine der ersten taktischen Hürden, auf die Sie stoßen werden, betrifft die **Urban Strife Moonshiner** (Schwarzbrenner) und ihren streng bewachten Moonshine-Truck. Mit der Aufgabe betraut, diese Operation zu neutralisieren, stehen Spieler vor einem klassischen taktischen Dilemma: Schleichen Sie sich im Schutz der Dunkelheit hinein, orchestrieren Sie ein hochgradig koordiniertes Kampf-Ablenkungsmanöver oder löschen Sie einfach das gesamte Lager aus, um die Beute zu beanspruchen?
+
+Das Verständnis des Layouts des Moonshiner-Hauses und der Sabotage-Mechanik ist entscheidend, bevor Sie Ihren Trupp entsenden. Das zentrale Ziel dieser Mission ist es, den Moonshine-Truck mit einem Molotowcocktail in Brand zu setzen. Der Entwickler hat jedoch ein wichtiges mechanisches Detail bestätigt, das viele Spieler unvorbereitet trifft: Sobald der Truck in Brand gesetzt wurde, detoniert er nicht sofort. Stattdessen dauert es 4 bis 5 Runden aktiven Kampfes oder Runden-Überspringens, bis das Fahrzeug explodiert. Diese Verzögerung bedeutet, dass Sie eine Rückzugsstrategie bereit haben müssen, sobald das Feuer ausbricht.
+
+| Option | Ansatz | Risikostufe | Ressourcenkosten | Beuteertrag |
+| :--- | :--- | :--- | :--- | :--- |
+| **Stealth-Sabotage** | Nachts einschleichen, Molotow werfen, verstecken und fliehen | Niedrig | Niedrig (1 Molotow, 1 Böller) | Niedrig (Spart Munition/Medizin) |
+| **Kampf-Ablenkung** | Von Süden angreifen, Infiltrator schicken, um Truck zu verbrennen | Mittel | Mittel (Munition, Verbände) | Mittel (Etwas Beute von Leichen) |
+| **Vollständige Eliminierung** | Alle Moonshiner töten und das gesamte Gelände sichern | Hoch | Hoch (Schwere Munition, Medkits) | Hoch (Gesamter Alkohol und Ausrüstung) |
+
+<Callout type="warning" title="Warnung zur Explosionsverzögerung">
+Der Moonshine-Truck explodiert nicht sofort, wenn er von einem Molotow getroffen wird. Sie müssen 4-5 Runden nach der Entzündung überleben. Stellen Sie sicher, dass Ihr Saboteur einen freien Rückzugsweg hat und nicht in der Nähe des Explosionsradius festgesetzt wird.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Der stille Saboteur: Walkthrough für Nacht & Stealth">
+
+Für Spieler, die einen präzisen, nicht-tödlichen Ansatz bevorzugen, ist die Durchführung der Mission im Schutz der Dunkelheit absolut machbar. In Urban Strife ist der Tag-Nacht-Zyklus nicht nur kosmetisch. Dunkelheit macht einen erheblichen Unterschied bei den Sichtlinien der Gegner, verringert deren Sichtweite deutlich und ermöglicht es auf Stealth spezialisierten Charakteren, durch Lücken zu schlüpfen, die tagsüber unpassierbar wären.
+
+Um eine erfolgreiche Nachtsabotage durchzuführen, müssen Sie die Geräusch- und Ablenkungssysteme des Spiels ausnutzen. Schall breitet sich realistisch aus, und Feinde verlassen ihre Patrouillenrouten, um ungewöhnliche Geräusche zu untersuchen. Durch den Einsatz von Wurfobjekten wie Böllern können Sie die Positionierung der Wachen manipulieren und einen Pfad direkt zum Metalleingang in der Nähe des Trucks freimachen.
+
+<Steps>
+  <Step num="1" title="Warten Sie auf den Einbruch der Nacht">
+    Versuchen Sie keinen Stealth-Lauf am Tag. Warten Sie, bis der Nachtzyklus beginnt, damit die Sichtkegel der Wachen auf der Veranda stark eingeschränkt sind.
+  </Step>
+  <Step num="2" title="Infiltrieren Sie den Perimeter">
+    Nähern Sie sich dem Gelände leise. Bewegen Sie Ihren primären Saboteur an den Wachen auf der Veranda vorbei und suchen Sie Deckung in der dunklen Ecke nahe dem Metalleingang.
+  </Step>
+  <Step num="3" title="Setzen Sie Ablenkungen ein">
+    Nutzen Sie einen zweiten Charakter, der weiter hinten positioniert ist, um Böller zu werfen oder einen Ablenkungsschuss weg vom Truck abzugeben. Dies zwingt die Wachen auf der Veranda und im Hinterhof, das Geräusch zu untersuchen.
+  </Step>
+  <Step num="4" title="Entzünden Sie den Truck">
+    Sobald der Weg frei ist, lassen Sie Ihren Saboteur einen Molotowcocktail direkt auf den Moonshine-Truck werfen, um die Zündphase einzuleiten.
+  </Step>
+  <Step num="5" title="Verstecken und Evakuieren">
+    Ziehen Sie Ihren Saboteur sofort in die dunkle Ecke oder hinter das nahegelegene Haus zurück. Überspringen Sie Runden, damit sich die Wachen beruhigen, warten Sie den 4-5 Runden-Timer bis zur Detonation ab und schleichen Sie sich davon.
+  </Step>
+</Steps>
+
+| Ablenkungswerkzeug | Geräuschpegel | Effektiver Radius | Primärer Anwendungsfall |
+| :--- | :--- | :--- | :--- |
+| **Böller** | Mittel | Moderat | Einzelne Wachen von Engpässen weglocken |
+| **Ablenkungsschuss** | Hoch | Groß | Mehrere Feinde in eine ferne Ecke locken |
+| **Wurfstein** | Niedrig | Klein | Geringfügige Anpassung der Blickrichtung von Wachen |
+
+<Callout type="tip" title="Stealth-Tipp">
+Wenn die Wachen nach dem Wurf des Molotows in Richtung des Trucks wandern, könnten sie Ihren versteckten Saboteur entdecken. Werfen Sie immer direkt nach dem Entzünden des Fahrzeugs eine Ablenkung auf die gegenüberliegende Seite des Geländes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die Kampf-Ablenkungs-Strategie">
+
+Wenn reines Stealth zu passiv oder riskant erscheint, können Sie eine hybride Kampf-Ablenkungs-Strategie anwenden. Diese Methode beinhaltet die Aufteilung Ihres Trupps in zwei verschiedene taktische Elemente: einen Angriffstrupp, um die Aufmerksamkeit und das Mündungsfeuer der Moonshiner auf sich zu ziehen, und einen Solo-Infiltrator, der die Sabotage ausführt, während der Feind abgelenkt ist.
+
+Diese Strategie setzt darauf, die Moonshiner auf große Distanz zu beschäftigen. Indem Sie Ihre Schützen hinter solider Deckung in den südlichen Strukturen positionieren, können Sie die Verteidiger in ein längeres Feuergefecht verwickeln. Da die KI aktive Bedrohungen priorisiert, die auf sie schießen, hat Ihr Infiltrator freie Bahn zum Truck von der gegenüberliegenden Flanke aus.
+
+<CardGrid cols={3}>
+  <Card title="Der Infiltrator">
+    - **Hohe Mobilität**: Ausgestattet mit leichter Ausrüstung zur Maximierung der Aktionspunkte (AP).
+    - **Sabotage-Aufgabe**: Trägt den Molotow und leitet den Brand ein.
+    - **Position**: Beginnt versteckt hinter dem vorderen Haus auf der gegenüberliegenden Straßenseite.
+  </Card>
+  <Card title="Der Angriffstrupp">
+    - **Hohe Deckung**: Positioniert im südlichen Haus angrenzend an die Moonshiner.
+    - **Aggro-Generierung**: Schießt einmal, um den Kampf zu beginnen, und duckt sich dann hinter Fenster.
+    - **Position**: Fenster, Hinterhofzaun und Strukturen im Vorgarten.
+  </Card>
+  <Card title="Der Unterstützungs-Sanitäter">
+    - **Utility-Fokus**: Ausgestattet mit mehreren Verbänden und medizinischen Schienen.
+    - **Blutungsmanagement**: Bleibt in tiefer Deckung, um verwundete Angreifer zu versorgen.
+    - **Position**: Sicher hinter dem primären Einsatzteam platziert.
+  </Card>
+</CardGrid>
+
+| Charakterrolle | Empfohlene Waffe | Primäre Deckungsart | Zielpriorität |
+| :--- | :--- | :--- | :--- |
+| **Infiltrator** | Pistole / Molotow | Vollständige Wanddeckung | Keine (Feuern vermeiden, um unauffällig zu bleiben) |
+| **Angreifer (Fenster)** | Gewehr | Halbe Fensterdeckung | Verteidiger auf der Veranda |
+| **Angreifer (Hof)** | Schrotflinte | Zaun / Niedrige Mauer | Flankierende Gegner |
+
+Um diesen Plan reibungslos auszuführen, halten Sie Ihren Angriffstrupp hinter vollständiger oder halber Deckung. Versuchen Sie nicht, vorzurücken oder über Zäune zu springen; tauschen Sie einfach sporadisch Schüsse aus, um die Moonshiner festzunageln. Sobald der Infiltrator das Fahrzeug erreicht und den Molotow wirft, beginnen Sie sofort damit, Ihren Angriffstrupp zurück in Richtung Ihrer Startzone zu ziehen. Stellen Sie sicher, dass alle Truppmitglieder bei Bewusstsein und verarztet sind, bevor Sie den endgültigen Rückzug antreten, da das Zurücklassen eines kampfunfähigen Teamkameraden zu permanentem Verlust führen kann.
+
+<Callout type="success" title="Taktischer Erfolg">
+Sobald der Truck brennt, müssen Sie den Kampf nicht gewinnen. Laufen Sie zurück zu den Spawn-Grenzen der Karte. Wenn der Truck nach Ablauf des Timers explodiert, ist die Mission abgeschlossen und die Kampfbegegnung endet automatisch.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Die tödliche Route: Die Moonshiner ausschalten">
+
+Während die friedlichen und Ablenkungsmethoden höchst befriedigende taktische Rätsel sind, wählen viele Spieler schließlich die tödliche Route. Die **Urban Strife Moonshiner** vollständig zu eliminieren, ist eine lukrative Option für Trupps, die ein chaotisches Nahkampf-Feuergefecht bewältigen können.
+
+Ihre Eliminierung gewährt Ihnen ungehinderten Zugang zum gesamten Gelände und ermöglicht es Ihnen, das Haus nach wertvollen Ressourcen, Waffen, Munition und den begehrten Alkoholvorräten zu durchsuchen. Darüber hinaus führt der friedliche Abschluss der Mission nicht dazu, dass die Moonshiner das Gebiet sofort verlassen; Dialoge mit dem NPC Joe Hicks deuten an, dass er sich ohnehin später um sie kümmern wird. Für Spieler, die keine wertvolle Beute zurücklassen wollen, ist ein voller Angriff die ultimative Lösung.
+
+<Checklist
+  id="lethal-raid"
+  title="Ziele für den tödlichen Vorstoß:"
+  items={[
+    "Zuerst die wütenden, betrunkenen Patrouillen außerhalb des Perimeters ausschalten",
+    "Kreuzfeuer-Positionen um den südlichen und vorderen Eingang etablieren",
+    "Böller benutzen, um nahegelegene Zombies in den Kampf zu ziehen und die Verteidiger zu schwächen",
+    "Systematisch die Wachen auf der Veranda und im Hinterhof eliminieren",
+    "Das gesamte Moonshiner-Haus plündern und alle Alkohol- und Vorratskisten sichern"
+  ]}
+/>
+
+| Beutetyp | Taktischer Wert | Häufige Fundorte | Empfohlene Aktion |
+| :--- | :--- | :--- | :--- |
+| **Alkohol / Schnaps** | Hoher Tauschwert, Handwerksressource | In Kisten im Haupthaus | Alles einsammeln; nichts zurücklassen |
+| **Munition** | Entscheidende Kampfressource | Leichen von Wachen, Spinde | Pistolen- und Gewehrkaliber priorisieren |
+| **Medizinische Vorräte** | Hält den Trupp kampfbereit | Badezimmerschränke, Sanitätstaschen | Verbände und Schmerzmittel aufstocken |
+
+Wenn Sie diese Route wählen, sollten Sie die Umgebung zu Ihrem Vorteil nutzen. Das umliegende Gebiet ist oft von Zombies bevölkert. Indem Sie Böller in der Nähe der Wachposten der Moonshiner werfen, können Sie Horden von Untoten direkt in deren Verteidigungslinien locken. Dies erzeugt einen chaotischen Dreifrontenkrieg, der es Ihrem Trupp ermöglicht, sich zurückzulehnen, Munition zu sparen und die überlebenden, geschwächten menschlichen Verteidiger auszuschalten.
+
+<Callout type="info" title="Tipp zur Beute-Ökonomie">
+Alkohol ist eines der wichtigsten Handelsgüter in Urban Strife. Wenn Sie die Moonshiner ausschalten und ihren Vorrat horten, erhalten Sie eine immense Kaufkraft bei lokalen Händlern und Fraktionszentren im frühen Spiel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Kann ich die Urban Strife Moonshiners Quest abschließen, ohne jemanden zu töten?",
+    answer: "Ja. Sie können die Mission friedlich abschließen, indem Sie sich nachts einschleichen, einen Molotow auf den Truck werfen, sich verstecken, bis er nach 4-5 Runden explodiert, und dann verschwinden, ohne die Wachen in einen direkten Kampf zu verwickeln."
+  },
+  {
+    question: "Warum explodiert der Moonshine-Truck nicht sofort nach dem Wurf des Molotowcocktails?",
+    answer: "Die Spielmechanik erfordert, dass das Feuer 4 bis 5 Runden brennt, bevor der Truck detoniert. Sie müssen während dieser Countdown-Phase überleben und sich außerhalb des Explosionsradius aufhalten."
+  },
+  {
+    question: "Beeinflusst der Tag-Nacht-Zyklus tatsächlich die gegnerische Entdeckung während dieser Mission?",
+    answer: "Absolut. Dunkelheit reduziert die visuelle Erkennungsreichweite der Moonshiner erheblich, was es viel einfacher macht, an den Wachen auf der Veranda vorbeizuschleichen, als bei einem Versuch am Tag."
+  },
+  {
+    question: "Was passiert mit den Moonshinern, wenn ich die friedliche Sabotage-Route wähle?",
+    answer: "Wenn Sie die Mission friedlich abschließen, bleiben die Moonshiner vorübergehend im Gebiet. Dialoge mit Joe Hicks deuten darauf hin, dass sie später erledigt werden, was viele Spieler dazu veranlasst, zurückzukehren und sie wegen ihrer wertvollen Beute zu eliminieren."
+  }
+]} />
+
+<Callout type="tip" title="Abschließendes Urteil">
+Egal, ob Sie den stillen Pfad des Saboteurs oder den lauten Pfad des Eroberers wählen: Richtige Abstände und Rundenmanagement sind Ihre größten Stärken. Halten Sie Ihre Truppmitglieder stets mit Verbänden bereit, um unerwartete blutende Wunden zu versorgen.
+</Callout>
+
+</Section>

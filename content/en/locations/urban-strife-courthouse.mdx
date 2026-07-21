@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, MessageSquare, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Courthouse: Step-by-Step Clearing & Quest Guide",
+  description: "Master the Urban Strife courthouse mission in 2026. Learn how to break locked doors, clear zombie spawners, and navigate the Judge Jenny Saint questline.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Courthouse+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban strife courthouse**: A high-stakes location featuring faction conflicts and dense undead clusters.
+- **Door Mechanics**: Use **blunt weapons** (crowbars/hammers) to break barricaded doors; sharp blades will fail.
+- **Stealth Priority**: Use silenced weapons and melee kills to thin the herd before engaging spawners.
+- **Faction Choice**: Siding with Judge Jenny Saint vs. the Cult significantly alters late-game rewards and story paths.
+- **Essential Gear**: Carry Molotovs for spawners and at least one blunt weapon for environmental interaction.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Courthouse Overview">
+
+The **urban strife courthouse** serves as a critical juncture in the 2026 survival campaign. Originally a center of law, it was converted into a makeshift hospital during the initial outbreak. This transition explains the abundance of medical supplies found within, but it also accounts for the high concentration of "Herder" zombies and spawners. Players arriving here will face a tripartite conflict involving the Sheriff’s Office, the Cult of Zombie Worshippers, and the local authority led by Judge Jenny Saint.
+
+**Video Highlights:**
+- **Stealth Tactics**: Demonstrating how to use Benny for silent melee takedowns.
+- **Environmental Interaction**: Identifying which doors require blunt force rather than lockpicking.
+- **Spawner Management**: Using fire to permanently stop zombie reinforcements.
+- **Faction Interaction**: A look at the initial dialogue with the Cultist Leader.
+
+<YouTubeEmbed videoId="NuygBnhw0l0" title="Clearing the Courthouse in Urban Strife" />
+
+<Callout type="tip" title="Strategic Entry">
+Before entering the main hall, check the security cage near the entrance. It often contains basic ammunition and serves as a safe fallback point if a room clear goes south.
+</Callout>
+
+| Area | Key Features | Loot Priority |
+| :--- | :--- | :--- |
+| **Security Cage** | Initial entry point, gated | Basic ammo, melee weapons |
+| **Main Hallway** | High visibility, patrol zone | Scavengeable containers |
+| **Jail Cells** | Tight corridors, high risk | Hidden stashes, crafting parts |
+| **Courtroom** | Large open space, cover available | Lore documents, minor loot |
+| **The Bathroom** | Barricaded, contains survivors | Quest items, medical kits |
+
+</Section>
+
+<Section icon={Swords} title="Tactical Clearing: Combat and Stealth">
+
+Success in the **urban strife courthouse** requires a hybrid approach. While the game allows for loud, aggressive playstyles, the density of the undead in the jail and hospital wings makes stealth the superior choice for the first half of the mission.
+
+<CardGrid cols={3}>
+  <Card title="The Stealth Lead">
+    - Use **Benny** or a high-dexterity character.
+    - Equip knives or silenced crossbows.
+    - Stay crouched to minimize detection range.
+  </Card>
+  <Card title="The Spawner Specialist">
+    - Equip **Billy Bo** with Molotov cocktails.
+    - Focus on burning nests immediately upon discovery.
+    - Use fire to create chokepoints.
+  </Card>
+  <Card title="The Heavy Support">
+    - Keep **Lucy** or **Kaye** with FMJ ammo as backup.
+    - Only engage if stealth is broken.
+    - Prioritize "Herder" variants.
+  </Card>
+</CardGrid>
+
+When clearing the back rooms, you will encounter zombie spawners. These are organic masses that periodically vomit new enemies into the combat zone. If you do not destroy these with fire or high-explosive damage, the encounter can become an infinite drain on your resources.
+
+<Callout type="warning" title="Detection Warning">
+If a zombie "Herder" spots you, they have a wider detection range than standard walkers. They can alert the entire floor, turning a stealth run into a frantic shootout.
+</Callout>
+
+| Enemy Type | Behavior | Best Counter |
+| :--- | :--- | :--- |
+| **Shambler** | Slow, predictable | Melee/Knife to the head |
+| **Herder** | High awareness, alerts others | Silenced ranged fire |
+| **Spawner** | Creates new zombies | Molotov/Incendiary |
+| **Cultist** | Armed with melee/crossbows | Tactical cover and flanking |
+
+</Section>
+
+<Section icon={Target} title="The Locked Door Mechanic: Breaking In">
+
+A common point of frustration within the **urban strife courthouse** is the barricaded bathroom door. Many players attempt to use lockpicks or sharp melee weapons (like mower blades or kitchen knives) only to find the door "invulnerable." This is a specific mechanical check implemented by the developers.
+
+<Steps>
+  <Step num="1" title="Identify the Target">
+    Locate the barricaded door where voices are heard. This is usually in the central hospital wing.
+  </Step>
+  <Step num="2" title="Equip a Blunt Weapon">
+    Switch to a **Crowbar**, **Hammer**, or even a **Garden Shear** used in blunt mode. Sharp blades do not have the "S" (Special Melee) impact required for wood and metal barricades.
+  </Step>
+  <Step num="3" title="Enter Combat Mode">
+    If the cursor does not automatically change, manually enter combat mode. Select the "S" attack mode on your weapon tablet.
+  </Step>
+  <Step num="4" title="Bash the Barricade">
+    Expend action points to strike the door. It may take several turns depending on the character's strength and the weapon's durability.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Developer Insight">
+In the 2026 build, blunt weapons can also be used to smash car windows for Dexterity XP and looting, though the courthouse doors remain the primary use case for this mechanic.
+</Callout>
+
+</Section>
+
+<Section icon={MessageSquare} title="Questline: Judge Jenny Saint and the Cult">
+
+The narrative core of the **urban strife courthouse** involves Judge Jenny Saint. She presents herself as the voice of order, but lore clues suggest a darker history. After clearing the undead, you will be granted an audience with her, provided you haven't already turned the courthouse hostile by attacking the guards.
+
+**Key Quest Branches:**
+- **The Humanitarian Path**: Attempting to negotiate between the Cult and the Judge. This is difficult and requires high charisma/dialogue checks.
+- **The Heel Turn**: Siding entirely with the Judge. This involves eliminating the Cult of Zombie Worshippers and retrieving the Saint estate deeds.
+- **The Truth Seeker**: Finding the "Top Secret" research reports that implicate the Judge in the massacre of original hospital patients.
+
+<Checklist
+  id="courthouse-objectives"
+  title="Courthouse Completion Checklist:"
+  items={[
+    "Eliminate all undead in the hospital wing",
+    "Destroy the two primary zombie spawners",
+    "Rescue the trapped survivors in the bathroom",
+    "Find the Saint Estate Deeds in the office safe",
+    "Confront or Assist Judge Jenny Saint"
+  ]}
+/>
+
+<Callout type="info" title="Hidden Clue">
+There is a "Locked Clue" involving the drunk guard and Nurse Tina. Confronting the Judge with evidence of the hospital's failure (found in the Top Secret documents) unlocks unique dialogue options but may make the faction hostile.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Traders and Resource Management">
+
+Once the **urban strife courthouse** is stabilized (or if you are on neutral terms with the Judge), you gain access to several high-tier traders. This is one of the best locations in the early-to-mid game for medical supplies and armor upgrades.
+
+| Trader | Location | Specialty |
+| :--- | :--- | :--- |
+| **Nurse Tina** | Hospital Wing | Medkits, Antibiotics, Glue |
+| **Officer Duly** | Second Floor | Flak Vests, FMJ Ammo, Bolts |
+| **Lenny** | The Pub (Basement) | Alcohol, Morale Items |
+| **John Adams** | Near the Pub | Quest NPC (Kaylee's Father) |
+
+**Inventory Optimization:**
+The courthouse is heavy on loot, often leading to encumbrance. Use the "Loot Distribution" strategy:
+- **Heavy Items**: Give to Rangtang or Billy Bo.
+- **Crafting Ingredients**: Consolidate on Kaye.
+- **Medical Supplies**: Keep on Lucy for immediate field use.
+
+<Callout type="warning" title="Construction Materials">
+Note that the Courthouse faction rarely sells construction materials (Recycled Goods). For those, you must trade with the Military faction or scavenge the Supermarket.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusion and FAQ">
+
+Clearing the **urban strife courthouse** is more than just a combat encounter; it is a test of your understanding of the game's environmental mechanics. Whether you choose to support the rigid law of Judge Saint or the desperate survival of the Cult, the resources found here—especially the armor and medical supplies—will carry your squad through the next several chapters of the 2026 campaign.
+
+<FAQ items={[
+  {
+    question: "Why can't I break the courthouse bathroom door?",
+    answer: "You must use a blunt weapon like a crowbar or hammer. Sharp weapons like knives or mower blades will not work. Ensure you are in combat mode and using the special melee attack (S)."
+  },
+  {
+    question: "Where is the Saint Estate Deed located?",
+    answer: "The deed is located in a safe within the Judge's private chambers or the adjacent office. You may need to complete the 'Clear Undead' objective before the room becomes accessible."
+  },
+  {
+    question: "Is it better to side with the Judge or the Cult in Urban Strife?",
+    answer: "Siding with the Judge provides better access to military-grade gear and armor. Siding with the Cult offers more morale-based rewards and a 'good' alignment path, though it is tactically more difficult."
+  },
+  {
+    question: "How do I stop zombies from spawning in the courthouse?",
+    answer: "You must find the organic spawners (piles of flesh) and destroy them using fire. Molotov cocktails are the most efficient method for this."
+  }
+]} />
+
+</Section>

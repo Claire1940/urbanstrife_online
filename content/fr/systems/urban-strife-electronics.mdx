@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Wrench, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Électronique dans Urban Strife : Meilleurs Lieux de Pillage et Utilisations pour l'Artisanat",
+  description: "Maîtrisez l'utilisation de l'électronique dans Urban Strife. Apprenez où trouver des composants rares, comment démonter des appareils et les meilleures recettes d'artisanat pour la survie.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Electronics+Looting+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki Urban Strife",
+  keywords: "urban strife, électronique, pillage, artisanat, composants, survie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Électronique d'Urban Strife** : Composants essentiels pour l'énergie de la base, les pièges avancés et les modifications d'armes de haut niveau.
+- **Meilleurs Lieux de Pillage** : Concentrez-vous sur les immeubles de bureaux, les quincailleries et les cuisines résidentielles pour un rendement optimal.
+- **Priorité de Démontage** : Portez toujours un tournevis pour démonter les radios et les micro-ondes afin d'extraire des cartes de circuits imprimés rares.
+- **Progression de la Base** : L'électronique est le principal goulot d'étranglement pour l'amélioration du réseau électrique et du réseau de communication de l'abri.
+- **Valeur d'Échange** : Les composants électroniques haut de gamme ont souvent plus de valeur que la monnaie brute lors de transactions avec des factions portées sur la technologie.
+</Callout>
+
+<Section icon={Zap} title="Le Rôle de l'Électronique d'Urban Strife dans la Survie">
+
+Dans le monde brutal de ce RPG tactique, **l'électronique d'urban strife** représente le pont entre la survie primitive et la dominance tactique moderne. Bien qu'une batte solide ou un pistolet basique puissent vous aider à traverser les premiers jours, vous ne pouvez espérer sécuriser votre abri ou maîtriser les défis de fin de jeu sans un approvisionnement constant en composants électroniques. Ces objets ne sont pas de simples butins ; ils sont le sang vital de l'infrastructure de votre base et le « cerveau » de vos mesures défensives les plus efficaces.
+
+L'électronique est classée selon sa complexité et sa rareté. Du simple fil de cuivre trouvé dans les appareils ménagers aux processeurs sophistiqués de qualité militaire requis pour les optiques avancées, comprendre ce qu'il faut garder et ce qu'il faut laisser est une compétence vitale pour tout récupérateur.
+
+| Type de Composant | Sources Communes | Utilisation Principale | Rareté |
+| :--- | :--- | :--- | :--- |
+| **Fil de Cuivre** | Grille-pain, Lampes, Murs | Alimentation de l'abri, Pièges de base | Commun |
+| **Débris Électroniques** | Radios cassées, Jouets | Réparations générales, Remplissage d'artisanat | Commun |
+| **Cartes de Circuits** | Ordinateurs, Micro-ondes | Mods d'armes avancés, Réseau électrique | Rare |
+| **Capteurs** | Alarmes de mouvement, Caméras | Tourelles auto, Mines de proximité | Très Rare |
+| **Cellules d'Énergie** | Équipement industriel | Améliorations de base de haut niveau | Légendaire |
+
+<Callout type="tip" title="Gestion de l'Inventaire">
+L'électronique est souvent légère mais occupe un espace important sous sa forme brute (comme les radios entières). Démontez toujours les gros objets sur le terrain pour extraire les composants purs d'**électronique d'urban strife** afin de maximiser votre capacité de transport.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Meilleurs Lieux de Pillage pour les Composants Électroniques">
+
+Trouver de **l'électronique d'urban strife** nécessite une approche de récupération ciblée. Bien que vous puissiez trouver un fil égaré dans presque n'importe quelle maison, les zones technologiques à haute densité sont les seuls endroits où vous pouvez cultiver de manière fiable les cartes de circuits imprimés et les capteurs nécessaires à la progression en fin de partie. Les centres urbains offrent les récompenses les plus élevées mais comportent des risques nettement plus importants, tant de la part des morts-vivants que des factions rivales.
+
+<CardGrid cols={3}>
+  <Card title="Complexes de Bureaux">
+    - **Haute Densité** : Des dizaines de PC et d'imprimantes.
+    - **Butin** : Cartes de circuits imprimés et câbles d'alimentation.
+    - **Risque** : Forte densité de zombies dans des box étroits.
+  </Card>
+  <Card title="Quincailleries">
+    - **Technologie Utilitaire** : Capteurs de mouvement et câblage.
+    - **Butin** : Outils spécialisés et batteries.
+    - **Risque** : Souvent ciblées par d'autres PNJ récupérateurs.
+  </Card>
+  <Card title="Cuisines Résidentielles">
+    - **Rendement d'Appareils** : Micro-ondes et mixeurs.
+    - **Butin** : Débris de base et fil de cuivre.
+    - **Risque** : Risque faible, idéal pour le début de partie.
+  </Card>
+</CardGrid>
+
+Lors de l'exploration de ces zones, portez une attention particulière à l'environnement. De nombreux joueurs négligent les thermostats muraux ou les systèmes d'interphone, qui peuvent être récoltés pour de petites mais critiques quantités de technologie.
+
+| Catégorie de Lieu | Rendement de Butin Attendu | Niveau de Menace | Outils Requis |
+| :--- | :--- | :--- | :--- |
+| **Centres Tech Urbains** | Élevé (Cartes, Capteurs) | Extrême | Tournevis, Pied-de-biche |
+| **Maisons de Banlieue** | Faible (Fils, Débris) | Minimal | Aucun |
+| **Zones Industrielles** | Moyen (Cellules, Gros Fils) | Élevé | Clé, Coupe-boulons |
+| **Postes Militaires** | Très Élevé (Tech Militaire) | Mortel | Crochets, Outil de Hack |
+
+<Callout type="warning" title="Dangers de Sécurité">
+Les lieux riches en technologie sont fréquemment piégés par des alarmes. Déclencher une alarme silencieuse en pillant de **l'électronique d'urban strife** peut attirer une horde sur votre position avant que vous n'ayez fini de démonter ce rack de serveurs lucratif.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Processus de Démontage et d'Extraction">
+
+Vous ne trouvez pas toujours **l'électronique d'urban strife** dans un état prêt à l'emploi. La plupart de vos composants de haut niveau proviendront du démontage d'objets complexes trouvés dans le monde. Ce processus nécessite des outils spécifiques et un personnage ayant un niveau de compétence « Technique » ou « Artisanat » décent pour s'assurer de ne pas endommager les pièces délicates pendant l'extraction.
+
+<Steps>
+  <Step num="1" title="Acquérir les Bons Outils">
+    Assurez-vous que votre récupérateur est équipé d'un **Outil multifonction** ou d'un **Tournevis**. Sans cela, vous ne pourrez que fracasser les objets pour obtenir des débris de base, perdant ainsi les cartes de circuits imprimés rares.
+  </Step>
+  <Step num="2" title="Identifier les Cibles de Haute Valeur">
+    Priorisez les objets tels que les ordinateurs de bureau, les téléviseurs et les fours à micro-ondes. Ceux-ci contiennent la concentration la plus dense de pièces électroniques.
+  </Step>
+  <Step num="3" title="Effectuer l'Extraction">
+    Utilisez l'action « Démonter » depuis l'inventaire ou le menu d'interaction. Le niveau de compétence de votre personnage déterminera le pourcentage de chance de recevoir des composants « Avancés » par rapport aux débris « Basiques ».
+  </Step>
+  <Step num="4" title="Trier et Stocker">
+    Convertissez immédiatement les objets encombrants en composants empilables. Cela vous permet de rester plus longtemps sur le terrain et de collecter plus d'**électronique d'urban strife** avant de retourner à votre abri.
+  </Step>
+</Steps>
+
+| Objet à Démonter | Butin Garanti | Butin Bonus Potentiel | Compétence Requis |
+| :--- | :--- | :--- | :--- |
+| **PC de Bureau** | 2x Carte de circuit | 1x Ventilateur, 3x Fil | Moyen |
+| **Radio** | 1x Débris électronique | 1x Fil de cuivre | Faible |
+| **Panneau Industriel** | 3x Gros fil | 1x Cellule d'énergie | Élevé |
+| **Caméra de Sécurité** | 1x Capteur | 1x Lentille optique | Élevé |
+
+<Callout type="success" title="Bonus d'Efficacité">
+Les personnages dotés du trait « Magicien de la Tech » ont 20 % de chances supplémentaires d'extraire des cartes de circuits imprimés intactes des appareils endommagés, ce qui en fait vos « Maîtres de la Récupération » désignés.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Artisanat Stratégique avec l'Électronique">
+
+Une fois que vous avez amassé un stock d'**électronique d'urban strife**, le vrai plaisir commence. L'artisanat dans Urban Strife ne consiste pas seulement à fabriquer de meilleures armures ; il s'agit d'utiliser la technologie pour manipuler le champ de bataille. Qu'il s'agisse de mettre en place un système d'alerte précoce ou d'améliorer votre fusil préféré avec un viseur laser, l'électronique est la clé.
+
+**Principales Catégories d'Artisanat :**
+1.  **Améliorations de l'Abri** : Alimentation des lumières, des réfrigérateurs et des stations de radio.
+2.  **Équipement Tactique** : Lunettes de vision nocturne, scanners thermiques et brouilleurs de signaux.
+3.  **Mods d'Armes** : Détentes électroniques pour des cadences de tir plus rapides et viseurs illuminés.
+4.  **Pièges Défensifs** : Clôtures électriques et explosifs activés par le mouvement.
+
+| Objet Fabriqué | Électronique Requise | Avantage Tactique |
+| :--- | :--- | :--- |
+| **Mine à Capteur** | 2x Capteur, 1x Carte | Protège les flancs lors des raids nocturnes |
+| **Viseur Laser** | 1x Capteur, 2x Débris | Augmente la précision pour les tirs à longue distance |
+| **Tour Radio de Base** | 10x Fil, 5x Carte | Permet de contacter des factions éloignées |
+| **Lunettes Vision Noc.** | 3x Capteur, 4x Carte | Élimine les pénalités d'obscurité en combat |
+
+<Callout type="info" title="Le Réseau Électrique">
+Le réseau électrique de votre abri consomme de **l'électronique d'urban strife** pour la maintenance. Si vous manquez de pièces de rechange, vos lumières et vos défenses peuvent tomber en panne au pire moment, généralement lors d'un siège de minuit.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de Contrôle de Progression Technologique">
+
+Pour vous assurer de suivre le rythme de la difficulté croissante de la zone dévastée, utilisez cette liste de contrôle pour suivre vos jalons technologiques. Manquer ces améliorations clés peut rendre la fin de partie nettement plus difficile.
+
+<Checklist
+  id="electronics-milestones"
+  title="Jalons Technologiques Critiques :"
+  items={[
+    "Établir un réseau électrique de niveau 1 en utilisant du fil de cuivre basique.",
+    "Fabriquer au moins trois paires de lunettes de vision nocturne pour votre équipe d'éclaireurs.",
+    "Améliorer la radio de l'abri pour atteindre la faction des 'Techno-Nomades'.",
+    "Automatiser les défenses de la base avec au moins deux tourelles à détection de mouvement.",
+    "Stocker plus de 50 débris électroniques pour les réparations d'urgence."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Search} title="FAQ : Électronique d'Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur endroit pour trouver de l'électronique au début ?",
+    answer: "L'immeuble de bureaux 'Byte-Size' dans la ville de départ est le meilleur endroit en début de partie. Il présente un risque relativement faible et contient plus d'une douzaine d'ordinateurs qui peuvent être démontés pour obtenir des cartes de circuits imprimés."
+  },
+  {
+    question: "Ai-je besoin d'un haut niveau de compétence pour trouver de l'électronique ?",
+    answer: "Non, n'importe qui peut en trouver comme butin, mais vous avez besoin d'une compétence 'Technique' élevée pour démonter des objets sans détruire les composants. Les personnages peu qualifiés obtiendront principalement des 'Débris endommagés' au lieu de 'Cartes de circuits imprimés'."
+  },
+  {
+    question: "L'électronique peut-elle être utilisée pour le commerce ?",
+    answer: "Oui, spécifiquement avec les factions 'Ingénieurs' et 'Nouveau Monde'. Ils accordent une valeur bien plus élevée à l'électronique qu'à la nourriture ou aux munitions de base, ce qui en fait une excellente monnaie pour l'équipement de haut niveau."
+  },
+  {
+    question: "Que se passe-t-il si ma base manque d'électronique pour la maintenance ?",
+    answer: "Vos installations dépendantes de l'énergie, telles que le stockage de nourriture réfrigérée et les clôtures électriques, s'éteindront. Cela peut entraîner la décomposition des aliments et affaiblir les défenses de la base."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "urban strife fbi: Safe Theft Walkthrough & Stealth Tips",
+  description: "Master the urban strife fbi quest with our step-by-step walkthrough. Learn how to steal the safe from the Firm without triggering combat.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=FBI+Safe+Stealth+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Retrieve the secure safe from the Firm during the **urban strife fbi** questline.
+- **Quest Location**: The backroom of the bike shop situated on the FBI Office map.
+- **Stealth Strategy**: Execute the heist after midnight to minimize enemy vision cones and guard density.
+- **Critical Warning**: Do not break windows to enter, as this action triggers immediate faction hostility.
+- **Alternative Path**: Combat remains a viable option if stealth proves too tedious or time-consuming.
+</Callout>
+
+<Section icon={Target} title="Mission Overview and Quest Setup">
+
+The **urban strife fbi** quest is one of the more delicate tactical puzzles in the early to mid-game. Upon arriving at the FBI Office map, your squad is tasked with retrieving a highly secure safe held by a faction known as the Firm. The safe is kept deep inside a local bike shop, which serves as the headquarters for the self-proclaimed "Director," a prominent biker leader in the area. 
+
+Because the bike shop is heavily guarded, navigating this quest requires either precise tactical planning or a brute-force combat approach. The area surrounding the safe is designated as a protected zone. This means any unauthorized interaction with the safe, or even being spotted in the immediate vicinity, is treated as direct theft, turning the entire Firm faction hostile instantly.
+
+| Quest Detail | Information Summary |
+|---|---|
+| Map Location | FBI Office Map |
+| Target Building | Biker Bike Shop |
+| Faction in Control | The Firm |
+| Key Target NPC | The Director |
+| Objective Item | Secure Safe |
+| Primary Challenge | High-density guard vision cones |
+
+<Callout type="info" title="Faction Relations">
+Maintaining neutral relations with the Firm can open up unique trading opportunities and narrative paths later in the campaign. Think carefully before choosing to eliminate them.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stealth Mechanics and Environmental Factors">
+
+Stealth in Urban Strife relies heavily on dynamic vision cones, represented by red squares on the tactical grid. When your squad members step into these red squares, enemy suspicion rises. If the suspicion meter fills completely, combat is initiated. To pull off a successful heist without firing a single shot, you must understand how environmental factors affect these vision cones.
+
+Time of day plays a massive role in guard alertness. Attempting this heist during daylight hours is exceptionally difficult due to overlapping guard patrols and maximum visual range. However, waiting until after midnight alters the tactical landscape. Under the cover of darkness, guard vision ranges shrink, patrol routes become more predictable, and several guards settle into static, less observant positions.
+
+| Environmental Factor | Day Conditions | Night Conditions (Post-Midnight) |
+|---|---|---|
+| Vision Cone Range | Maximum distance | Significantly reduced range |
+| Guard Density | High active patrols | Static sentries, fewer active eyes |
+| Detection Speed | Rapid detection | Slower suspicion accumulation |
+| Safe Approach | Extremely difficult | Highly manageable with patience |
+
+<CardGrid cols={3}>
+  <Card title="Patience is Key">
+    - **Observe patrol routes**
+    - Identify blind spots
+    - Wait for guards to turn away
+  </Card>
+  <Card title="Use the Cooldown">
+    - **Retreat if suspected**
+    - Wait one real-time minute
+    - Let guard alert levels reset
+  </Card>
+  <Card title="Avoid Structural Damage">
+    - **Keep windows intact**
+    - Pick locks silently
+    - Avoid making loud noises
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Developer Insight">
+The developers have noted that the stealth system and its accompanying user interface are continuously being refined. Utilizing manual saves before entering the bike shop is highly recommended to mitigate any unpredictable pathfinding behaviors.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Infiltration Walkthrough">
+
+To execute a flawless silent heist and secure the safe without alerting the Director or his goons, follow this precise sequence of actions. Ensure your squad consists of characters with high agility and stealth attributes to make the infiltration smoother.
+
+<Steps>
+  <Step num="1" title="Locate the Bike Shop">
+    Travel to the FBI Office map and locate the bike shop where the Director resides. Do not initiate any hostile actions upon entry; keep your weapons holstered to maintain neutral standing while you scout the exterior.
+  </Step>
+  <Step num="2" title="Pass Time Until Midnight">
+    Use the map transition or wait nearby until the in-game clock passes midnight. You will notice the guard positions shift, and the density of the red vision squares on the ground will decrease significantly.
+  </Step>
+  <Step num="3" title="Infiltrate the Backroom">
+    Identify the side entrance to the bike shop. Avoid breaking any windows, as structural damage triggers immediate aggro. Instead, use a skilled lockpicker to open the side door silently when the nearest guard patrol moves away.
+  </Step>
+  <Step num="4" title="Secure the Safe and Evacuate">
+    Creep into the backroom while staying crouched. Wait for any remaining guard suspicion to cool down completely. Interact with the safe to secure it, then carefully retrace your steps out of the building and exit the sector.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aggro Trigger">
+If a guard catches a glimpse of you near the safe, immediately retreat out of their line of sight. Do not attempt to grab the safe while the suspicion meter is yellow, or you will trigger a map-wide alarm.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The Combat Alternative">
+
+While a stealthy approach is highly rewarding, it is not the only way to resolve the **urban strife fbi** quest. Many players prefer a direct tactical confrontation. If your squad is geared for high-intensity firefights and you do not mind turning the Firm permanently hostile, clearing out the bike shop is a straightforward alternative.
+
+Taking the combat route allows you to bypass the meticulous timing required for stealth. However, you must prepare for a tough fight, as the Firm goons are well-armed and have excellent defensive positions inside the tight corridors of the bike shop. Shotguns and high-damage melee weapons perform exceptionally well in these close-quarters skirmishes.
+
+| Metric | Stealth Approach | Combat Approach |
+|---|---|---|
+| Resource Cost | Minimal (lockpicks only) | High (ammo, medical supplies) |
+| Time Investment | High patience required | Fast, direct resolution |
+| Faction Relations | Remains neutral | Permanently hostile |
+| Bonus Loot | Quest rewards only | Guard equipment and weapon drops |
+| Risk Factor | Low (rely on quick saves) | High (squad injury or death) |
+
+<Callout type="success" title="Combat Advantage">
+If you choose combat, bottle up the bikers at the shop entrances. Use choke points to prevent them from flanking your squad, and utilize grenades to clear out tight rooms quickly.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preparation Checklist">
+
+Before heading into the FBI Office map to tackle this objective, ensure your squad is thoroughly prepared for either outcome. Use this checklist to verify your readiness.
+
+<Checklist
+  id="fbi-quest-prep"
+  title="Pre-Mission Checklist:"
+  items={[
+    "Recruit at least one squad member with high lockpicking skills",
+    "Equip stealth-enhancing gear or lightweight armor to reduce noise",
+    "Bring sufficient ammunition and medical kits in case stealth fails",
+    "Create a clean manual save file before entering the FBI Office sector",
+    "Ensure the in-game time is set to past midnight for optimal stealth conditions"
+  ]}
+/>
+
+<Callout type="info" title="Stealth Progression">
+Successfully completing this mission without alerting the Firm is considered a major achievement for stealth-oriented playstyles, showcasing a deep understanding of the game's tactical line-of-sight mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where exactly is the safe located in the urban strife fbi quest?",
+    answer: "The safe is located in a protected backroom inside the bike shop where the biker leader, known as the Director, is stationed on the FBI Office map."
+  },
+  {
+    question: "Why do the guards attack me as soon as I break the window?",
+    answer: "Breaking windows causes structural noise and damage, which automatically alerts all nearby Firm members and triggers immediate hostile aggro."
+  },
+  {
+    question: "How long does it take for guards to forget they suspected me?",
+    answer: "If you trigger a minor suspicion warning, retreat out of their sight. It takes approximately one real-time minute for the guards to return to their passive state."
+  },
+  {
+    question: "Is it better to kill the Firm or steal the safe quietly?",
+    answer: "Stealing the safe quietly preserves your neutral standing with the Firm, allowing for future interactions. Combat is faster but makes the faction permanently hostile."
+  }
+]} />
+
+<Callout type="tip" title="Final Verdict">
+For the richest narrative experience, attempt the stealth route first. If the tight patrol patterns prove too frustrating, you can always fall back on your firearms to clear the building and claim the safe by force.
+</Callout>
+
+</Section>

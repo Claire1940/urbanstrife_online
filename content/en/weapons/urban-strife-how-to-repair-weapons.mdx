@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife How to Repair Weapons: Maintenance & Salvage Guide",
+  description: "Master the equipment maintenance system in Urban Strife. Learn how to repair weapons, salvage parts, and manage armor durability for survival.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Weapon+Repair+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban Strife how to repair weapons**: Utilize a **Workbench** at your base or use portable **Repair Kits** in the field to restore durability.
+- **Resource Management**: Repairing requires specific components like **Weapon Parts** and **Metal Scraps** salvaged from broken gear.
+- **Durability Impact**: Weapons with low durability suffer from increased **jamming rates** and reduced accuracy during tactical combat.
+- **Armor Maintenance**: Plate carriers require individual **Ballistic Plates** to be replaced once their integrity is depleted.
+- **Skill Scaling**: The efficiency of your repairs and the amount of materials saved depends on your character's **Technician** skill level.
+</Callout>
+
+<Section icon={Settings} title="Understanding Weapon Durability Mechanics">
+
+In the harsh tactical landscape of Urban Strife, your gear is your lifeline. Every shot fired and every blow parried contributes to the gradual degradation of your equipment. Ignoring the condition of your firearms or melee weapons will eventually lead to catastrophic failure at the worst possible moment—usually in the middle of a zombie horde encounter.
+
+Durability is represented by a percentage bar visible in the item's inspection screen. As this bar depletes, the weapon's reliability drops. A firearm at 50% durability has a significantly higher chance of jamming, requiring an action point (AP) cost to clear the malfunction. Once durability hits zero, the weapon becomes "Broken," rendering it unusable until a full restoration is performed at a dedicated facility.
+
+| Condition Level | Durability Range | Combat Effects | Recommended Action |
+| :--- | :--- | :--- | :--- |
+| **Pristine** | 90% - 100% | Full accuracy, No jamming | Regular cleaning |
+| **Worn** | 60% - 89% | Standard performance | Monitor status |
+| **Damaged** | 30% - 59% | Minor accuracy penalty, Occasional jams | Field repair |
+| **Critical** | 1% - 29% | High jam rate, Severe accuracy loss | Immediate repair |
+| **Broken** | 0% | Unusable, Cannot be equipped | Workbench restoration |
+
+<Callout type="tip" title="Maintenance Tip">
+Always check your squad's gear condition before leaving the shelter. It is much cheaper and faster to maintain a "Worn" weapon than it is to restore a "Broken" one.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Urban Strife How to Repair Weapons: The Methods">
+
+There are two primary ways to handle equipment maintenance in the 2026 version of the game. Depending on whether you are currently in the tactical map or back at your home base, your approach to **Urban Strife how to repair weapons** will differ.
+
+<CardGrid cols={2}>
+  <Card title="Workbench Repair">
+    - **Highest Efficiency**: Restores the most durability per resource spent.
+    - **Full Restoration**: The only way to fix "Broken" (0% durability) items.
+    - **Skill Bonus**: High-level Technicians can provide permanent buffs during repair.
+  </Card>
+  <Card title="Field Repair Kits">
+    - **Immediate Utility**: Can be used during exploration or between combat rounds.
+    - **Resource Heavy**: Costs more parts for less durability gain.
+    - **Emergency Only**: Useful for clearing high jam rates when far from base.
+  </Card>
+</CardGrid>
+
+To perform a repair, you must have the required materials in your inventory or base storage. These materials are generally categorized into generic parts that can be obtained by dismantling other items you find in the wasteland.
+
+| Repair Tool | Use Case | Durability Gain | Resource Cost |
+| :--- | :--- | :--- | :--- |
+| **Basic Cleaning Kit** | Maintenance | 5% - 10% | Low (Oil/Cloth) |
+| **Universal Repair Kit** | Field Fix | 15% - 25% | Medium (Weapon Parts) |
+| **Advanced Workbench** | Full Overhaul | Up to 100% | Variable (Parts/Scrap) |
+| **Specialist Tools** | Rare Weapons | Variable | High (Unique Components) |
+
+<Callout type="warning" title="Resource Scarcity">
+Weapon parts are a finite resource in the early game. Do not waste high-tier repair kits on common pistols that can be easily replaced by looting enemies.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Weapon Restoration Process">
+
+If you have a favorite rifle that has finally reached a critical state, follow these steps to ensure a successful restoration. Note that having a character with high technical proficiency will reduce the material cost significantly.
+
+<Steps>
+  <Step num="1" title="Salvage Spare Parts">
+    Collect low-quality or duplicate weapons from the battlefield. Instead of selling them for a few coins, use the "Scrap" option in your inventory to convert them into **Weapon Parts**.
+  </Step>
+  <Step num="2" title="Access the Workbench">
+    Return to your base and interact with the Technician's station. Ensure the weapon you wish to fix is unequipped and placed in the global stash or the technician's inventory.
+  </Step>
+  <Step num="3" title="Select Repair Level">
+    Choose between a "Quick Fix" (cheaper, lower durability gain) or a "Total Overhaul." A total overhaul requires more time but resets the weapon's condition to 100%.
+  </Step>
+  <Step num="4" title="Assign a Technician">
+    Select the squad member with the highest Mechanic or Technician skill. This minimizes the risk of a "botched repair," which could permanently reduce the item's maximum durability.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Technician Synergy">
+Characters with the "Gunsmith" trait have a 15% chance to improve the weapon's base stats slightly during a Total Overhaul repair.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Armor Maintenance and Plate Carriers">
+
+Armor in Urban Strife functions differently than weapons. While weapons have a linear degradation, body armor—specifically plate carriers—relies on a modular system. The vest itself provides a base level of protection and utility (like extra ammo slots), but the primary defense comes from the inserted ballistic plates.
+
+When you are hit, the plate absorbs the damage and loses integrity. Once a plate's integrity reaches zero, it is destroyed and no longer provides protection, though the vest remains intact.
+
+| Armor Component | Repair Method | Material Needed | Notes |
+| :--- | :--- | :--- | :--- |
+| **Cloth/Leather Vest** | Sewing Kit | Cloth / Leather Scraps | Low protection, high mobility |
+| **Plate Carrier (Vest)** | Workbench | Metal Scraps / Kevlar | Provides the slots for plates |
+| **Steel Plate** | Replacement | New Steel Plate | Heavy, high durability, cheap |
+| **Ceramic Plate** | Replacement | New Ceramic Plate | Light, high protection, fragile |
+
+<Callout type="info" title="Plate Carrier Tip">
+You may often find high-quality plate carriers that are empty. You must manually drag and drop compatible ballistic plates into the vest's slots in the inventory screen to gain defensive benefits.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Salvaging for Maximum Efficiency">
+
+To sustain your arsenal, you must become an expert at salvaging. Not every piece of loot is worth carrying back to base in its original form. Understanding what to scrap and what to keep is the key to mastering **Urban Strife how to repair weapons**.
+
+<Checklist
+  id="salvage-priorities"
+  title="Scrapping Priority List:"
+  items={[
+    "Broken common firearms (Pistols, SMGs)",
+    "Duplicate melee weapons with low base stats",
+    "Damaged armor vests that lack plate slots",
+    "Excessive amounts of low-tier weapon attachments",
+    "Empty or shattered ballistic plates"
+  ]}
+/>
+
+| Item Type | Salvage Yield | Primary Resource | Secondary Resource |
+| :--- | :--- | :--- | :--- |
+| **Handguns** | Low | Weapon Parts | Springs |
+| **Rifles/Shotguns** | Medium | Weapon Parts | Wood/Polymer |
+| **Heavy Ordnance** | High | Specialized Parts | Metal Scraps |
+| **Melee Weapons** | Low | Metal Scraps | Leather/Wood |
+
+<Callout type="tip" title="Pro Scavenger Advice">
+If your inventory is full, scrap items in the field. Weapon parts weigh significantly less than the weapons themselves, allowing you to bring home more repair potential from a single run.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I know when my weapon is about to jam?",
+    answer: "Check the durability icon in your combat UI. If it turns yellow or red, your jam chance has increased. You can also see the exact percentage in the item details screen."
+  },
+  {
+    question: "Can I repair weapons without a workbench?",
+    answer: "Yes, you can use Field Repair Kits or Cleaning Kits, but these only provide a partial fix and are less resource-efficient than base repairs."
+  },
+  {
+    question: "What is the best way to get Weapon Parts in Urban Strife?",
+    answer: "The most reliable method is salvaging broken or low-tier weapons found on enemies. High-level scavenging in industrial zones also yields bundles of parts."
+  },
+  {
+    question: "Does repairing a weapon restore its original accuracy?",
+    answer: "Yes, restoring a weapon to 100% durability removes all accuracy penalties and jamming risks associated with wear and tear."
+  }
+]} />
+
+</Section>

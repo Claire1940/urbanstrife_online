@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Moonshiners : Guide de la mission de sabotage",
+  description: "Maîtrisez la mission de sabotage des moonshiners d'Urban Strife en 2026. Apprenez les mécanismes d'infiltration, les tactiques de diversion et les stratégies de butin.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Moonshiners+Sabotage+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal** : Saboter le camion de moonshine (alcool de contrebande) en toute sécurité pour terminer la quête.
+- **Mécanique clé** : Le camion saboté met 4 à 5 tours pour exploser après avoir pris feu.
+- **Meilleure stratégie** : Profitez de l'obscurité et des distractions sonores pour une fuite sans effusion de sang.
+- **Avertissement critique** : Rester trop près du camion lors de l'explosion mettra instantanément votre escouade K.O. ou la tuera.
+- **Butin** : Éliminer les moonshiners rapporte plus de butin physique, mais un sabotage pacifique évite les blessures en début de partie.
+</Callout>
+
+<Section icon={Map} title="Urban Strife Moonshiners : Aperçu de la mission">
+
+Dans le paysage tactique de survie au tour par tour d'Urban Strife, traiter avec les factions locales nécessite une planification minutieuse, une gestion des ressources et un positionnement stratégique. L'un des premiers obstacles tactiques que vous rencontrerez concerne les **moonshiners d'Urban Strife** et leur camion d'alcool hautement surveillé. Chargés de neutraliser cette opération, les joueurs sont confrontés à un dilemme tactique classique : s'infiltrer à la faveur de la nuit, orchestrer une diversion de combat hautement coordonnée, ou simplement éliminer tout le camp pour s'emparer du butin ? 
+
+Comprendre la disposition de la maison des moonshiners et les mécanismes du sabotage est crucial avant de déployer votre escouade. L'objectif principal de cette mission est de mettre le feu au camion de moonshine à l'aide d'un cocktail Molotov. Cependant, le développeur a confirmé un détail mécanique clé qui surprend de nombreux joueurs : une fois que le camion prend feu, il n'explose pas immédiatement. Au lieu de cela, il faut 4 à 5 tours de combat actif ou de passage de tour pour que le véhicule détone. Ce délai signifie que vous devez avoir une stratégie de fuite prête dès que le feu commence.
+
+| Option | Approche | Niveau de risque | Coût en ressources | Rendement du butin |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sabotage furtif** | S'infiltrer de nuit, lancer un Molotov, se cacher et s'échapper | Faible | Faible (1 Molotov, 1 Pétard) | Faible (Économise munitions/soins) |
+| **Diversion de combat** | Engager le combat par le sud, envoyer un infiltrateur brûler le camion | Moyen | Moyen (Munitions, Bandages) | Moyen (Butin de cadavres) |
+| **Élimination totale** | Tuer tous les moonshiners et sécuriser tout le camp | Élevé | Élevé (Munitions lourdes, Trousses de soins) | Élevé (Tout l'alcool et l'équipement) |
+
+<Callout type="warning" title="Avertissement concernant le délai d'explosion">
+Le camion de moonshine n'explose pas instantanément après avoir été touché par un Molotov. Vous devez survivre 4 à 5 tours après l'allumage. Assurez-vous que votre saboteur dispose d'une voie de retraite dégagée et ne se retrouve pas bloqué près de la zone d'explosion.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Le saboteur silencieux : Guide de l'infiltration nocturne">
+
+Pour les joueurs qui préfèrent une approche chirurgicale et non létale, exécuter la mission sous le couvert de l'obscurité est tout à fait viable. Dans Urban Strife, le cycle jour/nuit n'est pas seulement esthétique. L'obscurité modifie considérablement les lignes de mire des ennemis, réduisant drastiquement leur champ de vision et permettant aux personnages axés sur la discrétion de se glisser dans des passages autrement infranchissables en journée. 
+
+Pour réussir un sabotage nocturne, vous devez exploiter les systèmes de bruit et de distraction du jeu. Le son se propage de manière réaliste et les ennemis abandonneront leurs patrouilles pour enquêter sur des bruits inhabituels. En utilisant des objets de lancer comme des pétards, vous pouvez manipuler le positionnement des gardes, libérant ainsi un chemin direct vers l'entrée métallique près du camion.
+
+<Steps>
+  <Step num="1" title="Attendre la tombée de la nuit">
+    Ne tentez pas d'infiltration pendant la journée. Attendez que le cycle nocturne commence afin que les cônes de vision des gardes sur le porche d'entrée soient fortement réduits.
+  </Step>
+  <Step num="2" title="Infiltrer le périmètre">
+    Approchez-vous du camp discrètement. Déplacez votre saboteur principal au-delà des gardes du porche et cherchez un abri dans le coin sombre près de l'entrée métallique.
+  </Step>
+  <Step num="3" title="Déployer des diversions">
+    Utilisez un second personnage positionné plus en arrière pour lancer des pétards ou tirer un coup de feu de diversion loin du camion. Cela force les gardes du porche et de l'arrière-cour à aller enquêter.
+  </Step>
+  <Step num="4" title="Enflammer le camion">
+    Une fois le chemin dégagé, demandez à votre saboteur de lancer un cocktail Molotov directement sur le camion de moonshine pour lancer la phase de combustion.
+  </Step>
+  <Step num="5" title="Se cacher et évacuer">
+    Faites immédiatement reculer votre saboteur vers le coin sombre ou derrière la maison voisine. Passez les tours pour laisser les gardes se calmer, attendez le compte à rebours de 4 à 5 tours pour que le camion explose, puis éclipsez-vous.
+  </Step>
+</Steps>
+
+| Outil de diversion | Niveau de bruit | Rayon d'action | Cas d'utilisation principal |
+| :--- | :--- | :--- | :--- |
+| **Pétard** | Moyen | Modéré | Attirer des gardes isolés hors des points de passage |
+| **Tir de diversion** | Élevé | Grand | Attirer plusieurs ennemis vers un coin éloigné |
+| **Pierre de lancer** | Faible | Petit | Ajustements mineurs de l'orientation des gardes |
+
+<Callout type="tip" title="Astuce de discrétion">
+Si des gardes commencent à errer vers le camion après le jet de Molotov, ils risquent de repérer votre saboteur caché. Lancez toujours une diversion du côté opposé du complexe juste après avoir enflammé le véhicule.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="La stratégie de la diversion par le combat">
+
+Si la pure discrétion vous semble trop passive ou risquée, vous pouvez employer une stratégie hybride de diversion par le combat. Cette méthode consiste à diviser votre escouade en deux éléments tactiques distincts : une escouade d'engagement pour attirer l'attention et les tirs des moonshiners, et un infiltrateur solo pour exécuter le sabotage pendant que l'ennemi est distrait.
+
+Cette stratégie repose sur le fait de garder les moonshiners occupés à longue portée. En positionnant vos tireurs derrière des abris solides dans les structures sud, vous pouvez inciter les défenseurs à s'engager dans une fusillade prolongée. L'IA donnant la priorité aux menaces actives qui lui tirent dessus, votre infiltrateur aura le champ totalement libre pour atteindre le camion depuis le flanc opposé.
+
+<CardGrid cols={3}>
+  <Card title="L'infiltrateur">
+    - **Haute mobilité** : Équipé d'un matériel léger pour maximiser les points d'action (PA).
+    - **Mission de sabotage** : Transporte le Molotov et déclenche l'incendie.
+    - **Position** : Commence caché derrière la maison de devant, de l'autre côté de la rue.
+  </Card>
+  <Card title="L'escouade d'engagement">
+    - **Excellente couverture** : Positionnée dans la maison sud adjacente aux moonshiners.
+    - **Génération d'aggro** : Tire une fois pour engager le combat, puis se baisse derrière les fenêtres.
+    - **Position** : Fenêtres, clôture de l'arrière-cour et structures de la cour avant.
+  </Card>
+  <Card title="Le médecin de soutien">
+    - **Axé utilitaire** : Équipé de plusieurs bandages et d'attelles médicales.
+    - **Gestion des saignements** : Reste bien à l'abri pour soigner les engagés blessés.
+    - **Position** : En sécurité derrière l'équipe d'engagement principale.
+  </Card>
+</CardGrid>
+
+| Rôle du personnage | Arme recommandée | Type d'abri principal | Priorité de cible |
+| :--- | :--- | :--- | :--- |
+| **Infiltrateur** | Pistolet / Molotov | Abri mural complet | Aucune (Éviter de tirer pour rester discret) |
+| **Engagé (Fenêtre)** | Fusil | Demi-abri de fenêtre | Défenseurs du porche d'entrée |
+| **Engagé (Cour)** | Fusil à pompe | Clôture / Muret | Ennemis de flanc |
+
+Pour exécuter ce plan en douceur, gardez votre escouade d'engagement derrière un abri complet ou partiel. Ne tentez pas d'avancer ou de sauter par-dessus les clôtures ; contentez-vous d'échanger des tirs sporadiques pour maintenir les moonshiners cloués sur place. Une fois que l'infiltrateur a atteint le véhicule et lancé le Molotov, commencez immédiatement à replier votre escouade d'engagement vers votre zone de déploiement initiale. Assurez-vous que tous les membres de l'escouade sont conscients et soignés avant d'entamer la retraite finale, car abandonner un coéquipier à terre peut entraîner sa perte permanente.
+
+<Callout type="success" title="Succès tactique">
+Une fois le camion en feu, vous n'avez pas besoin de gagner le combat. Courez vers les limites de déploiement de la carte. Lorsque le camion explose à la fin du compte à rebours de tours, la mission se termine et l'affrontement prend fin automatiquement.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="La voie létale : Éliminer les moonshiners">
+
+Bien que les méthodes pacifiques et de diversion constituent des énigmes tactiques très satisfaisantes, de nombreux joueurs finissent par choisir la voie létale. Éliminer complètement les **moonshiners d'Urban Strife** est une option très lucrative pour les escouades capables de gérer une fusillade chaotique à courte portée. 
+
+Les éliminer vous donne un accès libre à l'ensemble du camp, vous permettant de dépouiller la maison de ses précieuses ressources, armes, munitions et réserves d'alcool très recherchées. De plus, terminer la mission de manière pacifique ne pousse pas immédiatement les moonshiners à quitter les lieux ; les dialogues avec le PNJ Joe Hicks suggèrent qu'il s'occupera d'eux plus tard de toute façon. Pour les joueurs qui refusent de laisser derrière eux un butin précieux, un assaut complet est la solution ultime.
+
+<Checklist
+  id="lethal-raid"
+  title="Objectifs du raid létal :"
+  items={[
+    "Éliminer d'abord les patrouilles d'ivrognes en colère à l'extérieur du périmètre",
+    "Établir des positions de tir croisé autour des entrées sud et avant",
+    "Utiliser des pétards pour attirer les zombies proches dans le combat afin d'affaiblir les défenseurs",
+    "Éliminer méthodiquement les gardes sur le porche d'entrée et dans l'arrière-cour",
+    "Piller toute la maison des moonshiners, en sécurisant tout l'alcool et les caisses de ravitaillement"
+  ]}
+/>
+
+| Type de butin | Valeur tactique | Emplacements courants | Action recommandée |
+| :--- | :--- | :--- | :--- |
+| **Alcool / Liqueur** | Haute valeur de troc, ressource d'artisanat | Caisses à l'intérieur de la maison principale | Tout ramasser ; ne rien laisser |
+| **Munitions** | Ressource de combat cruciale | Cadavres de gardes, casiers | Prioriser les calibres de pistolet et de fusil |
+| **Fournitures médicales** | Maintient l'escouade prête au combat | Armoires de toilette, sacs de médecin | Reconstituer les stocks de bandages et d'analgésiques |
+
+Si vous choisissez cette voie, pensez à utiliser l'environnement à votre avantage. La zone environnante est souvent peuplée de zombies. En lançant des pétards près des postes de garde des moonshiners, vous pouvez attirer des hordes de morts-vivants directement sur leurs lignes défensives. Cela crée une bataille chaotique à trois, permettant à votre escouade de rester en retrait, d'économiser ses munitions et d'achever les défenseurs humains survivants et affaiblis.
+
+<Callout type="info" title="Astuce d'économie de butin">
+L'alcool est l'une des principales monnaies d'échange dans Urban Strife. Éliminer les moonshiners et accumuler leur réserve vous donnera un immense pouvoir d'achat lors de vos visites aux marchands locaux et aux hubs de faction en début de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je terminer la quête des moonshiners d'Urban Strife sans tuer personne ?",
+    answer: "Oui. Vous pouvez accomplir la mission de manière pacifique en vous infiltrant de nuit, en lançant un Molotov sur le camion, en vous cachant jusqu'à ce qu'il explose après 4 à 5 tours, puis en vous éclipsant sans engager de combat direct avec les gardes."
+  },
+  {
+    question: "Pourquoi le camion de moonshine n'explose-t-il pas immédiatement après le jet de Molotov ?",
+    answer: "Les mécanismes du jeu exigent que le feu brûle pendant 4 à 5 tours avant que le camion n'explose. Vous devez survivre et rester hors de la zone d'effet de l'explosion pendant ce compte à rebours."
+  },
+  {
+    question: "Le cycle jour/nuit affecte-t-il réellement la détection ennemie pendant cette mission ?",
+    answer: "Absolument. L'obscurité réduit considérablement la portée de détection visuelle des moonshiners, ce qui rend beaucoup plus facile de se faufiler devant les gardes du porche d'entrée par rapport à une tentative en plein jour."
+  },
+  {
+    question: "Qu'arrive-t-il aux moonshiners si je choisis la voie du sabotage pacifique ?",
+    answer: "Si vous terminez la mission pacifiquement, les moonshiners resteront temporairement dans la zone. Les dialogues avec Joe Hicks suggèrent qu'ils seront éliminés plus tard, ce qui pousse de nombreux joueurs à revenir pour les éliminer afin de récupérer leur précieux butin."
+  }
+]} />
+
+<Callout type="tip" title="Verdict final">
+Que vous choisissiez la voie silencieuse du saboteur ou la voie bruyante du conquérant, un bon espacement et la gestion des tours sont vos meilleurs atouts. Gardez toujours les membres de votre escouade équipés de bandages pour soigner les blessures hémorragiques inattendues.
+</Callout>
+
+</Section>

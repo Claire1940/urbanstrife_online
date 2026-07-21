@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide Urban Strife : Comment réparer vos armes et gérer la maintenance",
+  description: "Maîtrisez le système de maintenance de l'équipement dans Urban Strife. Apprenez à réparer vos armes, à récupérer des pièces et à gérer la durabilité de vos armures pour survivre.",
+  category: "Tutoriel",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Weapon+Repair+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Comment réparer ses armes dans Urban Strife** : Utilisez un **établi (Workbench)** à votre base ou des **kits de réparation** portables sur le terrain pour restaurer la durabilité.
+- **Gestion des ressources** : Les réparations nécessitent des composants spécifiques comme des **pièces d'arme** et de la **ferraille**, récupérés sur du matériel hors d'usage.
+- **Impact de la durabilité** : Les armes à faible durabilité subissent des **taux d'enrayage** accrus et une précision réduite lors des combats tactiques.
+- **Entretien des armures** : Les gilets pare-balles nécessitent le remplacement individuel des **plaques balistiques** une fois leur intégrité épuisée.
+- **Progression des compétences** : L'efficacité de vos réparations et l'économie de matériaux dépendent du niveau de compétence **Technicien** de votre personnage.
+</Callout>
+
+<Section icon={Settings} title="Comprendre la mécanique de durabilité des armes">
+
+Dans l'environnement tactique impitoyable d'Urban Strife, votre équipement est votre ligne de vie. Chaque tir effectué et chaque coup paré contribue à la dégradation progressive de votre matériel. Ignorer l'état de vos armes à feu ou de mêlée mènera inévitablement à une défaillance critique au pire moment, généralement en plein milieu d'une horde de zombies.
+
+La durabilité est représentée par une barre de pourcentage visible dans l'écran d'inspection de l'objet. À mesure que cette barre se vide, la fiabilité de l'arme chute. Une arme à feu à 50 % de durabilité a une probabilité nettement plus élevée de s'enrayer, nécessitant des points d'action (PA) pour résoudre l'incident. Une fois la durabilité à zéro, l'arme devient "Cassée", la rendant inutilisable jusqu'à une restauration complète dans une installation dédiée.
+
+| Niveau d'état | Plage de durabilité | Effets en combat | Action recommandée |
+| :--- | :--- | :--- | :--- |
+| **Impeccable** | 90% - 100% | Précision totale, pas d'enrayage | Nettoyage régulier |
+| **Usé** | 60% - 89% | Performance standard | Surveiller l'état |
+| **Endommagé** | 30% - 59% | Légère perte de précision, enrayages occasionnels | Réparation sur le terrain |
+| **Critique** | 1% - 29% | Taux d'enrayage élevé, perte de précision sévère | Réparation immédiate |
+| **Cassé** | 0% | Inutilisable, impossible à équiper | Restauration à l'établi |
+
+<Callout type="tip" title="Conseil d'entretien">
+Vérifiez toujours l'état de l'équipement de votre escouade avant de quitter l'abri. Il est beaucoup moins coûteux et plus rapide d'entretenir une arme "Usée" que de restaurer une arme "Cassée".
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Comment réparer ses armes dans Urban Strife : Les méthodes">
+
+Il existe deux manières principales de gérer l'entretien de l'équipement dans la version 2026 du jeu. Selon que vous êtes sur la carte tactique ou de retour à votre base, votre approche pour réparer vos armes différera.
+
+<CardGrid cols={2}>
+  <Card title="Réparation à l'établi">
+    - **Efficacité maximale** : Restaure le plus de durabilité par ressource dépensée.
+    - **Restauration complète** : Le seul moyen de réparer des objets "Cassés" (0 % de durabilité).
+    - **Bonus de compétence** : Les techniciens de haut niveau peuvent fournir des bonus permanents lors de la réparation.
+  </Card>
+  <Card title="Kits de réparation de terrain">
+    - **Utilité immédiate** : Utilisables pendant l'exploration ou entre deux rounds de combat.
+    - **Coûteux en ressources** : Nécessite plus de pièces pour un gain de durabilité moindre.
+    - **Urgence uniquement** : Utile pour réduire les taux d'enrayage élevés lorsque vous êtes loin de votre base.
+  </Card>
+</CardGrid>
+
+Pour effectuer une réparation, vous devez disposer des matériaux requis dans votre inventaire ou dans le stockage de la base. Ces matériaux sont généralement classés comme des pièces génériques obtenues en démantelant d'autres objets trouvés dans les terres désolées.
+
+| Outil de réparation | Cas d'utilisation | Gain de durabilité | Coût en ressources |
+| :--- | :--- | :--- | :--- |
+| **Kit de nettoyage basique** | Entretien | 5% - 10% | Faible (Huile/Chiffon) |
+| **Kit de réparation universel** | Réparation de terrain | 15% - 25% | Moyen (Pièces d'arme) |
+| **Établi avancé** | Révision complète | Jusqu'à 100% | Variable (Pièces/Ferraille) |
+| **Outils de spécialiste** | Armes rares | Variable | Élevé (Composants uniques) |
+
+<Callout type="warning" title="Rareté des ressources">
+Les pièces d'arme sont une ressource limitée en début de partie. Ne gaspillez pas vos kits de réparation de haut niveau sur des pistolets courants facilement remplaçables en pillant les ennemis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processus de restauration d'arme étape par étape">
+
+Si vous possédez un fusil favori qui a atteint un état critique, suivez ces étapes pour assurer une restauration réussie. Notez qu'avoir un personnage avec une grande compétence technique réduira considérablement le coût en matériaux.
+
+<Steps>
+  <Step num="1" title="Récupérer des pièces détachées">
+    Collectez des armes de basse qualité ou en double sur le champ de bataille. Au lieu de les vendre pour quelques pièces, utilisez l'option "Démonter" (Scrap) dans votre inventaire pour les convertir en **pièces d'arme**.
+  </Step>
+  <Step num="2" title="Accéder à l'établi">
+    Retournez à votre base et interagissez avec le poste du technicien. Assurez-vous que l'arme que vous souhaitez réparer est déséquipée et placée dans la réserve globale ou dans l'inventaire du technicien.
+  </Step>
+  <Step num="3" title="Sélectionner le niveau de réparation">
+    Choisissez entre une "Réparation rapide" (moins coûteuse, gain de durabilité moindre) ou une "Révision complète". Une révision complète demande plus de temps mais réinitialise l'état de l'arme à 100 %.
+  </Step>
+  <Step num="4" title="Assigner un technicien">
+    Sélectionnez le membre de l'escouade ayant la compétence Mécanicien ou Technicien la plus élevée. Cela minimise le risque de "réparation bâclée", qui pourrait réduire définitivement la durabilité maximale de l'objet.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Synergie de technicien">
+Les personnages possédant le trait "Armurier" ont 15 % de chances d'améliorer légèrement les statistiques de base de l'arme lors d'une révision complète.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Entretien des armures et gilets pare-balles">
+
+L'armure dans Urban Strife fonctionne différemment des armes. Alors que les armes subissent une dégradation linéaire, les armures corporelles — spécifiquement les gilets pare-balles — reposent sur un système modulaire. Le gilet lui-même offre un niveau de protection de base et des utilitaires (comme des emplacements de munitions supplémentaires), mais la défense principale provient des plaques balistiques insérées.
+
+Lorsque vous êtes touché, la plaque absorbe les dégâts et perd de l'intégrité. Une fois l'intégrité d'une plaque à zéro, elle est détruite et ne fournit plus de protection, bien que le gilet reste intact.
+
+| Composant d'armure | Méthode de réparation | Matériel nécessaire | Notes |
+| :--- | :--- | :--- | :--- |
+| **Gilet en tissu/cuir** | Kit de couture | Tissu / Chutes de cuir | Faible protection, grande mobilité |
+| **Gilet pare-balles** | Établi | Ferraille / Kevlar | Fournit les emplacements pour plaques |
+| **Plaque en acier** | Remplacement | Nouvelle plaque en acier | Lourd, haute durabilité, peu coûteux |
+| **Plaque en céramique** | Remplacement | Nouvelle plaque en céramique | Léger, haute protection, fragile |
+
+<Callout type="info" title="Conseil sur les gilets">
+Vous trouverez souvent des gilets pare-balles de haute qualité vides. Vous devez manuellement glisser-déposer des plaques balistiques compatibles dans les emplacements du gilet via l'écran d'inventaire pour bénéficier de la protection.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Récupérer pour une efficacité maximale">
+
+Pour maintenir votre arsenal, vous devez devenir un expert en récupération. Tous les objets trouvés ne valent pas la peine d'être ramenés à la base sous leur forme originale. Savoir quoi démonter et quoi garder est la clé pour maîtriser la maintenance dans Urban Strife.
+
+<Checklist
+  id="salvage-priorities"
+  title="Liste de priorité pour le démontage :"
+  items={[
+    "Armes à feu courantes cassées (Pistolets, SMG)",
+    "Armes de mêlée en double avec de faibles statistiques de base",
+    "Gilets d'armure endommagés sans emplacements de plaques",
+    "Quantités excessives d'accessoires d'arme de bas niveau",
+    "Plaques balistiques vides ou brisées"
+  ]}
+/>
+
+| Type d'objet | Rendement de récupération | Ressource principale | Ressource secondaire |
+| :--- | :--- | :--- | :--- |
+| **Pistolets** | Faible | Pièces d'arme | Ressorts |
+| **Fusils/Fusils à pompe** | Moyen | Pièces d'arme | Bois/Polymère |
+| **Armement lourd** | Élevé | Pièces spécialisées | Ferraille |
+| **Armes de mêlée** | Faible | Ferraille | Cuir/Bois |
+
+<Callout type="tip" title="Conseil de récupérateur pro">
+Si votre inventaire est plein, démontez les objets sur le terrain. Les pièces d'arme pèsent beaucoup moins lourd que les armes elles-mêmes, vous permettant de ramener plus de potentiel de réparation après une seule expédition.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment savoir quand mon arme est sur le point de s'enrayer ?",
+    answer: "Vérifiez l'icône de durabilité dans votre interface de combat. Si elle devient jaune ou rouge, votre chance d'enrayage a augmenté. Vous pouvez également voir le pourcentage exact dans l'écran des détails de l'objet."
+  },
+  {
+    question: "Puis-je réparer mes armes sans établi ?",
+    answer: "Oui, vous pouvez utiliser des kits de réparation de terrain ou des kits de nettoyage, mais ils ne fournissent qu'une réparation partielle et sont moins efficaces en termes de ressources que les réparations à la base."
+  },
+  {
+    question: "Quel est le meilleur moyen d'obtenir des pièces d'arme dans Urban Strife ?",
+    answer: "La méthode la plus fiable consiste à démonter les armes cassées ou de bas niveau trouvées sur les ennemis. La récupération de haut niveau dans les zones industrielles permet également d'obtenir des lots de pièces."
+  },
+  {
+    question: "Réparer une arme restaure-t-il sa précision d'origine ?",
+    answer: "Oui, restaurer une arme à 100 % de durabilité supprime toutes les pénalités de précision et les risques d'enrayage associés à l'usure."
+  }
+]} />
+
+</Section>

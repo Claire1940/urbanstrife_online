@@ -1,0 +1,216 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Configuration Requise pour Urban Strife : Guide d'Installation PC et Performance",
+  description: "Consultez la configuration système minimale et recommandée pour Urban Strife. Optimisez vos réglages PC pour un gameplay de survie zombie au tour par tour fluide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=System+Requirements+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "Urban Strife, configuration requise, performance PC, survie tactique, guide de jeu"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **La configuration requise pour Urban Strife** nécessite au moins un processeur Quad Core 2,4 GHz, 8 Go de RAM et une GTX 760 pour les réglages minimaux.
+- **Le matériel recommandé** améliore votre installation avec un processeur Quad Core 3,0 GHz, 16 Go de RAM et un GPU GTX 970 ou RX 580.
+- **Un espace de stockage** de 20 Go sur un SSD est fortement recommandé pour minimiser les temps de chargement entre les combats tactiques et la gestion de la base.
+- **Le gameplay tactique** repose sur un système complexe de 30 à 40 points d'action (PA), nécessitant des sauvegardes manuelles fréquentes en raison de l'absence de bouton d'annulation.
+</Callout>
+
+<Section icon={Shield} title="Analyse Approfondie de la Configuration PC">
+
+Avant de plonger dans le monde tactique infesté de zombies d'Urban Strife, il est essentiel de s'assurer que votre matériel PC est à la hauteur. Le jeu combine l'exploration en temps réel avec le combat au tour par tour, ce qui signifie que des ralentissements de performance peuvent gravement perturber votre planification tactique. Ci-dessous, nous détaillons les configurations système officielles minimales et recommandées.
+
+**Points Forts de la Vidéo :**
+- **Genre et Style** : Un jeu de survie au tour par tour basé sur les zombies, s'inspirant fortement de Dead State, XCOM et Phoenix Point.
+- **Gestion de Base** : Les joueurs gèrent une base dans un manoir, traitant des éléments d'histoire statiques, l'allocation des ressources et les dons manuels aux départements.
+- **Mécaniques de Combat** : Présente un système de points d'action (PA) très granulaire où les personnages ont 30 à 40 PA à dépenser par tour.
+- **État de l'Accès Anticipé** : Comprend actuellement l'Acte 1, avec une courbe de difficulté élevée qui encourage les sauvegardes fréquentes faute d'action d'annulation.
+
+<YouTubeEmbed videoId="KXxdfiSrlEo" title="Dad on a Budget: Urban Strife Review (Early Access)" />
+
+### Comparaison de la Configuration Système
+
+Pour vous aider à déterminer rapidement si votre machine peut supporter l'apocalypse, comparez vos spécifications actuelles aux paliers matériels officiels ci-dessous :
+
+| Spécification | Configuration Minimale | Configuration Recommandée |
+| :--- | :--- | :--- |
+| **Système d'exploitation** | Windows 7 (64 bits) | Windows 7 / 8.1 / 10 (64 bits) |
+| **Processeur** | 2,4 GHz Quad Core | 3,0 GHz Quad Core |
+| **Mémoire** | 8 Go de RAM | 16 Go de RAM |
+| **Graphismes** | NVIDIA GTX 760 / AMD HD 7870 | NVIDIA GTX 970 / AMD RX 580 |
+| **VRAM** | 2 Go (2048 Mo) | 4 Go (4096 Mo) |
+| **Stockage** | 20 Go d'espace libre | 20 Go d'espace libre |
+| **DirectX** | Compatible DirectX | Compatible DirectX |
+
+### Analyse des Composants Matériels
+
+Comprendre comment chaque composant matériel impacte votre gameplay vous aidera à identifier les goulots d'étranglement potentiels :
+
+| Composant | Rôle dans Urban Strife | Impact sur la Performance |
+| :--- | :--- | :--- |
+| **CPU** | Gère la recherche de chemin de l'IA au tour par tour et les calculs physiques. | Impact élevé lors des tours impliquant de grandes hordes de zombies. |
+| **GPU** | Rend les environnements 3D, l'éclairage dynamique et les effets de particules. | Impact modéré ; baisser la qualité des ombres augmente les FPS. |
+| **RAM** | Stocke les données de carte actives, les textures et les états de combat. | Une RAM faible provoque des saccades lors des déplacements entre les secteurs. |
+| **Stockage** | Dicte les vitesses de chargement des cartes et les opérations de fichiers de sauvegarde. | L'utilisation d'un SSD réduit considérablement les temps de transition entre les secteurs. |
+
+<Callout type="info" title="Note Matérielle">
+Bien que la configuration minimale prenne en charge d'anciens systèmes d'exploitation comme Windows 7, il est fortement recommandé de lancer le jeu sur Windows 10 ou 11 avec des pilotes graphiques à jour pour une stabilité système moderne et des performances API optimales.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Paramètres Graphiques et Optimisation des Performances">
+
+Atteindre un taux stable de 60 images par seconde (FPS) dans Urban Strife garantit que vos panoramiques de caméra tactique sont fluides et que les animations de combat se déroulent sans saccades. Si votre système est proche de la configuration minimale, l'ajustement de paramètres graphiques spécifiques peut offrir des gains de performance massifs sans trop sacrifier la fidélité visuelle.
+
+### Guide de Performance des Préréglages Graphiques
+
+Ajuster vos paramètres en fonction des préréglages de performance cibles peut aider à stabiliser votre framerate lors des rencontres de combat chaotiques :
+
+| Qualité du Préréglage | Résolution Cible | GPU Recommandé | Performance Attendue |
+| :--- | :--- | :--- | :--- |
+| **Bas** | 1080p | GTX 760 / HD 7870 | 30-45 FPS (Gameplay de base) |
+| **Moyen** | 1080p | GTX 1050 Ti / RX 560 | 50-60 FPS (Visuels équilibrés) |
+| **Élevé** | 1080p / 1440p | GTX 970 / RX 580 | 60+ FPS (Jeu tactique fluide) |
+| **Ultra** | 1440p / 4K | RTX 2060 / RX 5700 XT | 90+ FPS (Fidélité maximale) |
+
+<CardGrid cols={3}>
+  <Card title="Systèmes d'Entrée de Gamme">
+    - **Résolution** : 1080p (Réduire si nécessaire)
+    - **Ombres** : Basses ou Désactivées
+    - **Anti-Aliasing** : FXAA ou Désactivé
+    - **Objectif** : Maximiser la vitesse de transition des tours
+  </Card>
+  <Card title="Systèmes de Milieu de Gamme">
+    - **Résolution** : 1080p Native
+    - **Ombres** : Moyennes
+    - **Anti-Aliasing** : SMAA
+    - **Objectif** : Clarté visuelle équilibrée et 60 FPS stables
+  </Card>
+  <Card title="Systèmes Haut de Gamme">
+    - **Résolution** : 1440p / 4K
+    - **Ombres** : Élevées / Ultra
+    - **Anti-Aliasing** : TAA / MSAA
+    - **Objectif** : Détails des modèles nets et panoramiques fluides
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil d'Optimisation">
+Les calculs au tour par tour dépendent fortement du CPU. Si vous rencontrez des latences pendant la phase de tour de l'ennemi, baisser vos paramètres graphiques n'aidera pas beaucoup. Assurez-vous plutôt qu'aucune application lourde ne tourne en arrière-plan sur votre PC pour libérer des cycles CPU.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Tactique et Mécaniques de Points d'Action">
+
+Une fois votre performance optimisée, maîtriser le moteur de combat tactique est votre prochaine étape. Urban Strife utilise un système de Points d'Action (PA) très détaillé rappelant les RPG tactiques classiques comme Phoenix Point. Contrairement aux jeux XCOM modernes qui vous limitent à deux mouvements simples, les personnages disposent ici d'une réserve de 30 à 40 PA à allouer dynamiquement.
+
+### Actions de Combat et Coûts en PA
+
+Chaque mouvement physique, interaction avec une arme et manœuvre tactique consomme une partie de votre réserve de PA du tour. Planifier vos actions efficacement fait la différence entre la survie et l'anéantissement rapide :
+
+| Action Tactique | Coût en PA Typique | Valeur Stratégique |
+| :--- | :--- | :--- |
+| **Mouvement de Base** | 1-2 PA par case | Repositionnement à couvert ou contournement des ennemis. |
+| **S'accroupir / Se lever** | 3-5 PA | Augmente la précision et la défense ; limite la mobilité. |
+| **Changer d'Arme** | 5 PA | S'adapter aux changements de distance (ex: passer au corps à corps). |
+| **Tir Rapide** | 10-15 PA | Attaque à faible précision ; utile pour achever les cibles faibles. |
+| **Tir Ajusté** | 20-25 PA | Haute précision ; permet de viser des parties spécifiques du corps. |
+| **Recharger l'Arme** | 8-12 PA | Entretien essentiel ; rechargez toujours avant d'engager le combat. |
+
+Le combat passe sans transition de l'exploration en temps réel aux grilles tactiques au tour par tour dès qu'un ennemi repère votre escouade. Pendant le combat, les joueurs peuvent maintenir **Maj et Clic Gauche** sur un ennemi pour cibler des parties individuelles du corps (comme la tête, le torse ou les membres).
+
+Cependant, l'interface n'affiche pas de simple indicateur de pourcentage de réussite. À la place, elle s'appuie sur un retour de portée (comme "Optimal" ou "Loin"). Les barres de santé vertes, bleues et grises représentent les mesures de santé et d'endurance, qui nécessitent une observation attentive.
+
+<Callout type="warning" title="Avertissement Tactique">
+Urban Strife ne dispose pas de bouton "Annuler". Un seul clic erroné peut amener votre personnage à courir directement à découvert, le laissant totalement exposé aux tirs ennemis. Le jeu étant impitoyable même en difficulté basse, sauvegardez votre progression manuellement avant chaque escarmouche majeure.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestion de Base et Progression de l'Acte 1">
+
+En dehors des combats, votre boucle principale consiste à gérer votre base d'opérations : un vaste manoir abritant des survivants. Ce système de gestion de base fonctionne de manière similaire à State of Decay, vous obligeant à surveiller les taux de consommation quotidienne de ressources vitales comme la nourriture, le carburant, les matériaux et le moral général.
+
+### Gestion des Ressources de la Base
+
+Maintenir votre abri en bon état nécessite une exploration constante et une gestion efficace de l'inventaire :
+
+| Type de Ressource | Consommation Quotidienne | Source Principale | Conséquences de l'Épuisement |
+| :--- | :--- | :--- | :--- |
+| **Nourriture** | Élevée | Cuisine, pillage | Chute grave du moral, blessures de famine. |
+| **Carburant** | Moyenne | Stations-service, zones industrielles | Coupures de courant, améliorations de base désactivées. |
+| **Médicaments** | Faible (sauf blessure) | Pharmacies, hôpitaux | Infections non traitées, mort permanente des survivants. |
+| **Matériaux** | Dynamique (construction) | Magasins de bricolage, débris | Incapacité à construire des défenses ou réparer l'équipement. |
+
+<Steps>
+  <Step num="1" title="Sécuriser le Périmètre du Manoir">
+    Établissez des défenses de base autour de votre manoir. Éliminez toutes les menaces immédiates dans les secteurs environnants pour sécuriser votre territoire.
+  </Step>
+  <Step num="2" title="Nommer les Chefs de Département">
+    Localisez et parlez aux PNJ statiques de votre base. Affectez-les à la tête des départements médical, cuisine et ingénierie pour débloquer les améliorations de base.
+  </Step>
+  <Step num="3" title="Lancer des Expéditions de Pillage">
+    Déployez une escouade de quatre survivants pour explorer les lieux proches. Concentrez-vous sur la collecte de carburant et de matériaux de construction lors de vos premières excursions.
+  </Step>
+  <Step num="4" title="Don Manuel de Ressources">
+    Retournez à la base et parlez individuellement à chaque chef de département pour donner vos fournitures récupérées. Gérez l'inventaire avec soin pour éviter d'encombrer votre réserve générale.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil d'Inventaire">
+Comme la version en accès anticipé propose une gestion d'inventaire très manuelle, essayez d'organiser votre butin avant de retourner au manoir. Utilisez le bouton "tout transférer" lorsqu'il est disponible dans les menus de stockage de base pour gagner du temps.
+</Callout>
+
+### Jalons de Progression de l'Acte 1
+
+Utilisez cette liste de contrôle pour suivre vos progrès et vous assurer que votre escouade est prête à affronter les menaces croissantes de l'Acte 1 :
+
+<Checklist
+  id="urban-strife-act1"
+  title="Objectifs Essentiels de l'Acte 1 :"
+  items={[
+    "Améliorer complètement la cuisine du manoir pour stabiliser la production alimentaire quotidienne.",
+    "Recruter au moins quatre survivants prêts au combat pour votre équipe d'expédition.",
+    "Sécuriser une source fiable d'essence pour faire fonctionner le générateur de la base.",
+    "Équiper votre éclaireur principal d'une arme de mêlée à haute durabilité pour des éliminations silencieuses.",
+    "Maintenir le compteur de horde bas en nettoyant régulièrement les nids de zombies locaux."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Foire Aux Questions">
+
+<Callout type="info" title="Aperçu de la FAQ">
+Trouvez des réponses rapides aux questions les plus courantes concernant les performances matérielles, les mécaniques de jeu et les paramètres système.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quelle est la configuration minimale requise pour faire tourner Urban Strife ?",
+    answer: "Pour lancer le jeu, vous avez besoin au minimum d'un système d'exploitation Windows 7 64 bits, d'un processeur Quad Core 2,4 GHz, de 8 Go de RAM, d'une carte graphique de 2 Go (NVIDIA GTX 760 ou AMD HD 7870) et de 20 Go d'espace de stockage libre."
+  },
+  {
+    question: "Urban Strife prend-il en charge les manettes sur PC ?",
+    answer: "Actuellement, le jeu est optimisé pour les commandes clavier et souris. Étant donné la nature complexe de la gestion de l'inventaire et du ciblage tactique précis sur grille, jouer avec une souris est fortement recommandé."
+  },
+  {
+    question: "Un SSD est-il obligatoire pour jouer au jeu ?",
+    answer: "Un SSD n'est pas strictement obligatoire, mais il est fortement recommandé. L'installation du jeu sur un SSD réduit considérablement les temps de chargement lors des transitions entre la base du manoir et les cartes de combat tactique."
+  },
+  {
+    question: "Comment fonctionne le système de sauvegarde dans le jeu ?",
+    answer: "Le jeu dispose d'un système de sauvegarde automatique, mais la sauvegarde manuelle est vivement encouragée. Comme il n'y a pas de bouton d'annulation en combat et que la courbe de difficulté est abrupte, sauvegarder votre partie avant des décisions majeures est la meilleure stratégie."
+  }
+]} />
+
+</Section>

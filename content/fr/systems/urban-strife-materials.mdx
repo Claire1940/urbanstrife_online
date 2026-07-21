@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Package, Factory, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Matériaux d'Urban Strife : Guide 2026 de l'artisanat et de l'amélioration de l'abri",
+  description: "Maîtrisez les matériaux d'Urban Strife grâce à notre guide 2026. Découvrez la collecte de ressources, l'amélioration de l'abri, la réparation d'armes et les recettes de fabrication pour survivre.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/dd322c?text=Urban+Strife+Materials+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki d'Urban Strife"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Les **matériaux d'Urban Strife** sont le pilier de votre survie, classés en fournitures de construction, médicales, alimentaires et militaires.
+- Les **améliorations de l'abri** doivent donner la priorité à la radio de la ville et à l'hôpital en premier lieu pour débloquer les fonctions de base de la campagne et la récupération.
+- La **réparation d'armes** est un nouveau système de la version 1.0, nécessitant des pièces de récupération et les services spécialisés d'Owen.
+- La **gestion des ressources** est essentielle ; le siège final de la horde d'Atlanta évalue vos stocks et vos fortifications.
+- Les **alliances de factions** débloquent des plans uniques et des matériaux de haut niveau inaccessibles par la collecte standard.
+</Callout>
+
+<Section icon={Package} title="Matériaux essentiels et types de ressources d'Urban Strife">
+
+Dans le monde post-apocalyptique d'Urban County, gérer efficacement vos **matériaux d'Urban Strife** fait toute la différence entre une milice prospère et un camp mourant de faim. Suite à la sortie de la version 1.0 le 14 juillet 2026, l'économie a été affinée pour mettre l'accent sur la collecte, le recyclage et la production durable. Les ressources ne sont plus de simples chiffres dans un menu ; elles représentent la santé physique de vos survivants et l'intégrité structurelle de vos murs.
+
+Comprendre la hiérarchie des besoins est la première étape pour tout leader. Bien que les munitions puissent faire gagner une escarmouche, ce sont les matériaux de construction et la sécurité alimentaire qui font gagner la campagne. Vous devez équilibrer les besoins immédiats de votre équipe d'expédition avec les exigences à long terme de l'abri urbain.
+
+| Catégorie de matériau | Usage principal | Source de collecte | Priorité |
+| :--- | :--- | :--- | :--- |
+| **Construction** | Réparations et améliorations des installations | Chantiers de construction, entrepôts | **Élevée** |
+| **Fournitures médicales** | Soigner les blessures et traiter les infections | Pharmacies, hôpitaux, cliniques | **Élevée** |
+| **Nourriture & Eau** | Maintenir la santé et le moral des survivants | Épiceries, cuisines, fermes | **Critique** |
+| **Carburant & Énergie** | Fonctionnement des installations et déplacements | Stations-service, secteurs industriels | **Moyenne** |
+| **Produits chimiques** | Fabrication d'explosifs et de munitions | Laboratoires, quincailleries | **Faible-Moyenne** |
+| **Composants** | Électronique avancée et réparations | Magasins d'électronique, voitures à la casse | **Moyenne-Élevée** |
+
+<Callout type="tip" title="Conseil de collecte">
+Emmenez toujours un personnage ayant une force élevée ou le trait « Mulet » lors de vos sorties de collecte. Être encombré réduit vos points d'action au combat, mais revenir avec un inventaire plein de matériaux de construction est essentiel pour progresser en début de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progression des améliorations de l'abri et priorités des installations">
+
+L'abri urbain sert de base d'opérations et de dernière ligne de défense contre la horde d'Atlanta. Le reconstruire nécessite un investissement massif de **matériaux d'Urban Strife**. La version 1.0 introduit un système de progression par étapes où la survie de base doit être stabilisée avant de pouvoir rechercher des technologies militaires avancées.
+
+Votre premier objectif en atteignant l'abri est de rétablir les services de base. Sans une radio fonctionnelle, vous ne pouvez pas vous coordonner avec d'autres groupes de survivants, et sans hôpital, même des blessures mineures peuvent devenir des handicaps permanents ou entraîner la mort.
+
+<Steps>
+  <Step num="1" title="Stabiliser la survie quotidienne">
+    Concentrez-vous sur la sécurité de l'eau et de la nourriture. Construisez les bacs de stockage de base et établissez un flux de dons. Assurez-vous d'avoir assez de carburant pour garder les lumières allumées, car les installations sombres fonctionnent à efficacité réduite et baissent le moral.
+  </Step>
+  <Step num="2" title="Rétablir les services essentiels">
+    Priorisez la radio de la ville pour débloquer la carte du comté et l'hôpital pour la récupération. L'atelier auto est également vital pour un accès rapide aux véhicules, ce qui vous permet de transporter plus de butin depuis des secteurs éloignés.
+  </Step>
+  <Step num="3" title="Établir des industries de survie">
+    Arrêtez de compter uniquement sur la collecte. Construisez des potagers, des élevages de rats et des étangs à grenouilles. Ces installations fournissent un flux régulier de nourriture et de matériaux, permettant à vos équipes d'expédition de se concentrer sur la recherche de plans rares et d'équipements militaires.
+  </Step>
+  <Step num="4" title="Préparation militaire et défensive">
+    À l'approche du jour 20 de la campagne, transférez les ressources vers les fortifications. Les défenses alimentées, les murs renforcés et l'atelier d'armes deviennent la priorité absolue pour se préparer au siège final.
+  </Step>
+</Steps>
+
+| Installation | Matériaux requis | Avantage du déblocage |
+| :--- | :--- | :--- |
+| **Radio de la ville** | Composants, Métal, Fil de fer | Débloque la carte du comté et les quêtes de faction |
+| **Hôpital** | Fournitures médicales, Eau propre, Énergie | Récupération et traitement des blessures plus rapides |
+| **Atelier** | Outils, Métal, Composants | Débloque l'artisanat et la réparation d'équipement |
+| **Potagers** | Engrais, Graines, Eau | Production alimentaire durable |
+| **Casernes** | Literie, Bois, Objets de moral | Augmente la population et les emplacements de recrutement |
+
+<Callout type="warning" title="Avertissement d'entretien">
+Les installations consomment de l'énergie et des ressources quotidiennement. Ne développez pas trop votre abri tant que votre production (potagers/générateurs) ne peut pas compenser la consommation quotidienne, sous peine de trouver vos stocks vides au moment où vous en aurez le plus besoin.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Artisanat, réparations et systèmes de spécialistes">
+
+La mise à jour de la version 1.0 a considérablement refondu les systèmes d'artisanat et de réparation. Il ne suffit plus de cliquer sur un bouton pour « réparer » une arme ; vous avez désormais besoin de **matériaux d'Urban Strife** spécifiques et du bon spécialiste. Owen, le mécanicien de l'abri, est au cœur de ce processus. Il peut restaurer la durabilité des armes et des gilets pare-balles en utilisant des pièces de récupération.
+
+L'artisanat dans *Urban Strife* est divisé entre l'artisanat de terrain (objets de base) et l'artisanat sur établi (munitions et équipements avancés). Vous pouvez puiser des matériaux directement dans le stock de votre abri lorsque vous êtes à la base, ce qui évite les manipulations fastidieuses d'inventaire.
+
+<CardGrid cols={3}>
+  <Card title="Atelier d'armes">
+    - **Réparer l'équipement** : Utilisez des pièces de récupération pour réparer les armes à feu.
+    - **Modifier les armes** : Ajoutez des silencieux et des lunettes.
+    - **Recycler les objets** : Transformez la ferraille en composants utiles.
+  </Card>
+  <Card title="Station d'armurier">
+    - **Presse à munitions** : Créez des calibres personnalisés.
+    - **Explosifs** : Fabriquez des grenades et des cocktails Molotov.
+    - **Plaques de blindage** : Fabriquez des inserts balistiques.
+  </Card>
+  <Card title="Laboratoire médical">
+    - **Raffiner les médicaments** : Transformez les herbes en bandages.
+    - **Antiseptiques** : Fabriquez des kits de lutte contre les infections.
+    - **Boosts d'endurance** : Produisez des boissons énergisantes.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recyclage efficace">
+Avant de vendre des armes en double ou de mauvaise qualité aux marchands, vérifiez si vous avez besoin de « Pièces de récupération ». Démonter un pistolet à 10 % de durabilité offre souvent plus de valeur en matériaux de réparation que les quelques pièces qu'un marchand vous proposerait.
+</Callout>
+
+| Objet à fabriquer | Ingrédients | Installation requise |
+| :--- | :--- | :--- |
+| **Cocktail Molotov** | Carburant, Tissu, Bouteille en verre | Atelier de base |
+| **Munitions 9 mm** | Plomb, Poudre, Douilles en laiton | Station d'armurier |
+| **Plaque balistique** | Acier, Céramique, Composants | Atelier avancé |
+| **Canon silencieux** | Métal, Outils, Filtre à huile | Spécialiste Owen |
+| **Trousse de premiers secours** | Bandages, Alcool, Attelle | Laboratoire médical |
+
+</Section>
+
+<Section icon={Target} title="Récompenses de faction et itinéraires de collecte de matériaux">
+
+Votre réputation auprès des trois grands blocs — la Garde Nationale, l'Église de la Seconde Chance et les Bikers Shady Lady — a un impact direct sur votre accès aux **matériaux d'Urban Strife** haut de gamme. Chaque faction contrôle des nœuds de ressources spécifiques et propose des plans uniques en récompense de votre loyauté.
+
+La collecte de matériaux nécessite une approche tactique de la carte du monde. Les secteurs sont marqués par leur difficulté et la faction qui les contrôle. En début de partie, concentrez-vous sur les zones de banlieue neutres pour rassembler les fournitures de construction de base avant de vous aventurer dans les zones industrielles fortement contrôlées par les factions.
+
+| Faction | Spécialité de ressources | Matériau unique/Récompense |
+| :--- | :--- | :--- |
+| **Garde Nationale** | Matériel militaire, Armures | Munitions .50 BMG, Pièces de HMMWV de l'armée |
+| **Église de la Seconde Chance** | Herbes, Produits chimiques, Nourriture | Plans de spécialiste, toxines uniques |
+| **Bikers Shady Lady** | Carburant, Pièces de véhicule, Ferraille | Armes du marché noir, Moteurs turbo |
+| **Barons indépendants** | Fournitures générales, Outils | Réductions commerciales locales, recrues rares |
+
+<Callout type="info" title="Logique de réputation">
+Aider une faction ne vous donne pas seulement des objets ; cela modifie la carte. Une faction amie peut éliminer les hordes errantes sur son territoire, rendant vos itinéraires de collecte bien plus sûrs et réduisant le coût en carburant des déplacements.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Préparation au siège et liste de contrôle finale">
+
+Le point culminant de la campagne est le siège de la horde d'Atlanta. Le jeu suit votre « état de préparation au siège » via le traqueur de défense. Ce système prend en compte vos **matériaux d'Urban Strife** totaux, le niveau de vos fortifications et la force de vos alliés. Si vos stocks sont bas, vous pourriez être contraint de faire de lourds sacrifices lors de la bataille finale.
+
+À l'approche du jour 20, vous devriez arrêter toute expansion non essentielle et vous concentrer entièrement sur la préparation au combat. Assurez-vous que chaque défenseur dispose d'une arme réparée, d'un ensemble complet d'armure et d'au moins trois recharges de munitions.
+
+<Checklist
+  id="siege-prep"
+  title="Liste de contrôle finale de préparation au siège :"
+  items={[
+    "Réparer toutes les armes principales et les armures à 100 % de durabilité.",
+    "Stocker au moins 50 unités de nourriture et d'eau dans le stock de l'abri.",
+    "S'assurer que la clôture électrique et les barrières motorisées disposent d'une réserve de carburant de 24 heures.",
+    "Distribuer des grenades et des cocktails Molotov à tous les défenseurs de première ligne.",
+    "Terminer la quête d'alliance finale pour obtenir des renforts de faction."
+  ]}
+/>
+
+<Callout type="warning" title="Le point de non-retour">
+Une fois que l'alerte radio pour la horde d'Atlanta se déclenche (généralement 24 heures avant l'assaut), vous ne pouvez plus quitter l'abri pour de longues expéditions de collecte. Utilisez cette dernière fenêtre pour recycler chaque objet non essentiel de votre stock afin d'obtenir des pièces de réparation.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur les matériaux d'Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur endroit pour trouver des matériaux de construction ?",
+    answer: "Les secteurs industriels et les entrepôts de la partie nord d'Urban County sont les sources les plus riches. Recherchez des caisses étiquetées « Fournitures de construction » ou « Quincaillerie »."
+  },
+  {
+    question: "Comment réparer les armes dans Urban Strife 1.0 ?",
+    answer: "Vous devez d'abord sauver Owen et restaurer l'atelier. Les réparations nécessitent des « Pièces de récupération », qui s'obtiennent en démontant les armes et armures indésirables."
+  },
+  {
+    question: "Puis-je fabriquer des munitions sans spécialiste ?",
+    answer: "Les munitions de base peuvent être fabriquées si vous possédez la station d'armurier, mais les calibres avancés et les balles perforantes nécessitent des plans spécifiques trouvés lors des quêtes de faction."
+  },
+  {
+    question: "Que se passe-t-il si je tombe en panne de carburant pendant un déplacement ?",
+    answer: "Votre véhicule s'arrêtera et votre équipe devra se déplacer à pied. Cela augmente considérablement le risque d'être pris en embuscade par des hordes errantes et accroît la fatigue."
+  }
+]} />
+
+</Section>

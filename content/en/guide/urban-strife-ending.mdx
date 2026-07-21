@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Layout, BarChart, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Ending: Current Content State & Story Milestones",
+  description: "Explore the current state of the Urban Strife ending, including WIP maps, faction alliances, and how to trigger endgame events in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Ending+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Urban strife ending status**: The final horde event and endgame alliances are currently blocked at the code level while developers balance the endgame mechanics.
+- **Faction progression**: Access to major ally bases like the National Guard Base or Shady Lady is restricted until you commit to a specific faction.
+- **WIP locations**: Several Tier 2 maps, including the Graveyard and Gun Store, are currently previews for loot and combat rather than story conclusions.
+- **Non-linear quests**: No single quest blocks the main story progression; the game uses an episodic structure where player choices dictate the flow.
+- **Preparation strategy**: Focus on hoarding high-tier ammunition and upgrading your base's hydro system before the final 2026 content updates.
+</Callout>
+
+<Section icon={Layout} title="The Current State of the Urban Strife Ending">
+
+Understanding the **urban strife ending** requires a clear look at the game's current development roadmap. As of July 2026, the game is structured around separate episodes that progress the narrative. While players can complete the majority of Chapter 1 and parts of Chapter 2, the definitive "final" cinematic or horde event is intentionally gated.
+
+Developers have confirmed that the horde event—a massive survival challenge that serves as the climax—is currently disabled. This is to ensure that when the full release triggers, the balance between your alliances and the invading undead is perfectly tuned.
+
+| Content Type | Current Status | Impact on Ending |
+| :--- | :--- | :--- |
+| **Main Story Quests** | Available up to Chapter 2 | Essential for faction relations |
+| **Horde Invasion** | Blocked at Code Level | Planned as the final challenge |
+| **Faction Alliances** | Partially Implemented | Choice determines final base access |
+| **Tier 2 Maps** | Preview Mode | Provides endgame loot and combat |
+
+<Callout type="warning" title="Development Note">
+The game does not currently have a "Game Over" screen for completing the story. Once you finish available quests, you will enter a free-play state where you can continue to scavenge and trade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Faction Bases and Endgame Alliances">
+
+Your journey toward the **urban strife ending** is heavily influenced by the faction you choose to support. Each "Top Dog" leader resides in a high-security base that remains off-limits during the early and mid-game. These locations are designed to be the staging grounds for the final defense against the horde.
+
+<CardGrid cols={3}>
+  <Card title="National Guard Base">
+    - **Leader**: Governor Moore
+    - **Focus**: Military discipline and high-tier firearms
+    - **Endgame Role**: Strategic defense and heavy artillery support
+  </Card>
+  <Card title="The Shady Lady">
+    - **Leader**: Faction Specific
+    - **Focus**: Resource management and urban survival
+    - **Endgame Role**: Intelligence gathering and stealth operations
+  </Card>
+  <Card title="Second Chance Camp">
+    - **Leader**: Civilian Leaders
+    - **Focus**: Community rebuilding and sustainability
+    - **Endgame Role**: Population protection and medic support
+  </Card>
+</CardGrid>
+
+Choosing an ally is the primary trigger for the final sequence of maps. Once a commitment is made, the game integrates these ally bases into the core gameplay loop, providing you with advanced tech like the hydro system.
+
+<Callout type="tip" title="Strategic Choice">
+Before committing to a faction, ensure you have completed all side quests for other groups to maximize your experience and loot gains.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Completing Key Narrative Quests">
+
+While the final ending is pending, certain quests are vital for reaching the current "soft cap" of the story. One of the most discussed is the **Corkscrew Quest**, which involves the Cultist Sister. Many players mistakenly believe this quest is broken, but it simply requires a specific approach to the Cultist faction.
+
+<Steps>
+  <Step num="1" title="Locate the Cultists">
+    Find the cultist faction in their designated sector. Do not engage in immediate hostilities if you wish to trade.
+  </Step>
+  <Step num="2" title="Befriend the Sister">
+    The Sister acts as a unique trader. You must gain enough reputation with the cultists for her to open her inventory.
+  </Step>
+  <Step num="3" title="Acquire the Wine">
+    Purchase the specific bottle of wine required for the quest. If you have already turned the faction hostile, you must kill the Sister to loot the item.
+  </Step>
+  <Step num="4" title="Turn in the Quest">
+    Return the item to the quest giver to clear this milestone from your log.
+  </Step>
+</Steps>
+
+| Quest Name | Key NPC | Required Action | Reward |
+| :--- | :--- | :--- | :--- |
+| **Corkscrew** | Cultist Sister | Trade or Loot | Rare Wine / XP |
+| **Gun Store** | Sheriff | Combat Clearance | High-tier Firearms |
+| **Graveyard WIP** | N/A | Exploration | Preview Loot |
+
+<Callout type="success" title="No Soft Locks">
+The developers have designed the game so that no single quest outcome—whether you fail, skip, or succeed—will block the overall progression of the main story.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="WIP Maps and Future Content">
+
+Several locations on the map currently serve as previews for the upcoming **urban strife ending** expansion. These maps are accessible but lack the deep RPG scripting that will be present in the final version. Entering these areas now is primarily for players who want to test their combat builds and secure late-game equipment.
+
+**Current WIP Locations:**
+- **Mason's Hardware Store**: Planned as a major resource hub for the mid-campaign.
+- **Father King's Urban Highschool**: A faction-specific stronghold with complex verticality.
+- **Governor Moore's FEMA Hospital**: The primary site for medical advancement and late-game healing items.
+
+<Checklist
+  id="ending-prep"
+  title="Endgame Preparation Checklist:"
+  items={[
+    "Reach maximum reputation with your chosen faction",
+    "Secure the high-tier Hydro System for your base",
+    "Stockpile at least 500 rounds of specialized ammunition",
+    "Clear the Gun Store and Graveyard maps for elite loot",
+    "Create a baseline save before the 'Point of No Return' alliance choice"
+  ]}
+/>
+
+<Callout type="info" title="Expert Insight">
+If you find yourself with no active quests, focus on "Murderhobo" testing—clearing out hostile camps to see what unique items they drop, as many unique NPCs carry golden weapons or rare gear.
+</Callout>
+
+</Section>
+
+<Section icon={BarChart} title="Resource Management for the Final Push">
+
+As you approach the current limits of the **urban strife ending**, your focus should shift from survival to optimization. The final horde will require significant quantities of consumables and high-durability gear.
+
+| Resource | Importance | Best Farming Method |
+| :--- | :--- | :--- |
+| **Special Bullets** | ★★★★★ | Crafting via specialized benches |
+| **Medical Supplies** | ★★★★☆ | Looting FEMA Hospital (WIP) |
+| **Scrap Metal** | ★★★☆☆ | Recycling redundant firearms |
+| **High-Tier Loot** | ★★★★★ | Clearing Tier 2 preview maps |
+
+<Callout type="warning" title="Loot Warning">
+Be careful when killing unique merchants (like the bikini girl merchant). While they may drop "Golden Guns," you lose a permanent trading partner for the remainder of your playthrough.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I trigger the final horde event right now?",
+    answer: "No. The horde event is currently blocked at the code level by the developers until the endgame balance and final maps are fully integrated."
+  },
+  {
+    question: "Is the Corkscrew quest required for the urban strife ending?",
+    answer: "No. While it provides useful rewards and lore, it is a side quest and does not block the main story progression."
+  },
+  {
+    question: "How do I access the National Guard Base?",
+    answer: "This base is an 'Ally Base.' You must progress the story until you are given the option to choose an alliance, at which point the base of your chosen ally will become accessible."
+  },
+  {
+    question: "Why do some maps like the Gun Store feel unfinished?",
+    answer: "Maps like the Gun Store and Graveyard are currently Tier 2 previews. They are included for players to enjoy combat and find loot while the developers finish the RPG scripting for those locations."
+  }
+]} />
+
+</Section>

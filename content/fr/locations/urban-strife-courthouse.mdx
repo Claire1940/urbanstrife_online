@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, MessageSquare, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Palais de justice d'Urban Strife : Guide d'étape par étape de nettoyage et de quêtes",
+  description: "Maîtrisez la mission du palais de justice d'Urban Strife en 2026. Apprenez à forcer les portes verrouillées, éliminer les générateurs de zombies et suivre la quête de la juge Jenny Saint.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Courthouse+Guide",
+  date: "2026-07-21",
+  author: "Équipe du Wiki d'Urban Strife",
+  keywords: "Urban Strife, palais de justice, guide, quête, zombies, Jenny Saint"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Palais de justice d'Urban Strife** : Un lieu à haut risque caractérisé par des conflits de factions et de denses groupes de morts-vivants.
+- **Mécanique des portes** : Utilisez des **armes contondantes** (pieds-de-biche/marteaux) pour enfoncer les portes barricadées ; les lames tranchantes échoueront.
+- **Priorité à la discrétion** : Utilisez des armes silencieuses et des éliminations au corps à corps pour éclaircir la horde avant de vous attaquer aux générateurs.
+- **Choix de faction** : Choisir le camp de la juge Jenny Saint ou celui de la secte modifie considérablement les récompenses de fin de partie et les embranchements de l'histoire.
+- **Équipement essentiel** : Portez des cocktails Molotov pour les générateurs et au moins une arme contondante pour interagir avec l'environnement.
+</Callout>
+
+<Section icon={Map} title="Présentation du palais de justice d'Urban Strife">
+
+Le **palais de justice d'Urban Strife** constitue un carrefour critique dans la campagne de survie de 2026. À l'origine un tribunal, il a été converti en hôpital de fortune lors de l'épidémie initiale. Cette transition explique l'abondance de fournitures médicales que l'on y trouve, mais elle justifie également la forte concentration de zombies de type « Berger » (Herder) et de générateurs. Les joueurs qui arrivent ici seront confrontés à un conflit tripartite impliquant le bureau du shérif, la secte des adorateurs de zombies et l'autorité locale dirigée par la juge Jenny Saint.
+
+**Points forts de la vidéo :**
+- **Tactiques de discrétion** : Démonstration de l'utilisation de Benny pour des éliminations silencieuses au corps à corps.
+- **Interaction environnementale** : Identifier quelles portes nécessitent de la force brute plutôt que du crochetage.
+- **Gestion des générateurs** : Utiliser le feu pour stopper définitivement les renforts de zombies.
+- **Interaction de faction** : Un aperçu du dialogue initial avec le chef de la secte.
+
+<YouTubeEmbed videoId="NuygBnhw0l0" title="Nettoyer le palais de justice dans Urban Strife" />
+
+<Callout type="tip" title="Entrée stratégique">
+Avant d'entrer dans le hall principal, vérifiez la cage de sécurité près de l'entrée. Elle contient souvent des munitions de base et sert de point de repli sûr si le nettoyage d'une pièce tourne mal.
+</Callout>
+
+| Zone | Caractéristiques clés | Priorité du butin |
+| :--- | :--- | :--- |
+| **Cage de sécurité** | Point d'entrée initial, grillagé | Munitions de base, armes de corps à corps |
+| **Couloir principal** | Haute visibilité, zone de patrouille | Conteneurs à fouiller |
+| **Cellules de prison** | Couloirs étroits, risque élevé | Cachettes secrètes, pièces d'artisanat |
+| **Salle d'audience** | Grand espace ouvert, couverture disponible | Documents d'histoire, butin mineur |
+| **La salle de bain** | Barricadée, contient des survivants | Objets de quête, kits médicaux |
+
+</Section>
+
+<Section icon={Swords} title="Nettoyage tactique : Combat et discrétion">
+
+Réussir dans le **palais de justice d'Urban Strife** nécessite une approche hybride. Bien que le jeu permette des styles de jeu bruyants et agressifs, la densité des morts-vivants dans les ailes de la prison et de l'hôpital fait de la discrétion le choix idéal pour la première moitié de la mission.
+
+<CardGrid cols={3}>
+  <Card title="Le leader furtif">
+    - Utilisez **Benny** ou un personnage à haute dextérité.
+    - Équipez des couteaux ou des arbalètes silencieuses.
+    - Restez accroupi pour minimiser la portée de détection.
+  </Card>
+  <Card title="Le spécialiste des générateurs">
+    - Équipez **Billy Bo** de cocktails Molotov.
+    - Concentrez-vous sur l'incendie des nids dès leur découverte.
+    - Utilisez le feu pour créer des points de passage étroits.
+  </Card>
+  <Card title="Le soutien lourd">
+    - Gardez **Lucy** ou **Kaye** en soutien avec des munitions blindées (FMJ).
+    - N'engagez le combat que si la discrétion est rompue.
+    - Donnez la priorité aux variantes « Berger » (Herder).
+  </Card>
+</CardGrid>
+
+En nettoyant les pièces du fond, vous rencontrerez des générateurs de zombies. Ce sont des masses organiques qui vomissent périodiquement de nouveaux ennemis dans la zone de combat. Si vous ne les détruisez pas avec du feu ou des dégâts hautement explosifs, l'affrontement peut devenir une source d'épuisement infini pour vos ressources.
+
+<Callout type="warning" title="Alerte de détection">
+Si un zombie « Berger » (Herder) vous repère, il dispose d'une portée de détection plus large que les marcheurs standards. Il peut alerter tout l'étage, transformant une approche furtive en une fusillade frénétique.
+</Callout>
+
+| Type d'ennemi | Comportement | Meilleur contre |
+| :--- | :--- | :--- |
+| **Traînard** (Shambler) | Lent, prévisible | Corps à corps/Couteau dans la tête |
+| **Berger** (Herder) | Vigilance élevée, alerte les autres | Tir à distance silencieux |
+| **Générateur** (Spawner) | Crée de nouveaux zombies | Molotov/Incendiaire |
+| **Sectateur** | Armé d'armes de corps à corps/arbalètes | Couverture tactique et contournement |
+
+</Section>
+
+<Section icon={Target} title="La mécanique des portes verrouillées : Forcer le passage">
+
+Un point de frustration récurrent au sein du **palais de justice d'Urban Strife** est la porte barricadée de la salle de bain. De nombreux joueurs tentent d'utiliser des crochets ou des armes de corps à corps tranchantes (comme des lames de tondeuse ou des couteaux de cuisine) pour s'apercevoir que la porte est « invulnérable ». Il s'agit d'un test mécanique spécifique mis en place par les développeurs.
+
+<Steps>
+  <Step num="1" title="Identifier la cible">
+    Localisez la porte barricadée d'où proviennent des voix. Elle se trouve généralement dans l'aile centrale de l'hôpital.
+  </Step>
+  <Step num="2" title="Équiper une arme contondante">
+    Équipez un **pied-de-biche**, un **marteau** ou même des **cisailles de jardin** utilisées en mode contondant. Les lames tranchantes ne possèdent pas l'impact « S » (corps à corps spécial) requis pour les barricades en bois et en métal.
+  </Step>
+  <Step num="3" title="Entrer en mode combat">
+    Si le curseur ne change pas automatiquement, passez manuellement en mode combat. Sélectionnez le mode d'attaque « S » sur la tablette de votre arme.
+  </Step>
+  <Step num="4" title="Enfoncer la barricade">
+    Dépensez des points d'action pour frapper la porte. Cela peut prendre plusieurs tours selon la force du personnage et la durabilité de l'arme.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Note des développeurs">
+Dans la version 2026, les armes contondantes peuvent également être utilisées pour briser les vitres des voitures afin d'obtenir de l'XP de Dextérité et du butin, bien que les portes du palais de justice restent le cas d'utilisation principal de cette mécanique.
+</Callout>
+
+</Section>
+
+<Section icon={MessageSquare} title="Série de quêtes : La juge Jenny Saint et la secte">
+
+Le cœur narratif du **palais de justice d'Urban Strife** tourne autour de la juge Jenny Saint. Elle se présente comme la voix de l'ordre, mais des indices de l'histoire suggèrent un passé plus sombre. Après avoir éliminé les morts-vivants, vous obtiendrez une audience avec elle, à condition de ne pas avoir déjà rendu le palais de justice hostile en attaquant les gardes.
+
+**Principaux embranchements de quête :**
+- **La voie humanitaire** : Tenter de négocier entre la secte et la juge. C'est difficile et cela nécessite un charisme élevé ou des tests de dialogue réussis.
+- **Le revirement radical** : Prendre entièrement le parti de la juge. Cela implique d'éliminer la secte des adorateurs de zombies et de récupérer les titres de propriété du domaine Saint.
+- **Le chercheur de vérité** : Trouver les rapports de recherche « Top Secret » qui impliquent la juge dans le massacre des premiers patients de l'hôpital.
+
+<Checklist
+  id="courthouse-objectives"
+  title="Liste de contrôle de complétion du palais de justice :"
+  items={[
+    "Éliminer tous les morts-vivants dans l'aile de l'hôpital",
+    "Détruire les deux générateurs de zombies principaux",
+    "Sauver les survivants piégés dans la salle de bain",
+    "Trouver les titres de propriété du domaine Saint dans le coffre-fort du bureau",
+    "Confronter ou aider la juge Jenny Saint"
+  ]}
+/>
+
+<Callout type="info" title="Indice caché">
+Il existe un « indice verrouillé » impliquant le garde ivre et l'infirmière Tina. Confronter la juge avec les preuves de la faillite de l'hôpital (trouvées dans les documents Top Secret) débloque des options de dialogue uniques mais peut rendre la faction hostile.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Marchands et gestion des ressources">
+
+Une fois le **palais de justice d'Urban Strife** stabilisé (ou si vous êtes en termes neutres avec la juge), vous aurez accès à plusieurs marchands de haut niveau. C'est l'un des meilleurs endroits en début et milieu de partie pour obtenir des fournitures médicales et des améliorations d'armure.
+
+| Marchand | Emplacement | Spécialité |
+| :--- | :--- | :--- |
+| **Infirmière Tina** | Aile de l'hôpital | Kits de soins, Antibiotiques, Colle |
+| **Officier Duly** | Deuxième étage | Gilets pare-balles, Munitions FMJ, Carreaux |
+| **Lenny** | Le Pub (Sous-sol) | Alcool, Objets de moral |
+| **John Adams** | Près du Pub | PNJ de quête (Père de Kaylee) |
+
+**Optimisation de l'inventaire :**
+Le palais de justice regorge de butin, ce qui entraîne souvent un encombrement. Utilisez la stratégie de « répartition du butin » :
+- **Objets lourds** : Donnez-les à Rangtang ou Billy Bo.
+- **Ingrédients d'artisanat** : Regroupez-les sur Kaye.
+- **Fournitures médicales** : Gardez-les sur Lucy pour une utilisation immédiate sur le terrain.
+
+<Callout type="warning" title="Matériaux de construction">
+Notez que la faction du palais de justice vend rarement des matériaux de construction (matériaux recyclés). Pour cela, vous devez commercer avec la faction militaire ou fouiller le supermarché.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusion et FAQ">
+
+Nettoyer le **palais de justice d'Urban Strife** est bien plus qu'un simple combat ; c'est un test de votre compréhension des mécaniques environnementales du jeu. Que vous choisissiez de soutenir la loi rigide de la juge Saint ou la survie désespérée de la secte, les ressources trouvées ici, en particulier les armures et les fournitures médicales, porteront votre escouade à travers les prochains chapitres de la campagne de 2026.
+
+<FAQ items={[
+  {
+    question: "Pourquoi ne puis-je pas enfoncer la porte de la salle de bain du palais de justice ?",
+    answer: "Vous devez utiliser une arme contondante comme un pied-de-biche ou un marteau. Les armes tranchantes comme les couteaux ou les lames de tondeuse ne fonctionneront pas. Assurez-vous d'être en mode combat et d'utiliser l'attaque spéciale de corps à corps (S)."
+  },
+  {
+    question: "Où se trouve le titre de propriété du domaine Saint ?",
+    answer: "Le titre de propriété se trouve dans un coffre-fort situé dans les appartements privés de la juge ou dans le bureau adjacent. Vous devrez peut-être accomplir l'objectif « Éliminer les morts-vivants » avant que la pièce ne devienne accessible."
+  },
+  {
+    question: "Est-il préférable de s'allier avec la juge ou avec la secte dans Urban Strife ?",
+    answer: "S'allier avec la juge offre un meilleur accès à des équipements et armures de qualité militaire. Choisir la secte offre davantage de récompenses basées sur le moral et une voie d'alignement « bienveillante », bien que cela soit tactiquement plus difficile."
+  },
+  {
+    question: "Comment empêcher les zombies d'apparaître dans le palais de justice ?",
+    answer: "Vous devez trouver les générateurs organiques (tas de chair) et les détruire par le feu. Les cocktails Molotov constituent la méthode la plus efficace pour y parvenir."
+  }
+]} />
+
+</Section>

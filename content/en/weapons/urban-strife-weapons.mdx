@@ -1,0 +1,189 @@
+import { Swords, Settings, ShoppingBag, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Weapons: 2026 Tier List & Loadout Guide",
+  description: "Master the ballistics, faction arsenals, and custom crafting recipes for Urban Strife weapons. Optimize your squad loadouts for ultimate survival.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/334155/fff?text=Urban+Strife+Weapons+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ballistics Matter**: Every bullet and shotgun pellet features individual trajectory calculations and material penetration based on caliber.
+- **Stealth vs. Loud**: Silent melee tools and crossbows prevent horde alerts, while high-caliber rifles and shotguns clear massive groups instantly.
+- **Faction Arsenals**: Align with the Rogue Army Garrison for military hardware or the Shady Lady Bikers for black-market firepower.
+- **Weapon Modification**: Utilize the shelter workshop to craft custom attachments, suppressors, and specialized ammunition.
+- **Action Point Management**: Balance weapon weight and caliber to maintain high AP efficiency and execute powerful interrupt actions.
+</Callout>
+
+<Section icon={Swords} title="Weapon Categories & Ballistics Overview">
+
+Surviving the zombie pandemic in the fictional county of Urban requires more than just raw courage. Understanding the complex mechanics of **urban strife weapons** is crucial to keeping your makeshift squad of rangers alive. Unlike traditional turn-based role-playing games that rely entirely on simple random number generators for hit calculations, combat in this tactical survival RPG utilizes a robust, real-time ballistics engine. 
+
+Every single projectile—whether it is a single high-velocity rifle round or a spray of shotgun pellets—has its own trajectory calculation. Caliber-specific material penetration dictates whether a bullet will pass through wooden fences, shatter brick walls, or travel through multiple targets standing in a row. This level of detail introduces immense tactical flexibility, allowing players to destroy enemy cover, utilize flanking maneuvers, perform window entries, and engage in high-ground rooftop combat.
+
+Choosing the right weapon class depends heavily on the threat level of the environment, the composition of the enemy forces, and your squad's overall Action Point (AP) pool.
+
+<CardGrid cols={3}>
+  <Card title="Stealth & Melee">
+    - **Zero Noise Generation**
+    - High AP efficiency for close-quarters combat
+    - Ideal for eliminating isolated targets silently
+  </Card>
+  <Card title="Crowd Control">
+    - **Wide Pellet Spread**
+    - Devastating damage against dense zombie hordes
+    - High potential for cover destruction
+  </Card>
+  <Card title="Precision & Heavy">
+    - **Extreme Armor Penetration**
+    - Exceptional range and high base damage
+    - Consumes significant AP per shot
+  </Card>
+</CardGrid>
+
+To build an effective squad, rangers must balance their loadouts across different weapon categories. Utilizing loud firearms without a plan will quickly alert the unique horde AI, causing massive crowds of undead to swarm your position in a single turn.
+
+| Weapon Category | Primary Ammo | AP Cost | Penetration Power | Noise Level | Primary Tactical Role |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Melee Weapons | None | Very Low | None | Silent | Silent takedowns and finishing blows |
+| Pistols | 9mm / .45 ACP | Low | Low | Medium | Reliable sidearm and close backup |
+| Shotguns | 12-Gauge | Medium | Low | Extremely High | Clearing dense zombie clusters |
+| Assault Rifles | 5.56mm / 7.62mm | Medium-High | Medium-High | High | Mid-range versatility against humans |
+| Sniper Rifles | 7.62mm / .308 | High | High | High | Long-range elimination and scouting |
+| Heavy Weapons | .50 BMG | Extremely High | Extremely High | Deafening | Cover destruction and armored targets |
+
+<Callout type="warning" title="Horde Alert System">
+Loud firearms like shotguns and unsuppressed rifles generate noise traps that draw nearby zombies. Always clear immediate paths with silent weapons before opening fire with heavy caliber machinery.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Weapon Customization & Crafting Guide">
+
+Survival in the post-apocalypse is an ongoing battle against resource scarcity. The weapons you salvage from the ruins of Urban can be significantly enhanced through base upgrades and detailed crafting systems. By repairing and retooling the local workshop in your fortified shelter, you unlock the ability to fabricate advanced attachments, customize your firearms, and mix specialized ammunition.
+
+Customizing your weapons allows you to tailor your squad's performance to match your specific playstyle. Adding suppressors to handguns or submachine guns creates effective stealth tools, while mounting optical scopes onto hunting rifles turns basic firearms into deadly marksman platforms. Furthermore, players can craft specialized ammunition types, such as custom dum-dum rounds, which expand upon impact to deliver massive stopping power and cause severe bleeding effects on soft targets.
+
+| Attachment Type | Materials Required | Primary Stat Bonus | Ideal Weapon Synergy |
+| :--- | :--- | :--- | :--- |
+| Suppressor | Scrap Metal, Springs, Oil Filter | Reduces noise output by 80% | Pistols, Submachine Guns |
+| Optical Scope | Glass Lenses, Precision Parts | Increases effective range and accuracy | Assault Rifles, Sniper Rifles |
+| Laser Sight | Electronic Components, Battery | Improves hip-fire and close-range accuracy | Shotguns, Handguns |
+| Extended Magazine | Sheet Metal, Springs | Increases ammunition capacity by 50% | Submachine Guns, Assault Rifles |
+| Ergonomic Grip | Fabric, Carved Wood, Adhesive | Decreases Action Point cost per attack | Melee Weapons, Heavy Rifles |
+
+To customize your arsenal and upgrade your combat capabilities, follow this structured progression system at your home base.
+
+<Steps>
+  <Step num="1" title="Scavenge Materials">
+    Explore abandoned residential zones, auto shops, and military outposts to collect metal parts, springs, electronic components, and rare weapon schematics.
+  </Step>
+  <Step num="2" title="Upgrade the Workshop">
+    Allocate survival resources to repair and retool your shelter's base workshop, unlocking advanced crafting tiers and specialized modification recipes.
+  </Step>
+  <Step num="3" title="Fabricate Attachments">
+    Use gathered blueprints and raw materials to craft suppressors, tactical scopes, extended magazines, or specialized ammunition like high-stopping-power dum-dum rounds.
+  </Step>
+  <Step num="4" title="Modify Your Arsenal">
+    Access the weapon modification interface in your workshop, combine your base firearms with the newly fabricated kits, and deploy your upgraded squad into the field.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Hidden Recipes">
+Keep an eye out for hidden areas and befriend quirky NPCs throughout the county. Many advanced crafting recipes and unique weapon blueprints are only accessible by gaining the trust of local survivors.
+</Callout>
+
+</Section>
+
+<Section icon={ShoppingBag} title="Faction Weapons & Black Market Trading">
+
+As the human population dwindles, the remaining survivors have divided themselves into distinct factions fighting over the scraps of civilization. Each faction controls unique supply chains, specialized workshops, and valuable stockpiles of military or industrial gear. Accessing these exclusive inventories requires navigating complex political relationships and building a strong reputation across the county.
+
+Your choices in dialogue, mission completion, and resource distribution will directly impact which faction traders will deal with you and what high-grade hardware they are willing to put on the market.
+
+| Faction | Combat Philosophy | Signature Weapon Class | Key Black Market Inventory |
+| :--- | :--- | :--- | :--- |
+| Rogue Army Garrison | Elite military force, high-power tactics | Assault Rifles & Snipers | .50 BMG Anti-Materiel Rifle, Military Armor |
+| Shady Lady Bikers | Aggressive, close-range skirmishers | Shotguns & Submachine Guns | Custom Shotgun Drum Mags, Automatic SMGs |
+| Cult of Second Chance | Silent, non-violent philosophy | Crossbows & Heavy Melee | Advanced Compound Crossbows, Silent Bolts |
+| Independent Survivors | Basic survival, low-tier defense | Handguns & Hunting Rifles | Standard 9mm Pistols, Hunting Rifle Scopes |
+
+The Rogue Army Garrison sits on an invaluable cache of military supplies. If you pay their protection fees and align with their harsh worldview, they will supply your rangers with top-tier military hardware. Conversely, the Shady Lady Bikers run a highly profitable black market out of their 24/7 establishment, offering automatic weapons, vehicle parts, and specialized combat drugs. For players seeking a stealthier approach, the Cult of Second Chance offers silent tools capable of neutralizing threats without alerting nearby hordes.
+
+<Callout type="success" title="Reputation Rewards">
+Reaching maximum reputation with a faction not only unlocks their highest tier of weapons but also grants access to unique, recruitable specialist NPCs who come pre-equipped with elite gear.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Best Loadouts for Early, Mid, and Late Game">
+
+Optimizing your squad's gear progression is essential as the threats in Urban grow increasingly hostile. In the early days of your campaign, your primary focus will be resource conservation and basic survival. As you establish your base and broker alliances, your arsenal should transition toward specialized tactical roles.
+
+Refer to the table below for highly effective loadout configurations tailored to each stage of the game.
+
+| Campaign Stage | Ranger Role | Recommended Primary | Recommended Secondary | Tactical Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| Early Game | Scout | Crossbow | Baseball Bat | Silent exploration and single-target elimination |
+| Early Game | Frontliner | Pump-Action Shotgun | 9mm Pistol | Crowd control and close-quarters emergency defense |
+| Mid Game | Marksman | Bolt-Action Rifle | Silenced Pistol | Long-range precision and quiet backup options |
+| Mid Game | Commando | 5.56mm Carbine | Machete | Versatile mid-range engagements and cover flanking |
+| Late Game | Sniper | .50 BMG Rifle | Silenced SMG | Heavy penetration, wall destruction, and close defense |
+| Late Game | Heavy Gunner | Light Machine Gun | Auto Shotgun | Absolute crowd suppression and clearing massive hordes |
+
+Before heading out into high-threat zones such as the dark subway tunnels or fortified faction outposts, ensure your squad is thoroughly prepared.
+
+<Checklist
+  id="squad-preparation"
+  title="Pre-Mission Preparation Checklist:"
+  items={[
+    "Ensure at least two squad members are equipped with silent weapons for stealth phases",
+    "Pack sufficient custom dum-dum ammunition for your primary crowd-control rangers",
+    "Verify that your primary marksman has a clear line of sight and high-ground access",
+    "Check the durability of all primary firearms and perform repairs at the base workshop",
+    "Equip heavy armor and high-caliber penetration weapons if facing human faction outposts"
+  ]}
+/>
+
+<Callout type="tip" title="AP Efficiency">
+Always check the weight of your weapons and armor. Heavy gear reduces your maximum Action Points, which can limit your ability to trigger defensive interrupt actions during the enemy's turn.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Urban Strife Weapons FAQ">
+
+To ensure your squad is operating at peak tactical efficiency, review these common questions regarding combat mechanics, weapon acquisition, and ammunition management.
+
+<FAQ items={[
+  {
+    question: "Where can I find the best urban strife weapons in the game?",
+    answer: "The highest-tier military weapons are obtained by building a high reputation with the Rogue Army Garrison, while elite close-quarters weapons and automatic firearms can be purchased from the Shady Lady Bikers' black market."
+  },
+  {
+    question: "How does material penetration work with different calibers?",
+    answer: "Each caliber has a specific penetration value. High-power rounds like the .308 or .50 BMG can easily shoot through wooden walls, doors, and multiple enemies, whereas low-caliber rounds like 9mm or shotgun pellets are blocked by solid cover."
+  },
+  {
+    question: "What is the benefit of crafting custom dum-dum ammunition?",
+    answer: "Dum-dum ammunition is designed to expand on impact. It deals massive flesh damage and inflicts severe bleeding effects, making it highly effective for stopping fast-moving zombie hordes before they can reach your defensive line."
+  },
+  {
+    question: "Can I complete missions using entirely silent weapons?",
+    answer: "Yes. Using a combination of crossbows, silenced pistols, and melee weapons like baseball bats allows you to navigate maps in complete stealth, eliminating targets one by one without triggering the horde alert system."
+  }
+]} />
+
+<Callout type="tip" title="Final Survival Tip">
+Do not rely on a single weapon class. A balanced squad containing one silent scout, one high-caliber marksman, and a heavily armed crowd-control specialist will be prepared to handle any threat the county of Urban throws at you.
+</Callout>
+
+</Section>

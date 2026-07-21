@@ -6,6 +6,18 @@
         "file": "urban-strife-best-build"
       },
       {
+        "slug": "urban-strife-blueprint",
+        "file": "urban-strife-blueprint"
+      },
+      {
+        "slug": "urban-strife-bubba",
+        "file": "urban-strife-bubba"
+      },
+      {
+        "slug": "urban-strife-build",
+        "file": "urban-strife-build"
+      },
+      {
         "slug": "urban-strife-character-build",
         "file": "urban-strife-character-build"
       },
@@ -18,6 +30,10 @@
         "file": "urban-strife-companions"
       },
       {
+        "slug": "urban-strife-ghost-perk",
+        "file": "urban-strife-ghost-perk"
+      },
+      {
         "slug": "urban-strife-perks",
         "file": "urban-strife-perks"
       }
@@ -28,12 +44,52 @@
         "file": "urban-strife-beginner-guide"
       },
       {
+        "slug": "urban-strife-best-faction",
+        "file": "urban-strife-best-faction"
+      },
+      {
+        "slug": "urban-strife-cheat-engine",
+        "file": "urban-strife-cheat-engine"
+      },
+      {
+        "slug": "urban-strife-console-commands",
+        "file": "urban-strife-console-commands"
+      },
+      {
+        "slug": "urban-strife-difficulty",
+        "file": "urban-strife-difficulty"
+      },
+      {
+        "slug": "urban-strife-ending",
+        "file": "urban-strife-ending"
+      },
+      {
         "slug": "urban-strife-gameplay",
         "file": "urban-strife-gameplay"
       },
       {
         "slug": "urban-strife-guide",
         "file": "urban-strife-guide"
+      },
+      {
+        "slug": "urban-strife-horde",
+        "file": "urban-strife-horde"
+      },
+      {
+        "slug": "urban-strife-how-long-to-beat",
+        "file": "urban-strife-how-long-to-beat"
+      },
+      {
+        "slug": "urban-strife-nexus-mods",
+        "file": "urban-strife-nexus-mods"
+      },
+      {
+        "slug": "urban-strife-romance",
+        "file": "urban-strife-romance"
+      },
+      {
+        "slug": "urban-strife-samuel",
+        "file": "urban-strife-samuel"
       },
       {
         "slug": "urban-strife-tips-and-tricks",
@@ -50,12 +106,36 @@
         "file": "urban-strife-adams-villa"
       },
       {
+        "slug": "urban-strife-courthouse",
+        "file": "urban-strife-courthouse"
+      },
+      {
+        "slug": "urban-strife-fbi-office",
+        "file": "urban-strife-fbi-office"
+      },
+      {
+        "slug": "urban-strife-fbi",
+        "file": "urban-strife-fbi"
+      },
+      {
         "slug": "urban-strife-fema-hospital",
         "file": "urban-strife-fema-hospital"
       },
       {
+        "slug": "urban-strife-gas-station",
+        "file": "urban-strife-gas-station"
+      },
+      {
+        "slug": "urban-strife-little-italy",
+        "file": "urban-strife-little-italy"
+      },
+      {
         "slug": "urban-strife-map",
         "file": "urban-strife-map"
+      },
+      {
+        "slug": "urban-strife-motel",
+        "file": "urban-strife-motel"
       },
       {
         "slug": "urban-strife-national-guard-base",
@@ -72,6 +152,14 @@
         "file": "urban-strife-locate-professor-ford"
       },
       {
+        "slug": "urban-strife-mission",
+        "file": "urban-strife-mission"
+      },
+      {
+        "slug": "urban-strife-moonshiners",
+        "file": "urban-strife-moonshiners"
+      },
+      {
         "slug": "urban-strife-pharmacy-scout-report",
         "file": "urban-strife-pharmacy-scout-report"
       },
@@ -82,12 +170,36 @@
       {
         "slug": "urban-strife-the-feds-quest",
         "file": "urban-strife-the-feds-quest"
+      },
+      {
+        "slug": "urban-strife-the-firm",
+        "file": "urban-strife-the-firm"
+      },
+      {
+        "slug": "urban-strife-the-quarantine-squad",
+        "file": "urban-strife-the-quarantine-squad"
       }
     ],
     "release": [
       {
+        "slug": "urban-strife-demo",
+        "file": "urban-strife-demo"
+      },
+      {
+        "slug": "urban-strife-early-access",
+        "file": "urban-strife-early-access"
+      },
+      {
+        "slug": "urban-strife-full-release-date",
+        "file": "urban-strife-full-release-date"
+      },
+      {
         "slug": "urban-strife-full-release",
         "file": "urban-strife-full-release"
+      },
+      {
+        "slug": "urban-strife-gog",
+        "file": "urban-strife-gog"
       },
       {
         "slug": "urban-strife-ps5",
@@ -106,6 +218,10 @@
         "file": "urban-strife-steam"
       },
       {
+        "slug": "urban-strife-system-requirements",
+        "file": "urban-strife-system-requirements"
+      },
+      {
         "slug": "urban-strife-xbox",
         "file": "urban-strife-xbox"
       }
@@ -114,6 +230,10 @@
       {
         "slug": "urban-strife-is-good",
         "file": "urban-strife-is-good"
+      },
+      {
+        "slug": "urban-strife-metacritic",
+        "file": "urban-strife-metacritic"
       },
       {
         "slug": "urban-strife-reddit",
@@ -138,6 +258,18 @@
         "file": "urban-strife-base-building"
       },
       {
+        "slug": "urban-strife-electronic-parts",
+        "file": "urban-strife-electronic-parts"
+      },
+      {
+        "slug": "urban-strife-electronics",
+        "file": "urban-strife-electronics"
+      },
+      {
+        "slug": "urban-strife-factions",
+        "file": "urban-strife-factions"
+      },
+      {
         "slug": "urban-strife-how-to-get-materials",
         "file": "urban-strife-how-to-get-materials"
       },
@@ -148,6 +280,14 @@
       {
         "slug": "urban-strife-how-to-use-blueprints",
         "file": "urban-strife-how-to-use-blueprints"
+      },
+      {
+        "slug": "urban-strife-infected",
+        "file": "urban-strife-infected"
+      },
+      {
+        "slug": "urban-strife-materials",
+        "file": "urban-strife-materials"
       },
       {
         "slug": "urban-strife-workshop",
@@ -172,8 +312,16 @@
         "file": "urban-strife-gunsmith-bench"
       },
       {
+        "slug": "urban-strife-how-to-repair-weapons",
+        "file": "urban-strife-how-to-repair-weapons"
+      },
+      {
         "slug": "urban-strife-repair-weapons",
         "file": "urban-strife-repair-weapons"
+      },
+      {
+        "slug": "urban-strife-weapons",
+        "file": "urban-strife-weapons"
       }
     ]
   },
@@ -184,6 +332,18 @@
         "file": "urban-strife-best-build"
       },
       {
+        "slug": "urban-strife-blueprint",
+        "file": "urban-strife-blueprint"
+      },
+      {
+        "slug": "urban-strife-bubba",
+        "file": "urban-strife-bubba"
+      },
+      {
+        "slug": "urban-strife-build",
+        "file": "urban-strife-build"
+      },
+      {
         "slug": "urban-strife-character-build",
         "file": "urban-strife-character-build"
       },
@@ -196,6 +356,10 @@
         "file": "urban-strife-companions"
       },
       {
+        "slug": "urban-strife-ghost-perk",
+        "file": "urban-strife-ghost-perk"
+      },
+      {
         "slug": "urban-strife-perks",
         "file": "urban-strife-perks"
       }
@@ -206,12 +370,52 @@
         "file": "urban-strife-beginner-guide"
       },
       {
+        "slug": "urban-strife-best-faction",
+        "file": "urban-strife-best-faction"
+      },
+      {
+        "slug": "urban-strife-cheat-engine",
+        "file": "urban-strife-cheat-engine"
+      },
+      {
+        "slug": "urban-strife-console-commands",
+        "file": "urban-strife-console-commands"
+      },
+      {
+        "slug": "urban-strife-difficulty",
+        "file": "urban-strife-difficulty"
+      },
+      {
+        "slug": "urban-strife-ending",
+        "file": "urban-strife-ending"
+      },
+      {
         "slug": "urban-strife-gameplay",
         "file": "urban-strife-gameplay"
       },
       {
         "slug": "urban-strife-guide",
         "file": "urban-strife-guide"
+      },
+      {
+        "slug": "urban-strife-horde",
+        "file": "urban-strife-horde"
+      },
+      {
+        "slug": "urban-strife-how-long-to-beat",
+        "file": "urban-strife-how-long-to-beat"
+      },
+      {
+        "slug": "urban-strife-nexus-mods",
+        "file": "urban-strife-nexus-mods"
+      },
+      {
+        "slug": "urban-strife-romance",
+        "file": "urban-strife-romance"
+      },
+      {
+        "slug": "urban-strife-samuel",
+        "file": "urban-strife-samuel"
       },
       {
         "slug": "urban-strife-tips-and-tricks",
@@ -228,12 +432,36 @@
         "file": "urban-strife-adams-villa"
       },
       {
+        "slug": "urban-strife-courthouse",
+        "file": "urban-strife-courthouse"
+      },
+      {
+        "slug": "urban-strife-fbi-office",
+        "file": "urban-strife-fbi-office"
+      },
+      {
+        "slug": "urban-strife-fbi",
+        "file": "urban-strife-fbi"
+      },
+      {
         "slug": "urban-strife-fema-hospital",
         "file": "urban-strife-fema-hospital"
       },
       {
+        "slug": "urban-strife-gas-station",
+        "file": "urban-strife-gas-station"
+      },
+      {
+        "slug": "urban-strife-little-italy",
+        "file": "urban-strife-little-italy"
+      },
+      {
         "slug": "urban-strife-map",
         "file": "urban-strife-map"
+      },
+      {
+        "slug": "urban-strife-motel",
+        "file": "urban-strife-motel"
       },
       {
         "slug": "urban-strife-national-guard-base",
@@ -250,6 +478,14 @@
         "file": "urban-strife-locate-professor-ford"
       },
       {
+        "slug": "urban-strife-mission",
+        "file": "urban-strife-mission"
+      },
+      {
+        "slug": "urban-strife-moonshiners",
+        "file": "urban-strife-moonshiners"
+      },
+      {
         "slug": "urban-strife-pharmacy-scout-report",
         "file": "urban-strife-pharmacy-scout-report"
       },
@@ -260,12 +496,36 @@
       {
         "slug": "urban-strife-the-feds-quest",
         "file": "urban-strife-the-feds-quest"
+      },
+      {
+        "slug": "urban-strife-the-firm",
+        "file": "urban-strife-the-firm"
+      },
+      {
+        "slug": "urban-strife-the-quarantine-squad",
+        "file": "urban-strife-the-quarantine-squad"
       }
     ],
     "release": [
       {
+        "slug": "urban-strife-demo",
+        "file": "urban-strife-demo"
+      },
+      {
+        "slug": "urban-strife-early-access",
+        "file": "urban-strife-early-access"
+      },
+      {
+        "slug": "urban-strife-full-release-date",
+        "file": "urban-strife-full-release-date"
+      },
+      {
         "slug": "urban-strife-full-release",
         "file": "urban-strife-full-release"
+      },
+      {
+        "slug": "urban-strife-gog",
+        "file": "urban-strife-gog"
       },
       {
         "slug": "urban-strife-ps5",
@@ -284,6 +544,10 @@
         "file": "urban-strife-steam"
       },
       {
+        "slug": "urban-strife-system-requirements",
+        "file": "urban-strife-system-requirements"
+      },
+      {
         "slug": "urban-strife-xbox",
         "file": "urban-strife-xbox"
       }
@@ -292,6 +556,10 @@
       {
         "slug": "urban-strife-is-good",
         "file": "urban-strife-is-good"
+      },
+      {
+        "slug": "urban-strife-metacritic",
+        "file": "urban-strife-metacritic"
       },
       {
         "slug": "urban-strife-reddit",
@@ -316,6 +584,18 @@
         "file": "urban-strife-base-building"
       },
       {
+        "slug": "urban-strife-electronic-parts",
+        "file": "urban-strife-electronic-parts"
+      },
+      {
+        "slug": "urban-strife-electronics",
+        "file": "urban-strife-electronics"
+      },
+      {
+        "slug": "urban-strife-factions",
+        "file": "urban-strife-factions"
+      },
+      {
         "slug": "urban-strife-how-to-get-materials",
         "file": "urban-strife-how-to-get-materials"
       },
@@ -326,6 +606,14 @@
       {
         "slug": "urban-strife-how-to-use-blueprints",
         "file": "urban-strife-how-to-use-blueprints"
+      },
+      {
+        "slug": "urban-strife-infected",
+        "file": "urban-strife-infected"
+      },
+      {
+        "slug": "urban-strife-materials",
+        "file": "urban-strife-materials"
       },
       {
         "slug": "urban-strife-workshop",
@@ -350,8 +638,16 @@
         "file": "urban-strife-gunsmith-bench"
       },
       {
+        "slug": "urban-strife-how-to-repair-weapons",
+        "file": "urban-strife-how-to-repair-weapons"
+      },
+      {
         "slug": "urban-strife-repair-weapons",
         "file": "urban-strife-repair-weapons"
+      },
+      {
+        "slug": "urban-strife-weapons",
+        "file": "urban-strife-weapons"
       }
     ]
   },
@@ -362,6 +658,18 @@
         "file": "urban-strife-best-build"
       },
       {
+        "slug": "urban-strife-blueprint",
+        "file": "urban-strife-blueprint"
+      },
+      {
+        "slug": "urban-strife-bubba",
+        "file": "urban-strife-bubba"
+      },
+      {
+        "slug": "urban-strife-build",
+        "file": "urban-strife-build"
+      },
+      {
         "slug": "urban-strife-character-build",
         "file": "urban-strife-character-build"
       },
@@ -374,6 +682,10 @@
         "file": "urban-strife-companions"
       },
       {
+        "slug": "urban-strife-ghost-perk",
+        "file": "urban-strife-ghost-perk"
+      },
+      {
         "slug": "urban-strife-perks",
         "file": "urban-strife-perks"
       }
@@ -384,12 +696,52 @@
         "file": "urban-strife-beginner-guide"
       },
       {
+        "slug": "urban-strife-best-faction",
+        "file": "urban-strife-best-faction"
+      },
+      {
+        "slug": "urban-strife-cheat-engine",
+        "file": "urban-strife-cheat-engine"
+      },
+      {
+        "slug": "urban-strife-console-commands",
+        "file": "urban-strife-console-commands"
+      },
+      {
+        "slug": "urban-strife-difficulty",
+        "file": "urban-strife-difficulty"
+      },
+      {
+        "slug": "urban-strife-ending",
+        "file": "urban-strife-ending"
+      },
+      {
         "slug": "urban-strife-gameplay",
         "file": "urban-strife-gameplay"
       },
       {
         "slug": "urban-strife-guide",
         "file": "urban-strife-guide"
+      },
+      {
+        "slug": "urban-strife-horde",
+        "file": "urban-strife-horde"
+      },
+      {
+        "slug": "urban-strife-how-long-to-beat",
+        "file": "urban-strife-how-long-to-beat"
+      },
+      {
+        "slug": "urban-strife-nexus-mods",
+        "file": "urban-strife-nexus-mods"
+      },
+      {
+        "slug": "urban-strife-romance",
+        "file": "urban-strife-romance"
+      },
+      {
+        "slug": "urban-strife-samuel",
+        "file": "urban-strife-samuel"
       },
       {
         "slug": "urban-strife-tips-and-tricks",
@@ -406,12 +758,36 @@
         "file": "urban-strife-adams-villa"
       },
       {
+        "slug": "urban-strife-courthouse",
+        "file": "urban-strife-courthouse"
+      },
+      {
+        "slug": "urban-strife-fbi-office",
+        "file": "urban-strife-fbi-office"
+      },
+      {
+        "slug": "urban-strife-fbi",
+        "file": "urban-strife-fbi"
+      },
+      {
         "slug": "urban-strife-fema-hospital",
         "file": "urban-strife-fema-hospital"
       },
       {
+        "slug": "urban-strife-gas-station",
+        "file": "urban-strife-gas-station"
+      },
+      {
+        "slug": "urban-strife-little-italy",
+        "file": "urban-strife-little-italy"
+      },
+      {
         "slug": "urban-strife-map",
         "file": "urban-strife-map"
+      },
+      {
+        "slug": "urban-strife-motel",
+        "file": "urban-strife-motel"
       },
       {
         "slug": "urban-strife-national-guard-base",
@@ -428,6 +804,14 @@
         "file": "urban-strife-locate-professor-ford"
       },
       {
+        "slug": "urban-strife-mission",
+        "file": "urban-strife-mission"
+      },
+      {
+        "slug": "urban-strife-moonshiners",
+        "file": "urban-strife-moonshiners"
+      },
+      {
         "slug": "urban-strife-pharmacy-scout-report",
         "file": "urban-strife-pharmacy-scout-report"
       },
@@ -438,12 +822,36 @@
       {
         "slug": "urban-strife-the-feds-quest",
         "file": "urban-strife-the-feds-quest"
+      },
+      {
+        "slug": "urban-strife-the-firm",
+        "file": "urban-strife-the-firm"
+      },
+      {
+        "slug": "urban-strife-the-quarantine-squad",
+        "file": "urban-strife-the-quarantine-squad"
       }
     ],
     "release": [
       {
+        "slug": "urban-strife-demo",
+        "file": "urban-strife-demo"
+      },
+      {
+        "slug": "urban-strife-early-access",
+        "file": "urban-strife-early-access"
+      },
+      {
+        "slug": "urban-strife-full-release-date",
+        "file": "urban-strife-full-release-date"
+      },
+      {
         "slug": "urban-strife-full-release",
         "file": "urban-strife-full-release"
+      },
+      {
+        "slug": "urban-strife-gog",
+        "file": "urban-strife-gog"
       },
       {
         "slug": "urban-strife-ps5",
@@ -462,6 +870,10 @@
         "file": "urban-strife-steam"
       },
       {
+        "slug": "urban-strife-system-requirements",
+        "file": "urban-strife-system-requirements"
+      },
+      {
         "slug": "urban-strife-xbox",
         "file": "urban-strife-xbox"
       }
@@ -470,6 +882,10 @@
       {
         "slug": "urban-strife-is-good",
         "file": "urban-strife-is-good"
+      },
+      {
+        "slug": "urban-strife-metacritic",
+        "file": "urban-strife-metacritic"
       },
       {
         "slug": "urban-strife-reddit",
@@ -494,6 +910,18 @@
         "file": "urban-strife-base-building"
       },
       {
+        "slug": "urban-strife-electronic-parts",
+        "file": "urban-strife-electronic-parts"
+      },
+      {
+        "slug": "urban-strife-electronics",
+        "file": "urban-strife-electronics"
+      },
+      {
+        "slug": "urban-strife-factions",
+        "file": "urban-strife-factions"
+      },
+      {
         "slug": "urban-strife-how-to-get-materials",
         "file": "urban-strife-how-to-get-materials"
       },
@@ -504,6 +932,14 @@
       {
         "slug": "urban-strife-how-to-use-blueprints",
         "file": "urban-strife-how-to-use-blueprints"
+      },
+      {
+        "slug": "urban-strife-infected",
+        "file": "urban-strife-infected"
+      },
+      {
+        "slug": "urban-strife-materials",
+        "file": "urban-strife-materials"
       },
       {
         "slug": "urban-strife-workshop",
@@ -528,8 +964,16 @@
         "file": "urban-strife-gunsmith-bench"
       },
       {
+        "slug": "urban-strife-how-to-repair-weapons",
+        "file": "urban-strife-how-to-repair-weapons"
+      },
+      {
         "slug": "urban-strife-repair-weapons",
         "file": "urban-strife-repair-weapons"
+      },
+      {
+        "slug": "urban-strife-weapons",
+        "file": "urban-strife-weapons"
       }
     ]
   },
@@ -540,6 +984,18 @@
         "file": "urban-strife-best-build"
       },
       {
+        "slug": "urban-strife-blueprint",
+        "file": "urban-strife-blueprint"
+      },
+      {
+        "slug": "urban-strife-bubba",
+        "file": "urban-strife-bubba"
+      },
+      {
+        "slug": "urban-strife-build",
+        "file": "urban-strife-build"
+      },
+      {
         "slug": "urban-strife-character-build",
         "file": "urban-strife-character-build"
       },
@@ -552,6 +1008,10 @@
         "file": "urban-strife-companions"
       },
       {
+        "slug": "urban-strife-ghost-perk",
+        "file": "urban-strife-ghost-perk"
+      },
+      {
         "slug": "urban-strife-perks",
         "file": "urban-strife-perks"
       }
@@ -562,12 +1022,52 @@
         "file": "urban-strife-beginner-guide"
       },
       {
+        "slug": "urban-strife-best-faction",
+        "file": "urban-strife-best-faction"
+      },
+      {
+        "slug": "urban-strife-cheat-engine",
+        "file": "urban-strife-cheat-engine"
+      },
+      {
+        "slug": "urban-strife-console-commands",
+        "file": "urban-strife-console-commands"
+      },
+      {
+        "slug": "urban-strife-difficulty",
+        "file": "urban-strife-difficulty"
+      },
+      {
+        "slug": "urban-strife-ending",
+        "file": "urban-strife-ending"
+      },
+      {
         "slug": "urban-strife-gameplay",
         "file": "urban-strife-gameplay"
       },
       {
         "slug": "urban-strife-guide",
         "file": "urban-strife-guide"
+      },
+      {
+        "slug": "urban-strife-horde",
+        "file": "urban-strife-horde"
+      },
+      {
+        "slug": "urban-strife-how-long-to-beat",
+        "file": "urban-strife-how-long-to-beat"
+      },
+      {
+        "slug": "urban-strife-nexus-mods",
+        "file": "urban-strife-nexus-mods"
+      },
+      {
+        "slug": "urban-strife-romance",
+        "file": "urban-strife-romance"
+      },
+      {
+        "slug": "urban-strife-samuel",
+        "file": "urban-strife-samuel"
       },
       {
         "slug": "urban-strife-tips-and-tricks",
@@ -584,12 +1084,36 @@
         "file": "urban-strife-adams-villa"
       },
       {
+        "slug": "urban-strife-courthouse",
+        "file": "urban-strife-courthouse"
+      },
+      {
+        "slug": "urban-strife-fbi-office",
+        "file": "urban-strife-fbi-office"
+      },
+      {
+        "slug": "urban-strife-fbi",
+        "file": "urban-strife-fbi"
+      },
+      {
         "slug": "urban-strife-fema-hospital",
         "file": "urban-strife-fema-hospital"
       },
       {
+        "slug": "urban-strife-gas-station",
+        "file": "urban-strife-gas-station"
+      },
+      {
+        "slug": "urban-strife-little-italy",
+        "file": "urban-strife-little-italy"
+      },
+      {
         "slug": "urban-strife-map",
         "file": "urban-strife-map"
+      },
+      {
+        "slug": "urban-strife-motel",
+        "file": "urban-strife-motel"
       },
       {
         "slug": "urban-strife-national-guard-base",
@@ -606,6 +1130,14 @@
         "file": "urban-strife-locate-professor-ford"
       },
       {
+        "slug": "urban-strife-mission",
+        "file": "urban-strife-mission"
+      },
+      {
+        "slug": "urban-strife-moonshiners",
+        "file": "urban-strife-moonshiners"
+      },
+      {
         "slug": "urban-strife-pharmacy-scout-report",
         "file": "urban-strife-pharmacy-scout-report"
       },
@@ -616,12 +1148,36 @@
       {
         "slug": "urban-strife-the-feds-quest",
         "file": "urban-strife-the-feds-quest"
+      },
+      {
+        "slug": "urban-strife-the-firm",
+        "file": "urban-strife-the-firm"
+      },
+      {
+        "slug": "urban-strife-the-quarantine-squad",
+        "file": "urban-strife-the-quarantine-squad"
       }
     ],
     "release": [
       {
+        "slug": "urban-strife-demo",
+        "file": "urban-strife-demo"
+      },
+      {
+        "slug": "urban-strife-early-access",
+        "file": "urban-strife-early-access"
+      },
+      {
+        "slug": "urban-strife-full-release-date",
+        "file": "urban-strife-full-release-date"
+      },
+      {
         "slug": "urban-strife-full-release",
         "file": "urban-strife-full-release"
+      },
+      {
+        "slug": "urban-strife-gog",
+        "file": "urban-strife-gog"
       },
       {
         "slug": "urban-strife-ps5",
@@ -640,6 +1196,10 @@
         "file": "urban-strife-steam"
       },
       {
+        "slug": "urban-strife-system-requirements",
+        "file": "urban-strife-system-requirements"
+      },
+      {
         "slug": "urban-strife-xbox",
         "file": "urban-strife-xbox"
       }
@@ -648,6 +1208,10 @@
       {
         "slug": "urban-strife-is-good",
         "file": "urban-strife-is-good"
+      },
+      {
+        "slug": "urban-strife-metacritic",
+        "file": "urban-strife-metacritic"
       },
       {
         "slug": "urban-strife-reddit",
@@ -672,6 +1236,18 @@
         "file": "urban-strife-base-building"
       },
       {
+        "slug": "urban-strife-electronic-parts",
+        "file": "urban-strife-electronic-parts"
+      },
+      {
+        "slug": "urban-strife-electronics",
+        "file": "urban-strife-electronics"
+      },
+      {
+        "slug": "urban-strife-factions",
+        "file": "urban-strife-factions"
+      },
+      {
         "slug": "urban-strife-how-to-get-materials",
         "file": "urban-strife-how-to-get-materials"
       },
@@ -682,6 +1258,14 @@
       {
         "slug": "urban-strife-how-to-use-blueprints",
         "file": "urban-strife-how-to-use-blueprints"
+      },
+      {
+        "slug": "urban-strife-infected",
+        "file": "urban-strife-infected"
+      },
+      {
+        "slug": "urban-strife-materials",
+        "file": "urban-strife-materials"
       },
       {
         "slug": "urban-strife-workshop",
@@ -706,8 +1290,16 @@
         "file": "urban-strife-gunsmith-bench"
       },
       {
+        "slug": "urban-strife-how-to-repair-weapons",
+        "file": "urban-strife-how-to-repair-weapons"
+      },
+      {
         "slug": "urban-strife-repair-weapons",
         "file": "urban-strife-repair-weapons"
+      },
+      {
+        "slug": "urban-strife-weapons",
+        "file": "urban-strife-weapons"
       }
     ]
   }

@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Mission: Komplettlösung für den Spielstart & Fraktions-Guide",
+  description: "Meistere jede frühe Urban Strife Mission mit unserer detaillierten Komplettlösung, die die Flucht von der Brücke, den Aufbau des Shelters und Fraktionsinteraktionen im Jahr 2026 abdeckt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/f8fafc?text=Urban+Strife+Mission+Guide",
+  date: "2026-07-21",
+  author: "Urban Strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Urban Strife Mission**: Konzentriere dich auf Schleichen und das Management von Aktionspunkten (AP), um frühe Begegnungen zu überleben.
+- **Schleichmechaniken**: Nutze die geduckte Haltung, um Geräusche zu minimieren und gegnerische Erkennungsringe zu vermeiden.
+- **Immunitäts-Plot**: Dein Charakter ist auf einzigartige Weise immun gegen das Virus, was dich zu einer lebenswichtigen Ressource für den Shelter macht.
+- **Fraktionswahl**: Du musst dich letztendlich mit der Armee, den Bikern oder den Kultisten verbünden, um die kommende Horde zu überleben.
+- **Ressourcenpriorität**: Plündere frühzeitig Polizeiautos und Krankenwagen, um Waffen, Bandagen und Boosterspritzen zu finden.
+</Callout>
+
+<Section icon={Map} title="Tutorial-Phase: Flucht von der Brücke">
+
+Die erste **Urban Strife Mission** dient als nervenaufreibendes Tutorial, das dich in die brutale Realität der Zombie-Apokalypse einführt. Nach einem katastrophalen Autounfall auf einer Autobahnbrücke wacht dein Charakter verletzt und von Untoten umgeben auf. Du wirst sofort mit Kaylee Adams bekannt gemacht, einem zentralen NPC, die dich mit den notwendigen medizinischen Vorräten versorgt, um dich wieder auf die Beine zu bringen. Das Verständnis der grundlegenden Benutzeroberfläche – insbesondere des Inventars und des Aktionspunktesystems (AP) – ist in diesen ersten Minuten von entscheidender Bedeutung.
+
+**Video-Highlights:**
+- **Grundlagen der Ersten Hilfe**: Erfahre, wie du Bandagen verwendest, um Blutungen zu stoppen, und Boosterspritzen, um die Ausdauer wiederherzustellen.
+- **Inventarverwaltung**: So rüstest du das Brecheisen aus, das du im nahegelegenen Krankenwagen findest.
+- **Einführung ins Schleichen**: Verstehe die roten (Sicht) und orangefarbenen (Geräusch) Erkennungsfelder.
+- **Gruppenbewegung**: Wähle mehrere Einheiten aus (deinen Avatar und Kaylee), um die Evakuierungszone zu erreichen.
+
+<YouTubeEmbed videoId="wIzgY6AA5Pw" title="Urban Strife - Zombie Apocalypse Tactical RPG - Die ersten 29 Minuten Gameplay" />
+
+In diesem Abschnitt musst du die Brücke überqueren, indem du zwischen Stehen für Schnelligkeit und Ducken für Schleichen wechselst. Das Spiel nutzt ein rasterbasiertes Bewegungssystem, bei dem jede Aktion – vom Öffnen einer Autotür bis zum Schwingen einer Waffe – AP verbraucht.
+
+| Gegenstandsname | Typ | Effekt | Primäre Nutzung |
+| :--- | :--- | :--- | :--- |
+| **Bandage** | Medizinisch | Stoppt den Blutungsstatus | Sofortige Erholung nach dem Kampf |
+| **Boosterspritze** | Medizinisch | Stellt Ausdauer/Adrenalin wieder her | Am Boden liegende Einheiten wieder aufrichten |
+| **Brecheisen** | Waffe | Nahkampfschaden / Nutzen | Schlösser knacken und lautlose Kills |
+| **.22LR Pistole** | Waffe | Fernkampfschaden | Verteidigung im frühen Spiel gegen Plünderer |
+
+<Callout type="tip" title="Schleich-Optimierung">
+Überprüfe vor jeder Bewegung immer die Felder mit dem „orangefarbenen Ohr“. Diese stellen das Geräusch dar, das dein Charakter verursacht. Ducken verringert diesen Radius erheblich, sodass du Zombies umgehen kannst, ohne eine kostspielige Kampfsequenz einzuleiten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Der Shelter und der immune Protagonist">
+
+Nachdem du die Brücke evakuiert hast, wirst du zum Shelter gebracht, einer befestigten Enklave unter der Leitung von JJ Adams, dem örtlichen Bürgermeister. Hier enthüllt die Geschichte, dass dein Charakter gegen das Zombie-Virus immun ist – ein „Wunder“, das von Dr. Henderson entdeckt wurde. Diese Immunität dient als Grundlage für deine Rolle als neuer Deputy Sheriff des Shelters. Deine primäre **Urban Strife Mission** in dieser Phase besteht darin, dich in die Gemeinschaft zu integrieren und dich auf externe Bedrohungen vorzubereiten.
+
+Der Shelter dient als dein zentraler Knotenpunkt, an dem du handeln, Ressourcen verwalten und deine nächste Expedition planen kannst. Du wirst mehrere wichtige NPCs treffen, die wesentliche Dienste anbieten:
+
+| NPC-Name | Rolle | Bedeutung |
+| :--- | :--- | :--- |
+| **JJ Adams** | Bürgermeister | Hauptquestgeber und Fraktionsdiplomat |
+| **Kaylee Adams** | Späherin/Krankenschwester | Kampfgefährtin und Sanitäterin im frühen Spiel |
+| **Dr. Henderson** | Wissenschaftler | Erforscht deine Immunität und liefert Medikamente |
+| **Lucy Lou** | Bewohnerin | Liefert lokale Informationen und Hintergrunddetails |
+| **Billy Bow** | Kämpfer | Schlagkräftiger Begleiter für frühe städtische Expeditionen |
+
+<Callout type="warning" title="Ressourcenmanagement">
+Der Shelter verbraucht täglich Ressourcen. Nutze das Notizbuch im Spiel, um den Verbrauch von Nahrung, Wasser und Treibstoff zu überwachen. Wenn diese Werte nicht aufrechterhalten werden, führt dies zu sinkender Moral und Gesundheit deiner Überlebenden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Erste Feldmission: Sheriff Rodgers finden">
+
+Deine erste offizielle Aufgabe als Deputy ist es, das Verschwinden des alten Sheriffs Rodgers zu untersuchen. Diese Mission führt dich zur Adams Villa, einem Vorstadtviertel, das von verschiedenen lokalen Fraktionen aufgeteilt wurde. Du suchst nach einer Polizeilimousine, die angeblich Vorräte zur Heimverteidigung enthält, aber die Mission eskaliert schnell, als du auf feindliche Plünderer stößt.
+
+<Steps>
+  <Step num="1" title="Reise zur Adams Villa">
+    Nutze die Weltkarte, um in den Vorort zu reisen. Beachte, dass die Reise Spielzeit verbraucht (ca. 15 Minuten für diese Strecke).
+  </Step>
+  <Step num="2" title="Das Polizeiauto auskundschaften">
+    Finde die Polizeilimousine in der Nähe der Kartenmitte. Sie enthält wichtige Munition und möglicherweise eine bessere Schusswaffe.
+  </Step>
+  <Step num="3" title="Das Haus untersuchen">
+    Betritt die alte Residenz des Sheriffs. Sei vorsichtig bei „Privatzonen“ (rot markiert), in denen die Besitzer sofort angreifen.
+  </Step>
+  <Step num="4" title="Plünderer bekämpfen">
+    Schalte die feindlichen Mitglieder der städtischen Miliz aus, die sich in den umliegenden Häusern eingenistet haben.
+  </Step>
+</Steps>
+
+Der Kampf in dieser **Urban Strife Mission** erfordert ein taktisches Vorgehen. Nutze den „Overwatch“-Modus (Überwachung), um Todeszonen einzurichten. Wenn ein Plünderer während seines Zuges versucht, sich durch deine Sichtlinie zu bewegen, feuern deine Charaktere automatisch, sofern sie noch genügend AP übrig haben.
+
+| Aktion | AP-Kosten | Taktischer Vorteil |
+| :--- | :--- | :--- |
+| **Ducken** | 4 AP | Erhöht die Präzision und verringert die Sichtbarkeit |
+| **Überwachung** | Variabel | Unterbricht gegnerische Bewegungen mit automatischem Feuer |
+| **Nachladen** | 6-8 AP | Unerlässlich, um den Druck aufrechtzuerhalten |
+| **Tür öffnen** | 2 AP | Ermöglicht Flankierungsmanöver in Gebäuden |
+
+<Callout type="success" title="Taktischer Vorteil">
+Nutze die Umgebung zu deinem Vorteil. Fenster können eingeschlagen werden, um neue Sichtlinien zu schaffen, aber sei dir bewusst, dass das Geräusch von splitterndem Glas jeden Zombie im Umkreis von 20 Feldern anzieht.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Navigieren durch die Fraktionspolitik">
+
+Während du die **Urban Strife Missionsreihe** durchspielst, wirst du auf die drei Hauptfraktionen stoßen, die um die Kontrolle über die Vororte kämpfen. Jede Gruppe hat ihre eigene Ideologie, und deine Interaktionen mit ihnen bestimmen das Ende deiner Kampagne. Der Bürgermeister erklärt, dass der „fragile Frieden“ scheitert, und das Eintreffen einer riesigen Zombiehorde zwingt den Shelter dazu, sich für eine Seite zu entscheiden.
+
+<CardGrid cols={3}>
+  <Card title="Die Armee">
+    - **Vorteile**: Hochwertige militärische Ausrüstung und disziplinierte Soldaten.
+    - **Nachteile**: Starre Struktur und potenziell tyrannische Motive.
+    - **Vibe**: Professionell, aber kalt.
+  </Card>
+  <Card title="Die Biker">
+    - **Vorteile**: Hervorragend bei Raubzügen und der Drogen-/Medikamentenherstellung.
+    - **Nachteile**: Unberechenbar und gewaltbereit.
+    - **Vibe**: Chaotisch und auf das Überleben fokussiert.
+  </Card>
+  <Card title="Die Kultisten">
+    - **Vorteile**: Einzigartiges Wissen über das Verhalten von Zombies und Rituale.
+    - **Nachteile**: Bizarre Praktiken wie Menschenopfer.
+    - **Vibe**: Unheimlich und unberechenbar.
+  </Card>
+</CardGrid>
+
+Die Diskussionen in der Steam-Community heben einen häufigen Frustpunkt der Spieler hervor: Das Spiel zwingt dich oft dazu, zwei Fraktionen zu eliminieren, um die Sicherheit des Shelters zu gewährleisten. Diese „Eine-Fraktion-Regel“ ist eine strategische Ebene, die interne Unruhen innerhalb der Mauern des Shelters verhindern soll. Wenn sich eine neue Horde nähert, sind die Bewohner zu paranoid, um rivalisierenden Fraktionen das Koexistieren in derselben Befestigung zu erlauben.
+
+<Callout type="info" title="Einblick der Entwickler">
+Die Entwickler haben angemerkt, dass bestimmte Fraktionsreaktionen (wie das feindselige Verhalten der Armee, nachdem du ihr geholfen hast) in den Updates für 2026 verfeinert werden, um sicherzustellen, dass die erzählerische Logik mit den Entscheidungen der Spieler übereinstimmt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfstrategie: AP und Deckung">
+
+Der Kampf in Urban Strife ist unbarmherzig. Ein einziger Fehler bei der Positionierung kann dazu führen, dass ein Charakter verblutet oder überrannt wird. Der Schlüssel zum Sieg in jeder **Urban Strife Mission** liegt darin, das Zusammenspiel von Deckung und Aktionspunkten zu meistern.
+
+Volle Deckung (solide Wände) bietet den besten Schutz, schränkt jedoch dein Sichtfeld ein. Halbe Deckung (Kisten, niedrige Mauern) ermöglicht bessere Schusswinkel, macht dich jedoch anfällig für Flankierungen.
+
+| Deckungsart | Verteidigungsbonus | Präzisionsmalus | Beste Nutzung |
+| :--- | :--- | :--- | :--- |
+| **Volle Wand** | Hoch | Hoch (muss sich lehnen) | Nachladen und Heilen |
+| **Kisten** | Mittel | Niedrig | Anhaltende Feuergefechte |
+| **Fahrzeuge** | Mittel | Mittel | Mobile Deckung bei Straßenkämpfen |
+| **Offenes Gelände** | Keine | Keine | Bewegung zwischen Deckungen (Hohes Risiko) |
+
+**Video-Erkenntnisse zum Kampf:**
+- **Optimale Reichweite**: Jede Waffe hat einen optimalen Bereich („Sweet Spot“), in dem die Präzision am höchsten ist.
+- **Haltungen**: Laufen spart AP, macht aber Lärm; Ducken kostet mehr AP bei der Bewegung, hält dich aber verborgen.
+- **Blutungen**: Wenn ein Charakter einen „roten“ Treffer erleidet, blutet er. Du musst sofort ein Medikit verwenden, andernfalls verliert er in jeder Runde Gesundheit.
+
+<Callout type="tip" title="Die „Köder“-Taktik">
+Wenn sich Feinde in einem Gebäude verschanzt haben, benutze einen „Geräuschemacher“ oder feure einen einzelnen Schuss in der Nähe der Tür ab und versetze dann alle deine Einheiten in den Überwachungsmodus (Overwatch). Lass die Plünderer zu dir kommen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für das frühe Spiel">
+
+Um sicherzustellen, dass dein Shelter die ersten 30 Tage der Apokalypse übersteht, befolge diese wichtige Checkliste für den Spielfortschritt. Das Abschließen dieser Aufgaben legt den Grundstein für die Fraktionskriege im mittleren Spielverlauf.
+
+<Checklist
+  id="urban-strife-milestones"
+  title="Wichtige frühe Ziele:"
+  items={[
+    "Rette den verwundeten Überlebenden im Brücken-Tutorial",
+    "Sichere die Pistole und Munition aus der Polizeilimousine",
+    "Baue einen positiven Ruf bei mindestens einer Fraktion auf",
+    "Rüste die Krankenstation des Shelters auf, um Infektionen zu behandeln",
+    "Finde die fehlenden Funkteile für Dr. Henderson",
+    "Säubere das Zombienest in der Nähe des örtlichen Lebensmittelladens"
+  ]}
+/>
+
+<Callout type="success" title="Letzter Ratschlag">
+Nimm dir Zeit. Urban Strife belohnt Geduld. Wenn eine Mission zu schwierig erscheint, verbringe ein paar Tage damit, risikoarme Gebiete zu plündern, um deine Munitionsreserven aufzustocken und die Kampffähigkeiten deiner Truppe zu verbessern.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie kann ich verhindern, dass meine Charaktere während einer Mission verbluten?",
+    answer: "Du musst eine Bandage oder ein Medikit aus deinem Inventar verwenden. Dies erfordert Aktionspunkte (AP), stelle also sicher, dass du in Deckung bist, bevor du versuchst, dich zu heilen."
+  },
+  {
+    question: "Kann ich sich in Urban Strife mehr als einer Fraktion anschließen?",
+    answer: "Du kannst zwar die ersten Aufgaben für alle Fraktionen abschließen, aber das Spiel zwingt dich schließlich zu einer Entscheidung. Aufgrund der „Eine-Fraktion-Regel“ im Shelter wird die Parteinahme für eine Fraktion letztendlich zum Konflikt mit den anderen führen."
+  },
+  {
+    question: "Was ist der Vorteil des Status „Immun“?",
+    answer: "Erzählerisch macht es dich zur einzigen Person, die in der Lage ist, Zonen mit hoher Infektionsrate zu erkunden. Spielerisch verhindert es, dass sich dein Charakter bei einem Biss in einen Zombie verwandelt, obwohl du dennoch physischen Schaden erleidest."
+  },
+  {
+    question: "Warum kann ich im Kampf nicht weiter heranzoomen?",
+    answer: "Das Spiel verfügt über eine feste taktische Zoomstufe, um sicherzustellen, dass die Spieler eine klare Sicht auf das Raster und die Erkennungsringe behalten. Verwende die WASD-Tasten, um die Kamera für eine bessere Übersicht zu bewegen."
+  }
+]} />
+
+</Section>

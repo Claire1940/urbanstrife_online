@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Hammer, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Urban Strife Waffen reparieren: Leitfaden für Wartung & Verwertung",
+  description: "Meistere das Ausrüstungswartungssystem in Urban Strife. Erfahre, wie du Waffen reparierst, Teile verwertest und die Haltbarkeit von Rüstungen verwaltest.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Weapon+Repair+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Urban Strife Waffen reparieren**: Nutze eine **Werkbank** in deiner Basis oder tragbare **Reparatursets** im Feld, um die Haltbarkeit wiederherzustellen.
+- **Ressourcenmanagement**: Reparaturen erfordern bestimmte Komponenten wie **Waffenteile** und **Metallschrott**, die aus kaputter Ausrüstung gewonnen werden.
+- **Auswirkungen der Haltbarkeit**: Waffen mit geringer Haltbarkeit leiden unter erhöhten **Ladehemmungsraten** und verringerter Präzision im taktischen Kampf.
+- **Rüstungswartung**: Plattenträger erfordern den Austausch einzelner **ballistischer Platten**, sobald deren Integrität aufgebraucht ist.
+- **Skalierung der Fertigkeiten**: Die Effizienz deiner Reparaturen und die Menge der gesparten Materialien hängen von der **Techniker**-Fertigkeitsstufe deines Charakters ab.
+</Callout>
+
+<Section icon={Settings} title="Die Mechanik der Waffenhaltbarkeit verstehen">
+
+In der rauen taktischen Landschaft von Urban Strife ist deine Ausrüstung deine Lebensversicherung. Jeder abgegebene Schuss und jeder parierte Schlag trägt zur allmählichen Abnutzung deiner Ausrüstung bei. Wenn du den Zustand deiner Schusswaffen oder Nahkampfwaffen ignorierst, führt dies unweigerlich zu einem katastrophalen Versagen im schlimmsten Moment – meist mitten im Kampf gegen eine Zombiehorde.
+
+Die Haltbarkeit wird durch einen Prozentsatz-Balken im Inspektionsbildschirm des Gegenstands dargestellt. Wenn dieser Balken sinkt, nimmt die Zuverlässigkeit der Waffe ab. Eine Schusswaffe mit 50 % Haltbarkeit hat eine deutlich höhere Wahrscheinlichkeit für Ladehemmungen, deren Behebung Aktionspunkte (AP) kostet. Sobald die Haltbarkeit Null erreicht, gilt die Waffe als „Zerstört“ und ist unbrauchbar, bis eine vollständige Wiederherstellung an einer entsprechenden Einrichtung durchgeführt wird.
+
+| Zustand | Haltbarkeitsbereich | Kampfeffekte | Empfohlene Aktion |
+| :--- | :--- | :--- | :--- |
+| **Makellos** | 90% - 100% | Volle Präzision, keine Ladehemmungen | Regelmäßige Reinigung |
+| **Abgenutzt** | 60% - 89% | Standardleistung | Zustand überwachen |
+| **Beschädigt** | 30% - 59% | Leichter Präzisionsabzug, gelegentliche Ladehemmungen | Feldreparatur |
+| **Kritisch** | 1% - 29% | Hohe Ladehemmungsrate, schwerer Präzisionsverlust | Sofortige Reparatur |
+| **Zerstört** | 0% | Unbrauchbar, kann nicht ausgerüstet werden | Wiederherstellung an der Werkbank |
+
+<Callout type="tip" title="Wartungstipp">
+Überprüfe immer den Zustand der Ausrüstung deines Trupps, bevor du den Unterschlupf verlässt. Es ist weitaus günstiger und schneller, eine „abgenutzte“ Waffe zu warten, als eine „zerstörte“ wiederherzustellen.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Urban Strife Waffen reparieren: Die Methoden">
+
+Es gibt zwei Hauptwege, um die Ausrüstungswartung in der Version 2026 des Spiels zu handhaben. Je nachdem, ob du dich auf der taktischen Karte oder in deiner Heimatbasis befindest, unterscheidet sich dein Vorgehen bei **Urban Strife Waffen reparieren**.
+
+<CardGrid cols={2}>
+  <Card title="Werkbank-Reparatur">
+    - **Höchste Effizienz**: Stellt die meiste Haltbarkeit pro verbrauchter Ressource wieder her.
+    - **Vollständige Wiederherstellung**: Die einzige Möglichkeit, „zerstörte“ Gegenstände (0 % Haltbarkeit) zu reparieren.
+    - **Fertigkeitsbonus**: Hochstufige Techniker können während der Reparatur dauerhafte Boni gewähren.
+  </Card>
+  <Card title="Feld-Reparatursets">
+    - **Sofortiger Nutzen**: Kann während der Erkundung oder zwischen Kampfrunden verwendet werden.
+    - **Ressourcenintensiv**: Kostet mehr Teile für weniger Haltbarkeitsgewinn.
+    - **Nur für Notfälle**: Nützlich, um hohe Ladehemmungsraten zu beheben, wenn man weit von der Basis entfernt ist.
+  </Card>
+</CardGrid>
+
+Um eine Reparatur durchzuführen, musst du die erforderlichen Materialien in deinem Inventar oder im Basislager haben. Diese Materialien werden im Allgemeinen in generische Teile unterteilt, die durch das Zerlegen anderer im Ödland gefundener Gegenstände gewonnen werden können.
+
+| Reparaturwerkzeug | Einsatzzweck | Haltbarkeitsgewinn | Ressourcenkosten |
+| :--- | :--- | :--- | :--- |
+| **Einfaches Reinigungsset** | Wartung | 5% - 10% | Gering (Öl/Stoff) |
+| **Universelles Reparaturset** | Feldreparatur | 15% - 25% | Mittel (Waffenteile) |
+| **Fortgeschrittene Werkbank** | Generalüberholung | Bis zu 100% | Variabel (Teile/Schrott) |
+| **Spezialwerkzeuge** | Seltene Waffen | Variabel | Hoch (Einzigartige Komponenten) |
+
+<Callout type="warning" title="Ressourcenknappheit">
+Waffenteile sind im frühen Spielverlauf eine begrenzte Ressource. Verschwende keine hochrangigen Reparatursets für gewöhnliche Pistolen, die leicht durch das Plündern von Feinden ersetzt werden können.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Prozess zur Waffenwiederherstellung">
+
+Wenn du ein Lieblingsgewehr hast, das sich in einem kritischen Zustand befindet, befolge diese Schritte, um eine erfolgreiche Wiederherstellung zu gewährleisten. Beachte, dass ein Charakter mit hoher technischer Fertigkeit die Materialkosten erheblich senkt.
+
+<Steps>
+  <Step num="1" title="Ersatzteile gewinnen">
+    Sammle minderwertige oder doppelte Waffen auf dem Schlachtfeld. Anstatt sie für ein paar Münzen zu verkaufen, nutze die Option „Zerlegen“ in deinem Inventar, um sie in **Waffenteile** umzuwandeln.
+  </Step>
+  <Step num="2" title="Werkbank aufsuchen">
+    Kehre zu deiner Basis zurück und interagiere mit der Station des Technikers. Stelle sicher, dass die Waffe, die du reparieren möchtest, nicht ausgerüstet ist und sich im globalen Lager oder im Inventar des Technikers befindet.
+  </Step>
+  <Step num="3" title="Reparaturstufe wählen">
+    Wähle zwischen einer „Schnellreparatur“ (günstiger, geringerer Haltbarkeitsgewinn) oder einer „Generalüberholung“. Eine Generalüberholung erfordert mehr Zeit, setzt den Zustand der Waffe jedoch auf 100 % zurück.
+  </Step>
+  <Step num="4" title="Techniker zuweisen">
+    Wähle das Truppmitglied mit der höchsten Mechaniker- oder Technikerfertigkeit aus. Dies minimiert das Risiko einer „verpfuschten Reparatur“, die die maximale Haltbarkeit des Gegenstands dauerhaft verringern könnte.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Techniker-Synergie">
+Charaktere mit der Eigenschaft „Büchsenmacher“ haben eine Chance von 15 %, die Basiswerte der Waffe bei einer Generalüberholung leicht zu verbessern.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rüstungswartung und Plattenträger">
+
+Rüstungen funktionieren in Urban Strife anders als Waffen. Während Waffen eine lineare Abnutzung aufweisen, basiert Körperrüstung – insbesondere Plattenträger – auf einem modularen System. Die Weste selbst bietet einen Basisschutz und Nutzen (wie zusätzliche Munitionsplätze), aber der primäre Schutz stammt von den eingesetzten ballistischen Platten.
+
+Wenn du getroffen wirst, absorbiert die Platte den Schaden und verliert an Integrität. Sobald die Integrität einer Platte Null erreicht, wird sie zerstört und bietet keinen Schutz mehr, obwohl die Weste intakt bleibt.
+
+| Rüstungskomponente | Reparaturmethode | Benötigtes Material | Hinweise |
+| :--- | :--- | :--- | :--- |
+| **Stoff-/Lederweste** | Nähset | Stoff- / Lederreste | Geringer Schutz, hohe Mobilität |
+| **Plattenträger (Weste)** | Werkbank | Metallschrott / Kevlar | Bietet die Plätze für Platten |
+| **Stahlplatte** | Austausch | Neue Stahlplatte | Schwer, hohe Haltbarkeit, günstig |
+| **Keramikplatte** | Austausch | Neue Keramikplatte | Leicht, hoher Schutz, zerbrechlich |
+
+<Callout type="info" title="Plattenträger-Tipp">
+Oft findest du hochwertige Plattenträger, die leer sind. Du musst kompatible ballistische Platten im Inventarbildschirm manuell in die Schlitze der Weste ziehen, um defensive Vorteile zu erhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Verwertung für maximale Effizienz">
+
+Um dein Arsenal instand zu halten, musst du ein Experte im Verwerten werden. Nicht jede Beute ist es wert, in ihrer ursprünglichen Form zurück zur Basis getragen zu werden. Zu verstehen, was man zerlegen und was man behalten sollte, ist der Schlüssel zur Meisterung von **Urban Strife Waffen reparieren**.
+
+<Checklist
+  id="salvage-priorities"
+  title="Prioritätenliste für das Zerlegen:"
+  items={[
+    "Zerstörte gewöhnliche Schusswaffen (Pistolen, MPs)",
+    "Doppelte Nahkampfwaffen mit niedrigen Basiswerten",
+    "Beschädigte Rüstungswesten ohne Plattenfächer",
+    "Überzählige minderwertige Waffenaufsätze",
+    "Leere oder zertrümmerte ballistische Platten"
+  ]}
+/>
+
+| Gegenstandstyp | Verwertungsertrag | Primäre Ressource | Sekundäre Ressource |
+| :--- | :--- | :--- | :--- |
+| **Handfeuerwaffen** | Gering | Waffenteile | Federn |
+| **Gewehre/Schrotflinten** | Mittel | Waffenteile | Holz/Polymer |
+| **Schwere Artillerie** | Hoch | Spezialteile | Metallschrott |
+| **Nahkampfwaffen** | Gering | Metallschrott | Leder/Holz |
+
+<Callout type="tip" title="Profi-Sammler-Tipp">
+Wenn dein Inventar voll ist, zerlege Gegenstände direkt im Feld. Waffenteile wiegen deutlich weniger als die Waffen selbst, sodass du mehr Reparaturpotenzial von einem einzigen Ausflug mit nach Hause nehmen kannst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Woran erkenne ich, dass meine Waffe kurz vor einer Ladehemmung steht?",
+    answer: "Überprüfe das Haltbarkeitssymbol in deiner Kampfoberfläche. Wenn es gelb oder rot wird, hat sich die Wahrscheinlichkeit für Ladehemmungen erhöht. Den genauen Prozentsatz siehst du auch im Bildschirm mit den Gegenstandsdetails."
+  },
+  {
+    question: "Kann ich Waffen auch ohne Werkbank reparieren?",
+    answer: "Ja, du kannst Feld-Reparatursets oder Reinigungssets verwenden, aber diese bieten nur eine Teilreparatur und sind weniger ressourceneffizient als Reparaturen in der Basis."
+  },
+  {
+    question: "Wie bekommt man in Urban Strife am besten Waffenteile?",
+    answer: "Die zuverlässigste Methode ist das Zerlegen zerstörter oder minderwertiger Waffen, die man bei Feinden findet. Das Plündern auf hoher Stufe in Industriegebieten bringt ebenfalls Teilepakete ein."
+  },
+  {
+    question: "Stellt das Reparieren einer Waffe ihre ursprüngliche Präzision wieder her?",
+    answer: "Ja, die Wiederherstellung einer Waffe auf 100 % Haltbarkeit beseitigt alle Präzisionsabzüge und Ladehemmungsrisiken, die mit Verschleiß verbunden sind."
+  }
+]} />
+
+</Section>

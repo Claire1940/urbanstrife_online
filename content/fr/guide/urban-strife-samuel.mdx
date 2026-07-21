@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "urban strife samuel : Guide de l'intrigue et des factions",
+  description: "Maîtrisez la quête d'urban strife samuel et naviguez dans la politique des factions dans ce RPG tactique de zombies. Apprenez à gérer l'Abri et à survivre à la horde.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Samuel+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'urban strife",
+  keywords: "urban strife samuel, guide de quête, factions urban strife, gestion de l'abri, survie zombie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **urban strife samuel** : Un PNJ pivot rencontré tôt dans le jeu qui sert de pont entre l'Abri et les factions environnantes.
+- **Mécanique d'immunité** : Le protagoniste possède une immunité rare, faisant de lui l'atout principal de la stratégie de survie de l'Abri.
+- **Choix de faction** : Vous devrez éventuellement vous ranger du côté de l'une des trois factions : l'Armée, les Bikers ou les Cultistes.
+- **Couche stratégique** : Accomplir avec succès les objectifs de Samuel est obligatoire pour débloquer les améliorations de l'Abri de haut niveau et les capacités défensives.
+- **La Horde** : Toutes les décisions narratives mènent à une confrontation finale avec une immense horde de zombies menaçant les banlieues urbaines.
+</Callout>
+
+<Section icon={Users} title="Comprendre Samuel et l'intrigue de l'Abri">
+
+Dans le paysage tactique d'Urban Strife, le récit se concentre sur un protagoniste qui survit à une morsure de zombie, révélant une immunité rare. Après avoir été secouru par un groupe de survivants âgés dans une maison de retraite fortifiée — souvent appelée l'Abri — vous êtes plongé dans un monde de politique locale et de survie désespérée. **urban strife samuel** est fréquemment identifié comme le maillon manquant ou le « vieil homme » que les joueurs doivent localiser pour stabiliser le leadership et les capacités techniques de l'Abri.
+
+Le début du jeu s'articule autour de l'établissement de l'ordre dans le voisinage immédiat de l'Abri. Votre première tâche majeure concerne le shérif local, dont le sort donne le ton de la réalité brutale de l'apocalypse. Suite à la découverte du décès du shérif aux mains de bandits locaux, l'attention se porte sur la reconnaissance des trois factions principales occupant les banlieues.
+
+| Personnage | Rôle | Motivation principale | Emplacement |
+| :--- | :--- | :--- | :--- |
+| **Le Protagoniste** | Survivant immunisé | Survie et protection de l'Abri | L'Abri (Base principale) |
+| **Samuel** | PNJ clé/Objectif | Fournir une progression technique ou narrative | Périphérie de la banlieue |
+| **Le Maire** | Chef de l'Abri | Maintenir une « paix fragile » et la sécurité | Commandement de l'Abri |
+| **Shérif Rodgers** | Forces de l'ordre | Rétablir l'ordre (Décédé) | Proximité du repaire des bandits |
+
+<Callout type="tip" title="L'avis de l'éditeur">
+La « paix fragile » mentionnée par le Maire est un thème central. Les résidents de l'Abri sont paranoïaques en raison des émeutes passées causées par la pénurie de nourriture, ce qui explique leur réticence à laisser plusieurs factions coexister à l'intérieur de leurs murs.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="La quête d'Urban Strife Samuel">
+
+Trouver Samuel est bien plus qu'une simple mission de recherche et de sauvetage ; c'est le catalyseur de la couche stratégique du milieu de jeu. Une fois les bandits menaçant le territoire du shérif neutralisés, le Maire vous charge de localiser Samuel pour aider à préparer l'arrivée de la horde. Ce voyage nécessite de naviguer à travers des territoires contrôlés par des cultistes hostiles et des vestiges militaires méfiants.
+
+<Steps>
+  <Step num="1" title="Enquête initiale">
+    Après avoir signalé la mort du shérif, parlez au Maire pour recevoir la mission de reconnaissance. Vous devrez vous rendre dans la zone de la carte adjacente au repaire des bandits.
+  </Step>
+  <Step num="2" title="Navigation dans la zone des Cultistes">
+    Rencontrez les adorateurs de zombies. Bien qu'ils semblent amicaux, ils pratiquent des rituels dangereux consistant à se donner en pâture aux morts-vivants. Observez leur comportement mais évitez le conflit direct à moins d'être provoqué.
+  </Step>
+  <Step num="3" title="Localisation de l'avant-poste de l'Armée">
+    La faction de l'Armée détient une zone de quarantaine (ZQ). Vous pourriez trouver des soldats se livrant à des « jeux » comme voler des dents de zombies. Utilisez la discrétion ou la diplomatie pour accéder à leurs informations concernant l'endroit où se trouve Samuel.
+  </Step>
+  <Step num="4" title="Le sauvetage">
+    Localisez Samuel à la périphérie. Il se cache souvent ou est retenu dans un lieu neutre. Escortez-le jusqu'à l'Abri pour débloquer la phase suivante de l'histoire et le vote des factions.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement de combat">
+Les bandits et les cultistes vivent dans une proximité surprenante. Assurez-vous toujours que votre escouade est équipée d'armes silencieuses ou d'outils de mêlée à haut PA pour éviter d'attirer plusieurs groupes à la fois pendant la recherche de Samuel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparaison des factions et alignement stratégique">
+
+Une fois qu'**urban strife samuel** est en sécurité à la base, la direction de l'Abri tiendra une réunion d'urgence. L'arrivée d'une nouvelle horde de zombies impose une décision difficile : avec quelle faction allez-vous vous allier ? La logique interne du jeu dicte qu'une seule faction peut rester dans la banlieue pour aider l'Abri, car les résidents craignent que la présence de plusieurs groupes rivaux à proximité ne mène à une guerre interne.
+
+| Faction | Forces | Faiblesses | Idéal pour |
+| :--- | :--- | :--- | :--- |
+| **L'Armée** | Armement de haut niveau, troupes disciplinées | Hiérarchie rigide, risque de tyrannie | Joueurs cherchant la puissance de feu brute |
+| **Les Bikers** | Ingénieux, bonus de drogue/artisanat | Imprévisibles, hostiles aux groupes respectueux des lois | Joueurs se concentrant sur l'artisanat/commerce |
+| **Les Cultistes** | Tactiques uniques de distraction des zombies | Moralement discutables, faible technologie | Joueurs favorisant la discrétion/builds de niche |
+
+<CardGrid cols={3}>
+  <Card title="S'allier avec l'Armée">
+    - **Pour** : Accès aux plans et munitions de qualité militaire.
+    - **Contre** : Nécessite des actions agressives contre les Bikers et les Cultistes.
+    - **Résultat** : Un périmètre sécurisé et à haute défense pour l'Abri.
+  </Card>
+  <Card title="S'allier avec les Bikers">
+    - **Pour** : Amélioration de la distillation clandestine et de l'artisanat chimique.
+    - **Contre** : Perte du soutien militaire et de la loi structurée.
+    - **Résultat** : Un environnement plus chaotique mais riche en ressources.
+  </Card>
+  <Card title="S'allier avec les Cultistes">
+    - **Pour** : Connaissances spécialisées du comportement des zombies.
+    - **Contre** : S'aliène les survivants traditionnels et les militaires.
+    - **Résultat** : Une stratégie de défense rituelle et bizarre.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Note du développeur">
+Choisir une faction déclenche souvent un état de « guerre » avec les autres. C'est un choix de conception pour assurer une voie stratégique claire vers la fin du jeu. Si vous vous rangez du côté de l'Armée, attendez-vous à devoir saboter ou éliminer les opérations des Bikers pour assurer la domination de l'Armée.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion de l'Abri et liste de contrôle de survie">
+
+Avec l'aide de Samuel, l'Abri peut enfin commencer sa transition d'un simple refuge vers une base fortifiée. La gestion des ressources est critique, d'autant plus que le statut de « survivant immunisé » fait de vous le principal fournisseur de la communauté. Vous devez équilibrer la progression des missions avec les améliorations physiques de la base.
+
+<Checklist
+  id="shelter-progression"
+  title="Jalons critiques de l'Abri :"
+  items={[
+    "Sécuriser le périmètre en nettoyant le repaire des bandits",
+    "Localiser Samuel et le ramener au Maire",
+    "Établir une liaison radio pour surveiller les mouvements de la horde",
+    "Choisir un allié de faction principal via le système de vote",
+    "Débloquer des plans de haut niveau via la faveur de faction",
+    "Stocker de la nourriture et des médicaments pour le siège final"
+  ]}
+/>
+
+<Callout type="success" title="Conseil sur les ressources">
+N'ignorez pas le Biker « abruti » ou les soldats « décontractés ». Même si vous ne prévoyez pas de vous allier avec eux à long terme, accomplir leurs petites quêtes secondaires tôt fournit de l'XP essentielle et des fournitures de base comme des dents de zombie (qui peuvent être échangées contre des avantages).
+</Callout>
+
+| Type de ressource | Source principale | Utilisation | Priorité |
+| :--- | :--- | :--- | :--- |
+| **Dents de zombie** | Missions d'infiltration en ZQ | Récompenses de faction, jours de repos | Moyenne |
+| **Médicaments** | Fouille de pharmacies | Soigner les survivants, santé de Samuel | Haute |
+| **Ferraille** | Zones industrielles | Construction de défenses, artisanat | Haute |
+| **Nourriture** | Épiceries, agriculture | Prévenir les émeutes, moral | Critique |
+
+</Section>
+
+<Section icon={Trophy} title="Tactiques avancées pour la Horde finale">
+
+L'objectif ultime de l'intrigue **urban strife samuel** est de se préparer pour la horde massive. Votre choix de faction modifie considérablement le déroulement de cette bataille. Si vous avez choisi l'Armée, vous aurez accès à des mitrailleuses lourdes et à un positionnement tactique. Si vous avez choisi les Bikers, attendez-vous à utiliser des pièges explosifs et des tactiques de type « frappe et fuite ».
+
+**Stratégies clés pour réussir :**
+- **Discrétion vs Agression** : Utilisez votre immunité pour explorer profondément le territoire zombie sans déclencher d'alertes massives. Cela vous permet de mettre en place des embuscades pour la horde avant qu'elle n'atteigne l'Abri.
+- **Sabotage de faction** : Avant l'arrivée de la horde, vous devez vous assurer que votre allié choisi est le seul restant. Cela peut signifier détruire les camions d'alcool des Bikers ou saboter les rituels des Cultistes.
+- **Gestion des plans** : Les plans sont souvent verrouillés derrière la réputation de faction. Privilégiez l'obtention de versions « inférieures » si vous avez du mal avec la faveur de faction, ou fouillez des magasins spécifiques dans la ville étendue pour des butins rares.
+
+<Callout type="warning" title="Risque de fin de partie">
+Si vous ne parvenez pas à vous aligner avec une faction ou si vous gérez mal vos ressources, l'Abri ne survivra pas à la seconde horde. Le jeu est conçu pour être un dilemme permanent, vous forçant à prendre des décisions moralement grises pour le bien commun.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusion & FAQ">
+
+L'histoire d'Urban Strife est celle d'une survie pragmatique. Bien que l'écriture puisse sembler « loufoque » pour certains, les mécanismes sous-jacents de la guerre de factions et le mystère entourant l'immunité du protagoniste offrent une expérience tactique profonde. En vous concentrant sur la quête de Samuel et en faisant un choix définitif dans la guerre des factions, vous assurez le meilleur résultat possible pour les résidents de l'Abri.
+
+<FAQ items={[
+  {
+    question: "Qui est Samuel dans Urban Strife ?",
+    answer: "Samuel est un PNJ clé (souvent appelé le 'vieux gars') que le joueur doit trouver tôt dans le jeu pour faire progresser l'histoire de l'Abri et débloquer les mécanismes de faction."
+  },
+  {
+    question: "Puis-je rester neutre avec toutes les factions ?",
+    answer: "Non. La couche stratégique du jeu exige que vous finissiez par vous ranger du côté d'une faction (ou d'aucune) pour faire face à la horde imminente. Les résidents de l'Abri ne risqueront pas d'avoir plusieurs groupes conflictuels près de leurs murs."
+  },
+  {
+    question: "Que se passe-t-il si je me range du côté de l'Armée ?",
+    answer: "S'allier avec l'Armée fournit de l'équipement et des plans de qualité militaire, mais nécessite d'éliminer ou de chasser les Bikers et les Cultistes des banlieues."
+  },
+  {
+    question: "L'immunité du protagoniste est-elle importante pour l'intrigue ?",
+    answer: "Oui, l'immunité du protagoniste est l'élément central de l'intrigue qui fait de lui le leader des opérations de reconnaissance et de combat de l'Abri."
+  }
+]} />
+
+</Section>

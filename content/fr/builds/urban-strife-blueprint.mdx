@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Blueprints d'Urban Strife : Guide des améliorations de l'abri et des PNJ",
+  description: "Maîtrisez le système de blueprints d'Urban Strife pour améliorer votre abri. Apprenez où trouver les plans, à quels PNJ les remettre et comment éviter les bugs d'inventaire courants.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Shelter+Blueprint+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki Urban Strife"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **blueprints (plans) d'Urban Strife** sont essentiels pour améliorer votre camp de réfugiés et débloquer des recettes de fabrication avancées.
+- Les **PNJ de remise** sont spécialisés : Martin s'occupe de la défense, Ellen du moral, et le cuisinier/médecin de la survie.
+- **Les prérequis sont importants** : de nombreux bâtiments avancés, comme la serre, nécessitent d'abord un potager de base.
+- **La gestion de l'inventaire** est cruciale ; assurez-vous que votre sac à dos a de la place lors de la réception des plans pour éviter qu'ils ne disparaissent.
+- Il existe des **blueprints spécifiques à chaque faction** pour récompenser les joueurs qui s'allient à l'Armée, aux Bikers ou aux Cultistes.
+</Callout>
+
+<Section icon={Hammer} title="Comprendre le système de blueprints d'Urban Strife">
+
+Dans le monde brutal d'Urban Strife, votre abri est votre seul sanctuaire. Le système de **blueprints d'Urban Strife** dicte l'évolution de votre base, passant d'un camp de réfugiés en ruine à un bastion fortifié. Contrairement aux RPG traditionnels où il suffit de cliquer sur un bouton "construire", ce jeu exige que vous localisiez physiquement les plans et que vous les remettiez au spécialiste approprié au sein de votre camp.
+
+Les plans agissent comme des gardiens technologiques de votre progression. Sans eux, vos survivants manqueront des outils nécessaires à leur santé, leur moral et leur défense à long terme. Ces objets se trouvent généralement sous forme de butin dans les zones de haut niveau, en récompense de missions spécifiques à une faction, ou achetés auprès de marchands spécialisés.
+
+<CardGrid cols={3}>
+  <Card title="Acquisition">
+    - **Récompenses de mission** : Source principale pour la technologie spécifique aux factions.
+    - **Butin mondial** : Trouvé dans les bureaux, les coffres-forts et les caisses industrielles.
+    - **Commerce PNJ** : Certains plans sont vendus par des marchands itinérants.
+  </Card>
+  <Card title="Stockage">
+    - **Sac à dos** : Requis pour le processus de remise initial.
+    - **Réserve** : Peut être utilisée pour la construction une fois que le PNJ a appris le plan.
+    - **Poids** : Les plans sont légers mais occupent des emplacements d'inventaire précieux.
+  </Card>
+  <Card title="Utilisation">
+    - **Déblocage** : Remettez l'objet au spécialiste du camp correspondant.
+    - **Construction** : Rassemblez les matériaux et le carburant nécessaires.
+    - **Amélioration** : Progression par paliers, des structures de base aux structures avancées.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Alerte bug d'inventaire">
+Depuis les dernières mises à jour de 2026, il existe un problème connu où choisir un plan en récompense de quête alors que l'inventaire de votre personnage est plein entraîne la disparition de l'objet. Assurez-vous toujours d'avoir au moins un emplacement libre avant de terminer des étapes importantes de l'histoire ou des missions de faction.
+</Callout>
+
+| État du plan | Signification | Action requise |
+| :--- | :--- | :--- |
+| **Icône blanche** | Pas encore appris | Apporter au spécialiste PNJ approprié |
+| **Icône rouge** | Appris mais manque de matériaux | Récupérer de la ferraille, du bois ou des pièces électroniques |
+| **Grisé** | Prérequis manquant | Construire la version de niveau 1 de la structure |
+| **Verrouillé par faction** | Nécessite de la réputation | Accomplir des tâches pour la faction spécifique |
+
+</Section>
+
+<Section icon={Users} title="Spécialistes PNJ et lieux de remise">
+
+Une fois que vous avez obtenu un **blueprint d'Urban Strife**, vous ne pouvez pas simplement l'utiliser depuis votre inventaire. Vous devez identifier quel chef du camp de réfugiés gère ce secteur spécifique de la survie. Remettre un plan à la mauvaise personne est impossible, mais trouver la bonne peut être déroutant pour les nouveaux joueurs.
+
+Le camp est divisé en zones fonctionnelles : Nourriture/Santé, Moral/Loisirs, et Défense/Utilité. Chaque zone est supervisée par un PNJ qui agit en tant qu'architecte pour ces améliorations spécifiques.
+
+| Nom du PNJ | Catégorie | Bâtiments principaux |
+| :--- | :--- | :--- |
+| **Martin Fulton-Vine** | Défense & Utilité | Remparts métalliques, Salle de sport, Stand de tir, Recyclage |
+| **Ellen Wells-Carter** | Moral & Loisirs | Salle de lecture, Prison, Bar des Bikers, Salle de prière |
+| **Le Cuisinier** | Nourriture & Agriculture | Potager, Améliorations cuisine, Herbes aromatiques |
+| **Le Médecin** | Santé & Récupération | Infirmerie, Labo médical, Chirurgie avancée |
+
+<Callout type="tip" title="Astuce : L'interface multi-PNJ">
+Lorsque vous parlez à l'un des principaux chefs du camp, regardez en haut de l'interface pour voir une ligne de symboles de zone bleus. Vous pouvez basculer entre différents PNJ et leurs menus d'amélioration respectifs sans quitter la conversation, ce qui facilite la gestion de plusieurs plans à la fois.
+</Callout>
+
+### Défense et Recyclage
+Martin est votre interlocuteur privilégié pour tout ce qui concerne la sécurité physique du camp. Il gère les plans "Free For All" (FFA) qui ne nécessitent pas d'alignement avec une faction, comme les remparts métalliques de base et la salle de sport extérieure. Si vous trouvez un plan pour des gardes soldats ou des miradors, Martin est le seul à pouvoir les mettre en œuvre.
+
+### Moral et Améliorations sociales
+Ellen gère le bien-être psychologique de vos survivants. Bien qu'elle puisse construire la prison et la salle de lecture de base en utilisant des matériaux FFA, les structures sociales avancées comme le bar des Bikers ou l'émission de radio nécessitent des plans spécifiques à une faction. Ceux-ci sont généralement obtenus en se rangeant du côté des Bikers ou de l'Armée respectivement.
+
+</Section>
+
+<Section icon={Target} title="Progression et prérequis des plans">
+
+La construction dans Urban Strife est un processus linéaire. Vous ne pouvez pas passer directement à une porte de bus blindée sans avoir d'abord établi le périmètre de base. Comprendre l'"arbre technologique" de votre collection de **blueprints d'Urban Strife** vous évitera de gaspiller des ressources sur des améliorations peu prioritaires.
+
+<Steps>
+  <Step num="1" title="Sécuriser le plan">
+    Localisez l'objet physique dans le monde ou recevez-le en récompense de mission. Assurez-vous qu'il est dans le sac à dos de votre personnage principal.
+  </Step>
+  <Step num="2" title="Identifier le spécialiste">
+    Faites correspondre le type de plan (ex: Agriculture) au bon PNJ (ex: Le Cuisinier).
+  </Step>
+  <Step num="3" title="Soumettre et apprendre">
+    Interagissez avec le PNJ et sélectionnez l'option pour faire un don ou remettre le plan. Le bâtiment apparaîtra maintenant dans le menu de construction.
+  </Step>
+  <Step num="4" title="Vérifier les prérequis">
+    Ouvrez le menu de construction. Si le bâtiment est grisé, survolez-le pour voir quelle structure de niveau 1 est requise en premier.
+  </Step>
+  <Step num="5" title="Allouer les ressources">
+    Fournissez la ferraille, le bois et le carburant requis. La construction commence immédiatement après l'allocation des ressources.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Gestion des ressources">
+Les matériaux de construction peuvent être puisés directement dans la réserve de votre camp. Vous n'avez pas besoin de transporter 500 unités de ferraille dans votre sac à dos pour lancer un projet de construction une fois que le plan a été appris par le PNJ.
+</Callout>
+
+| Niveau de structure | Exemple de bâtiment | Prérequis requis |
+| :--- | :--- | :--- |
+| **Niveau 1 (Base)** | Potager | Aucun (FFA) |
+| **Niveau 2 (Avancé)** | Serre | Potager |
+| **Niveau 3 (Spécialiste)** | Herbes aromatiques | Potager + Plan Biker |
+| **Défense Niveau 1** | Clôture électrique | Aucun (Pré-construit/FFA) |
+| **Défense Niveau 2** | Remparts métalliques | Clôture électrique |
+| **Défense Niveau 3** | Porte de bus blindée | Remparts métalliques + Plan Biker |
+
+</Section>
+
+<Section icon={Shield} title="Plans spécifiques aux factions et rejouabilité">
+
+L'une des mécaniques fondamentales du système de **blueprints d'Urban Strife** est l'exclusivité des factions. Tous les plans ne peuvent pas être obtenus en une seule partie. Vos choix durant le deuxième acte du jeu détermineront les technologies de haut niveau auxquelles vous aurez accès.
+
+Les développeurs ont confirmé que la limitation des choix de plans est une décision de conception délibérée pour encourager différents styles de jeu. Par exemple, l'Armée fournit des structures défensives et des installations d'entraînement supérieures, tandis que les Bikers offrent de meilleurs centres sociaux pour booster le moral et des véhicules modifiés.
+
+<CardGrid cols={2}>
+  <Card title="Armée (La voie professionnelle)">
+    - **Mirador** : Lignes de vue supérieures pour les gardes du camp.
+    - **Émission de radio** : Boost de moral très efficace pour les survivants disciplinés.
+    - **Armurerie avancée** : Débloque la fabrication d'équipements militaires de haut niveau.
+  </Card>
+  <Card title="Bikers (La voie du chaos)">
+    - **Bar des Bikers** : Boost de moral important mais nécessite des ressources d'alcool.
+    - **Porte de bus blindée** : Défense robuste pour l'entrée principale.
+    - **Herbes aromatiques** : Augmente la qualité de la nourriture et la valeur commerciale.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Plans Généraux (FFA)">
+Les bâtiments comme la salle de sport extérieure, le stand de tir et le centre de recyclage de base sont "Free For All". Ils ne sont liés à aucune faction et peuvent être débloqués par n'importe quel joueur tant qu'il trouve le plan et fournit à Martin au moins 50 matériaux.
+</Callout>
+
+| Type d'amélioration | Faction | Avantage |
+| :--- | :--- | :--- |
+| **Mirador** | Armée | Portée de défense augmentée |
+| **Bar des Bikers** | Bikers | Moral massif par boisson |
+| **Salle de prière** | Cultistes | Boost de moral à faible coût |
+| **Serre** | Armée | Production alimentaire toute l'année |
+| **Bacs à compost** | Cultistes | Cycles de culture plus rapides |
+
+</Section>
+
+<Section icon={Sparkles} title="Check-list d'optimisation de l'abri">
+
+Pour vous assurer que votre camp fonctionne à une efficacité maximale, suivez cette check-list pour gérer votre collection de **blueprints d'Urban Strife** et vos projets de construction.
+
+<Checklist
+  id="blueprint-goals-2026"
+  title="Jalons essentiels de l'abri :"
+  items={[
+    "Videz votre inventaire avant d'accepter les récompenses de quête pour éviter la perte de plans.",
+    "Remettez le plan de la salle de sport à Martin rapidement pour l'entraînement des statistiques.",
+    "Construisez le potager immédiatement pour débloquer l'arbre technologique alimentaire.",
+    "Remettez le plan de la salle de lecture à Ellen pour gérer le stress en début de partie.",
+    "Identifiez quels plans de faction correspondent à votre style de jeu préféré.",
+    "Vérifiez régulièrement la réserve pour vous assurer d'avoir assez de ferraille pour les améliorations de défense."
+  ]}
+/>
+
+<Callout type="tip" title="Entraînement des statistiques">
+Les bâtiments comme la salle de sport et le stand de tir ne sont pas seulement pour le décor. Une fois construits via leurs plans respectifs, ils permettent à vos survivants d'entraîner leur Force et leur Tir pendant leurs temps morts, ce qui est vital pour les combats de fin de partie.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur les blueprints d'Urban Strife">
+
+<FAQ items={[
+  {
+    question: "Pourquoi ne puis-je pas construire la serre alors que j'ai le plan ?",
+    answer: "La serre nécessite un potager comme prérequis. Vous devez d'abord construire le jardin de base avant que le PNJ ne vous permette de l'améliorer en serre."
+  },
+  {
+    question: "J'ai donné un plan à Martin mais je ne le vois pas dans le menu de construction. Que s'est-il passé ?",
+    answer: "Regardez en haut de l'interface. Vous regardez peut-être les onglets 'Recyclage' ou 'Carburant'. Cliquez sur les différentes icônes de zone pour trouver la catégorie spécifique au plan que vous venez de remettre."
+  },
+  {
+    question: "Puis-je débloquer tous les plans en une seule partie ?",
+    answer: "Non. Certains plans sont spécifiques à une faction (Armée, Bikers ou Cultistes). Vous devrez jouer plusieurs fois et faire des choix différents pour découvrir toutes les améliorations de l'abri."
+  },
+  {
+    question: "Que faire si mon plan disparaît à cause d'un inventaire plein ?",
+    answer: "Actuellement, c'est un bug connu. Vous devrez peut-être recharger une sauvegarde précédente ou vérifier si l'objet est tombé au sol. Les développeurs travaillent sur un correctif pour envoyer les récompenses excédentaires dans la réserve du camp."
+  }
+]} />
+
+</Section>

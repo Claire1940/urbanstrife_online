@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mission Urban Strife : Guide du début de jeu et des factions",
+  description: "Maîtrisez chaque mission du début d'Urban Strife grâce à notre guide détaillé, couvrant l'évasion du pont, l'installation de l'abri et les interactions avec les factions en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/f8fafc?text=Urban+Strife+Mission+Guide",
+  date: "2026-07-21",
+  author: "Équipe Wiki d'Urban Strife",
+  keywords: "urban strife, mission, guide, factions, survie, zombies"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mission Urban Strife** : Concentrez-vous sur la discrétion et la gestion des Points d'Action (PA) pour survivre aux premières rencontres.
+- **Mécaniques de discrétion** : Utilisez la position accroupie pour minimiser le bruit et éviter les cercles de détection ennemis.
+- **Intrigue de l'immunité** : Votre personnage est exceptionnellement immunisé contre le virus, ce qui fait de vous un atout vital pour l'Abri.
+- **Choix de faction** : Vous devrez éventuellement vous aligner avec l'Armée, les Bikers ou les Cultistes pour survivre à la horde à venir.
+- **Priorité des ressources** : Fouillez les voitures de police et les ambulances tôt pour trouver des armes, des bandages et des stimulants.
+</Callout>
+
+<Section icon={Map} title="Phase de tutoriel : S'échapper du pont">
+
+La **mission Urban Strife** initiale sert de tutoriel à enjeux élevés qui vous introduit à la réalité brutale de l'apocalypse zombie. Après un accident de voiture catastrophique sur un pont d'autoroute, votre personnage se réveille blessé et entouré de morts-vivants. Vous faites immédiatement la connaissance de Kaylee Adams, un PNJ pivot qui fournit les fournitures médicales nécessaires pour vous remettre sur pied. Comprendre l'interface de base—en particulier l'inventaire et le système de Points d'Action—est critique durant ces premières minutes.
+
+**Points forts de la vidéo :**
+- **Bases des premiers secours** : Apprenez à utiliser des bandages pour arrêter les saignements et des stimulants pour restaurer l'endurance.
+- **Gestion de l'inventaire** : Comment équiper le pied-de-biche trouvé dans l'ambulance à proximité.
+- **Intro à la discrétion** : Comprendre les tuiles de détection rouges (vue) et orange (son).
+- **Mouvement de groupe** : Sélectionner plusieurs unités (votre avatar et Kaylee) pour atteindre la zone d'évacuation.
+
+<YouTubeEmbed videoId="wIzgY6AA5Pw" title="Urban Strife - Zombie Apocalypse Tactical RPG - First 29 Minutes of Gameplay" />
+
+Dans cette section, vous devez naviguer sur le pont en alternant entre la position debout pour la vitesse et la position accroupie pour la discrétion. Le jeu utilise un système de mouvement basé sur une grille où chaque action, de l'ouverture d'une portière de voiture au balancement d'une arme, consomme des PA.
+
+| Nom de l'objet | Type | Effet | Utilisation principale |
+| :--- | :--- | :--- | :--- |
+| **Bandage** | Médical | Arrête l'état de saignement | Récupération immédiate post-combat |
+| **Stimulant** | Médical | Restaure l'endurance/adrénaline | Remettre sur pied les unités à terre |
+| **Pied-de-biche** | Arme | Dégâts de mêlée / Utilitaire | Forcer les serrures et éliminations silencieuses |
+| **Pistolet .22LR** | Arme | Dégâts à distance | Défense de début de jeu contre les pillards |
+
+<Callout type="tip" title="Optimisation de la discrétion">
+Vérifiez toujours les tuiles "oreille orange" avant de bouger. Celles-ci représentent le bruit que fait votre personnage. S'accroupir réduit considérablement ce rayon, vous permettant de contourner les zombies sans déclencher une séquence de combat coûteuse.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="L'Abri et le protagoniste immunisé">
+
+Une fois le pont évacué, vous êtes emmené à l'Abri, une enclave fortifiée dirigée par JJ Adams, le maire local. Ici, le récit révèle que votre personnage est immunisé contre le virus zombie—un "miracle" découvert par le Dr Henderson. Cette immunité sert de fondement à votre rôle de nouveau shérif adjoint de l'Abri. Votre principale **mission Urban Strife** à ce stade est de vous intégrer à la communauté et de vous préparer aux menaces extérieures.
+
+L'Abri agit comme votre hub central où vous pouvez commercer, gérer les ressources et planifier votre prochaine expédition. Vous rencontrerez plusieurs PNJ clés qui fournissent des services essentiels :
+
+| Nom du PNJ | Rôle | Importance |
+| :--- | :--- | :--- |
+| **JJ Adams** | Maire | Donneur de quête principal et diplomate |
+| **Kaylee Adams** | Éclaireuse/Infirmière | Compagne de combat et médecin du début |
+| **Dr Henderson** | Scientifique | Recherche votre immunité et fournit des médicaments |
+| **Lucy Lou** | Résidente | Fournit des informations locales et du contexte |
+| **Billy Bow** | Combattant | Cogneur lourd pour les premières expéditions urbaines |
+
+<Callout type="warning" title="Gestion des ressources">
+L'Abri consomme des ressources quotidiennement. Utilisez le carnet en jeu pour suivre la consommation de nourriture, d'eau et de carburant. Ne pas maintenir ces niveaux entraînera une baisse du moral et de la santé de vos survivants.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Première mission sur le terrain : Trouver le shérif Rodgers">
+
+Votre première tâche officielle en tant qu'adjoint est d'enquêter sur la disparition de l'ancien shérif, Rodgers. Cette mission vous emmène à Adams Villa, un quartier de banlieue qui a été découpé par diverses factions locales. Vous recherchez une berline de police qui contiendrait des fournitures de défense domestique, mais la mission s'intensifie rapidement lorsque vous rencontrez des pillards hostiles.
+
+<Steps>
+  <Step num="1" title="Voyager vers Adams Villa">
+    Utilisez la carte du monde pour vous rendre dans la banlieue. Notez que le voyage consomme du temps de jeu (environ 15 minutes pour ce trajet).
+  </Step>
+  <Step num="2" title="Reconnaissance de la voiture de police">
+    Localisez la berline de police près du centre de la carte. Elle contient des munitions essentielles et potentiellement une meilleure arme à feu.
+  </Step>
+  <Step num="3" title="Enquêter dans la maison">
+    Entrez dans l'ancienne résidence du shérif. Soyez prudent avec les "Zones Privées" (marquées en rouge), où les propriétaires attaqueront à vue.
+  </Step>
+  <Step num="4" title="Affronter les pillards">
+    Éliminez les membres de la milice urbaine hostile qui ont pris possession des maisons voisines.
+  </Step>
+</Steps>
+
+Le combat dans cette **mission Urban Strife** nécessite une approche tactique. Utilisez le mode "Vigilance" (Overwatch) pour établir des zones de tir. Si un pillard tente de traverser votre ligne de mire pendant son tour, vos personnages tireront automatiquement, à condition qu'ils aient assez de PA restants.
+
+| Action | Coût en PA | Bénéfice tactique |
+| :--- | :--- | :--- |
+| **S'accroupir** | 4 PA | Augmente la précision et réduit la visibilité |
+| **Vigilance** | Variable | Interrompt le mouvement ennemi par un tir auto |
+| **Recharger** | 6-8 PA | Essentiel pour maintenir la pression de tir |
+| **Ouvrir une porte** | 2 PA | Permet des manœuvres de flanc à l'intérieur |
+
+<Callout type="success" title="Avantage tactique">
+Utilisez l'environnement à votre avantage. Les fenêtres peuvent être brisées pour créer de nouvelles lignes de mire, mais sachez que le bruit du verre brisé attirera tous les zombies dans un rayon de 20 tuiles.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Naviguer dans la politique des factions">
+
+À mesure que vous progressez dans la chaîne de **missions Urban Strife**, vous rencontrerez les trois factions primaires qui se disputent le contrôle des banlieues. Chaque groupe a sa propre idéologie, et vos interactions avec eux détermineront la fin de votre campagne. Le maire explique que la "paix fragile" échoue, et l'arrivée d'une immense horde de zombies force l'Abri à choisir un camp.
+
+<CardGrid cols={3}>
+  <Card title="L'Armée">
+    - **Avantages** : Équipement militaire de haut niveau et soldats disciplinés.
+    - **Inconvénients** : Structure rigide et motivations potentiellement tyranniques.
+    - **Ambiance** : Professionnelle mais froide.
+  </Card>
+  <Card title="Les Bikers">
+    - **Avantages** : Excellents pour les raids et la production de médicaments.
+    - **Inconvénients** : Imprévisibles et enclins à la violence.
+    - **Ambiance** : Chaotique et axée sur la survie.
+  </Card>
+  <Card title="Les Cultistes">
+    - **Avantages** : Connaissance unique du comportement des zombies et des rituels.
+    - **Inconvénients** : Pratiques bizarres impliquant des sacrifices humains.
+    - **Ambiance** : Inquiétante et imprévisible.
+  </Card>
+</CardGrid>
+
+Les discussions de la communauté Steam soulignent une frustration commune des joueurs : le jeu vous force souvent à éliminer deux factions pour assurer la sécurité de l'Abri. Cette règle de la "faction unique" est une couche stratégique conçue pour prévenir les émeutes internes au sein des murs de l'Abri. Lorsqu'une nouvelle horde approche, les résidents sont trop paranoïaques pour permettre à des factions rivales de coexister dans la même fortification.
+
+<Callout type="info" title="Aperçu des développeurs">
+Les développeurs ont noté que certaines réponses des factions (comme l'Armée devenant hostile après que vous les ayez aidés) sont en cours d'affinage dans les mises à jour de 2026 pour garantir que la logique narrative reste cohérente avec les choix des joueurs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégie de combat : PA et Couverture">
+
+Le combat dans Urban Strife est impitoyable. Une seule erreur de positionnement peut conduire un personnage à se vider de son sang ou à être submergé. La clé pour gagner n'importe quelle **mission Urban Strife** est de maîtriser la relation entre la couverture et les Points d'Action.
+
+Une couverture complète (murs solides) offre la meilleure protection mais limite votre champ de vision. Une demi-couverture (caisses, murets) permet de meilleurs angles de tir mais vous laisse vulnérable aux contournements.
+
+| Type de couverture | Bonus de défense | Pénalité de précision | Meilleure utilisation |
+| :--- | :--- | :--- | :--- |
+| **Mur complet** | Élevé | Élevée (doit se pencher) | Recharger et se soigner |
+| **Caisses** | Moyen | Faible | Fusillades prolongées |
+| **Véhicules** | Moyen | Moyen | Couverture mobile lors des combats de rue |
+| **Terrain découvert** | Aucun | Aucune | Se déplacer entre les abris (Risque élevé) |
+
+**Aperçus vidéo sur le combat :**
+- **Portée optimale** : Chaque arme a une "zone idéale" où la précision est la plus élevée.
+- **Postures** : Courir économise des PA mais fait du bruit ; s'accroupir coûte plus de PA pour se déplacer mais vous garde caché.
+- **Saignement** : Si un personnage subit un coup "rouge", il saigne. Vous devez utiliser un kit médical immédiatement sous peine de perdre de la santé à chaque tour.
+
+<Callout type="tip" title="La tactique du 'Leurre'">
+Si les ennemis sont retranchés dans un bâtiment, utilisez un "générateur de bruit" ou tirez un coup de feu près de la porte, puis réglez toutes vos unités en Vigilance. Laissez les pillards venir à vous.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle du début de jeu">
+
+Pour garantir que votre Abri survive aux 30 premiers jours de l'apocalypse, suivez cette liste de progression essentielle. Accomplir ces tâches fournira les bases nécessaires pour les guerres de factions du milieu de jeu.
+
+<Checklist
+  id="urban-strife-milestones"
+  title="Objectifs initiaux essentiels :"
+  items={[
+    "Sauver le survivant blessé lors du tutoriel sur le pont",
+    "Sécuriser le pistolet et les munitions dans la berline de police",
+    "Établir une réputation positive avec au moins une faction",
+    "Améliorer l'infirmerie de l'abri pour gérer les infections",
+    "Localiser les pièces de radio manquantes pour le Dr Henderson",
+    "Nettoyer le nid de zombies près de l'épicerie locale"
+  ]}
+/>
+
+<Callout type="success" title="Conseil final">
+Ne vous précipitez pas. Urban Strife récompense la patience. Si une mission semble trop difficile, passez quelques jours à fouiller des zones à faible risque pour constituer vos réserves de munitions et augmenter les compétences de combat de votre escouade.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment arrêter le saignement de mes personnages pendant une mission ?",
+    answer: "Vous devez utiliser un Bandage ou un Kit Médical de votre inventaire. Cela nécessite des Points d'Action (PA), alors assurez-vous d'être à l'abri avant de tenter de vous soigner."
+  },
+  {
+    question: "Puis-je rejoindre plus d'une faction dans Urban Strife ?",
+    answer: "Bien que vous puissiez accomplir les tâches initiales pour toutes les factions, le jeu finit par imposer un choix. En raison de la règle de la 'faction unique' dans l'Abri, s'allier avec l'une finira par mener à un conflit avec les autres."
+  },
+  {
+    question: "Quel est l'avantage du statut 'Immunisé' ?",
+    answer: "Narrativement, cela fait de vous la seule personne capable d'explorer des zones à forte infection. Mécaniquement, cela empêche votre personnage de se transformer en zombie s'il est mordu, bien que vous subissiez toujours des dégâts physiques."
+  },
+  {
+    question: "Pourquoi ne puis-je pas zoomer davantage pendant le combat ?",
+    answer: "Le jeu dispose d'un niveau de zoom tactique fixe pour garantir que les joueurs gardent une vue claire de la grille et des cercles de détection. Utilisez les touches WASD pour déplacer la caméra pour une meilleure conscience de la situation."
+  }
+]} />
+
+</Section>

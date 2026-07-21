@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Nexus Mods: 2026 Installation & Setup Guide",
+  description: "Enhance your Urban Strife experience with the best Nexus mods. Learn how to install community content, customize combat, and optimize shelter management.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Nexus+Mods+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Nexus Mods Status**: As of 2026, the modding community is rapidly expanding following the game's full release.
+- **Engine Compatibility**: Urban Strife runs on **Unreal Engine 4**, making it highly accessible for asset swaps and script tweaks.
+- **Installation Method**: Most mods require manual placement in the **Paks folder** or use of a dedicated mod manager.
+- **Priority Tweaks**: Focus on **Combat Balance**, **Inventory Management**, and **Visual Overhauls** for the best experience.
+- **Backup Reminder**: Always backup your **Save Games** and original **Game Files** before applying any community patches.
+</Callout>
+
+<Section icon={Settings} title="The State of Urban Strife Nexus Mods in 2026">
+
+Urban Strife has evolved significantly since its early access days. With the 2026 updates, the community has turned to Nexus Mods to bridge the gap between hardcore survival and accessible RPG mechanics. Whether you are looking to adjust the punishing difficulty of Little Italy or want to streamline the shelter's radio repair quests, the modding scene offers a variety of solutions. The game's structure, built on Unreal Engine 4, allows creators to modify everything from character stats to environmental lighting.
+
+**Video Highlights:**
+- Overview of the **1.03 Update** and its impact on story evolution.
+- Combat demonstrations in **Little Italy** showing damage scaling.
+- Insight into the **Shelter Radio** questline and NPC interactions.
+- Exploration of the expanded world map and new loot locations.
+
+<YouTubeEmbed videoId="f3-H_tXi310" title="Urban Strife: Mission 3 - Taking Heavy Damage In Little Italy" />
+
+<Callout type="tip" title="Developer Insight">
+The developers at MicroProse have historically been supportive of the modding community. While official Steam Workshop integration is the ultimate goal, Nexus Mods remains the primary hub for experimental and total conversion projects in 2026.
+</Callout>
+
+| Mod Category | Impact Level | Primary Focus |
+| :--- | :--- | :--- |
+| **Overhauls** | High | Complete rebalance of combat and survival mechanics |
+| **UI/HUD** | Medium | Cleaner inventory screens and better map markers |
+| **Utility** | Low | Faster movement speed and carry weight adjustments |
+| **Visuals** | Medium | Re-shades and high-resolution texture replacements |
+
+</Section>
+
+<Section icon={Wrench} title="Technical Requirements & Mod Installation">
+
+Before diving into the Nexus, it is crucial to understand how Urban Strife handles external files. Since the game utilizes the Unreal Engine, most mods are distributed as `.pak` files. These files contain the modified assets or logic that override the base game data. Following a standardized installation process ensures that your game remains stable even when running multiple active mods.
+
+<Steps>
+  <Step num="1" title="Locate Game Directory">
+    Navigate to your Urban Strife installation folder. This is typically found under `SteamLibrary/steamapps/common/Urban Strife`.
+  </Step>
+  <Step num="2" title="Identify the Paks Folder">
+    Open the `UrbanStrife` folder, then go to `Content` and finally `Paks`. This is where the core game data resides.
+  </Step>
+  <Step num="3" title="Create a ~mods Subfolder">
+    Inside the `Paks` directory, create a new folder named `~mods` (the tilde is essential). This tells the Unreal Engine to load these files with higher priority.
+  </Step>
+  <Step num="4" title="Deploy Mod Files">
+    Download your chosen mod from Nexus. Extract the `.pak` file and move it directly into the `~mods` folder you just created.
+  </Step>
+  <Step num="5" title="Verify Installation">
+    Launch the game. Check the version number or specific modded features (like increased carry weight) to ensure the mod is active.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Version Mismatch">
+Always check if a mod is compatible with version **1.03 or higher**. Older mods designed for early access builds may cause the game to crash during the Little Italy or Old Port transitions.
+</Callout>
+
+| Mod Tool | Function | 2026 Compatibility |
+| :--- | :--- | :--- |
+| **UE4SS** | Scripting framework for advanced mods | Fully Supported |
+| **Nexus Vortex** | Automated installation and load order | Recommended |
+| **Pak Unpacker** | For users looking to create their own mods | Advanced Users Only |
+
+</Section>
+
+<Section icon={Swords} title="Combat and Survival Mechanics Optimization">
+
+Combat in Urban Strife is notoriously tactical and often unforgiving. As seen in recent gameplay, taking "heavy damage" is a common occurrence when dealing with factions like Joe's Shine Runners. Modding these variables allows you to tailor the experience to your preferred level of realism. For instance, many players prefer to adjust the **Action Point (AP)** costs for reloading or using medical kits.
+
+<CardGrid cols={3}>
+  <Card title="AP Rebalance">
+    - **Reduced reload costs**
+    - Balanced movement AP
+    - Faster weapon swapping
+  </Card>
+  <Card title="Damage Scaling">
+    - **Realistic ballistics**
+    - High-stakes melee combat
+    - Adjusted armor penetration
+  </Card>
+  <Card title="Survival Tweaks">
+    - **Slower hunger/thirst**
+    - Enhanced loot drop rates
+    - Better medical kit efficiency
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Combat Tip">
+If you find the fire mechanics (like Molotov cocktails) too punishing, look for the 'Environmental Hazard Tweak' mod on Nexus. It reduces the panic duration and fire spread speed, giving your squad a better chance to survive ambushes.
+</Callout>
+
+| Variable | Base Value (1.03) | Modded Suggestion |
+| :--- | :--- | :--- |
+| **Max Carry Weight** | Strength-based | +25% Base Buffer |
+| **Reload AP** | 4-6 Points | 2-4 Points |
+| **Health Regen** | Shelter Only | Slow Field Recovery |
+| **Loot Quality** | Randomized | Scaled to Level |
+
+</Section>
+
+<Section icon={Map} title="Modding Factions and World Progression">
+
+The world of Urban Strife is populated by diverse groups, from the military remnants in the Old Port to the drug-dealing bikers in Little Italy. Modding faction relations can drastically change your campaign's trajectory. Instead of a linear progression, community-made mods can unlock the entire map early, allowing you to test your skills against high-level "Nells" and bad guys from the start.
+
+**Key Faction Modding Opportunities:**
+- **Joe Hicks & The Shine Runners**: Modify their hostility threshold or trade prices.
+- **The Shelter**: Speed up the construction of the Radio Station or the Minefield.
+- **Zombie Hordes**: Increase the frequency and size of horde attacks for a true survival challenge.
+
+<Callout type="info" title="Quest Customization">
+Some Nexus mods allow you to skip the tedious "locate parts" phase of the Radio Station quest, which is ideal for players on their second or third playthrough who want to focus purely on tactical combat.
+</Callout>
+
+| Location | Faction | Modding Potential |
+| :--- | :--- | :--- |
+| **Little Italy** | Joe's Shine Runners | Trade inventory, Biker stats |
+| **Old Port** | Military/Quarantine | Rare weapon drops, AI behavior |
+| **Adams Villa** | Mayor's Group | Reward scaling, Quest triggers |
+| **Shelter** | Player Militia | Build times, Resource costs |
+
+</Section>
+
+<Section icon={Shield} title="Stability and Conflict Management">
+
+Running multiple mods in Urban Strife requires a careful approach to file management. Because most mods modify the same core tables (like `GlobalSettings.uasset`), conflicts are inevitable. If two mods attempt to change the same weapon's damage, the one loaded last in the `~mods` folder (alphabetically) will usually take precedence.
+
+**Best Practices for a Stable Game:**
+1. **Load Order**: Rename your favorite mods with a prefix like `z_` to ensure they load last and override others.
+2. **One at a Time**: Install mods one by one and test the game after each installation to identify which one causes issues.
+3. **Check the Logs**: If the game crashes, check the `UrbanStrife/Saved/Logs` folder for clues on which asset failed to load.
+
+<Callout type="warning" title="Save File Integrity">
+Mods that alter the inventory structure or add new item IDs are high-risk. If you uninstall such a mod, your save file may become corrupted if your characters are currently holding modded items.
+</Callout>
+
+| Issue | Potential Cause | Solution |
+| :--- | :--- | :--- |
+| **Infinite Loading** | Conflict in map scripts | Remove recent map mods |
+| **Invisible Items** | Missing texture assets | Reinstall the mod base files |
+| **Crash on Combat** | AP or AI logic error | Check UE4SS script console |
+
+</Section>
+
+<Section icon={Trophy} title="2026 Modding Checklist & Goals">
+
+To get the most out of your modded Urban Strife experience, follow this checklist to ensure you have all the essential enhancements covered.
+
+<Checklist
+  id="modding-checklist"
+  title="Essential Modding Milestones:"
+  items={[
+    "Install the UE4SS Scripting Framework",
+    "Apply a UI scaling mod for 4K resolutions",
+    "Deploy a 'Realistic Carry Weight' patch",
+    "Enable the 'Enhanced AI' combat overhaul",
+    "Backup your 2026 campaign save files"
+  ]}
+/>
+
+<Callout type="tip" title="Final Recommendation">
+Don't overlook the 'Prepper Radio' mods. They add custom music and voice lines to the shelter's radio station, making the base-building segments feel much more immersive as you wait for the zombie horde to return.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Do Nexus mods work with the Urban Strife Early Access builds?",
+    answer: "While some might, it is highly recommended to use mods specifically updated for the 2026 version 1.03 release to avoid game-breaking bugs."
+  },
+  {
+    question: "How do I uninstall a mod from Urban Strife?",
+    answer: "Simply navigate to the Paks/~mods folder and delete the specific .pak file associated with the mod."
+  },
+  {
+    question: "Can I use Nexus mods in multiplayer or co-op?",
+    answer: "Urban Strife is primarily a single-player experience. If using mods in any shared capacity, all players must have identical mod lists and load orders."
+  },
+  {
+    question: "Will installing mods disable Steam Achievements?",
+    answer: "Generally, no. Most Unreal Engine 4 mods do not interfere with the achievement tracking system in Urban Strife."
+  }
+]} />
+
+</Section>

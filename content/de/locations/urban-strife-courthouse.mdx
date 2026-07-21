@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, MessageSquare, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urban Strife Gerichtsgebäude: Schritt-für-Schritt-Säuberungs- & Quest-Guide",
+  description: "Meistern Sie die Gerichtsgebäude-Mission in Urban Strife im Jahr 2026. Erfahren Sie, wie man verschlossene Türen aufbricht, Zombie-Spawner eliminiert und die Questreihe von Richterin Jenny Saint abschließt.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Urban+Strife+Courthouse+Guide",
+  date: "2026-07-21",
+  author: "urban strife Wiki Team",
+  keywords: "Urban Strife, Gerichtsgebäude, Guide, Jenny Saint, Zombie Spawner, Türen aufbrechen"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Urban Strife Gerichtsgebäude**: Ein riskanter Ort mit Fraktionskonflikten und dichten Ansammlungen von Untoten.
+- **Türmechanik**: Verwenden Sie **stumpfe Waffen** (Brecheisen/Hämmer), um verbarrikadierte Türen aufzubrechen; scharfe Klingen werden scheitern.
+- **Stealth-Priorität**: Nutzen Sie schallgedämpfte Waffen und Nahkampf-Kills, um die Herde auszudünnen, bevor Sie die Spawner angreifen.
+- **Fraktionswahl**: Die Entscheidung für Richterin Jenny Saint gegenüber dem Kult beeinflusst die Belohnungen im späten Spiel und den Verlauf der Geschichte erheblich.
+- **Wichtige Ausrüstung**: Tragen Sie Molotowcocktails für Spawner und mindestens eine stumpfe Waffe für die Interaktion mit der Umgebung bei sich.
+</Callout>
+
+<Section icon={Map} title="Überblick über das Urban Strife Gerichtsgebäude">
+
+Das **Gerichtsgebäude von Urban Strife** dient als kritischer Wendepunkt in der Überlebenskampagne von 2026. Ursprünglich ein Zentrum des Rechts, wurde es während des ersten Ausbruchs in ein provisorisches Krankenhaus umgewandelt. Dieser Übergang erklärt die Fülle an medizinischen Vorräten im Inneren, ist aber auch der Grund für die hohe Konzentration an "Herder"-Zombies und Spawnern. Spieler, die hier ankommen, sehen sich einem Dreiparteienkonflikt gegenüber, an dem das Sheriff-Büro, der Kult der Zombie-Anbeter und die lokale Autorität unter der Leitung von Richterin Jenny Saint beteiligt sind.
+
+**Video-Highlights:**
+- **Stealth-Taktiken**: Demonstration, wie man Benny für lautlose Nahkampf-Takedowns einsetzt.
+- **Umweltinteraktion**: Identifizierung, welche Türen stumpfe Gewalt anstelle von Schlossknacken erfordern.
+- **Spawner-Management**: Einsatz von Feuer, um Zombie-Verstärkungen dauerhaft zu stoppen.
+- **Fraktionsinteraktion**: Ein Blick auf den ersten Dialog mit dem Anführer der Kultisten.
+
+<YouTubeEmbed videoId="NuygBnhw0l0" title="Säuberung des Gerichtsgebäudes in Urban Strife" />
+
+<Callout type="tip" title="Strategischer Einstieg">
+Bevor Sie die Haupthalle betreten, überprüfen Sie den Sicherheitskäfig in der Nähe des Eingangs. Er enthält oft Basis-Munition und dient als sicherer Rückzugspunkt, falls eine Raumsäuberung schiefgeht.
+</Callout>
+
+| Bereich | Hauptmerkmale | Loot-Priorität |
+| :--- | :--- | :--- |
+| **Sicherheitskäfig** | Erster Einstiegspunkt, vergittert | Basis-Munition, Nahkampfwaffen |
+| **Haupthausflur** | Hohe Sichtbarkeit, Patrouillenzone | Durchsuchbare Container |
+| **Gefängniszellen** | Enge Korridore, hohes Risiko | Versteckte Vorräte, Handwerksteile |
+| **Gerichtssaal** | Großer offener Raum, Deckung vorhanden | Lore-Dokumente, kleinerer Loot |
+| **Das Badezimmer** | Verbarrikadiert, enthält Überlebende | Quest-Gegenstände, Medizinkits |
+
+</Section>
+
+<Section icon={Swords} title="Taktische Säuberung: Kampf und Stealth">
+
+Der Erfolg im **Gerichtsgebäude von Urban Strife** erfordert einen hybriden Ansatz. Während das Spiel einen lauten, aggressiven Spielstil zulässt, macht die Dichte der Untoten in den Gefängnis- und Krankenhausflügeln Stealth zur überlegenen Wahl für die erste Hälfte der Mission.
+
+<CardGrid cols={3}>
+  <Card title="Der Stealth-Anführer">
+    - Nutzen Sie **Benny** oder einen Charakter mit hoher Geschicklichkeit.
+    - Rüstet Messer oder schallgedämpfte Armbrüste aus.
+    - Bleiben Sie geduckt, um die Entdeckungsreichweite zu minimieren.
+  </Card>
+  <Card title="Der Spawner-Spezialist">
+    - Rüstet **Billy Bo** mit Molotowcocktails aus.
+    - Konzentrieren Sie sich darauf, Nester sofort nach der Entdeckung zu verbrennen.
+    - Nutzen Sie Feuer, um Engpässe zu schaffen.
+  </Card>
+  <Card title="Die schwere Unterstützung">
+    - Halten Sie **Lucy** oder **Kaye** mit FMJ-Munition als Backup bereit.
+    - Greifen Sie nur ein, wenn Stealth unterbrochen wird.
+    - Priorisieren Sie "Herder"-Varianten.
+  </Card>
+</CardGrid>
+
+Beim Säubern der hinteren Räume werden Sie auf Zombie-Spawner stoßen. Dies sind organische Massen, die periodisch neue Feinde in die Kampfzone ausspucken. Wenn Sie diese nicht mit Feuer oder hohem Explosivschaden zerstören, kann die Begegnung zu einem unendlichen Ressourcenfresser werden.
+
+<Callout type="warning" title="Entdeckungswarnung">
+Wenn ein Zombie-"Herder" Sie entdeckt, hat er eine größere Wahrnehmungsreichweite als Standard-Walker. Er kann das gesamte Stockwerk alarmieren und einen Stealth-Lauf in eine hektische Schießerei verwandeln.
+</Callout>
+
+| Gegnertyp | Verhalten | Bester Konter |
+| :--- | :--- | :--- |
+| **Schlurfer** | Langsam, vorhersehbar | Nahkampf/Messer zum Kopf |
+| **Herder** | Hohe Aufmerksamkeit, alarmiert andere | Schallgedämpfter Fernkampf |
+| **Spawner** | Erzeugt neue Zombies | Molotow/Brandwaffen |
+| **Kultist** | Bewaffnet mit Nahkampf/Armbrüsten | Taktische Deckung und Flankieren |
+
+</Section>
+
+<Section icon={Target} title="Die Mechanik verschlossener Türen: Einbrechen">
+
+Ein häufiger Punkt der Frustration im **Gerichtsgebäude von Urban Strife** ist die verbarrikadierte Badezimmertür. Viele Spieler versuchen, Dietriche oder scharfe Nahkampfwaffen (wie Mähmesser oder Küchenmesser) zu verwenden, nur um festzustellen, dass die Tür "unverwundbar" ist. Dies ist ein spezifischer mechanischer Check, der von den Entwicklern implementiert wurde.
+
+<Steps>
+  <Step num="1" title="Ziel identifizieren">
+    Lokalisieren Sie die verbarrikadierte Tür, hinter der Stimmen zu hören sind. Diese befindet sich normalerweise im zentralen Krankenhausflügel.
+  </Step>
+  <Step num="2" title="Eine stumpfe Waffe ausrüsten">
+    Wechseln Sie zu einem **Brecheisen**, **Hammer** oder sogar einer **Gartenschere**, die im stumpfen Modus verwendet wird. Scharfe Klingen besitzen nicht den "S" (Spezial-Nahkampf) Einschlag, der für Holz- und Metallbarrikaden erforderlich ist.
+  </Step>
+  <Step num="3" title="Kampfmodus betreten">
+    Wenn sich der Cursor nicht automatisch ändert, rufen Sie manuell den Kampfmodus auf. Wählen Sie den "S"-Angriffsmodus auf Ihrem Waffen-Tablet.
+  </Step>
+  <Step num="4" title="Die Barrikade einschlagen">
+    Verwenden Sie Aktionspunkte, um gegen die Tür zu schlagen. Je nach Stärke des Charakters und Haltbarkeit der Waffe kann dies mehrere Runden dauern.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Entwickler-Einblick">
+Im Build von 2026 können stumpfe Waffen auch verwendet werden, um Autofenster für Geschicklichkeits-EP und Loot einzuschlagen, obwohl die Türen des Gerichtsgebäudes der primäre Anwendungsfall für diese Mechanik bleiben.
+</Callout>
+
+</Section>
+
+<Section icon={MessageSquare} title="Questreihe: Richterin Jenny Saint und der Kult">
+
+Der erzählerische Kern des **Gerichtsgebäudes von Urban Strife** dreht sich um Richterin Jenny Saint. Sie präsentiert sich als die Stimme der Ordnung, doch Hinweise in der Lore deuten auf eine dunklere Vergangenheit hin. Nachdem Sie die Untoten beseitigt haben, wird Ihnen eine Audienz bei ihr gewährt, vorausgesetzt, Sie haben das Gerichtsgebäude nicht bereits durch das Angreifen der Wachen feindselig gestimmt.
+
+**Wichtige Quest-Zweige:**
+- **Der humanitäre Pfad**: Versuch, zwischen dem Kult und der Richterin zu vermitteln. Dies ist schwierig und erfordert hohe Charisma-/Dialog-Werte.
+- **Der Seitenwechsel**: Vollständige Unterstützung der Richterin. Dies beinhaltet die Eliminierung des Kults der Zombie-Anbeter und die Wiederbeschaffung der Urkunden des Saint-Anwesens.
+- **Der Wahrheitssucher**: Finden der "Top Secret"-Forschungsberichte, die die Richterin in das Massaker an den ursprünglichen Krankenhauspatienten verwickeln.
+
+<Checklist
+  id="courthouse-objectives"
+  title="Checkliste zum Abschluss des Gerichtsgebäudes:"
+  items={[
+    "Eliminieren Sie alle Untoten im Krankenhausflügel",
+    "Zerstören Sie die zwei primären Zombie-Spawner",
+    "Retten Sie die eingeschlossenen Überlebenden im Badezimmer",
+    "Finden Sie die Urkunden des Saint-Anwesens im Tresor des Büros",
+    "Konfrontieren Sie Richterin Jenny Saint oder helfen Sie ihr"
+  ]}
+/>
+
+<Callout type="info" title="Versteckter Hinweis">
+Es gibt einen "Verschlossenen Hinweis", der den betrunkenen Wächter und Krankenschwester Tina betrifft. Die Richterin mit Beweisen für das Versagen des Krankenhauses zu konfrontieren (zu finden in den Top-Secret-Dokumenten), schaltet einzigartige Dialogoptionen frei, kann die Fraktion jedoch feindselig machen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Händler und Ressourcenmanagement">
+
+Sobald das **Gerichtsgebäude von Urban Strife** stabilisiert ist (oder wenn Sie neutral mit der Richterin stehen), erhalten Sie Zugang zu mehreren hochrangigen Händlern. Dies ist einer der besten Orte im frühen bis mittleren Spiel für medizinische Vorräte und Rüstungs-Upgrades.
+
+| Händler | Ort | Spezialität |
+| :--- | :--- | :--- |
+| **Krankenschwester Tina** | Krankenhausflügel | Medkits, Antibiotika, Kleber |
+| **Beamter Duly** | Zweiter Stock | Splitterschutzwesten, FMJ-Munition, Bolzen |
+| **Lenny** | Der Pub (Keller) | Alkohol, Moral-Gegenstände |
+| **John Adams** | In der Nähe des Pubs | Quest-NPC (Kaylees Vater) |
+
+**Inventar-Optimierung:**
+Das Gerichtsgebäude ist reich an Beute, was oft zu Überladung führt. Nutzen Sie die Strategie der "Loot-Verteilung":
+- **Schwere Gegenstände**: Geben Sie diese Rangtang oder Billy Bo.
+- **Handwerkszutaten**: Konsolidieren Sie diese bei Kaye.
+- **Medizinische Vorräte**: Behalten Sie diese bei Lucy für den sofortigen Einsatz im Feld.
+
+<Callout type="warning" title="Baumaterialien">
+Beachten Sie, dass die Gerichtsgebäude-Fraktion selten Baumaterialien (Recycelte Waren) verkauft. Für diese müssen Sie mit der Militär-Fraktion handeln oder den Supermarkt plündern.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fazit und FAQ">
+
+Die Säuberung des **Gerichtsgebäudes von Urban Strife** ist mehr als nur eine Kampfbegegnung; es ist ein Test Ihres Verständnisses der Umweltmechaniken des Spiels. Egal, ob Sie sich entscheiden, das starre Gesetz von Richterin Saint oder das verzweifelte Überleben des Kults zu unterstützen, die hier gefundenen Ressourcen – insbesondere die Rüstungen und medizinischen Vorräte – werden Ihren Trupp durch die nächsten Kapitel der Kampagne von 2026 tragen.
+
+<FAQ items={[
+  {
+    question: "Warum kann ich die Badezimmertür des Gerichtsgebäudes nicht aufbrechen?",
+    answer: "Sie müssen eine stumpfe Waffe wie ein Brecheisen oder einen Hammer verwenden. Scharfe Waffen wie Messer oder Mähmesser funktionieren nicht. Stellen Sie sicher, dass Sie sich im Kampfmodus befinden und den Spezial-Nahkampfangriff (S) verwenden."
+  },
+  {
+    question: "Wo befindet sich die Urkunde des Saint-Anwesens?",
+    answer: "Die Urkunde befindet sich in einem Tresor in den Privatgemächern der Richterin oder im angrenzenden Büro. Möglicherweise müssen Sie das Ziel 'Untote eliminieren' abschließen, bevor der Raum zugänglich wird."
+  },
+  {
+    question: "Ist es in Urban Strife besser, sich auf die Seite der Richterin oder des Kults zu schlagen?",
+    answer: "Sich auf die Seite der Richterin zu schlagen, bietet besseren Zugang zu militärischer Ausrüstung und Rüstung. Die Unterstützung des Kults bietet mehr moralbasierte Belohnungen und einen 'guten' Gesinnungspfad, ist jedoch taktisch schwieriger."
+  },
+  {
+    question: "Wie stoppe ich das Spawnen von Zombies im Gerichtsgebäude?",
+    answer: "Sie müssen die organischen Spawner (Fleischhaufen) finden und sie mit Feuer zerstören. Molotowcocktails sind die effizienteste Methode dafür."
+  }
+]} />
+
+</Section>
